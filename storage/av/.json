@@ -1,0 +1,29 @@
+{
+	"spec": 0,
+	"id": "",
+	"columns": [
+		{
+			"id": "20230620185712-cf61nei",
+			"name": "Block",
+			"type": "block",
+			"attributeViewId": "",
+			"relationColumnId": "",
+			"options": null
+		}
+	],
+	"rows": [
+		{
+			"id": "20230620185712-xxx7zr6",
+			"cells": [
+				{
+					"id": "20230620185712-rmcsdg1",
+					"value": "20230620185614-xz7oncr"
+				}
+			]
+		}
+	],
+	"type": "table",
+	"projections": [],
+	"filters": [],
+	"sorts": []
+}

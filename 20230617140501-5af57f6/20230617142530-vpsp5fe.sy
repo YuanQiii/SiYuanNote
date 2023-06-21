@@ -6,7 +6,7 @@
 		"id": "20230617142530-vpsp5fe",
 		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230617142530-vpsp5fe\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230617142530-4tgb72s\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230618225541-8q8qyri\u0026quot;,\u0026quot;scrollTop\u0026quot;:1758,\u0026quot;focusId\u0026quot;:\u0026quot;20230617142530-4tgb72s\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "跨端注意",
-		"updated": "20230619112638"
+		"updated": "20230620201729"
 	},
 	"Children": [
 		{
@@ -2540,7 +2540,7 @@
 			},
 			"Properties": {
 				"id": "20230618225604-n54itfh",
-				"updated": "20230619112638"
+				"updated": "20230620184229"
 			},
 			"Children": [
 				{
@@ -2570,54 +2570,54 @@
 									"Data": "各家小程序实现机制不同，可能存在的平台兼容问题"
 								}
 							]
-						}
-					]
-				},
-				{
-					"ID": "20230619112643-987oq2u",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "Mi4=",
-						"Num": 2
-					},
-					"Properties": {
-						"id": "20230619112643-987oq2u"
-					},
-					"Children": [
-						{
-							"ID": "20230619112647-94wo1eo",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20230619112647-94wo1eo",
-								"updated": "20230619112647"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "浏览器内核差异"
-								}
-							]
 						},
 						{
-							"ID": "20230619112650-xv18vhg",
+							"ID": "20230620114937-pn9faev",
 							"Type": "NodeList",
 							"ListData": {
 								"Typ": 1
 							},
 							"Properties": {
-								"id": "20230619112650-xv18vhg"
+								"id": "20230620114937-pn9faev"
 							},
 							"Children": [
 								{
-									"ID": "20230619112650-b7k0c57",
+									"ID": "20230619112643-987oq2u",
 									"Type": "NodeListItem",
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
 										"Marker": "MS4=",
 										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619112643-987oq2u"
+									},
+									"Children": [
+										{
+											"ID": "20230619112647-94wo1eo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619112647-94wo1eo",
+												"updated": "20230620114932"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "各家小程序的浏览器内核不同，可能会造成css兼容性问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619112650-b7k0c57",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
 									},
 									"Properties": {
 										"id": "20230619112650-b7k0c57"
@@ -2627,8 +2627,328 @@
 											"ID": "20230619112650-d9jk596",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20230619112650-d9jk596"
-											}
+												"id": "20230619112650-d9jk596",
+												"updated": "20230620115002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "微信（可以使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://uniapp.dcloud.net.cn/tutorial/vue-api.html#%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE",
+													"TextMarkTextContent": "virtualHost"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "配置）/QQ/百度/抖音这四家小程序，自定义组件在渲染时会比App/H5端多一级节点，在写样式时需要注意"
+												}
+											]
+										},
+										{
+											"ID": "20230620115003-6htqmr7",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620115003-6htqmr7"
+											},
+											"Children": [
+												{
+													"ID": "20230620115003-udkbtz2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230620115003-udkbtz2"
+													},
+													"Children": [
+														{
+															"ID": "20230620115003-osjufg9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620115003-osjufg9",
+																"updated": "20230620141407"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "flex"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​布局时，直接给自定义组件的父元素设置为"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "display:flex"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​不能影响到自定义组件内部的根节点，需要设置当前自定义组件为"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "display:flex"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​才可以"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620141408-u5gbcum",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230620141408-u5gbcum"
+													},
+													"Children": [
+														{
+															"ID": "20230620141408-43ipvyg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620141408-43ipvyg",
+																"updated": "20230620141414"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在自定义组件内部设置根元素高度为100%，不能撑满自定义组件父元素。需要同时设置当前自定义组件高度为100%才可以"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620141431-ds6tekf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230620141431-ds6tekf"
+													},
+													"Children": [
+														{
+															"ID": "20230620141431-fm94y3k",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620141431-fm94y3k",
+																"updated": "20230620141432"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "支付宝小程序默认启用了"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://uniapp.dcloud.net.cn/tutorial/vue-api.html#%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE",
+																	"TextMarkTextContent": "virtualHost"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "配置不会插入节点，一般不存在如上问题"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620141452-uv09ftc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230620141452-uv09ftc",
+						"updated": "20230620184229"
+					},
+					"Children": [
+						{
+							"ID": "20230620141453-tsd4p6p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620141453-tsd4p6p",
+								"updated": "20230620141459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vendor.js 过大的处理方式"
+								}
+							]
+						},
+						{
+							"ID": "20230620141504-rhim2bk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620141504-rhim2bk",
+								"updated": "20230620184229"
+							},
+							"Children": [
+								{
+									"ID": "20230620141454-tfbv2au",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620141454-tfbv2au"
+									},
+									"Children": [
+										{
+											"ID": "20230620141454-rtnb4no",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620141454-rtnb4no",
+												"updated": "20230620141537"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "小程序工具提示"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "vendor.js"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​过大，已经跳过es6向es5转换。这个转换问题本身不用理会，因为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "vendor.js"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​已经是es5的了"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620184216-mshq6gj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230620184216-mshq6gj"
+									},
+									"Children": [
+										{
+											"ID": "20230620184216-gins9wx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620184216-gins9wx",
+												"updated": "20230620184222"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用运行时代码压缩：​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "HBuilderX"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​创建的项目勾选"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "运行--\u0026gt;运行到小程序模拟器--\u0026gt;运行时是否压缩代码"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620141539-xk4qvws",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230620141539-xk4qvws",
+										"updated": "20230620184229"
+									},
+									"Children": [
+										{
+											"ID": "20230620141539-gbbxvlv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620141539-gbbxvlv",
+												"updated": "20230620184229"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​使用分包优化\n"
+												}
+											]
 										}
 									]
 								}
@@ -2639,11 +2959,1029 @@
 			]
 		},
 		{
-			"ID": "20230618225541-8q8qyri",
-			"Type": "NodeParagraph",
+			"ID": "20230620200917-tq95fus",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20230618225541-8q8qyri"
-			}
+				"id": "20230620200917-tq95fus",
+				"updated": "20230620200917"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "nvue 开发与 vue 开发的常见区别"
+				}
+			]
+		},
+		{
+			"ID": "20230620201729-i4qs4k6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230620201729-i4qs4k6",
+				"updated": "20230620201729"
+			},
+			"Children": [
+				{
+					"ID": "20230620201729-tszmuvp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230620201729-tszmuvp",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-etoh979",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-etoh979",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 页面控制显隐只可以使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "v-if"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​不可以使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "v-show"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-k9aa1kt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230620201729-k9aa1kt",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-2qo4z21",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-2qo4z21",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 页面只能使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "flex"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​布局，不支持其他布局方式。页面开发前，首先想清楚这个页面的纵向内容有什么，哪些是要滚动的，然后每个纵向内容的横轴排布有什么，按 flex 布局设计好界面。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-uwh67bj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230620201729-uwh67bj",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-pao7nhp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-pao7nhp",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 页面的布局排列方向默认为竖排（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "column"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​），如需改变布局方向，可以在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "manifest.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ -\u003e "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app-plus"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ -\u003e "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "nvue"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ -\u003e "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "flex-direction"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 节点下修改，仅在 uni-app 模式下生效。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.io/collocation/manifest?id=nvue",
+									"TextMarkTextContent": "详情"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-d0953ll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230620201729-d0953ll",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-rm2mwpz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-rm2mwpz",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 页面编译为 H5、小程序时，会做一件 css 默认值对齐的工作。因为 weex 渲染引擎只支持 flex，并且默认 flex 方向是垂直。而 H5 和小程序端，使用 web 渲染，默认不是 flex，并且设置"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "display:flex"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​后，它的 flex 方向默认是水平而不是垂直的。所以 nvue 编译为 H5、小程序时，会自动把页面默认布局设为 flex、方向为垂直。当然开发者手动设置后会覆盖默认设置。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-5rxukpr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230620201729-5rxukpr",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-w9bsaws",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-w9bsaws",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文字内容，必须、只能在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;text\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​组件下。不能在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;div\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;view\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "text"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​区域里直接写文字。否则即使渲染了，也无法绑定 js 里的变量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-8dk07v1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230620201729-8dk07v1",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-nnei4en",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-nnei4en",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只有"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "text"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​标签可以设置字体大小，字体颜色。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-9rdi0rp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230620201729-9rdi0rp",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-ih1ofxm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-ih1ofxm",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "布局不能使用百分比、没有媒体查询。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-0ir5aps",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230620201729-0ir5aps",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-zb96cjz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-zb96cjz",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 切换横竖屏时可能导致样式出现问题，建议有 nvue 的页面锁定手机方向。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-wrkuwaf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230620201729-wrkuwaf",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-w5u5tfi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-w5u5tfi",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持的 css 有限，不过并不影响布局出你需要的界面，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "flex"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​还是非常强大的。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/tutorial/nvue-css#flexbox",
+									"TextMarkTextContent": "详见"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-7xtlhya",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230620201729-7xtlhya",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-7gn3qqa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-7gn3qqa",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不支持背景图。但可以使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "image"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​组件和层级来实现类似 web 中的背景效果。因为原生开发本身也没有 web 这种背景图概念"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-luokchr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230620201729-luokchr",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-pqb9f9i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-pqb9f9i",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "css 选择器支持的比较少，只能使用 class 选择器。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/tutorial/nvue-css",
+									"TextMarkTextContent": "详见"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-m8g0rqa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230620201729-m8g0rqa",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-p6udwpd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-p6udwpd",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 的各组件在安卓端默认是透明的，如果不设置"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "background-color"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，可能会导致出现重影的问题。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-8dze9ga",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230620201729-8dze9ga",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-8bj7jrs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-8bj7jrs",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "class"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 进行绑定时只支持数组语法。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-vbszjsv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20230620201729-vbszjsv",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-jcbdk4n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-jcbdk4n",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Android 端在一个页面内使用大量圆角边框会造成性能问题，尤其是多个角的样式还不一样的话更耗费性能。应避免这类使用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-jy2uktv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20230620201729-jy2uktv",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-vmiypbv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-vmiypbv",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 页面没有"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "bounce"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​回弹效果，只有几个列表组件有"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "bounce"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​效果，包括 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "list"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "recycle-list"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "waterfall"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-5hsqtx5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20230620201729-5hsqtx5",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-22uvnxk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-22uvnxk",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原生开发没有页面滚动的概念，页面内容高过屏幕高度并不会自动滚动，只有部分组件可滚动（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "list"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "waterfall"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "scroll-view/scroller"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​），要滚得内容需要套在可滚动组件下。这不符合前端开发的习惯，所以在 nvue 编译为 uni-app 模式时，给页面外层自动套了一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "scroller"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，页面内容过高会自动滚动。（组件不会套，页面有"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "recycle-list"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​时也不会套）。后续会提供配置，可以设置不自动套。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-99393hd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTcu",
+						"Num": 17
+					},
+					"Properties": {
+						"id": "20230620201729-99393hd",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-hbenhdh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-hbenhdh",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 App.vue 中定义的全局 js 变量不会在 nvue 页面生效。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "globalData"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​和"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vuex"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​是生效的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-quds9we",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTgu",
+						"Num": 18
+					},
+					"Properties": {
+						"id": "20230620201729-quds9we",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-mcknof3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-mcknof3",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "App.vue 中定义的全局 css，对 nvue 和 vue 页面同时生效。如果全局 css 中有些 css 在 nvue 下不支持，编译时控制台会报警，建议把这些不支持的 css 包裹在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.io/tutorial/platform",
+									"TextMarkTextContent": "条件编译"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "里，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "APP-PLUS-NVUE"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-melaux1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTku",
+						"Num": 19
+					},
+					"Properties": {
+						"id": "20230620201729-melaux1",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-32ll6oe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-32ll6oe",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "style"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中引入字体文件，nvue 中字体图标的使用参考："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/tutorial/nvue-api#addrule",
+									"TextMarkTextContent": "加载自定义字体"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。如果是本地字体，可以用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "plus.io"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的 API 转换路径。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-frnae3o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjAu",
+						"Num": 20
+					},
+					"Properties": {
+						"id": "20230620201729-frnae3o",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-q81byq6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-q81byq6",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目前不支持在 nvue 页面使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "typescript/ts"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620201729-jgkqvka",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjEu",
+						"Num": 21
+					},
+					"Properties": {
+						"id": "20230620201729-jgkqvka",
+						"updated": "20230620201729"
+					},
+					"Children": [
+						{
+							"ID": "20230620201729-8iqvwmk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620201729-8iqvwmk",
+								"updated": "20230620201729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue 页面关闭原生导航栏时，想要模拟状态栏，可以"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://ask.dcloud.net.cn/article/35111",
+									"TextMarkTextContent": "参考文章"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。但是，仍然强烈建议在 nvue 页面使用原生导航栏。nvue 的渲染速度再快，也没有原生导航栏快。原生排版引擎解析"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​绘制原生导航栏耗时很少，而解析 nvue 的 js 绘制整个页面的耗时要大的多，尤其在新页面进入动画期间，对于复杂页面，没有原生导航栏会在动画期间产生整个屏幕的白屏或闪屏"
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
