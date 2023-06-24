@@ -1,0 +1,1121 @@
+{
+	"ID": "20230624104358-pn8ynxn",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230624104358-pn8ynxn",
+		"title": "Sorting",
+		"updated": "20230624160148"
+	},
+	"Children": [
+		{
+			"ID": "20230624104627-pkuk1y1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230624104627-pkuk1y1",
+				"updated": "20230624104708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "冒泡排序"
+				}
+			]
+		},
+		{
+			"ID": "20230624104708-6v6xb7y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230624104708-6v6xb7y",
+				"updated": "20230624152050"
+			},
+			"Children": [
+				{
+					"ID": "20230624105410-4orgai1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230624105410-4orgai1"
+					},
+					"Children": [
+						{
+							"ID": "20230624105410-slr124f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624105410-slr124f",
+								"updated": "20230624110029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "步骤"
+								}
+							]
+						},
+						{
+							"ID": "20230624105414-nswsj1d",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624105414-nswsj1d"
+							},
+							"Children": [
+								{
+									"ID": "20230624105413-c12okqo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624105413-c12okqo"
+									},
+									"Children": [
+										{
+											"ID": "20230624105413-ugebqdt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624105413-ugebqdt",
+												"updated": "20230624105925"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "比较相邻的元素。如果第一个比第二个大，就交换他们两个"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624105420-k1a23jm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624105420-k1a23jm"
+									},
+									"Children": [
+										{
+											"ID": "20230624105420-w5wjfvd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624105420-w5wjfvd",
+												"updated": "20230624105935"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。这步做完后，最后的元素会是最大的数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624105937-1kc08sf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230624105937-1kc08sf"
+									},
+									"Children": [
+										{
+											"ID": "20230624105937-xc4n4o1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624105937-xc4n4o1",
+												"updated": "20230624105942"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "针对所有的元素重复以上的步骤，除了最后一个"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624105955-1b6ciz8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230624105955-1b6ciz8"
+									},
+									"Children": [
+										{
+											"ID": "20230624105955-833k1ho",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624105955-833k1ho",
+												"updated": "20230624105955"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230624145305-nzmbzn9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230624145305-nzmbzn9",
+						"updated": "20230624152050"
+					},
+					"Children": [
+						{
+							"ID": "20230624145305-r0dcuvl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624145305-r0dcuvl",
+								"updated": "20230624145316"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过程"
+								}
+							]
+						},
+						{
+							"ID": "20230624145316-f87vr6c",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624145316-f87vr6c",
+								"updated": "20230624152050"
+							},
+							"Children": [
+								{
+									"ID": "20230624145316-c5g935r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624145316-c5g935r"
+									},
+									"Children": [
+										{
+											"ID": "20230624145316-oci8ons",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624145316-oci8ons",
+												"updated": "20230624145358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一轮遍历将最大的数放在数组最后"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624145358-lkuquun",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624145358-lkuquun"
+									},
+									"Children": [
+										{
+											"ID": "20230624145358-1zdd8z6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624145358-1zdd8z6",
+												"updated": "20230624145442"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后新一轮的遍历排除最后一位数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624145443-ac9w5rt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230624145443-ac9w5rt",
+										"updated": "20230624152050"
+									},
+									"Children": [
+										{
+											"ID": "20230624145443-chxpyb6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624145443-chxpyb6",
+												"updated": "20230624152050"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以此类推"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230624145513-dghf1jx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230624145513-dghf1jx",
+				"updated": "20230624145528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择排序"
+				}
+			]
+		},
+		{
+			"ID": "20230624145528-xj4qm3y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230624145528-xj4qm3y",
+				"updated": "20230624152045"
+			},
+			"Children": [
+				{
+					"ID": "20230624145541-f6c3422",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230624145541-f6c3422",
+						"updated": "20230624145541"
+					},
+					"Children": [
+						{
+							"ID": "20230624145541-fnwmbzq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624145541-fnwmbzq",
+								"updated": "20230624145609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "步骤"
+								}
+							]
+						},
+						{
+							"ID": "20230624145646-iqg5nv5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624145646-iqg5nv5",
+								"updated": "20230624145646"
+							},
+							"Children": [
+								{
+									"ID": "20230624145646-czq360x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624145646-czq360x",
+										"updated": "20230624145646"
+									},
+									"Children": [
+										{
+											"ID": "20230624145646-tdlkihy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624145646-tdlkihy",
+												"updated": "20230624145646"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624145646-rshnav7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624145646-rshnav7",
+										"updated": "20230624145646"
+									},
+									"Children": [
+										{
+											"ID": "20230624145646-abmgrpu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624145646-abmgrpu",
+												"updated": "20230624145649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624145646-pwxtycm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230624145646-pwxtycm",
+										"updated": "20230624145646"
+									},
+									"Children": [
+										{
+											"ID": "20230624145646-1t9vsow",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624145646-1t9vsow",
+												"updated": "20230624145650"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重复第二步，直到所有元素均排序完毕"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230624151833-bs0u04i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230624151833-bs0u04i",
+						"updated": "20230624152045"
+					},
+					"Children": [
+						{
+							"ID": "20230624151833-13vfw53",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624151833-13vfw53",
+								"updated": "20230624151836"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过程·"
+								}
+							]
+						},
+						{
+							"ID": "20230624151836-r3vsvuc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624151836-r3vsvuc",
+								"updated": "20230624152045"
+							},
+							"Children": [
+								{
+									"ID": "20230624151836-bewpyga",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624151836-bewpyga"
+									},
+									"Children": [
+										{
+											"ID": "20230624151836-2mr4y1d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624151836-2mr4y1d",
+												"updated": "20230624151917"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一轮遍历将最小的数放到数组的第一位"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624151917-krb7vsj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624151917-krb7vsj"
+									},
+									"Children": [
+										{
+											"ID": "20230624151917-2qmgule",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624151917-2qmgule",
+												"updated": "20230624152040"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后遍历除了已排序的数字，选择最小的数放到已排序的数字后面"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624152042-c2wnduq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230624152042-c2wnduq",
+										"updated": "20230624152045"
+									},
+									"Children": [
+										{
+											"ID": "20230624152042-m37jodc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624152042-m37jodc",
+												"updated": "20230624152045"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以此类推"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230624152145-jn4qutz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230624152145-jn4qutz",
+				"updated": "20230624152145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "插入排序"
+				}
+			]
+		},
+		{
+			"ID": "20230624152152-s7x0wdb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230624152152-s7x0wdb",
+				"updated": "20230624152156"
+			},
+			"Children": [
+				{
+					"ID": "20230624152156-8eqxjh8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230624152156-8eqxjh8",
+						"updated": "20230624152156"
+					},
+					"Children": [
+						{
+							"ID": "20230624152156-e72xygb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624152156-e72xygb",
+								"updated": "20230624152252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "步骤"
+								}
+							]
+						},
+						{
+							"ID": "20230624152252-h2ne1dd",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624152252-h2ne1dd"
+							},
+							"Children": [
+								{
+									"ID": "20230624152252-ff8roli",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624152252-ff8roli"
+									},
+									"Children": [
+										{
+											"ID": "20230624152252-zaqn6em",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624152252-zaqn6em",
+												"updated": "20230624152258"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624152314-afyab4g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624152314-afyab4g"
+									},
+									"Children": [
+										{
+											"ID": "20230624152314-yva61i1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624152314-yva61i1",
+												"updated": "20230624152403"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230624153723-7fpbx67",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230624153723-7fpbx67"
+					},
+					"Children": [
+						{
+							"ID": "20230624153723-tt9fd4v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624153723-tt9fd4v",
+								"updated": "20230624153731"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过程"
+								}
+							]
+						},
+						{
+							"ID": "20230624153731-wd8uan5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624153731-wd8uan5"
+							},
+							"Children": [
+								{
+									"ID": "20230624153731-3z3iojk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624153731-3z3iojk"
+									},
+									"Children": [
+										{
+											"ID": "20230624153731-m1vqybw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624153731-m1vqybw",
+												"updated": "20230624153838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一轮遍历获取当前需要排序的数，对当前需要排序的数的前面的数进行比较"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624153839-64ub3gk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624153839-64ub3gk"
+									},
+									"Children": [
+										{
+											"ID": "20230624153839-a84a7ce",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624153839-a84a7ce",
+												"updated": "20230624154037"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果当前需要排序的数小，则减少比较数的索引，获取前一位数，继续进行比较"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624154043-xmmcun3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230624154043-xmmcun3"
+									},
+									"Children": [
+										{
+											"ID": "20230624154043-knz30ld",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624154043-knz30ld",
+												"updated": "20230624154047"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以此类推"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230624154137-byqfcb0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230624154137-byqfcb0",
+				"updated": "20230624154137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "希尔排序"
+				}
+			]
+		},
+		{
+			"ID": "20230624154144-d6s4g97",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230624154144-d6s4g97",
+				"updated": "20230624160148"
+			},
+			"Children": [
+				{
+					"ID": "20230624154145-texjdx2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230624154145-texjdx2",
+						"updated": "20230624160148"
+					},
+					"Children": [
+						{
+							"ID": "20230624154145-m5fin7k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624154145-m5fin7k",
+								"updated": "20230624154336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "步骤"
+								}
+							]
+						},
+						{
+							"ID": "20230624160148-lv31iyd",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230624160148-lv31iyd",
+								"updated": "20230624160148"
+							},
+							"Children": [
+								{
+									"ID": "20230624160148-la84oo5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230624160148-la84oo5",
+										"updated": "20230624160148"
+									},
+									"Children": [
+										{
+											"ID": "20230624160148-t99uy93",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624160148-t99uy93",
+												"updated": "20230624160148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "选择一个增量序列 t1，t2，……，tk，其中 ti \u003e tj, tk = 1；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624160148-a8bn4b4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230624160148-a8bn4b4",
+										"updated": "20230624160148"
+									},
+									"Children": [
+										{
+											"ID": "20230624160148-bl9cg70",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624160148-bl9cg70",
+												"updated": "20230624160148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "按增量序列个数 k，对序列进行 k 趟排序；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230624160148-ed0by1h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230624160148-ed0by1h",
+										"updated": "20230624160148"
+									},
+									"Children": [
+										{
+											"ID": "20230624160148-n6j3hl4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230624160148-n6j3hl4",
+												"updated": "20230624160148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每趟排序，根据对应的增量 ti，将待排序列分割成若干长度为 m 的子序列，分别对各子表进行直接插入排序。仅增量因子为 1 时，整个序列作为一个表来处理，表长度即为整个序列的长度"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230624154048-k9hswk9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230624154048-k9hswk9",
+				"updated": "20230624154050"
+			}
+		},
+		{
+			"ID": "20230624105352-iqr08kx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230624105352-iqr08kx",
+				"updated": "20230624105355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230624154248-vlfax29",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230624154248-vlfax29",
+				"updated": "20230624154311"
+			},
+			"Children": [
+				{
+					"ID": "20230624154249-vdu96dh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230624154249-vdu96dh",
+						"updated": "20230624154311"
+					},
+					"Children": [
+						{
+							"ID": "20230624154249-xqxxk65",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624154249-xqxxk65",
+								"updated": "20230624154311"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/hustcc/JS-Sorting-Algorithm",
+									"TextMarkTextContent": "hustcc/JS-Sorting-Algorithm: 一本关于排序算法的 GitBook 在线书籍 《十大经典排序算法》，多语言实现。 (github.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230624154250-sf7qzvy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230624154250-sf7qzvy"
+					},
+					"Children": [
+						{
+							"ID": "20230624154250-vxxiyz6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624154250-vxxiyz6"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -6,7 +6,7 @@
 		"id": "20230617141835-uqvfy1d",
 		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230617141835-uqvfy1d\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230617143236-nmuwrs3\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230617141835-0fw1jpo\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230617143236-nmuwrs3\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "概念",
-		"updated": "20230621154136"
+		"updated": "20230621144206"
 	},
 	"Children": [
 		{
@@ -1787,33 +1787,54 @@
 			"ID": "20230617154121-3u13kht",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1,
-				"Start": 1,
-				"Delimiter": 46,
-				"Padding": 3,
-				"Marker": "MQ==",
-				"Num": 1
+				"Typ": 1
 			},
 			"Properties": {
 				"id": "20230617154121-3u13kht",
-				"updated": "20230617164421"
+				"updated": "20230617154122"
 			},
 			"Children": [
 				{
-					"ID": "20230617154121-meagney",
+					"ID": "20230622230109-ha4oal6",
 					"Type": "NodeListItem",
-					"Data": "1",
 					"ListData": {
 						"Typ": 1,
-						"Start": 1,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "MQ==",
+						"Marker": "MS4=",
 						"Num": 1
 					},
 					"Properties": {
+						"id": "20230622230109-ha4oal6"
+					},
+					"Children": [
+						{
+							"ID": "20230622230109-qkzqsc0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230622230109-qkzqsc0",
+								"updated": "20230622230110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义基座是使用开发者申请的第三方SDK配置生成的基座应用，用于HBuilder/HBuilderX开发应用时实时在手机/模拟器上查看运行效果"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230617154121-meagney",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
 						"id": "20230617154121-meagney",
-						"updated": "20230617154121"
+						"updated": "20230617154122"
 					},
 					"Children": [
 						{
@@ -1826,10 +1847,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "为了解决 manifest 配置相关调试的便利性问题,里面使用的是自定义的 manifest 配置",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "为了解决 manifest 配置相关调试的便利性问题,里面使用的是自定义的 manifest 配置"
 								}
 							]
 						}
@@ -1838,15 +1856,11 @@
 				{
 					"ID": "20230617155632-h4zdama",
 					"Type": "NodeListItem",
-					"Data": "2",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 2,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Mg==",
-						"Num": 2
+						"Marker": "My4=",
+						"Num": 3
 					},
 					"Properties": {
 						"id": "20230617155632-h4zdama",
@@ -1863,10 +1877,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "调用原生插件必须使用自定义调试基座",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "调用原生插件必须使用自定义调试基座"
 								}
 							]
 						}
@@ -1875,15 +1886,11 @@
 				{
 					"ID": "20230617154122-1v5u2cy",
 					"Type": "NodeListItem",
-					"Data": "3",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 3,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Mw==",
-						"Num": 3
+						"Marker": "NC4=",
+						"Num": 4
 					},
 					"Properties": {
 						"id": "20230617154122-1v5u2cy",
@@ -1900,10 +1907,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "App 包名：Android 应用包名，推荐使用反向域名风格的字符串",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "App 包名：Android 应用包名，推荐使用反向域名风格的字符串"
 								}
 							]
 						}
@@ -1912,15 +1916,11 @@
 				{
 					"ID": "20230617154635-s1ibp02",
 					"Type": "NodeListItem",
-					"Data": "4",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 4,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "NA==",
-						"Num": 4
+						"Marker": "NS4=",
+						"Num": 5
 					},
 					"Properties": {
 						"id": "20230617154635-s1ibp02",
@@ -1937,10 +1937,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "证书别名：生成证书时使用-alias 参数设置的证书别名",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "证书别名：生成证书时使用-alias 参数设置的证书别名"
 								}
 							]
 						}
@@ -1949,15 +1946,11 @@
 				{
 					"ID": "20230617154730-stdgceu",
 					"Type": "NodeListItem",
-					"Data": "5",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 5,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "NQ==",
-						"Num": 5
+						"Marker": "Ni4=",
+						"Num": 6
 					},
 					"Properties": {
 						"id": "20230617154730-stdgceu",
@@ -1974,10 +1967,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "私钥密码：生成证书时使用的 keystore 密码；就是回车后输入的密钥库口令",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "私钥密码：生成证书时使用的 keystore 密码；就是回车后输入的密钥库口令"
 								}
 							]
 						}
@@ -1986,15 +1976,11 @@
 				{
 					"ID": "20230617154736-8pkgtre",
 					"Type": "NodeListItem",
-					"Data": "6",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 6,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Ng==",
-						"Num": 6
+						"Marker": "Ny4=",
+						"Num": 7
 					},
 					"Properties": {
 						"id": "20230617154736-8pkgtre",
@@ -2011,10 +1997,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "证书文件：生成证书时使用-keystore 参数设置的证书保存路径",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "证书文件：生成证书时使用-keystore 参数设置的证书保存路径"
 								}
 							]
 						}
@@ -2023,15 +2006,11 @@
 				{
 					"ID": "20230617154757-udip8ci",
 					"Type": "NodeListItem",
-					"Data": "7",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 7,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Nw==",
-						"Num": 7
+						"Marker": "OC4=",
+						"Num": 8
 					},
 					"Properties": {
 						"id": "20230617154757-udip8ci",
@@ -2048,10 +2027,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "问题",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "问题"
 								}
 							]
 						},
@@ -2059,12 +2035,7 @@
 							"ID": "20230617154759-33b0nos",
 							"Type": "NodeList",
 							"ListData": {
-								"Typ": 1,
-								"Start": 1,
-								"Delimiter": 46,
-								"Padding": 3,
-								"Marker": "MQ==",
-								"Num": 1
+								"Typ": 1
 							},
 							"Properties": {
 								"id": "20230617154759-33b0nos",
@@ -2074,13 +2045,10 @@
 								{
 									"ID": "20230617154759-brjfknm",
 									"Type": "NodeListItem",
-									"Data": "1",
 									"ListData": {
 										"Typ": 1,
-										"Start": 1,
 										"Delimiter": 46,
-										"Padding": 3,
-										"Marker": "MQ==",
+										"Marker": "MS4=",
 										"Num": 1
 									},
 									"Properties": {
@@ -2098,10 +2066,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "使用自定义基座打包后，使用微信登录可能会提示“微信签名失败”",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "使用自定义基座打包后，使用微信登录可能会提示“微信签名失败”"
 												}
 											]
 										},
@@ -2109,13 +2074,7 @@
 											"ID": "20230617154810-81s0ebu",
 											"Type": "NodeList",
 											"ListData": {
-												"Typ": 1,
-												"Tight": true,
-												"Start": 1,
-												"Delimiter": 46,
-												"Padding": 3,
-												"Marker": "MQ==",
-												"Num": 1
+												"Typ": 1
 											},
 											"Properties": {
 												"id": "20230617154810-81s0ebu",
@@ -2125,14 +2084,10 @@
 												{
 													"ID": "20230617154810-dpsdkiu",
 													"Type": "NodeListItem",
-													"Data": "1",
 													"ListData": {
 														"Typ": 1,
-														"Tight": true,
-														"Start": 1,
 														"Delimiter": 46,
-														"Padding": 3,
-														"Marker": "MQ==",
+														"Marker": "MS4=",
 														"Num": 1
 													},
 													"Properties": {
@@ -2150,10 +2105,7 @@
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "微信的客户端会存储你的 app 在微信开放平台上配置的包名跟应用签名，确认自己所有的配置和代码都没有问题的话可以删除手机上的微信",
-																	"Properties": {
-																		"id": ""
-																	}
+																	"Data": "微信的客户端会存储你的 app 在微信开放平台上配置的包名跟应用签名，确认自己所有的配置和代码都没有问题的话可以删除手机上的微信"
 																}
 															]
 														}
@@ -2162,14 +2114,10 @@
 												{
 													"ID": "20230617154819-t8x0e9j",
 													"Type": "NodeListItem",
-													"Data": "2",
 													"ListData": {
 														"Typ": 1,
-														"Tight": true,
-														"Start": 2,
 														"Delimiter": 46,
-														"Padding": 3,
-														"Marker": "Mg==",
+														"Marker": "Mi4=",
 														"Num": 2
 													},
 													"Properties": {
@@ -2187,10 +2135,7 @@
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "微信开放平台上对应的移动引用，在开发信息栏里，应用签名与包名不匹配，可根据包名重新生成应用签名",
-																	"Properties": {
-																		"id": ""
-																	}
+																	"Data": "微信开放平台上对应的移动引用，在开发信息栏里，应用签名与包名不匹配，可根据包名重新生成应用签名"
 																}
 															]
 														}
@@ -2207,15 +2152,11 @@
 				{
 					"ID": "20230617164419-j1d57ly",
 					"Type": "NodeListItem",
-					"Data": "8",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 8,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "OA==",
-						"Num": 8
+						"Marker": "OS4=",
+						"Num": 9
 					},
 					"Properties": {
 						"id": "20230617164419-j1d57ly",
@@ -2232,9 +2173,6 @@
 							"Children": [
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://www.jianshu.com/p/b4b970011188",
 									"TextMarkTextContent": "HBuilder 基座和自定义基座差别 - 简书 (jianshu.com)"
@@ -6747,7 +6685,7 @@
 			},
 			"Properties": {
 				"id": "20230621144004-9w4j7uc",
-				"updated": "20230621144005"
+				"updated": "20230621144206"
 			},
 			"Children": [
 				{
@@ -6761,7 +6699,7 @@
 					},
 					"Properties": {
 						"id": "20230621144005-iommdrc",
-						"updated": "20230621144005"
+						"updated": "20230621144206"
 					},
 					"Children": [
 						{
@@ -6783,7 +6721,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​项目中使用，uni-app的js运行在独立的jscore里，而不是webview里，它的原生扩展是基于开源项目"
+									"Data": "​​项目中使用，uni-app的js运行在独立的jscore里，而不是webview里，它的原生扩展是基于开源项目"
 								},
 								{
 									"Type": "NodeTextMark",
@@ -6798,28 +6736,6 @@
 							]
 						}
 					]
-				},
-				{
-					"ID": "20230621145054-hjptchx",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "Mi4=",
-						"Num": 2
-					},
-					"Properties": {
-						"id": "20230621145054-hjptchx"
-					},
-					"Children": [
-						{
-							"ID": "20230621145054-w30mp29",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20230621145054-w30mp29"
-							}
-						}
-					]
 				}
 			]
 		},
@@ -6828,6 +6744,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230620200256-nficp9f",
 				"updated": "20230620200258"
 			},
@@ -6835,6 +6752,71 @@
 				{
 					"Type": "NodeText",
 					"Data": "bindingx"
+				}
+			]
+		},
+		{
+			"ID": "20230624104015-43v40a6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230624104015-43v40a6",
+				"updated": "20230624104016"
+			},
+			"Children": [
+				{
+					"ID": "20230624104016-rcu6inc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230624104016-rcu6inc",
+						"updated": "20230624104016"
+					},
+					"Children": [
+						{
+							"ID": "20230624104016-con5rqv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624104016-con5rqv",
+								"updated": "20230624104016"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BindingX 是阿里巴巴开源的一套基于 weex / React Native 的富交互解决方案，它提供了一种称之为 表达式绑定(Expression Binding) 的机制可以在 weex 上让手势等复杂交互操作以60fps的帧率流畅执行，而不会导致卡顿，因而带来了更优秀的用户体验"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230624104018-1cq0e34",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230624104018-1cq0e34"
+					},
+					"Children": [
+						{
+							"ID": "20230624104018-uy1t0b6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230624104018-uy1t0b6"
+							}
+						}
+					]
 				}
 			]
 		},
@@ -7217,7 +7199,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​开头的方法都是属于HTML5+环境调用的方法"
+									"Data": "​​开头的方法都是属于HTML5+环境调用的方法"
 								}
 							]
 						}
@@ -7255,7 +7237,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​不能在浏览器环境下使用，它必须在手机APP上才能使用，因为它操控的是APP原生功能"
+									"Data": "​​不能在浏览器环境下使用，它必须在手机APP上才能使用，因为它操控的是APP原生功能"
 								}
 							]
 						}
@@ -7288,6 +7270,113 @@
 									"Data": "我们在使用HTML5+方法之前，必须监听HTML5+环境是否已经加载完毕，加载完成后，才可以使用HTML5+的方法"
 								}
 							]
+						}
+					]
+				},
+				{
+					"ID": "20230622170114-i0u6v2g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230622170114-i0u6v2g"
+					},
+					"Children": [
+						{
+							"ID": "20230622170114-t0of6r1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230622170114-t0of6r1",
+								"updated": "20230622170122"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在html中使用plus的api，需要等待plus ready。 而"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "uni-app"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​不需要等，可以直接使用。而且如果你调用plus ready，反而不会触发"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230622170205-pshr5zu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230622170205-pshr5zu"
+					},
+					"Children": [
+						{
+							"ID": "20230622170205-i6n6a6y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230622170205-i6n6a6y",
+								"updated": "20230622170222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "uni-app"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中，没有 document。可以使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "plus.globalEvent.addEventListener"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 来实现事件监听"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230622170230-006wg3l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230622170230-006wg3l"
+					},
+					"Children": [
+						{
+							"ID": "20230622170230-flnw9fe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230622170230-flnw9fe"
+							}
 						}
 					]
 				}
@@ -7497,6 +7586,28 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20230622172103-9hkkfb1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230622172103-9hkkfb1",
+				"updated": "20230622172117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "App模块配置"
+				}
+			]
+		},
+		{
+			"ID": "20230622172117-d17aiq7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230622172117-d17aiq7"
+			}
 		},
 		{
 			"ID": "20230620200046-u0cr8s9",
@@ -9093,6 +9204,1415 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20230623151804-vqnhffm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230623151804-vqnhffm",
+				"updated": "20230623153230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地图组件"
+				}
+			]
+		},
+		{
+			"ID": "20230623151816-1d8a6c5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230623151816-1d8a6c5",
+				"updated": "20230623161559"
+			},
+			"Children": [
+				{
+					"ID": "20230623152910-vilh1jk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230623152910-vilh1jk"
+					},
+					"Children": [
+						{
+							"ID": "20230623152911-3obymb5",
+							"Type": "NodeTable",
+							"TableAligns": [
+								2,
+								2,
+								2,
+								2
+							],
+							"Properties": {
+								"colgroup": "|||",
+								"id": "20230623152911-3obymb5",
+								"updated": "20230623152911"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellAlign": 2,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "地图服务商"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellAlign": 2,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "App"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellAlign": 2,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "H5"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellAlign": 2,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "微信小程序"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "高德"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "√"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "3.6.0+"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Goolge"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "3.4+ 仅nvue页面"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "3.2.10+"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "腾讯"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "√"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "√"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230623152804-3lj31du",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230623152804-3lj31du"
+					},
+					"Children": [
+						{
+							"ID": "20230623152804-urow59r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230623152804-urow59r",
+								"updated": "20230623152806"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "App"
+								}
+							]
+						},
+						{
+							"ID": "20230623152809-h4ws6v3",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230623152809-h4ws6v3"
+							},
+							"Children": [
+								{
+									"ID": "20230623151818-orgeuu3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230623151818-orgeuu3",
+										"updated": "20230623151818"
+									},
+									"Children": [
+										{
+											"ID": "20230623151818-wsn5xbk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623151818-wsn5xbk",
+												"updated": "20230623151919"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "manifest.json -\u003e App模块配置 -\u003e 高德地图"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623151919-b4b07pz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230623151919-b4b07pz"
+									},
+									"Children": [
+										{
+											"ID": "20230623152752-7cmkue0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623152752-7cmkue0",
+												"updated": "20230623152752"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "登录 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://lbs.amap.com/",
+													"TextMarkTextContent": "高德开放平台"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，进入“控制台”，如果没有注册账号请先根据页面提示注册账号"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623152756-mle80ug",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230623152756-mle80ug"
+									},
+									"Children": [
+										{
+											"ID": "20230623152756-1hkh8y7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623152756-1hkh8y7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "打开 “应用管理” -\u003e “我的应用”页面，点击“创建新应用”，根据页面提示填写内容创建应用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623152758-hj9tp9l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230623152758-hj9tp9l"
+									},
+									"Children": [
+										{
+											"ID": "20230623152758-e306gv9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623152758-e306gv9"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在应用下点击“添加”为应用添加Key，根据需要分别为Android平台、iOS平台申请Key"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230623152811-62baap1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230623152811-62baap1"
+					},
+					"Children": [
+						{
+							"ID": "20230623152811-fw1dun8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230623152811-fw1dun8",
+								"updated": "20230623152814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Web"
+								}
+							]
+						},
+						{
+							"ID": "20230623153927-v1t5t14",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230623153927-v1t5t14"
+							},
+							"Children": [
+								{
+									"ID": "20230623153926-ijoo13l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230623153926-ijoo13l"
+									},
+									"Children": [
+										{
+											"ID": "20230623153926-bju5xqp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623153926-bju5xqp",
+												"updated": "20230623153934"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "manifest.json -\u003e Web配置 -\u003e 高德地图"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230623152814-rsjtli6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230623152814-rsjtli6",
+						"updated": "20230623154452"
+					},
+					"Children": [
+						{
+							"ID": "20230623152814-ry3kkdr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230623152814-ry3kkdr",
+								"updated": "20230623153310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MP"
+								}
+							]
+						},
+						{
+							"ID": "20230623154446-snojc2n",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230623154446-snojc2n",
+								"updated": "20230623154452"
+							},
+							"Children": [
+								{
+									"ID": "20230623154446-tslz5ti",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230623154446-tslz5ti",
+										"updated": "20230623154452"
+									},
+									"Children": [
+										{
+											"ID": "20230623154446-r5y1xgc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623154446-r5y1xgc",
+												"updated": "20230623154452"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用腾讯地图"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230623153313-imjr9mb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230623153313-imjr9mb",
+						"updated": "20230623161559"
+					},
+					"Children": [
+						{
+							"ID": "20230623153313-wqkcqp5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230623153313-wqkcqp5",
+								"updated": "20230623153315"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注意"
+								}
+							]
+						},
+						{
+							"ID": "20230623153316-67rv44c",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230623153316-67rv44c",
+								"updated": "20230623161559"
+							},
+							"Children": [
+								{
+									"ID": "20230623153315-4p3e9z5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230623153315-4p3e9z5"
+									},
+									"Children": [
+										{
+											"ID": "20230623153315-yobn503",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623153315-yobn503",
+												"updated": "20230623153336"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "小程序和app-vue中，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;map\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 组件是由引擎创建的原生组件，它的层级是最高的，不能通过 z-index 控制层级。在"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;map\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​上绘制内容，可使用组件自带的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "marker、controls"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​等属性，也可以使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;cover-view\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​组件。App端还可以使用plus.nativeObj.view 或 subNVue 绘制原生内容，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://uniapp.dcloud.net.cn/component/native-component",
+													"TextMarkTextContent": "参考"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。另外App端nvue文件不存在层级问题。从微信基础库2.8.3开始，支持map组件的同层渲染，不再有层级问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623153337-z2m5yl1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230623153337-z2m5yl1"
+									},
+									"Children": [
+										{
+											"ID": "20230623153351-x5tscbq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623153351-x5tscbq",
+												"updated": "20230623153351"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "微信小程序端 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "controls"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 属性即将废弃，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/component/map.html",
+													"TextMarkTextContent": "详情"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。如果所用基础库支持同层渲染，则可以直接使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;view\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 组件，否则使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;cover-view\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​组件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623153354-t6ll5ny",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230623153354-t6ll5ny"
+									},
+									"Children": [
+										{
+											"ID": "20230623153354-t3f5ma5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623153354-t3f5ma5",
+												"updated": "20230623153407"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App端nvue文件的map和小程序拉齐度更高。vue里的map则与plus.map功能一致，和小程序的地图略有差异。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "App端使用map推荐使用nvue"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623153425-sjjqxde",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230623153425-sjjqxde"
+									},
+									"Children": [
+										{
+											"ID": "20230623153425-ian09n4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623153425-ian09n4",
+												"updated": "20230623155503"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App端使用到本地图像的话，打包前需要设置资源为释放模式，在manifest文件内app-plus新增runmode节点，设置值为liberate"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623155703-oaesqj0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230623155703-oaesqj0"
+									},
+									"Children": [
+										{
+											"ID": "20230623155703-gjuzf7x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623155703-gjuzf7x",
+												"updated": "20230623155703"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在涉及层级问题的小程序中和app-vue中，请勿在 scroll-view、swiper、picker-view、movable-view 中使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;map\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 组件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623155704-c46mk1b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230623155704-c46mk1b"
+									},
+									"Children": [
+										{
+											"ID": "20230623155704-v3jfe6m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623155704-v3jfe6m",
+												"updated": "20230623155710"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "小程序和 app-vue 中，css 动画对 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;map\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 组件无效"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623155711-brxvs8l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230623155711-brxvs8l"
+									},
+									"Children": [
+										{
+											"ID": "20230623155711-xgohtv6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623155711-xgohtv6",
+												"updated": "20230623155722"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "map 组件使用的经纬度是国测局坐标，调用 uni.getLocation 接口需要指定 type 为 gcj02"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623155723-x60nyb3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20230623155723-x60nyb3"
+									},
+									"Children": [
+										{
+											"ID": "20230623155723-uvmitex",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623155723-uvmitex",
+												"updated": "20230623155738"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;map\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 组件在不同平台的底层引擎是不同的："
+												}
+											]
+										},
+										{
+											"ID": "20230623155745-r8guhba",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230623155745-r8guhba"
+											},
+											"Children": [
+												{
+													"ID": "20230623155745-9m0jczr",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230623155745-9m0jczr"
+													},
+													"Children": [
+														{
+															"ID": "20230623155745-qpma7y1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230623155745-qpma7y1",
+																"updated": "20230623155747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "微信小程序为腾讯地图"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230623155748-mdsx7jg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230623155748-mdsx7jg"
+													},
+													"Children": [
+														{
+															"ID": "20230623155748-b92m4mq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230623155748-b92m4mq",
+																"updated": "20230623155751"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "H5为腾讯地图或谷歌地图或高德地图"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230623155751-isco1r6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230623155751-isco1r6"
+													},
+													"Children": [
+														{
+															"ID": "20230623155751-1gp5vhk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230623155751-1gp5vhk",
+																"updated": "20230623155758"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App、支付宝（中国大陆地区版本）小程序为高德地图"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230623155758-o51plpz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230623155758-o51plpz"
+													},
+													"Children": [
+														{
+															"ID": "20230623155758-7a27bbb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230623155758-7a27bbb",
+																"updated": "20230623155801"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "百度小程序、快应用为百度地图"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230623155802-ru6r1fv",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230623155802-ru6r1fv"
+													},
+													"Children": [
+														{
+															"ID": "20230623155802-m88250a",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230623155802-m88250a",
+																"updated": "20230623155957"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "app-vue也可以使用百度地图，在manifest中配置，打包后生效，但app-nvue只支持高德地图"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230623155957-5qmeh55",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20230623155957-5qmeh55"
+													},
+													"Children": [
+														{
+															"ID": "20230623155957-sa2ugbf",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230623155957-sa2ugbf"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "另外选择地图、查看地图位置的API也仅支持高德地图。App端如无特殊必要，建议使用高德地图"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623160022-zt7w7bu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20230623160022-zt7w7bu"
+									},
+									"Children": [
+										{
+											"ID": "20230623160023-2srjes9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623160023-2srjes9",
+												"updated": "20230623160023"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "map 组件默认的api是参考微信小程序的，如需要使用plus.map，可以通过"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$getAppMap"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​获取原生地图对象，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://uniapp.dcloud.net.cn/api/location/map",
+													"TextMarkTextContent": "详见"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。注意nvue的map组件不是plus.map对象，无法使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$getAppMap"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623161314-oahclsz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTAu",
+										"Num": 10
+									},
+									"Properties": {
+										"id": "20230623161314-oahclsz"
+									},
+									"Children": [
+										{
+											"ID": "20230623161314-kfjvhic",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623161314-kfjvhic",
+												"updated": "20230623161315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "H5 端获取定位信息，需要部署在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "https"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 服务上，本地预览（localhost）仍然可以使用 http 协议"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623161315-4tgz0fb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTEu",
+										"Num": 11
+									},
+									"Properties": {
+										"id": "20230623161315-4tgz0fb"
+									},
+									"Children": [
+										{
+											"ID": "20230623161315-x5mythy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623161315-x5mythy",
+												"updated": "20230623161324"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无GPS模块或GPS无信号的 PC 设备使用 Chrome 浏览器的时候，位置信息是连接谷歌服务器获取的，国内用户可能获取位置信息失败"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623161326-qh4bk9j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTIu",
+										"Num": 12
+									},
+									"Properties": {
+										"id": "20230623161326-qh4bk9j"
+									},
+									"Children": [
+										{
+											"ID": "20230623161326-qxa1tse",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623161326-qxa1tse",
+												"updated": "20230623161507"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App 端使用地图组件需要"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "向高德或百度等三方服务商申请SDK资质，获取AppKey，打包时需要在manifest文件中勾选相应模块，在SDK配置中填写Appkey。注意申请包名和打包时的包名需匹配一致，证书信息匹配"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623161516-t2j8al9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTMu",
+										"Num": 13
+									},
+									"Properties": {
+										"id": "20230623161516-t2j8al9"
+									},
+									"Children": [
+										{
+											"ID": "20230623161516-0n1y9s9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623161516-0n1y9s9",
+												"updated": "20230623161531"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "H5 端使用地图和定位相关，需要在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://uniapp.dcloud.net.cn/collocation/manifest#h5sdkconfig",
+													"TextMarkTextContent": "manifest.json"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 内配置腾讯或谷歌等三方地图服务商申请的秘钥（key）。高德地图需要额外配置 securityJsCode 或 serviceHost，具体参考"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://lbs.amap.com/api/jsapi-v2/guide/abc/prepare",
+													"TextMarkTextContent": "高德地图文档"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623161531-rf0ewwc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTQu",
+										"Num": 14
+									},
+									"Properties": {
+										"id": "20230623161531-rf0ewwc"
+									},
+									"Children": [
+										{
+											"ID": "20230623161541-ndsecx8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623161541-ndsecx8",
+												"updated": "20230623161541"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ios nvue Color 不支持 ARGB 十六进制，使用 rgba(r,g,b,a) 代替"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230623161559-yhn7c87",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTUu",
+										"Num": 15
+									},
+									"Properties": {
+										"id": "20230623161559-yhn7c87",
+										"updated": "20230623161559"
+									},
+									"Children": [
+										{
+											"ID": "20230623161559-fssqlee",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230623161559-fssqlee",
+												"updated": "20230623161559"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意位置坐标系转换，有全球gps标准、国标、百度私标，如果定位是用的一个标准，地图是另一个标准，那呈现在地图上就会有位移偏差。一般推荐统一使用国标gcj02"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230623152807-pip2vta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230623152807-pip2vta",
+				"updated": "20230623155539"
+			}
+		},
+		{
+			"ID": "20230623155558-z1zh3r6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230623155558-z1zh3r6"
+			}
 		}
 	]
 }
