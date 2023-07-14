@@ -1,0 +1,7856 @@
+{
+	"ID": "20230705141442-w8xqlgz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230705141442-w8xqlgz",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141442-w8xqlgz\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705141442-e5w1bpm\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705141442-e5w1bpm\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230705141442-e5w1bpm\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "JavaScript",
+		"updated": "20230713233214"
+	},
+	"Children": [
+		{
+			"ID": "20230713145344-148ll7b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713145344-148ll7b",
+				"updated": "20230713145347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS中的8种数据类型及区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713145349-jqgxfi1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713145349-jqgxfi1",
+				"updated": "20230713150126"
+			},
+			"Children": [
+				{
+					"ID": "20230713145926-ednnvj6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713145926-ednnvj6",
+						"updated": "20230713145926"
+					},
+					"Children": [
+						{
+							"ID": "20230713145926-vsbssdo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713145926-vsbssdo",
+								"updated": "20230713150046"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "基本类型(值类型)"
+								}
+							]
+						},
+						{
+							"ID": "20230713145946-h9wn3cs",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713145946-h9wn3cs"
+							},
+							"Children": [
+								{
+									"ID": "20230713145946-dqcadvo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713145946-dqcadvo"
+									},
+									"Children": [
+										{
+											"ID": "20230713145946-ph0h1bx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145946-ph0h1bx",
+												"updated": "20230713145950"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Number(数字)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713145951-ifsdagr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713145951-ifsdagr"
+									},
+									"Children": [
+										{
+											"ID": "20230713145951-iq9oqed",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145951-iq9oqed",
+												"updated": "20230713145952"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String(字符串)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713145952-meaubed",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713145952-meaubed"
+									},
+									"Children": [
+										{
+											"ID": "20230713145952-mf6qvdp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145952-mf6qvdp",
+												"updated": "20230713145954"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Boolean(布尔)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713145954-pwyv2wa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713145954-pwyv2wa"
+									},
+									"Children": [
+										{
+											"ID": "20230713145954-ymv6hhn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145954-ymv6hhn",
+												"updated": "20230713145957"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Symbol(符号)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713145957-kpu0sxw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230713145957-kpu0sxw"
+									},
+									"Children": [
+										{
+											"ID": "20230713145957-b742zor",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145957-b742zor",
+												"updated": "20230713145959"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "null(空)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713145959-mf3e1ih",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230713145959-mf3e1ih"
+									},
+									"Children": [
+										{
+											"ID": "20230713145959-hrnakij",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145959-hrnakij"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "undefined(未定义)"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713145928-0fwx7l5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713145928-0fwx7l5",
+						"updated": "20230713150120"
+					},
+					"Children": [
+						{
+							"ID": "20230713145935-hl7x9os",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713145935-hl7x9os",
+								"updated": "20230713150047"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "引用类型(复杂数据类型)"
+								}
+							]
+						},
+						{
+							"ID": "20230713150048-jble8xs",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150048-jble8xs",
+								"updated": "20230713150120"
+							},
+							"Children": [
+								{
+									"ID": "20230713150047-fqqzcpf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713150047-fqqzcpf"
+									},
+									"Children": [
+										{
+											"ID": "20230713150047-5p2obun",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150047-5p2obun",
+												"updated": "20230713150053"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Object(对象)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150053-ltezm3h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150053-ltezm3h"
+									},
+									"Children": [
+										{
+											"ID": "20230713150053-f5fn4x8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150053-f5fn4x8",
+												"updated": "20230713150054"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Function(函数)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150055-4l25tya",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713150055-4l25tya"
+									},
+									"Children": [
+										{
+											"ID": "20230713150055-lyvyp4x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150055-lyvyp4x",
+												"updated": "20230713150101"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Array(数组)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150101-gixm0vs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713150101-gixm0vs"
+									},
+									"Children": [
+										{
+											"ID": "20230713150101-jyj6v5f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150101-jyj6v5f",
+												"updated": "20230713150103"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Date(日期)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150103-f97vayw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230713150103-f97vayw"
+									},
+									"Children": [
+										{
+											"ID": "20230713150103-xvazrwb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150103-xvazrwb",
+												"updated": "20230713150104"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "RegExp(正则表达式)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150104-rx0rlnb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230713150104-rx0rlnb"
+									},
+									"Children": [
+										{
+											"ID": "20230713150104-2vtlnh3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150104-2vtlnh3",
+												"updated": "20230713150109"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "特殊的基本包装类型(String、Number、Boolean) "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150109-555qbvs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230713150109-555qbvs",
+										"updated": "20230713150120"
+									},
+									"Children": [
+										{
+											"ID": "20230713150109-q79q4jn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150109-q79q4jn",
+												"updated": "20230713150120"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单体内置对象(Global、Math)等 引"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713145939-ufuc97r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713145939-ufuc97r",
+						"updated": "20230713150126"
+					},
+					"Children": [
+						{
+							"ID": "20230713145939-4xgq8bp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713145939-4xgq8bp",
+								"updated": "20230713145942"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区别"
+								}
+							]
+						},
+						{
+							"ID": "20230713145943-edsx5ga",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713145943-edsx5ga",
+								"updated": "20230713150126"
+							},
+							"Children": [
+								{
+									"ID": "20230713145943-4exssvc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713145943-4exssvc"
+									},
+									"Children": [
+										{
+											"ID": "20230713145943-df34ayo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713145943-df34ayo",
+												"updated": "20230713150013"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本类型在内存中占据固定大小，保存在栈内存中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150014-eapbv6m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150014-eapbv6m",
+										"updated": "20230713150126"
+									},
+									"Children": [
+										{
+											"ID": "20230713150014-ykyrfp6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150014-ykyrfp6",
+												"updated": "20230713150126"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引用类型的值是对象 保存在堆内存中，栈内存存储的是对象的变量标识符以及对象在堆内存中的存储地址"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713150204-3e0qe8q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713150204-3e0qe8q",
+				"updated": "20230713150205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "null 和 undefined 的区别及应用"
+				}
+			]
+		},
+		{
+			"ID": "20230713150207-hlsgw8d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713150207-hlsgw8d",
+				"updated": "20230713150216"
+			},
+			"Children": [
+				{
+					"ID": "20230713150243-soh54ks",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713150243-soh54ks"
+					},
+					"Children": [
+						{
+							"ID": "20230713150243-155idkt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150243-155idkt",
+								"updated": "20230713150245"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区别"
+								}
+							]
+						},
+						{
+							"ID": "20230713150247-2tqpgkz",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150247-2tqpgkz"
+							},
+							"Children": [
+								{
+									"ID": "20230713150216-u8ylwuu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713150216-u8ylwuu",
+										"updated": "20230713150216"
+									},
+									"Children": [
+										{
+											"ID": "20230713150216-yuitcz3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150216-yuitcz3",
+												"updated": "20230713150217"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "null表示为空值，不应该有值，Number(null) → 0，typeof null → 'object'"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150222-bovsnc4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150222-bovsnc4"
+									},
+									"Children": [
+										{
+											"ID": "20230713150222-9gmtzh6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150222-9gmtzh6",
+												"updated": "20230713150229"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "undefined表示缺少值，应该有值，但是没有定义，Number(undefined) → NaN"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713150256-5f2piya",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713150256-5f2piya",
+						"updated": "20230713150256"
+					},
+					"Children": [
+						{
+							"ID": "20230713150256-hqjja8v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150256-hqjja8v",
+								"updated": "20230713150256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应用"
+								}
+							]
+						},
+						{
+							"ID": "20230713150256-0mzmhkg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150256-0mzmhkg",
+								"updated": "20230713150256"
+							},
+							"Children": [
+								{
+									"ID": "20230713150256-tr1bpjc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"fold": "0",
+										"id": "20230713150256-tr1bpjc",
+										"updated": "20230713150256"
+									},
+									"Children": [
+										{
+											"ID": "20230713150256-r4xo2bu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150256-r4xo2bu",
+												"updated": "20230713150256"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "null"
+												}
+											]
+										},
+										{
+											"ID": "20230713150256-j4biv7n",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230713150256-j4biv7n",
+												"updated": "20230713150256"
+											},
+											"Children": [
+												{
+													"ID": "20230713150256-s14y4px",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230713150256-s14y4px",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-f48g0d5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-f48g0d5",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对象原型链终点"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-de6uxgi",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230713150256-de6uxgi",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-b60ttl8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-b60ttl8",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对象设为null，解除引用，释放内存"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-inojepj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230713150256-inojepj",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-dqbijnc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-dqbijnc",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "DOM元素获取中，如果没有获取到指定的元素对象，结果一般是nul"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-9atfopz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230713150256-9atfopz",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-tiyfzv5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-tiyfzv5",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在正则捕获的时候，如果没有捕获到结果，默认也是null"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150256-pgjggih",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150256-pgjggih",
+										"updated": "20230713150256"
+									},
+									"Children": [
+										{
+											"ID": "20230713150256-ja2z7j6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150256-ja2z7j6",
+												"updated": "20230713150256"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "undefined"
+												}
+											]
+										},
+										{
+											"ID": "20230713150256-a6rahxd",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230713150256-a6rahxd",
+												"updated": "20230713150256"
+											},
+											"Children": [
+												{
+													"ID": "20230713150256-ddew8xk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230713150256-ddew8xk",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-tzmfgtf",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-tzmfgtf",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "定义变量，但是没有初始化时"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-ynp2wvr",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230713150256-ynp2wvr",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-lkv3hr2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-lkv3hr2",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "调用某个函数时，实参个数小于形参个数时，未实参化的形参在函数调用过程中的值是undefined"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-wsm3jg0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230713150256-wsm3jg0",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-uwur9nz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-uwur9nz",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "调用某个对象还没有添加的属性时，也会返回undefined"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-tt862md",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230713150256-tt862md",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-bf50z18",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-bf50z18",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "调用某个没有返回值的函数，也会返回undefined"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713150256-iamb5wx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230713150256-iamb5wx",
+														"updated": "20230713150256"
+													},
+													"Children": [
+														{
+															"ID": "20230713150256-sddmwkl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713150256-sddmwkl",
+																"updated": "20230713150256"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对未声明的变量执行 typeof 操作符同样也会返回 undefined 值"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713150221-zvw7xtd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713150221-zvw7xtd"
+			}
+		},
+		{
+			"ID": "20230713150327-5ufmz75",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713150327-5ufmz75",
+				"updated": "20230713150329"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS中的数据类型检测方案"
+				}
+			]
+		},
+		{
+			"ID": "20230713150358-y5ae99b",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713150358-y5ae99b",
+				"updated": "20230713150613"
+			},
+			"Children": [
+				{
+					"ID": "20230713150358-sgvy6uq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713150358-sgvy6uq",
+						"updated": "20230713150358"
+					},
+					"Children": [
+						{
+							"ID": "20230713150358-bgk7zs0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150358-bgk7zs0",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "typeof"
+								}
+							]
+						},
+						{
+							"ID": "20230713150358-my90nzb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150358-my90nzb",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"ID": "20230713150358-m18qf98",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713150358-m18qf98",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-ca6fd3y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-ca6fd3y",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回数据类型的字符串"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150358-fu2ljwj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150358-fu2ljwj",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-n1lu0pr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-n1lu0pr",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以检测基本数据类型和函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150358-jlk091e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713150358-jlk091e",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-wsbos11",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-wsbos11",
+												"updated": "20230713150437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引用数据类型和null为object"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713150358-tjweonn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713150358-tjweonn",
+						"updated": "20230713150358"
+					},
+					"Children": [
+						{
+							"ID": "20230713150358-osbkdb6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150358-osbkdb6",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "instanceof"
+								}
+							]
+						},
+						{
+							"ID": "20230713150358-htiy3mw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150358-htiy3mw",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"ID": "20230713150358-r16f4r6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713150358-r16f4r6",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-4hd57t1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-4hd57t1",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回结构布尔值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150358-am5g2qr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150358-am5g2qr",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-qqnu2r5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-qqnu2r5",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构造函数的原型对象是否出现在被检测的原型链中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150358-obljey3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713150358-obljey3",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-64fvu9k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-64fvu9k",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以检测引用类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150358-ll3pney",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713150358-ll3pney",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-vyy7zog",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-vyy7zog",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不能检测基本数据类型"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713150358-p16reb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713150358-p16reb5",
+						"updated": "20230713150358"
+					},
+					"Children": [
+						{
+							"ID": "20230713150358-uedmqu3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150358-uedmqu3",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "constructor"
+								}
+							]
+						},
+						{
+							"ID": "20230713150358-prij8dn",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150358-prij8dn",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"ID": "20230713150358-176juqm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713150358-176juqm",
+										"updated": "20230713150358"
+									},
+									"Children": [
+										{
+											"ID": "20230713150358-cdup54a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150358-cdup54a",
+												"updated": "20230713150358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "检测构造函数"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713150358-5fwpfsv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713150358-5fwpfsv",
+						"updated": "20230713150613"
+					},
+					"Children": [
+						{
+							"ID": "20230713150358-s4w8xpj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150358-s4w8xpj",
+								"updated": "20230713150358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object.prototype.toString.call()"
+								}
+							]
+						},
+						{
+							"ID": "20230713150541-xfmyim8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713150541-xfmyim8",
+								"updated": "20230713150613"
+							},
+							"Children": [
+								{
+									"ID": "20230713150541-hljhaap",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713150541-hljhaap"
+									},
+									"Children": [
+										{
+											"ID": "20230713150541-i9ozh8t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150541-i9ozh8t",
+												"updated": "20230713150609"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回字符串'[object Type]'"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713150612-9wrwd7i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713150612-9wrwd7i",
+										"updated": "20230713150613"
+									},
+									"Children": [
+										{
+											"ID": "20230713150612-46j5zmj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713150612-46j5zmj",
+												"updated": "20230713150613"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "精准判断数据类型"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713150631-u5w1pc2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713150631-u5w1pc2",
+				"updated": "20230713150633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "intanceof 操作符的实现原理及实现"
+				}
+			]
+		},
+		{
+			"ID": "20230713150634-4hgrfvl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713150634-4hgrfvl",
+				"updated": "20230713151147"
+			},
+			"Children": [
+				{
+					"ID": "20230713150657-2uu4bnw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713150657-2uu4bnw",
+						"updated": "20230713150657"
+					},
+					"Children": [
+						{
+							"ID": "20230713150657-nrw5mt6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150657-nrw5mt6",
+								"updated": "20230713150954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原理：判断构造函数的原型对象是否出现在被检测的原型链中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713150706-tkpdnt7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713150706-tkpdnt7",
+						"updated": "20230713151147"
+					},
+					"Children": [
+						{
+							"ID": "20230713150706-b5bl0dm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713150706-b5bl0dm",
+								"updated": "20230713150713"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现"
+								}
+							]
+						},
+						{
+							"ID": "20230713151017-9cdt1y0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230713151017-9cdt1y0",
+								"linenumber": "false",
+								"updated": "20230713151147"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function myInstanceof(left, right) {\n  // 获取对象的原型\n  let proto = Object.getPrototypeOf(left)\n  // 获取构造函数的 prototype 对象\n  let prototype = right.prototype; \n \n  // 判断构造函数的 prototype 对象是否在对象的原型链上\n  while (true) {\n    if (!proto) return false;\n    if (proto === prototype) return true;\n    // 如果没有找到，就继续从其原型上找，Object.getPrototypeOf方法用来获取指定对象的原型\n    proto = Object.getPrototypeOf(proto);\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713151146-nxg85uz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713151146-nxg85uz"
+			}
+		},
+		{
+			"ID": "20230713151213-0cd7vzk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713151213-0cd7vzk",
+				"updated": "20230713151216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "typeof 与 instanceof 区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713151223-tsswbf1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713151223-tsswbf1",
+				"updated": "20230713151223"
+			},
+			"Children": [
+				{
+					"ID": "20230713151223-y98vxs5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713151223-y98vxs5",
+						"updated": "20230713151223"
+					},
+					"Children": [
+						{
+							"ID": "20230713151223-ca2ktid",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151223-ca2ktid",
+								"updated": "20230713151223"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "typeof"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​会返回一个变量的基本类型，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "instanceof"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​返回的是一个布尔值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151223-24d9ot7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713151223-24d9ot7",
+						"updated": "20230713151223"
+					},
+					"Children": [
+						{
+							"ID": "20230713151223-88c4l2n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151223-88c4l2n",
+								"updated": "20230713151223"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "typeof"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​基本类型除了null为object，其余没错，引用类型除了function结果正确，其余为object"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151223-3vu6bhx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713151223-3vu6bhx",
+						"updated": "20230713151223"
+					},
+					"Children": [
+						{
+							"ID": "20230713151223-1ksf0u8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151223-1ksf0u8",
+								"updated": "20230713151223"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "instanceof"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 可以准确地判断引用数据类型，但是不能正确判断基础数据类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713151257-eu242tn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713151257-eu242tn",
+				"updated": "20230713151259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "typeof NaN 的结果是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230713151307-yunbhfs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713151307-yunbhfs",
+				"updated": "20230713151307"
+			},
+			"Children": [
+				{
+					"ID": "20230713151307-168cyuu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713151307-168cyuu",
+						"updated": "20230713151307"
+					},
+					"Children": [
+						{
+							"ID": "20230713151307-xf3z6b0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151307-xf3z6b0",
+								"updated": "20230713151307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "number"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151307-qwdwyn6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713151307-qwdwyn6",
+						"updated": "20230713151307"
+					},
+					"Children": [
+						{
+							"ID": "20230713151307-9qb0ym6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151307-9qb0ym6",
+								"updated": "20230713151307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "NaN"
+								}
+							]
+						},
+						{
+							"ID": "20230713151307-bnv7aln",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713151307-bnv7aln",
+								"updated": "20230713151307"
+							},
+							"Children": [
+								{
+									"ID": "20230713151307-mckhotx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713151307-mckhotx",
+										"updated": "20230713151307"
+									},
+									"Children": [
+										{
+											"ID": "20230713151307-j3zyfpm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713151307-j3zyfpm",
+												"updated": "20230713151307"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "表示一个不确切的值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713151307-p7c31wb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713151307-p7c31wb",
+										"updated": "20230713151307"
+									},
+									"Children": [
+										{
+											"ID": "20230713151307-lxrmi15",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713151307-lxrmi15",
+												"updated": "20230713151307"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NaN不等于本身"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713152143-nnree78",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713152143-nnree78",
+				"updated": "20230713152150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "包装对象的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713152201-s5x02gj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713152201-s5x02gj",
+				"updated": "20230713152255"
+			},
+			"Children": [
+				{
+					"ID": "20230713152201-0tonn5l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713152201-0tonn5l",
+						"updated": "20230713152201"
+					},
+					"Children": [
+						{
+							"ID": "20230713152201-889z44g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152201-889z44g",
+								"updated": "20230713152201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本类型是没有属性和方法的，但是为了便于操作基本类型的值，在调用基本类型的属性或方法时 JavaScript 会在后台隐式地将基本类型的值转换为对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152201-ldol5zi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713152201-ldol5zi",
+						"updated": "20230713152255"
+					},
+					"Children": [
+						{
+							"ID": "20230713152201-mzcu4yo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152201-mzcu4yo",
+								"updated": "20230713152201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除了原生的实例方法，包装对象还可以自定义方法和属性，供原始类型的值直接调用"
+								}
+							]
+						},
+						{
+							"ID": "20230713152247-urzcyyg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230713152247-urzcyyg",
+								"updated": "20230713152255"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "String.prototype.double = function () {\n  return this.valueOf() + this.valueOf();\n};\n\n'abc'.double()\n// abcabc\n\nNumber.prototype.double = function () {\n  return this.valueOf() + this.valueOf();\n};\n\n(123).double() // 246\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713222001-41od2v6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713222001-41od2v6",
+				"updated": "20230713222009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "判断对象为空的方法"
+				}
+			]
+		},
+		{
+			"ID": "20230713222014-ps4ijp6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713222014-ps4ijp6",
+				"updated": "20230713222014"
+			},
+			"Children": [
+				{
+					"ID": "20230713222014-gugfhgx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713222014-gugfhgx",
+						"updated": "20230713222014"
+					},
+					"Children": [
+						{
+							"ID": "20230713222014-74s4rrf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222014-74s4rrf",
+								"updated": "20230713222014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSON.stringify({}) == '{}'"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222014-wv4bs5w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713222014-wv4bs5w",
+						"updated": "20230713222014"
+					},
+					"Children": [
+						{
+							"ID": "20230713222014-naaqgzk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222014-naaqgzk",
+								"updated": "20230713222014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object.getOwnPropertyNames()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222014-vzorkg2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713222014-vzorkg2",
+						"updated": "20230713222014"
+					},
+					"Children": [
+						{
+							"ID": "20230713222014-ysx0qdg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222014-ysx0qdg",
+								"updated": "20230713222014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object.keys()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222014-v0nmkgv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713222014-v0nmkgv",
+						"updated": "20230713222014"
+					},
+					"Children": [
+						{
+							"ID": "20230713222014-w5bkr9p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222014-w5bkr9p",
+								"updated": "20230713222014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for in"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713222346-811dnxj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713222346-811dnxj",
+				"updated": "20230713222355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Map和Object的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713152308-8rcpp1d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713152308-8rcpp1d",
+				"updated": "20230713152317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "判断数组方式"
+				}
+			]
+		},
+		{
+			"ID": "20230713152324-ii45l7a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713152324-ii45l7a",
+				"updated": "20230713152324"
+			},
+			"Children": [
+				{
+					"ID": "20230713152324-r87n35j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713152324-r87n35j",
+						"updated": "20230713152324"
+					},
+					"Children": [
+						{
+							"ID": "20230713152324-h65ivjm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152324-h65ivjm",
+								"updated": "20230713152324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object.prototype.toString.call"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152324-2vjmetk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713152324-2vjmetk",
+						"updated": "20230713152324"
+					},
+					"Children": [
+						{
+							"ID": "20230713152324-l2e4qt2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152324-l2e4qt2",
+								"updated": "20230713152324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "instanceof"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152324-yipuscb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713152324-yipuscb",
+						"updated": "20230713152324"
+					},
+					"Children": [
+						{
+							"ID": "20230713152324-656tglo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152324-656tglo",
+								"updated": "20230713152324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Array.prototype.isPrototypeOf"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152324-o61pdte",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713152324-o61pdte",
+						"updated": "20230713152324"
+					},
+					"Children": [
+						{
+							"ID": "20230713152324-hxtrmwx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152324-hxtrmwx",
+								"updated": "20230713152324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Array.isArray"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713152335-cfoveqb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713152335-cfoveqb",
+				"updated": "20230713152346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "清空数组"
+				}
+			]
+		},
+		{
+			"ID": "20230713152407-jj2ylpl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713152407-jj2ylpl",
+				"updated": "20230713152407"
+			},
+			"Children": [
+				{
+					"ID": "20230713152407-8erwx39",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713152407-8erwx39",
+						"updated": "20230713152407"
+					},
+					"Children": [
+						{
+							"ID": "20230713152407-0d5lums",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152407-0d5lums",
+								"updated": "20230713152407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "splice(arr,0,arr.length)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152407-oxzd634",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713152407-oxzd634",
+						"updated": "20230713152407"
+					},
+					"Children": [
+						{
+							"ID": "20230713152407-9bmknxr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152407-9bmknxr",
+								"updated": "20230713152407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "arr.length = 0"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152407-dahxou7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713152407-dahxou7",
+						"updated": "20230713152407"
+					},
+					"Children": [
+						{
+							"ID": "20230713152407-czmcy8w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152407-czmcy8w",
+								"updated": "20230713152407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "arr = []"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713152534-neucgel",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713152534-neucgel",
+				"updated": "20230713152550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Object.is() 与比较操作符 “===”、“==” 的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713152743-fxeu5bd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713152743-fxeu5bd",
+				"updated": "20230713152833"
+			},
+			"Children": [
+				{
+					"ID": "20230713152743-8fnl5an",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713152743-8fnl5an",
+						"updated": "20230713152743"
+					},
+					"Children": [
+						{
+							"ID": "20230713152743-pryi1pm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152743-pryi1pm",
+								"updated": "20230713152743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "== 会进行类型转换"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152743-kzz88cj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713152743-kzz88cj",
+						"updated": "20230713152743"
+					},
+					"Children": [
+						{
+							"ID": "20230713152743-piij0vc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152743-piij0vc",
+								"updated": "20230713152743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "===不会进行类型转换"
+								}
+							]
+						},
+						{
+							"ID": "20230713152743-gj67bad",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713152743-gj67bad",
+								"updated": "20230713152743"
+							},
+							"Children": [
+								{
+									"ID": "20230713152743-75fta0d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713152743-75fta0d",
+										"updated": "20230713152743"
+									},
+									"Children": [
+										{
+											"ID": "20230713152743-1h4m1e2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713152743-1h4m1e2",
+												"updated": "20230713152743"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NaN === NaN → false"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713152743-ccunehs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713152743-ccunehs",
+										"updated": "20230713152743"
+									},
+									"Children": [
+										{
+											"ID": "20230713152743-1ay5o34",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713152743-1ay5o34",
+												"updated": "20230713152743"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "+0 === -0 → true"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713152743-oq6gjzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713152743-oq6gjzp",
+						"updated": "20230713152833"
+					},
+					"Children": [
+						{
+							"ID": "20230713152743-hs7m0e7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713152743-hs7m0e7",
+								"updated": "20230713152833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object.is()严格相等"
+								}
+							]
+						},
+						{
+							"ID": "20230713152743-idm0hrl",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713152743-idm0hrl",
+								"updated": "20230713152743"
+							},
+							"Children": [
+								{
+									"ID": "20230713152743-ha5csc2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713152743-ha5csc2",
+										"updated": "20230713152743"
+									},
+									"Children": [
+										{
+											"ID": "20230713152743-s2et5j9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713152743-s2et5j9",
+												"updated": "20230713152743"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NaN === NaN → true"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713152743-udt8jrj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713152743-udt8jrj",
+										"updated": "20230713152743"
+									},
+									"Children": [
+										{
+											"ID": "20230713152743-x6nr4ad",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713152743-x6nr4ad",
+												"updated": "20230713152743"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "+0 === -0 → false"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713152854-r81g8k2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713152854-r81g8k2",
+				"updated": "20230713152901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据类型转换"
+				}
+			]
+		},
+		{
+			"ID": "20230713153031-sshs4ol",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713153031-sshs4ol",
+				"updated": "20230713153031"
+			},
+			"Children": [
+				{
+					"ID": "20230713153031-nmbmuz6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713153031-nmbmuz6",
+						"updated": "20230713153031"
+					},
+					"Children": [
+						{
+							"ID": "20230713153031-jme2p79",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153031-jme2p79",
+								"updated": "20230713153031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "转为字符串"
+								}
+							]
+						},
+						{
+							"ID": "20230713153031-o75uglt",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153031-o75uglt",
+								"updated": "20230713153031"
+							},
+							"Children": [
+								{
+									"ID": "20230713153031-ettkecd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153031-ettkecd",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-rp4ddeb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-rp4ddeb",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": ".toString()，不可以转null和underfined"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-xtjv7cq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153031-xtjv7cq",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-bak71ev",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-bak71ev",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-knc0yy8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713153031-knc0yy8",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-qu3ucr4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-qu3ucr4",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "\"+\"操作符一个操作数为字符串"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153031-6mno1rj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713153031-6mno1rj",
+						"updated": "20230713153031"
+					},
+					"Children": [
+						{
+							"ID": "20230713153031-p3pd7r3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153031-p3pd7r3",
+								"updated": "20230713153031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "转为数字"
+								}
+							]
+						},
+						{
+							"ID": "20230713153031-zeuaa3g",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153031-zeuaa3g",
+								"updated": "20230713153031"
+							},
+							"Children": [
+								{
+									"ID": "20230713153031-ln7yddc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153031-ln7yddc",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-7tegbgn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-7tegbgn",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Number()，转换的字符串中有一个不是数值的字符，返回NaN"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-a4npbsq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153031-a4npbsq",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-g6p8124",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-g6p8124",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "parseInt()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-zjjehnm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713153031-zjjehnm",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-8lsxjc9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-8lsxjc9",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "parseFloat()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-clrkbc7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713153031-clrkbc7",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-iqq3bs7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-iqq3bs7",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "计算操作"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153031-gbgo9a1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713153031-gbgo9a1",
+						"updated": "20230713153031"
+					},
+					"Children": [
+						{
+							"ID": "20230713153031-iat6cz2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153031-iat6cz2",
+								"updated": "20230713153031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "转为布尔值"
+								}
+							]
+						},
+						{
+							"ID": "20230713153031-5e5p8f1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153031-5e5p8f1",
+								"updated": "20230713153031"
+							},
+							"Children": [
+								{
+									"ID": "20230713153031-pfxesfm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153031-pfxesfm",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-tva6uw1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-tva6uw1",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Boolean()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-in1s2c7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153031-in1s2c7",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-cnln659",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-cnln659",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "条件判断"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153031-gpghs1r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713153031-gpghs1r",
+										"updated": "20230713153031"
+									},
+									"Children": [
+										{
+											"ID": "20230713153031-exlbakc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153031-exlbakc",
+												"updated": "20230713153031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "!!"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713153127-d4221yn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713153127-d4221yn",
+				"updated": "20230713153136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何进行隐式类型转换"
+				}
+			]
+		},
+		{
+			"ID": "20230713153140-pv5i6lo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713153140-pv5i6lo",
+				"updated": "20230713153140"
+			},
+			"Children": [
+				{
+					"ID": "20230713153140-r2mwmzx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713153140-r2mwmzx",
+						"updated": "20230713153140"
+					},
+					"Children": [
+						{
+							"ID": "20230713153140-u9f4knt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153140-u9f4knt",
+								"updated": "20230713153140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\"+\"操作符"
+								}
+							]
+						},
+						{
+							"ID": "20230713153140-2343s3v",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153140-2343s3v",
+								"updated": "20230713153140"
+							},
+							"Children": [
+								{
+									"ID": "20230713153140-6fcwg25",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153140-6fcwg25",
+										"updated": "20230713153140"
+									},
+									"Children": [
+										{
+											"ID": "20230713153140-iib911l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153140-iib911l",
+												"updated": "20230713153140"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "至少有一个操作数为字符串时，两边都会转换为字符串，其他情况转换为数字"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153140-qhsh0ii",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713153140-qhsh0ii",
+						"updated": "20230713153140"
+					},
+					"Children": [
+						{
+							"ID": "20230713153140-z5rv2ul",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153140-z5rv2ul",
+								"updated": "20230713153140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\"-\"、\"*\"、\"/\"操作符"
+								}
+							]
+						},
+						{
+							"ID": "20230713153140-mwhgiov",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153140-mwhgiov",
+								"updated": "20230713153140"
+							},
+							"Children": [
+								{
+									"ID": "20230713153140-np62fd6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153140-np62fd6",
+										"updated": "20230713153140"
+									},
+									"Children": [
+										{
+											"ID": "20230713153140-yqgsif9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153140-yqgsif9",
+												"updated": "20230713153140"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "都会转换为数字"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153140-9w4jpd1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713153140-9w4jpd1",
+						"updated": "20230713153140"
+					},
+					"Children": [
+						{
+							"ID": "20230713153140-hbbdk3f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153140-hbbdk3f",
+								"updated": "20230713153140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\"==\"操作符"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153140-vive5tj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713153140-vive5tj",
+						"updated": "20230713153140"
+					},
+					"Children": [
+						{
+							"ID": "20230713153140-s8ib1rp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153140-s8ib1rp",
+								"updated": "20230713153140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\"\u003e\"、\"\u003c\"操作符"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713153225-9ey09zf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713153225-9ey09zf",
+				"updated": "20230713153226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "==操作符的类型转换规则"
+				}
+			]
+		},
+		{
+			"ID": "20230713153232-r32pemg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713153232-r32pemg",
+				"updated": "20230713153346"
+			},
+			"Children": [
+				{
+					"ID": "20230713153232-8ayiavr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713153232-8ayiavr",
+						"updated": "20230713153232"
+					},
+					"Children": [
+						{
+							"ID": "20230713153232-oyyrf46",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153232-oyyrf46",
+								"updated": "20230713153232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字符串==数字，将字符串转换为数字"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153232-zzs9kbp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713153232-zzs9kbp",
+						"updated": "20230713153232"
+					},
+					"Children": [
+						{
+							"ID": "20230713153232-2y7cu5x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153232-2y7cu5x",
+								"updated": "20230713153232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其它类型==布尔类型，将布尔类型转换为数字"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153232-tb1lc7g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713153232-tb1lc7g",
+						"updated": "20230713153346"
+					},
+					"Children": [
+						{
+							"ID": "20230713153232-afzl7ty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153232-afzl7ty",
+								"updated": "20230713153346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nullundefined，结果为真，其它类型null/undefined，结果为false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153232-tujq16h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713153232-tujq16h",
+						"updated": "20230713153232"
+					},
+					"Children": [
+						{
+							"ID": "20230713153232-862vr9j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153232-862vr9j",
+								"updated": "20230713153232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象==非对象，对象转为基本类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153232-xj3zna9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230713153232-xj3zna9",
+						"updated": "20230713153232"
+					},
+					"Children": [
+						{
+							"ID": "20230713153232-it6zpym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153232-it6zpym",
+								"updated": "20230713153232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象==对象，比较是否为同一对象"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713153410-875dekq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713153410-875dekq",
+				"updated": "20230713153412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "isNaN和Number.isNaN的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713153425-qmzpfav",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713153425-qmzpfav",
+				"updated": "20230713153425"
+			},
+			"Children": [
+				{
+					"ID": "20230713153425-cbvrhbn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713153425-cbvrhbn",
+						"updated": "20230713153425"
+					},
+					"Children": [
+						{
+							"ID": "20230713153425-w5lstby",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153425-w5lstby",
+								"updated": "20230713153425"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "isNaN进行类型检测，判断是否为数值类型，会进行类型转换"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153425-ekgob7k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713153425-ekgob7k",
+						"updated": "20230713153425"
+					},
+					"Children": [
+						{
+							"ID": "20230713153425-g4y4y0z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153425-g4y4y0z",
+								"updated": "20230713153425"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Number.isNaN进行类型检测，不是数值类型返回false，是数值类型用isNaN的方式判断"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713153456-dgg85vo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713153456-dgg85vo",
+				"updated": "20230713153503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u0026\u0026与和||或操作符的返回值"
+				}
+			]
+		},
+		{
+			"ID": "20230713153511-bxug1sa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713153511-bxug1sa",
+				"updated": "20230713153511"
+			},
+			"Children": [
+				{
+					"ID": "20230713153511-ydfcd1j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713153511-ydfcd1j",
+						"updated": "20230713153511"
+					},
+					"Children": [
+						{
+							"ID": "20230713153511-rrkau4v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153511-rrkau4v",
+								"updated": "20230713153511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对一个操作数进行条件判断，如果不是布尔值，就强制转换为布尔类型，然后进行条件判断"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153511-7i8rrc8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713153511-7i8rrc8",
+						"updated": "20230713153511"
+					},
+					"Children": [
+						{
+							"ID": "20230713153511-8oq8bxo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153511-8oq8bxo",
+								"updated": "20230713153511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u0026\u0026"
+								}
+							]
+						},
+						{
+							"ID": "20230713153511-huq52mb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153511-huq52mb",
+								"updated": "20230713153511"
+							},
+							"Children": [
+								{
+									"ID": "20230713153511-dil8njk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153511-dil8njk",
+										"updated": "20230713153511"
+									},
+									"Children": [
+										{
+											"ID": "20230713153511-dd6qjyc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153511-dd6qjyc",
+												"updated": "20230713153511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一个操作数为真，返回第二个"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153511-lc4i5h2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153511-lc4i5h2",
+										"updated": "20230713153511"
+									},
+									"Children": [
+										{
+											"ID": "20230713153511-s3735v8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153511-s3735v8",
+												"updated": "20230713153511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一个操作数为假，返回第一个"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153511-lp84gxn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713153511-lp84gxn",
+						"updated": "20230713153511"
+					},
+					"Children": [
+						{
+							"ID": "20230713153511-pl82lpy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153511-pl82lpy",
+								"updated": "20230713153511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "||"
+								}
+							]
+						},
+						{
+							"ID": "20230713153511-2fqtl9o",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153511-2fqtl9o",
+								"updated": "20230713153511"
+							},
+							"Children": [
+								{
+									"ID": "20230713153511-3n8727q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153511-3n8727q",
+										"updated": "20230713153511"
+									},
+									"Children": [
+										{
+											"ID": "20230713153511-9puz653",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153511-9puz653",
+												"updated": "20230713153511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一个操作数为真，返回第一个"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153511-dczprqa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153511-dczprqa",
+										"updated": "20230713153511"
+									},
+									"Children": [
+										{
+											"ID": "20230713153511-bqy9akp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153511-bqy9akp",
+												"updated": "20230713153511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一个操作数为假，返回第二个"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153511-0xrjcml",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713153511-0xrjcml",
+						"updated": "20230713153511"
+					},
+					"Children": [
+						{
+							"ID": "20230713153511-wt5z673",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153511-wt5z673",
+								"updated": "20230713153511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "返回值不是条件判断结果，是其中一个操作数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713153526-e78rgeo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713153526-e78rgeo",
+				"updated": "20230713153528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深拷贝和浅拷贝的区别、实现深拷贝"
+				}
+			]
+		},
+		{
+			"ID": "20230713153533-2gele41",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713153533-2gele41",
+				"updated": "20230713153644"
+			},
+			"Children": [
+				{
+					"ID": "20230713153533-etg60g6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713153533-etg60g6",
+						"updated": "20230713153533"
+					},
+					"Children": [
+						{
+							"ID": "20230713153533-suw0afu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153533-suw0afu",
+								"updated": "20230713153533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区别"
+								}
+							]
+						},
+						{
+							"ID": "20230713153533-cyrtqs8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153533-cyrtqs8",
+								"updated": "20230713153533"
+							},
+							"Children": [
+								{
+									"ID": "20230713153533-ooha7y7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153533-ooha7y7",
+										"updated": "20230713153533"
+									},
+									"Children": [
+										{
+											"ID": "20230713153533-9y89hqo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153533-9y89hqo",
+												"updated": "20230713153533"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "浅拷贝只复制属性指向某个对象的指针，而不复制对象本身，新旧对象还是共享同一块内存，修改对象属性会影响原对象"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153533-21s8ugp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153533-21s8ugp",
+										"updated": "20230713153533"
+									},
+									"Children": [
+										{
+											"ID": "20230713153533-3gpvbjg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153533-3gpvbjg",
+												"updated": "20230713153533"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "深拷贝会另外创造一个一模一样的对象，新对象跟原对象不共享内存，修改新对象不会改到原对象"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713153533-l9z8lb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713153533-l9z8lb5",
+						"updated": "20230713153644"
+					},
+					"Children": [
+						{
+							"ID": "20230713153533-fi90d9g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713153533-fi90d9g",
+								"updated": "20230713153533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现"
+								}
+							]
+						},
+						{
+							"ID": "20230713153533-3qx8d6j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713153533-3qx8d6j",
+								"updated": "20230713153644"
+							},
+							"Children": [
+								{
+									"ID": "20230713153533-cu0jgnq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713153533-cu0jgnq",
+										"updated": "20230713153533"
+									},
+									"Children": [
+										{
+											"ID": "20230713153533-tdynpmj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153533-tdynpmj",
+												"updated": "20230713153533"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JSON.stringify()，会忽略"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "undefined"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​、"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "symbol"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​和"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "函数"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713153533-j1jz3e9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713153533-j1jz3e9",
+										"updated": "20230713153644"
+									},
+									"Children": [
+										{
+											"ID": "20230713153533-fvv3b3m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713153533-fvv3b3m",
+												"updated": "20230713153533"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "循环递归"
+												}
+											]
+										},
+										{
+											"ID": "20230713153634-v0dclix",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230713153634-v0dclix",
+												"updated": "20230713153644"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": " function deepClone(obj,hash=new WeakMap()){\n            if(obj===null) return null;\n            if(obj instanceof Date) return new Date(obj);\n            if(obj instanceof RegExp) return new RegExp();\n            if(hash.has(obj)) return hash.get(obj)\n            if(typeof obj !=='object') return obj;\n            let res=obj.constructor();\n            hash.set(obj,res);\n            for(let k in obj){\n                res[k]=deepClone(obj[k],hash)\n            }\n            return res;\n        }\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713151430-j5fhm26",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713151430-j5fhm26",
+				"updated": "20230713151432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "var \u0026\u0026 let \u0026\u0026 const"
+				}
+			]
+		},
+		{
+			"ID": "20230713151551-9tq5p03",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713151551-9tq5p03",
+				"updated": "20230713151858"
+			},
+			"Children": [
+				{
+					"ID": "20230713151624-6q0o2jc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713151624-6q0o2jc",
+						"updated": "20230713151624"
+					},
+					"Children": [
+						{
+							"ID": "20230713151655-jiypha9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151655-jiypha9",
+								"updated": "20230713151655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "let 不存在变量提升，不允许在定义之前使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151657-eq1xzea",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713151657-eq1xzea"
+					},
+					"Children": [
+						{
+							"ID": "20230713151703-i8hd7i3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151703-i8hd7i3",
+								"updated": "20230713151708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "let不允许重复声明"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151705-tyntitk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713151705-tyntitk"
+					},
+					"Children": [
+						{
+							"ID": "20230713151737-moyspmv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151737-moyspmv",
+								"updated": "20230713151737"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在全局上下文中，基于var/function声明的变量，是给window(GO)设置的全局属性；基于let/const声明的变量是放在VO(G)中的，和GO没有任何关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151744-e51ua01",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713151744-e51ua01"
+					},
+					"Children": [
+						{
+							"ID": "20230713151753-p5s3atg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151753-p5s3atg",
+								"updated": "20230713151753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "let会产生块级上下文"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151755-hjz969a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230713151755-hjz969a"
+					},
+					"Children": [
+						{
+							"ID": "20230713151831-0219u7d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151831-0219u7d",
+								"updated": "20230713151831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "let的暂时性死区问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713151857-c7o55jl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230713151857-c7o55jl",
+						"updated": "20230713151858"
+					},
+					"Children": [
+						{
+							"ID": "20230713151858-4xl7b0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151858-4xl7b0a",
+								"updated": "20230713151858"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于const声明的变量，首先必须赋值初始值，而且一旦和某个值关联，后期不允许更改其指针指向（也就是不能重新赋值为其他的值）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713151901-etdfiqb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713151901-etdfiqb"
+			}
+		},
+		{
+			"ID": "20230713222522-41ek0jy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713222522-41ek0jy",
+				"updated": "20230713222523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "扩展运算符的作用"
+				}
+			]
+		},
+		{
+			"ID": "20230713222532-lj4yvuh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713222532-lj4yvuh",
+				"updated": "20230713222601"
+			},
+			"Children": [
+				{
+					"ID": "20230713222532-237w6d0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713222532-237w6d0",
+						"updated": "20230713222532"
+					},
+					"Children": [
+						{
+							"ID": "20230713222532-5ibhsw3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222532-5ibhsw3",
+								"updated": "20230713222532"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将一个数组变为一个以空格分隔的参数序列"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222532-2r862v1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713222532-2r862v1",
+						"updated": "20230713222532"
+					},
+					"Children": [
+						{
+							"ID": "20230713222532-gsrtbbb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222532-gsrtbbb",
+								"updated": "20230713222532"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组和对象复制，浅复制"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222532-m925wde",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713222532-m925wde",
+						"updated": "20230713222532"
+					},
+					"Children": [
+						{
+							"ID": "20230713222532-ifjaxnl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222532-ifjaxnl",
+								"updated": "20230713222532"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组合并"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222532-93bxxtc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713222532-93bxxtc",
+						"updated": "20230713222601"
+					},
+					"Children": [
+						{
+							"ID": "20230713222532-tbzxxka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222532-tbzxxka",
+								"updated": "20230713222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字符串改为数组"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713222632-k048t6p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713222632-k048t6p",
+				"updated": "20230713222633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "rest参数"
+				}
+			]
+		},
+		{
+			"ID": "20230713222646-n1cftn4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713222646-n1cftn4",
+				"updated": "20230713222646"
+			},
+			"Children": [
+				{
+					"ID": "20230713222646-j6g1ue4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713222646-j6g1ue4",
+						"updated": "20230713222646"
+					},
+					"Children": [
+						{
+							"ID": "20230713222646-2p2qegw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222646-2p2qegw",
+								"updated": "20230713222646"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于获取函数多余参数，把一个分离的参数序列整合为一个数组"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222646-zw8bqko",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713222646-zw8bqko",
+						"updated": "20230713222646"
+					},
+					"Children": [
+						{
+							"ID": "20230713222646-griawpf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222646-griawpf",
+								"updated": "20230713222646"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只能放在函数参数的最后"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713222701-xeq3hcm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713222701-xeq3hcm",
+				"updated": "20230713222712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对象和数组的解构"
+				}
+			]
+		},
+		{
+			"ID": "20230713222733-x8ytplq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713222733-x8ytplq",
+				"updated": "20230713223021"
+			},
+			"Children": [
+				{
+					"ID": "20230713222733-t2t9zls",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713222733-t2t9zls",
+						"updated": "20230713222733"
+					},
+					"Children": [
+						{
+							"ID": "20230713222733-x3k3mqk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222733-x3k3mqk",
+								"updated": "20230713222733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解构是一中提取数据的模式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222733-y28oz68",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713222733-y28oz68",
+						"updated": "20230713222733"
+					},
+					"Children": [
+						{
+							"ID": "20230713222733-vkvr54i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222733-vkvr54i",
+								"updated": "20230713222733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组解构，以元素位置（下标）为匹配条件"
+								}
+							]
+						},
+						{
+							"ID": "20230713222733-x9x7fh0",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713222733-x9x7fh0",
+								"updated": "20230713222733"
+							},
+							"Children": [
+								{
+									"ID": "20230713222733-vrpulvj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713222733-vrpulvj",
+										"updated": "20230713222733"
+									},
+									"Children": [
+										{
+											"ID": "20230713222733-dzfv77c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713222733-dzfv77c",
+												"updated": "20230713222733"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "获取所有值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713222733-uhwj3x5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713222733-uhwj3x5",
+										"updated": "20230713222733"
+									},
+									"Children": [
+										{
+											"ID": "20230713222733-350a0qp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713222733-350a0qp",
+												"updated": "20230713222733"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "逗号分隔符跳过数组项"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713222733-4fum8cu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713222733-4fum8cu",
+										"updated": "20230713222733"
+									},
+									"Children": [
+										{
+											"ID": "20230713222733-9dlenq0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713222733-9dlenq0",
+												"updated": "20230713222733"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用rest参数，赋值数组的其余部分"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713222733-qhs6ed9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713222733-qhs6ed9",
+										"updated": "20230713222733"
+									},
+									"Children": [
+										{
+											"ID": "20230713222733-njgsfgq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713222733-njgsfgq",
+												"updated": "20230713222733"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用\"=\"赋值默认值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713222733-h15dwrt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230713222733-h15dwrt",
+										"updated": "20230713222733"
+									},
+									"Children": [
+										{
+											"ID": "20230713222733-ck9zil1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713222733-ck9zil1",
+												"updated": "20230713222733"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "交换变量值"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713222733-uhdsd5y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713222733-uhdsd5y",
+						"updated": "20230713223021"
+					},
+					"Children": [
+						{
+							"ID": "20230713222733-dgysu97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713222733-dgysu97",
+								"updated": "20230713222733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象解构，以对象的名称为匹配条件"
+								}
+							]
+						},
+						{
+							"ID": "20230713222733-olia0fi",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713222733-olia0fi",
+								"updated": "20230713223021"
+							},
+							"Children": [
+								{
+									"ID": "20230713222733-yn3241c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713222733-yn3241c",
+										"updated": "20230713223021"
+									},
+									"Children": [
+										{
+											"ID": "20230713222733-2j67ajz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713222733-2j67ajz",
+												"updated": "20230713222733"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用不带声明的对象文字解构赋值时，在赋值语句外面加上 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "( )"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 是必需的语法。这是因为左侧的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "{}"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 被认为是一个块，而不是对象文字"
+												}
+											]
+										},
+										{
+											"ID": "20230713223017-funzx6b",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230713223017-funzx6b",
+												"updated": "20230713223021"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "let person = {name: \"Sarah\", country: \"Nigeria\", job: \"Developer\"}; \nlet name, country, job;\n{name, country, job} = person;\nconsole.log(name);// Error : \"Unexpected token =\"\n({name, country, job} = person);\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713223033-jaloswf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713223033-jaloswf"
+			}
+		},
+		{
+			"ID": "20230713223038-3y53wks",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713223038-3y53wks",
+				"updated": "20230713223112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数的arguments类数组"
+				}
+			]
+		},
+		{
+			"ID": "20230713223117-a3c5w1j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713223117-a3c5w1j",
+				"updated": "20230713223534"
+			},
+			"Children": [
+				{
+					"ID": "20230713223117-qrbjp6j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713223117-qrbjp6j",
+						"updated": "20230713223117"
+					},
+					"Children": [
+						{
+							"ID": "20230713223117-7r036fb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223117-7r036fb",
+								"updated": "20230713223117"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保存着调用函数时传入的实参"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223117-ob44y5k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713223117-ob44y5k",
+						"updated": "20230713223117"
+					},
+					"Children": [
+						{
+							"ID": "20230713223117-iuhqlp0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223117-iuhqlp0",
+								"updated": "20230713223117"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与数组相似，但没有数组常见的属性和方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223117-3yk2hzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713223117-3yk2hzp",
+						"updated": "20230713223534"
+					},
+					"Children": [
+						{
+							"ID": "20230713223117-ybeuio7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223117-ybeuio7",
+								"updated": "20230713223117"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何遍历类数组"
+								}
+							]
+						},
+						{
+							"ID": "20230713223117-qmxt02y",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713223117-qmxt02y",
+								"updated": "20230713223534"
+							},
+							"Children": [
+								{
+									"ID": "20230713223117-noh7hp6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713223117-noh7hp6",
+										"updated": "20230713223117"
+									},
+									"Children": [
+										{
+											"ID": "20230713223117-ofivdde",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713223117-ofivdde",
+												"updated": "20230713223117"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "for循环"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713223117-9k7lie3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713223117-9k7lie3",
+										"updated": "20230713223117"
+									},
+									"Children": [
+										{
+											"ID": "20230713223117-lbqchln",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713223117-lbqchln",
+												"updated": "20230713223117"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将数组方法应用到类数组上"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713223117-ejv5byx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713223117-ejv5byx",
+										"updated": "20230713223534"
+									},
+									"Children": [
+										{
+											"ID": "20230713223117-i1sunmp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713223117-i1sunmp",
+												"updated": "20230713223117"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将类数组转换为数组"
+												}
+											]
+										},
+										{
+											"ID": "20230713223426-2p9f54e",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230713223426-2p9f54e",
+												"updated": "20230713223534"
+											},
+											"Children": [
+												{
+													"ID": "20230713223513-42v94fb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230713223513-42v94fb"
+													},
+													"Children": [
+														{
+															"ID": "20230713223513-cdvdt1v",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713223513-cdvdt1v",
+																"updated": "20230713223514"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Array.prototype.slice.call(arrayLike, start)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713223519-o6t2hme",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230713223519-o6t2hme"
+													},
+													"Children": [
+														{
+															"ID": "20230713223519-60tddxx",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713223519-60tddxx",
+																"updated": "20230713223520"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Array.from(arrayLike)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230713223426-y30qt0m",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230713223426-y30qt0m",
+														"updated": "20230713223534"
+													},
+													"Children": [
+														{
+															"ID": "20230713223426-0tzdvzb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230713223426-0tzdvzb",
+																"updated": "20230713223534"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "扩展运算符转换为数组"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713223813-i1mwurb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713223813-i1mwurb",
+				"updated": "20230713223820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组的遍历方法有哪些"
+				}
+			]
+		},
+		{
+			"ID": "20230713223852-lbdvi3s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713223852-lbdvi3s",
+				"updated": "20230713223852"
+			},
+			"Children": [
+				{
+					"ID": "20230713223852-gm171by",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713223852-gm171by",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-3qoy4xz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-3qoy4xz",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-b90e95y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713223852-b90e95y",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-mdifu9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-mdifu9r",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for..in"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-xcz33ul",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713223852-xcz33ul",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-ft3dnao",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-ft3dnao",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for..of"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-730yf56",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713223852-730yf56",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-tipbjzh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-tipbjzh",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "indexOf，遍历数组并返回相应的索引，没有则返回 -1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-vri6r2i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230713223852-vri6r2i",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-8v3s6xz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-8v3s6xz",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "forEach，默认没有返回值，遍历开始以后无法停止"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-cpq2p8r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230713223852-cpq2p8r",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-a4x9neu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-a4x9neu",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "map，有返回值，生成一个对应的新数组"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-mas52o0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230713223852-mas52o0",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-fjtlrgr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-fjtlrgr",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "filter，返回一个符合筛选规则的新数组"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-p6mueea",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230713223852-p6mueea",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-oln1qld",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-oln1qld",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "every，判断是否全部项都符合条件；只要有一个是 false，便返回 false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-4exj3vu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230713223852-4exj3vu",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-fi7utes",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-fi7utes",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "some，判断是否有某一项符合条件；只要有一个是 true，便返回 true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-7n92qy6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230713223852-7n92qy6",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-8byi7sh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-8byi7sh",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "find，返回的是第一个符合条件的元素"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-ag8ux6q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230713223852-ag8ux6q",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-pwmil7j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-pwmil7j",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "findIndex，返回的是第一个符合条件的元素的索引值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-hcmz0cj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230713223852-hcmz0cj",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-3ac1449",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-3ac1449",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reduce，对数组正序做累加操作"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713223852-e8ztkov",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230713223852-e8ztkov",
+						"updated": "20230713223852"
+					},
+					"Children": [
+						{
+							"ID": "20230713223852-pq8lfdz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713223852-pq8lfdz",
+								"updated": "20230713223852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reduceRight，对数组逆序做累加操作"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713223945-47l7tor",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713223945-47l7tor",
+				"updated": "20230713223956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "forEach和map的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713224029-o9j6j4v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713224029-o9j6j4v",
+				"updated": "20230713224037"
+			},
+			"Children": [
+				{
+					"ID": "20230713224029-cqoey4z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713224029-cqoey4z",
+						"updated": "20230713224029"
+					},
+					"Children": [
+						{
+							"ID": "20230713224029-a84j5k9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224029-a84j5k9",
+								"updated": "20230713224029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "map有返回值，可以return出来一个length和原数组一致的数组(内容可能包含undefined、null等)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713224029-e2i2ws3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713224029-e2i2ws3",
+						"updated": "20230713224037"
+					},
+					"Children": [
+						{
+							"ID": "20230713224029-1yssa7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224029-1yssa7w",
+								"updated": "20230713224037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "forEach没有返回值，返回结果为undefined"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713224045-jzl0ljq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713224045-jzl0ljq",
+				"updated": "20230713224103"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "for...of和for...in的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230713224110-f5jmh25",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713224110-f5jmh25",
+				"updated": "20230713224110"
+			},
+			"Children": [
+				{
+					"ID": "20230713224110-3ldhzby",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713224110-3ldhzby",
+						"updated": "20230713224110"
+					},
+					"Children": [
+						{
+							"ID": "20230713224110-9jl0dnw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224110-9jl0dnw",
+								"updated": "20230713224110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for...of获取对象键值，for...in获取对象键名"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713224110-1yek8pn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713224110-1yek8pn",
+						"updated": "20230713224110"
+					},
+					"Children": [
+						{
+							"ID": "20230713224110-kc9y4ah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224110-kc9y4ah",
+								"updated": "20230713224110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for...of只会遍历当前对象，for..in会遍历整个原型链"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713224110-ouspyff",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713224110-ouspyff",
+						"updated": "20230713224110"
+					},
+					"Children": [
+						{
+							"ID": "20230713224110-x1afjxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224110-x1afjxy",
+								"updated": "20230713224110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for...in适合遍历对象，遍历数组的遍历顺序有可能不是按照实际数组的内部顺序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713224110-07hvu76",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713224110-07hvu76",
+						"updated": "20230713224110"
+					},
+					"Children": [
+						{
+							"ID": "20230713224110-pfmy4a4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224110-pfmy4a4",
+								"updated": "20230713224110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for...of适用遍历数组/字符串/map/set等拥有迭代器对象（iterator）的集合，但是不能遍历对象，因为没有迭代器对象"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713224347-kh7m8rm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713224347-kh7m8rm",
+				"updated": "20230713224358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何使用for...of来遍历对象"
+				}
+			]
+		},
+		{
+			"ID": "20230713224422-zr0lsab",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713224422-zr0lsab",
+				"updated": "20230713224422"
+			},
+			"Children": [
+				{
+					"ID": "20230713224422-lh2iiio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713224422-lh2iiio",
+						"updated": "20230713224422"
+					},
+					"Children": [
+						{
+							"ID": "20230713224422-3xqjnqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224422-3xqjnqp",
+								"updated": "20230713224422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "给对象添加Symbol.iterator属性，实现Iterator 接口"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713224422-dfzjcnp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713224422-dfzjcnp",
+						"updated": "20230713224422"
+					},
+					"Children": [
+						{
+							"ID": "20230713224422-84v0445",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224422-84v0445",
+								"updated": "20230713224422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "for (let [key,value] of Object.entries(obj))"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713224433-qwj2ylf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713224433-qwj2ylf",
+				"updated": "20230713224440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作用域和作用域链的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713224542-z3f8b8n",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713224542-z3f8b8n",
+				"updated": "20230713225132"
+			},
+			"Children": [
+				{
+					"ID": "20230713224625-6pf16g0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713224625-6pf16g0",
+						"updated": "20230713224625"
+					},
+					"Children": [
+						{
+							"ID": "20230713224625-ck672ij",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713224625-ck672ij",
+								"updated": "20230713224700"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用域是变量与函数的可访问范围，​由当前环境与上层环境的一系列变量对象组成"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713225025-qpkgcrz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713225025-qpkgcrz"
+					},
+					"Children": [
+						{
+							"ID": "20230713225025-lzh2m35",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713225025-lzh2m35",
+								"updated": "20230713225029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用域分类"
+								}
+							]
+						},
+						{
+							"ID": "20230713225035-nnjaw1x",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713225035-nnjaw1x",
+								"updated": "20230713225035"
+							},
+							"Children": [
+								{
+									"ID": "20230713225035-77khlaz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713225035-77khlaz",
+										"updated": "20230713225035"
+									},
+									"Children": [
+										{
+											"ID": "20230713225035-bup4ywn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225035-bup4ywn",
+												"updated": "20230713225035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "全局作用域，任何不在函数中或是大括号中声明的变量，都是在全局作用域下，全局作用域下声明的变量可以在程序的任意位置访问"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713225035-lvoic8n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713225035-lvoic8n",
+										"updated": "20230713225035"
+									},
+									"Children": [
+										{
+											"ID": "20230713225035-36e1o77",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225035-36e1o77",
+												"updated": "20230713225035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数作用域，也叫局部作用域，如果一个变量是在函数内部声明的它就在一个函数作用域下面，这些变量只能在函数内部访问，不能在函数以外去访问"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713225035-ms1okrr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713225035-ms1okrr",
+										"updated": "20230713225035"
+									},
+									"Children": [
+										{
+											"ID": "20230713225035-nw6qx4g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225035-nw6qx4g",
+												"updated": "20230713225035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "块级作用域，在大括号中使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "let"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​和"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "const"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​声明的变量存在于块级作用域中，在大括号之外不能访问这些变量"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713225035-ucxg0pz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713225035-ucxg0pz",
+										"updated": "20230713225035"
+									},
+									"Children": [
+										{
+											"ID": "20230713225035-20bzta0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225035-20bzta0",
+												"updated": "20230713225035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "词法作用域，又叫静态作用域，变量被创建时就确定好了，而非执行阶段确定的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713225101-gp94j6g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713225101-gp94j6g",
+						"updated": "20230713225132"
+					},
+					"Children": [
+						{
+							"ID": "20230713225101-xdcfy03",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713225101-xdcfy03",
+								"updated": "20230713225125"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用域链"
+								}
+							]
+						},
+						{
+							"ID": "20230713225125-u00vosz",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713225125-u00vosz",
+								"updated": "20230713225132"
+							},
+							"Children": [
+								{
+									"ID": "20230713225125-n5m1jwa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713225125-n5m1jwa"
+									},
+									"Children": [
+										{
+											"ID": "20230713225125-z45baji",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225125-z45baji",
+												"updated": "20230713225126"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "js使用一个变量时，会在当前作用域中查找，如果没找到，再到它的上层作用域查找，以此类推直到找到该变量或是已经到了全局作用域"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713225127-ebw888x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713225127-ebw888x",
+										"updated": "20230713225132"
+									},
+									"Children": [
+										{
+											"ID": "20230713225127-7kk2b6a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225127-7kk2b6a",
+												"updated": "20230713225132"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "作用是保证对执行环境有权访问的所有变量和函数的有序访问，通过作用域链，可以访问到外层环境的变量和函数"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713225520-wwdyx67",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713225520-wwdyx67",
+				"updated": "20230713225524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行上下文和执行栈的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713225529-5hxfplr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713225529-5hxfplr",
+				"updated": "20230713225704"
+			},
+			"Children": [
+				{
+					"ID": "20230713225530-bsesyxo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713225530-bsesyxo",
+						"updated": "20230713225530"
+					},
+					"Children": [
+						{
+							"ID": "20230713225530-85l1f08",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713225530-85l1f08",
+								"updated": "20230713225551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行上下文是执行 JavaScript 代码的环境，可以理解为一个对象，执行 JavaScript 代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713225552-5tv1v7q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713225552-5tv1v7q"
+					},
+					"Children": [
+						{
+							"ID": "20230713225552-oc18uw6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713225552-oc18uw6",
+								"updated": "20230713225601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行上下文分类"
+								}
+							]
+						},
+						{
+							"ID": "20230713225606-rgofhbm",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713225606-rgofhbm",
+								"updated": "20230713225606"
+							},
+							"Children": [
+								{
+									"ID": "20230713225606-ke0107u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713225606-ke0107u",
+										"updated": "20230713225606"
+									},
+									"Children": [
+										{
+											"ID": "20230713225606-e9x0u9i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225606-e9x0u9i",
+												"updated": "20230713225606"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "全局执行上下文，浏览器中的全局对象就是 window对象，this指向window对象"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713225606-uppxogy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713225606-uppxogy",
+										"updated": "20230713225606"
+									},
+									"Children": [
+										{
+											"ID": "20230713225606-9z51ssj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225606-9z51ssj",
+												"updated": "20230713225606"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数执行上下文，只有在函数被调用的时候才会被创建，每次调用函数都会创建一个新的执行上下文"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713225606-9hqrbdm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713225606-9hqrbdm",
+										"updated": "20230713225606"
+									},
+									"Children": [
+										{
+											"ID": "20230713225606-xv5zr1b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713225606-xv5zr1b",
+												"updated": "20230713225606"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Eval 函数执行上下文，运行在 eval 函数中的代码"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713225656-d08ckzq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713225656-d08ckzq",
+						"updated": "20230713225704"
+					},
+					"Children": [
+						{
+							"ID": "20230713225656-c6q9acz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713225656-c6q9acz",
+								"updated": "20230713225704"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行栈是具有 LIFO（后进先出）结构，用于存储在代码执行期间创建的所有执行上下文"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713225738-xo8eod2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713225738-xo8eod2",
+				"updated": "20230713225739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "闭包的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713225740-7h5dvgb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713225740-7h5dvgb",
+				"updated": "20230713231133"
+			},
+			"Children": [
+				{
+					"ID": "20230713230115-il43bcl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713230115-il43bcl",
+						"updated": "20230713230115"
+					},
+					"Children": [
+						{
+							"ID": "20230713230115-f6ata5l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713230115-f6ata5l",
+								"updated": "20230713230125"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "闭包是指有权访问另一个函数作用域中的变量的函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713230354-2b7qsxk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713230354-2b7qsxk"
+					},
+					"Children": [
+						{
+							"ID": "20230713230613-v5729pc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713230613-v5729pc",
+								"updated": "20230713230613"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在js中变量的作用域属于函数作用域, 在函数执行完后,作用域就会被清理,内存也会随之被回收,但是由于闭包函数是建立在函数内部的子函数, 由于其可访问上级作用域,即使上级函数执行完, 作用域也不会随之销毁, 这时的子函数(也就是闭包),便拥有了访问上级作用域中变量的权限,即使上级函数执行完后作用域内的值也不会被销毁"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713230616-fqtp9o7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713230616-fqtp9o7",
+						"updated": "20230713231133"
+					},
+					"Children": [
+						{
+							"ID": "20230713230616-3sljapx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713230616-3sljapx",
+								"updated": "20230713231133"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点：延长局部变量的生命周期，创建私有变量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713231020-qz875lr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713231020-qz875lr",
+						"updated": "20230713231034"
+					},
+					"Children": [
+						{
+							"ID": "20230713231020-29y7u9c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231020-29y7u9c",
+								"updated": "20230713231034"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点：会导致函数的变量一直保存在内存中，过多的闭包可能会导致内存泄漏"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713231232-i56y30n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713231232-i56y30n",
+				"updated": "20230713231240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原型和原型链的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713231242-o2zd2o4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713231242-o2zd2o4",
+				"updated": "20230713231508"
+			},
+			"Children": [
+				{
+					"ID": "20230713231329-6r12zkd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713231329-6r12zkd",
+						"updated": "20230713231329"
+					},
+					"Children": [
+						{
+							"ID": "20230713231329-7te5u42",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231329-7te5u42",
+								"updated": "20230713231343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原型是每个函数都有一个 prototype 属性，prototype是函数才会有的属性，这个属性是一个指针，指向一个对象，这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法，称为原型对象（prototype object）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713231427-1dze7er",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713231427-1dze7er",
+						"updated": "20230713231508"
+					},
+					"Children": [
+						{
+							"ID": "20230713231427-2v7fkhd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231427-2v7fkhd",
+								"updated": "20230713231508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原型链是每个对象拥有一个原型对象，通过 __proto__ 指针指向上一个原型 ，并从中继承方法和属性，同时原型对象也可能拥有原型，这样一层一层，最终指向 null，这种关系被称为原型链 (prototype chain)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713231600-3srlilz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713231600-3srlilz",
+				"updated": "20230713231602"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何获得对象非原型链上的属性"
+				}
+			]
+		},
+		{
+			"ID": "20230713231611-pb3re8l",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713231611-pb3re8l",
+				"updated": "20230713231612"
+			},
+			"Children": [
+				{
+					"ID": "20230713231612-886o9n4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713231612-886o9n4",
+						"updated": "20230713231612"
+					},
+					"Children": [
+						{
+							"ID": "20230713231612-nrle2g4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231612-nrle2g4",
+								"updated": "20230713231612"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "hasOwnProperty()，检测一个属性是否是对象的自有属性，而不是从原型链继承的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713231623-1cbqd5m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230713231623-1cbqd5m",
+				"updated": "20230713231630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this对象的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713231631-8gisthv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230713231631-8gisthv",
+				"updated": "20230713232550"
+			},
+			"Children": [
+				{
+					"ID": "20230713231839-921cphd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713231839-921cphd",
+						"updated": "20230713231839"
+					},
+					"Children": [
+						{
+							"ID": "20230713231839-hmxcmbu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231839-hmxcmbu",
+								"updated": "20230713231842"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是函数运行时自动生成的一个内部对象，只能在函数内部使用，总指向调用它的对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713231938-qf184af",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713231938-qf184af",
+						"updated": "20230713232550"
+					},
+					"Children": [
+						{
+							"ID": "20230713231938-6szcpje",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231938-6szcpje",
+								"updated": "20230713232550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "默认绑定：独立函数调用，非严格模式默认是指向全局对象 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "window"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，严格模式，就是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "undefined"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713231938-ld8ox1q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713231938-ld8ox1q",
+						"updated": "20230713232535"
+					},
+					"Children": [
+						{
+							"ID": "20230713231938-1shmir8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231938-1shmir8",
+								"updated": "20230713232535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "隐式绑定：前面存在调用它的对象，那么this就会隐式绑定到这个对象，如果函数调用前存在多个对象，this指向距离调用自己最近的对象，函数间接引用，隐式丢失会应用默认绑定"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713231938-rwcb9te",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230713231938-rwcb9te",
+						"updated": "20230713232341"
+					},
+					"Children": [
+						{
+							"ID": "20230713231938-0rv7gjq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231938-0rv7gjq",
+								"updated": "20230713232341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "显式绑定：使用apply()、call()、bind()方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713231938-vozbgct",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230713231938-vozbgct",
+						"updated": "20230713231938"
+					},
+					"Children": [
+						{
+							"ID": "20230713231938-trpaafk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713231938-trpaafk",
+								"updated": "20230713232336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "new绑定：绑定"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "this"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​到新对象上"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713232228-l83xy7d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230713232228-l83xy7d"
+					},
+					"Children": [
+						{
+							"ID": "20230713232228-csvvr9z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713232228-csvvr9z",
+								"updated": "20230713232229"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "new绑定优先级 \u003e 显示绑定优先级 \u003e 隐式绑定优先级 \u003e 默认绑定优先级"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713232143-4hc1s48",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230713232143-4hc1s48"
+					},
+					"Children": [
+						{
+							"ID": "20230713232143-xsjq3rt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713232143-xsjq3rt",
+								"updated": "20230713232235"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "箭头函数：this是静态的，在声明时确定，是声明时所在作用域的this，不在调用时，且不可更改"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713232615-5euxyiy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713232615-5euxyiy",
+				"updated": "20230713232627"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "new操作符的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230713233214-gq184eh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230713233214-gq184eh",
+				"updated": "20230713233214"
+			},
+			"Children": [
+				{
+					"ID": "20230713233214-usjoqdi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713233214-usjoqdi",
+						"updated": "20230713233214"
+					},
+					"Children": [
+						{
+							"ID": "20230713233214-lx82hhx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713233214-lx82hhx",
+								"updated": "20230713233215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建一个给定构造函数的实例对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713233224-lydvydn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713233224-lydvydn",
+						"updated": "20230713233224"
+					},
+					"Children": [
+						{
+							"ID": "20230713233224-94fdxmf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713233224-94fdxmf",
+								"updated": "20230713233224"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流程"
+								}
+							]
+						},
+						{
+							"ID": "20230713233224-c3zsymg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230713233224-c3zsymg",
+								"updated": "20230713233224"
+							},
+							"Children": [
+								{
+									"ID": "20230713233224-8zouod8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230713233224-8zouod8",
+										"updated": "20230713233224"
+									},
+									"Children": [
+										{
+											"ID": "20230713233224-dgod9u5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713233224-dgod9u5",
+												"updated": "20230713233224"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "创建一个空对象，作为将要返回的对象实例"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713233224-scr3g4v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230713233224-scr3g4v",
+										"updated": "20230713233224"
+									},
+									"Children": [
+										{
+											"ID": "20230713233224-xwfaqi8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713233224-xwfaqi8",
+												"updated": "20230713233224"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将这个空对象的原型，指向构造函数的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "prototype"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​属性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713233224-9sgo4pz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230713233224-9sgo4pz",
+										"updated": "20230713233224"
+									},
+									"Children": [
+										{
+											"ID": "20230713233224-jj9eqdi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713233224-jj9eqdi",
+												"updated": "20230713233224"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将这个空对象赋值给函数内部的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "this"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​关键字"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713233224-eka9y3x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230713233224-eka9y3x",
+										"updated": "20230713233224"
+									},
+									"Children": [
+										{
+											"ID": "20230713233224-w13sgfh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713233224-w13sgfh",
+												"updated": "20230713233224"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开始执行构造函数内部的代码"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713233224-vkotl8r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230713233224-vkotl8r",
+										"updated": "20230713233224"
+									},
+									"Children": [
+										{
+											"ID": "20230713233224-qk8cfk1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713233224-qk8cfk1",
+												"updated": "20230713233224"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "根据返回类型作判断，如果是原始值则被忽略，如果是返回对象，需要正常处理"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713151903-mdadla3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713151903-mdadla3",
+				"updated": "20230713151910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230713151910-kwlbgmn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230713151910-kwlbgmn",
+				"updated": "20230713151918"
+			},
+			"Children": [
+				{
+					"ID": "20230713151912-1nnvlyt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230713151912-1nnvlyt",
+						"updated": "20230713151918"
+					},
+					"Children": [
+						{
+							"ID": "20230713151912-p6brk4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713151912-p6brk4g",
+								"updated": "20230713151918"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7016593221815910408"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

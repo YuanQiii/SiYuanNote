@@ -1,0 +1,4014 @@
+{
+	"ID": "20230709171522-baojni3",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230709171522-baojni3",
+		"title": "Vue2与Vue3区别",
+		"updated": "20230709171628"
+	},
+	"Children": [
+		{
+			"ID": "20230709171537-bkx8lrj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709171537-bkx8lrj",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优化"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-ox2ufuw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-ox2ufuw",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "响应性"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-2b5xuf5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-2b5xuf5",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue2"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-8jqcic3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171537-8jqcic3",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-abb9eih",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-abb9eih",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-9f9bvl5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-9f9bvl5",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vue2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的响应性主要依赖 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Object.defineProperty"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 进行实现，但是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Object.defineProperty"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 只能监听 **指定对象的指定属性的 **"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong code",
+									"TextMarkTextContent": "getter"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 行为和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong code",
+									"TextMarkTextContent": "setter"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 行为"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-noadu5j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-noadu5j",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-29yg6an",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-29yg6an",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "data"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中声明了一个对象 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "person"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，但是在后期为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "person"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 增加了新的属性，那么这个新的属性就会失去响应性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-nmyfmfx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-nmyfmfx",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-3cpcl3p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-3cpcl3p",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Vue.$set"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 方法来增加 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "指定对象指定属性的响应性"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-tnrsysn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-tnrsysn",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue3"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-pt0jqup",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171537-pt0jqup",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-5evow2z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-5evow2z",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-h7q03d5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-h7q03d5",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以利用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Proxy"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 直接代理一个普通对象，得到一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "proxy 实例"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的代理对象。在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vue3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中，这个过程通过 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "reactive"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 这个方法进行实现"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-g5ee81y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-g5ee81y",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-6cz9511",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-6cz9511",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是 proxy 只能实现代理复杂数据类型，所以 vue 额外提供了 ref 方法，用来处理简单数据类型的响应性。ref 本质上并没有进行数据的监听，而是构建了一个 RefImpl 的类，通过 set 和 get 标记了 value 函数，以此来进行的实现。所以 ref 必须要通过 .value 进行触发，之所以要这么做本质是调用 value 方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-urucanr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-urucanr",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事件监听缓存"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-kjk08u0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-kjk08u0",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-u6a76h1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-u6a76h1",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-iuopv5o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-iuopv5o",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "默认情况下onClick会被视为动态绑定，所以每次都会追踪他的变化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-a6jdpyq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-a6jdpyq",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-oc6o0nb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-oc6o0nb",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但是函数还是同一个函数所以没必要追踪，直接缓存起来复用就好了，这就是所说的事件监听缓存"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-5za3mah",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-5za3mah",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SSR"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-km01wj5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171537-km01wj5",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-rov2j3a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-rov2j3a",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-x7jlyis",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-x7jlyis",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当静态内容大到一定量级时候，会用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "createStaticVNode"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​方法在客户端去生成一个static node，这些静态"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "node"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，会被直接"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "innerHtml"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，就不需要创建对象，然后根据对象渲染"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-ipyk2s9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-ipyk2s9",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tree-Shaking"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-9jo66wc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171537-9jo66wc",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-wkbftcz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-wkbftcz",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-7fgonwh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-7fgonwh",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "相比2.x导入整个Vue对象，3.x支持按需导入，只打包需要的代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-6m52srk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-6m52srk",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-wtc95ha",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-wtc95ha",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue2.x中new出的实例对象，所有的东西都在这个vue对象上，这样其实⽆论你⽤到还是没⽤到，都会跑⼀遍，这样不仅提⾼了性能消耗， 也⽆疑增加了⽤户加载时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-v111fiv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-v111fiv",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-7kqchlz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-7kqchlz",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "⽽vue3.0中可以⽤ES module imports按需引⼊，如：keep-alive内置组件、v-model指令，等等，不仅我们开发起来更加的便捷，减少 了内存消耗，也同时减少了⽤户加载时间，优化⽤户体验"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-02yk14s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-02yk14s",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "静态提升"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-9yozfg9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-9yozfg9",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-72v8eag",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-72v8eag",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-yjv8127",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-yjv8127",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Vue3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​中对不参与更新的元素，会做静态提升，只会被创建一次，在渲染时直接复用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-d5ru1hh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-d5ru1hh",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-fo57aql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-fo57aql",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "免去了重复的创建节点，大型应用会受益于这个改动，免去了重复的创建操作，优化了运行时候的内存占用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-9l4i79h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-9l4i79h",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "diff算法"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-xkwj7wd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-xkwj7wd",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-zzqos9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-zzqos9o",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-u1q23fj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-u1q23fj",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "渲染算法的改变 Vue3优化diff算法。不再像vue2那样比对所有dom，而采用了block tree的做法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-1idp2va",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-1idp2va",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-f1dt0ib",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-f1dt0ib",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重新渲染的算法里也做了改进，利用了闭包来进行缓存"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-9h285yf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-9h285yf",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-7fxpg02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-7fxpg02",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vue3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "diff"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​算法中相比"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vue2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​增加了静态标记"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-5zcf1hu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-5zcf1hu",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reflect"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-pr606ar",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-pr606ar",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-t4rt5n2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-t4rt5n2",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-jf39b0x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-jf39b0x",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Reflect"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​引入了基本绝大多数"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Object"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的方法，基本"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Object"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​能实现的，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Reflect"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​都能替代。 当我们用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "defineProperty"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​重复去定义一个变量的时候，会报错，这对js单线程来说是很严重的，会阻断所有操作"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-t087owp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-t087owp",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-jxfxkid",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-jxfxkid",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因为在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Vue2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​中，用了大量的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "try...catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​去捕获这类错误，而"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Reflect"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​则用返回值 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "true/false"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 去替代报错"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-u2c6izd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-u2c6izd",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript支持"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-2mueuqy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-2mueuqy",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-dxlfys8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-dxlfys8",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-1u1dpju",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-1u1dpju",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只需要在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;script setup\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中添加 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "lang=\u0026quot;ts\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-71m0twt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-71m0twt",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-ct7hmta",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-ct7hmta",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue2 Options API 中 option 是个简单对象，而 TypeScript 是一种类型系统，面向对象的语法，不是特别匹配"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-qtc15tf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-qtc15tf",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-q31xlqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-q31xlqp",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue2 需要vue-class-component强化vue原生组件，也需要vue-property-decorator增加更多结合Vue特性的装饰器，写法比较繁琐"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-e4nek1w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709171537-e4nek1w",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-gbvk4aw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-gbvk4aw",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-auusi41",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-auusi41",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选项式Api与组合式Api"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-zaq3d0s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-zaq3d0s",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-grrgu4u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-grrgu4u",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-j7ncfad",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-j7ncfad",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选项式Api是将data和methods包括后面的watch，computed等分开管理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-deevi3z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-deevi3z",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-x3juyra",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-x3juyra",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组合式Api则是将相关逻辑放到了一起"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-xxl7knm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-xxl7knm",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-h8w8we0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-h8w8we0",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "setup语法糖则可以让变量方法不用再写return，后面的组件甚至是自定义指令也可以在我们的template中自动获得"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-f7mdcwb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-f7mdcwb",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ref 与 reactive"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-4aew1k5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-4aew1k5",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-eyxx8wi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-eyxx8wi",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-6wzv90z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-6wzv90z",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用ref的时候在js中取值的时候需要加上.value"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-k885cmn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-k885cmn",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-wqj2rrk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-wqj2rrk",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reactive更推荐去定义复杂的数据类型 ref 更推荐定义基本类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-llzp0sl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-llzp0sl",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-mi6i0rg",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20230709171537-mi6i0rg",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vue2(选项式API)"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vue3(setup)"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "beforeCreate"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实例创建前"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "created"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实例创建后"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "beforeMount"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onBeforeMount"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DOM挂载前调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mounted"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onMounted"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DOM挂载完成调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "beforeUpdate"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onBeforeUpdate"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据更新之前被调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "updated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onUpdated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据更新之后被调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "activated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onActivated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件活跃时调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "deactivated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onDeactivated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件不活跃时调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "beforeDestroy"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onBeforeUnmount"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件销毁前调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "destroyed"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onUnmounted"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件销毁完成调用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-qkjwbyk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-qkjwbyk",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-dz6l2on",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-dz6l2on",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-wzrvo39",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-wzrvo39",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue3命名上发生了一些变化并且移除了beforeCreate和created，因为setup是围绕beforeCreate和created生命周期钩子运行的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-pgburq3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-pgburq3",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-0vy87sq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-0vy87sq",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生命周期采用hook函数引入"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-wc512x1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-wc512x1",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-g0gxwvf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-g0gxwvf",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Vue3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 生命周期钩子都以 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "on"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 开头，并且需要在组件中手动导入"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-5vhkjsy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-5vhkjsy",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "watch与computed"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-ozy4hik",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171537-ozy4hik",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-xiutbmt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-xiutbmt",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-r05cxlj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-r05cxlj",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "computed和watch所依赖的数据必须是响应式的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-r3rohd8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-r3rohd8",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组件通信"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-qc2yblp",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20230709171537-qc2yblp",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "方式"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vue2"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vue3"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父传子"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "props"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "props"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子传父"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$emit"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "emits"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父传子"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$attrs"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "attrs"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子传父"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$listeners"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无(合并到 attrs方式)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父传子"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "provide"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "provide"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子传父"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "inject"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "inject"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子组件访问父组件"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$parent"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父组件访问子组件"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$children"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父组件访问子组件"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$ref"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "expose\u0026ref"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "兄弟传值"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "EventBus"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mitt"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-dovcwki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-dovcwki",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自定义指令"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-rr0tz6u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-rr0tz6u",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-2j0jxnk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-2j0jxnk",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-ft1cfp8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-ft1cfp8",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue3注册一个局部的自定义指令，需要以小写v开头，如vFocus"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-ardk0mb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-ardk0mb",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-51gdwem",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-51gdwem",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue2使用directives选项定义"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-30pjxmp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-30pjxmp",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "v-model与sync"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-ktedc7p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-ktedc7p",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-ei3hyer",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-ei3hyer",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-ygehcs8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-ygehcs8",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vue3中移除了sync的写法，取而代之的式v-model:event的形式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-ewuy6ff",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-ewuy6ff",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-jm585ih",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-jm585ih",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "v-model:changePval=\u0026quot;msg\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​或者"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ":changePval.sync=\u0026quot;msg\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的完整写法为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@update:changePval=\u0026quot;msg=$event\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。所以子组件需要发送"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "update:changePval"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​事件进行修改父组件的值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-sgqp5pi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-sgqp5pi",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-su3dz7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-su3dz7q",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue3 统一使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "v-model"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 进行处理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-ezzam9k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230709171537-ezzam9k",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-o5tay15",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-o5tay15",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "v-model"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 等价于 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ":model-value=\u0026quot;someValue\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@update:model-value=\u0026quot;someValue = $event\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-klj1i5j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230709171537-klj1i5j",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-iu0y1fm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-iu0y1fm",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "v-model:foo"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 等价于 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ":foo=\u0026quot;someValue\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@update:foo=\u0026quot;someValue = $event\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-lxlpj5e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-lxlpj5e",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "hook 与 mixins"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-5rhblr6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171537-5rhblr6",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-10s8bxl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-10s8bxl",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-bec53iw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-bec53iw",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "封装数据的方法，返回需要的内容，在需要的页面按需引入"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-376g2ty",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171537-376g2ty",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-r2y91zy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-r2y91zy",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mixin"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 会使数据来源不明，同时会引起命名冲突"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-y1ougd7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-y1ougd7",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全局 API"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-2xuncky",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-2xuncky",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-s8hpk8r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-s8hpk8r",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-w178rgq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-w178rgq",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue2 中的全局属性或全局方法，是在构造函数 Vue 的原型对象上进行添加，如："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Vue.prototype.$axios = axios"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-kp87h4l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-kp87h4l",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-s6j78uw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-s6j78uw",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue3 中，需要在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 实例上添加,app.config.globalProperties.$axios = axios"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-0nto7i0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-0nto7i0",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-aorn1sa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-aorn1sa",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue3 中其他的全局 API，如 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "directive"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "component"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 等，跟 Vue2 的用法都差不多，只不过一个是在 Vue 上调用，一个是在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 实例上调用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-ipb6lgh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-ipb6lgh",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新增"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-oc6gl2c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-oc6gl2c",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "watchEffect"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-l0daqqr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-l0daqqr",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-9zvaz1s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-9zvaz1s",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-93u0mwr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-93u0mwr",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "watchEffect是副作用监听函数，会立即执行传入的一个函数，同时响应式追踪其依赖，并在其依赖变更时重新运行该函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-gvkyfed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-gvkyfed",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-35db2bz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-35db2bz",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "watchEffect 相当于将 watch 的依赖源和回调函数合并，当任何你有用到的响应式依赖更新时，该回调函数便会重新执行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-1332rk2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-1332rk2",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-xvzgodm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-xvzgodm",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同于 watch的是watchEffect的回调函数会被立即执行，即（{ immediate: true }）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-10z0kz9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-10z0kz9",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Fragment"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-tsrlkr5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-tsrlkr5",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-m8j1rpm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-m8j1rpm",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-1310w0l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-1310w0l",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vue3支持碎片(Fragments)，就是说在组件可以拥有多个根节点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-9ewirmo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-9ewirmo",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-a42zt1y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-a42zt1y",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以减少很多组件之间的div包裹元素"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-5na5riy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-5na5riy",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Teleport"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-dyfdii9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-dyfdii9",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-d6m32zk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-d6m32zk",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-q5e9203",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-q5e9203",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;Teleport\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是一个内置组件，它可以将一个组件内部的一部分模板“传送”到该组件的 DOM 结构外层的位置去"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-njsrtn0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-njsrtn0",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-drq188x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-drq188x",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;Teleport\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 接收一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "to"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ prop 来指定传送的目标。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "to"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的值可以是一个 CSS 选择器字符串，也可以是一个 DOM 元素对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-9om4hxy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230709171537-9om4hxy",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-uvtrrcf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-uvtrrcf",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;Teleport\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 只改变了渲染的 DOM 结构，它不会影响组件间的逻辑关系"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-o2exe89",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-o2exe89",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Suspense"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-i73dotj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-i73dotj",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-uaao7ot",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-uaao7ot",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-5zs0v8a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-5zs0v8a",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Suspense"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 允许我们协调整个应用程序的加载状态，包括所有深度嵌套的组件，可以有一个单一的、有组织的系统，一次性加载所有东西"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-26sssxe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-26sssxe",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移除"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-dioskbb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-dioskbb",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-yy33a97",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-yy33a97",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-y2tovc1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-y2tovc1",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-p561yy4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-p561yy4",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 Vue2，this代表的是当前组件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171537-ayyetyg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709171537-ayyetyg",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-arpwwtw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-arpwwtw",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vue3不能使用this。所以Vue为了避免我们错误的使用，直接将setup函数中的this修改成了 undefined，getCurrentInstance方法，该方法返回了ctx和proxy"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-hwlm0ku",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-hwlm0ku",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "KeyboardEvent.keyCode"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-q7szjt9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230709171537-q7szjt9",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "SFRNTA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 无效\n\u003cinput @keyup.13=\"handler\" /\u003e\n// 有效\n\u003cinput @keyup.enter=\"handler\" /\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-gv95s5i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230709171537-gv95s5i",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "filters"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-z5tkuoa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709171537-z5tkuoa",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"ID": "20230709171537-18h63p1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709171537-18h63p1",
+						"updated": "20230709171537"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-h5uox7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-h5uox7u",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "methods"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的或者"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "computed"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​来替代"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-jbfhype",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230709171537-jbfhype",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-k98qf0h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230709171537-k98qf0h",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "VnVl"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 父组件\n\u003ctemplate\u003e\n  \u003c!-- 10. Teleport --\u003e\n  \u003cdiv id=\"teleport-target\"\u003e\u003c/div\u003e\n  \u003cChild\n    ref=\"child\"\n    @sendEmitValue=\"handleEmitValue\"\n    @parentFun=\"handleParentFun\"\n    v-model=\"modelValue\"\n    :parentValue=\"parentValue\"\n    :parentAttr=\"parentAttr\"\n  /\u003e\n\u003c/template\u003e\n\n\u003cscript setup\u003e\nimport { ref, provide, onMounted, onUnmounted } from \"vue\";\nimport Child from \"./components/Child.vue\";\nimport Mitt from \"@/utils/mitt.js\";\n\n// 6.1 props/emit\nconst parentValue = ref('parentValue')\nconst handleEmitValue = (value) =\u003e {\n  console.log(value);\n};\n\n// 6.2 attrs/listeners\nconst parentAttr = ref('parentAttr')\nconst handleParentFun = () =\u003e {\n  console.log(\"handleParentFun\");\n};\n\n// 6.3 provide/inject\nconst parentProvideValue = ref(\"parentProvideValue\");\nprovide(\"parentProvideValue\", parentProvideValue);\n\n// 6.4 parent/children 已移除\n\n// 6.5. ref/expose\n// 注意命名需要和template中ref对应，\nconst child = ref();\n// 只能元素挂载后才能获取到完整的组件ref的信息\nonMounted(() =\u003e {\n  const {childExposeValue, childExposeFun} = child.value\n  console.log(childExposeValue);\n  childExposeFun()\n});\n\n// 6.6 EventBus/mitt\nconst handleMittValue = (value) =\u003e {\n  console.log(value); //兄弟的值\n};\nMitt.on(\"sendMittValue\", handleMittValue);\nonUnmounted(() =\u003e {\n  //组件销毁 移除监听\n  Mitt.off(\"sendMittValue\");\n});\n\n// 7. v-model\nconst modelValue = ref(\"modelValue\");\n\u003c/script\u003e\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-xblmukq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230709171537-xblmukq",
+				"updated": "20230709171603"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "VnVl"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 子组件\n\u003ctemplate\u003e\n  \u003c!-- 9. Vue3支持碎片(Fragments)，组件可以拥有多个根节点 --\u003e\n  \u003cdiv v-focus\u003e{{ newMsg }}\u003c/div\u003e\n  \u003cbutton @click=\"handleClick\"\u003eclick\u003c/button\u003e\n  \u003c!-- 10. Teleport --\u003e\n  \u003cTeleport to=\"#teleport-target\"\u003e\n    \u003cdiv\u003eTeleport\u003c/div\u003e\n  \u003c/Teleport\u003e\n\u003c/template\u003e\n\n\u003cscript setup\u003e\nimport {\n  ref,\n  reactive,\n  computed,\n  watch,\n  watchEffect,\n  defineProps,\n  defineEmits,\n  useAttrs,\n  inject,\n  defineExpose,\n  onBeforeMount,\n  onMounted,\n  onBeforeUpdate,\n  onUpdated,\n  onActivated,\n  onDeactivated,\n  onBeforeUnmount,\n  onUnmounted,\n  toRef,\n} from \"vue\";\nimport Mitt from \"@/utils/mitt.js\";\n\n// 1. ref/reactive\nlet msg = ref(\"hello\");\nlet obj = reactive({\n  name: \"obj\",\n});\n\n// 2. 生命周期函数\nonBeforeMount(() =\u003e {\n  console.log(\"onBeforeMount\");\n});\nonMounted(() =\u003e {\n  console.log(\"onMounted\");\n});\nonBeforeUpdate(() =\u003e {\n  console.log(\"onBeforeUpdate\");\n});\nonUpdated(() =\u003e {\n  console.log(\"onUpdated\");\n});\nonActivated(() =\u003e {\n  console.log(\"onActivated \");\n});\nonDeactivated(() =\u003e {\n  console.log(\"onDeactivated\");\n});\nonBeforeUnmount(() =\u003e {\n  console.log(\"onBeforeUnmount\");\n});\nonUnmounted(() =\u003e {\n  console.log(\"onUnmounted\");\n});\n\n// 3. computed\nconst newMsg = computed(() =\u003e {\n  return msg.value + \"world\";\n});\n\n// 4. watch\nwatch(msg, (newVal, oldVal) =\u003e {\n  console.log(newVal);\n  console.log(oldVal);\n});\n\n// 5. watchEffect\nwatchEffect(() =\u003e {\n  console.log(msg.value);\n});\n\n// 6.1 props/emit\nconst props = defineProps([\"parentValue\"]);\nconst parentValue = toRef(props, \"parentValue\");\nconsole.log(parentValue.value);\nconst emits = defineEmits([\"sendEmitValue\", \"update:modelValue\"]);\nconst sendEmitValue = () =\u003e {\n  emits(\"sendEmitValue\", \"emitValue\");\n};\n\n// 6.2 attrs/listeners\n// Vue3中已经不再使用$listeners\n// Vue3中使用attrs调用父组件方法时，方法前需要加上on\nconst attrs = useAttrs();\n//获取父组件方法和事件\nconsole.log(attrs.parentAttr); //Proxy {\"msg1\": \"子组件msg1\",\"msg2\": \"子组件msg2\"}\n//调用父组件方法\nattrs.onParentFun();\n\n// 6.3 provide/inject\n// 注入上层组件提供的数据\ninject(\"parentProvideValue\").value;\n\n// 6.4 parent/children 已移除\n\n// 6.5 ref/expose\nconst childExposeValue = ref(\"childExposeValue\");\nconst childExposeFun = () =\u003e {\n  console.log(\"childExposeFun\");\n};\ndefineExpose({\n  childExposeValue,\n  childExposeFun,\n});\n\n// 6.6 EventBus/mitt\nconst sendMittValue = () =\u003e {\n  Mitt.emit(\"sendMittValue\", \"mittValue\");\n};\n\n// 7. v-model，移除 .sync\nconst updateModelValue = () =\u003e {\n  emits(\"update:modelValue\", \"updateModelValue\");\n};\n\n// 8. 自定义指令\nconst vFocus = {\n  mounted: (el) =\u003e console.log(el),\n};\n\nfunction handleClick() {\n  sendEmitValue();\n  sendMittValue();\n  updateModelValue();\n}\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230709171537-gfvb9uw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709171537-gfvb9uw",
+				"updated": "20230709171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230709171553-1j0pw0r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709171553-1j0pw0r"
+			},
+			"Children": [
+				{
+					"ID": "20230709171553-uq9hela",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171553-uq9hela"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-eoar72o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-eoar72o",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://cn.vuejs.org/",
+									"TextMarkTextContent": "Vue.js - 渐进式 JavaScript 框架 | Vue.js (vuejs.org)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171553-8hnaz3u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171553-8hnaz3u"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-nuser56",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-nuser56",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7111129583713255461",
+									"TextMarkTextContent": "想知道Vue3与Vue2的区别?五千字教程助你快速上手Vue3! - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171553-974a1rz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171553-974a1rz"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-1lfihas",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-1lfihas",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7203195123433734203",
+									"TextMarkTextContent": "一个问题干懵面试官 ：Vue2与Vue3的区别 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171553-npfy87a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171553-npfy87a"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-5cge5wn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-5cge5wn",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7042150123467440135",
+									"TextMarkTextContent": "https://juejin.cn/post/7042150123467440135"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171553-yxgk6xy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171553-yxgk6xy"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-fnfvbwo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-fnfvbwo",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7151909645399883807",
+									"TextMarkTextContent": "https://juejin.cn/post/7151909645399883807"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709171553-0c3uvsy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709171553-0c3uvsy"
+					},
+					"Children": [
+						{
+							"ID": "20230709171537-4dwopji",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709171537-4dwopji",
+								"updated": "20230709171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://vue3js.cn/interview/vue3/performance.html",
+									"TextMarkTextContent": "面试官：Vue3.0性能提升主要是通过哪几方面体现的？ | web前端面试 - 面试官系列 (vue3js.cn)"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

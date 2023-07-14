@@ -1,0 +1,318 @@
+{
+	"ID": "20230705141552-hsg1or3",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230705141552-hsg1or3",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141552-hsg1or3\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230710211137-9qmrgx6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230710211152-0uaogjy\u0026quot;,\u0026quot;scrollTop\u0026quot;:44,\u0026quot;focusId\u0026quot;:\u0026quot;20230710211147-ipo9h57\u0026quot;,\u0026quot;focusStart\u0026quot;:34,\u0026quot;focusEnd\u0026quot;:34}",
+		"title": "工程化",
+		"updated": "20230710211152"
+	},
+	"Children": [
+		{
+			"ID": "20230710211137-9qmrgx6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710211137-9qmrgx6",
+				"updated": "20230710211141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webpack 构建流程"
+				}
+			]
+		},
+		{
+			"ID": "20230710211147-ikc89k8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710211147-ikc89k8",
+				"updated": "20230710211147"
+			},
+			"Children": [
+				{
+					"ID": "20230710211147-zkrs2ge",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710211147-zkrs2ge",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-ws0e96y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-ws0e96y",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "entry-option：读取 webpack 配置，调用 new Compile(config) 函数准备编译"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-7mg6c7g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710211147-7mg6c7g",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-kyrswmo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-kyrswmo",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "run：开始编译"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-ncolng0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710211147-ncolng0",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-k3u3rcr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-k3u3rcr",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "make：从入口开始分析依赖，对依赖模块进行 build"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-irt4zl4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230710211147-irt4zl4",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-qf2ohpv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-qf2ohpv",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "before-resolve：对位置模块进行解析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-h6b651h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230710211147-h6b651h",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-g3i4n6u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-g3i4n6u",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "build-module：开始构建模块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-u7gu60z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230710211147-u7gu60z",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-x4dyob3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-x4dyob3",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "normal-module-loader：生成 AST 树"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-78x5hcy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230710211147-78x5hcy",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-ipo9h57",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-ipo9h57",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "program：遍历 AST 树，遇到 require 语句收集依赖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-zhixwl9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230710211147-zhixwl9",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-q8g8ul6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-q8g8ul6",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "seal：build 完成开始优化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710211147-wdlx83c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230710211147-wdlx83c",
+						"updated": "20230710211147"
+					},
+					"Children": [
+						{
+							"ID": "20230710211147-uh2x7k7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710211147-uh2x7k7",
+								"updated": "20230710211147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "emit：输出 dist 目录"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710211152-0uaogjy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230710211152-0uaogjy"
+			}
+		}
+	]
+}

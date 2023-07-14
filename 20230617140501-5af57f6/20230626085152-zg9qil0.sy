@@ -1,0 +1,229 @@
+{
+	"ID": "20230626085152-zg9qil0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230626085152-zg9qil0",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230626085152-zg9qil0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230626090313-pjshe89\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230626085152-ihu1yro\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230626090315-1pe0oin\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "TypeScript",
+		"updated": "20230628111009"
+	},
+	"Children": [
+		{
+			"ID": "20230626090313-pjshe89",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230626090313-pjshe89",
+				"updated": "20230628111009"
+			},
+			"Children": [
+				{
+					"ID": "20230626090315-vhv5yf2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230626090315-vhv5yf2",
+						"updated": "20230626090315"
+					},
+					"Children": [
+						{
+							"ID": "20230626090315-1pe0oin",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230626090315-1pe0oin",
+								"updated": "20230626090321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类型体操"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230626095036-9vqin0l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230626095036-9vqin0l",
+						"updated": "20230626095040"
+					},
+					"Children": [
+						{
+							"ID": "20230626095036-768tfpw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230626095036-768tfpw",
+								"updated": "20230626095040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类型关键字"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627175148-7lmzytn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230627175148-7lmzytn"
+					},
+					"Children": [
+						{
+							"ID": "20230627175148-r5xzfel",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627175148-r5xzfel",
+								"updated": "20230627175158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "外部模块声明、"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627175158-200onre",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230627175158-200onre"
+					},
+					"Children": [
+						{
+							"ID": "20230627182856-j4usvp2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627182856-j4usvp2",
+								"updated": "20230627182856"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类类型接口"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627182859-ght6k2q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230627182859-ght6k2q",
+						"updated": "20230628111009"
+					},
+					"Children": [
+						{
+							"ID": "20230627182859-sfl89xq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627182859-sfl89xq",
+								"updated": "20230628111009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "!?"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230626090322-o81kvdh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230626090322-o81kvdh"
+			}
+		},
+		{
+			"ID": "20230626092633-bur10ez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230626092633-bur10ez",
+				"updated": "20230626092633"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.typescriptlang.org/pt/play",
+					"TextMarkTextContent": "TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript (typescriptlang.org)"
+				}
+			]
+		},
+		{
+			"ID": "20230626085158-9bfl8b4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230626085158-9bfl8b4",
+				"updated": "20230626090225"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.typescriptlang.org/docs/handbook/utility-types.html",
+					"TextMarkTextContent": "TypeScript: Documentation - Utility Types (typescriptlang.org)"
+				}
+			]
+		},
+		{
+			"ID": "20230626085152-ihu1yro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230626085152-ihu1yro",
+				"updated": "20230626090310"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://app.quicktype.io/",
+					"TextMarkTextContent": "Instantly parse JSON in any language | quicktype"
+				}
+			]
+		}
+	]
+}

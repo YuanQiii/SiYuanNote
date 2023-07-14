@@ -1,0 +1,21 @@
+{
+	"ID": "20230705141522-0y8xn4r",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230705141522-0y8xn4r",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141522-0y8xn4r\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705141522-zgn2qyq\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705141522-zgn2qyq\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230705141522-zgn2qyq\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "Node",
+		"updated": "20230705141523"
+	},
+	"Children": [
+		{
+			"ID": "20230705141522-zgn2qyq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230705141522-zgn2qyq",
+				"updated": "20230705141522"
+			}
+		}
+	]
+}

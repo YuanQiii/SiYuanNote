@@ -4,16 +4,2136 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230617140545-lboleuo",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230617140545-lboleuo\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230617141654-tp4sx6w\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230617141654-tp4sx6w\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230617141654-tp4sx6w\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230617140545-lboleuo\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230703092611-vnzck9o\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230703095027-ya3fd8y\u0026quot;,\u0026quot;scrollTop\u0026quot;:708,\u0026quot;focusId\u0026quot;:\u0026quot;20230706094704-rc01wnm\u0026quot;,\u0026quot;focusStart\u0026quot;:6,\u0026quot;focusEnd\u0026quot;:6}",
 		"title": "支付",
-		"updated": "20230617141728"
+		"updated": "20230706160508"
 	},
 	"Children": [
 		{
-			"ID": "20230617141654-tp4sx6w",
+			"ID": "20230703092611-vnzck9o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703092611-vnzck9o",
+				"updated": "20230703092623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概念"
+				}
+			]
+		},
+		{
+			"ID": "20230703092623-2l1z0u7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703092623-2l1z0u7",
+				"updated": "20230703092638"
+			},
+			"Children": [
+				{
+					"ID": "20230703092624-5x52e61",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230703092624-5x52e61",
+						"updated": "20230703092624"
+					},
+					"Children": [
+						{
+							"ID": "20230703092624-lypk364",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703092624-lypk364",
+								"updated": "20230703092624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.requestPayment是一个统一各平台的客户端支付API，不管是在某家小程序还是在App中，客户端均使用本API调用支付"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703092624-v3gg6j4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230703092624-v3gg6j4"
+					},
+					"Children": [
+						{
+							"ID": "20230703092624-h9nlsyg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703092624-h9nlsyg",
+								"updated": "20230703092629"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本API运行在各端时，会自动转换为各端的原生支付调用API"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703092638-sx0ue23",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230703092638-sx0ue23",
+						"updated": "20230703092638"
+					},
+					"Children": [
+						{
+							"ID": "20230703092638-q07t9m4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703092638-q07t9m4",
+								"updated": "20230703092638"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但各平台的支付申请开通、配置回填仍然需要看各个平台本身的支付文档"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703092706-lxni02h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703092706-lxni02h",
+				"updated": "20230704174440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应用浏览器"
+				}
+			]
+		},
+		{
+			"ID": "20230703094724-9n02vw7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230703094724-9n02vw7",
+				"updated": "20230703094906"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PC端"
+				}
+			]
+		},
+		{
+			"ID": "20230703094910-1tqbrf2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703094910-1tqbrf2",
+				"updated": "20230704174148"
+			},
+			"Children": [
+				{
+					"ID": "20230704174138-hv4myu2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230704174138-hv4myu2",
+						"updated": "20230704223743"
+					},
+					"Children": [
+						{
+							"ID": "20230704174138-y5ofm4y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704174138-y5ofm4y",
+								"updated": "20230704174138"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信"
+								}
+							]
+						},
+						{
+							"ID": "20230704222552-mtpwl0a",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704222552-mtpwl0a",
+								"updated": "20230704223743"
+							},
+							"Children": [
+								{
+									"ID": "20230704222605-4lj3r0r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704222605-4lj3r0r",
+										"updated": "20230704223743"
+									},
+									"Children": [
+										{
+											"ID": "20230704222605-1u92f6c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704222605-1u92f6c",
+												"updated": "20230704223731"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Native支付"
+												}
+											]
+										},
+										{
+											"ID": "20230704223732-r5iwtt2",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230704223732-r5iwtt2",
+												"updated": "20230704223743"
+											},
+											"Children": [
+												{
+													"ID": "20230704223732-50tbcjw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230704223732-50tbcjw"
+													},
+													"Children": [
+														{
+															"ID": "20230704223732-5gp6r2s",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223732-5gp6r2s"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "商家在系统中按微信支付协议生成支付二维码，用户扫码拉起微信收银台，确认并完成付款"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704223737-pvay65m",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230704223737-pvay65m",
+														"updated": "20230704223743"
+													},
+													"Children": [
+														{
+															"ID": "20230704223737-z9wcq8z",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223737-z9wcq8z",
+																"updated": "20230704223743"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Native支付适用于PC网站、实体店单品或订单、媒体广告支付等场景"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704174141-lv6wuwf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230704174141-lv6wuwf",
+						"updated": "20230704174148"
+					},
+					"Children": [
+						{
+							"ID": "20230704174141-qdij1ol",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704174141-qdij1ol"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝"
+								}
+							]
+						},
+						{
+							"ID": "20230704174145-2k74dpc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704174145-2k74dpc",
+								"updated": "20230704174148"
+							},
+							"Children": [
+								{
+									"ID": "20230704174145-shrltd9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704174145-shrltd9",
+										"updated": "20230704174148"
+									},
+									"Children": [
+										{
+											"ID": "20230704174145-vn1zr79",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704174145-vn1zr79"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "支付方式"
+												}
+											]
+										},
+										{
+											"ID": "20230704174148-jyco012",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230704174148-jyco012"
+											},
+											"Children": [
+												{
+													"ID": "20230706104317-iwcacaj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230706104317-iwcacaj"
+													},
+													"Children": [
+														{
+															"ID": "20230706104317-409tkkt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230706104317-409tkkt",
+																"updated": "20230706104317"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在接受 request 请求对象后，为开发者生成前台页面请求需要的完整 form 表单的 html（包含自动提交脚本），商家直接将这个表单的 String 输出到 http response 中即可"
+																}
+															]
+														},
+														{
+															"ID": "20230706104320-ggj067h",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230706104320-ggj067h"
+															},
+															"Children": [
+																{
+																	"ID": "20230704174148-8ztedhj",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230704174148-8ztedhj"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230704174148-qwphh9l",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230704174148-qwphh9l"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "跳转官网平台，二维码扫码支付"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230704174150-3ytlmvl",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230704174150-3ytlmvl"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230704174150-d0zshzl",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230704174150-d0zshzl"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "跳转官网平台，登录账户支付"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704174153-vqf3z4u",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230704174153-vqf3z4u"
+													},
+													"Children": [
+														{
+															"ID": "20230704174153-7m0s9kg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704174153-7m0s9kg"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "alipay.trade.page.pay"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230706103135-tv8bonl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230706103135-tv8bonl"
+													},
+													"Children": [
+														{
+															"ID": "20230706103135-cpi3d3d",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230706103135-cpi3d3d",
+																"updated": "20230706104316"
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703094846-gklkdbi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230703094846-gklkdbi",
+				"updated": "20230703094859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动端"
+				}
+			]
+		},
+		{
+			"ID": "20230704174157-gxurnr9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230704174157-gxurnr9",
+				"updated": "20230706094716"
+			},
+			"Children": [
+				{
+					"ID": "20230704174158-6p6qen2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230704174158-6p6qen2",
+						"updated": "20230704224437"
+					},
+					"Children": [
+						{
+							"ID": "20230704174158-rbx7l6v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704174158-rbx7l6v",
+								"updated": "20230704174200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信"
+								}
+							]
+						},
+						{
+							"ID": "20230704223333-0v9f0e3",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704223333-0v9f0e3",
+								"updated": "20230704224437"
+							},
+							"Children": [
+								{
+									"ID": "20230704223333-4j2qtul",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704223333-4j2qtul",
+										"updated": "20230704224437"
+									},
+									"Children": [
+										{
+											"ID": "20230704223333-7m4qgin",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704223333-7m4qgin",
+												"updated": "20230704223333"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "H5支付"
+												}
+											]
+										},
+										{
+											"ID": "20230704223358-twqzn5u",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230704223358-twqzn5u",
+												"updated": "20230704224437"
+											},
+											"Children": [
+												{
+													"ID": "20230704224430-3r20fxb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230704224430-3r20fxb",
+														"updated": "20230704224437"
+													},
+													"Children": [
+														{
+															"ID": "20230704224430-uobuwlh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704224430-uobuwlh",
+																"updated": "20230704224437"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "window.location.href"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​直接跳转后端返回路径，从而唤起微信App进行支付"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704223358-cdozuez",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230704223358-cdozuez"
+													},
+													"Children": [
+														{
+															"ID": "20230704223358-zlmwuai",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223358-zlmwuai",
+																"updated": "20230704223359"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "商户在微信客户端外的移动端网页展示商品或服务，用户在前述页面确认使用微信支付时，商户发起本服务呼起微信客户端进行支付"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704223438-b2kxcbd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230704223438-b2kxcbd"
+													},
+													"Children": [
+														{
+															"ID": "20230704223438-1ktykfo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223438-1ktykfo",
+																"updated": "20230704223439"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "H5支付主要用于触屏版的手机浏览器请求微信支付的场景，方便从外部浏览器唤起微信支付"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704174200-p5ifjvw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230704174200-p5ifjvw",
+						"updated": "20230706094716"
+					},
+					"Children": [
+						{
+							"ID": "20230704174200-c00mlrx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704174200-c00mlrx",
+								"updated": "20230704174202"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝"
+								}
+							]
+						},
+						{
+							"ID": "20230704174207-u1czt4z",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704174207-u1czt4z",
+								"updated": "20230706094716"
+							},
+							"Children": [
+								{
+									"ID": "20230704174206-ikv812j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704174206-ikv812j"
+									},
+									"Children": [
+										{
+											"ID": "20230704174206-nhff92h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704174206-nhff92h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "alipay.trade.wap.pay"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230706094704-vkazrpq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230706094704-vkazrpq",
+										"updated": "20230706094716"
+									},
+									"Children": [
+										{
+											"ID": "20230706094704-rc01wnm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230706094704-rc01wnm",
+												"updated": "20230706094716"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "支付宝当面付"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703094859-n5scxbk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703094859-n5scxbk",
+				"updated": "20230704223545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信内置浏览器"
+				}
+			]
+		},
+		{
+			"ID": "20230704174403-0vozjgy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230704174403-0vozjgy",
+				"updated": "20230704174408"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PC"
+				}
+			]
+		},
+		{
+			"ID": "20230704223158-7ubk5ax",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230704223158-7ubk5ax",
+				"updated": "20230704225125"
+			},
+			"Children": [
+				{
+					"ID": "20230704223159-8fc269l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230704223159-8fc269l",
+						"updated": "20230704225125"
+					},
+					"Children": [
+						{
+							"ID": "20230704223159-d0patyc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704223159-d0patyc",
+								"updated": "20230704223201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信"
+								}
+							]
+						},
+						{
+							"ID": "20230704225116-uv39ill",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704225116-uv39ill",
+								"updated": "20230704225125"
+							},
+							"Children": [
+								{
+									"ID": "20230704225116-acwq34v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704225116-acwq34v",
+										"updated": "20230704225125"
+									},
+									"Children": [
+										{
+											"ID": "20230704225116-c47b8vt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704225116-c47b8vt",
+												"updated": "20230704225125"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Native支付"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704223202-6l1wnl5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230704223202-6l1wnl5"
+					},
+					"Children": [
+						{
+							"ID": "20230704223202-1wra37n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704223202-1wra37n",
+								"updated": "20230704223209"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝"
+								}
+							]
+						},
+						{
+							"ID": "20230704223641-hzjeqcq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704223641-hzjeqcq"
+							},
+							"Children": [
+								{
+									"ID": "20230704223641-7hnz3gm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704223641-7hnz3gm"
+									},
+									"Children": [
+										{
+											"ID": "20230704223641-sv2scuj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704223641-sv2scuj",
+												"updated": "20230704223652"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "跳转到应用浏览器支付"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230704174409-166uenf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230704174409-166uenf",
+				"updated": "20230704174412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动端"
+				}
+			]
+		},
+		{
+			"ID": "20230704174224-cgrgtxh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230704174224-cgrgtxh",
+				"updated": "20230704223925"
+			},
+			"Children": [
+				{
+					"ID": "20230704174225-juxj3bk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230704174225-juxj3bk",
+						"updated": "20230704223925"
+					},
+					"Children": [
+						{
+							"ID": "20230704174225-40ltlp5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704174225-40ltlp5",
+								"updated": "20230704174226"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信"
+								}
+							]
+						},
+						{
+							"ID": "20230704223914-hgy8d5l",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704223914-hgy8d5l",
+								"updated": "20230704223925"
+							},
+							"Children": [
+								{
+									"ID": "20230704223914-jdite6o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704223914-jdite6o",
+										"updated": "20230704223925"
+									},
+									"Children": [
+										{
+											"ID": "20230704223914-e2bzogq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704223914-e2bzogq",
+												"updated": "20230704223918"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JSAPI支付"
+												}
+											]
+										},
+										{
+											"ID": "20230704223925-f69tabe",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230704223925-f69tabe",
+												"updated": "20230704223925"
+											},
+											"Children": [
+												{
+													"ID": "20230704223925-88ap6f1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230704223925-88ap6f1",
+														"updated": "20230704223925"
+													},
+													"Children": [
+														{
+															"ID": "20230704223925-5xdarnt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223925-5xdarnt",
+																"updated": "20230704223925"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "商家张贴收款码物料，用户打开扫一扫，扫码后输入金额，完成付款"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704223925-jhiqeu2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230704223925-jhiqeu2",
+														"updated": "20230704223925"
+													},
+													"Children": [
+														{
+															"ID": "20230704223925-9izislq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223925-9izislq",
+																"updated": "20230704223925"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "JSAPI支付是指商户通过调用微信支付提供的JSAPI接口，在支付场景中调起微信支付模块完成收款"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704223925-3l0ufr6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230704223925-3l0ufr6",
+														"updated": "20230704223925"
+													},
+													"Children": [
+														{
+															"ID": "20230704223925-1qr0gdu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704223925-1qr0gdu",
+																"updated": "20230704223925"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "JSAPI支付适用于线下场所、公众号场景和PC网站场景"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704174226-wbexdx2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230704174226-wbexdx2"
+					},
+					"Children": [
+						{
+							"ID": "20230704174226-kgly239",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704174226-kgly239",
+								"updated": "20230704174233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝"
+								}
+							]
+						},
+						{
+							"ID": "20230704174235-qdb7jfw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704174235-qdb7jfw"
+							},
+							"Children": [
+								{
+									"ID": "20230704174235-s7e4cct",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704174235-s7e4cct"
+									},
+									"Children": [
+										{
+											"ID": "20230704174235-vkarz92",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704174235-vkarz92",
+												"updated": "20230704174251"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "微信内置浏览器中调用支付宝支付时，微信无法直接唤醒支付宝，需要一个引导页作为中间页，提示用户在浏览器中打开，再进行唤醒支付宝应用进行支付"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704174237-ep6lk4q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230704174237-ep6lk4q"
+									},
+									"Children": [
+										{
+											"ID": "20230704174237-ywhhklv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704174237-ywhhklv",
+												"updated": "20230704174711"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意，PC端微信内置浏览器"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "alipay.trade.page.pay"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​和移动端微信内置浏览器"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "alipay.trade.wap.pay"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，支付宝接口的Method是不同的，确保换取支付宝支付路径时提交的参数正确"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703092710-4xvd92f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703092710-4xvd92f",
+				"updated": "20230703092720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MP"
+				}
+			]
+		},
+		{
+			"ID": "20230703093321-v66yly7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703093321-v66yly7",
+				"updated": "20230706160508"
+			},
+			"Children": [
+				{
+					"ID": "20230704224047-0nb8bn8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230704224047-0nb8bn8",
+						"updated": "20230706160508"
+					},
+					"Children": [
+						{
+							"ID": "20230704224047-gp2kuvf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704224047-gp2kuvf",
+								"updated": "20230706160508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信  "
+								}
+							]
+						},
+						{
+							"ID": "20230704224106-6wa28ih",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704224106-6wa28ih"
+							},
+							"Children": [
+								{
+									"ID": "20230704224114-dbuqmps",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704224114-dbuqmps"
+									},
+									"Children": [
+										{
+											"ID": "20230704224114-t4j2o9s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704224114-t4j2o9s",
+												"updated": "20230704224134"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "商户已有微信小程序，用户通过好友分享或扫描二维码在微信内打开小程序时，可以调用微信支付完成下单购买的流程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704224138-y0oit76",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230704224138-y0oit76"
+									},
+									"Children": [
+										{
+											"ID": "20230704224138-tjphsfg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704224138-tjphsfg",
+												"updated": "20230704224144"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "小程序不能通过拉起H5页面做jsapi支付，小程序内只能使用小程序支付"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704224049-m6tmbfx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230704224049-m6tmbfx"
+					},
+					"Children": [
+						{
+							"ID": "20230704224049-kkzs3qp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704224049-kkzs3qp",
+								"updated": "20230704224050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝"
+								}
+							]
+						},
+						{
+							"ID": "20230704224057-bl6o4h4",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704224057-bl6o4h4"
+							},
+							"Children": [
+								{
+									"ID": "20230704224057-go62qnt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704224057-go62qnt"
+									},
+									"Children": [
+										{
+											"ID": "20230704224057-68hnske",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704224057-68hnske",
+												"updated": "20230704224103"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不支持"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703092721-l95nnk0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703092721-l95nnk0",
+				"updated": "20230703092726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "App"
+				}
+			]
+		},
+		{
+			"ID": "20230703092815-j67bn3m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703092815-j67bn3m",
+				"updated": "20230703093341"
+			},
+			"Children": [
+				{
+					"ID": "20230703092816-s77kse1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230703092816-s77kse1",
+						"updated": "20230703092816"
+					},
+					"Children": [
+						{
+							"ID": "20230703092816-f9ns0om",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703092816-f9ns0om",
+								"updated": "20230703092817"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "APP端，如果你的应用在用户完成支付后；立即给支付的用户push消息通知。会与前端支付回调相互冲突，请延迟执行推送"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703093341-9wssid8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230703093341-9wssid8",
+						"updated": "20230703093341"
+					},
+					"Children": [
+						{
+							"ID": "20230703093341-6l619m1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703093341-6l619m1",
+								"updated": "20230703093341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持微信sdk支付、支付宝sdk支付、苹果iap应用内支付，在各平台申请支付时选择 App 支付"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704175157-fcal7xs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230704175157-fcal7xs"
+					},
+					"Children": [
+						{
+							"ID": "20230704175157-ielukx0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704175157-ielukx0",
+								"updated": "20230704175158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信"
+								}
+							]
+						},
+						{
+							"ID": "20230704224234-n64t6pb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704224234-n64t6pb"
+							},
+							"Children": [
+								{
+									"ID": "20230704224233-5f2owe5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704224233-5f2owe5"
+									},
+									"Children": [
+										{
+											"ID": "20230704224233-6ura9k4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704224233-6ura9k4",
+												"updated": "20230704224234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "商户通过在移动端应用APP中集成开放SDK调起微信支付模块来完成支付"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704224242-45gbcs3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230704224242-45gbcs3"
+									},
+									"Children": [
+										{
+											"ID": "20230704224242-j44c8hd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704224242-j44c8hd",
+												"updated": "20230704224252"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "适用于在移动端APP中集成微信支付功能的场景"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704175159-f77kc21",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230704175159-f77kc21"
+					},
+					"Children": [
+						{
+							"ID": "20230704175159-fge666e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704175159-fge666e",
+								"updated": "20230704175204"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝"
+								}
+							]
+						},
+						{
+							"ID": "20230704175206-qf5zbmd",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704175206-qf5zbmd"
+							},
+							"Children": [
+								{
+									"ID": "20230704175134-ii5pbku",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704175134-ii5pbku"
+									},
+									"Children": [
+										{
+											"ID": "20230704175134-6wbqr8j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704175134-6wbqr8j",
+												"updated": "20230704175134"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "alipay.trade.app.pay"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230704225703-vxvat0g",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230617141654-tp4sx6w"
+				"id": "20230704225703-vxvat0g",
+				"updated": "20230704225708"
+			}
+		},
+		{
+			"ID": "20230703092853-h8m9fjd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230703092853-h8m9fjd",
+				"updated": "20230703092901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "orderInfo"
+				}
+			]
+		},
+		{
+			"ID": "20230703092947-8whcatj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230703092947-8whcatj",
+				"updated": "20230703092955"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Android"
+				}
+			]
+		},
+		{
+			"ID": "20230703092903-rpurb2t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703092903-rpurb2t",
+				"updated": "20230703092905"
+			},
+			"Children": [
+				{
+					"ID": "20230703092905-ujo3gbh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230703092905-ujo3gbh",
+						"updated": "20230703092905"
+					},
+					"Children": [
+						{
+							"ID": "20230703092905-ni1dmm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703092905-ni1dmm1",
+								"updated": "20230703092912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝支付 orderInfo 为 String 类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703092917-s417ppc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230703092917-s417ppc"
+					},
+					"Children": [
+						{
+							"ID": "20230703092917-ai1x25v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703092917-ai1x25v",
+								"updated": "20230703092920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信支付 orderInfo 为 Object 类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703092921-u900i11",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230703092921-u900i11",
+				"updated": "20230703093004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios"
+				}
+			]
+		},
+		{
+			"ID": "20230703093005-zlto26o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703093005-zlto26o",
+				"updated": "20230703093019"
+			},
+			"Children": [
+				{
+					"ID": "20230703093018-az19lxa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230703093018-az19lxa",
+						"updated": "20230703093019"
+					},
+					"Children": [
+						{
+							"ID": "20230703093018-ob4zhf8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703093018-ob4zhf8",
+								"updated": "20230703093019"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "苹果应用内支付 orderInfo 为Object 类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703093138-oo94f10",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703093138-oo94f10",
+				"updated": "20230703095011"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230703095012-pa2e8m1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230703095012-pa2e8m1",
+				"updated": "20230704184420"
+			},
+			"Children": [
+				{
+					"ID": "20230703095022-fjvu7qm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230703095022-fjvu7qm",
+						"updated": "20230703095022"
+					},
+					"Children": [
+						{
+							"ID": "20230703095022-lzrlk6v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703095022-lzrlk6v",
+								"updated": "20230703095023"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7014138314185785352",
+									"TextMarkTextContent": "H5支付：微信和支付宝 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703095023-5h9939n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230703095023-5h9939n",
+						"updated": "20230703095026"
+					},
+					"Children": [
+						{
+							"ID": "20230703095023-xb9sb2m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703095023-xb9sb2m",
+								"updated": "20230703095026"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://opendocs.alipay.com/apis/api_1/alipay.trade.page.pay",
+									"TextMarkTextContent": "统一收单下单并支付页面接口 - 支付宝文档中心 (alipay.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704184420-sjzhko7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230704184420-sjzhko7",
+						"updated": "20230704184420"
+					},
+					"Children": [
+						{
+							"ID": "20230704184420-snqe1uo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704184420-snqe1uo",
+								"updated": "20230704184420"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://yclimb.gitbook.io/wxpay/base/introduce",
+									"TextMarkTextContent": "微信支付方式简单介绍 - 微信支付 (gitbook.io)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703095027-ya3fd8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703095027-ya3fd8y"
 			}
 		}
 	]

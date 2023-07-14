@@ -1,0 +1,6400 @@
+{
+	"ID": "20230709171349-yp9rnzg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230709171349-yp9rnzg",
+		"title": "性能优化",
+		"updated": "20230713111748"
+	},
+	"Children": [
+		{
+			"ID": "20230710105904-wgpoj5x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710105904-wgpoj5x",
+				"updated": "20230710105904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RAIL性能模型"
+				}
+			]
+		},
+		{
+			"ID": "20230710105904-fyt8j7c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710105904-fyt8j7c",
+				"updated": "20230710105904"
+			},
+			"Children": [
+				{
+					"ID": "20230710105904-vrix3n3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710105904-vrix3n3",
+						"updated": "20230710105904"
+					},
+					"Children": [
+						{
+							"ID": "20230710105904-en9e28c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710105904-en9e28c",
+								"updated": "20230710105904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以用户为中心的性能模型,它提供了一种考虑性能的结构。该模型将用户体验分解为关键操作（例如，点击、滚动、加载），并帮助您为每个操作定义性能目标"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710105904-motpe6k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710105904-motpe6k",
+						"updated": "20230710105904"
+					},
+					"Children": [
+						{
+							"ID": "20230710105904-x4qs01m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710105904-x4qs01m",
+								"updated": "20230710105904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RAIL 代表 Web 应用程序生命周期的四个不同方面：响应(R)、动画(A)、空闲时间(I)和加载(L)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710105904-pjwfoe0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710105904-pjwfoe0",
+						"updated": "20230710105904"
+					},
+					"Children": [
+						{
+							"ID": "20230710105904-0r8v53x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710105904-0r8v53x",
+								"updated": "20230710105904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置切实可行的目标,页面必须在每 50 毫秒内将控制权交还给主线程"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710105905-xkarh6h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710105905-xkarh6h",
+				"updated": "20230710110516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图片优化"
+				}
+			]
+		},
+		{
+			"ID": "20230710111113-1zcm80w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710111113-1zcm80w",
+				"updated": "20230710111120"
+			},
+			"Children": [
+				{
+					"ID": "20230710111120-jo40tmv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710111120-jo40tmv",
+						"updated": "20230710111120"
+					},
+					"Children": [
+						{
+							"ID": "20230710111120-d7c6a3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710111120-d7c6a3c",
+								"updated": "20230710111121"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "图片压缩"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710111121-5gzx9i1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710111121-5gzx9i1"
+					},
+					"Children": [
+						{
+							"ID": "20230710111121-i5o6jtm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710111121-i5o6jtm",
+								"updated": "20230710191929"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "图片懒加载"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710191933-0i8fftv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710191933-0i8fftv"
+					},
+					"Children": [
+						{
+							"ID": "20230710191933-ovjffoj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710191933-ovjffoj",
+								"updated": "20230710191933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "渐进式加载图片"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710191937-enp3fzr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230710191937-enp3fzr"
+					},
+					"Children": [
+						{
+							"ID": "20230710191937-hk3xhr5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710191937-hk3xhr5",
+								"updated": "20230710191937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小图base64，30kb"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710192038-it8fdyk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230710192038-it8fdyk"
+					},
+					"Children": [
+						{
+							"ID": "20230710192038-zdkhagi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710192038-zdkhagi",
+								"updated": "20230710192103"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用其他方式代替图"
+								}
+							]
+						},
+						{
+							"ID": "20230710192103-wavm9ae",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710192103-wavm9ae"
+							},
+							"Children": [
+								{
+									"ID": "20230710192103-m6mh6p1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710192103-m6mh6p1"
+									},
+									"Children": [
+										{
+											"ID": "20230710192103-autgedp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710192103-autgedp",
+												"updated": "20230710192108"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "尽可能利用 CSS3 效果代替图片"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710192109-10hfz8h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230710192109-10hfz8h"
+									},
+									"Children": [
+										{
+											"ID": "20230710192109-8lz1fet",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710192109-8lz1fet",
+												"updated": "20230710192111"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用字体图标 iconfont 代替图片图标"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710192114-efqfb13",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230710192114-efqfb13"
+									},
+									"Children": [
+										{
+											"ID": "20230710192114-ryyjkqw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710192114-ryyjkqw",
+												"updated": "20230710192118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SVG"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710192021-nusdicf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230710192021-nusdicf"
+					},
+					"Children": [
+						{
+							"ID": "20230710192021-zv21hh9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710192021-zv21hh9",
+								"updated": "20230710192132"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "响应图像：使用带有 srcset、sizes 属性的响应式图片和  元素响应式图片"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710192138-2vutpu5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230710192138-2vutpu5"
+					},
+					"Children": [
+						{
+							"ID": "20230710192138-w3p3sje",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710192138-w3p3sje",
+								"updated": "20230710192139"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除冗余图片信息"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710203231-21pp3hs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230710203231-21pp3hs"
+					},
+					"Children": [
+						{
+							"ID": "20230710203231-yez6npq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203231-yez6npq",
+								"updated": "20230710203233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用图像 CDN 优化图像"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710192201-dufihzc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230710192201-dufihzc"
+					},
+					"Children": [
+						{
+							"ID": "20230710192201-a3rorta",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710192201-a3rorta",
+								"updated": "20230710202720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用WebP"
+								}
+							]
+						},
+						{
+							"ID": "20230710202858-ggglm75",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710202858-ggglm75"
+							},
+							"Children": [
+								{
+									"ID": "20230710202858-8gmtwzt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710202858-8gmtwzt"
+									},
+									"Children": [
+										{
+											"ID": "20230710202858-fl9p9od",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710202858-fl9p9od",
+												"updated": "20230710202859"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过在原生  上使用 WebP 图片以及回退到 JPEG 的机制或者使用协议内容的方式中使用 WebP 格式"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710202915-15km0ty",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230710202915-15km0ty"
+									},
+									"Children": [
+										{
+											"ID": "20230710202915-63w8b2t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710202915-63w8b2t",
+												"updated": "20230710202915"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "并不支持像 JPEG 这样的渐进式渲染"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710202940-9vzkllq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230710202940-9vzkllq"
+									},
+									"Children": [
+										{
+											"ID": "20230710202940-63jxh82",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710202940-63jxh82",
+												"updated": "20230710202941"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 WebP，你可以有效减少负载，使用 JPEG，你可以提高性能感知"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710202723-mcursv0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230710202723-mcursv0"
+					},
+					"Children": [
+						{
+							"ID": "20230710202723-y2ei58r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710202723-y2ei58r",
+								"updated": "20230710203000"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GIF"
+								}
+							]
+						},
+						{
+							"ID": "20230710203001-v19uaja",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710203001-v19uaja"
+							},
+							"Children": [
+								{
+									"ID": "20230710203000-a54lasv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710203000-a54lasv"
+									},
+									"Children": [
+										{
+											"ID": "20230710203000-pqtrgbi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710203000-pqtrgbi",
+												"updated": "20230710203005"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过 Lossy GIF、gifsicle 或 giflossy 来有损压缩 GIF"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710203005-8jsu3em",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230710203005-8jsu3em"
+									},
+									"Children": [
+										{
+											"ID": "20230710203005-n3bx0ej",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710203005-n3bx0ej",
+												"updated": "20230710203041"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "推荐用循环内联视频来取代 GIF 动画"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710203053-c4sgcuc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230710203053-c4sgcuc"
+									},
+									"Children": [
+										{
+											"ID": "20230710203053-aop70qw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710203053-aop70qw",
+												"updated": "20230710203100"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "文件大小差异明显（节省了 80%）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710203101-sq84doy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230710203101-sq84doy"
+									},
+									"Children": [
+										{
+											"ID": "20230710203101-xcya19n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710203101-xcya19n",
+												"updated": "20230710203135"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "带有video标签的浏览器性能极差，而且与图像不同的是，浏览器不会预加载video内容，但它们往往比 GIF 更轻量级、更小"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710203147-8xknl3f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230710203147-8xknl3f"
+					},
+					"Children": [
+						{
+							"ID": "20230710203147-lh14yaw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203147-lh14yaw",
+								"updated": "20230710203148"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "视频， AV1 很有可能成为网络视频的终极标准"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710203534-9zid8uo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710203534-9zid8uo",
+				"updated": "20230710203536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "字体优化"
+				}
+			]
+		},
+		{
+			"ID": "20230710203536-w6zzwnp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710203536-w6zzwnp",
+				"updated": "20230710204509"
+			},
+			"Children": [
+				{
+					"ID": "20230710203550-v8jgrte",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710203550-v8jgrte",
+						"updated": "20230710203550"
+					},
+					"Children": [
+						{
+							"ID": "20230710203550-a80ntqb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203550-a80ntqb",
+								"updated": "20230710203550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字体进行子集化，可以使用 Peter Müller 的 subfont，一个可以自动化你整个流程的命令行工具，它可以静态分析你的页面，生成最佳 Web 字体子集，然后注入页面中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710203551-rclsg2s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710203551-rclsg2s"
+					},
+					"Children": [
+						{
+							"ID": "20230710203551-c7qmllg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203551-c7qmllg",
+								"updated": "20230710203855"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 Web 字体快速准确地渲染页面所需的小超集，然后再异步加载剩余部分"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204509-w3jz737",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710204509-w3jz737",
+						"updated": "20230710204509"
+					},
+					"Children": [
+						{
+							"ID": "20230710204509-y5hd9e9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204509-y5hd9e9",
+								"updated": "20230710204509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "压缩字体文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710203906-2tkyxwe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230710203906-2tkyxwe"
+					},
+					"Children": [
+						{
+							"ID": "20230710203906-2qpspur",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203906-2qpspur",
+								"updated": "20230710204156"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 preload 资源提示来预加载字体"
+								}
+							]
+						},
+						{
+							"ID": "20230710204157-ge132my",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230710204157-ge132my",
+								"updated": "20230710204212"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "aHRtbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003clink rel=\"preload\" href=\"font.woff2\" as=\"font\" type=\"font/woff2\" crossorigin\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710203422-c4fm5ab",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710203422-c4fm5ab",
+				"updated": "20230710203425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加载优化"
+				}
+			]
+		},
+		{
+			"ID": "20230710203435-x8g4pi8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710203435-x8g4pi8",
+				"updated": "20230712221453"
+			},
+			"Children": [
+				{
+					"ID": "20230710203435-4uwvcgz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710203435-4uwvcgz",
+						"updated": "20230710203435"
+					},
+					"Children": [
+						{
+							"ID": "20230710203435-sorq4cq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203435-sorq4cq",
+								"updated": "20230710203436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "迁移到 HTTPS，然后启用 HTTP/2"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710203436-gr0tpnb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710203436-gr0tpnb"
+					},
+					"Children": [
+						{
+							"ID": "20230710203436-tezx4n3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203436-tezx4n3",
+								"updated": "20230710203440"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "采用 IPv6，IPv6 使这些网站提速了 10 到 15%"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710203441-5r224nj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710203441-5r224nj"
+					},
+					"Children": [
+						{
+							"ID": "20230710203441-5p7wesp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710203441-5p7wesp",
+								"updated": "20230710203447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 HPACK 压缩，在使用 HTTP/2，请确保检查你的服务器为 HTTP 响应头实现了 HPACK 压缩来减少不必要的载荷"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712220349-62fhg9a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230712220349-62fhg9a"
+					},
+					"Children": [
+						{
+							"ID": "20230712220349-kgoaxly",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712220349-kgoaxly",
+								"updated": "20230712220349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免无效/多余请求"
+								}
+							]
+						},
+						{
+							"ID": "20230712220351-tug7yf9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712220351-tug7yf9"
+							},
+							"Children": [
+								{
+									"ID": "20230710203515-34poq47",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710203515-34poq47"
+									},
+									"Children": [
+										{
+											"ID": "20230710203515-gw47oqn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710203515-gw47oqn",
+												"updated": "20230710203519"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少 HTTP 请求，浏览器一般同时响应请求为4个请求（PC 一般为4个，Android 支持4个，IOS 5后可支持6个），所以尽量减少页面的请求数，首次加载同时请求数不能超过4个"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712220150-ca1nru1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712220150-ca1nru1"
+									},
+									"Children": [
+										{
+											"ID": "20230712220151-12woxne",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712220151-12woxne",
+												"updated": "20230712220151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "避免不必要的重定向"
+												}
+											]
+										},
+										{
+											"ID": "20230712220209-a81ji9m",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712220209-a81ji9m"
+											},
+											"Children": [
+												{
+													"ID": "20230712220208-sfl1hz4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712220208-sfl1hz4"
+													},
+													"Children": [
+														{
+															"ID": "20230712220208-wnzxn0x",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712220208-wnzxn0x",
+																"updated": "20230712220209"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "301"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "302"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "303/307"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 重定向比较常见，一般用于SEO及其它一些场合。但是不必要的重定向浪费了大量时间"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712220210-g6f5v7z",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712220210-g6f5v7z"
+													},
+													"Children": [
+														{
+															"ID": "20230712220210-vbhgzbq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712220210-vbhgzbq",
+																"updated": "20230712220226"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "这些不必要的重定向可能是无意识的（意想不到的），比如url末尾带不带"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "/"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712220404-8313qov",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712220404-8313qov"
+									},
+									"Children": [
+										{
+											"ID": "20230712220406-462jjh2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712220406-462jjh2",
+												"updated": "20230712220418"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "避免404：静态资源返回404都是浪费带宽，可能会拖延页面的渲染时间"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712220539-2tcutx4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230712220539-2tcutx4"
+									},
+									"Children": [
+										{
+											"ID": "20230712220539-b7w7e8u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712220539-b7w7e8u",
+												"updated": "20230712220608"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "正确设置标签的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "src"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​属性："
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;script src=\u0026quot;\u0026quot;\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​和"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026lt;link href=\u0026quot;\u0026quot;\u0026gt;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​的行为并没有被规范，会向页面所在的目录发请求"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712221440-8fax839",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230712221440-8fax839",
+						"updated": "20230712221453"
+					},
+					"Children": [
+						{
+							"ID": "20230712221441-k3mytdb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712221441-k3mytdb",
+								"updated": "20230712221441"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "延迟下载"
+								}
+							]
+						},
+						{
+							"ID": "20230712221453-yrjm16o",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712221453-yrjm16o",
+								"updated": "20230712221453"
+							},
+							"Children": [
+								{
+									"ID": "20230712221453-wqf12cz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712221453-wqf12cz",
+										"updated": "20230712221453"
+									},
+									"Children": [
+										{
+											"ID": "20230712221453-0xe2uwq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712221453-0xe2uwq",
+												"updated": "20230712221453"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "并不是所有资源在首页/首屏是必须的，是可见的。所以有些资源是可以延时下载的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710203522-jldklhs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710203522-jldklhs",
+				"updated": "20230710204541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码优化"
+				}
+			]
+		},
+		{
+			"ID": "20230710204557-69rwe0i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710204557-69rwe0i",
+				"updated": "20230710204557"
+			},
+			"Children": [
+				{
+					"ID": "20230710204557-v0t1i91",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710204557-v0t1i91",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-04o202d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-04o202d",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v-if 和 v-show 区分使用场景"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-82bqi6p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710204557-82bqi6p",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-ae1xp0j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-ae1xp0j",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "computed 和 watch 区分使用场景"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-tccihkk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710204557-tccihkk",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-54z8o3t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-54z8o3t",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v-for 遍历必须为 item 添加 key，且避免同时使用 v-if"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-0dqfd16",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230710204557-0dqfd16",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-4601zt3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-4601zt3",
+								"updated": "20230710204616"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​​v-once​ 是一个内置的指令，可以用来渲染依赖运行时数据但无需再更新的内容"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-b2xfkd0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230710204557-b2xfkd0",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-pywgek7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-pywgek7",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "利用Object.freeze()提升性能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-fhp3ay1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230710204557-fhp3ay1",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-wz1phdz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-wz1phdz",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "addEventListene 事件的销毁"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-51bt6at",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230710204557-51bt6at",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-3z11e7m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-3z11e7m",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过组件懒加载优化超长应用内容初始渲染性能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-mpm77so",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230710204557-mpm77so",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-diic1kj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-diic1kj",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "渲染大型列表，列表虚拟化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-81g5vf9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230710204557-81g5vf9",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-tgc40rr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-tgc40rr",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扁平化 Store 数据结构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-6czgibo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230710204557-6czgibo",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-rdyvz2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-rdyvz2p",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "持久化时写入数据的性能问题，频繁写入localstorage，localstorage 写入是同步的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-ocj6a2q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230710204557-ocj6a2q",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-3memc4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-3memc4g",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽量改变 Class 而不是 Style ，使用 classList 代替 className"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-y898dch",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230710204557-y898dch",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-aj1s2zl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-aj1s2zl",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免使用 document.write()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-gc142te",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230710204557-gc142te",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-kedz9yb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-kedz9yb",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少 drawImage"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-fnpzwpz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20230710204557-fnpzwpz",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-y0z9r9b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-y0z9r9b",
+								"updated": "20230710204557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽量使用事件代理，避免批量绑定事件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-mzch5hb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20230710204557-mzch5hb",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-vdfs5tc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-vdfs5tc",
+								"updated": "20230710204644"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽量使用 ID 选择器，ID选择器是最快的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710204557-vru5zf1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20230710204557-vru5zf1",
+						"updated": "20230710204557"
+					},
+					"Children": [
+						{
+							"ID": "20230710204557-d9qx8n9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710204557-d9qx8n9",
+								"updated": "20230710204647"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Touch 事件优化，使用 touchstart 、touchend 代替 click，但注意 Touch 响应过快，易引发误操作"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710204654-vgdkizl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710204654-vgdkizl",
+				"updated": "20230712222220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "构建优化"
+				}
+			]
+		},
+		{
+			"ID": "20230712222319-beeacqh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20230712222319-beeacqh",
+				"updated": "20230712225040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优化构建时间                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             "
+				}
+			]
+		},
+		{
+			"ID": "20230712222319-c1pf3us",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230712222319-c1pf3us",
+				"updated": "20230713111748"
+			},
+			"Children": [
+				{
+					"ID": "20230712222518-yv3ixa9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230712222518-yv3ixa9"
+					},
+					"Children": [
+						{
+							"ID": "20230712222526-j9krw48",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712222526-j9krw48",
+								"updated": "20230712225047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "寻址优化                                                                                                              "
+								}
+							]
+						},
+						{
+							"ID": "20230712222526-1tgjdp5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712222526-1tgjdp5",
+								"updated": "20230712222526"
+							},
+							"Children": [
+								{
+									"ID": "20230712222526-pja2d2j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712222526-pja2d2j",
+										"updated": "20230712222526"
+									},
+									"Children": [
+										{
+											"ID": "20230712222526-ec1cqar",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222526-ec1cqar",
+												"updated": "20230712222546"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "合理设置 loader 的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exclude"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "include"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 属性，缩减文件的搜索范围"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222526-x7m0r9k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712222526-x7m0r9k",
+										"updated": "20230712222526"
+									},
+									"Children": [
+										{
+											"ID": "20230712222526-76lz9yo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222526-76lz9yo",
+												"updated": "20230712222526"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过配置 loader 的 exclude 选项，告诉对应的 loader 可以忽略某个目录"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222526-63s25km",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712222526-63s25km",
+										"updated": "20230712222526"
+									},
+									"Children": [
+										{
+											"ID": "20230712222526-xjvp3bj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222526-xjvp3bj",
+												"updated": "20230712222526"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过配置 loader 的 include 选项，告诉 loader 只需要处理指定的目录，loader 处理的文件越少，执行速度就会更快"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712222319-tfbvf9y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230712222319-tfbvf9y",
+						"updated": "20230713111748"
+					},
+					"Children": [
+						{
+							"ID": "20230712222319-uupf9mo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712222319-uupf9mo",
+								"updated": "20230713111748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缓存优化 "
+								}
+							]
+						},
+						{
+							"ID": "20230712222319-940u6y2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712222319-940u6y2",
+								"updated": "20230712222319"
+							},
+							"Children": [
+								{
+									"ID": "20230712222319-fp1u2cg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712222319-fp1u2cg",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-xiejd53",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-xiejd53",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "cache-loader"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-9d4pl0r",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-9d4pl0r",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712225051-p3zwoez",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712225051-p3zwoez"
+													},
+													"Children": [
+														{
+															"ID": "20230712225051-eztxt35",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712225051-eztxt35",
+																"updated": "20230712225106"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "配置cache缓存Loader对文件的编译副本"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-41wgeey",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-41wgeey",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-o517eb7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-o517eb7",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在一些性能开销较大的 loader 之前添加 cache-loader，以便将结果缓存到磁盘里"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-xg0umzu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712222319-xg0umzu",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-bqle7l0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-bqle7l0",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "HardSourceWebpackPlugin"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-h79g9it",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-h79g9it",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-4jr6oii",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-4jr6oii",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-i4o49ux",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-i4o49ux",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "为模块提供中间缓存，缓存默认存放的路径是 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "node_modules/.cache/hard-source"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-3pxlqmt",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-3pxlqmt",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-6kf47le",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-6kf47le",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "配置了 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "HardSourceWebpackPlugin"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 之后，首次构建时间并没有太大的变化，但是第二次开始，构建时间将会大大的加快"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-8jowqyy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712222319-8jowqyy",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-npvm5tt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-npvm5tt",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设置 babel-loader 的 cacheDirectory"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-2djzwxo",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-2djzwxo",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-lcn74vp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-lcn74vp",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-46dnvz9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-46dnvz9",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "打开 babel-loader 的 cacheDirectory 的配置，当有设置时，指定的目录将用来缓存 loader 的执行结果"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-qxamult",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-qxamult",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-0vqr3v2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-0vqr3v2",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "之后的 webpack 构建，将会尝试读取缓存，来避免在每次执行时，可能产生的、高性能消耗的 Babel 重新编译过程"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-kkmllfb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230712222319-kkmllfb",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-cyqxxzg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-cyqxxzg",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "DLL"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-5w6n8w4",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-5w6n8w4",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-svjy05w",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-svjy05w",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-in1953i",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-in1953i",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "为动态链接库，在一个动态链接库中可以包含给其他模块调用的函数和数据"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-38q7bes",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-38q7bes",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-tnbu41z",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-tnbu41z",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "包含大量复用模块的动态链接库只需要编译一次，在之后的构建过程中被动态链接库包含的模块将不会在重新编译，而是直接使用动态链接库中的代码"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-zb8j847",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230712222319-zb8j847",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-yw9pvdv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-yw9pvdv",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Vue-cli 已经剔除了这个功能"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712225303-8gj6uyh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230712225303-8gj6uyh"
+					},
+					"Children": [
+						{
+							"ID": "20230712225303-7pjdkwf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712225303-7pjdkwf",
+								"updated": "20230712225307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置resolve提高文件的搜索速度"
+								}
+							]
+						},
+						{
+							"ID": "20230712225316-mnwei50",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712225316-mnwei50"
+							},
+							"Children": [
+								{
+									"ID": "20230712225316-iaunvtb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712225316-iaunvtb"
+									},
+									"Children": [
+										{
+											"ID": "20230712225316-p0pgezq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712225316-p0pgezq",
+												"updated": "20230712225329"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​定向指定必须文件路径​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712225317-0ruiopd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712225317-0ruiopd"
+									},
+									"Children": [
+										{
+											"ID": "20230712225317-aqxkwbh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712225317-aqxkwbh",
+												"updated": "20230712225322"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "alias"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​映射模块路径，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "extensions"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​表明文件后缀，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "noParse"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​过滤无依赖文件"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712225454-s7i7fwl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230712225454-s7i7fwl",
+						"updated": "20230712225757"
+					},
+					"Children": [
+						{
+							"ID": "20230712225454-2wdwnqe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712225454-2wdwnqe",
+								"updated": "20230712225504"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置DllPlugin将第三方依赖提前打包"
+								}
+							]
+						},
+						{
+							"ID": "20230712225515-i0epbxv",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712225515-i0epbxv",
+								"updated": "20230712225757"
+							},
+							"Children": [
+								{
+									"ID": "20230712225515-dw7en3m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712225515-dw7en3m"
+									},
+									"Children": [
+										{
+											"ID": "20230712225515-xjibd30",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712225515-xjibd30",
+												"updated": "20230712225523"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "DLL意为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "动态链接库"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，指一个包含可由多个程序同时使用的代码库"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712225527-9d1azjs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712225527-9d1azjs"
+									},
+									"Children": [
+										{
+											"ID": "20230712225527-9g463eh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712225527-9g463eh",
+												"updated": "20230712225729"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将DLL与业务代码完全分离且每次只构建业务代码 "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712225757-kvccg7c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712225757-kvccg7c",
+										"updated": "20230712225757"
+									},
+									"Children": [
+										{
+											"ID": "20230712225757-3ovk0l8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712225757-3ovk0l8",
+												"updated": "20230712225757"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "现在"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "webpack v4+"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​已不推荐使用该配置，因为其版本迭代带来的性能提升足以忽略"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "DllPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​所带来的效益"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712222319-lve2961",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230712222319-lve2961",
+						"updated": "20230712230656"
+					},
+					"Children": [
+						{
+							"ID": "20230712222319-hnrssem",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712222319-hnrssem",
+								"updated": "20230712225829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并行构建"
+								}
+							]
+						},
+						{
+							"ID": "20230712222319-n0238fx",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712222319-n0238fx",
+								"updated": "20230712230656"
+							},
+							"Children": [
+								{
+									"ID": "20230712230104-5bij8gd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712230104-5bij8gd",
+										"updated": "20230712230656"
+									},
+									"Children": [
+										{
+											"ID": "20230712230104-woih997",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712230104-woih997",
+												"updated": "20230712230656"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置Thr  ead将Loader单进程转换为多进程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-mwtr491",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712222319-mwtr491",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-de7805y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-de7805y",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "thread-loader"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-rarigia",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-rarigia",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-kpd30e9",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-kpd30e9",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-kyfko1q",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-kyfko1q",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "把 thread-loader 放置在其它 loader 之前，那么放置在这个 loader 之后的 loader 就会在一个单独的 worker 池中运行"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-lujoevf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-lujoevf",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-mm8zqc1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-mm8zqc1",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "把原本需要串行执行的任务并行执行"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-1tfwt0s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712222319-1tfwt0s",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-vbcjdhx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-vbcjdhx",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "HappyPack"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-olcwcg8",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-olcwcg8",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-fv84zdy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-fv84zdy",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-9bih6xy",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-9bih6xy",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "利用多进程对文件进行打包, 将任务分解给多个子进程去并行执行，子进程处理完后，再把结果发送给主进程，达到并行打包的效果"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-pjqpkww",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-pjqpkww",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-orhon4y",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-orhon4y",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "HappyPack 并不是所有的 loader 都支持, 比如 vue-loader 就不支持，可以通过"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Famireh%2Fhappypack%2Fwiki%2FLoader-Compatibility-List",
+																	"TextMarkATitle": "https://github.com/amireh/happypack/wiki/Loader-Compatibility-List",
+																	"TextMarkTextContent": " Loader Compatibility List "
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "来查看支持的 loaders"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-jefgew5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230712222319-jefgew5",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-wmmsp8o",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-wmmsp8o",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "创建子进程和主进程之间的通信是有开销的，当你的 loader 很慢的时候，可以加上 happypack，否则，可能会编译的更慢"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-lmt4u3k",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230712222319-lmt4u3k",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-sdwdw94",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-sdwdw94",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "webpack4 及之后都更推荐使用 thread-loader"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712222319-v4izacd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230712222319-v4izacd",
+						"updated": "20230712222319"
+					},
+					"Children": [
+						{
+							"ID": "20230712222319-ww003s5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712222319-ww003s5",
+								"updated": "20230712222319"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分模块构建"
+								}
+							]
+						},
+						{
+							"ID": "20230712222319-l44d1pd",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712222319-l44d1pd",
+								"updated": "20230712222319"
+							},
+							"Children": [
+								{
+									"ID": "20230712222319-9z1emea",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712222319-9z1emea",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-wnj4qio",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-wnj4qio",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果我们可以在收集依赖的时候，跳过我们本次不需要的模块，或者可以自行选择，只构建必要的模块，那么整体的构建时间就可以大大减少"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-ui55c59",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712222319-ui55c59",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-3spttbl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-3spttbl",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "原理"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-v4h8i1o",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-v4h8i1o",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-eq3950h",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-eq3950h",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-9pc85o3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-9pc85o3",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Webpack 是静态编译打包的，Webpack 在收集依赖时会去分析代码中的 require（import 会被 bebel 编译成 require） 语句，然后递归的去收集依赖进行打包构建"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-zhfdjma",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-zhfdjma",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-6qoz5h9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-6qoz5h9",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "通过增加一些配置，简单改造下我们的现有代码，使得 Webpack 在初始化遍历整个路由模块收集依赖的时候，可以跳过我们不需要的模块"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-46gmitz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230712222319-46gmitz",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-i35fsup",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-i35fsup",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "每次启动项目时，可以通过一个前置命令行脚本，收集本次需要启动的模块，按需生成需要的 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "routesConfig"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 即可"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712222319-v63wbxv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712222319-v63wbxv",
+										"updated": "20230712222319"
+									},
+									"Children": [
+										{
+											"ID": "20230712222319-04r68te",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712222319-04r68te",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "NormalModuleReplacementPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 插件进行文件替换的方式"
+												}
+											]
+										},
+										{
+											"ID": "20230712222319-bc0bsck",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230712222319-bc0bsck",
+												"updated": "20230712222319"
+											},
+											"Children": [
+												{
+													"ID": "20230712222319-m5fomwf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230712222319-m5fomwf",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-ocnexay",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-ocnexay",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "无需改动上层代码"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230712222319-1qrybjf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230712222319-1qrybjf",
+														"updated": "20230712222319"
+													},
+													"Children": [
+														{
+															"ID": "20230712222319-2nn9u85",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230712222319-2nn9u85",
+																"updated": "20230712222319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "通过生成临时路由文件的方式，替换原路由文件，对项目无任何影响"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710221319-jake0rj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230710221319-jake0rj",
+				"updated": "20230710221333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "减少打包体积"
+				}
+			]
+		},
+		{
+			"ID": "20230710210223-g1r02vd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230710210223-g1r02vd",
+				"updated": "20230712220703"
+			},
+			"Children": [
+				{
+					"ID": "20230710215017-p99706a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230710215017-p99706a"
+					},
+					"Children": [
+						{
+							"ID": "20230710215911-8j6eyrf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710215911-8j6eyrf",
+								"updated": "20230710215911"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "压缩资源"
+								}
+							]
+						},
+						{
+							"ID": "20230710215028-4mbjgnx",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710215028-4mbjgnx"
+							},
+							"Children": [
+								{
+									"ID": "20230710215103-xxdr88w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710215103-xxdr88w"
+									},
+									"Children": [
+										{
+											"ID": "20230710215103-akq221o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215103-akq221o",
+												"updated": "20230712205928"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JS压缩：​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "TerserPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712205247-2ues233",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712205247-2ues233"
+									},
+									"Children": [
+										{
+											"ID": "20230712205247-zekzt7i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712205247-zekzt7i",
+												"updated": "20230712205859"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "CSS压缩：​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "CssMinimizerWebpackPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712205307-nx7hea4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712205307-nx7hea4"
+									},
+									"Children": [
+										{
+											"ID": "20230712205307-ingd8on",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712205307-ingd8on",
+												"updated": "20230712205912"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "HTML压缩：​​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "HtmlWebpackPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710215111-f4np79b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230710215111-f4np79b"
+					},
+					"Children": [
+						{
+							"ID": "20230710215841-exf9nff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710215841-exf9nff",
+								"updated": "20230710215841"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "splitChunks"
+								}
+							]
+						},
+						{
+							"ID": "20230710215218-2q5hcqg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710215218-2q5hcqg"
+							},
+							"Children": [
+								{
+									"ID": "20230710215218-y6u546p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710215218-y6u546p"
+									},
+									"Children": [
+										{
+											"ID": "20230710215218-8tm5gaj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215218-8tm5gaj",
+												"updated": "20230710215218"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.docschina.org%2Fguides%2Fcode-splitting%2F%23splitchunksplugin",
+													"TextMarkATitle": "https://webpack.docschina.org/guides/code-splitting/#splitchunksplugin",
+													"TextMarkTextContent": "SplitChunksPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的配置可以对项目中的公共依赖进行单独打包"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710215243-afds9h3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230710215243-afds9h3"
+									},
+									"Children": [
+										{
+											"ID": "20230710215243-58equk1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215243-58equk1",
+												"updated": "20230710215244"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意cacheGroups的设置，常见的设置是针对组件库"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710215244-hvvrg0b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230710215244-hvvrg0b"
+					},
+					"Children": [
+						{
+							"ID": "20230710215248-mrmvgg2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710215248-mrmvgg2",
+								"updated": "20230710215248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Tree-shaking"
+								}
+							]
+						},
+						{
+							"ID": "20230710215251-mrxeztw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710215251-mrxeztw"
+							},
+							"Children": [
+								{
+									"ID": "20230710215250-crntn2i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710215250-crntn2i"
+									},
+									"Children": [
+										{
+											"ID": "20230710215250-94ysqno",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215250-94ysqno",
+												"updated": "20230710215259"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "webpack4以上在生产环境都是默认开启的"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710215317-lvzvs3v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230710215317-lvzvs3v"
+									},
+									"Children": [
+										{
+											"ID": "20230710215317-izyn0l1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215317-izyn0l1",
+												"updated": "20230710215317"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用es6module的静态模块的特性去分析，并且去除没有用js模块"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710215317-46rmaio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230710215317-46rmaio"
+					},
+					"Children": [
+						{
+							"ID": "20230710215321-nghu900",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710215321-nghu900",
+								"updated": "20230710215321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Scope-Hoisting"
+								}
+							]
+						},
+						{
+							"ID": "20230710215323-f306bha",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710215323-f306bha"
+							},
+							"Children": [
+								{
+									"ID": "20230710215322-0458uzs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710215322-0458uzs"
+									},
+									"Children": [
+										{
+											"ID": "20230710215322-3gmgsrp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215322-3gmgsrp",
+												"updated": "20230710215336"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有模块按照引用顺序放在一个函数作用域中，并适当的重命名一些变量名，防止变量名冲突，从而减少代码体积，减少闭包函数的内存开销"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230710215351-3ke7svs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230710215351-3ke7svs"
+									},
+									"Children": [
+										{
+											"ID": "20230710215351-lpjk441",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215351-lpjk441",
+												"updated": "20230710215356"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认生产环境开启，加支持es6module"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710215439-e9u20ds",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230710215439-e9u20ds"
+					},
+					"Children": [
+						{
+							"ID": "20230710215439-84z4hxb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710215439-84z4hxb",
+								"updated": "20230712210432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "第三方依赖优化"
+								}
+							]
+						},
+						{
+							"ID": "20230710215444-zsldn1j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710215444-zsldn1j"
+							},
+							"Children": [
+								{
+									"ID": "20230710215443-baoumww",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710215443-baoumww"
+									},
+									"Children": [
+										{
+											"ID": "20230710215443-np8ixhw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215443-np8ixhw",
+												"updated": "20230710215507"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第三方组件库的按需引入，特别是组件库和echarts这些"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712210439-6cdqvvu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712210439-6cdqvvu"
+									},
+									"Children": [
+										{
+											"ID": "20230712210439-9fjhv9k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712210439-9fjhv9k",
+												"updated": "20230712210443"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "externals 排除打包，使用 CDN 加速静态资源加载"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710215532-352nup8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230710215532-352nup8"
+					},
+					"Children": [
+						{
+							"ID": "20230710215533-y0g6dc0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710215533-y0g6dc0",
+								"updated": "20230710215533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "移除无用的css"
+								}
+							]
+						},
+						{
+							"ID": "20230710215556-ffefg6c",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230710215556-ffefg6c"
+							},
+							"Children": [
+								{
+									"ID": "20230710215535-in7cdpb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230710215535-in7cdpb"
+									},
+									"Children": [
+										{
+											"ID": "20230710215557-qgi14xt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230710215557-qgi14xt",
+												"updated": "20230710215620"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "PurgeCSS 是一个用来删除未使用的 CSS 代码的工具"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712210836-3xmf9ku",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230712210836-3xmf9ku"
+					},
+					"Children": [
+						{
+							"ID": "20230712210836-7y7cjsf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712210836-7y7cjsf",
+								"updated": "20230712210859"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化polyfill"
+								}
+							]
+						},
+						{
+							"ID": "20230712210901-t7l5zji",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712210901-t7l5zji"
+							},
+							"Children": [
+								{
+									"ID": "20230712210902-exsep7o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712210902-exsep7o"
+									},
+									"Children": [
+										{
+											"ID": "20230712210902-ken9q3m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712210902-ken9q3m"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "仅将遗留代码提供给旧版浏览器，Webpack ESNext Boilerplate"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712212114-9e4ns17",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712212114-9e4ns17"
+									},
+									"Children": [
+										{
+											"ID": "20230712212114-6a4o37k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212114-6a4o37k",
+												"updated": "20230712212142"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过 browserslist，Differential Serving的技术，通过浏览器原生模块化 API 来尽量避免加载无用 polyfill，polyfill 最优的使用方式应该是根据浏览器特性来分发，同一个项目在不同的浏览器，会加载不同的 polyfill 文件，Polyfill.io"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212318-mmc00ji",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230712212318-mmc00ji",
+						"updated": "20230712220703"
+					},
+					"Children": [
+						{
+							"ID": "20230712212318-a1958hj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212318-a1958hj",
+								"updated": "20230712220703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 Brotli 或 Zopfli 来对纯文本进行压缩（​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "gzip"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​压缩）"
+								}
+							]
+						},
+						{
+							"ID": "20230712212335-wgq2qvu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712212335-wgq2qvu",
+								"updated": "20230712212335"
+							},
+							"Children": [
+								{
+									"ID": "20230712212335-hjks7lg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712212335-hjks7lg",
+										"updated": "20230712212335"
+									},
+									"Children": [
+										{
+											"ID": "20230712212335-yl1q5u1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212335-yl1q5u1",
+												"updated": "20230712212335"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Brotli 比 Gzip 和 Deflate 有效得多,压缩可能会（非常）慢，但较慢的压缩意味着更高的压缩率。不过它解压速度很快,配置就会相对困难"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712212335-ocszf1w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712212335-ocszf1w",
+										"updated": "20230712212335"
+									},
+									"Children": [
+										{
+											"ID": "20230712212335-1netii9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212335-1netii9",
+												"updated": "20230712212335"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据编码为 Deflate、Gzip 和 Zlib 格式的 Zopfli 的压缩算法"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712212335-wqro0dj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712212335-wqro0dj",
+										"updated": "20230712212335"
+									},
+									"Children": [
+										{
+											"ID": "20230712212335-l2j546c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212335-l2j546c",
+												"updated": "20230712212335"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用最高级别的 Brotli + Gzip 来预压缩静态资源"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230712212418-yx0o8uk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230712212418-yx0o8uk",
+				"updated": "20230712212424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "渲染优化"
+				}
+			]
+		},
+		{
+			"ID": "20230712212425-f3wypar",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230712212425-f3wypar",
+				"updated": "20230712214150"
+			},
+			"Children": [
+				{
+					"ID": "20230712212546-35lamjg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230712212546-35lamjg",
+						"updated": "20230712212546"
+					},
+					"Children": [
+						{
+							"ID": "20230712212546-2ojd296",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212546-2ojd296",
+								"updated": "20230712212708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将高耗时的 JavaScript 放到 Web Worker "
+								}
+							]
+						},
+						{
+							"ID": "20230712212722-myc9vrf",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712212722-myc9vrf"
+							},
+							"Children": [
+								{
+									"ID": "20230712212721-edfq0vf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712212721-edfq0vf"
+									},
+									"Children": [
+										{
+											"ID": "20230712212721-hnt334l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212721-hnt334l",
+												"updated": "20230712212722"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Web Worker 无权访问 DOM，因为 DOM 不是“线程安全的”，而且它们执行的代码需要包含在单独的文件中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212710-i8kcj61",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230712212710-i8kcj61"
+					},
+					"Children": [
+						{
+							"ID": "20230712212710-eysndu6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212710-eysndu6",
+								"updated": "20230712212710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过 Service Worker 来缓存"
+								}
+							]
+						},
+						{
+							"ID": "20230712213205-m6lxkyx",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712213205-m6lxkyx"
+							},
+							"Children": [
+								{
+									"ID": "20230712213204-5v0ysd2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712213204-5v0ysd2"
+									},
+									"Children": [
+										{
+											"ID": "20230712213204-ks9jbhh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712213204-ks9jbhh",
+												"updated": "20230712213205"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过超时竞争资源下载，如果资源在特定超时内没有响应，则返回空响应以告知浏览器继续解析页面"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712213206-t9jr544",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712213206-t9jr544"
+									},
+									"Children": [
+										{
+											"ID": "20230712213206-m58s2iq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712213206-m58s2iq"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212725-fu9bm9d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230712212725-fu9bm9d"
+					},
+					"Children": [
+						{
+							"ID": "20230712212725-612j2gq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212725-612j2gq",
+								"updated": "20230712212909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将 JavaScript 转换为 WebAssembly"
+								}
+							]
+						},
+						{
+							"ID": "20230712212911-yc7w12j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712212911-yc7w12j"
+							},
+							"Children": [
+								{
+									"ID": "20230712212910-r2cf9sq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712212910-r2cf9sq"
+									},
+									"Children": [
+										{
+											"ID": "20230712212910-gani081",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212910-gani081",
+												"updated": "20230712212916"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JavaScript 似乎在较小的数组大小上比 WebAssembly 表现更好，而 WebAssembly 在更大的数组大小上比 JavaScript 表现更好"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712212917-6p0m8y5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712212917-6p0m8y5"
+									},
+									"Children": [
+										{
+											"ID": "20230712212917-kit8gl7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212917-kit8gl7",
+												"updated": "20230712212921"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于大多数 Web 应用程序，JavaScript 更适合"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712212921-mbt3qdk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712212921-mbt3qdk"
+									},
+									"Children": [
+										{
+											"ID": "20230712212921-8t8nc6b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712212921-8t8nc6b",
+												"updated": "20230712212929"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "WebAssembly 最适合用于计算密集型 Web 应用程序，例如 Web 游戏"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212848-110auk8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230712212848-110auk8"
+					},
+					"Children": [
+						{
+							"ID": "20230712212848-y4yd5kv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212848-y4yd5kv",
+								"updated": "20230712212908"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务端渲染（SSR）和预渲染（Prerender）来优化加载性能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212947-rqn87qa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230712212947-rqn87qa"
+					},
+					"Children": [
+						{
+							"ID": "20230712212947-wzwd962",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212947-wzwd962",
+								"updated": "20230712212947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DNS 预解析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212947-xjrotx6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230712212947-xjrotx6"
+					},
+					"Children": [
+						{
+							"ID": "20230712212947-jdcttyd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212947-jdcttyd",
+								"updated": "20230712212951"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "预先建立连接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212952-hivexl9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230712212952-hivexl9"
+					},
+					"Children": [
+						{
+							"ID": "20230712212952-fdryzll",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212952-fdryzll",
+								"updated": "20230712213146"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过组件懒加载优化超长应用内容加载性能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712213227-ijbhtca",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230712213227-ijbhtca"
+					},
+					"Children": [
+						{
+							"ID": "20230712213227-c1ptc3t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712213227-c1ptc3t",
+								"updated": "20230712213227"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少 DOM 节点：DOM 节点太多影响页面的渲染，应尽量减少 DOM 节点"
+								}
+							]
+						},
+						{
+							"ID": "20230712213229-nml90pe",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712213229-nml90pe"
+							},
+							"Children": [
+								{
+									"ID": "20230712213216-o91qbyz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712213216-o91qbyz"
+									},
+									"Children": [
+										{
+											"ID": "20230712213216-cz6m4cv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712213216-cz6m4cv",
+												"updated": "20230712213226"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "长列表虚拟列表"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712213147-cyfiujv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230712213147-cyfiujv"
+					},
+					"Children": [
+						{
+							"ID": "20230712213147-2ql6qdi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712213147-2ql6qdi",
+								"updated": "20230712213150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "路由懒加载"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214118-h94lviz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230712214118-h94lviz",
+						"updated": "20230712214145"
+					},
+					"Children": [
+						{
+							"ID": "20230712214118-9whxwo0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214118-9whxwo0",
+								"updated": "20230712214140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GPU 加速"
+								}
+							]
+						},
+						{
+							"ID": "20230712214142-4vtpsik",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712214142-4vtpsik",
+								"updated": "20230712214145"
+							},
+							"Children": [
+								{
+									"ID": "20230712214141-ufehj9r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712214141-ufehj9r"
+									},
+									"Children": [
+										{
+											"ID": "20230712214141-yxuyrmk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214141-yxuyrmk",
+												"updated": "20230712214143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "CSS中以下属性（CSS3 transitions、CSS3 3D transforms、Opacity、Canvas、webGL、Video）来触发 GPU 渲染"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214143-q41o2bv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712214143-q41o2bv",
+										"updated": "20230712214145"
+									},
+									"Children": [
+										{
+											"ID": "20230712214143-icmmjeq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214143-icmmjeq",
+												"updated": "20230712214145"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "过度使用会引发手机耗电增加"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712213236-j7nfg57",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230712213236-j7nfg57"
+					},
+					"Children": [
+						{
+							"ID": "20230712213236-6t0sy3j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712213236-6t0sy3j",
+								"updated": "20230712213242"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "合理使用 requestAnimationFrame 动画代替 setTimeout"
+								}
+							]
+						},
+						{
+							"ID": "20230712213647-69vig8m",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712213647-69vig8m"
+							},
+							"Children": [
+								{
+									"ID": "20230712213637-jbc4nyd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712213637-jbc4nyd"
+									},
+									"Children": [
+										{
+											"ID": "20230712213637-ftulp5h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712213637-ftulp5h",
+												"updated": "20230712213637"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 requestAnimationFrame 监听帧变化，使得在正确的时间进行渲染"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712213243-px9xi1c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230712213243-px9xi1c"
+					},
+					"Children": [
+						{
+							"ID": "20230712213243-l55ikw4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712213243-l55ikw4",
+								"updated": "20230712213602"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高频事件优化：Touchmove 和 Scroll 事件可导致多次渲染"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214042-vo0qdpo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230712214042-vo0qdpo",
+						"updated": "20230712214150"
+					},
+					"Children": [
+						{
+							"ID": "20230712214042-afyk3eb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214042-afyk3eb",
+								"updated": "20230712214150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少回流重绘"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710205823-pa9fwwr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710205823-pa9fwwr",
+				"updated": "20230712214442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSS优化"
+				}
+			]
+		},
+		{
+			"ID": "20230712214525-6fp8o4w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230712214525-6fp8o4w",
+				"updated": "20230712214525"
+			},
+			"Children": [
+				{
+					"ID": "20230712214620-6c5e3e2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230712214620-6c5e3e2"
+					},
+					"Children": [
+						{
+							"ID": "20230712214620-hjt4oze",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214620-hjt4oze",
+								"updated": "20230712214624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "元素选择器"
+								}
+							]
+						},
+						{
+							"ID": "20230712214626-xgbeuku",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712214626-xgbeuku"
+							},
+							"Children": [
+								{
+									"ID": "20230712214525-x7fvirm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712214525-x7fvirm",
+										"updated": "20230712214525"
+									},
+									"Children": [
+										{
+											"ID": "20230712214525-0zbjcbp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214525-0zbjcbp",
+												"updated": "20230712214533"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "避免使用通配符，只对需要用到的元素进行选择"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214559-onmtocn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712214559-onmtocn"
+									},
+									"Children": [
+										{
+											"ID": "20230712214559-pu2z76p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214559-pu2z76p",
+												"updated": "20230712214559"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "少用标签选择器，用类选择器替代"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214614-rv4hu48",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712214614-rv4hu48"
+									},
+									"Children": [
+										{
+											"ID": "20230712214614-7zw0a01",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214614-7zw0a01",
+												"updated": "20230712214615"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "id 和 class 选择器不应该被多余的标签选择器拖后腿"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214636-dfwe4dw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230712214636-dfwe4dw"
+									},
+									"Children": [
+										{
+											"ID": "20230712214636-qccu4g7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214636-qccu4g7",
+												"updated": "20230712214656"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少嵌套，后代选择器的开销是最高的，将选择器的深度降到最低（最高不要超过三层）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214535-9grjw4p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230712214535-9grjw4p"
+					},
+					"Children": [
+						{
+							"ID": "20230712214535-pl1uz34",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214535-pl1uz34",
+								"updated": "20230712214540"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关注可以通过继承实现的属性，避免重复匹配重复定义"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214721-c5qwg2w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230712214721-c5qwg2w"
+					},
+					"Children": [
+						{
+							"ID": "20230712214721-8kjv6hh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214721-8kjv6hh",
+								"updated": "20230712214721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽量避免在 HTML 标签中写 Style 属性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214541-l2htcz1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230712214541-l2htcz1"
+					},
+					"Children": [
+						{
+							"ID": "20230712214541-yfosf2x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214541-yfosf2x",
+								"updated": "20230712214832"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免 CSS 表达式"
+								}
+							]
+						},
+						{
+							"ID": "20230712214834-pmgaw9b",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712214834-pmgaw9b"
+							},
+							"Children": [
+								{
+									"ID": "20230712214841-uztgrqm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712214841-uztgrqm"
+									},
+									"Children": [
+										{
+											"ID": "20230712214841-mt7i55p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214841-mt7i55p",
+												"updated": "20230712214848"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不符合WEB标准：CSS表达式这种在表现中插入行为的JavaScript代码，有悖于Web标准的结构、表现、行为相分离的理念"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214834-x8ee5gm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712214834-x8ee5gm"
+									},
+									"Children": [
+										{
+											"ID": "20230712214834-wo5db2l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214834-wo5db2l",
+												"updated": "20230712214853"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "效率低：一个CSS表达式会反复执行，因为需要不停的去计算CSS的属性值，甚至执行成百上千次，这会大大消耗计算机硬件资源，极端情况下可能会导致浏览器崩溃"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214836-zlxe431",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712214836-zlxe431"
+									},
+									"Children": [
+										{
+											"ID": "20230712214836-5fjnn1i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214836-5fjnn1i",
+												"updated": "20230712214904"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安全隐患：CSS表达式暴露了一个脚本执行的上下文，可能带来脚本注入的隐患"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214919-2l1mx1j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230712214919-2l1mx1j"
+					},
+					"Children": [
+						{
+							"ID": "20230712214919-pt6q1w9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214919-pt6q1w9",
+								"updated": "20230712214925"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "移除空的 CSS 规则：空的 CSS 规则增加了 CSS 文件的大小，且影响 CSS 树的执行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214931-3pegtda",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230712214931-3pegtda"
+					},
+					"Children": [
+						{
+							"ID": "20230712214931-5pq2glm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214931-5pq2glm",
+								"updated": "20230712214932"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 flexbox 代替传统的布局模型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712214932-3jx0q50",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230712214932-3jx0q50"
+					},
+					"Children": [
+						{
+							"ID": "20230712214932-ox9mlq8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712214932-ox9mlq8",
+								"updated": "20230712214938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "正确使用 display 属性"
+								}
+							]
+						},
+						{
+							"ID": "20230712214939-16uc9ow",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230712214939-16uc9ow"
+							},
+							"Children": [
+								{
+									"ID": "20230712214938-j438taf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230712214938-j438taf"
+									},
+									"Children": [
+										{
+											"ID": "20230712214938-dabmjxe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214938-dabmjxe",
+												"updated": "20230712214944"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "display:inline 后边不应再使用 width、height、margin、padding 以及 float"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214944-5npedqe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230712214944-5npedqe"
+									},
+									"Children": [
+										{
+											"ID": "20230712214944-3nglajk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214944-3nglajk",
+												"updated": "20230712214947"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "display:inline-block 后不应该使用 float"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214948-yh16izx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230712214948-yh16izx"
+									},
+									"Children": [
+										{
+											"ID": "20230712214948-zymsg6m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214948-zymsg6m",
+												"updated": "20230712214954"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "display:block 后不应该再使用 vertical-align"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230712214954-4gd6usg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230712214954-4gd6usg"
+									},
+									"Children": [
+										{
+											"ID": "20230712214954-rdqykzd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230712214954-rdqykzd",
+												"updated": "20230712214958"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "display:table 后不应该再使用 margin 或 float"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215009-em2tyiz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230712215009-em2tyiz"
+					},
+					"Children": [
+						{
+							"ID": "20230712215009-gwyecdg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215009-gwyecdg",
+								"updated": "20230712215010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不滥用 float ：float 在渲染时的计算量比较大，尽量减少使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215010-kgalp2l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230712215010-kgalp2l"
+					},
+					"Children": [
+						{
+							"ID": "20230712215010-niqblhf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215010-niqblhf",
+								"updated": "20230712215014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不滥用 Web 字体：Web字体需要下载，解析，重绘当前页面，尽量减少使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215015-gznkcn8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230712215015-gznkcn8"
+					},
+					"Children": [
+						{
+							"ID": "20230712215015-b1lais2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215015-b1lais2",
+								"updated": "20230712215020"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不声明过多的 font-size： 尽量使用语义化标签的默认字体大小，提高 CSS 树的效率"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215020-qc0cl2u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230712215020-qc0cl2u"
+					},
+					"Children": [
+						{
+							"ID": "20230712215020-4h0getv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215020-4h0getv",
+								"updated": "20230712215023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "值为 0 时不需要任何单位"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215024-n51ilbo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230712215024-n51ilbo"
+					},
+					"Children": [
+						{
+							"ID": "20230712215024-v97kyc8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215024-v97kyc8",
+								"updated": "20230712215027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标准化各种浏览器前缀"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215027-tqsp97e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230712215027-tqsp97e"
+					},
+					"Children": [
+						{
+							"ID": "20230712215027-svz3oz0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215027-svz3oz0",
+								"updated": "20230712215031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "没前缀应放在最后"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215031-ctyyak0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20230712215031-ctyyak0"
+					},
+					"Children": [
+						{
+							"ID": "20230712215031-0boxztu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215031-0boxztu",
+								"updated": "20230712215048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CSS 动画只用-webkit- 和 无前缀 两种"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215057-vi18rvz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20230712215057-vi18rvz"
+					},
+					"Children": [
+						{
+							"ID": "20230712215057-53lbq4r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215057-53lbq4r",
+								"updated": "20230712215058"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其他前缀为 -webkit- 、-moz- 、-ms- 、无前缀 四种"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215111-ia4lq00",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20230712215111-ia4lq00"
+					},
+					"Children": [
+						{
+							"ID": "20230712215111-aiv5qri",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215111-aiv5qri",
+								"updated": "20230712215112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免让选择器看起来像正则表达式：高级选择器执行耗时长且不易读懂，避免使用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230712215121-tl5iek7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230712215121-tl5iek7",
+				"updated": "20230712222127"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "缓存优化"
+				}
+			]
+		},
+		{
+			"ID": "20230712215130-1qwd0k9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230712215130-1qwd0k9",
+				"updated": "20230712215135"
+			},
+			"Children": [
+				{
+					"ID": "20230712215130-ym5ebj7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230712215130-ym5ebj7",
+						"updated": "20230712215130"
+					},
+					"Children": [
+						{
+							"ID": "20230712215130-bukb2i7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215130-bukb2i7",
+								"updated": "20230712215131"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置 HTTP 缓存标头，强缓存、协商缓存"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712215131-i0kr4na",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230712215131-i0kr4na",
+						"updated": "20230712215135"
+					},
+					"Children": [
+						{
+							"ID": "20230712215131-ndfyf1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712215131-ndfyf1r",
+								"updated": "20230712215135"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在你的服务器上启用 OCSP Stapling，可以加速 TLS 握手"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230710110516-9nbkuom",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230710110516-9nbkuom",
+				"updated": "20230710110529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230710110535-qk7sqxk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230710110535-qk7sqxk",
+				"updated": "20230712222058"
+			},
+			"Children": [
+				{
+					"ID": "20230712221821-re3q6vg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230712221821-re3q6vg"
+					},
+					"Children": [
+						{
+							"ID": "20230712221821-vk4dgrx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712221821-vk4dgrx",
+								"updated": "20230712221822"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/creeperyang/blog/issues/1",
+									"TextMarkTextContent": "雅虎前端优化35条规则翻译 · Issue #1 · creeperyang/blog (github.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230710110536-wwzeznx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230710110536-wwzeznx",
+						"updated": "20230710110536"
+					},
+					"Children": [
+						{
+							"ID": "20230710110536-wrcds4y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230710110536-wrcds4y",
+								"updated": "20230710110536"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://web.dev/fast/#optimize-your-images",
+									"TextMarkTextContent": "快速加载 (web.dev)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712212248-rqtat7s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230712212248-rqtat7s",
+						"updated": "20230712212248"
+					},
+					"Children": [
+						{
+							"ID": "20230712212248-yqkfn6a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712212248-yqkfn6a",
+								"updated": "20230712212248"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://webpack.docschina.org/plugins/",
+									"TextMarkTextContent": "插件 | webpack 中文文档 (docschina.org)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712221847-xxt6sd9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230712221847-xxt6sd9"
+					},
+					"Children": [
+						{
+							"ID": "20230712221847-pxj5s2y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712221847-pxj5s2y",
+								"updated": "20230712221847"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7099711136345358344",
+									"TextMarkTextContent": "webpack 构建优化策略 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230712222057-vrl1dua",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230712222057-vrl1dua",
+						"updated": "20230712222058"
+					},
+					"Children": [
+						{
+							"ID": "20230712222057-062zovx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230712222057-062zovx",
+								"updated": "20230712222058"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6981673766178783262",
+									"TextMarkTextContent": "写给中高级前端关于性能优化的9大策略和6大指标 | 网易四年实践 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230712215705-sbd8dtb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230712215705-sbd8dtb"
+			}
+		}
+	]
+}

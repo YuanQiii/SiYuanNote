@@ -1,0 +1,21 @@
+{
+	"ID": "20230705141547-jc20grx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230705141547-jc20grx",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141547-jc20grx\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705141547-jy64xqt\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705141547-jy64xqt\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230705141547-jy64xqt\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "设计模式",
+		"updated": "20230705141548"
+	},
+	"Children": [
+		{
+			"ID": "20230705141547-jy64xqt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230705141547-jy64xqt",
+				"updated": "20230705141547"
+			}
+		}
+	]
+}

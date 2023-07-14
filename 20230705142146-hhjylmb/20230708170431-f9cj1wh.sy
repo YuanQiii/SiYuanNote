@@ -1,0 +1,4073 @@
+{
+	"ID": "20230708170431-f9cj1wh",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230708170431-f9cj1wh",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230708170431-f9cj1wh\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230708171918-8kuyp8j\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230709170734-5jxd7rz\u0026quot;,\u0026quot;scrollTop\u0026quot;:12231,\u0026quot;focusId\u0026quot;:\u0026quot;20230709170734-oimjkco\u0026quot;,\u0026quot;focusStart\u0026quot;:42,\u0026quot;focusEnd\u0026quot;:42}",
+		"title": "移动端兼容性",
+		"updated": "20230709170743"
+	},
+	"Children": [
+		{
+			"ID": "20230708171918-8kuyp8j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708171918-8kuyp8j",
+				"updated": "20230708171918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置圆角(border-radius:50%;)部分手机显示为椭圆"
+				}
+			]
+		},
+		{
+			"ID": "20230708170431-dz8jvxn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708170431-dz8jvxn",
+				"updated": "20230708173303"
+			},
+			"Children": [
+				{
+					"ID": "20230708173240-k5yhmy1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708173240-k5yhmy1",
+						"updated": "20230708173240"
+					},
+					"Children": [
+						{
+							"ID": "20230708173240-c2pyodu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708173240-c2pyodu",
+								"updated": "20230708173251"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：使用 rem 做屏幕适配"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230708173251-vpmbvzh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230708173251-vpmbvzh",
+						"updated": "20230708173303"
+					},
+					"Children": [
+						{
+							"ID": "20230708173255-j6zf9aw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708173255-j6zf9aw",
+								"updated": "20230708173303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：设置圆角时，设置具体的数据，不用百分比的形式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708173346-6nff8ai",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708173346-6nff8ai",
+				"updated": "20230708173346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安卓手机 line-height 和 height 相等,文案垂直不居中"
+				}
+			]
+		},
+		{
+			"ID": "20230708174632-8yhjmv6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708174632-8yhjmv6",
+				"updated": "20230708174632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安卓手机部分版本 input 的 placeholder 偏上"
+				}
+			]
+		},
+		{
+			"ID": "20230708174729-c1km9ai",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708174729-c1km9ai",
+				"updated": "20230708190601"
+			},
+			"Children": [
+				{
+					"ID": "20230708174733-b75fk66",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708174733-b75fk66",
+						"updated": "20230708190601"
+					},
+					"Children": [
+						{
+							"ID": "20230708174733-dprm2ny",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708174733-dprm2ny",
+								"updated": "20230708190601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：设置 input 的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "line-heigh: normal"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708174751-7cowesl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708174751-7cowesl",
+				"updated": "20230708175758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输入框在页面较底部时，安卓手机弹出的键盘会遮挡靠近底部的文本框，点击原生键盘的关闭按钮收回键盘时，输入框没有失焦"
+				}
+			]
+		},
+		{
+			"ID": "20230708175023-wndhf39",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708175023-wndhf39",
+				"updated": "20230708180240"
+			},
+			"Children": [
+				{
+					"ID": "20230708175038-sc3qrp5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708175038-sc3qrp5",
+						"updated": "20230708180240"
+					},
+					"Children": [
+						{
+							"ID": "20230708175038-rgo66od",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708175038-rgo66od",
+								"updated": "20230708175152"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230708175043-n9bqkip",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230708175043-n9bqkip",
+								"updated": "20230708180240"
+							},
+							"Children": [
+								{
+									"ID": "20230708175043-urf1139",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230708175043-urf1139"
+									},
+									"Children": [
+										{
+											"ID": "20230708175043-bg890sl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708175043-bg890sl",
+												"updated": "20230708175047"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Element.scrollIntoView()和 Element.scrollIntoViewIfNeeded()方法让当前的元素滚动到浏览器窗口的可视区域内"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708175048-y0c90ig",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230708175048-y0c90ig"
+									},
+									"Children": [
+										{
+											"ID": "20230708175048-k11bw67",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708175048-k11bw67",
+												"updated": "20230708175058"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 Element.scrollIntoView()和 Element.scrollIntoViewIfNeeded()解决遮挡问题，监听输入框聚焦事件，调用上面的方法将激活的元素（输入框）滚动到可视区域"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708175058-mvk2141",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230708175058-mvk2141",
+										"updated": "20230708180240"
+									},
+									"Children": [
+										{
+											"ID": "20230708175058-6nbsfip",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708175058-6nbsfip",
+												"updated": "20230708180240"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过监听页面 resize 事件来解决点击原生键盘的关闭按钮收回键盘时，输入框没有失焦的问题"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708181520-1zllshw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708181520-1zllshw",
+				"updated": "20230708181520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机父元素设置了 overflow:hidden 和 border-radius，子元素超出部分不隐藏"
+				}
+			]
+		},
+		{
+			"ID": "20230708182415-18j5vpf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708182415-18j5vpf",
+				"updated": "20230708182415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机页面滚动时动画停止"
+				}
+			]
+		},
+		{
+			"ID": "20230708182416-c15xjod",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708182416-c15xjod",
+				"updated": "20230708182950"
+			},
+			"Children": [
+				{
+					"ID": "20230708182422-bmxwuaz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708182422-bmxwuaz",
+						"updated": "20230708182950"
+					},
+					"Children": [
+						{
+							"ID": "20230708182422-w2wf0n8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708182422-w2wf0n8",
+								"updated": "20230708182426"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因"
+								}
+							]
+						},
+						{
+							"ID": "20230708182426-ua3ktar",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230708182426-ua3ktar",
+								"updated": "20230708182950"
+							},
+							"Children": [
+								{
+									"ID": "20230708182950-nuh7wfu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230708182950-nuh7wfu",
+										"updated": "20230708182950"
+									},
+									"Children": [
+										{
+											"ID": "20230708182950-4pwaito",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708182950-4pwaito",
+												"updated": "20230708182950"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "iOS（7 以及之前版本）浏览器在页面「惯性滚动」期间，暂停了 CSS3 animation / JS 大多数事件，在「触摸滚动」期间，暂停了 CSS3 animation / JS scroll 事件。不过在 iOS 8 里，终于解决了这个问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708182426-6mndg68",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230708182426-6mndg68"
+									},
+									"Children": [
+										{
+											"ID": "20230708182426-lzlgz4s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708182426-lzlgz4s",
+												"updated": "20230708182434"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "iOS 的事件处理机制有关，iOS 最先响应屏幕反应"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708182434-u995np4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230708182434-u995np4"
+									},
+									"Children": [
+										{
+											"ID": "20230708182434-q2rw3gf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708182434-q2rw3gf",
+												"updated": "20230708182447"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "响应顺序依次为 Touch——Media——Service——Core 架构，当用户只要触摸接触了屏幕之后，系统就会最优先去处理屏幕显示也就是 Touch 这个层级，然后才是媒体（Media），服务（Service）以及 Core 架构"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708182448-klskwz0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230708182448-klskwz0"
+									},
+									"Children": [
+										{
+											"ID": "20230708182448-kaeftgk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708182448-kaeftgk",
+												"updated": "20230708182457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当系统接收到 Touch 事件之后会优先响应，此时会暂停屏幕上包括 js、css 的渲染。这个时候不光是 css 动画不动了，哪怕页面没有加载完如果你手指头还停留在屏幕上那么页面也不会继续加载，直到你的手松开"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708183009-8u4srhr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708183009-8u4srhr",
+				"updated": "20230708183010"
+			},
+			"Children": [
+				{
+					"ID": "20230708183010-plxq6ny",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230708183010-plxq6ny",
+						"updated": "20230708183010"
+					},
+					"Children": [
+						{
+							"ID": "20230708183011-wqiagsv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708183011-wqiagsv",
+								"updated": "20230708183023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：给动画元素设置 transform: translate3d(0, 0, 0);"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708185210-bg6mvg3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708185210-bg6mvg3",
+				"updated": "20230708185212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios手机滑动卡顿问题"
+				}
+			]
+		},
+		{
+			"ID": "20230708185214-zfolb7u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708185214-zfolb7u",
+				"updated": "20230708185315"
+			},
+			"Children": [
+				{
+					"ID": "20230708185224-6wajnou",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708185224-6wajnou",
+						"updated": "20230708185315"
+					},
+					"Children": [
+						{
+							"ID": "20230708185224-m0lufbg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708185224-m0lufbg",
+								"updated": "20230708185228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230708185228-sb0vfvu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230708185228-sb0vfvu",
+								"updated": "20230708185315"
+							},
+							"Children": [
+								{
+									"ID": "20230708185228-1t1r6hn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230708185228-1t1r6hn",
+										"updated": "20230708185315"
+									},
+									"Children": [
+										{
+											"ID": "20230708185258-26mk10h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708185258-26mk10h",
+												"updated": "20230708185258"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "meta标签设置 + css"
+												}
+											]
+										},
+										{
+											"ID": "20230708185301-9ygbw6f",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230708185301-9ygbw6f",
+												"updated": "20230708185315"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "aHRtbA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\u003cmeta content=\"yes\" name=\"apple-mobile-web-app-capable\" /\u003e\n\u003cmeta content=\"yes\" name=\"apple-touch-fullscreen\" /\u003e\n\n\u003cstyle\u003e\n  html, body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n  }\n\u003c/style\u003e\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708185334-k2xduq4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708185334-k2xduq4",
+				"updated": "20230708185334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机快速滚动页面卡死"
+				}
+			]
+		},
+		{
+			"ID": "20230708185435-0c5l7ir",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708185435-0c5l7ir",
+				"updated": "20230708185435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机最后一个子元素设置 margin-bottom 无效"
+				}
+			]
+		},
+		{
+			"ID": "20230708185655-0plqu6i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708185655-0plqu6i",
+				"updated": "20230708190539"
+			},
+			"Children": [
+				{
+					"ID": "20230708185657-qzwwjy5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708185657-qzwwjy5",
+						"updated": "20230708190539"
+					},
+					"Children": [
+						{
+							"ID": "20230708185657-rl51qz7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708185657-rl51qz7",
+								"updated": "20230708190539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "margin-bottom "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​改成"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "padding-bottom"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708185717-1s02w5q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708185717-1s02w5q",
+				"updated": "20230708185717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机上输入框无法选中聚焦"
+				}
+			]
+		},
+		{
+			"ID": "20230708185725-aogts5y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708185725-aogts5y",
+				"updated": "20230708190544"
+			},
+			"Children": [
+				{
+					"ID": "20230708185726-hpeyp8u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708185726-hpeyp8u",
+						"updated": "20230708185726"
+					},
+					"Children": [
+						{
+							"ID": "20230708185726-rcxh25g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708185726-rcxh25g",
+								"updated": "20230708185739"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：设置了全部元素无法被选中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230708185740-sy2kzf9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230708185740-sy2kzf9",
+						"updated": "20230708190544"
+					},
+					"Children": [
+						{
+							"ID": "20230708185740-hfl6jt0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708185740-hfl6jt0",
+								"updated": "20230708190544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：输入框元素不设置这个属性，如果还存在问题，尝试在输入框和其父元素设置"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-webkit-user-select:text !important"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 属性"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708185839-hkyoim5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708185839-hkyoim5",
+				"updated": "20230708185839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 系统 14 以上，设置特殊字体（UI 提供的用在数字上的字体），钱币符号和数字设置相同的颜色，页面显示的颜色不一样"
+				}
+			]
+		},
+		{
+			"ID": "20230708185841-v0jiaa2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708185841-v0jiaa2",
+				"updated": "20230708185945"
+			},
+			"Children": [
+				{
+					"ID": "20230708185842-vqlx1xw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708185842-vqlx1xw",
+						"updated": "20230708185842"
+					},
+					"Children": [
+						{
+							"ID": "20230708185842-lzww9yb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708185842-lzww9yb",
+								"updated": "20230708185853"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：字体原因"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230708185933-h16tmjw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230708185933-h16tmjw",
+						"updated": "20230708185945"
+					},
+					"Children": [
+						{
+							"ID": "20230708185933-klxvniy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708185933-klxvniy",
+								"updated": "20230708185934"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								}
+							]
+						},
+						{
+							"ID": "20230708185934-hwwa92g",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230708185934-hwwa92g",
+								"updated": "20230708185945"
+							},
+							"Children": [
+								{
+									"ID": "20230708185934-r3fkqy4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230708185934-r3fkqy4"
+									},
+									"Children": [
+										{
+											"ID": "20230708185934-zam7q42",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708185934-zam7q42",
+												"updated": "20230708185938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用系统字体"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708185940-4fhk82l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230708185940-4fhk82l",
+										"updated": "20230708185945"
+									},
+									"Children": [
+										{
+											"ID": "20230708185940-42fc75l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708185940-42fc75l",
+												"updated": "20230708185945"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设置颜色时透明度设置为 0.99"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708190124-xjyjnue",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708190124-xjyjnue",
+				"updated": "20230708190124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 系统 14 以上，使用 transform 实现动画时，会出现闪屏的情况"
+				}
+			]
+		},
+		{
+			"ID": "20230708190402-7c3ehnd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708190402-7c3ehnd",
+				"updated": "20230708190519"
+			},
+			"Children": [
+				{
+					"ID": "20230708190403-v4t9c6q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708190403-v4t9c6q",
+						"updated": "20230708190519"
+					},
+					"Children": [
+						{
+							"ID": "20230708190403-3zvprd2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708190403-3zvprd2",
+								"updated": "20230708190519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：在做动画的元素的父元素设置 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "transform: translate3d(0, 0, 1); backface-visibility: hidden;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708190442-e6jn1hs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708190442-e6jn1hs",
+				"updated": "20230708190442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机，图片使用 transform rotateY()不显示的问题"
+				}
+			]
+		},
+		{
+			"ID": "20230708190445-o8fosxv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708190445-o8fosxv",
+				"updated": "20230708190525"
+			},
+			"Children": [
+				{
+					"ID": "20230708190447-bgdmwbq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708190447-bgdmwbq",
+						"updated": "20230708190447"
+					},
+					"Children": [
+						{
+							"ID": "20230708190447-s3eciow",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708190447-s3eciow",
+								"updated": "20230708190457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：猜测是 ios 手机又视角概念，使用 transform rotateY()旋转后，视角出现问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230708190459-394z6fa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230708190459-394z6fa",
+						"updated": "20230708190525"
+					},
+					"Children": [
+						{
+							"ID": "20230708190504-dtiqjh7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708190504-dtiqjh7",
+								"updated": "20230708190525"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：在父元素增加 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "perspective: 1;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708190637-46331ay",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708190637-46331ay",
+				"updated": "20230708190640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "300ms 延迟的问题"
+				}
+			]
+		},
+		{
+			"ID": "20230708190639-a5dgfz0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708190639-a5dgfz0",
+				"updated": "20230708191602"
+			},
+			"Children": [
+				{
+					"ID": "20230708190718-zu81h9n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230708190718-zu81h9n",
+						"updated": "20230708190718"
+					},
+					"Children": [
+						{
+							"ID": "20230708190718-uecgn18",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708190718-uecgn18",
+								"updated": "20230708190738"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：以前网站都是为大屏幕电脑设计的，手机上预览就会导致内容被缩小了，为解决这个问题，就约定双击屏幕就将网页等比例放大缩小，如何判断用户是否是双击了呢？那就在首次点击后等待 300 毫秒，判断用户是否再次点击了屏幕，点击了就判断是双击"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230708190741-26cqy7f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230708190741-26cqy7f",
+						"updated": "20230708191602"
+					},
+					"Children": [
+						{
+							"ID": "20230708190741-e5wmarx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230708190741-e5wmarx",
+								"updated": "20230708190748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								}
+							]
+						},
+						{
+							"ID": "20230708191333-qq2ylwm",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230708191333-qq2ylwm",
+								"updated": "20230708191602"
+							},
+							"Children": [
+								{
+									"ID": "20230708191332-h3fv4wd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230708191332-h3fv4wd"
+									},
+									"Children": [
+										{
+											"ID": "20230708191332-ac72cc9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708191332-ac72cc9",
+												"updated": "20230708191333"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 HTML 文档头部添加如下 meta 标签,添加了 user-scalable=no 会禁止缩放"
+												}
+											]
+										},
+										{
+											"ID": "20230708191428-crml4k4",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230708191428-crml4k4",
+												"updated": "20230708191513"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "aHRtbA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" /\u003e\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708191345-y99ppl8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230708191345-y99ppl8"
+									},
+									"Children": [
+										{
+											"ID": "20230708191345-ha5naxr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708191345-ha5naxr",
+												"updated": "20230708191408"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "CSS touch-action 属性"
+												}
+											]
+										},
+										{
+											"ID": "20230708191521-9v4fsjn",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230708191521-9v4fsjn",
+												"updated": "20230708191542"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "Y3Nz"
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "html {\n  touch-action: manipulation;\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230708191418-1nz8vfz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230708191418-1nz8vfz",
+										"updated": "20230708191602"
+									},
+									"Children": [
+										{
+											"ID": "20230708191418-cwxz6xy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230708191418-cwxz6xy",
+												"updated": "20230708191425"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引入fastclick库，脚本相对较大，且有时候可能会有bug"
+												}
+											]
+										},
+										{
+											"ID": "20230708191555-oc72k4c",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230708191555-oc72k4c",
+												"updated": "20230708191602"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import fastclick from 'fastclick'\nfastclick.attach(document.body)\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230708191658-nw4byxw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230708191658-nw4byxw",
+				"updated": "20230709145621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios中transform 导致 z-index 失效"
+				}
+			]
+		},
+		{
+			"ID": "20230708192203-0nprs84",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230708192203-0nprs84",
+				"updated": "20230709145600"
+			},
+			"Children": [
+				{
+					"ID": "20230709145458-j9okc0n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709145458-j9okc0n",
+						"updated": "20230709145458"
+					},
+					"Children": [
+						{
+							"ID": "20230709145458-rr1nv8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709145458-rr1nv8j",
+								"updated": "20230709145505"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.zhangxinxu.com/wordpress/2016/08/safari-3d-transform-z-index/",
+									"TextMarkTextContent": "元素样式包含 transform 时形成新的堆叠上下文"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709145509-jg2g7ep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709145509-jg2g7ep",
+						"updated": "20230709145600"
+					},
+					"Children": [
+						{
+							"ID": "20230709145509-cutya4n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709145509-cutya4n",
+								"updated": "20230709145513"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230709145523-udxx5td",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709145523-udxx5td",
+								"updated": "20230709145600"
+							},
+							"Children": [
+								{
+									"ID": "20230709145513-ikmcaci",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709145513-ikmcaci"
+									},
+									"Children": [
+										{
+											"ID": "20230709145513-c3rdgni",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709145513-c3rdgni",
+												"updated": "20230709145521"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "父级，任意父级，非 body 级别，设置 overflow:hidden 可恢复和其他浏览器一样的渲染"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709145542-eds0ztk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709145542-eds0ztk",
+										"updated": "20230709145600"
+									},
+									"Children": [
+										{
+											"ID": "20230709145542-7v3plx2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709145542-7v3plx2",
+												"updated": "20230709145553"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "元素设置 transform: translateZ(120px)"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709151423-tpzfpwd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709151423-tpzfpwd",
+				"updated": "20230709151423"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 border-image 后，border-radius 无效"
+				}
+			]
+		},
+		{
+			"ID": "20230709151640-qb2g6dz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709151640-qb2g6dz",
+				"updated": "20230709151649"
+			},
+			"Children": [
+				{
+					"ID": "20230709151642-ahezjuh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709151642-ahezjuh",
+						"updated": "20230709151649"
+					},
+					"Children": [
+						{
+							"ID": "20230709151642-cxbvt0o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709151642-cxbvt0o",
+								"updated": "20230709151646"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230709151649-fvx4ync",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709151649-fvx4ync",
+								"updated": "20230709151649"
+							},
+							"Children": [
+								{
+									"ID": "20230709151649-3lyritl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709151649-3lyritl",
+										"updated": "20230709151649"
+									},
+									"Children": [
+										{
+											"ID": "20230709151649-21rjc59",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709151649-21rjc59",
+												"updated": "20230709151649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "两层元素：外层渐变背景+圆角+内边距，里层圆角+白色背景"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709151649-qktwgde",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709151649-qktwgde",
+										"updated": "20230709151649"
+									},
+									"Children": [
+										{
+											"ID": "20230709151649-bw9nwtm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709151649-bw9nwtm",
+												"updated": "20230709151649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用伪元素after或before：元素overflow+相对定位+内边距+圆角， 伪元素绝对定位+渐变边框"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709151649-pe9sjq5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230709151649-pe9sjq5",
+										"updated": "20230709151649"
+									},
+									"Children": [
+										{
+											"ID": "20230709151649-5qvn0q0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709151649-5qvn0q0",
+												"updated": "20230709151649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "clip-path：使用裁剪方式创建元素的可显示区域。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709151649-y01v37v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230709151649-y01v37v",
+										"updated": "20230709151649"
+									},
+									"Children": [
+										{
+											"ID": "20230709151649-kkltgmj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709151649-kkltgmj",
+												"updated": "20230709151649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "background-clip：指定背景绘制区域。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709151925-1uahirw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709151925-1uahirw",
+				"updated": "20230709151925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "块级元素内嵌套图片，图片上下不居中"
+				}
+			]
+		},
+		{
+			"ID": "20230709152423-ioi9cww",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709152423-ioi9cww",
+				"updated": "20230709152423"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多个子元素设置为圆形时（测试结果为超过 3 个），或出现部分呈现椭圆形"
+				}
+			]
+		},
+		{
+			"ID": "20230709152605-2dtxb6y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709152605-2dtxb6y",
+				"updated": "20230709152605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webview 前端上传图片被旋转"
+				}
+			]
+		},
+		{
+			"ID": "20230709155126-exnakan",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709155126-exnakan",
+				"updated": "20230709155517"
+			},
+			"Children": [
+				{
+					"ID": "20230709155127-knj5ehc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709155127-knj5ehc",
+						"updated": "20230709155127"
+					},
+					"Children": [
+						{
+							"ID": "20230709155127-fvzdpvx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709155127-fvzdpvx",
+								"updated": "20230709155134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因"
+								}
+							]
+						},
+						{
+							"ID": "20230709155134-dbrg0g3",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709155134-dbrg0g3"
+							},
+							"Children": [
+								{
+									"ID": "20230709155134-x11rlci",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709155134-x11rlci"
+									},
+									"Children": [
+										{
+											"ID": "20230709155134-bdf0ciw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709155134-bdf0ciw",
+												"updated": "20230709155149"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ios 版本大于等于 13.4.1 的手机不需要前端对其调整图片方向，无论倒着拍，还是旋转拍，图片上传后的方向都是正确的，所以需要对 ios 的版本进行判断"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709155149-kdnlghw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709155149-kdnlghw"
+									},
+									"Children": [
+										{
+											"ID": "20230709155149-fsnfx15",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709155149-fsnfx15",
+												"updated": "20230709155437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在手机中默认横排才是正确的拍照姿势，如果我们手机竖着拿然后逆时针旋转 90° 这才是正确的拍照姿势，这时候拍出来的照片展示在 canvas 中是不会被旋转的。如果以其他角度拍搜时，就会发生旋转"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709155508-w04oquu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709155508-w04oquu",
+						"updated": "20230709155517"
+					},
+					"Children": [
+						{
+							"ID": "20230709155508-oyuc1u4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709155508-oyuc1u4",
+								"updated": "20230709155511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230709155512-7w1roa0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230709155512-7w1roa0",
+								"updated": "20230709155517"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function imgToCanvasWithOrientation(img, width, height, orientation) {\n    let canvas = document.createElement(\"canvas\");\n    let ctx = canvas.getContext(\"2d\");\n    canvas.width=width\n    canvas.height=height\n    if (判断机型系统不高于ios13.4.1) {\n        switch (orientation) {\n            case 3:\n                ctx.rotate(Math.PI)\n                ctx.drawImage(img, -width, -height, width, height);\n                break;\n            case 6:\n                ctx.rotate(0.5 * Math.PI)\n                ctx.drawImage(img, 0, -height, width, height);\n                break;\n            case 8:\n                ctx.rotate(3 * Math.PI / 2)\n                ctx.drawImage(img, -width, 0, width, height);\n                break;\n            default:\n                ctx.drawImage(img, 0, 0, width, height);\n                break\n        }\n    }\n\n    return canvas;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709155457-10y37t7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709155457-10y37t7",
+				"updated": "20230709155457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器置于后台（移动端表现为去聊微信了），倒计时不准问题"
+				}
+			]
+		},
+		{
+			"ID": "20230709155535-0lmbu0m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709155535-0lmbu0m",
+				"updated": "20230709155947"
+			},
+			"Children": [
+				{
+					"ID": "20230709155536-dhym48q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709155536-dhym48q",
+						"updated": "20230709155536"
+					},
+					"Children": [
+						{
+							"ID": "20230709155536-l8osllp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709155536-l8osllp",
+								"updated": "20230709155543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：浏览器的“休眠”模式，页面未激活状态时，浏览器为节省性能，会停止或减少定时任务"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709155610-baydnal",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709155610-baydnal",
+						"updated": "20230709155947"
+					},
+					"Children": [
+						{
+							"ID": "20230709155610-6yb42co",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709155610-6yb42co",
+								"updated": "20230709155947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：使用 visibilitychange 监听页面是否可见（激活）去重新拉取后台时间，使用 setTimeout 去进行倒计时，setTimeout 会有误差，每次执行需要计算出减去误差后的时间作为下次执行的间隔"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709160856-dvs4vdy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709160856-dvs4vdy",
+				"updated": "20230709160856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机上 input 输入框设置 opacity 会导致聚焦拉起键盘时，不会把输入框挤到可视区域"
+				}
+			]
+		},
+		{
+			"ID": "20230709160907-uzvrqwp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709160907-uzvrqwp",
+				"updated": "20230709160951"
+			},
+			"Children": [
+				{
+					"ID": "20230709160913-ruwzbml",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709160913-ruwzbml",
+						"updated": "20230709160913"
+					},
+					"Children": [
+						{
+							"ID": "20230709160913-y7dhok4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709160913-y7dhok4",
+								"updated": "20230709160918"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：设置 opacity 小于等于 0.01 时，就会出现这个问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709160943-c99vn4l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709160943-c99vn4l",
+						"updated": "20230709160951"
+					},
+					"Children": [
+						{
+							"ID": "20230709160943-0voofi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709160943-0voofi9",
+								"updated": "20230709160951"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：设置 opacity 大于 0.01"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709161039-hnw810x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709161039-hnw810x",
+				"updated": "20230709161039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置元素溢出隐藏时（overflow:hidden），部分安卓手机会把文字的头部切掉"
+				}
+			]
+		},
+		{
+			"ID": "20230709161047-tdjjhvu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709161047-tdjjhvu",
+				"updated": "20230709161052"
+			},
+			"Children": [
+				{
+					"ID": "20230709161052-5ix4e69",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709161052-5ix4e69",
+						"updated": "20230709161052"
+					},
+					"Children": [
+						{
+							"ID": "20230709161052-5075edj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161052-5075edj",
+								"updated": "20230709161102"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：使用了 rem"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709161103-nwhiu54",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709161103-nwhiu54"
+					},
+					"Children": [
+						{
+							"ID": "20230709161103-21u4dpo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161103-21u4dpo",
+								"updated": "20230709161122"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：给元素设置 line-height 的值大于设置的 font-size 的值"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709161148-hewv8ef",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709161148-hewv8ef",
+				"updated": "20230709161148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vite3 创建的 vue 项目本地开发服务在 ios12.1 及以下版本的手机上白屏"
+				}
+			]
+		},
+		{
+			"ID": "20230709161155-vdvium6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709161155-vdvium6",
+				"updated": "20230709161231"
+			},
+			"Children": [
+				{
+					"ID": "20230709161204-nhwi486",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709161204-nhwi486",
+						"updated": "20230709161204"
+					},
+					"Children": [
+						{
+							"ID": "20230709161204-5tzk699",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161204-5tzk699",
+								"updated": "20230709161212"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：globalThis 为 undefined"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709161213-4itqsql",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709161213-4itqsql",
+						"updated": "20230709161231"
+					},
+					"Children": [
+						{
+							"ID": "20230709161213-utpedl0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161213-utpedl0",
+								"updated": "20230709161231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：给在入口的 html 文件将 globalThis 指向 window"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709161241-oe1ds3w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709161241-oe1ds3w",
+				"updated": "20230709161241"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios 手机上将图片转成 base64 失败"
+				}
+			]
+		},
+		{
+			"ID": "20230709161253-tgzoaw5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709161253-tgzoaw5",
+				"updated": "20230709161254"
+			},
+			"Children": [
+				{
+					"ID": "20230709161254-5or4tl4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709161254-5or4tl4",
+						"updated": "20230709161254"
+					},
+					"Children": [
+						{
+							"ID": "20230709161254-9bvkktc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161254-9bvkktc",
+								"updated": "20230709161256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：转换需要给图片设置允许跨域，但是在 ios 手机上允许跨域和给 src 赋值有顺序的区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709161346-ocbas18",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709161346-ocbas18"
+					},
+					"Children": [
+						{
+							"ID": "20230709161346-f1gkgku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161346-f1gkgku"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：先给 Image 对象设置允许跨域，再给 Image 对象的 src 赋值"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709161334-bk2xjjo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709161334-bk2xjjo",
+				"updated": "20230709161334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vite 创建的项目使用可选链操作符（?.）本地启动服务在 ios13.4 以下版本的手机白屏报错"
+				}
+			]
+		},
+		{
+			"ID": "20230709161350-93xdoz5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709161350-93xdoz5",
+				"updated": "20230709161541"
+			},
+			"Children": [
+				{
+					"ID": "20230709161350-k87640c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709161350-k87640c",
+						"updated": "20230709161350"
+					},
+					"Children": [
+						{
+							"ID": "20230709161350-iftc7bb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161350-iftc7bb",
+								"updated": "20230709161356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：vite 在启动本地服务时，只处理语法转译不包含 polyfill，可选链操作符语法在 ios13.4 以下版本不支持，所以会报错白屏"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709161350-76vzxl0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709161350-76vzxl0",
+						"updated": "20230709161541"
+					},
+					"Children": [
+						{
+							"ID": "20230709161350-97kr504",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161350-97kr504",
+								"updated": "20230709161443"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230709161444-gud4gyw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709161444-gud4gyw",
+								"updated": "20230709161541"
+							},
+							"Children": [
+								{
+									"ID": "20230709161443-ub2f1rt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709161443-ub2f1rt"
+									},
+									"Children": [
+										{
+											"ID": "20230709161443-n6ly017",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709161443-n6ly017"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "em",
+													"TextMarkTextContent": "rollup-plugin-esbuild"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "将可选链操作符语法降级到兼容低版本浏览器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709161446-g7pcxyq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709161446-g7pcxyq",
+										"updated": "20230709161541"
+									},
+									"Children": [
+										{
+											"ID": "20230709161446-mngreta",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709161446-mngreta",
+												"updated": "20230709161457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果是生产环境使用@vitejs/plugin-legacy"
+												}
+											]
+										},
+										{
+											"ID": "20230709161454-i87rdig",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230709161454-i87rdig",
+												"updated": "20230709161519"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// vite.config.ts\nimport vue from \"@vitejs/plugin-vue\";\nimport legacy from \"@vitejs/plugin-legacy\";\nimport esbuild from \"rollup-plugin-esbuild\";\n\nexport default defineConfig(({ command }) =\u003e {\n    const plugins = [vue()];\n    if (command === \"build\") {\n        plugins.push(\n            legacy({\n                targets: [\"Android \u003e= 8\", \"iOS \u003e= 10\"],\n            })\n        );\n    }\n    if (command === \"serve\") {\n        plugins.push(\n            esbuild({\n                target: \"ios12\",\n                loaders: { \".vue\": \"js\", \".ts\": \"js\" },\n            })\n        );\n    }\n    return {\n        plugins,\n    };\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709161556-rmgmd1o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709161556-rmgmd1o",
+				"updated": "20230709161556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "时间格式化后，在ios手机展示错误（展示NaN或null）"
+				}
+			]
+		},
+		{
+			"ID": "20230709161602-fpd311h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709161602-fpd311h",
+				"updated": "20230709161603"
+			},
+			"Children": [
+				{
+					"ID": "20230709161603-90mv2m0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709161603-90mv2m0",
+						"updated": "20230709161603"
+					},
+					"Children": [
+						{
+							"ID": "20230709161603-qrkx1br",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161603-qrkx1br",
+								"updated": "20230709161606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：ios无法识别 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 格式的日期"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709161606-1hxyh5q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709161606-1hxyh5q"
+					},
+					"Children": [
+						{
+							"ID": "20230709161610-zvucjl3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709161610-zvucjl3",
+								"updated": "20230709161617"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案：使用replace将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 替换成 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709163011-wxla4u3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709163011-wxla4u3",
+				"updated": "20230709163011"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios端 h5返回不刷新页面"
+				}
+			]
+		},
+		{
+			"ID": "20230709163012-ns5117q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709163012-ns5117q",
+				"updated": "20230709163013"
+			},
+			"Children": [
+				{
+					"ID": "20230709163013-1f4j9ws",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709163013-1f4j9ws",
+						"updated": "20230709163013"
+					},
+					"Children": [
+						{
+							"ID": "20230709163013-q5qb3yo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709163013-q5qb3yo",
+								"updated": "20230709163123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因"
+								}
+							]
+						},
+						{
+							"ID": "20230709163043-rmq80ti",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709163043-rmq80ti"
+							},
+							"Children": [
+								{
+									"ID": "20230709163043-yr0o0xt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709163043-yr0o0xt"
+									},
+									"Children": [
+										{
+											"ID": "20230709163043-aeg1l98",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709163043-aeg1l98",
+												"updated": "20230709163047"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ios端打开h5页面后，从a页面跳转到b页面，然后再返回a页面之后，发现a页面没有刷新"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709163047-ejhdqhm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709163047-ejhdqhm"
+									},
+									"Children": [
+										{
+											"ID": "20230709163047-4twobtk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709163047-4twobtk",
+												"updated": "20230709163050"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "貌似是ios会在浏览网页后生成一个类似快照的东西，当返回时，直接调用这个快照进行展示，从而提高性能"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709163051-0ro6rrh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230709163051-0ro6rrh"
+									},
+									"Children": [
+										{
+											"ID": "20230709163051-gv74614",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709163051-gv74614",
+												"updated": "20230709163055"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安卓手机的h5返回时都会刷新，ios好像是部分机型也会刷新"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709163057-3evvjq1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709163057-3evvjq1"
+					},
+					"Children": [
+						{
+							"ID": "20230709163057-qx0m8px",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709163057-qx0m8px",
+								"updated": "20230709163129"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230709163130-f92hqq5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230709163130-f92hqq5",
+								"updated": "20230709163214"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//pageshow里的 persisted 属性 表示该页面是否从浏览器缓存中读取。\nwindow.addEventListener('pageshow', function (event) {  \n  if (event.persisted) {  \n   //重载页面或者刷新数据\n  }  \n}); \n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709163254-vyghsie",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709163254-vyghsie",
+				"updated": "20230709163254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动端媒体自动播放"
+				}
+			]
+		},
+		{
+			"ID": "20230709163301-lme1y05",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709163301-lme1y05",
+				"updated": "20230709163330"
+			},
+			"Children": [
+				{
+					"ID": "20230709163302-e4g7gpf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709163302-e4g7gpf",
+						"updated": "20230709163302"
+					},
+					"Children": [
+						{
+							"ID": "20230709163302-as2ypog",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709163302-as2ypog",
+								"updated": "20230709163305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原因：安卓和ios对媒体的自动播放都有不同的限制要求。比如ios要求至少要有一次交互才能开始播放"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709163309-qmun6wu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230709163309-qmun6wu",
+						"updated": "20230709163330"
+					},
+					"Children": [
+						{
+							"ID": "20230709163309-laxof31",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709163309-laxof31",
+								"updated": "20230709163316"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								}
+							]
+						},
+						{
+							"ID": "20230709163317-1oadvdr",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709163317-1oadvdr",
+								"updated": "20230709163330"
+							},
+							"Children": [
+								{
+									"ID": "20230709163316-dlpnxvg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709163316-dlpnxvg"
+									},
+									"Children": [
+										{
+											"ID": "20230709163321-29xqz3b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709163321-29xqz3b",
+												"updated": "20230709163321"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在微信环境内可以利用微信的api（微信内置浏览器的私有对象WeixinJSBridge）实现自动播放"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709163326-ecxgudu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709163326-ecxgudu",
+										"updated": "20230709163330"
+									},
+									"Children": [
+										{
+											"ID": "20230709163326-icjzb7d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709163326-icjzb7d",
+												"updated": "20230709163330"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "其他环境下，为了保证兼容性，一般最好有个缓冲页面，用来加载资源，并提示用户点击开始播放"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709164359-a7v519x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709164359-a7v519x",
+				"updated": "20230709164359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动端 1px 边框变粗"
+				}
+			]
+		},
+		{
+			"ID": "20230709164417-njuded2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709164417-njuded2",
+				"updated": "20230709165226"
+			},
+			"Children": [
+				{
+					"ID": "20230709164418-15gucep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709164418-15gucep",
+						"updated": "20230709165226"
+					},
+					"Children": [
+						{
+							"ID": "20230709164418-sskzolp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709164418-sskzolp",
+								"updated": "20230709164423"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20230709164423-lhvofmj",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709164423-lhvofmj"
+							},
+							"Children": [
+								{
+									"ID": "20230709164423-4097c8v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230709164423-4097c8v"
+									},
+									"Children": [
+										{
+											"ID": "20230709164423-lxgkq9w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709164423-lxgkq9w",
+												"updated": "20230709164427"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "伪元素+transform缩放"
+												}
+											]
+										},
+										{
+											"ID": "20230709164906-33gqifu",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230709164906-33gqifu",
+												"updated": "20230709164909"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "c2Nzcw=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": ".border-1px{\n  position: relative;\n  \u0026::before{\n    content: \"\";\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 200%;\n    border:1px solid red;\n    color: red;\n    height: 200%;\n    -webkit-transform-origin: left top;\n    transform-origin: left top;\n    -webkit-transform: scale(0.5);\n    transform: scale(0.5);\n    pointer-events: none; /* 防止点击触发 */\n    box-sizing: border-box;\n    @media screen and (min-device-pixel-ratio:3),(-webkit-min-device-pixel-ratio:3){\n      width: 300%;\n      height: 300%;\n      -webkit-transform: scale(0.33);\n      transform: scale(0.33);\n    }\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230709164935-b28zhdb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230709164935-b28zhdb",
+								"updated": "20230709165226"
+							},
+							"Children": [
+								{
+									"ID": "20230709165010-1p4a74b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230709165010-1p4a74b",
+										"updated": "20230709165010"
+									},
+									"Children": [
+										{
+											"ID": "20230709165010-wevzr1v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709165010-wevzr1v",
+												"updated": "20230709165010"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "创建公共样式"
+												}
+											]
+										},
+										{
+											"ID": "20230709165037-oxshlf4",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230709165037-oxshlf4",
+												"updated": "20230709165041"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "c2Nzcw=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// src/assets/styles/hairline.scss\n\n@mixin scale-hairline-common($color, $top, $right, $bottom, $left) {\n  content: '';\n  position: absolute;\n  display: block;\n  z-index: 1;\n  top: $top;\n  right: $right;\n  bottom: $bottom;\n  left: $left;\n  background-color: $color;\n}\n\n\n@mixin hairline($direction, $color: #000, $radius: 0) {\n  @if $direction == top {\n    border-top: 1px solid $color;\n\n    // min-resolution 用来检测设备的最小像素密度\n    @media (min-resolution: 2dppx) {\n      border-top: none;\n\n      \u0026::before {\n        @include scale-hairline-common($color, 0, auto, auto, 0);\n        width: 100%;\n        height: 1px;\n        transform-origin: 50% 50%;\n        transform: scaleY(0.5);\n\n        @media (min-resolution: 3dppx) {\n          transform: scaleY(0.33);\n        }\n      }\n    }\n  } @else if $direction == right {\n    border-right: 1px solid $color;\n\n    @media (min-resolution: 2dppx) {\n      border-right: none;\n\n      \u0026::after {\n        @include scale-hairline-common($color, 0, 0, auto, auto);\n        width: 1px;\n        height: 100%;\n        background: $color;\n        transform-origin: 100% 50%;\n        transform: scaleX(0.5);\n\n        @media (min-resolution: 3dppx) {\n          transform: scaleX(0.33);\n        }\n      }\n    }\n  } @else if $direction == bottom {\n    border-bottom: 1px solid $color;\n\n    @media (min-resolution: 2dppx) {\n      border-bottom: none;\n\n      \u0026::after {\n        @include scale-hairline-common($color, auto, auto, 0, 0);\n        width: 100%;\n        height: 1px;\n        transform-origin: 50% 100%;\n        transform: scaleY(0.5);\n\n        @media (min-resolution: 3dppx) {\n          transform: scaleY(0.33);\n        }\n      }\n    }\n  } @else if $direction == left {\n    border-left: 1px solid $color;\n\n    @media (min-resolution: 2dppx) {\n      border-left: none;\n\n      \u0026::before {\n        @include scale-hairline-common($color, 0, auto, auto, 0);\n        width: 1px;\n        height: 100%;\n        transform-origin: 100% 50%;\n        transform: scaleX(0.5);\n\n        @media (min-resolution: 3dppx) {\n          transform: scaleX(0.33);\n        }\n      }\n    }\n  } @else if $direction == all {\n    border: 1px solid $color;\n    border-radius: $radius;\n\n    @media (min-resolution: 2dppx) {\n      position: relative;\n      border: none;\n\n      \u0026::before {\n        content: '';\n        position: absolute;\n        left: 0;\n        top: 0;\n        width: 200%;\n        height: 200%;\n        border: 1px solid $color;\n        border-radius: $radius * 2;\n        transform-origin: 0 0;\n        transform: scale(0.5);\n        box-sizing: border-box;\n        pointer-events: none;\n      }\n    }\n  }\n}\n\n// 移除边框\n@mixin hairline-remove($position: all) {\n  @if $position == left {\n    border-left: 0;\n    \u0026::before {\n      display: none !important;\n    }\n  } @else if $position == right {\n    border-right: 0;\n    \u0026::after {\n      display: none !important;\n    }\n  } @else if $position == top {\n    border-top: 0;\n    \u0026::before {\n      display: none !important;\n    }\n  } @else if $position == bottom {\n    border-bottom: 0;\n    \u0026::after {\n      display: none !important;\n    }\n  } @else if $position == all {\n    border: 0;\n    \u0026::before {\n      display: none !important;\n    }\n    \u0026::after {\n      display: none !important;\n    }\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230709165133-aa45ier",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230709165133-aa45ier",
+												"updated": "20230709165136"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "c2Nzcw=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "@import '~@scss/hairline.scss';\n\n.box {\n  margin: 10px 0;\n  position:relative;\n  @include hairline(bottom, #000); // 添加边框\n  // 移除边框\n  // @include hairline-remove(bottom); \n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230709165150-8o5cuw6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230709165150-8o5cuw6",
+										"updated": "20230709165226"
+									},
+									"Children": [
+										{
+											"ID": "20230709165150-xxey0lu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230709165150-xxey0lu",
+												"updated": "20230709165151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "postcss-write-svg"
+												}
+											]
+										},
+										{
+											"ID": "20230709165156-y5xtirr",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230709165156-y5xtirr",
+												"updated": "20230709165202"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// postcss.config.js\nmodule.exports = {\n    \"plugins\": {\n        \"postcss-write-svg\": {\n            utf8: false\n        }\n    }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230709165216-kqsieh9",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230709165216-kqsieh9",
+												"updated": "20230709165226"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "c2Nzcw=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// less避免使用-命名\n@svg hairline {\n  width: 4px;\n  height: 4px;\n  @rect {\n    fill: transparent; \n    width: 100%; \n    height: 100%; \n    stroke-width: 25%; \n    stroke: var(--color, black);\n  }\n}\n.test {\n  border: 1px solid transparent;\n  border-image: svg(hairline param(--color red)) 1 stretch;\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709165551-b7t7hil",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709165551-b7t7hil",
+				"updated": "20230709165639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios端使用了absolute布局之后无滚动惯性"
+				}
+			]
+		},
+		{
+			"ID": "20230709165643-nybhtfk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709165643-nybhtfk",
+				"updated": "20230709165657"
+			},
+			"Children": [
+				{
+					"ID": "20230709165644-zdyymfd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709165644-zdyymfd",
+						"updated": "20230709165657"
+					},
+					"Children": [
+						{
+							"ID": "20230709165644-w6lecx6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709165644-w6lecx6",
+								"updated": "20230709165657"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-webkit-overflow-scrolling: touch;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709165915-r2wbnd0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709165915-r2wbnd0",
+				"updated": "20230709165916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios端输入框聚焦出现阴影"
+				}
+			]
+		},
+		{
+			"ID": "20230709165921-1hrb8q6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709165921-1hrb8q6",
+				"updated": "20230709165936"
+			},
+			"Children": [
+				{
+					"ID": "20230709165922-o7hvbwx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709165922-o7hvbwx",
+						"updated": "20230709165936"
+					},
+					"Children": [
+						{
+							"ID": "20230709165922-ujv43o9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709165922-ujv43o9",
+								"updated": "20230709165936"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "input:focus{outline:none} input:{-webkit-appearance: none;}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709165945-nwotwza",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709165945-nwotwza",
+				"updated": "20230709165946"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios端search类型的输入框自带搜索图标"
+				}
+			]
+		},
+		{
+			"ID": "20230709165959-xf2k1rd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709165959-xf2k1rd",
+				"updated": "20230709170028"
+			},
+			"Children": [
+				{
+					"ID": "20230709170000-06mm52p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709170000-06mm52p",
+						"updated": "20230709170028"
+					},
+					"Children": [
+						{
+							"ID": "20230709170000-qpht7nf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170000-qpht7nf",
+								"updated": "20230709170004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								}
+							]
+						},
+						{
+							"ID": "20230709170004-gkbzl64",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230709170004-gkbzl64",
+								"updated": "20230709170028"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "Y3Nz"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "    input[type=\"search\"]{-webkit-appearance:none;}\n    [type=\"search\"]::-webkit-search-decoration {  \n      display: none;  \n    }\n    input::-webkit-search-cancel-button {display: none;}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709170047-ckm9o9d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709170047-ckm9o9d",
+				"updated": "20230709170049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ios端swiper轮播图设置圆角，滑动时会先变成直角再变回圆角"
+				}
+			]
+		},
+		{
+			"ID": "20230709170051-ahuiryb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709170051-ahuiryb",
+				"updated": "20230709170326"
+			},
+			"Children": [
+				{
+					"ID": "20230709170055-xnfxo3q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709170055-xnfxo3q",
+						"updated": "20230709170326"
+					},
+					"Children": [
+						{
+							"ID": "20230709170055-p4apuhk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170055-p4apuhk",
+								"updated": "20230709170114"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								}
+							]
+						},
+						{
+							"ID": "20230709170114-r8nhj1a",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230709170114-r8nhj1a",
+								"updated": "20230709170326"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "Y3Nz"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/* 在父盒子上 */\noverflow:hidden；\ntransform:translateY(0)；\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709170344-gx7vlki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709170344-gx7vlki",
+				"updated": "20230709170350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Android端 部分机型点击图片会放大"
+				}
+			]
+		},
+		{
+			"ID": "20230709170352-r53xcc3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230709170352-r53xcc3",
+				"updated": "20230709170645"
+			},
+			"Children": [
+				{
+					"ID": "20230709170645-rdnzkvb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230709170645-rdnzkvb",
+						"updated": "20230709170645"
+					},
+					"Children": [
+						{
+							"ID": "20230709170645-qfshvht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170645-qfshvht",
+								"updated": "20230709170705"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "pointer-events:none;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230709170713-zso8hd5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230709170713-zso8hd5",
+				"updated": "20230709170718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230709170734-5jxd7rz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230709170734-5jxd7rz",
+				"updated": "20230709170743"
+			},
+			"Children": [
+				{
+					"ID": "20230709170734-9afh4wj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709170734-9afh4wj",
+						"updated": "20230709170734"
+					},
+					"Children": [
+						{
+							"ID": "20230709170734-7e4glad",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170734-7e4glad",
+								"updated": "20230709170734"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6844903955755958285#heading-17",
+									"TextMarkTextContent": "[移动端适配]从一个祖传项目谈移动端vw适配 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709170734-rrvot8u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709170734-rrvot8u",
+						"updated": "20230709170734"
+					},
+					"Children": [
+						{
+							"ID": "20230709170734-voxoaug",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170734-voxoaug",
+								"updated": "20230709170734"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6921886428158754829#heading-39",
+									"TextMarkTextContent": "中高级前端必须注意的40条移动端H5坑位指南 | 网易三年实践 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709170734-qezzitu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709170734-qezzitu",
+						"updated": "20230709170734"
+					},
+					"Children": [
+						{
+							"ID": "20230709170734-hpdtdgu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170734-hpdtdgu",
+								"updated": "20230709170734"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6854573211317698568#heading-7",
+									"TextMarkTextContent": "移动端300ms延迟以及点击穿透 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709170734-49c38p2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709170734-49c38p2",
+						"updated": "20230709170734"
+					},
+					"Children": [
+						{
+							"ID": "20230709170734-oimjkco",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170734-oimjkco",
+								"updated": "20230709170734"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7103835385280593957",
+									"TextMarkTextContent": "https://juejin.cn/post/7103835385280593957"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709170734-9tjlctv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709170734-9tjlctv",
+						"updated": "20230709170734"
+					},
+					"Children": [
+						{
+							"ID": "20230709170734-l4ifq4a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170734-l4ifq4a",
+								"updated": "20230709170734"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6901940698518732808",
+									"TextMarkTextContent": "https://juejin.cn/post/6901940698518732808"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230709170743-m3ht49g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230709170743-m3ht49g",
+						"updated": "20230709170743"
+					},
+					"Children": [
+						{
+							"ID": "20230709170743-8hvmf1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230709170743-8hvmf1r",
+								"updated": "20230709170743"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7200186681810108473",
+									"TextMarkTextContent": "移动端兼容性问题集锦 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

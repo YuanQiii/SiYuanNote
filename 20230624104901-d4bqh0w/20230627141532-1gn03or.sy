@@ -1,0 +1,4272 @@
+{
+	"ID": "20230627141532-1gn03or",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230627141532-1gn03or",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230627141532-1gn03or\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230628144128-zkfh7x6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230629102937-s1z0bgt\u0026quot;,\u0026quot;scrollTop\u0026quot;:5449,\u0026quot;focusId\u0026quot;:\u0026quot;20230628204423-a32o9ia\u0026quot;,\u0026quot;focusStart\u0026quot;:11,\u0026quot;focusEnd\u0026quot;:11}",
+		"title": "TypeScript",
+		"updated": "20230629103018"
+	},
+	"Children": [
+		{
+			"ID": "20230628144128-zkfh7x6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628144128-zkfh7x6",
+				"updated": "20230628144130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是TypeScript"
+				}
+			]
+		},
+		{
+			"ID": "20230628143558-450fy1h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628143558-450fy1h"
+			},
+			"Children": [
+				{
+					"ID": "20230628143557-1tyz8vs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628143557-1tyz8vs"
+					},
+					"Children": [
+						{
+							"ID": "20230628143557-bmlmyay",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143557-bmlmyay",
+								"updated": "20230628143605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一个强类型的 JavaScript 超集，支持ES6语法，支持面向对象编程的概念，如类、接口、继承、泛型等"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143605-poz16vc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628143605-poz16vc"
+					},
+					"Children": [
+						{
+							"ID": "20230628143605-alx8v67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143605-alx8v67",
+								"updated": "20230628143609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Typescript并不直接在浏览器上运行，需要编译器编译成纯Javascript来运行"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628144143-13av66k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628144143-13av66k",
+				"updated": "20230628144145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么需要 TypeScript"
+				}
+			]
+		},
+		{
+			"ID": "20230628143713-bp8phwm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628143713-bp8phwm"
+			},
+			"Children": [
+				{
+					"ID": "20230628143654-6p1h9j0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628143654-6p1h9j0"
+					},
+					"Children": [
+						{
+							"ID": "20230628143701-5551nym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143701-5551nym",
+								"updated": "20230628143729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快速、简单，易于学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143716-o0hem5b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628143716-o0hem5b"
+					},
+					"Children": [
+						{
+							"ID": "20230628143716-49w54ea",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143716-49w54ea",
+								"updated": "20230628143732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持面向对象的编程特性，例如类、接口、继承、泛型等"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143738-khheczy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628143738-khheczy"
+					},
+					"Children": [
+						{
+							"ID": "20230628143738-059uwx3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143738-059uwx3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在编译时提供错误检查功能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143742-dimj1d4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230628143742-dimj1d4"
+					},
+					"Children": [
+						{
+							"ID": "20230628143742-yc7qq17",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143742-yc7qq17"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持所有 JavaScript 库，因为它是 JavaScript 的超集"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143747-xig93ah",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230628143747-xig93ah"
+					},
+					"Children": [
+						{
+							"ID": "20230628143747-frkyfqo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143747-frkyfqo",
+								"updated": "20230628143749"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过使用继承来支持可重用性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143752-hza5fxu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230628143752-hza5fxu"
+					},
+					"Children": [
+						{
+							"ID": "20230628143752-0oz3aka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143752-0oz3aka",
+								"updated": "20230628143753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持最新的 JavaScript 功能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628143756-06ms9ok",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230628143756-06ms9ok"
+					},
+					"Children": [
+						{
+							"ID": "20230628143756-copustb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628143756-copustb",
+								"updated": "20230628143758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持静态类型、强类型、模块、可选参数等"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628144153-w8g1u3h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628144153-w8g1u3h",
+				"updated": "20230628144155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 的主要特点是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230628144203-bpty6mg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628144203-bpty6mg",
+				"updated": "20230628144203"
+			},
+			"Children": [
+				{
+					"ID": "20230628144203-0xtf1j5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628144203-0xtf1j5",
+						"updated": "20230628144203"
+					},
+					"Children": [
+						{
+							"ID": "20230628144203-gn5meg4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144203-gn5meg4",
+								"updated": "20230628144203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨平台：TypeScript 编译器可以安装在任何操作系统上"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144203-h68n7er",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628144203-h68n7er",
+						"updated": "20230628144203"
+					},
+					"Children": [
+						{
+							"ID": "20230628144203-8w0zroa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144203-8w0zroa",
+								"updated": "20230628144203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ES6 特性：TypeScript 包含计划中的 ECMAScript 2015 (ES6) 的大部分特性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144203-6p70sle",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628144203-6p70sle",
+						"updated": "20230628144203"
+					},
+					"Children": [
+						{
+							"ID": "20230628144203-z3pfmhf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144203-z3pfmhf",
+								"updated": "20230628144203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "面向对象的语言：TypeScript 提供所有标准的 OOP 功能，如类、接口和模块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144203-kwap6na",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230628144203-kwap6na",
+						"updated": "20230628144203"
+					},
+					"Children": [
+						{
+							"ID": "20230628144203-96mrvt8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144203-96mrvt8",
+								"updated": "20230628144203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态类型检查：TypeScript 使用静态类型并帮助在编译时进行类型检查"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144203-92bggxw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230628144203-92bggxw",
+						"updated": "20230628144203"
+					},
+					"Children": [
+						{
+							"ID": "20230628144203-faapizi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144203-faapizi",
+								"updated": "20230628144203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可选的静态类型：TypeScript 允许可选的静态类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144203-whwp88r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230628144203-whwp88r",
+						"updated": "20230628144203"
+					},
+					"Children": [
+						{
+							"ID": "20230628144203-h755fz1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144203-h755fz1",
+								"updated": "20230628144203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DOM 操作：可以使用 TypeScript 来操作 DOM 以添加或删除网页元素"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628144258-ru2u1g9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628144258-ru2u1g9",
+				"updated": "20230628144258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用TypeScript有哪些缺点"
+				}
+			]
+		},
+		{
+			"ID": "20230628144319-u48et3c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628144319-u48et3c",
+				"updated": "20230628144441"
+			},
+			"Children": [
+				{
+					"ID": "20230628144319-gu5gj57",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628144319-gu5gj57",
+						"updated": "20230628144319"
+					},
+					"Children": [
+						{
+							"ID": "20230628144319-mzzi31o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144319-mzzi31o",
+								"updated": "20230628144319"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TypeScript需要很长时间来编译代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144319-jv0orx0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628144319-jv0orx0",
+						"updated": "20230628144319"
+					},
+					"Children": [
+						{
+							"ID": "20230628144319-7c45a1m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144319-7c45a1m",
+								"updated": "20230628144319"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果我们在浏览器中运行TypeScript应用程序，则需要执行编译步骤才能将TypeScript转换为JavaScript"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628144319-nzc6a63",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628144319-nzc6a63",
+						"updated": "20230628144441"
+					},
+					"Children": [
+						{
+							"ID": "20230628144319-fdyhsxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628144319-fdyhsxw",
+								"updated": "20230628144441"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要使用任何第三方库，类型定义文件是必须的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628201157-nbjip48",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628201157-nbjip48",
+				"updated": "20230628201157"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 和 JavaScript 有什么区别"
+				}
+			]
+		},
+		{
+			"ID": "20230628201202-810e8jt",
+			"Type": "NodeTable",
+			"TableAligns": [
+				2,
+				2
+			],
+			"Properties": {
+				"colgroup": "width: 264px;|width: 442px;",
+				"id": "20230628201202-810e8jt",
+				"updated": "20230628202219"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "JavaScript"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "TypeScript"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "源文件扩展扩展名为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "源文件扩展扩展名为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".ts"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不支持强类型或静态类型"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持强类型或静态类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解释性语言，运行时显示错误"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编译时显示错误"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字、字符串是对象"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字、字符串是接口"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不支持泛型"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持泛型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628202304-mbshk1c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628202304-mbshk1c",
+				"updated": "20230628202304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript的组成部分是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230628202323-sk3l3s0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628202323-sk3l3s0",
+				"updated": "20230628202323"
+			},
+			"Children": [
+				{
+					"ID": "20230628202323-7c1ys7v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628202323-7c1ys7v",
+						"updated": "20230628202323"
+					},
+					"Children": [
+						{
+							"ID": "20230628202323-vb69wp7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202323-vb69wp7",
+								"updated": "20230628202323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语言：它由语法，关键字和类型注释组成"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202323-1q0x51f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628202323-1q0x51f",
+						"updated": "20230628202323"
+					},
+					"Children": [
+						{
+							"ID": "20230628202323-j2rx5dl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202323-j2rx5dl",
+								"updated": "20230628202323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TypeScript编译器：编译器将用 TypeScript 编写的指令转换为等效的JavaScript"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202323-ym0k0ts",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628202323-ym0k0ts",
+						"updated": "20230628202323"
+					},
+					"Children": [
+						{
+							"ID": "20230628202323-pvqnlhl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202323-pvqnlhl",
+								"updated": "20230628202323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TypeScript语言服务：语言服务在核心编译器管道周围暴露了一个附加层"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628202346-wul7qe8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628202346-wul7qe8",
+				"updated": "20230628202346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript支持的访问修饰符有哪些"
+				}
+			]
+		},
+		{
+			"ID": "20230628202412-cbn540k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628202412-cbn540k",
+				"updated": "20230628202412"
+			},
+			"Children": [
+				{
+					"ID": "20230628202412-iy3uwhj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628202412-iy3uwhj",
+						"updated": "20230628202412"
+					},
+					"Children": [
+						{
+							"ID": "20230628202412-xozfbfh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202412-xozfbfh",
+								"updated": "20230628202412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "公共（Public）：类的所有成员，其子类以及该类的实例都可以访问"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202412-worvk8n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628202412-worvk8n",
+						"updated": "20230628202412"
+					},
+					"Children": [
+						{
+							"ID": "20230628202412-qs5tf2f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202412-qs5tf2f",
+								"updated": "20230628202412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "私有（Private）：只有类的成员可以访问它们"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202412-k0lsop1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628202412-k0lsop1",
+						"updated": "20230628202412"
+					},
+					"Children": [
+						{
+							"ID": "20230628202412-ej71kzt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202412-ej71kzt",
+								"updated": "20230628202412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "受保护（Projected）：该类及其子类的所有成员都可以访问它们，但是该类的实例无法访问"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629102009-kayfop3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629102009-kayfop3",
+				"updated": "20230629102009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中什么是装饰器"
+				}
+			]
+		},
+		{
+			"ID": "20230629102010-v69w81o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629102010-v69w81o",
+				"updated": "20230629102043"
+			},
+			"Children": [
+				{
+					"ID": "20230629102016-uogwzae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629102016-uogwzae",
+						"updated": "20230629102016"
+					},
+					"Children": [
+						{
+							"ID": "20230629102016-v9h64ma",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102016-v9h64ma",
+								"updated": "20230629102017"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "装饰器是一种特殊类型的声明，它能过被附加到类声明，方法，属性或者参数上，可以修改类的行为"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102017-w0mwdrf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629102017-w0mwdrf"
+					},
+					"Children": [
+						{
+							"ID": "20230629102017-lulnfmq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102017-lulnfmq",
+								"updated": "20230629102023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通俗的来说就是一个方法，可以注入到类，方法，属性参数上来扩展类，属性，方法，参数的功能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102035-vm9il16",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629102035-vm9il16",
+						"updated": "20230629102043"
+					},
+					"Children": [
+						{
+							"ID": "20230629102035-8ewcwpn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102035-8ewcwpn",
+								"updated": "20230629102041"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "装饰器的分类"
+								}
+							]
+						},
+						{
+							"ID": "20230629102043-rf6mfx3",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230629102043-rf6mfx3"
+							},
+							"Children": [
+								{
+									"ID": "20230629102043-qq7bz2d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230629102043-qq7bz2d"
+									},
+									"Children": [
+										{
+											"ID": "20230629102043-m6o2emg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102043-m6o2emg",
+												"updated": "20230629102048"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类装饰器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629102048-73z0gz0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230629102048-73z0gz0"
+									},
+									"Children": [
+										{
+											"ID": "20230629102048-xo4n75t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102048-xo4n75t",
+												"updated": "20230629102049"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "属性装饰器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629102050-4r4cc0i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230629102050-4r4cc0i"
+									},
+									"Children": [
+										{
+											"ID": "20230629102050-62pbz1p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102050-62pbz1p",
+												"updated": "20230629102051"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "方法装饰器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629102051-pdc5e1a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230629102051-pdc5e1a"
+									},
+									"Children": [
+										{
+											"ID": "20230629102051-63prd12",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102051-63prd12"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "参数装饰器"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628202459-ssliwsh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628202459-ssliwsh",
+				"updated": "20230628202459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Typescript中的内置类型有哪些"
+				}
+			]
+		},
+		{
+			"ID": "20230628202507-wout1ch",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628202507-wout1ch",
+				"updated": "20230628202510"
+			},
+			"Children": [
+				{
+					"ID": "20230628202510-eoqsrvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628202510-eoqsrvq",
+						"updated": "20230628202510"
+					},
+					"Children": [
+						{
+							"ID": "20230628202510-uc1o9eo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202510-uc1o9eo",
+								"updated": "20230628202512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202512-5cb8u2s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628202512-5cb8u2s"
+					},
+					"Children": [
+						{
+							"ID": "20230628202512-fxz4194",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202512-fxz4194",
+								"updated": "20230628202513"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字符串类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202514-s8ba5yo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628202514-s8ba5yo"
+					},
+					"Children": [
+						{
+							"ID": "20230628202514-jsmwvr7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202514-jsmwvr7",
+								"updated": "20230628202515"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "布尔类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202515-eo3fcn8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230628202515-eo3fcn8"
+					},
+					"Children": [
+						{
+							"ID": "20230628202515-3yew0g9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202515-3yew0g9",
+								"updated": "20230628202516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Null类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202516-lauyyn6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230628202516-lauyyn6"
+					},
+					"Children": [
+						{
+							"ID": "20230628202516-m7njdqh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202516-m7njdqh",
+								"updated": "20230628202517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "未定义类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628202518-7vm58ou",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230628202518-7vm58ou"
+					},
+					"Children": [
+						{
+							"ID": "20230628202518-05yir0g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202518-05yir0g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "void类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628202543-u4e2cxf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628202543-u4e2cxf",
+				"updated": "20230628202543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Declare关键字有什么作用"
+				}
+			]
+		},
+		{
+			"ID": "20230628202636-uyx664c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628202636-uyx664c",
+				"updated": "20230628202721"
+			},
+			"Children": [
+				{
+					"ID": "20230628202721-hbw4onn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628202721-hbw4onn",
+						"updated": "20230628202721"
+					},
+					"Children": [
+						{
+							"ID": "20230628202721-trpnqfx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628202721-trpnqfx",
+								"updated": "20230628203158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所有的 JavaScript 库/框架都没有 TypeScript 声明文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628203158-mzf4o9f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628203158-mzf4o9f"
+					},
+					"Children": [
+						{
+							"ID": "20230628203158-0bdlndq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203158-0bdlndq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但是我们希望在 TypeScript 文件中使用它们时不会出现编译错误，为此需要使用declare关键字"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629101744-8ua1y2b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629101744-8ua1y2b",
+				"updated": "20230629101744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中有哪些声明变量的方式"
+				}
+			]
+		},
+		{
+			"ID": "20230629101745-xjn1bzd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230629101745-xjn1bzd",
+				"updated": "20230629101756"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 声明类型和值，Declaring type and value in a single statement\nlet [identifier] : [type-annotation] = value; \n\n// 只声明类型，Declaring type without value\nlet [identifier] : [type-annotation]; \n\n// 只声明值，Declaring its value without type\nlet [identifier] = value; \n\n// 声明变量无类型和值，Declaring without value and type\nlet [identifier]; \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230628203144-1v87o7q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628203144-1v87o7q",
+				"updated": "20230628203144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "any 类型的作用是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230628202738-877u8mp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628202738-877u8mp",
+				"updated": "20230628203207"
+			},
+			"Children": [
+				{
+					"ID": "20230628203200-o5vgryy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628203200-o5vgryy",
+						"updated": "20230628203200"
+					},
+					"Children": [
+						{
+							"ID": "20230628203200-g296xy4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203200-g296xy4",
+								"updated": "20230628203201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为编程阶段还不清楚类型的变量指定一个类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628203201-ibdvi9a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628203201-ibdvi9a",
+						"updated": "20230628203207"
+					},
+					"Children": [
+						{
+							"ID": "20230628203201-x3fzyxa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203201-x3fzyxa",
+								"updated": "20230628203207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这种情况下，我们不希望类型检查器对这些值进行检查而是直接让它们通过编译阶段的检查"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628203234-rj9wlh1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628203234-rj9wlh1",
+				"updated": "20230628203234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "never和void的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230628203259-qgsrss9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628203259-qgsrss9",
+				"updated": "20230628203533"
+			},
+			"Children": [
+				{
+					"ID": "20230628203259-4n1atid",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628203259-4n1atid",
+						"updated": "20230628203523"
+					},
+					"Children": [
+						{
+							"ID": "20230628203259-q1xkzjw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203259-q1xkzjw",
+								"updated": "20230628203523"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "void 表示没有任何类型（可以被赋值为 null 和 undefined）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628203259-fp4jcl4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628203259-fp4jcl4",
+						"updated": "20230628203524"
+					},
+					"Children": [
+						{
+							"ID": "20230628203259-yan5v39",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203259-yan5v39",
+								"updated": "20230628203524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "never 表示一个不包含值的类型，即表示永远不存在的值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628203259-e2j7lqx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628203259-e2j7lqx",
+						"updated": "20230628203533"
+					},
+					"Children": [
+						{
+							"ID": "20230628203259-6sg1p8c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203259-6sg1p8c",
+								"updated": "20230628203533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "拥有 void 返回值类型的函数能正常运行，拥有 never 返回值类型的函数无法正常返回，无法终止，或会抛出异常"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628203542-trkndee",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628203542-trkndee",
+				"updated": "20230628203542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "any和unknown有什么区别"
+				}
+			]
+		},
+		{
+			"ID": "20230628203546-um9e4ki",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628203546-um9e4ki",
+				"updated": "20230628203558"
+			},
+			"Children": [
+				{
+					"ID": "20230628203558-t1zs588",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628203558-t1zs588",
+						"updated": "20230628203558"
+					},
+					"Children": [
+						{
+							"ID": "20230628203558-x9u6407",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203558-x9u6407",
+								"updated": "20230628203948"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "unknown 和 any 的主要区别是 unknown 类型会更加严格"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628203948-n9suqb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628203948-n9suqb5"
+					},
+					"Children": [
+						{
+							"ID": "20230628203948-m8ucjz9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203948-m8ucjz9",
+								"updated": "20230628203950"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在对 unknown 类型的值执行大多数操作之前，我们必须进行某种形式的检查"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230628203951-bb6phjn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230628203951-bb6phjn"
+					},
+					"Children": [
+						{
+							"ID": "20230628203951-lnghz7t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628203951-lnghz7t",
+								"updated": "20230628203952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在对 any 类型的值执行操作之前，我们不必进行任何检查"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628204015-dmsv9tp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628204015-dmsv9tp",
+				"updated": "20230628204015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tsconfig.json有什么作用"
+				}
+			]
+		},
+		{
+			"ID": "20230628204059-ebcxhn1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628204059-ebcxhn1",
+				"updated": "20230629102531"
+			},
+			"Children": [
+				{
+					"ID": "20230628204124-ogfvub0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628204124-ogfvub0",
+						"updated": "20230628204124"
+					},
+					"Children": [
+						{
+							"ID": "20230628204124-zbb9x8o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628204124-zbb9x8o",
+								"updated": "20230629102409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tsconfig.json文件是JSON格式的文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102503-kdl0w7w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629102503-kdl0w7w",
+						"updated": "20230629102531"
+					},
+					"Children": [
+						{
+							"ID": "20230629102503-bnjnxda",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102503-bnjnxda"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在tsconfig.json文件中，可以指定不同的选项来告诉编译器如何编译当前项目"
+								}
+							]
+						},
+						{
+							"ID": "20230629102459-lrmlnfy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629102459-lrmlnfy",
+								"updated": "20230629102531"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// 常用配置\n{\n  /*\n      tsconfig.json是ts编译器的配置文件，ts可以根据它的信息来对待吗进行编译 可以再tsconfig中写注释\n      include : 用来指定哪些文件需要被编译\n      exclude : 用来指定哪些文件不需要被编译 ：默认node_module\n      extends : 用来指定继承的配置文件\n      files   : 用来指定被编译的文件列表，只有编译少量文件才使用\n      compilerOptions : 编译器的选项是配置文件中非常重要也是非常复杂的配置选项\n  */\n  \"include\":[\n    // ** : 任意目录 ， * : 任意文件\n    \"./src/**/*\"\n  ],\n  \"exclude\": [\n    \"./src/hello/**/*\"\n  ],\n  // \"extends\": \"./configs/base\",\n  \"files\": [\n    \"1.ts\",\n    // \"2.ts\"\n  ],\n  \"compilerOptions\": {\n    // 用来指定 ES 版本 ESNext : 最新版。 'ES3', 'ES5', 'ES6'/'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 'ESNext'\n    \"target\": \"ES2020\",\n    // 指定要使用模块化的规范 : 'None', 'CommonJS', 'AMD', 'System', 'UMD', 'ES6'/'ES2015', 'ES2020' or 'ESNext'\n    \"module\": \"ESNext\",\n    // 用来指定项目中要使用的库 'ES5', 'ES6', 'ES2015', 'ES7', 'ES2016', 'ES2017', 'ES2018', 'ESNext', 'DOM', 'DOM.Iterable',\n    //                          'WebWorker', 'ScriptHost', 'ES2015.Core', 'ES2015.Collection', 'ES2015.Generator', 'ES2015.Iterable', \n    //                          'ES2015.Promise', 'ES2015.Proxy', 'ES2015.Reflect', 'ES2015.Symbol', 'ES2015.Symbol.WellKnown', \n    //                          'ES2016.Array.Include', 'ES2017.object', 'ES2017.Intl', 'ES2017.SharedMemory', 'ES2017.String', \n    //                          'ES2017.TypedArrays', 'ES2018.Intl', 'ES2018.Promise', 'ES2018.RegExp', 'ESNext.AsyncIterable', \n    //                          'ESNext.Array', 'ESNext.Intl', 'ESNext.Symbol'\n    // 运行在浏览器中不用设置，运行在node或其他中才需要设置\n    // \"lib\":[]，\n    // 用来指定编译后文件的存放位置\n    \"outDir\":\"./dist\",\n    // 将代码合并为一个文件,设置之后所有的全局作用域中的代码会合并到同一个文件中 但是只能在  'amd' and 'system' 中才能使用\n    // \"outFile\": \"./dist/app.js\",\n    // 是否对js文件进行编译，默认false\n    \"allowJs\": false,\n    // 是否检查js代码是否符合语法规范，默认false\n    \"checkJs\": false,\n    // 是否移除注释，默认false\n    \"removeComments\":false,\n    // 是否不生成编译后文件，默认false\n    \"noEmit\": false,\n    // 当有错误时是否生成文件，默认false\n    \"noEmitOnError\": false,\n    // 是否生成sourceMap，默认false  这个文件里保存的，是转换后代码的位置，和对应的转换前的位置。有了它，出错的时候，通过断点工具可以直接显示原始代码，而不是转换后的代码。\n    \"sourceMap\":false,\n\n    // 所有的严格检查的总开关，默认false\n    \"strict\": false,\n    // 编译后的文件是否开启严格模式，默认false\n    \"alwaysStrict\": false,\n    // 不允许隐式的any，默认false(允许)\n    \"noImplicitAny\": false,\n    // 不允许隐式的this，默认false(允许)\n    \"noImplicitThis\": false,\n    // 是否严格的检查空值，默认false 检查有可能为null的地方\n    \"strictNullChecks\": true,\n    // 是否严格检查bind、call和apply的参数列表，默认false  检查是否有多余参数\n    \"strictBindCallApply\":false,\n    // 是否严格检查函数的类型，\n    \"strictFunctionTypes\":false,\n    // 是否严格检查属性是否初始化，默认false\n    \"strictPropertyInitialization\":false,\n\n    // 是否检查switch语句包含正确的break，默认false\n    \"noFallthroughCasesInSwitch\":false,\n    // 检查函数没有隐式的返回值，默认false\n    \"noImplicitReturns\":false,\n    // 是否检查检查未使用的局部变量，默认false\n    \"noUnusedLocals\":false,\n    // 是否检查未使用的参数，默认false\n    \"noUnusedParameters\":false,\n\n    // 是否检查不可达代码报错，默认false   true，忽略不可达代码 false，不可达代码将引起错误\n    \"allowUnreachableCode\":false\n  }\n}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628204320-9oikjvr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230628204320-9oikjvr",
+				"updated": "20230628204320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "interface和type有什么区别"
+				}
+			]
+		},
+		{
+			"ID": "20230628204329-0q46srh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628204329-0q46srh",
+				"updated": "20230629103018"
+			},
+			"Children": [
+				{
+					"ID": "20230628204332-vljoptz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628204332-vljoptz",
+						"updated": "20230629103018"
+					},
+					"Children": [
+						{
+							"ID": "20230628204332-fsdnh13",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628204332-fsdnh13",
+								"updated": "20230628204332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "相同点："
+								}
+							]
+						},
+						{
+							"ID": "20230628204337-mflrnvn",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230628204337-mflrnvn",
+								"updated": "20230629103018"
+							},
+							"Children": [
+								{
+									"ID": "20230628204336-a1orr6j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230628204336-a1orr6j",
+										"updated": "20230629103018"
+									},
+									"Children": [
+										{
+											"ID": "20230628204336-tgwu4xi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230628204336-tgwu4xi",
+												"updated": "20230629103018"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "都可以描述 '对象' 或者 '函数'"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230628204341-aqq44s1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230628204341-aqq44s1",
+										"updated": "20230628204342"
+									},
+									"Children": [
+										{
+											"ID": "20230628204341-9wdm90f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230628204341-9wdm90f",
+												"updated": "20230628204342"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "都允许拓展(extends)"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628204329-rkyhhnn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628204329-rkyhhnn",
+				"updated": "20230628204429"
+			},
+			"Children": [
+				{
+					"ID": "20230628204420-5yos6kc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230628204420-5yos6kc",
+						"updated": "20230628204429"
+					},
+					"Children": [
+						{
+							"ID": "20230628204420-cxdy7ah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628204420-cxdy7ah",
+								"updated": "20230628204420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同点："
+								}
+							]
+						},
+						{
+							"ID": "20230628204423-paoc4l2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230628204423-paoc4l2",
+								"updated": "20230628204429"
+							},
+							"Children": [
+								{
+									"ID": "20230628204423-q7g8rlm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230628204423-q7g8rlm"
+									},
+									"Children": [
+										{
+											"ID": "20230628204423-a32o9ia",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230628204423-a32o9ia",
+												"updated": "20230628204424"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "type 可以声明基本类型，联合类型，元组"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230628204426-vpqwnd4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230628204426-vpqwnd4"
+									},
+									"Children": [
+										{
+											"ID": "20230628204429-cr3mupi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230628204429-cr3mupi",
+												"updated": "20230628204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "type 可以使用 typeof 获取实例的类型进行赋值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230628204429-9coo2hi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230628204429-9coo2hi",
+										"updated": "20230628204429"
+									},
+									"Children": [
+										{
+											"ID": "20230628204429-w628keb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230628204429-w628keb",
+												"updated": "20230628204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "多个相同的 interface 声明可以自动合并"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100052-r4vvne1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100052-r4vvne1",
+				"updated": "20230629100052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "const和readonly的区别是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230629100057-tjc7car",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100057-tjc7car",
+				"updated": "20230629100057"
+			},
+			"Children": [
+				{
+					"ID": "20230629100057-7103uvt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100057-7103uvt",
+						"updated": "20230629100057"
+					},
+					"Children": [
+						{
+							"ID": "20230629100057-wq7avtm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100057-wq7avtm",
+								"updated": "20230629100057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "const 用于变量，readonly 用于属性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100057-ch9nae6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629100057-ch9nae6",
+						"updated": "20230629100057"
+					},
+					"Children": [
+						{
+							"ID": "20230629100057-xonn8ck",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100057-xonn8ck",
+								"updated": "20230629100057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "const 在运行时检查，readonly 在编译时检查"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100057-lfa5wa7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629100057-lfa5wa7",
+						"updated": "20230629100057"
+					},
+					"Children": [
+						{
+							"ID": "20230629100057-cxaj141",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100057-cxaj141",
+								"updated": "20230629100057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 const 变量保存的数组，可以使用 push，pop 等方法；但是如果使用 Readonly Array 声明的数组不能使用 push，pop 等方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100146-i1kcw6j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100146-i1kcw6j",
+				"updated": "20230629100146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 中的模块是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230629100100-vkogpv7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100100-vkogpv7",
+				"updated": "20230629100159"
+			},
+			"Children": [
+				{
+					"ID": "20230629100159-v03ub8e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100159-v03ub8e",
+						"updated": "20230629100159"
+					},
+					"Children": [
+						{
+							"ID": "20230629100159-c46ix0p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100159-c46ix0p",
+								"updated": "20230629100159"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是相关变量、函数、类和接口的集合，你可以将模块视为包含执行任务所需的一切的容器，可以导入模块以轻松地在项目之间共享代码"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629101357-dcx85fv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629101357-dcx85fv",
+				"updated": "20230629101357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中命名空间与模块的理解和区别"
+				}
+			]
+		},
+		{
+			"ID": "20230629101358-biibusm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629101358-biibusm",
+				"updated": "20230629101554"
+			},
+			"Children": [
+				{
+					"ID": "20230629101407-untyky9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629101407-untyky9",
+						"updated": "20230629101407"
+					},
+					"Children": [
+						{
+							"ID": "20230629101407-mr5ym1v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101407-mr5ym1v",
+								"updated": "20230629101407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "命名空间"
+								}
+							]
+						},
+						{
+							"ID": "20230629101417-9e9iy8h",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230629101417-9e9iy8h"
+							},
+							"Children": [
+								{
+									"ID": "20230629101417-t8b2jww",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230629101417-t8b2jww"
+									},
+									"Children": [
+										{
+											"ID": "20230629101417-qda0y0p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101417-qda0y0p",
+												"updated": "20230629101424"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "命名空间一个最明确的目的就是解决重名问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629101425-o586y0o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230629101425-o586y0o"
+									},
+									"Children": [
+										{
+											"ID": "20230629101425-0yho85m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101425-0yho85m",
+												"updated": "20230629101433"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "命名空间定义了标识符的可见范围，一个标识符可在多个名字空间中定义，它在不同名字空间中的含义是互不相干的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629101434-1ojeq8c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629101434-1ojeq8c"
+					},
+					"Children": [
+						{
+							"ID": "20230629101434-3np5k9w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101434-3np5k9w",
+								"updated": "20230629101452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块"
+								}
+							]
+						},
+						{
+							"ID": "20230629101453-u84819s",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230629101453-u84819s"
+							},
+							"Children": [
+								{
+									"ID": "20230629101453-7v1pa2j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230629101453-7v1pa2j"
+									},
+									"Children": [
+										{
+											"ID": "20230629101453-6ni0c47",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101453-6ni0c47",
+												"updated": "20230629101503"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "TypeScript"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 与"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": " ECMAScript"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 2015 一样，任何包含顶级 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "import"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 或者 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "export"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的文件都被当成一个模块"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629101505-ox3xdue",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230629101505-ox3xdue"
+									},
+									"Children": [
+										{
+											"ID": "20230629101505-ce91hve",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101505-ce91hve",
+												"updated": "20230629101512"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果一个文件不带有顶级的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "import"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​或者"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "export"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​声明，那么它的内容被视为全局可见的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629101513-rqkz02u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629101513-rqkz02u",
+						"updated": "20230629101554"
+					},
+					"Children": [
+						{
+							"ID": "20230629101513-fujrsau",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101513-fujrsau",
+								"updated": "20230629101529"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区别"
+								}
+							]
+						},
+						{
+							"ID": "20230629101554-0rf0aiq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230629101554-0rf0aiq",
+								"updated": "20230629101554"
+							},
+							"Children": [
+								{
+									"ID": "20230629101554-9pwpcwh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230629101554-9pwpcwh",
+										"updated": "20230629101554"
+									},
+									"Children": [
+										{
+											"ID": "20230629101554-nmskd77",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101554-nmskd77",
+												"updated": "20230629101554"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "命名空间是位于全局命名空间下的一个普通的带有名字的 JavaScript 对象，使用起来十分容易。但就像其它的全局命名空间污染一样，它很难去识别组件之间的依赖关系，尤其是在大型的应用中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629101554-qwa7lp7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230629101554-qwa7lp7",
+										"updated": "20230629101554"
+									},
+									"Children": [
+										{
+											"ID": "20230629101554-kgyxa7o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101554-kgyxa7o",
+												"updated": "20230629101554"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "像命名空间一样，模块可以包含代码和声明。 不同的是模块可以声明它的依赖"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629101554-dc4owyk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230629101554-dc4owyk",
+										"updated": "20230629101554"
+									},
+									"Children": [
+										{
+											"ID": "20230629101554-54jo0tj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629101554-54jo0tj",
+												"updated": "20230629101554"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在正常的TS项目开发过程中并不建议用命名空间，但通常在通过 d.ts 文件标记 js 库类型的时候使用命名空间，主要作用是给编译器编写代码的时候参考使用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100209-q9lczvx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100209-q9lczvx",
+				"updated": "20230629100209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何检查 null 和 undefined"
+				}
+			]
+		},
+		{
+			"ID": "20230629100210-moxi12o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100210-moxi12o",
+				"updated": "20230629100211"
+			},
+			"Children": [
+				{
+					"ID": "20230629100211-3pxpz6v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100211-3pxpz6v",
+						"updated": "20230629100211"
+					},
+					"Children": [
+						{
+							"ID": "20230629100211-970hn8i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100211-970hn8i",
+								"updated": "20230629100238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过使用一个缓冲检查，我们可以检查空和未定义"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100419-atfs753",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100419-atfs753",
+				"updated": "20230629100419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "getter/setter 是什么？你如何使用它们"
+				}
+			]
+		},
+		{
+			"ID": "20230629100425-d2899p6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100425-d2899p6",
+				"updated": "20230629100523"
+			},
+			"Children": [
+				{
+					"ID": "20230629100523-mgeiyrp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100523-mgeiyrp",
+						"updated": "20230629100523"
+					},
+					"Children": [
+						{
+							"ID": "20230629100523-hd8unwy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100523-hd8unwy",
+								"updated": "20230629100523"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Getter 和 setter 是特殊类型的方法，可帮助你根据程序的需要委派对私有变量的不同级别的访问"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100523-jzwe5ne",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629100523-jzwe5ne"
+					},
+					"Children": [
+						{
+							"ID": "20230629100523-rkwbecw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100523-rkwbecw",
+								"updated": "20230629100534"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Getters 允许你引用一个值但不能编辑它"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100534-ygz859t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629100534-ygz859t"
+					},
+					"Children": [
+						{
+							"ID": "20230629100534-n6tnabi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100534-n6tnabi"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Setter 允许你更改变量的值，但不能查看其当前值"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100542-km1bdw4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100542-km1bdw4",
+				"updated": "20230629100542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何允许模块外定义的类可以访问"
+				}
+			]
+		},
+		{
+			"ID": "20230629100100-5v4ztah",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230629100100-5v4ztah",
+				"updated": "20230629100737"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 使用export关键字\nmodule Admin {  \n  export class Employee {  \n    constructor(name: string, email: string) { }  \n  }  \n  let alex = new Employee('alex', 'alex@gmail.com');  \n}\nlet nick = new Admin.Employee('nick', 'nick@yahoo.com');\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230629100749-5r7eaok",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100749-5r7eaok",
+				"updated": "20230629100749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单介绍一下 TypeScript 模块的加载机制"
+				}
+			]
+		},
+		{
+			"ID": "20230629100800-6u5u3do",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100800-6u5u3do",
+				"updated": "20230629100800"
+			},
+			"Children": [
+				{
+					"ID": "20230629100800-zgw3les",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100800-zgw3les",
+						"updated": "20230629100800"
+					},
+					"Children": [
+						{
+							"ID": "20230629100800-dyfr6ai",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100800-dyfr6ai",
+								"updated": "20230629100800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先，编译器会尝试定位需要导入的模块文件，通过绝对或者相对的路径查找方式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100800-vyvnsrt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629100800-vyvnsrt",
+						"updated": "20230629100800"
+					},
+					"Children": [
+						{
+							"ID": "20230629100800-zcufevb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100800-zcufevb",
+								"updated": "20230629100800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果上面的解析失败了，没有查找到对应的模块，编译器会尝试定位一个外部模块声明（.d.ts）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100800-vzenm10",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629100800-vzenm10",
+						"updated": "20230629100800"
+					},
+					"Children": [
+						{
+							"ID": "20230629100800-9sedlew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100800-9sedlew",
+								"updated": "20230629100800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最后，如果编译器还是不能解析这个模块，则会抛出一个错误 error TS2307: Cannot find module 'moduleA'"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100835-cucmjs9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100835-cucmjs9",
+				"updated": "20230629100835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Exclude、Omit、Merge的作用"
+				}
+			]
+		},
+		{
+			"ID": "20230629100845-pi2uzgb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100845-pi2uzgb",
+				"updated": "20230629100845"
+			},
+			"Children": [
+				{
+					"ID": "20230629100845-tq5ukpu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100845-tq5ukpu",
+						"updated": "20230629100845"
+					},
+					"Children": [
+						{
+							"ID": "20230629100845-rzulttv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100845-rzulttv",
+								"updated": "20230629100845"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Exclude\u003cT, U\u003e：从 T 中排除出可分配给 U 的元素"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100845-owphf1y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629100845-owphf1y",
+						"updated": "20230629100845"
+					},
+					"Children": [
+						{
+							"ID": "20230629100845-527p8o1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100845-527p8o1",
+								"updated": "20230629100845"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Omit\u003cT, K\u003e：忽略 T 中的某些属性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629100845-ic9sz1i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629100845-ic9sz1i",
+						"updated": "20230629100845"
+					},
+					"Children": [
+						{
+							"ID": "20230629100845-oy6k9ru",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100845-oy6k9ru",
+								"updated": "20230629100845"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Merge\u003cO1, O2\u003e：将两个对象的属性合并"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629100931-oze92to",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629100931-oze92to",
+				"updated": "20230629100931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中的泛型是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230629100101-h5zpgfs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100101-h5zpgfs",
+				"updated": "20230629100950"
+			},
+			"Children": [
+				{
+					"ID": "20230629100950-lu7xq33",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629100950-lu7xq33",
+						"updated": "20230629100950"
+					},
+					"Children": [
+						{
+							"ID": "20230629100950-mtu6bxt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629100950-mtu6bxt",
+								"updated": "20230629100950"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再指定类型的一种特性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629101033-84bg8h0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629101033-84bg8h0"
+					},
+					"Children": [
+						{
+							"ID": "20230629101033-pbzzcqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101033-pbzzcqz",
+								"updated": "20230629101035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用一种特殊的类型变量 T 来表示类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629101130-72a1xjm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629101130-72a1xjm",
+				"updated": "20230629101130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中的枚举是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230629100101-2m6phu8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100101-2m6phu8",
+				"updated": "20230629101938"
+			},
+			"Children": [
+				{
+					"ID": "20230629101202-1azh65t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629101202-1azh65t",
+						"updated": "20230629101938"
+					},
+					"Children": [
+						{
+							"ID": "20230629101202-psd33a2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101202-psd33a2",
+								"updated": "20230629101938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "允许我们定义一组命名常量，用于取值被限定在一定范围内的场景"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629101203-u3oynuz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629101203-u3oynuz",
+						"updated": "20230629101220"
+					},
+					"Children": [
+						{
+							"ID": "20230629101203-29ixqvc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101203-29ixqvc",
+								"updated": "20230629101220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是相关值的集合，可以是数字或字符串值"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629101238-5x3asc3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629101238-5x3asc3",
+				"updated": "20230629101242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Typescript 的类型推断机制"
+				}
+			]
+		},
+		{
+			"ID": "20230629100101-kb8o50s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629100101-kb8o50s",
+				"updated": "20230629101258"
+			},
+			"Children": [
+				{
+					"ID": "20230629101247-cqeevvo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629101247-cqeevvo",
+						"updated": "20230629101256"
+					},
+					"Children": [
+						{
+							"ID": "20230629101247-m2gajem",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101247-m2gajem",
+								"updated": "20230629101256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在声明变量时赋值了，那么 typescript 会推断出该变量的类型，之后若赋值其他类型会报错"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629101247-4k1p0wt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629101247-4k1p0wt",
+						"updated": "20230629101258"
+					},
+					"Children": [
+						{
+							"ID": "20230629101247-sn6mpqb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629101247-sn6mpqb",
+								"updated": "20230629101258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "声明变量时未赋值，那么 typescript 会推断该值为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "any"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，之后可以赋值为任何类型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629102126-34chu18",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629102126-34chu18",
+				"updated": "20230629102126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中的类型断言是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230629102134-5swntmj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629102134-5swntmj",
+				"updated": "20230629102146"
+			},
+			"Children": [
+				{
+					"ID": "20230629102135-tl5yglc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629102135-tl5yglc",
+						"updated": "20230629102135"
+					},
+					"Children": [
+						{
+							"ID": "20230629102135-f3u006r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102135-f3u006r",
+								"updated": "20230629102135"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类型断言可以用来手动指定一个值具体的类型，即允许变量从一种类型更改为另一种类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102135-cphy0vf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629102135-cphy0vf",
+						"updated": "20230629102146"
+					},
+					"Children": [
+						{
+							"ID": "20230629102135-tdfd142",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102135-tdfd142",
+								"updated": "20230629102146"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当你比 TS 更了解某个值的类型，并且需要指定更具体的类型时，我们可以使用类型断言"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629102253-za094fx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629102253-za094fx",
+				"updated": "20230629102253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用TS实现一个判断传入参数是否是数组类型的方法"
+				}
+			]
+		},
+		{
+			"ID": "20230629102254-85tomut",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230629102254-85tomut",
+				"updated": "20230629102325"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// unknown 用于变量类型不确定，但肯定可以确定的情形下\nfunction isArray(x: unknown): boolean {\n  if (Array.isArray(x)) {\n    return true;\n  }\n  return false;\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230629102545-xuo2izo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629102545-xuo2izo",
+				"updated": "20230629102545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中什么是类类型接口"
+				}
+			]
+		},
+		{
+			"ID": "20230629102554-4is6pvn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629102554-4is6pvn",
+				"updated": "20230629102554"
+			},
+			"Children": [
+				{
+					"ID": "20230629102554-msz5w2s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629102554-msz5w2s",
+						"updated": "20230629102554"
+					},
+					"Children": [
+						{
+							"ID": "20230629102554-wx129tf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102554-wx129tf",
+								"updated": "20230629102554"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果接口用于一个类的话，那么接口会表示“行为的抽象”"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102554-7dzcz56",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629102554-7dzcz56",
+						"updated": "20230629102554"
+					},
+					"Children": [
+						{
+							"ID": "20230629102554-tg8qe4w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102554-tg8qe4w",
+								"updated": "20230629102554"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对类的约束，让类去实现接口，类可以实现多个接口"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102554-i1ufir7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629102554-i1ufir7",
+						"updated": "20230629102554"
+					},
+					"Children": [
+						{
+							"ID": "20230629102554-4iu7xr0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102554-4iu7xr0",
+								"updated": "20230629102554"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口只能约束类的公有成员（实例属性/方法），无法约束私有成员、构造函数、静态属性/方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629102708-alu9afm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629102708-alu9afm",
+				"updated": "20230629102713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript中什么是方法重载"
+				}
+			]
+		},
+		{
+			"ID": "20230629102714-5hy24vk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629102714-5hy24vk",
+				"updated": "20230629102809"
+			},
+			"Children": [
+				{
+					"ID": "20230629102729-1n48sjk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629102729-1n48sjk",
+						"updated": "20230629102729"
+					},
+					"Children": [
+						{
+							"ID": "20230629102729-yvww4zj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102729-yvww4zj",
+								"updated": "20230629102729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指在一个类中定义多个同名的方法，但要求每个方法具有不同的参数的类型或参数的个数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102754-jdb9n1n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629102754-jdb9n1n",
+						"updated": "20230629102809"
+					},
+					"Children": [
+						{
+							"ID": "20230629102754-9eh4rub",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102754-9eh4rub",
+								"updated": "20230629102754"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方法覆盖规则"
+								}
+							]
+						},
+						{
+							"ID": "20230629102801-xafxbtg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230629102801-xafxbtg",
+								"updated": "20230629102809"
+							},
+							"Children": [
+								{
+									"ID": "20230629102801-mkpl7dw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230629102801-mkpl7dw",
+										"updated": "20230629102809"
+									},
+									"Children": [
+										{
+											"ID": "20230629102801-swcdjo3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102801-swcdjo3",
+												"updated": "20230629102809"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "该方法必须与父类中的名称相同"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629102801-mhczuo2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230629102801-mhczuo2",
+										"updated": "20230629102808"
+									},
+									"Children": [
+										{
+											"ID": "20230629102801-nx6v6uc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102801-nx6v6uc",
+												"updated": "20230629102808"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "它必须具有与父类相同的参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629102801-2np2xwc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230629102801-2np2xwc",
+										"updated": "20230629102801"
+									},
+									"Children": [
+										{
+											"ID": "20230629102801-l1pxa1z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629102801-l1pxa1z",
+												"updated": "20230629102801"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "必须存在IS-A关系或继承"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629102919-x3ovq9z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230629102919-x3ovq9z",
+				"updated": "20230629102919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是TypeScript映射文件"
+				}
+			]
+		},
+		{
+			"ID": "20230629102926-tdrzo2o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629102926-tdrzo2o",
+				"updated": "20230629102926"
+			},
+			"Children": [
+				{
+					"ID": "20230629102926-9gczur0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629102926-9gczur0",
+						"updated": "20230629102926"
+					},
+					"Children": [
+						{
+							"ID": "20230629102926-bqog1b4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102926-bqog1b4",
+								"updated": "20230629102926"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TypeScript Map文件是一个源映射文件，其中包含有关我们原始文件的信息。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102926-lq20mdv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230629102926-lq20mdv",
+						"updated": "20230629102926"
+					},
+					"Children": [
+						{
+							"ID": "20230629102926-nk45n7t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102926-nk45n7t",
+								"updated": "20230629102926"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": ".map文件是源映射文件，可让工具在发出的JavaScript代码和创建它的TypeScript源文件之间进行映射。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629102926-uc6whd6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629102926-uc6whd6",
+						"updated": "20230629102926"
+					},
+					"Children": [
+						{
+							"ID": "20230629102926-488hyvj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629102926-488hyvj",
+								"updated": "20230629102928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "许多调试器可以使用这些文件，因此我们可以调试TypeScript文件而不是JavaScript文件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629102937-s1z0bgt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230629102937-s1z0bgt"
+			}
+		}
+	]
+}

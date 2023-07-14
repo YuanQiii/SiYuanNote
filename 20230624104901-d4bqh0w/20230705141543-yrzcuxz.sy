@@ -1,0 +1,276 @@
+{
+	"ID": "20230705141543-yrzcuxz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230705141543-yrzcuxz",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141543-yrzcuxz\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705141543-scnduyn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705141543-scnduyn\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230705141543-scnduyn\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "算法与数据结构",
+		"updated": "20230711194948"
+	},
+	"Children": [
+		{
+			"ID": "20230705141543-scnduyn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230705141543-scnduyn",
+				"updated": "20230711194948"
+			},
+			"Children": [
+				{
+					"ID": "20230711193633-g0ckclm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230711193633-g0ckclm",
+						"updated": "20230711193633"
+					},
+					"Children": [
+						{
+							"ID": "20230711193633-oh2v2a4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711193633-oh2v2a4",
+								"updated": "20230711193641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "rsmod"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711193641-rhwzme3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230711193641-rhwzme3"
+					},
+					"Children": [
+						{
+							"ID": "20230711193641-5c2fc5l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711193641-5c2fc5l",
+								"updated": "20230711193644"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "topcar"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711193644-7d74oxx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230711193644-7d74oxx"
+					},
+					"Children": [
+						{
+							"ID": "20230711193644-59lqfba",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711193644-59lqfba",
+								"updated": "20230711194322"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.gta5-mods.com/users/Aige",
+									"TextMarkATitle": "Aige",
+									"TextMarkTextContent": "Aige"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711194141-smj9cv6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230711194141-smj9cv6"
+					},
+					"Children": [
+						{
+							"ID": "20230711194141-5qwkc5u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711194141-5qwkc5u",
+								"updated": "20230711194141"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.gta5-mods.com/users/Gta5KoRn",
+									"TextMarkTextContent": "KoRn"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711194404-gwlp5z4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230711194404-gwlp5z4"
+					},
+					"Children": [
+						{
+							"ID": "20230711194404-q5sjo3t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711194404-q5sjo3t",
+								"updated": "20230711194405"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.gta5-mods.com/users/Vans123",
+									"TextMarkTextContent": "Vans123"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711194452-zwupkpt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230711194452-zwupkpt"
+					},
+					"Children": [
+						{
+							"ID": "20230711194452-oj8xrza",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711194452-oj8xrza",
+								"updated": "20230711194452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SCRAT"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711194602-gighcfo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230711194602-gighcfo"
+					},
+					"Children": [
+						{
+							"ID": "20230711194602-7b0e4v8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711194602-7b0e4v8",
+								"updated": "20230711194602"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.gta5-mods.com/users/Rmod%20Customs",
+									"TextMarkTextContent": "Rmod Customs"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711194947-10xgahh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230711194947-10xgahh",
+						"updated": "20230711194948"
+					},
+					"Children": [
+						{
+							"ID": "20230711194948-n9xjwr6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711194948-n9xjwr6",
+								"updated": "20230711194948"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Abolfazldanaee"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230711194600-gzanpyc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230711194600-gzanpyc"
+			}
+		}
+	]
+}

@@ -1,0 +1,932 @@
+{
+	"ID": "20230630190555-o0tznla",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230630190555-o0tznla",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230630190555-o0tznla\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230702170427-d5bxwkh\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230630200331-d7mkapq\u0026quot;,\u0026quot;scrollTop\u0026quot;:176,\u0026quot;focusId\u0026quot;:\u0026quot;20230702171228-r2q5i2y\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
+		"title": "模块化",
+		"updated": "20230702171228"
+	},
+	"Children": [
+		{
+			"ID": "20230702170427-d5bxwkh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230702170427-d5bxwkh",
+				"updated": "20230702170435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是模块化"
+				}
+			]
+		},
+		{
+			"ID": "20230702170445-x8553ex",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230702170445-x8553ex",
+				"updated": "20230702170445"
+			},
+			"Children": [
+				{
+					"ID": "20230702170445-ccwh6b0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230702170445-ccwh6b0",
+						"updated": "20230702170445"
+					},
+					"Children": [
+						{
+							"ID": "20230702170445-89pihxp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170445-89pihxp",
+								"updated": "20230702170445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块化开发的目的就是将代码分割为多个小单元"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702170445-da8v76n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230702170445-da8v76n",
+						"updated": "20230702170445"
+					},
+					"Children": [
+						{
+							"ID": "20230702170445-48spklh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170445-48spklh",
+								"updated": "20230702170445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个单元编写自己的逻辑代码，有自己的作用域，不会影响其他的代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702170445-ad67uep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230702170445-ad67uep",
+						"updated": "20230702170445"
+					},
+					"Children": [
+						{
+							"ID": "20230702170445-kah0wbw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170445-kah0wbw",
+								"updated": "20230702170445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个单元可以导入或暴露变量、函数、对象等，用于调用其他模块/供其他模块调用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630190628-wae8oxs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630190628-wae8oxs",
+				"updated": "20230702170648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Commonjs"
+				}
+			]
+		},
+		{
+			"ID": "20230702170649-1m7u2em",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230702170649-1m7u2em",
+				"updated": "20230702170711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概念"
+				}
+			]
+		},
+		{
+			"ID": "20230702170818-yxci5o9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230702170818-yxci5o9",
+				"updated": "20230702170818"
+			},
+			"Children": [
+				{
+					"ID": "20230702170818-clmyyih",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230702170818-clmyyih",
+						"updated": "20230702170818"
+					},
+					"Children": [
+						{
+							"ID": "20230702170818-wtfl3nx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170818-wtfl3nx",
+								"updated": "20230702170818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Node 是 CommonJS 在服务端一个具有代表性的实现"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702170818-iqx1sc3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230702170818-iqx1sc3",
+						"updated": "20230702170818"
+					},
+					"Children": [
+						{
+							"ID": "20230702170818-oil0y32",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170818-oil0y32",
+								"updated": "20230702170818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Browserify 是 CommonJS 在浏览器端的一种实现"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702170818-jdvxtn2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230702170818-jdvxtn2",
+						"updated": "20230702170818"
+					},
+					"Children": [
+						{
+							"ID": "20230702170818-lk9la3r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170818-lk9la3r",
+								"updated": "20230702170818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "webpack 具备对 CommonJS 的支持与转换"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230702171205-2a2gjfc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230702171205-2a2gjfc",
+				"updated": "20230702171219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Node中使用CommonJS"
+				}
+			]
+		},
+		{
+			"ID": "20230702171228-sfdpm75",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230702171228-sfdpm75",
+				"updated": "20230702171228"
+			},
+			"Children": [
+				{
+					"ID": "20230702171228-jm1riqh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230702171228-jm1riqh",
+						"updated": "20230702171228"
+					},
+					"Children": [
+						{
+							"ID": "20230702171228-qn9lkwq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702171228-qn9lkwq",
+								"updated": "20230702171228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 Node 种每一个文件都是一个模块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702171228-hby23p6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230702171228-hby23p6",
+						"updated": "20230702171228"
+					},
+					"Children": [
+						{
+							"ID": "20230702171228-02zkl30",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702171228-02zkl30",
+								"updated": "20230702171228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个模块中包括了 CommonJS 规范的核心变量："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "exports"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "module.exports"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "require"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702171228-hirc3qx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230702171228-hirc3qx",
+						"updated": "20230702171228"
+					},
+					"Children": [
+						{
+							"ID": "20230702171228-r2q5i2y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702171228-r2q5i2y",
+								"updated": "20230702171228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们可以使用这些变量来进行模块化开发"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230702170727-6xpjquk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230702170727-6xpjquk",
+				"updated": "20230702170727"
+			}
+		},
+		{
+			"ID": "20230702170730-xa4w6rw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230702170730-xa4w6rw"
+			}
+		},
+		{
+			"ID": "20230702170730-mpq9eqe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230702170730-mpq9eqe"
+			}
+		},
+		{
+			"ID": "20230702170730-1x1util",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230702170730-1x1util"
+			}
+		},
+		{
+			"ID": "20230630190555-3uyan7p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630190555-3uyan7p",
+				"updated": "20230630192343"
+			},
+			"Children": [
+				{
+					"ID": "20230630190657-fl7wvh6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630190657-fl7wvh6",
+						"updated": "20230630190657"
+					},
+					"Children": [
+						{
+							"ID": "20230630190657-jgeni6e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630190657-jgeni6e",
+								"updated": "20230630190657"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简称cjs，是nodejs中默认采用的模块化规范，也就是我们常见的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "require('**')"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​那种"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630190659-k9zeb1e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630190659-k9zeb1e"
+					},
+					"Children": [
+						{
+							"ID": "20230630190659-f687uf2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630190659-f687uf2",
+								"updated": "20230630192112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在使用cjs规范引用模块时，虽然引用得到一个对象，但是获得的是对象内值的复制，而并非是对象地址，因此无论之后如何改变，引用的值都不会变化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630192343-ziirzhs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230630192343-ziirzhs",
+						"updated": "20230630192343"
+					},
+					"Children": [
+						{
+							"ID": "20230630192343-rw1rw8s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630192343-rw1rw8s",
+								"updated": "20230630192343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在cjs规范中，模块是同步加载的（毕竟它是设计给服务端nodejs的），也就是说，即使不需要依赖其他模块的代码，依然需要等待前面模块加载完毕之后才能开始执行，在模块越来越大之后无疑会损失更多性能"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630192243-20b4ml0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630192243-20b4ml0",
+				"updated": "20230630192246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "AMD"
+				}
+			]
+		},
+		{
+			"ID": "20230630192246-y1baibx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630192246-y1baibx",
+				"updated": "20230630194344"
+			},
+			"Children": [
+				{
+					"ID": "20230630192449-favh3cl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630192449-favh3cl",
+						"updated": "20230630192449"
+					},
+					"Children": [
+						{
+							"ID": "20230630192449-51gq7o9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630192449-51gq7o9",
+								"updated": "20230630192450"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "AMD规范中引入其他模块也是使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "require"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，但毕竟是异步加载，因此并不直接接收返回值，而是传入一个回调函数，回调函数的参数即为所加载模块导出的对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630194344-55vhn8c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630194344-55vhn8c",
+						"updated": "20230630194344"
+					},
+					"Children": [
+						{
+							"ID": "20230630194344-r5vtttf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630194344-r5vtttf",
+								"updated": "20230630194344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与cjs逻辑相同，AMD规范导入的依然是值的复制而并非地址"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630194409-zotccc3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630194409-zotccc3",
+				"updated": "20230630194409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CMD"
+				}
+			]
+		},
+		{
+			"ID": "20230630194511-ypp92hg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630194511-ypp92hg",
+				"updated": "20230630194512"
+			},
+			"Children": [
+				{
+					"ID": "20230630194512-1p12z7h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630194512-1p12z7h",
+						"updated": "20230630194512"
+					},
+					"Children": [
+						{
+							"ID": "20230630194512-r49j5ak",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630194512-r49j5ak",
+								"updated": "20230630194512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CMD的基本逻辑跟AMD是一致的，只不过在写法上CMD采用了cjs的部分语法，且CMD仅支持浏览器端使用，并在模块加载方面针对浏览器端运行的代码做了些许优化"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630194513-i2ul796",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630194513-i2ul796",
+				"updated": "20230630195119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ES6"
+				}
+			]
+		},
+		{
+			"ID": "20230630195121-bjkd6df",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630195121-bjkd6df",
+				"updated": "20230630195718"
+			},
+			"Children": [
+				{
+					"ID": "20230630195134-nqrvxlu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630195134-nqrvxlu",
+						"updated": "20230630195134"
+					},
+					"Children": [
+						{
+							"ID": "20230630195134-zcigssf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630195134-zcigssf",
+								"updated": "20230630195135"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导出使用的是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "export"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，但与前三者直接导出一个对象的方式不同，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "export"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​需要导出的是单独的函数、对象或者类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630195714-de4xaie",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630195714-de4xaie"
+					},
+					"Children": [
+						{
+							"ID": "20230630195714-31pk5t1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630195714-31pk5t1",
+								"updated": "20230630195714"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "采用具名方式导出时，引用的是地址"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630195714-qy65d3n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230630195714-qy65d3n",
+						"updated": "20230630195718"
+					},
+					"Children": [
+						{
+							"ID": "20230630195714-j3joctb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630195714-j3joctb",
+								"updated": "20230630195718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "default"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​进行默认导出时，则与另外三者保持一致，使用的是值拷贝"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630200323-xt2txlx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630200323-xt2txlx",
+				"updated": "20230630200327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230630200331-d7mkapq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230630200331-d7mkapq",
+				"updated": "20230702170350"
+			},
+			"Children": [
+				{
+					"ID": "20230630200331-z2yzl0c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230630200331-z2yzl0c",
+						"updated": "20230630200331"
+					},
+					"Children": [
+						{
+							"ID": "20230630200331-0qymxyj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630200331-0qymxyj",
+								"updated": "20230630200332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7195098658583838777"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230702170350-3c2lo1i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230702170350-3c2lo1i",
+						"updated": "20230702170350"
+					},
+					"Children": [
+						{
+							"ID": "20230702170350-c5qvncz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230702170350-c5qvncz",
+								"updated": "20230702170350"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7069644953663569927",
+									"TextMarkTextContent": "JavaScript 高级深入浅出：四种模块化规范 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

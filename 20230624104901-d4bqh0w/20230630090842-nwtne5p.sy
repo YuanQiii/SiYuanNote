@@ -1,0 +1,4700 @@
+{
+	"ID": "20230630090842-nwtne5p",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230630090842-nwtne5p",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230630090842-nwtne5p\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230630100522-5ohdvk4\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230630140638-9898p6x\u0026quot;,\u0026quot;scrollTop\u0026quot;:4921,\u0026quot;focusId\u0026quot;:\u0026quot;20230630140638-9898p6x\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
+		"title": "uni-app",
+		"updated": "20230630140638"
+	},
+	"Children": [
+		{
+			"ID": "20230630100522-5ohdvk4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630100522-5ohdvk4",
+				"updated": "20230630100522"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "谈谈你对uni-app的理解"
+				}
+			]
+		},
+		{
+			"ID": "20230630100536-bnka5ne",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630100536-bnka5ne",
+				"updated": "20230630100537"
+			},
+			"Children": [
+				{
+					"ID": "20230630100537-e2ezzne",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630100537-e2ezzne",
+						"updated": "20230630100537"
+					},
+					"Children": [
+						{
+							"ID": "20230630100537-js6wz4y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630100537-js6wz4y",
+								"updated": "20230630100913"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一个使用vue.js开发所有前端应用的框架，开发者编写一套代码，可以发布到iOS、Android、web（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://so.csdn.net/so/search?q=%E5%93%8D%E5%BA%94%E5%BC%8F\u0026amp;spm=1001.2101.3001.7020",
+									"TextMarkTextContent": "响应式"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）、以及各种小程序（微信 / 支付宝 / 百度）、快应用等多个平台"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630100538-n8jxj1a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630100538-n8jxj1a"
+					},
+					"Children": [
+						{
+							"ID": "20230630100538-l7srfrt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630100538-l7srfrt",
+								"updated": "20230630100545"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点"
+								}
+							]
+						},
+						{
+							"ID": "20230630100545-dhewqdg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630100545-dhewqdg"
+							},
+							"Children": [
+								{
+									"ID": "20230630100545-a8undo2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630100545-a8undo2"
+									},
+									"Children": [
+										{
+											"ID": "20230630100545-74ltd6s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630100545-74ltd6s",
+												"updated": "20230630101054"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "跨平台：真正做到一端代码多端发行，支持原生代码混写和原生sdk集成"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630101016-4r8xkd2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630101016-4r8xkd2"
+									},
+									"Children": [
+										{
+											"ID": "20230630101016-ywq6ywe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101016-ywq6ywe",
+												"updated": "20230630101101"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "运行体验良好：组件、api与微信小程序一致，兼容weex原生渲染"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630101116-omubkgh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230630101116-omubkgh"
+									},
+									"Children": [
+										{
+											"ID": "20230630101116-lp2gtxu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101116-lp2gtxu",
+												"updated": "20230630101131"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通用技术栈，学习成本更低：vue的的语法，微信小程序的api"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630101134-f2zhyxy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230630101134-f2zhyxy"
+									},
+									"Children": [
+										{
+											"ID": "20230630101134-j4fxf55",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101134-j4fxf55",
+												"updated": "20230630101235"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开放生态，组件更丰富：支持通过npm安装第三方包；支持微信小程序自定义组件以及sdk；兼容mpvue组件及项目；app端支持与原生混合编码"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630101252-5g91vt0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230630101252-5g91vt0"
+					},
+					"Children": [
+						{
+							"ID": "20230630101252-hes6ikq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630101252-hes6ikq",
+								"updated": "20230630101254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点"
+								}
+							]
+						},
+						{
+							"ID": "20230630101315-3fpmrj5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630101315-3fpmrj5",
+								"updated": "20230630101315"
+							},
+							"Children": [
+								{
+									"ID": "20230630101315-6pu53zs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630101315-6pu53zs",
+										"updated": "20230630101315"
+									},
+									"Children": [
+										{
+											"ID": "20230630101315-klcsq96",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101315-klcsq96",
+												"updated": "20230630101315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缺少APP的灵活性，动画使用不方便，css动画使用多了会卡顿，所以整体APP的界面只能中规中矩"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630101315-spxg6wv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630101315-spxg6wv",
+										"updated": "20230630101315"
+									},
+									"Children": [
+										{
+											"ID": "20230630101315-zeu76qt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101315-zeu76qt",
+												"updated": "20230630101315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "兼容性问题依然有很多小细节问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630101315-lhogk32",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230630101315-lhogk32",
+										"updated": "20230630101315"
+									},
+									"Children": [
+										{
+											"ID": "20230630101315-28xebjx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101315-28xebjx",
+												"updated": "20230630101315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "uvue 没有提供的原生功能，需要原生可发协助开发"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630101315-xsdko6i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230630101315-xsdko6i",
+										"updated": "20230630101315"
+									},
+									"Children": [
+										{
+											"ID": "20230630101315-jrjng81",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630101315-jrjng81",
+												"updated": "20230630101441"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于三端同时上线，一端存在 bug 的情况，Weex 并不能保证做到牵一发而不动全身"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630101503-rfg8d14",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630101503-rfg8d14",
+				"updated": "20230630101503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni中如何为不同的平台设置不同的代码"
+				}
+			]
+		},
+		{
+			"ID": "20230630101015-qlbyysp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630101015-qlbyysp",
+				"updated": "20230630101605"
+			},
+			"Children": [
+				{
+					"ID": "20230630101559-m8yfnet",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630101559-m8yfnet",
+						"updated": "20230630101559"
+					},
+					"Children": [
+						{
+							"ID": "20230630101559-efpoqm0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630101559-efpoqm0",
+								"updated": "20230630101559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "条件编译是用特殊的注释作为标记，在编译时根据这些特殊的注释，将注释里面的代码编译到不同平台"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630101559-h80b7i0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630101559-h80b7i0",
+						"updated": "20230630101605"
+					},
+					"Children": [
+						{
+							"ID": "20230630101559-k2xkr9q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630101559-k2xkr9q",
+								"updated": "20230630101605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以 #ifdef "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "em",
+									"TextMarkTextContent": "或"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " #ifndef 加 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "em",
+									"TextMarkTextContent": "%PLATFORM%"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 开头，以 #endif 结尾"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630101625-4kv35q1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630101625-4kv35q1",
+				"updated": "20230630101625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uniapp中封装接口请求相较于微信小程序有什么要注意的"
+				}
+			]
+		},
+		{
+			"ID": "20230630101628-z8m005m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630101628-z8m005m",
+				"updated": "20230630102033"
+			},
+			"Children": [
+				{
+					"ID": "20230630101831-gp1ce6a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630101831-gp1ce6a",
+						"updated": "20230630101831"
+					},
+					"Children": [
+						{
+							"ID": "20230630101831-2u5m3xt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630101831-2u5m3xt",
+								"updated": "20230630101844"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uniapp和微信小程序都提供了网络请求API（uni.request(object) 和 wx.request(object)），但 uniapp 为了实现跨端兼容，需要注意网络请求跨域问题，微信小程序不用考虑多端兼容 ，也不会出现跨域问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630102029-k7k1o45",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630102029-k7k1o45",
+						"updated": "20230630102033"
+					},
+					"Children": [
+						{
+							"ID": "20230630102029-i3vjg6t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630102029-i3vjg6t",
+								"updated": "20230630102033"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uniapp要在web端进行适配,要注意请求跨域问题—需要配置代理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630102046-nzneu43",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630102046-nzneu43",
+				"updated": "20230630102046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app中的本地存储数据和接收数据是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230630102136-9g5m747",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630102136-9g5m747",
+				"updated": "20230630102520"
+			},
+			"Children": [
+				{
+					"ID": "20230630102137-9if4ylt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630102137-9if4ylt",
+						"updated": "20230630102402"
+					},
+					"Children": [
+						{
+							"ID": "20230630102137-rs3zkog",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630102137-rs3zkog",
+								"updated": "20230630102137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同步储存和读取"
+								}
+							]
+						},
+						{
+							"ID": "20230630102340-0iim93i",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230630102340-0iim93i",
+								"updated": "20230630102402"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "uni.setStorageSync(key, data)\nuni.getStorageSync(key, data)\nuni.removeStorageSync(key, data)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630102138-nxxd7cd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630102138-nxxd7cd",
+						"updated": "20230630102520"
+					},
+					"Children": [
+						{
+							"ID": "20230630102141-0i8009a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630102141-0i8009a",
+								"updated": "20230630102141"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "异步存储和读取"
+								}
+							]
+						},
+						{
+							"ID": "20230630102422-eu9a4xv",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230630102422-eu9a4xv",
+								"updated": "20230630102520"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "uni.setStorage({\n\tkey: 'storage_key',\n\tdata: 'hello',\n\tsuccess: function () {\n\t\tconsole.log('success');\n\t}\n})\nuni.getStorage({\n\tkey: 'storage_key',\n\tsuccess: function (res) {\n\t\tconsole.log(res.data);\n\t}\n})\nuni.removeStorage({\n\tkey: 'storage_key',\n\tsuccess: function (res) {\n\t\tconsole.log('success');\n\t}\n})\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630102907-4p7865v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630102907-4p7865v",
+				"updated": "20230630110225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app 路由与页面跳"
+				}
+			]
+		},
+		{
+			"ID": "20230630110129-x9vh6x7",
+			"Type": "NodeTable",
+			"TableAligns": [
+				1,
+				1
+			],
+			"Properties": {
+				"colgroup": "width: 490px;|width: 550px;",
+				"id": "20230630110129-x9vh6x7",
+				"updated": "20230630113607"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Properties": {
+										"colspan": "1",
+										"rowspan": "1"
+									},
+									"Children": [
+										{
+											"Type": "NodeKramdownSpanIAL",
+											"Data": "{: colspan=\"1\" rowspan=\"1\"}"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "跳转方式"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "特点"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.navigateTo({\u003cbr /\u003e\turl: 'test?id=1\u0026name=uniapp'\u003cbr /\u003e});"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保留当前页面，只能跳转非tabBar页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.switchTab({\u003cbr /\u003e\turl: '/pages/index/index'\u003cbr /\u003e});"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关闭所有非tabbar页面，只能打开tabbar页面，路径后不能带参数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.redirectTo({\u003cbr /\u003e\turl: 'test?id=1'\u003cbr /\u003e});"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关闭卸载当前页面，只能打开非tabBar页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.reLaunch({\u003cbr /\u003e\turl: 'test?id=1'\u003cbr /\u003e});"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关闭卸载所有页面，可以打开任意页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.navigateBack({\u003cbr /\u003e\tdelta: 2\u003cbr /\u003e});"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "返回上一页面 delta：返回页数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标签\u003c navigator \u003e"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "open-type属性决定跳转方式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630110551-6swg5zl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630110551-6swg5zl",
+				"updated": "20230630110551"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app全局变量怎么定义，怎么获取"
+				}
+			]
+		},
+		{
+			"ID": "20230630110556-tc43ltx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630110556-tc43ltx",
+				"updated": "20230630110558"
+			},
+			"Children": [
+				{
+					"ID": "20230630110558-vlvxjna",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630110558-vlvxjna",
+						"updated": "20230630110558"
+					},
+					"Children": [
+						{
+							"ID": "20230630110558-dq6vovv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630110558-dq6vovv",
+								"updated": "20230630110609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在app.js中设置globalData设置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630110609-clgt12g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630110609-clgt12g"
+					},
+					"Children": [
+						{
+							"ID": "20230630110609-9q9r7qy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630110609-9q9r7qy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在需要的地方的js文件let app=getApp() app.globalData.数据"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630110625-mb8dsac",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630110625-mb8dsac",
+				"updated": "20230630110812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app中生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20230630110628-iy0cd4a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630110628-iy0cd4a",
+				"updated": "20230630111715"
+			},
+			"Children": [
+				{
+					"ID": "20230630110636-r9i9fx9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630110636-r9i9fx9",
+						"updated": "20230630110636"
+					},
+					"Children": [
+						{
+							"ID": "20230630110636-1bkiwvc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630110636-1bkiwvc",
+								"updated": "20230630110843"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应用和页面的生命周期采用的绝大多数是小程序的生命周期"
+								}
+							]
+						},
+						{
+							"ID": "20230630110728-4r4or8u",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630110728-4r4or8u"
+							},
+							"Children": [
+								{
+									"ID": "20230630110727-h6anwtc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630110727-h6anwtc"
+									},
+									"Children": [
+										{
+											"ID": "20230630110727-nwsq5g7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630110727-nwsq5g7",
+												"updated": "20230630110852"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "应用"
+												}
+											]
+										},
+										{
+											"ID": "20230630111115-g2sj61q",
+											"Type": "NodeTable",
+											"TableAligns": [
+												2,
+												1
+											],
+											"Properties": {
+												"colgroup": "width: 274px;|",
+												"id": "20230630111115-g2sj61q",
+												"updated": "20230630111115"
+											},
+											"Children": [
+												{
+													"Type": "NodeTableHead",
+													"Data": "thead",
+													"Children": [
+														{
+															"Type": "NodeTableRow",
+															"Data": "tr",
+															"Children": [
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellAlign": 2,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "函数名"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellAlign": 1,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "说明"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onLaunch"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni-app"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 初始化完成时触发（全局只触发一次）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onShow"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni-app"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 启动，或从后台进入前台显示"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onHide"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni-app"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 从前台进入后台"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onError"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni-app"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 报错时触发"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onUniNViewMessage"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "nvue"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 页面发送的数据进行监听，可参考 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://uniapp.dcloud.io/tutorial/nvue-api?id=communication",
+																	"TextMarkTextContent": "nvue 向 vue 通讯"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onUnhandledRejection"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对未处理的 Promise 拒绝事件监听函数（2.8.1+）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onPageNotFound"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "页面不存在监听函数"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onThemeChange"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 1,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听系统主题变化"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630111057-d2ehbyo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630111057-d2ehbyo"
+									},
+									"Children": [
+										{
+											"ID": "20230630111057-13bcgub",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630111057-13bcgub",
+												"updated": "20230630111105"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "页面"
+												}
+											]
+										},
+										{
+											"ID": "20230630111153-5oaqsro",
+											"Type": "NodeTable",
+											"TableAligns": [
+												2,
+												0,
+												0,
+												0
+											],
+											"Properties": {
+												"colgroup": "|width: 761px;|width: 356px;|",
+												"id": "20230630111153-5oaqsro",
+												"style": "width: 100%; flex: 0 0 auto;",
+												"updated": "20230630111153"
+											},
+											"Children": [
+												{
+													"Type": "NodeTableHead",
+													"Data": "thead",
+													"Children": [
+														{
+															"Type": "NodeTableRow",
+															"Data": "tr",
+															"Children": [
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellAlign": 2,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "函数名"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "说明"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "平台差异说明"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "最低版本"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onInit"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面初始化，其参数同 onLoad 参数，为上个页面传递的数据，参数类型为 Object（用于页面传参），触发时机早于 onLoad"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "百度小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "3.1.0+"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onLoad"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面加载，该钩子被调用时，响应式数据、计算属性、方法、侦听器、props、slots 已设置完成，其参数为上个页面传递的数据，参数类型为 Object（用于页面传参），参考"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://uniapp.dcloud.net.cn/api/router#navigateto",
+																	"TextMarkTextContent": "示例"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onShow"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面显示，页面每次出现在屏幕上都触发，包括从下级页面点返回露出当前页面"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onReady"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面初次渲染完成，此时组件已挂载完成，DOM 树($el)已可用，注意如果渲染速度快，会在页面进入动画完成前触发"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onHide"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面隐藏"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onUnload"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面卸载"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onResize"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听窗口尺寸变化"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App、微信小程序、快手小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onPullDownRefresh"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听用户下拉动作，一般用于下拉刷新，参考"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://uniapp.dcloud.net.cn/api/ui/pulldown",
+																	"TextMarkTextContent": "示例"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onReachBottom"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "页面滚动到底部的事件（不是scroll-view滚到底），常用于下拉下一页数据。具体见下方注意事项"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onTabItemTap"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "点击 tab 时触发，参数为Object，具体见下方注意事项"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "微信小程序、QQ小程序、支付宝小程序、百度小程序、H5、App、快手小程序、京东小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onShareAppMessage"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "用户点击右上角分享"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "微信小程序、QQ小程序、支付宝小程序、抖音小程序、飞书小程序、快手小程序、京东小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onPageScroll"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面滚动，参数为Object"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "nvue暂不支持"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onNavigationBarButtonTap"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听原生标题栏按钮点击事件，参数为Object"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App、H5"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onBackPress"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听页面返回，返回 event = {from:backbutton、 navigateBack} ，backbutton 表示来源是左上角返回按钮或 android 返回键；navigateBack表示来源是 uni.navigateBack ；详细说明及使用："
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "http://ask.dcloud.net.cn/article/35120",
+																	"TextMarkTextContent": "onBackPress 详解"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "。支付宝小程序只有真机能触发，只能监听非navigateBack引起的返回，不可阻止默认行为。"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "app、H5、支付宝小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onNavigationBarSearchInputChanged"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听原生标题栏搜索输入框输入内容变化事件"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App、H5"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "1.6.0"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onNavigationBarSearchInputConfirmed"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听原生标题栏搜索输入框搜索事件，用户点击软键盘上的“搜索”按钮时触发。"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App、H5"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "1.6.0"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onNavigationBarSearchInputClicked"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听原生标题栏搜索输入框点击事件（pages.json 中的 searchInput 配置 disabled 为 true 时才会触发）"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App、H5"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "1.6.0"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onShareTimeline"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听用户点击右上角转发到朋友圈"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "微信小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "2.8.1+"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellAlign": 2,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "onAddToFavorites"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "监听用户点击右上角收藏"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "微信小程序、QQ小程序"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "2.8.1+"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630110637-4bqbwfi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630110637-4bqbwfi",
+						"updated": "20230630111715"
+					},
+					"Children": [
+						{
+							"ID": "20230630110637-1ykizvq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630110637-1ykizvq",
+								"updated": "20230630110641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件的生命周期采用的是vue的生命周期"
+								}
+							]
+						},
+						{
+							"ID": "20230630111715-wcsmp22",
+							"Type": "NodeTable",
+							"TableAligns": [
+								2,
+								0,
+								0
+							],
+							"Properties": {
+								"colgroup": "width: 147px;|width: 583px;|width: 318px;",
+								"id": "20230630111715-wcsmp22",
+								"updated": "20230630111715"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellAlign": 2,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "函数名"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "说明"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "平台差异说明"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "beforeCreate"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在实例初始化之前被调用。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#beforeCreate",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "created"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在实例创建完成后被立即调用。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#created",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "beforeMount"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在挂载开始之前被调用。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#beforeMount",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "mounted"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "挂载到实例上去之后调用。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#mounted",
+													"TextMarkTextContent": "详见"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 注意：此处并不能确定子组件被全部挂载，如果需要子组件完全挂载之后在执行操作可以使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$nextTick"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#vm-nextTick",
+													"TextMarkTextContent": "Vue官方文档"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "beforeUpdate"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据更新时调用，发生在虚拟 DOM 打补丁之前。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#beforeUpdate",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "仅H5平台支持"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "updated"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "由于数据更改导致的虚拟 DOM 重新渲染和打补丁，在这之后会调用该钩子。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#updated",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "仅H5平台支持"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "beforeDestroy"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实例销毁之前调用。在这一步，实例仍然完全可用。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#beforeDestroy",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellAlign": 2,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "destroyed"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vue 实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://v2.cn.vuejs.org/v2/api/#destroyed",
+													"TextMarkTextContent": "详见"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630111850-f7f591g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630111850-f7f591g",
+				"updated": "20230630111850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提高微信小程序速度的方法"
+				}
+			]
+		},
+		{
+			"ID": "20230630111853-6bb5rng",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630111853-6bb5rng",
+				"updated": "20230630112052"
+			},
+			"Children": [
+				{
+					"ID": "20230630111917-zqk97v7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630111917-zqk97v7",
+						"updated": "20230630111917"
+					},
+					"Children": [
+						{
+							"ID": "20230630111917-6a2mdd3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630111917-6a2mdd3",
+								"updated": "20230630111921"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "控制代码包的大小"
+								}
+							]
+						},
+						{
+							"ID": "20230630111922-wspjmwv",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630111922-wspjmwv"
+							},
+							"Children": [
+								{
+									"ID": "20230630111922-nowpvqm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630111922-nowpvqm"
+									},
+									"Children": [
+										{
+											"ID": "20230630111922-zp9il3s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630111922-zp9il3s",
+												"updated": "20230630111927"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码包的体积压缩可以通过勾选开发者工具中“上传代码时，压缩代码”选项"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630111928-93rnmjf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630111928-93rnmjf"
+									},
+									"Children": [
+										{
+											"ID": "20230630111928-ygdplwc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630111928-ygdplwc",
+												"updated": "20230630111931"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "及时清理无用的代码和资源文件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630111931-6g2w0e6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230630111931-6g2w0e6"
+									},
+									"Children": [
+										{
+											"ID": "20230630111931-fvpuzji",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630111931-fvpuzji",
+												"updated": "20230630111935"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少资源包中的图片等资源的数量和大小"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630111941-2vsr0oi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630111941-2vsr0oi"
+					},
+					"Children": [
+						{
+							"ID": "20230630111941-u6rhw70",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630111941-u6rhw70",
+								"updated": "20230630111950"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分包加载、预加载"
+								}
+							]
+						},
+						{
+							"ID": "20230630111947-vm9ax5x",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630111947-vm9ax5x"
+							},
+							"Children": [
+								{
+									"ID": "20230630111946-p6bxajh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630111946-p6bxajh"
+									},
+									"Children": [
+										{
+											"ID": "20230630111946-ty8pkav",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630111946-ty8pkav",
+												"updated": "20230630112002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将用户访问率高的页面放在主包里，将访问率低的页面放入子包里，按需加载；采用子包预加载技术，并不需要等到用户点击到子包页面后在下载子包"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630112002-7nj5p8a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630112002-7nj5p8a"
+									},
+									"Children": [
+										{
+											"ID": "20230630112002-q89k893",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630112002-q89k893",
+												"updated": "20230630112009"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "请求可以在页面onLoad就加载，不需要等页面ready后在异步请求数据；尽量减少不必要的https请求，可使用 getStorageSync() 及 setStorageSync() 方法将数据存储在本地"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630112010-xqsrexh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230630112010-xqsrexh"
+					},
+					"Children": [
+						{
+							"ID": "20230630112010-5u3drap",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630112010-5u3drap",
+								"updated": "20230630112019"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免不当的使用setData"
+								}
+							]
+						},
+						{
+							"ID": "20230630112020-6ili76l",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630112020-6ili76l"
+							},
+							"Children": [
+								{
+									"ID": "20230630112020-bvtdp6z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630112020-bvtdp6z"
+									},
+									"Children": [
+										{
+											"ID": "20230630112020-gpub212",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630112020-gpub212",
+												"updated": "20230630112024"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不要过于频繁调用setData，应考虑将多次setData合并成一次setData调用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630112024-o4m3bs7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230630112024-o4m3bs7",
+						"updated": "20230630112052"
+					},
+					"Children": [
+						{
+							"ID": "20230630112024-l3wennh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630112024-l3wennh",
+								"updated": "20230630112030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用自定义组件"
+								}
+							]
+						},
+						{
+							"ID": "20230630112031-cfs4g6v",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630112031-cfs4g6v",
+								"updated": "20230630112052"
+							},
+							"Children": [
+								{
+									"ID": "20230630112031-3haaqwm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630112031-3haaqwm"
+									},
+									"Children": [
+										{
+											"ID": "20230630112031-mq3f5hq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630112031-mq3f5hq",
+												"updated": "20230630112048"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于一些独立的模块我们尽可能抽离出来，这是因为自定义组件的更新并不会影响页面上其他元素的更新"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630112049-z9eeusn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630112049-z9eeusn",
+										"updated": "20230630112052"
+									},
+									"Children": [
+										{
+											"ID": "20230630112049-1jhwgrz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630112049-1jhwgrz",
+												"updated": "20230630112052"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "各个组件也将具有各自独立的逻辑空间，每个组件都分别拥有自己的独立的数据、setData调用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630112645-zo9aexy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630112645-zo9aexy",
+				"updated": "20230630112651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app 中配置"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://so.csdn.net/so/search?q=tabbar\u0026amp;spm=1001.2101.3001.7020",
+					"TextMarkTextContent": "tabbar"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的方式"
+				}
+			]
+		},
+		{
+			"ID": "20230630112654-d1bjez2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230630112654-d1bjez2",
+				"updated": "20230630112729"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\"tabBar\": {\n        \"color\": \"#7A7E83\",\n        \"selectedColor\": \"#3cc51f\",\n        \"borderStyle\": \"black\",\n        \"backgroundColor\": \"#ffffff\",\n        \"list\": [{\n                \"pagePath\": \"pages/index/index\",\n                \"iconPath\": \"static/bottomTabBar/home2_icon.png\",\n                \"selectedIconPath\": \"static/bottomTabBar/home1_icon.png\",\n                \"text\": \"分享\"\n        }]\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230630112846-y6rst9g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630112846-y6rst9g",
+				"updated": "20230630112846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下拉刷新和触底加载的使用"
+				}
+			]
+		},
+		{
+			"ID": "20230630112849-b3jxy9u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630112849-b3jxy9u",
+				"updated": "20230630113007"
+			},
+			"Children": [
+				{
+					"ID": "20230630113007-u0j7di2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630113007-u0j7di2",
+						"updated": "20230630113007"
+					},
+					"Children": [
+						{
+							"ID": "20230630113007-ghah97y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630113007-ghah97y",
+								"updated": "20230630113007"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过onPullDownRefresh可以监听到下拉刷新的动作"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630114034-dmoaig7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630114034-dmoaig7",
+				"updated": "20230630114140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app怎么处理跨域问题"
+				}
+			]
+		},
+		{
+			"ID": "20230630114141-rmjv6sv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630114141-rmjv6sv",
+				"updated": "20230630114234"
+			},
+			"Children": [
+				{
+					"ID": "20230630114146-5ab5ncv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630114146-5ab5ncv",
+						"updated": "20230630114146"
+					},
+					"Children": [
+						{
+							"ID": "20230630114146-qkmnson",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630114146-qkmnson",
+								"updated": "20230630114151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​​小程序"
+								}
+							]
+						},
+						{
+							"ID": "20230630114152-huyvtfu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630114152-huyvtfu"
+							},
+							"Children": [
+								{
+									"ID": "20230630114152-8gs89bz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630114152-8gs89bz"
+									},
+									"Children": [
+										{
+											"ID": "20230630114152-586slpv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630114152-586slpv",
+												"updated": "20230630114200"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​​​需要 “不校验url”"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230630114202-czhcsj5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230630114202-czhcsj5"
+									},
+									"Children": [
+										{
+											"ID": "20230630114202-1m6st66",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630114202-1m6st66",
+												"updated": "20230630114212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​​​但是上线是不行的，必须要在网页后台配置 “request合法域名” 就可以了，并且必须是https开头"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230630114214-sb1e1gw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230630114214-sb1e1gw",
+						"updated": "20230630114234"
+					},
+					"Children": [
+						{
+							"ID": "20230630114214-vso6ezo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630114214-vso6ezo",
+								"updated": "20230630114223"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​​浏览器​"
+								}
+							]
+						},
+						{
+							"ID": "20230630114220-z2bp6zw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230630114220-z2bp6zw",
+								"updated": "20230630114234"
+							},
+							"Children": [
+								{
+									"ID": "20230630114220-adkl1tm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230630114220-adkl1tm",
+										"updated": "20230630114234"
+									},
+									"Children": [
+										{
+											"ID": "20230630114220-2tsy66v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230630114220-2tsy66v",
+												"updated": "20230630114234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​​设置代理来解决跨域问题​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630114450-tzhxqos",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630114450-tzhxqos",
+				"updated": "20230630114554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uniapp怎么做适配"
+				}
+			]
+		},
+		{
+			"ID": "20230630114555-vee7qfu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230630114555-vee7qfu",
+				"updated": "20230630114606"
+			},
+			"Children": [
+				{
+					"ID": "20230630114604-za169vg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230630114604-za169vg",
+						"updated": "20230630114606"
+					},
+					"Children": [
+						{
+							"ID": "20230630114604-fofxpnx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230630114604-fofxpnx",
+								"updated": "20230630114606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​rpx单位"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230630115054-4zg8leg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630115054-4zg8leg",
+				"updated": "20230630115054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "button的open-type"
+				}
+			]
+		},
+		{
+			"ID": "20230630140638-9898p6x",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|width: 456px;|",
+				"id": "20230630140638-9898p6x",
+				"updated": "20230630140638"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "平台差异说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "feedback"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开“意见反馈”页面，用户可提交反馈内容并上传日志"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "App、微信小程序、QQ小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "share"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触发用户转发"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序、百度小程序、支付宝小程序、抖音小程序、飞书小程序、QQ小程序、快手小程序、京东小程序、360小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "getUserInfo"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取用户信息，可以从@getuserinfo回调中获取到用户信息"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序、百度小程序、QQ小程序、快手小程序、京东小程序、360小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "contact"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开客服会话，如果用户在会话中点击消息卡片后返回应用，可以从 @contact 回调中获得具体信息"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序、百度小程序、快手小程序、抖音小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "getPhoneNumber"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取用户手机号，可以从@getphonenumber回调中获取到用户信息"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序、百度小程序、抖音小程序、支付宝小程序、快手小程序、京东小程序。App平台另见"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/univerify",
+									"TextMarkTextContent": "一键登陆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "launchApp"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小程序中打开APP，可以通过app-parameter属性设定向APP传的参数"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/launchApp.html",
+									"TextMarkTextContent": "微信小程序"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://q.qq.com/wiki/develop/miniprogram/frame/open_ability/open_app.html",
+									"TextMarkTextContent": "QQ小程序"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、快手小程序、京东小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "openSetting"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开授权设置页"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序、QQ小程序、百度小程序、快手小程序、京东小程序、360小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "chooseAvatar"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取用户头像，可以从@chooseavatar回调中获取到头像信息"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序2.21.2版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uploadDouyinVideo"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发布抖音视频"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抖音小程序2.65.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "im"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跳转到抖音IM客服"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抖音小程序2.80.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "getAuthorize"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持小程序授权"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lifestyle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关注生活号"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "contactShare"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分享到通讯录好友"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝小程序基础库1.11.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "openGroupProfile"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "呼起QQ群资料卡页面，可以通过group-id属性设定需要打开的群资料卡的群号，同时manifest.json中必须配置groupIdList"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.4.7版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "openGuildProfile"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "呼起频道页面，可以通过guild-id属性设定需要打开的频道ID"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.46.8版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "openPublicProfile"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开公众号资料卡，可以通过public-id属性设定需要打开的公众号资料卡的号码，同时manifest.json中必须配置publicIdList"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.12.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "shareMessageToFriend"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在自定义开放数据域组件中,向指定好友发起分享据"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.17.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "addFriend"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加好友， 对方需要通过该小程序进行授权，允许被加好友后才能调用成功用户授权"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "addColorSign"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加彩签，点击后添加状态有用户提示，无回调"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.10.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "addGroupApp"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加群应用（只有管理员或群主有权操作），添加后给button绑定@addgroupapp事件接收回调数据"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.16.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "addToFavorites"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "收藏当前页面，点击按钮后会触发Page.onAddToFavorites方法"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ小程序基础库1.19.0版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "chooseAddress"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选择用户收货地址，可以从@chooseaddress回调中获取到用户选择的地址信息"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "百度小程序3.160.3版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "chooseInvoiceTitle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选择用户发票抬头，可以从@chooseinvoicetitle回调中获取到用户选择发票抬头信息"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "百度小程序3.160.3版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "login"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "登录，可以从@login回调中确认是否登录成功"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "百度小程序3.230.1版本+"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "subscribe"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "订阅类模板消息，需要用户授权才可发送"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "百度小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "favorite"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触发用户收藏"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快手小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "watchLater"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触发用户稍后再看"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快手小程序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "openProfile"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触发打开用户主页"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快手小程序"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

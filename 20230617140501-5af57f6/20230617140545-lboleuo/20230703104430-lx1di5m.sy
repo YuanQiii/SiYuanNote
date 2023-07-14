@@ -1,0 +1,1462 @@
+{
+	"ID": "20230703104430-lx1di5m",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230703104430-lx1di5m",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230703104430-lx1di5m\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230703190232-xnnqjme\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230704180738-mccmqf9\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230703190232-xnnqjme\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "支付沙箱",
+		"updated": "20230704184000"
+	},
+	"Children": [
+		{
+			"ID": "20230703190232-xnnqjme",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703190232-xnnqjme",
+				"updated": "20230703190232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "名词解释"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-7rb17o6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-7rb17o6",
+				"updated": "20230703190250"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "应用私钥"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：用来给应用消息进行签名，请务必要妥善保管，避免遗失或泄露"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-4b223k4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-4b223k4",
+				"updated": "20230703190251"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "应用公钥"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：需要提供给支付宝开放平台，平台会对应用发送的消息进行签名验证"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-glv8ax8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-glv8ax8",
+				"updated": "20230703190252"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "支付宝公钥"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：应用收到支付宝发送的同步、异步消息时，使用支付宝公钥验证签名信息"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-wr7l23m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-wr7l23m",
+				"updated": "20230703190253"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "CSR 文件"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：CSR 即证书签名请求（Certificate Signing Request），CSR 文件（.csr）是申请证书时所需要的一个数据文件"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-h4rjqst",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-h4rjqst",
+				"updated": "20230703190255"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "应用公钥证书"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：在开放平台上传 CSR 文件后可以获取 CA 机构颁发的应用证书文件（.crt），其中包含了组织/公司名称、应用公钥、证书有效期等内容，一般有效期为 5 年"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-vs6gdav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-vs6gdav",
+				"updated": "20230703190256"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "支付宝公钥证书"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：用来验证支付宝消息，包含了支付宝公钥、支付宝公司名称、证书有效期等内容，一般有效期为 5 年"
+				}
+			]
+		},
+		{
+			"ID": "20230703190232-moqxxpy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230703190232-moqxxpy",
+				"updated": "20230703190256"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "支付宝根证书"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：用来验证支付宝消息，包含了根 CA 名称、根 CA 的公钥、证书有效期等内容"
+				}
+			]
+		},
+		{
+			"ID": "20230703104432-0j2cgrf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703104432-0j2cgrf",
+				"updated": "20230703104437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "支付宝"
+				}
+			]
+		},
+		{
+			"ID": "20230703104437-i21ooqt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230703104437-i21ooqt",
+				"updated": "20230704093334"
+			},
+			"Children": [
+				{
+					"ID": "20230703104442-4df6hqz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230703104442-4df6hqz",
+						"updated": "20230703104442"
+					},
+					"Children": [
+						{
+							"ID": "20230703104442-s5bkfhi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703104442-s5bkfhi",
+								"updated": "20230703104443"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "沙箱环境测试适用于用户暂未签约，或者签约审核、应用未上线等使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703104443-xzcttba",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230703104443-xzcttba"
+					},
+					"Children": [
+						{
+							"ID": "20230703104443-703lj55",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703104443-703lj55",
+								"updated": "20230703185032"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "申请开通沙箱环境"
+								}
+							]
+						},
+						{
+							"ID": "20230703185033-hc1w2t5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230703185033-hc1w2t5"
+							},
+							"Children": [
+								{
+									"ID": "20230703185033-u5euf8u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230703185033-u5euf8u"
+									},
+									"Children": [
+										{
+											"ID": "20230703185033-hwdww9u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185033-hwdww9u",
+												"updated": "20230703185331"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "获取沙箱应用、沙箱账号"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703185344-efcc8dp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230703185344-efcc8dp"
+									},
+									"Children": [
+										{
+											"ID": "20230703185344-up5tkuz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185344-up5tkuz",
+												"updated": "20230703185350"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "下载支付宝客户端沙箱版"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703184817-bjvw8de",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230703184817-bjvw8de",
+						"updated": "20230703185714"
+					},
+					"Children": [
+						{
+							"ID": "20230703184817-p17rplv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703184817-p17rplv",
+								"updated": "20230703185714"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载支付宝开放平台密钥生成工具"
+								}
+							]
+						},
+						{
+							"ID": "20230703185040-1opp425",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230703185040-1opp425"
+							},
+							"Children": [
+								{
+									"ID": "20230703185006-1cu4bed",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230703185006-1cu4bed"
+									},
+									"Children": [
+										{
+											"ID": "20230703185006-4kg5r67",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185006-4kg5r67",
+												"updated": "20230703185105"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "生成密钥获取应用公钥、应用私钥"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703185116-8dsnakn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230703185116-8dsnakn"
+									},
+									"Children": [
+										{
+											"ID": "20230703185116-5pnpgfq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185116-5pnpgfq",
+												"updated": "20230703185130"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "上传应用公钥获取支付宝公钥"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703185153-5zd6eca",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230703185153-5zd6eca"
+									},
+									"Children": [
+										{
+											"ID": "20230703185153-tjpsyh3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185153-tjpsyh3",
+												"updated": "20230703190926"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "RSA2 加密算法默认生成格式为 PKCS8，将应用私钥通过格式转换为PKCS1格式"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703194429-9jplu69",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230703194429-9jplu69"
+					},
+					"Children": [
+						{
+							"ID": "20230703194430-7s4qdh0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703194430-7s4qdh0",
+								"updated": "20230703230534"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "OpenSSL 工具生成密钥改成 pem 格式"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.myssl.cn/tools/merge-pem-cert.html",
+									"TextMarkTextContent": "OpenSSL在线生成合成PEM文件_OPENSSL工具包_迅通诚信 (myssl.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703233431-afjwhku",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230703233431-afjwhku",
+						"updated": "20230704093334"
+					},
+					"Children": [
+						{
+							"ID": "20230703233431-kwr9qxe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703233431-kwr9qxe",
+								"updated": "20230703233452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口内容加密"
+								}
+							]
+						},
+						{
+							"ID": "20230703233454-2tzi1me",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230703233454-2tzi1me",
+								"updated": "20230704093334"
+							},
+							"Children": [
+								{
+									"ID": "20230703233454-tmnpji6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230703233454-tmnpji6"
+									},
+									"Children": [
+										{
+											"ID": "20230703233454-j8mq673",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703233454-j8mq673",
+												"updated": "20230703233454"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发者可对请求参数先做 AES 加密，然后对密文进行 RSA 签名"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703233456-45xunzg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230703233456-45xunzg"
+									},
+									"Children": [
+										{
+											"ID": "20230703233456-ef3q5yk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703233456-ef3q5yk",
+												"updated": "20230703233503"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "AES 密钥是对接口请求和响应内容进行加密，密文无法被第三方识别，从而防止接口传输数据泄露"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703233504-6u0y0j7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230703233504-6u0y0j7"
+									},
+									"Children": [
+										{
+											"ID": "20230703233504-ga9tyoj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703233504-ga9tyoj",
+												"updated": "20230703233514"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "RSA"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 密钥是对接口请求和响应内容进行签名，开发者和支付宝开放平台分别加签验签，以确认接口传输的内容没有被篡改"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704093235-ea75s0c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230704093235-ea75s0c"
+									},
+									"Children": [
+										{
+											"ID": "20230704093251-6f0fyb0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704093251-6f0fyb0",
+												"updated": "20230704093251"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置 AES 密钥"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704093255-3iu7x0j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230704093255-3iu7x0j",
+										"updated": "20230704093334"
+									},
+									"Children": [
+										{
+											"ID": "20230704093301-ntadm00",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704093301-ntadm00",
+												"updated": "20230704093301"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 SDK 加解密"
+												}
+											]
+										},
+										{
+											"ID": "20230704093303-hxj5ahv",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230704093303-hxj5ahv",
+												"updated": "20230704093334"
+											},
+											"Children": [
+												{
+													"ID": "20230704093303-n1matl1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230704093303-n1matl1"
+													},
+													"Children": [
+														{
+															"ID": "20230704093311-4ini7mn",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704093311-4ini7mn",
+																"updated": "20230704093311"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "名词解释"
+																}
+															]
+														},
+														{
+															"ID": "20230704093311-yjycpfl",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230704093311-yjycpfl",
+																"updated": "20230704093311"
+															},
+															"Children": [
+																{
+																	"ID": "20230704093311-4153k52",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230704093311-4153k52",
+																		"updated": "20230704093311"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230704093311-g7burem",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230704093311-g7burem",
+																				"updated": "20230704093320"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "strong",
+																					"TextMarkTextContent": "AES 密钥："
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "即在支付宝页面上生成的 AES 密钥"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230704093311-bhpgr2c",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230704093311-bhpgr2c",
+																		"updated": "20230704093311"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230704093311-br7brbw",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230704093311-br7brbw",
+																				"updated": "20230704093320"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "strong",
+																					"TextMarkTextContent": "原文："
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "biz_content 的值"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230704093311-ybdi8mx",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "My4=",
+																		"Num": 3
+																	},
+																	"Properties": {
+																		"id": "20230704093311-ybdi8mx",
+																		"updated": "20230704093311"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230704093311-qik6p4a",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230704093311-qik6p4a",
+																				"updated": "20230704093322"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "strong",
+																					"TextMarkTextContent": "字符集："
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "加密原文会按该字符集转换为对应的编码（请保证和签名过程一致的字符集）"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230704093311-5pq5s8r",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "NC4=",
+																		"Num": 4
+																	},
+																	"Properties": {
+																		"id": "20230704093311-5pq5s8r",
+																		"updated": "20230704093311"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230704093311-xymvf0w",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230704093311-xymvf0w",
+																				"updated": "20230704093323"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "strong",
+																					"TextMarkTextContent": "加密算法："
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "AES/CBC/PKCS5Padding"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230704093333-p9phnwg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230704093333-p9phnwg",
+														"updated": "20230704093334"
+													},
+													"Children": [
+														{
+															"ID": "20230704093334-5iroe2q",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230704093334-5iroe2q",
+																"updated": "20230704093334"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "使用 SDK 加密"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703185239-rr5petl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230703185239-rr5petl"
+					},
+					"Children": [
+						{
+							"ID": "20230703185239-itfzvdj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703185239-itfzvdj",
+								"updated": "20230703185429"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置接口加签方式"
+								}
+							]
+						},
+						{
+							"ID": "20230703185430-lrw4efd",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230703185430-lrw4efd"
+							},
+							"Children": [
+								{
+									"ID": "20230703185430-b29r4yu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230703185430-b29r4yu"
+									},
+									"Children": [
+										{
+											"ID": "20230703185430-hwuv4yt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185430-hwuv4yt",
+												"updated": "20230703185454"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "自定义密钥，设置应用公钥、支付宝公钥"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230703185522-h3sgnmm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230703185522-h3sgnmm",
+						"updated": "20230703185559"
+					},
+					"Children": [
+						{
+							"ID": "20230703185522-50wca87",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230703185522-50wca87",
+								"updated": "20230703185603"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置Node"
+								}
+							]
+						},
+						{
+							"ID": "20230703185559-4ycz21u",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230703185559-4ycz21u"
+							},
+							"Children": [
+								{
+									"ID": "20230703185559-tpxqadm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230703185559-tpxqadm"
+									},
+									"Children": [
+										{
+											"ID": "20230703185559-f0isxss",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703185559-f0isxss",
+												"updated": "20230703190019"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安装Alipay SDK "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "npm install alipay-sdk"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703191300-cbvl2vj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230703191300-cbvl2vj"
+									},
+									"Children": [
+										{
+											"ID": "20230703191300-7tftatx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703191300-7tftatx",
+												"updated": "20230703191300"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "本 SDK 默认采用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "PKCS1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的格式解析密钥，与密钥工具的默认生成格式不一致"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230703190020-s3mwq72",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230703190020-s3mwq72"
+									},
+									"Children": [
+										{
+											"ID": "20230703190020-esar56u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230703190020-esar56u",
+												"updated": "20230703190449"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编写代码"
+												}
+											]
+										},
+										{
+											"ID": "20230703190450-t29sw4n",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230703190450-t29sw4n",
+												"updated": "20230703190718"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const AlipaySdk = require('alipay-sdk').default\nconst AlipayFormData = require('alipay-sdk/lib/form').default\n\nconst appId = 'APPID'\nconst gateway = 'https://openapi-sandbox.dl.alipaydev.com/gateway.do'\nconst privateKey = '应用私钥'\nconst alipayPublicKey = '支付宝公钥'\n\n// 初始化插件\nconst alipaySdk = new AlipaySdk({\n  appId,\n  gateway,\n  privateKey,\n  alipayPublicKey\n})\n\nasync function pay () {\n  const formData = new AlipayFormData()\n  // 调用 setMethod 并传入 get，会返回可以跳转到支付页面的 url\n  formData.setMethod('get')\n  // 设置参数\n  formData.addField('bizContent', {\n    outTradeNo: '1582976759799',\n    productCode: 'FAST_INSTANT_TRADE_PAY',\n    totalAmount: '0.01',\n    subject: '商品',\n    body: '商品详情',\n  });\n  // 请求接口\n  const result = await alipaySdk.exec(\n    'alipay.trade.page.pay',\n    {},\n    { formData: formData },\n  );\n\n  // result 为可以跳转到支付链接的 url\n  console.log(result);\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230703104430-qly6k0z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230703104430-qly6k0z",
+				"updated": "20230704180737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信"
+				}
+			]
+		},
+		{
+			"ID": "20230704180738-mccmqf9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230704180738-mccmqf9",
+				"updated": "20230704184000"
+			},
+			"Children": [
+				{
+					"ID": "20230704183555-srfeq2c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230704183555-srfeq2c",
+						"updated": "20230704183622"
+					},
+					"Children": [
+						{
+							"ID": "20230704183555-eitrmo0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704183555-eitrmo0",
+								"updated": "20230704183555"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开发者只需将正式API的调用URL增加一层 xdc/apiv2sandbox 路径，即可对接到仿真系统"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704183555-yf8dbnb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230704183555-yf8dbnb"
+					},
+					"Children": [
+						{
+							"ID": "20230704183555-07o0e29",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704183555-07o0e29",
+								"updated": "20230704183624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取验签秘钥API"
+								}
+							]
+						},
+						{
+							"ID": "20230704183625-8naxx4r",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704183625-8naxx4r"
+							},
+							"Children": [
+								{
+									"ID": "20230704183625-scca26k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704183625-scca26k"
+									},
+									"Children": [
+										{
+											"ID": "20230704183625-i4nwsz6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704183625-i4nwsz6",
+												"updated": "20230704183631"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "https://api.mch.weixin.qq.com/xdc/apiv2getsignkey/sign/getsignkey"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704183632-2gckhgv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230704183632-2gckhgv"
+									},
+									"Children": [
+										{
+											"ID": "20230704183632-ip7hp01",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704183632-ip7hp01",
+												"updated": "20230704183639"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不需要证书"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704183639-b3gbl2c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230704183639-b3gbl2c"
+									},
+									"Children": [
+										{
+											"ID": "20230704183639-lrzxzh1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704183639-lrzxzh1",
+												"updated": "20230704183647"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "POST"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230704183751-kzllzji",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230704183751-kzllzji",
+						"updated": "20230704184000"
+					},
+					"Children": [
+						{
+							"ID": "20230704183751-62p25h4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230704183751-62p25h4",
+								"updated": "20230704183756"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流程"
+								}
+							]
+						},
+						{
+							"ID": "20230704183756-aep7691",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230704183756-aep7691",
+								"updated": "20230704184000"
+							},
+							"Children": [
+								{
+									"ID": "20230704183756-4tf62qy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230704183756-4tf62qy"
+									},
+									"Children": [
+										{
+											"ID": "20230704183756-758wkom",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704183756-758wkom",
+												"updated": "20230704183800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "商户发起付款码支付请求，使用POST方式调用 https://api.mch.weixin.qq.com/xdc/apiv2sandbox/pay/micropay"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704183801-ohyur5s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230704183801-ohyur5s"
+									},
+									"Children": [
+										{
+											"ID": "20230704183801-52gui0g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704183801-52gui0g",
+												"updated": "20230704183951"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "商户发起查单，调用 https://api.mch.weixin.qq.com/xdc/apiv2sandbox/pay/orderquery，带上微信订单号（transaction_id）或商户内部单号（out_trade_no）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230704183953-rmzhzba",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230704183953-rmzhzba",
+										"updated": "20230704184000"
+									},
+									"Children": [
+										{
+											"ID": "20230704183953-i9nurhs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230704183953-i9nurhs",
+												"updated": "20230704184000"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "根据单号及金额返回预期的查单结果给商户"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

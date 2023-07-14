@@ -1,0 +1,163 @@
+{
+	"ID": "20230630085338-u9cl0ej",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230630085338-u9cl0ej",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230630085338-u9cl0ej\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230630085517-ekpdev9\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230630085950-b2btbhb\u0026quot;,\u0026quot;scrollTop\u0026quot;:109.5999984741211,\u0026quot;focusId\u0026quot;:\u0026quot;20230630085950-b2btbhb\u0026quot;,\u0026quot;focusStart\u0026quot;:11,\u0026quot;focusEnd\u0026quot;:11}",
+		"title": "业务场景",
+		"updated": "20230630090354"
+	},
+	"Children": [
+		{
+			"ID": "20230630085517-ekpdev9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085517-ekpdev9",
+				"updated": "20230630085521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "封装axios"
+				}
+			]
+		},
+		{
+			"ID": "20230630085338-6do3cbl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085338-6do3cbl",
+				"updated": "20230630085540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "性能优化"
+				}
+			]
+		},
+		{
+			"ID": "20230630085542-cznxi86",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085542-cznxi86",
+				"updated": "20230630085600"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首页加载优化"
+				}
+			]
+		},
+		{
+			"ID": "20230630085617-8kss87d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085617-8kss87d",
+				"updated": "20230630085617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目录结构"
+				}
+			]
+		},
+		{
+			"ID": "20230630085619-ezbljry",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085619-ezbljry",
+				"updated": "20230630085629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "权限管理"
+				}
+			]
+		},
+		{
+			"ID": "20230630085600-qljdxw3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085600-qljdxw3",
+				"updated": "20230630085637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跨域"
+				}
+			]
+		},
+		{
+			"ID": "20230630085844-t9hugvr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085844-t9hugvr",
+				"updated": "20230630085844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个页面中两个组件，组件中有请求相同的接口，如何保证两个数据一致"
+				}
+			]
+		},
+		{
+			"ID": "20230630085854-e0tgwmc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085854-e0tgwmc",
+				"updated": "20230630085854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现检测页面卡顿，连续三次卡顿后设置状态卡顿，并三秒后重新开始检测"
+				}
+			]
+		},
+		{
+			"ID": "20230630085935-p4jycb0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085935-p4jycb0",
+				"updated": "20230630085935"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sso单点登录"
+				}
+			]
+		},
+		{
+			"ID": "20230630085950-b2btbhb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230630085950-b2btbhb",
+				"updated": "20230630085950"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JWT和token区别"
+				}
+			]
+		}
+	]
+}
