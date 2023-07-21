@@ -1,0 +1,3659 @@
+{
+	"ID": "20230718125146-nrsff07",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230718125146-nrsff07",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230718125146-nrsff07\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230718125148-8sm4dng\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230718125258-nvm1mc4\u0026quot;,\u0026quot;scrollTop\u0026quot;:150,\u0026quot;focusId\u0026quot;:\u0026quot;20230718125148-8sm4dng\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "Git使用",
+		"updated": "20230718125405"
+	},
+	"Children": [
+		{
+			"ID": "20230718125148-8sm4dng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230718125148-8sm4dng",
+				"updated": "20230718125148"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6ccbed12fcbc4f7594878d143ef03ded~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718125149-4x9n8fa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718125149-4x9n8fa",
+				"updated": "20230718125149"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Git 区域理解"
+				}
+			]
+		},
+		{
+			"ID": "20230718125150-widndbv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 4,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20230718125150-widndbv",
+				"updated": "20230718125150"
+			},
+			"Children": [
+				{
+					"ID": "20230718125151-u1668fb",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718125151-u1668fb",
+						"updated": "20230718125151"
+					},
+					"Children": [
+						{
+							"ID": "20230718125152-jzdyxkj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125152-jzdyxkj",
+								"updated": "20230718125152"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "远程仓库区：代码最终提交的归宿"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125153-qt0ali0",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718125153-qt0ali0",
+						"updated": "20230718125153"
+					},
+					"Children": [
+						{
+							"ID": "20230718125154-gx5ljl8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125154-gx5ljl8",
+								"updated": "20230718125154"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "远端分支本地副本：主要储存了远程仓库各分支数据在本地的一个副本，打开你 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Git"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 项目下的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".git"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件，里面有个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "refs/remotes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，这里就主要存的就是远程仓库的分支信息，一般执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "push"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "或者 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "pull"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fetch "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "都会往这里进行更新"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125155-go0a8k6",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718125155-go0a8k6",
+						"updated": "20230718125155"
+					},
+					"Children": [
+						{
+							"ID": "20230718125156-v4x46a2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125156-v4x46a2",
+								"updated": "20230718125156"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本地分支：在执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "commit"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "之后，本质上就是提交到了这个区域，可以查看你的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".git "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "目录下的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "refs/heads"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 目录，里面存的就是我们本地的分支代码信息"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125157-dtsny1j",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718125157-dtsny1j",
+						"updated": "20230718125157"
+					},
+					"Children": [
+						{
+							"ID": "20230718125158-ybyzk8o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125158-ybyzk8o",
+								"updated": "20230718125158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "暂存区：这个区域就是每次执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "git add"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "之后会存到的区域，用来与本地仓库之间做一个缓存，同时也是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Git"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "底层设计上来说也算是比较重要的一个区域，它能帮助"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Git"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "在做"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "diff"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的时候提高查找性能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125159-cy8mql7",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718125159-cy8mql7",
+						"updated": "20230718125159"
+					},
+					"Children": [
+						{
+							"ID": "20230718125160-jd5iikv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125160-jd5iikv",
+								"updated": "20230718125160"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "工作区：写代码的地方   "
+								},
+								{
+									"Type": "NodeHTMLEntity",
+									"Data": " ",
+									"HtmlEntityTokens": "JiN4MjA7",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718125161-rir1gja",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718125161-rir1gja",
+				"updated": "20230718125161"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Git工作流理解"
+				}
+			]
+		},
+		{
+			"ID": "20230718125162-e13agbt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 4,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20230718125162-e13agbt",
+				"updated": "20230718125162"
+			},
+			"Children": [
+				{
+					"ID": "20230718125163-2v62yq7",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718125163-2v62yq7",
+						"updated": "20230718125163"
+					},
+					"Children": [
+						{
+							"ID": "20230718125164-ntaylgp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125164-ntaylgp",
+								"updated": "20230718125164"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "来了一个新需求，从"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "master"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "checkout"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "一个新的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "feature"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "分支出来进行开发"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125165-xe3dkyc",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718125165-xe3dkyc",
+						"updated": "20230718125165"
+					},
+					"Children": [
+						{
+							"ID": "20230718125166-jiqnzx0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125166-jiqnzx0",
+								"updated": "20230718125166"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开发完某个功能点，执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "git add"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 将代码提交到暂存区"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125167-2pql4zu",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718125167-2pql4zu",
+						"updated": "20230718125167"
+					},
+					"Children": [
+						{
+							"ID": "20230718125168-lva7sno",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125168-lva7sno",
+								"updated": "20230718125168"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "git commit"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 将代码提交到本地仓库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125169-fjprp5c",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718125169-fjprp5c",
+						"updated": "20230718125169"
+					},
+					"Children": [
+						{
+							"ID": "20230718125170-aavwoz2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125170-aavwoz2",
+								"updated": "20230718125170"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "git push"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 将代码提交到远端分支"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125171-3jh8kmp",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718125171-3jh8kmp",
+						"updated": "20230718125171"
+					},
+					"Children": [
+						{
+							"ID": "20230718125172-hpeee3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125172-hpeee3c",
+								"updated": "20230718125172"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当开发完所有需求之后，可能会设立一个专门的测试分支比如名叫"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "dev"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的分支，那么我们就把代码合并到这个测试分支上，发布测试环境进行测试"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125173-356h8wa",
+					"Type": "NodeListItem",
+					"Data": "6",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 6,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Ng==",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230718125173-356h8wa",
+						"updated": "20230718125173"
+					},
+					"Children": [
+						{
+							"ID": "20230718125174-yu320wm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125174-yu320wm",
+								"updated": "20230718125174"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "测试完毕之后，我们就需要合代码了，这个时候，我们可以发起一个"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "merge request"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，将我们的代码走 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "CR"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 流程合并到 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "master"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "分支。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125175-zphoddi",
+					"Type": "NodeListItem",
+					"Data": "7",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 7,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Nw==",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230718125175-zphoddi",
+						"updated": "20230718125175"
+					},
+					"Children": [
+						{
+							"ID": "20230718125176-n0733b3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125176-n0733b3",
+								"updated": "20230718125176"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在提交 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "MR"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的过程中，我们一般需要先自己预先将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "master"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 分支的代码合并到当前需要被合并的分支，提交并解决冲突"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718125177-vq8cwue",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718125177-vq8cwue",
+				"updated": "20230718125177"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "命令"
+				}
+			]
+		},
+		{
+			"ID": "20230718125178-aatwnn4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125178-aatwnn4",
+				"updated": "20230718125178"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git init"
+				}
+			]
+		},
+		{
+			"ID": "20230718125179-hf6ving",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125179-hf6ving",
+				"updated": "20230718125179"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 在当前目录新建一个Git代码库\ngit init\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125180-wa9prfk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125180-wa9prfk",
+				"updated": "20230718125180"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git remote"
+				}
+			]
+		},
+		{
+			"ID": "20230718125181-sz8ce0q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125181-sz8ce0q",
+				"updated": "20230718125181"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 添加一个远程版本库关联\ngit remote add \u003cshort-name\u003e \u003curl\u003e\n\n# 删除某个远程版本库关联\ngit remote rm\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125182-ganq1i0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125182-ganq1i0",
+				"updated": "20230718125182"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git status"
+				}
+			]
+		},
+		{
+			"ID": "20230718125183-k4rvisf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125183-k4rvisf",
+				"updated": "20230718125183"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Changes not staged for commit 表示得大概就是工作区有该内容，但是缓存区没有，需要我们git add\n# Changes to be committed 文件放在缓存区了，我们需要git commit\n# nothing to commit, working tree clean 将本地的代码推送到远端即可\n\n# 查看一个文件的状态\ngit status\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125184-rmmq3ke",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125184-rmmq3ke",
+				"updated": "20230718125184"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git stash"
+				}
+			]
+		},
+		{
+			"ID": "20230718125185-h03dwzn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125185-h03dwzn",
+				"updated": "20230718125185"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# stash命令能够将还未 commit 的代码存起来，回到上次commit时的状态，让你的工作目录变得干净\n# 保存当前工作进度，会把暂存区和工作区的改动保存起来，修改会保存在一个栈上\n\n# git stash会缓存下列状态的文件\n#    添加到暂存区的修改（staged changes）\n#    Git跟踪的但并未添加到暂存区的修改（unstaged changes）\n# git stash不会缓存下列状态的文件\n#    在工作目录中新的文件（untracked files）\n#    被忽略的文件（ignored files）\n# 可以使用-u或者--include-untracked可以工作目录缓存新的文件，使用-a或者--all命令可缓存以当前目录下的所有修改\n\n# 保存当前未commit的代码\ngit stash\n\n# 保存当前未commit的代码并添加备注\ngit stash save \"备注的内容\"\n\n# 查看储存区所有提交列表\ngit stash list\n\n# 应用最近一次的stash\n# stash@{n}当前stash的名称\ngit stash apply stash@{n}\n\n# 应用最近一次的stash，随后删除该记录\ngit stash pop\n\n# 删除某次储存记录\ngit stash drop stash@{n}\n\n# 删除stash的所有记录\ngit stash clear\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125186-p6g912a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125186-p6g912a",
+				"updated": "20230718125186"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git clone"
+				}
+			]
+		},
+		{
+			"ID": "20230718125187-3el41y3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125187-3el41y3",
+				"updated": "20230718125187"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 把一个仓库代码拉到本地，默认停留在 master 分支\ngit clone [url]\n\ngit clone [url] -b \u003cbranch-name\u003e \n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125188-t72j233",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125188-t72j233",
+				"updated": "20230718125188"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git branch"
+				}
+			]
+		},
+		{
+			"ID": "20230718125189-7btft3v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125189-7btft3v",
+				"updated": "20230718125189"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 简单地指向某个提交纪录\n# 查看本地所有分支信息\ngit branch\n\n# 查看远程仓库所有分支\ngit branch -r\n\n# 查看本地和远程仓库所有分支\ngit branch -a\n\n# 新建本地分支，但不切换\ngit branch \u003cbranch-name\u003e \n\n# 将分支强制移动n个位置/移动到commitId位置\ngit branch -f \u003cbranch-name\u003e [HEAD~n | [commitId]]\n\n# 删除本地分支\ngit branch -D \u003cbranch-name\u003e\n\n# 重新命名分支\ngit branch -m \u003cold-branch-name\u003e \u003cnew-branch-name\u003e\n\n# 建立追踪关系，在现有分支与指定的远程分支之间\ngit branch --set-upstream [branch] [remote-branch]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125190-2k7n3ny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125190-2k7n3ny",
+				"updated": "20230718125190"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git checkout"
+				}
+			]
+		},
+		{
+			"ID": "20230718125191-3tn31mj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125191-3tn31mj",
+				"updated": "20230718125191"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 创建并切换到指定新分支，把未暂存的内容移动到一个新分支\ngit checkout -b \u003cbranch-name\u003e\n\n# 切换到指定分支，并更新工作区\ngit checkout \u003cbranch-name\u003e\n\n# 切换到上一个分支\ngit checkout --\n\n# 移动HEAD\ngit checkout[HEAD~n | [commitId]]\n\n# 恢复暂存区的指定文件到工作区\ngit checkout [file] \n\n# 恢复某个commit的指定文件到暂存区和工作区\ngit checkout [commitId] [file] \n\n# 恢复暂存区的所有文件到工作区\ngit checkout . \n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125192-yw7s3ca",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125192-yw7s3ca",
+				"updated": "20230718125192"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git merge"
+				}
+			]
+		},
+		{
+			"ID": "20230718125193-hvl0v7a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125193-hvl0v7a",
+				"updated": "20230718125193"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 通过merge合并分支会新增一个merge commit，然后将两个分支的历史联系起来\n# 是一种非破坏性的操作，对现有分支不会以任何方式被更改，但是会导致历史记录相对复杂\n\n# 合并指定分支到当前分支\ngit merge [branch]\n\n# --no-commit 执行合并(merge)但不自动提交, 给用户在做提交前检查和修改的机会\ngit merge --no-ff --no-commit [branch]\n\n# 将一个分支合并成一个提交(commit)\ngit merge --squash [branch]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125194-2rywky1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125194-2rywky1",
+				"updated": "20230718125194"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git rebase"
+				}
+			]
+		},
+		{
+			"ID": "20230718125195-pin7r7g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125195-pin7r7g",
+				"updated": "20230718125195"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# rebase会将整个分支移动到另一个分支上，有效地整合了所有分支上的提交\n# 实际上就是取出一系列的提交记录，“复制”它们，然后在另外一个地方逐个的放下去\n# 优势就是可以创造更线性的提交历史，历史记录更加清晰，是在原有提交的基础上将差异内容反映进去，消除了 git merge所需的不必要的合并提交\n# 如果只允许使用 Rebase 的话，代码库的提交历史将会变得异常清晰\n\n# 将当前分支应用到\u003cbranch-name\u003e分支中\ngit rebase \u003cbranch-name\u003e\n\n# 把已经发生的多次提交压缩成一次提交，得到了一个干净的提交历史\ngit rebase -i \u003cbase-commitId\u003e\n\n# 任何时候你想结束整个rebase 过程，回来rebase前的分支状态\ngit rebase --abort\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125196-p6gno5j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125196-p6gno5j",
+				"updated": "20230718125196"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git cherry-pick"
+				}
+			]
+		},
+		{
+			"ID": "20230718125197-ydlhhh9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125197-ydlhhh9",
+				"updated": "20230718125197"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 将执行分支的指定提交合并到当前分支\ngit cherry-pick master [commitId1] [commitId2] [commitId3]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125198-1fhru21",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125198-1fhru21",
+				"updated": "20230718125198"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git switch"
+				}
+			]
+		},
+		{
+			"ID": "20230718125199-ma1674a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125199-ma1674a",
+				"updated": "20230718125199"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 在 Git 2.23 版本中，引入了一个名为 git switch 的新命令，最终会取代 git checkout\n# 因为 checkout 作为单个命令有点超载（它承载了很多独立的功能）\n\n# 切换分支\ngit switch \u003cbranch-name\u003e\n\n# 创建一个新分支并切换到该新分支\ngit switch -c \u003cbranch-name\u003e\n\n# 以一个提交commit来创建一个分支\ngit switch -c \u003cbranch-name\u003e \u003ccommitId\u003e\n\n# 以一个tag来创建一个分支\ngit switch -c \u003cbranch-name\u003e \u003ctag-name\u003e\n\n# 切换到某一个commit但是不创建新的分支，可以查看这个记录是的修改情况\ngit switch --detach \u003ccommitId\u003e\n\n# 切换到上一个切换的分支\ngit switch -\n\n# 创建一个没有任何提交记录的分支，删除所有跟踪的文件\ngit switch --orphan \u003cbranch-name\u003e\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125200-n1kh17f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125200-n1kh17f",
+				"updated": "20230718125200"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git add"
+				}
+			]
+		},
+		{
+			"ID": "20230718125201-uzp1e7x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125201-uzp1e7x",
+				"updated": "20230718125201"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 添加一个或多个文件到暂存区\ngit add [file1] [file2]\n\n# 添加指定目录到暂存区，包括子目录\ngit add [dir]\n\n# 把当前目录下得所有文件改动都添加到暂存区\ngit add .\n\n# 把当前仓库内所有文件改动都添加到暂存区\ngit add -A\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125202-w39aetd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125202-w39aetd",
+				"updated": "20230718125202"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git commit"
+				}
+			]
+		},
+		{
+			"ID": "20230718125203-piawf0r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125203-piawf0r",
+				"updated": "20230718125203"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 关于提交信息的格式，可以遵循以下的规则：\n# feat: 新特性，添加功能\n# fix: 修改 bug\n# refactor: 代码重构\n# docs: 文档修改\n# style: 代码格式修改, 注意不是 css 修改\n# test: 测试用例修改\n# chore: 其他修改, 比如构建流程, 依赖管理\n\n# 提交暂存区到仓库区，-m 表示的是当前提交的信息\ngit commit -m [message]\n\n# 提交暂存区的指定文件到仓库区\ngit commit [file1] [file2] ... -m [message]\n\n# 提交工作区自上次commit之后的变化，直接到仓库区\n# 相当于帮你执行了上述 git add -A，你就不用再 add一下\n# 对于未被 git管理过的（也就是新增的文件），那么还是需要你先执行一下 git add -A，才能正确被 commit 到本地 git 库\ngit commit -a\n\n# 等同于 git add . \u0026\u0026 git commit -m\ngit commit -am\n\n# 把暂存的内容添加到上一次的提交(commit)\ngit commit --amend  \n\n# 对最近一次的提交的信息进行修改,此操作会修改commit的hash值\ngit commit --amend --only -m [message]\n\n# 提交时显示所有diff信息\ngit commit -v\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125204-nypf68t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125204-nypf68t",
+				"updated": "20230718125204"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git rm"
+				}
+			]
+		},
+		{
+			"ID": "20230718125205-r036rf3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125205-r036rf3",
+				"updated": "20230718125205"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 表示[file]文件从 git 仓库中删除了，配合 .gitignore 就能保证以后所有的[file]文件变更都不用担心被提交到远程仓库\ngit rm [file]\n\n# 要删除的是一个目录\ngit rm -r [dir]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125206-q9gajws",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125206-q9gajws",
+				"updated": "20230718125206"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git push"
+				}
+			]
+		},
+		{
+			"ID": "20230718125207-w0lxx0i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125207-w0lxx0i",
+				"updated": "20230718125207"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 推送分支并建立关联关系\ngit push --set-upstream [remote] [branch]\n\n# 上传本地指定分支到远程仓库\ngit push [remote] [branch]\n\n# 强行推送当前分支到远程仓库，即使有冲突\ngit push [remote] --force\n\n# 推送所有分支到远程仓库\ngit push [remote] --all\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125208-t24abyg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125208-t24abyg",
+				"updated": "20230718125208"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git pull"
+				}
+			]
+		},
+		{
+			"ID": "20230718125209-23f2xpj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125209-23f2xpj",
+				"updated": "20230718125209"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 从远程仓库拉取代码并合并到本地，可简写为 git pull 等同于 git fetch \u0026\u0026 git merge \ngit pull [remote] [remote-branch]:[local-branch]\n\n# 使用rebase的模式进行合并\ngit pull --rebase [remote] [remote-branch]:[local-branch]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125210-pvxb4in",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125210-pvxb4in",
+				"updated": "20230718125210"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git fetch"
+				}
+			]
+		},
+		{
+			"ID": "20230718125211-iff0m1t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125211-iff0m1t",
+				"updated": "20230718125211"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 下载远程仓库的所有变动，不会自动进行 merge 操作，对当前的代码没有影响\ngit fetch [remote] [remote-branch]:[local-branch]\n\n# 将某个远程主机的更新，全部取回本地\ngit fetch [remote]\n\n# 取回特定分支，可以指定分支名\ngit fetch [remote] [branch]\n\n# 获取远程仓库所有分支的更新\ngit fetch --all\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125212-k7fvrv0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125212-k7fvrv0",
+				"updated": "20230718125212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git log"
+				}
+			]
+		},
+		{
+			"ID": "20230718125213-8u2mx6y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125213-8u2mx6y",
+				"updated": "20230718125213"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 显示当前分支的版本历史\ngit log\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125214-hua9bbe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125214-hua9bbe",
+				"updated": "20230718125214"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git relog"
+				}
+			]
+		},
+		{
+			"ID": "20230718125215-tjy8fmt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125215-tjy8fmt",
+				"updated": "20230718125215"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 查看你的所有操作记录\ngit reflog\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125216-r1824a5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125216-r1824a5",
+				"updated": "20230718125216"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git reset"
+				}
+			]
+		},
+		{
+			"ID": "20230718125217-lrzvs7l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125217-lrzvs7l",
+				"updated": "20230718125217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 回退你已提交的 commit，并将 commit的修改内容放回到暂存区\n# 真实硬性回滚，目标版本后面的提交记录全部丢失了\n# HEAD 表示当前版本 HEAD^ 上一个版本 HEAD~n 上n个版本\n# --soft: 不改变工作区和暂存区，可以再次修改重新提交，保持干净的 commit 记录\n# --mixed：只改变暂存区，不改变工作区，默认参数，通常用于撤销git add\n# --hard: 重置当前分支的HEAD为指定commit，同时改变工作区和暂存区，与指定commit一致\ngit reset [--soft | --mixed | --hard] [[HEAD] | [commitId]]\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125218-qoharke",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125218-qoharke",
+				"updated": "20230718125218"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git revert"
+				}
+			]
+		},
+		{
+			"ID": "20230718125219-0wv9rpo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125219-0wv9rpo",
+				"updated": "20230718125219"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 新建一个commit，用来撤销指定commit，后者的所有变化都将被前者抵消，并且应用到当前分支，HEAD\n# 相当于一个提价，目标版本后面的提交记录也全部都有\ngit revert [[commitId] | HEAD]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125220-mb0es69",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230718125220-mb0es69",
+				"updated": "20230718125220"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "git tag"
+				}
+			]
+		},
+		{
+			"ID": "20230718125221-dh7es5a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230718125221-dh7es5a",
+				"updated": "20230718125221"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 列出所有tag\ngit tag\n\n# 新建一个tag在当前commit\ngit tag [tag]\n\n# 新建一个tag在指定commit\ngit tag [tag] [commitId]\n\n# 删除本地tag\ngit tag -d [tag]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230718125222-vmng9ba",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718125222-vmng9ba",
+				"updated": "20230718125222"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "速查表"
+				}
+			]
+		},
+		{
+			"ID": "20230718125223-seghl5o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230718125223-seghl5o",
+				"updated": "20230718125223"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://static.vue-js.com/0a10f3c0-f7b0-11eb-991d-334fd31f0201.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718125224-3ialjsa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230718125224-3ialjsa",
+				"updated": "20230718125224"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://static.vue-js.com/0a10f3c0-f7b0-11eb-991d-334fd31f0201.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718125225-0pdkbq4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718125225-0pdkbq4",
+				"updated": "20230718125225"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "应用场景"
+				}
+			]
+		},
+		{
+			"ID": "20230718125226-oagcsl2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 4,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20230718125226-oagcsl2",
+				"updated": "20230718125226"
+			},
+			"Children": [
+				{
+					"ID": "20230718125227-3wki68z",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718125227-3wki68z",
+						"updated": "20230718125227"
+					},
+					"Children": [
+						{
+							"ID": "20230718125228-5a59con",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125228-5a59con",
+								"updated": "20230718125228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当你在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时你想要切换到另一个分支或者拉下远端的代码去做一点别的事情"
+								}
+							]
+						},
+						{
+							"ID": "20230718125229-dowz3kl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125229-dowz3kl",
+								"updated": "20230718125229"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git stash\ngit pull\ngit stash pop\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125230-a8g55or",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718125230-a8g55or",
+						"updated": "20230718125230"
+					},
+					"Children": [
+						{
+							"ID": "20230718125231-pv3flrs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125231-pv3flrs",
+								"updated": "20230718125231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "意外的做了一次硬重置(hard reset)，我想找回我的内容"
+								}
+							]
+						},
+						{
+							"ID": "20230718125232-gdosxk8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125232-gdosxk8",
+								"updated": "20230718125232"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 过去提交(commit)的列表, 和一个重置的提交。选择你想要回到的提交(commit)的SHA，再重置一次\ngit reflog\n\n# git reset --hard [commitId]\n\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125233-lc32igw",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718125233-lc32igw",
+						"updated": "20230718125233"
+					},
+					"Children": [
+						{
+							"ID": "20230718125234-thoo85z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125234-thoo85z",
+								"updated": "20230718125234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把暂存的内容变成未暂存，把未暂存的内容暂存起来"
+								}
+							]
+						},
+						{
+							"ID": "20230718125235-1hjgvzm",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125235-1hjgvzm",
+								"updated": "20230718125235"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git commit -m \"WIP\"\ngit add .\ngit stash\ngit reset HEAD^\ngit stash pop --index 0\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125236-drk3hjh",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718125236-drk3hjh",
+						"updated": "20230718125236"
+					},
+					"Children": [
+						{
+							"ID": "20230718125237-l808fn9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125237-l808fn9",
+								"updated": "20230718125237"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把未暂存的内容移动到另一个已存在的分支"
+								}
+							]
+						},
+						{
+							"ID": "20230718125238-znfs8ef",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125238-znfs8ef",
+								"updated": "20230718125238"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git stash\ngit checkout my-branch\ngit stash pop\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125239-q6nra3f",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718125239-q6nra3f",
+						"updated": "20230718125239"
+					},
+					"Children": [
+						{
+							"ID": "20230718125240-kg1a5dk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125240-kg1a5dk",
+								"updated": "20230718125240"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从错误的分支拉取了内容，或把内容拉取到了错误的分支"
+								}
+							]
+						},
+						{
+							"ID": "20230718125241-svildzr",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125241-svildzr",
+								"updated": "20230718125241"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git reflog\ngit reset --hard [commitId]\n\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125242-fi86sm2",
+					"Type": "NodeListItem",
+					"Data": "6",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 6,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Ng==",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230718125242-fi86sm2",
+						"updated": "20230718125242"
+					},
+					"Children": [
+						{
+							"ID": "20230718125243-bslwebc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125243-bslwebc",
+								"updated": "20230718125243"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要提交到一个新分支，但错误的提交到了main"
+								}
+							]
+						},
+						{
+							"ID": "20230718125244-9trxgjl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125244-9trxgjl",
+								"updated": "20230718125244"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git branch [new-branch-name]\ngit reset --hard HEAD^\ngit checkout [new-branch-name]\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125245-vfqoyfx",
+					"Type": "NodeListItem",
+					"Data": "7",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 7,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Nw==",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230718125245-vfqoyfx",
+						"updated": "20230718125245"
+					},
+					"Children": [
+						{
+							"ID": "20230718125246-uch8a9l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125246-uch8a9l",
+								"updated": "20230718125246"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我想撤销rebase/merge"
+								}
+							]
+						},
+						{
+							"ID": "20230718125247-4rc1dgp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125247-4rc1dgp",
+								"updated": "20230718125247"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 可以合并(merge)或rebase了一个错误的分支, 或者完成不了一个进行中的rebase/merge。Git 在进行危险操作的时候会把原始的HEAD保存在一个叫ORIG_HEAD的变量里\ngit reset --hard ORIG_HEAD\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125248-kb2sytr",
+					"Type": "NodeListItem",
+					"Data": "8",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 8,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "OA==",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230718125248-kb2sytr",
+						"updated": "20230718125248"
+					},
+					"Children": [
+						{
+							"ID": "20230718125249-yw3c3b9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125249-yw3c3b9",
+								"updated": "20230718125249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有冲突的情况"
+								}
+							]
+						},
+						{
+							"ID": "20230718125250-vo4w0uc",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125250-vo4w0uc",
+								"updated": "20230718125250"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 找出哪些文件有冲突\ngit status\n\n# 使用可视化的差异编辑器\ngit mergetool -t opendiff\n\n# 你解决完所有冲突和测试过后, git add 变化了的(changed)文件\ngit add [file]\n\n# 继续rebase\ngit rebase --continue\n\n# 如果在解决完所有的冲突过后，得到了与提交前一样的结果\ngit rebase --skip\n\n# 任何时候你想结束整个rebase 过程，回来rebase前的分支状态\ngit rebase --abort\n\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125251-kcq27il",
+					"Type": "NodeListItem",
+					"Data": "9",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 9,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "OQ==",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230718125251-kcq27il",
+						"updated": "20230718125251"
+					},
+					"Children": [
+						{
+							"ID": "20230718125252-1ecrggm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125252-1ecrggm",
+								"updated": "20230718125252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从一个提交(commit)里移除一个文件"
+								}
+							]
+						},
+						{
+							"ID": "20230718125253-x8fc2ka",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125253-x8fc2ka",
+								"updated": "20230718125253"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ git checkout HEAD^ [file]\n$ git add -A  \n$ git commit --amend  \n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125254-9v8ygde",
+					"Type": "NodeListItem",
+					"Data": "10",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 10,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTA=",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230718125254-9v8ygde",
+						"updated": "20230718125254"
+					},
+					"Children": [
+						{
+							"ID": "20230718125255-7z6wywf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125255-7z6wywf",
+								"updated": "20230718125255"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看某个文件的提交历史"
+								}
+							]
+						},
+						{
+							"ID": "20230718125256-h8urbn2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230718125256-h8urbn2",
+								"updated": "20230718125256"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git log -p [file]\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718125257-bavz0e3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718125257-bavz0e3",
+				"updated": "20230718125257"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230718125258-nvm1mc4",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 45,
+				"Padding": 4,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20230718125258-nvm1mc4",
+				"updated": "20230718125258"
+			},
+			"Children": [
+				{
+					"ID": "20230718125259-6wk8u0k",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 4,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230718125259-6wk8u0k",
+						"updated": "20230718125259"
+					},
+					"Children": [
+						{
+							"ID": "20230718125260-945g9ua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125260-945g9ua",
+								"updated": "20230718125260"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7131713973572861966",
+									"TextMarkATitle": "https://juejin.cn/post/7131713973572861966",
+									"TextMarkTextContent": "https://juejin.cn/post/7131713973572861966"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125261-oet310q",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 4,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230718125261-oet310q",
+						"updated": "20230718125261"
+					},
+					"Children": [
+						{
+							"ID": "20230718125262-0s0kujv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125262-0s0kujv",
+								"updated": "20230718125262"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html",
+									"TextMarkATitle": "常用 Git 命令清单 - 阮一峰的网络日志 (ruanyifeng.com)",
+									"TextMarkTextContent": "常用 Git 命令清单 - 阮一峰的网络日志 (ruanyifeng.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125263-hb43teq",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 4,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230718125263-hb43teq",
+						"updated": "20230718125263"
+					},
+					"Children": [
+						{
+							"ID": "20230718125264-y704fq5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125264-y704fq5",
+								"updated": "20230718125264"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bookstack.cn/read/git-tutorial/docs-basic.md",
+									"TextMarkATitle": "Git - 《阮一峰 Git 教程》 - 书栈网 · BookStack",
+									"TextMarkTextContent": "Git - 《阮一峰 Git 教程》 - 书栈网 · BookStack"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125265-octpn97",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 4,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230718125265-octpn97",
+						"updated": "20230718125265"
+					},
+					"Children": [
+						{
+							"ID": "20230718125266-gi8bsuz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125266-gi8bsuz",
+								"updated": "20230718125266"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6869519303864123399",
+									"TextMarkATitle": "「一劳永逸」一张脑图带你掌握Git命令 - 掘金 (juejin.cn)",
+									"TextMarkTextContent": "「一劳永逸」一张脑图带你掌握Git命令 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125267-l62vn6c",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 4,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230718125267-l62vn6c",
+						"updated": "20230718125267"
+					},
+					"Children": [
+						{
+							"ID": "20230718125268-crh6z6l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125268-crh6z6l",
+								"updated": "20230718125268"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://learngitbranching.js.org/?locale=zh_CN",
+									"TextMarkATitle": "Learn Git Branching",
+									"TextMarkTextContent": "Learn Git Branching"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718125269-347ebym",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 4,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230718125269-347ebym",
+						"updated": "20230718125269"
+					},
+					"Children": [
+						{
+							"ID": "20230718125270-7grdq8l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718125270-7grdq8l",
+								"updated": "20230718125270"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/zz_jesse/article/details/123564491",
+									"TextMarkATitle": "(24条消息) 45个 GIT 经典操作场景_zz_jesse的博客-CSDN博客",
+									"TextMarkTextContent": "(24条消息) 45个 GIT 经典操作场景"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/zz_jesse/article/details/123564491",
+									"TextMarkATitle": "(24条消息) 45个 GIT 经典操作场景_zz_jesse的博客-CSDN博客",
+									"TextMarkTextContent": "zz"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/zz_jesse/article/details/123564491",
+									"TextMarkATitle": "(24条消息) 45个 GIT 经典操作场景_zz_jesse的博客-CSDN博客",
+									"TextMarkTextContent": "jesse的博客-CSDN博客"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

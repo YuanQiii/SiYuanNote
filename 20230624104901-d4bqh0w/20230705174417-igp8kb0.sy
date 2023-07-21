@@ -4,18 +4,3230 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230705174417-igp8kb0",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705174417-igp8kb0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705174417-0h9chv5\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705174417-0h9chv5\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230705174417-igp8kb0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230718130715-rx57h63\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230718130845-hcaiha7\u0026quot;,\u0026quot;scrollTop\u0026quot;:3632,\u0026quot;focusId\u0026quot;:\u0026quot;20230718183759-l4kbbwu\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3\u0026#125;",
 		"title": "浏览器",
-		"updated": "20230705174422"
+		"updated": "20230718184041"
 	},
 	"Children": [
 		{
-			"ID": "20230705174417-0h9chv5",
+			"ID": "20230718130715-rx57h63",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718130715-rx57h63",
+				"updated": "20230718130719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从输入URL到页面加载的全过程"
+				}
+			]
+		},
+		{
+			"ID": "20230718130742-3u4cb9i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718130742-3u4cb9i",
+				"updated": "20230718130742"
+			},
+			"Children": [
+				{
+					"ID": "20230718130742-mptn868",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718130742-mptn868",
+						"updated": "20230718130742"
+					},
+					"Children": [
+						{
+							"ID": "20230718130742-myb9mvn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718130742-myb9mvn",
+								"updated": "20230718130742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先在浏览器中输入URL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718130742-2q3n72s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718130742-2q3n72s"
+					},
+					"Children": [
+						{
+							"ID": "20230718130742-51aru8m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718130742-51aru8m",
+								"updated": "20230718130752"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查找缓存：浏览器先查看浏览器缓存-系统缓存-路由缓存中是否有该地址页面，如果有则显示页面内容。如果没有则进行下一步"
+								}
+							]
+						},
+						{
+							"ID": "20230718130808-gp4kue1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718130808-gp4kue1"
+							},
+							"Children": [
+								{
+									"ID": "20230718130808-oqg0u01",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718130808-oqg0u01"
+									},
+									"Children": [
+										{
+											"ID": "20230718130808-qfekj85",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718130808-qfekj85",
+												"updated": "20230718130813"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "浏览器缓存：浏览器会记录DNS一段时间，因此，只是第一个地方解析DNS请求"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718130839-ehpb7e3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718130839-ehpb7e3"
+									},
+									"Children": [
+										{
+											"ID": "20230718130839-eu8xlc8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718130839-eu8xlc8",
+												"updated": "20230718131029"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "操作系统缓存:如果在浏览器缓存中不包含这个记录，则会使系统调用操作系统， 获取操作系统的记录（保存最近的DNS查询缓存）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718130905-dtrchyq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718130905-dtrchyq"
+									},
+									"Children": [
+										{
+											"ID": "20230718130905-xudjvfd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718130905-xudjvfd",
+												"updated": "20230718130906"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "路由器缓存：如果上述两个步骤均不能成功获取DNS记录，继续搜索路由器缓存"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718130916-h3c6u30",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718130916-h3c6u30"
+									},
+									"Children": [
+										{
+											"ID": "20230718130916-siiz8to",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718130916-siiz8to",
+												"updated": "20230718131019"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ISP缓存：若上述均失败，继续向ISP（电信运营商）搜索"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131544-zp4sup4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718131544-zp4sup4"
+					},
+					"Children": [
+						{
+							"ID": "20230718131544-q0fztv6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131544-q0fztv6",
+								"updated": "20230718131559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DNS域名解析：浏览器向DNS服务器发起请求，解析该URL中的域名对应的IP地址"
+								}
+							]
+						},
+						{
+							"ID": "20230718131600-scczxw2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718131600-scczxw2"
+							},
+							"Children": [
+								{
+									"ID": "20230718131600-ceygbfg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718131600-ceygbfg"
+									},
+									"Children": [
+										{
+											"ID": "20230718131600-jy9dtuk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718131600-jy9dtuk",
+												"updated": "20230718131603"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "DNS服务器是基于UDP的，因此会用到UDP协议"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131618-1aes1lp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718131618-1aes1lp"
+					},
+					"Children": [
+						{
+							"ID": "20230718131618-yvk3fsj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131618-yvk3fsj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​建立TCP连接：解析出IP地址后，根据IP地址和默认80端口，和服务器建立TCP连接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131711-wpszcww",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718131711-wpszcww"
+					},
+					"Children": [
+						{
+							"ID": "20230718131711-vs1n4vd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131711-vs1n4vd",
+								"updated": "20230718131711"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发起HTTP请求：浏览器发起读取文件的HTTP请求，，该请求报文作为TCP三次握手的第三次数据发送给服务器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131723-cmhldqj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230718131723-cmhldqj"
+					},
+					"Children": [
+						{
+							"ID": "20230718131723-6k10orb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131723-6k10orb",
+								"updated": "20230718131723"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器响应请求并返回结果：服务器对浏览器请求做出响应，并把对应的html文件发送给浏览器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131733-xajg1i5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230718131733-xajg1i5"
+					},
+					"Children": [
+						{
+							"ID": "20230718131734-lv0ry7y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131734-lv0ry7y",
+								"updated": "20230718131734"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关闭TCP连接：通过四次挥手释放TCP连接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131743-ikkyt3t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230718131743-ikkyt3t"
+					},
+					"Children": [
+						{
+							"ID": "20230718131743-iva2ok3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131743-iva2ok3",
+								"updated": "20230718131743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浏览器渲染：客户端（浏览器）解析HTML内容并渲染出来，浏览器接收到数据包后的解析流程为"
+								}
+							]
+						},
+						{
+							"ID": "20230718131802-nlfhojc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718131802-nlfhojc",
+								"updated": "20230718131802"
+							},
+							"Children": [
+								{
+									"ID": "20230718131802-fr24gws",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718131802-fr24gws",
+										"updated": "20230718131802"
+									},
+									"Children": [
+										{
+											"ID": "20230718131802-90c0w9q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718131802-90c0w9q",
+												"updated": "20230718131802"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构建DOM树：词法分析然后解析成DOM树（dom tree），是由dom元素及属性节点组成，树的根是document对象"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718131802-ibkvndq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718131802-ibkvndq",
+										"updated": "20230718131802"
+									},
+									"Children": [
+										{
+											"ID": "20230718131802-1detkb0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718131802-1detkb0",
+												"updated": "20230718131802"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构建CSS规则树：生成CSS规则树（CSS Rule Tree）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718131802-9tgfebb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718131802-9tgfebb",
+										"updated": "20230718131802"
+									},
+									"Children": [
+										{
+											"ID": "20230718131802-vwn99kg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718131802-vwn99kg",
+												"updated": "20230718131802"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构建render树：Web浏览器将DOM和CSSOM结合，并构建出渲染树（render tree）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718131802-jkhb6ql",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718131802-jkhb6ql",
+										"updated": "20230718131802"
+									},
+									"Children": [
+										{
+											"ID": "20230718131802-rxnafz8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718131802-rxnafz8",
+												"updated": "20230718131802"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "布局（Layout）：计算出每个节点在屏幕中的位置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718131802-rcnn9au",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230718131802-rcnn9au",
+										"updated": "20230718131802"
+									},
+									"Children": [
+										{
+											"ID": "20230718131802-h71ol7a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718131802-h71ol7a",
+												"updated": "20230718131802"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "绘制（Painting）：即遍历render树，并使用UI后端层绘制每个节点"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718131920-m64j9d3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230718131920-m64j9d3"
+					},
+					"Children": [
+						{
+							"ID": "20230718131920-yobmzb6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718131920-yobmzb6",
+								"updated": "20230718131947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JS引擎解析过程：调用JS引擎执行JS代码（JS的解释阶段，预处理阶段，执行阶段生成执行上下文，VO，作用域链、回收机制等等）"
+								}
+							]
+						},
+						{
+							"ID": "20230718132021-9szcbp8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718132021-9szcbp8",
+								"updated": "20230718132021"
+							},
+							"Children": [
+								{
+									"ID": "20230718132021-s9hafnw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718132021-s9hafnw",
+										"updated": "20230718132021"
+									},
+									"Children": [
+										{
+											"ID": "20230718132021-ojvn6ld",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718132021-ojvn6ld",
+												"updated": "20230718132238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "创建window对象：window对象也叫全局执行环境，当页面产生时就被创建，所有的全局变量和函数都属于window的属性和方法，而DOM Tree也会映射在window的doucment对象上。当关闭网页或者关闭浏览器时，全局执行环境会被销毁"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718132021-kujrvmo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718132021-kujrvmo",
+										"updated": "20230718132021"
+									},
+									"Children": [
+										{
+											"ID": "20230718132021-gbgu3qw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718132021-gbgu3qw",
+												"updated": "20230718132021"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "加载文件：完成js引擎分析它的语法与词法是否合法，如果合法进入预编译"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718132021-9lwxvi7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718132021-9lwxvi7",
+										"updated": "20230718132021"
+									},
+									"Children": [
+										{
+											"ID": "20230718132021-gmmapat",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718132021-gmmapat",
+												"updated": "20230718132307"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "预编译：在预编译的过程中"
+												}
+											]
+										},
+										{
+											"ID": "20230718132308-8vwo4l7",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230718132308-8vwo4l7"
+											},
+											"Children": [
+												{
+													"ID": "20230718132308-agypdvb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230718132308-agypdvb"
+													},
+													"Children": [
+														{
+															"ID": "20230718132308-bk9nyus",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132308-bk9nyus",
+																"updated": "20230718132313"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "浏览器会寻找全局变量声明，把它作为window的属性加入到window对象中，并给变量赋值为'undefined'"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718132315-uapi5a4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230718132315-uapi5a4"
+													},
+													"Children": [
+														{
+															"ID": "20230718132315-sg131fx",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132315-sg131fx",
+																"updated": "20230718132332"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "寻找全局函数声明，把它作为window的方法加入到window对象中，并将函数体赋值给他（匿名函数是不参与预编译的，因为它是变量）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718132333-5eq4zxg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230718132333-5eq4zxg"
+													},
+													"Children": [
+														{
+															"ID": "20230718132333-1ktq60k",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132333-1ktq60k",
+																"updated": "20230718132339"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "而变量提升作为不合理的地方在ES6中已经解决了，函数提升还存在"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718132021-doq7j2n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718132021-doq7j2n",
+										"updated": "20230718132021"
+									},
+									"Children": [
+										{
+											"ID": "20230718132021-f5xy7jx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718132021-f5xy7jx",
+												"updated": "20230718132453"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解释执行"
+												}
+											]
+										},
+										{
+											"ID": "20230718132453-xo4ykua",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230718132453-xo4ykua"
+											},
+											"Children": [
+												{
+													"ID": "20230718132453-5kty7z7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230718132453-5kty7z7"
+													},
+													"Children": [
+														{
+															"ID": "20230718132453-5vu9hhp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132453-5vu9hhp",
+																"updated": "20230718132500"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "执行到变量就赋值，如果变量没有被定义，也就没有被预编译直接赋值，在ES5非严格模式下这个变量会成为window的一个属性，也就是成为全局变量"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718132501-3kclyo8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230718132501-3kclyo8"
+													},
+													"Children": [
+														{
+															"ID": "20230718132501-4qpa02q",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132501-4qpa02q",
+																"updated": "20230718132511"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "string、int这样的值就是直接把值放在变量的存储空间里，object对象就是把指针指向变量的存储空间"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718132512-a71kt9k",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230718132512-a71kt9k"
+													},
+													"Children": [
+														{
+															"ID": "20230718132512-jk2b7fd",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132512-jk2b7fd",
+																"updated": "20230718132522"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "函数执行，就将函数的环境推入一个环境的栈中，执行完成后再弹出，控制权交还给之前的环境"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718132522-tabttdd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230718132522-tabttdd"
+													},
+													"Children": [
+														{
+															"ID": "20230718132522-o24znx4",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718132522-o24znx4",
+																"updated": "20230718132539"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "JS作用域其实就是这样的执行流机制实现的"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718132550-1q1hz2h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718132550-1q1hz2h",
+				"updated": "20230718132554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器重绘与重排的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230718132607-rvytuql",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718132607-rvytuql",
+				"updated": "20230718132608"
+			},
+			"Children": [
+				{
+					"ID": "20230718132608-jtzrxpb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718132608-jtzrxpb",
+						"updated": "20230718132608"
+					},
+					"Children": [
+						{
+							"ID": "20230718132608-7dbnak8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718132608-7dbnak8",
+								"updated": "20230718133349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "重排/回流（Reflow）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：当DOM的变化影响了元素的几何信息，浏览器需要重新计算元素的几何属性，将其安放在界面中的正确位置，这个过程叫做重排，表现为重新生成布局，重新排列元素"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718133352-swr5ap5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718133352-swr5ap5"
+					},
+					"Children": [
+						{
+							"ID": "20230718133358-xmtn3gv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718133358-xmtn3gv",
+								"updated": "20230718133418"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "重绘(Repaint)"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: 当一个元素的外观发生改变，但没有改变布局,重新把元素外观绘制出来的过程，叫做重绘,表现为某些元素的外观被改变"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718133502-frj4amw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718133502-frj4amw"
+					},
+					"Children": [
+						{
+							"ID": "20230718133502-se71iz8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718133502-se71iz8",
+								"updated": "20230718133502"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "『重绘』不一定会出现『重排』，『重排』必然会出现『重绘』"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718133532-lk4yhia",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718133532-lk4yhia",
+				"updated": "20230718133536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何触发重排和重绘"
+				}
+			]
+		},
+		{
+			"ID": "20230718133618-14t3a29",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718133618-14t3a29",
+				"updated": "20230718134545"
+			},
+			"Children": [
+				{
+					"ID": "20230718133621-q2rxapd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718133621-q2rxapd",
+						"updated": "20230718133621"
+					},
+					"Children": [
+						{
+							"ID": "20230718133621-p0968bk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718133621-p0968bk",
+								"updated": "20230718133630"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重排"
+								}
+							]
+						},
+						{
+							"ID": "20230718134109-6txxqc9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718134109-6txxqc9"
+							},
+							"Children": [
+								{
+									"ID": "20230718134107-4pca7p0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718134107-4pca7p0"
+									},
+									"Children": [
+										{
+											"ID": "20230718134107-at5pznk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134107-at5pznk"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "页面初始渲染，这是开销最大的一次重排"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134111-npvu53n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718134111-npvu53n"
+									},
+									"Children": [
+										{
+											"ID": "20230718134111-lxts1xm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134111-lxts1xm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "添加/删除可见的DOM元素"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134114-sdcmdsl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718134114-sdcmdsl"
+									},
+									"Children": [
+										{
+											"ID": "20230718134114-fgz7jfc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134114-fgz7jfc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "改变元素位置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134116-eay2wmd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718134116-eay2wmd"
+									},
+									"Children": [
+										{
+											"ID": "20230718134116-bel8s5h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134116-bel8s5h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "改变元素尺寸，比如边距、填充、边框、宽度和高度等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134118-m51tg9e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230718134118-m51tg9e"
+									},
+									"Children": [
+										{
+											"ID": "20230718134118-vni7fdc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134118-vni7fdc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "改变元素内容，比如文字数量，图片大小等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134121-pexyutz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230718134121-pexyutz"
+									},
+									"Children": [
+										{
+											"ID": "20230718134121-86k5r80",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134121-86k5r80"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "改变元素字体大小"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134123-rmvtmmd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230718134123-rmvtmmd"
+									},
+									"Children": [
+										{
+											"ID": "20230718134123-e21qlsp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134123-e21qlsp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "改变浏览器窗口尺寸，比如resize事件发生时"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134125-cle7ya4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20230718134125-cle7ya4"
+									},
+									"Children": [
+										{
+											"ID": "20230718134125-c7wmh32",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134125-c7wmh32"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "激活CSS伪类（例如："
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": ":hover"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134127-v253rm4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20230718134127-v253rm4"
+									},
+									"Children": [
+										{
+											"ID": "20230718134127-qfg3ilb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134127-qfg3ilb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设置 style 属性的值，因为通过设置style属性改变结点样式的话，每一次设置都会触发一次reflow"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718134144-spkyht2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTAu",
+										"Num": 10
+									},
+									"Properties": {
+										"id": "20230718134144-spkyht2"
+									},
+									"Children": [
+										{
+											"ID": "20230718134144-no14n05",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134144-no14n05",
+												"updated": "20230718134408"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "查询某些属性或调用某些计算方法：offsetWidth、offsetHeight等，除此之外，当我们调用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "getComputedStyle"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法，或者IE里的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "currentStyle"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 时，也会触发重排，原理是一样的，都为求一个“即时性”和“准确性"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718134409-ljrz0y9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718134409-ljrz0y9",
+						"updated": "20230718134545"
+					},
+					"Children": [
+						{
+							"ID": "20230718134409-va354zt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134409-va354zt",
+								"updated": "20230718134416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重绘"
+								}
+							]
+						},
+						{
+							"ID": "20230718134545-cr6dhva",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718134545-cr6dhva"
+							},
+							"Children": [
+								{
+									"ID": "20230718134544-oikd8oc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718134544-oikd8oc"
+									},
+									"Children": [
+										{
+											"ID": "20230718134544-lpi0x59",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718134544-lpi0x59",
+												"updated": "20230718134547"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当一个元素的外观发生改变，但没有改变布局"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718134600-2vx9iyn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718134600-2vx9iyn",
+				"updated": "20230718134619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何避免重绘或者重排"
+				}
+			]
+		},
+		{
+			"ID": "20230718135053-44ig8lb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718135053-44ig8lb",
+				"updated": "20230718135419"
+			},
+			"Children": [
+				{
+					"ID": "20230718135053-9nmrnp1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718135053-9nmrnp1"
+					},
+					"Children": [
+						{
+							"ID": "20230718135044-6yegg73",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718135044-6yegg73",
+								"updated": "20230718135044"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "集中改变样式，不要一条一条地修改 DOM 的样式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718135053-yihr9w5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718135053-yihr9w5"
+					},
+					"Children": [
+						{
+							"ID": "20230718134914-1ayn2lx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134914-1ayn2lx",
+								"updated": "20230718134914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不要把 DOM 节点的属性值放在循环里当成循环里的变量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718134914-fb5mbnj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718134914-fb5mbnj",
+						"updated": "20230718134914"
+					},
+					"Children": [
+						{
+							"ID": "20230718134914-3qg0j4e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134914-3qg0j4e",
+								"updated": "20230718134914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为动画的 HTML 元件使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fixed"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 或 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "absoult"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "position"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，那么修改他们的 CSS 是不会 reflow 的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718134914-js57o36",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718134914-js57o36",
+						"updated": "20230718134914"
+					},
+					"Children": [
+						{
+							"ID": "20230718134914-m6nj406",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134914-m6nj406",
+								"updated": "20230718134914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不使用 table 布局。因为可能很小的一个小改动会造成整个 table 的重新布局"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718134914-t5w0tmg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718134914-t5w0tmg",
+						"updated": "20230718134914"
+					},
+					"Children": [
+						{
+							"ID": "20230718134914-sd1qm4a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134914-sd1qm4a",
+								"updated": "20230718134914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽量只修改"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "position：absolute"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​或"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fixed"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​元素，对其他元素影响不大"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718134914-7e3dt8r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230718134914-7e3dt8r",
+						"updated": "20230718134914"
+					},
+					"Children": [
+						{
+							"ID": "20230718134914-03dlboh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134914-03dlboh",
+								"updated": "20230718134914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "动画开始"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "GPU"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​加速，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "translate"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "3D"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​变化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718134914-neqpo5v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230718134914-neqpo5v",
+						"updated": "20230718135419"
+					},
+					"Children": [
+						{
+							"ID": "20230718134914-b8lstds",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718134914-b8lstds",
+								"updated": "20230718134914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提升为合成层"
+								}
+							]
+						},
+						{
+							"ID": "20230718135120-12p7aqy",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718135120-12p7aqy",
+								"updated": "20230718135419"
+							},
+							"Children": [
+								{
+									"ID": "20230718135120-62cyb3w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718135120-62cyb3w"
+									},
+									"Children": [
+										{
+											"ID": "20230718135121-nycve0o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718135121-nycve0o",
+												"updated": "20230718135121"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "合成层的位图，会交由 GPU 合成，比 CPU 处理要快"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718135123-7irzyb2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718135123-7irzyb2"
+									},
+									"Children": [
+										{
+											"ID": "20230718135129-whonmn6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718135129-whonmn6",
+												"updated": "20230718135132"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当需要 repaint 时，只需要 repaint 本身，不会影响到其他的层"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718135134-k6uhj1a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718135134-k6uhj1a"
+									},
+									"Children": [
+										{
+											"ID": "20230718135139-yel28tr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718135139-yel28tr",
+												"updated": "20230718135139"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于 transform 和 opacity 效果，不会触发 layout 和 paint"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718135408-9z6bewl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718135408-9z6bewl",
+										"updated": "20230718135419"
+									},
+									"Children": [
+										{
+											"ID": "20230718135408-8q742xw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718135408-8q742xw",
+												"updated": "20230718135408"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提升合成层的最好方式是使用 CSS 的 will-change 属性"
+												}
+											]
+										},
+										{
+											"ID": "20230718135410-u05g3ot",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230718135410-u05g3ot",
+												"updated": "20230718135419"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "Y3Nz"
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "#target {\n  will-change: transform;\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718135434-rzr49ct",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718135434-rzr49ct",
+				"updated": "20230718135543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "304过程"
+				}
+			]
+		},
+		{
+			"ID": "20230718135628-17k05nq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718135628-17k05nq",
+				"updated": "20230718135731"
+			},
+			"Children": [
+				{
+					"ID": "20230718135645-jw5nyv0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718135645-jw5nyv0",
+						"updated": "20230718135645"
+					},
+					"Children": [
+						{
+							"ID": "20230718135646-cnotcdf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718135646-cnotcdf",
+								"updated": "20230718135646"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浏览器请求资源时首先命中资源的Expires 和 Cache-Control，Expires 受限于本地时间，如果修改了本地时间，可能会造成缓存失效，可以通过Cache-control: max-age指定最大生命周期，状态仍然返回200，但不会请求数据，在浏览器中能明显看到from cache字样"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718135652-xwj1mvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718135652-xwj1mvq"
+					},
+					"Children": [
+						{
+							"ID": "20230718135652-q7v6w4p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718135652-q7v6w4p",
+								"updated": "20230718135708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "强缓存失效，进入协商缓存阶段，首先验证ETag，ETag可以保证每一个资源是唯一的，资源变化都会导致ETag变化。服务器根据客户端上送的If-None-Match值来判断是否命中缓存"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718135720-tgur1ye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718135720-tgur1ye",
+						"updated": "20230718135731"
+					},
+					"Children": [
+						{
+							"ID": "20230718135731-s5m8pd4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718135731-s5m8pd4",
+								"updated": "20230718135731"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "协商缓存Last-Modify/If-Modify-Since阶段，客户端第一次请求资源时，服务服返回的header中会加上Last-Modify，Last-modify是一个时间标识该资源的最后修改时间。再次请求该资源时，request的请求头中会包含If-Modify-Since，该值为缓存之前返回的Last-Modify。服务器收到If-Modify-Since后，根据资源的最后修改时间判断是否命中缓存"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718135540-ucjy6qt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718135540-ucjy6qt",
+				"updated": "20230718140531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器的缓存机制"
+				}
+			]
+		},
+		{
+			"ID": "20230718140534-0bza715",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718140534-0bza715",
+				"updated": "20230718183728"
+			},
+			"Children": [
+				{
+					"ID": "20230718140556-gye0wi6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718140556-gye0wi6",
+						"updated": "20230718140556"
+					},
+					"Children": [
+						{
+							"ID": "20230718140556-ylbsfew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718140556-ylbsfew",
+								"updated": "20230718140601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浏览器与服务器通信的方式为应答模式"
+								}
+							]
+						},
+						{
+							"ID": "20230718140602-h57vom1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718140602-h57vom1"
+							},
+							"Children": [
+								{
+									"ID": "20230718140601-8x5ei3i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718140601-8x5ei3i"
+									},
+									"Children": [
+										{
+											"ID": "20230718140601-uo71u34",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140601-uo71u34",
+												"updated": "20230718140610"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "浏览器发起HTTP请求 – 服务器响应该请求。那么浏览器第一次向服务器发起该请求后拿到请求结果，会根据响应报文中HTTP头的缓存标识，决定是否缓存结果"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718140610-138merx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718140610-138merx"
+									},
+									"Children": [
+										{
+											"ID": "20230718140610-uktksu8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140610-uktksu8"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是则将请求结果和缓存标识存入浏览器缓存中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718140623-hogk192",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718140623-hogk192"
+					},
+					"Children": [
+						{
+							"ID": "20230718140624-x71xs3m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718140624-x71xs3m",
+								"updated": "20230718140629"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浏览器每次发起请求，都会​先在浏览器缓存中查找该请求的结果以及缓存标识​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718140626-gzhlj6o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718140626-gzhlj6o"
+					},
+					"Children": [
+						{
+							"ID": "20230718140626-kdec2jl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718140626-kdec2jl",
+								"updated": "20230718140636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "览器每次拿到返回的请求结果都会将该结果和缓存标识存入浏览器缓存"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718140645-de28nev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718140645-de28nev"
+					},
+					"Children": [
+						{
+							"ID": "20230718140645-2tq7sp9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718140645-2tq7sp9",
+								"updated": "20230718140649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "强制缓存"
+								}
+							]
+						},
+						{
+							"ID": "20230718140656-w21y531",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718140656-w21y531"
+							},
+							"Children": [
+								{
+									"ID": "20230718140650-75u44g2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718140650-75u44g2"
+									},
+									"Children": [
+										{
+											"ID": "20230718140650-70urnaf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140650-70urnaf",
+												"updated": "20230718140659"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​​强制缓存就是向浏览器缓存查找该请求结果，并根据该结果的缓存规则来决定是否使用该缓存结果的过程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718140843-wlu668k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718140843-wlu668k"
+									},
+									"Children": [
+										{
+											"ID": "20230718140843-lkwrhh6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140843-lkwrhh6",
+												"updated": "20230718140848"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当浏览器向服务器发起请求时，服务器会将缓存规则放入HTTP响应报文的HTTP头中和请求结果一起返回给浏览器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718140848-p2vbn57",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718140848-p2vbn57"
+									},
+									"Children": [
+										{
+											"ID": "20230718140848-9idoaxg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140848-9idoaxg"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "控制强制缓存的字段分别是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Expires"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Cache-Control"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，其中Cache-Control优先级比Expires高"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718140858-w9u7q1k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718140858-w9u7q1k",
+						"updated": "20230718183728"
+					},
+					"Children": [
+						{
+							"ID": "20230718140858-qlhgboj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718140858-qlhgboj",
+								"updated": "20230718140902"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "协商缓存"
+								}
+							]
+						},
+						{
+							"ID": "20230718140903-e8aerlg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718140903-e8aerlg",
+								"updated": "20230718183728"
+							},
+							"Children": [
+								{
+									"ID": "20230718140903-dozrv8n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718140903-dozrv8n"
+									},
+									"Children": [
+										{
+											"ID": "20230718140903-2xujoai",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140903-2xujoai",
+												"updated": "20230718140911"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​​协商缓存就是强制缓存失效后，浏览器携带缓存标识向服务器发起请求，由服务器根据缓存标识决定是否使用缓存的过程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718140914-zh2f1ej",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718140914-zh2f1ej"
+									},
+									"Children": [
+										{
+											"ID": "20230718140914-l963wk1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718140914-l963wk1",
+												"updated": "20230718140928"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "协商缓存的标识也是在响应报文的HTTP头中和请求结果一起返回给浏览器的，控制协商缓存的字段分别有："
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Last-Modified / If-Modified-Since"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Etag / If-None-Match"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718183727-rb8n21o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718183727-rb8n21o",
+										"updated": "20230718183728"
+									},
+									"Children": [
+										{
+											"ID": "20230718183727-ci99yzy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718183727-ci99yzy",
+												"updated": "20230718183728"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "其中Etag / If-None-Match的优先级比Last-Modified / If-Modified-Since高"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718141005-9yf8mg7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718141005-9yf8mg7",
+				"updated": "20230718141007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进程、线程和协程"
+				}
+			]
+		},
+		{
+			"ID": "20230718141225-yqo4sb0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230718141225-yqo4sb0",
+				"updated": "20230718184041"
+			},
+			"Children": [
+				{
+					"ID": "20230718183750-uxqcmxe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718183750-uxqcmxe"
+					},
+					"Children": [
+						{
+							"ID": "20230718183750-vybte1b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718183750-vybte1b",
+								"updated": "20230718183754"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "进程"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "是一个具有一定独立功能的程序在一个数据集上的一次动态执行的过程，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "是操作系统进行资源分配和调度的一个独立单位"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，是应用程序运行的载体。进程是一种抽象的概念，从来没有统一的标准定义"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718183754-n0i7k44",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718183754-n0i7k44"
+					},
+					"Children": [
+						{
+							"ID": "20230718183754-3ia6xf3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718183754-3ia6xf3",
+								"updated": "20230718183758"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "线程"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "是程序执行中一个单一的顺序控制流程，是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "程序执行流的最小单元"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，是处理器调度和分派的基本单位。一个进程可以有一个或多个线程，各个线程之间共享程序的内存空间(也就是所在进程的内存空间)。一个标准的线程由线程ID、当前指令指针(PC)、寄存器和堆栈组成。而进程由内存空间(代码、数据、进程空间、打开的文件)和一个或多个线程组成"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718183759-8jol9lw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718183759-8jol9lw"
+					},
+					"Children": [
+						{
+							"ID": "20230718183759-l4kbbwu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718183759-l4kbbwu",
+								"updated": "20230718183802"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "协程"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，英文Coroutines，是一种"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "基于线程之上，但又比线程更加轻量级的存在"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，这种由程序员自己写程序来管理的轻量级线程叫做『用户空间线程』，具有对内核来说不可见的特性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718141229-xrfg6il",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718141229-xrfg6il",
+						"updated": "20230718141229"
+					},
+					"Children": [
+						{
+							"ID": "20230718141229-lp5dwdu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718141229-lp5dwdu",
+								"updated": "20230718183810"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区别"
+								}
+							]
+						},
+						{
+							"ID": "20230718183811-2quru9i",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718183811-2quru9i"
+							},
+							"Children": [
+								{
+									"ID": "20230718183830-ne3ezsg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718183830-ne3ezsg"
+									},
+									"Children": [
+										{
+											"ID": "20230718183830-9ptmnke",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718183830-9ptmnke",
+												"updated": "20230718183831"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "调度：线程作为调度和分配的基本单位，进程作为拥有资源的基本单位"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718183858-6b2jn1k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718183858-6b2jn1k"
+									},
+									"Children": [
+										{
+											"ID": "20230718183858-5ttoyna",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718183858-5ttoyna",
+												"updated": "20230718183904"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "并发性：不仅进程之间可以并发执行，同一个进程的多个线程之间也可并发执行"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718183811-at8823i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718183811-at8823i"
+									},
+									"Children": [
+										{
+											"ID": "20230718183811-xerz2pb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718183811-xerz2pb",
+												"updated": "20230718183814"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "拥有资源：进程是拥有资源的一个独立单位，线程不拥有系统资源，但可以访问隶属于进程的资源"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718183815-j7w0uvl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718183815-j7w0uvl"
+									},
+									"Children": [
+										{
+											"ID": "20230718183914-mhkp8de",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718183914-mhkp8de",
+												"updated": "20230718183927"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "系统开销"
+												}
+											]
+										},
+										{
+											"ID": "20230718183929-lp0t4wc",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230718183929-lp0t4wc"
+											},
+											"Children": [
+												{
+													"ID": "20230718183928-thyuua6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230718183928-thyuua6"
+													},
+													"Children": [
+														{
+															"ID": "20230718183928-zahl4nr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718183928-zahl4nr"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在创建或撤消进程时，由于系统都要为之分配和回收资源，导致系统的开销明显大于创建或撤消线程时的开销"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718183925-nx5z6y3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230718183925-nx5z6y3"
+													},
+													"Children": [
+														{
+															"ID": "20230718183925-dlrvdpv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718183925-dlrvdpv",
+																"updated": "20230718183933"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "但是进程有独立的地址空间，一个进程崩溃后，在保护模式下不会对其它进程产生影响，而线程只是一个进程中的不同执行路径"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230718183933-dnnpt1c",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230718183933-dnnpt1c"
+													},
+													"Children": [
+														{
+															"ID": "20230718183933-gf40har",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230718183933-gf40har"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "线程有自己的堆栈和局部变量，但线程之间没有单独的地址空间，一个进程死掉就等于所有的线程死掉，所以多进程的程序要比多线程的程序健壮，但在进程切换时，耗费资源较大，效率要差一些"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718184016-910kzk6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718184016-910kzk6",
+						"updated": "20230718184041"
+					},
+					"Children": [
+						{
+							"ID": "20230718184016-oaoni6f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718184016-oaoni6f",
+								"updated": "20230718184026"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "联系"
+								}
+							]
+						},
+						{
+							"ID": "20230718184027-26xpyt1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718184027-26xpyt1",
+								"updated": "20230718184041"
+							},
+							"Children": [
+								{
+									"ID": "20230718184026-3p5beqw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718184026-3p5beqw"
+									},
+									"Children": [
+										{
+											"ID": "20230718184026-m4egmcx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184026-m4egmcx",
+												"updated": "20230718184031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个线程只能属于一个进程，而一个进程可以有多个线程，但至少有一个线程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718184031-wrjb93n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718184031-wrjb93n"
+									},
+									"Children": [
+										{
+											"ID": "20230718184031-rjlwiay",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184031-rjlwiay",
+												"updated": "20230718184034"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "资源分配给进程，同一进程的所有线程共享该进程的所有资源"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718184035-lbexlfn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718184035-lbexlfn"
+									},
+									"Children": [
+										{
+											"ID": "20230718184035-8vgrnay",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184035-8vgrnay",
+												"updated": "20230718184037"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "处理机分给线程，即真正在处理机上运行的是线程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718184038-cork61a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230718184038-cork61a",
+										"updated": "20230718184041"
+									},
+									"Children": [
+										{
+											"ID": "20230718184038-u9jlxrn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184038-u9jlxrn",
+												"updated": "20230718184041"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "线程在执行过程中，需要协作同步。不同进程的线程间要利用消息通信的办法实现同步"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718141225-rpj7rlz",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230705174417-0h9chv5",
-				"updated": "20230705174417"
+				"id": "20230718141225-rpj7rlz",
+				"updated": "20230718141226"
 			}
+		},
+		{
+			"ID": "20230718130845-hcaiha7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718130845-hcaiha7",
+				"updated": "20230718130931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
 		}
 	]
 }

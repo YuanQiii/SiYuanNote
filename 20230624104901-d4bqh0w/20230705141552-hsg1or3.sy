@@ -6,14 +6,260 @@
 		"id": "20230705141552-hsg1or3",
 		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141552-hsg1or3\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230710211137-9qmrgx6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230710211152-0uaogjy\u0026quot;,\u0026quot;scrollTop\u0026quot;:44,\u0026quot;focusId\u0026quot;:\u0026quot;20230710211147-ipo9h57\u0026quot;,\u0026quot;focusStart\u0026quot;:34,\u0026quot;focusEnd\u0026quot;:34}",
 		"title": "工程化",
-		"updated": "20230710211152"
+		"updated": "20230718195611"
 	},
 	"Children": [
+		{
+			"ID": "20230718184145-qmekcoj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230718184145-qmekcoj",
+				"updated": "20230718184733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webpack的理解\t解决了什么问题"
+				}
+			]
+		},
+		{
+			"ID": "20230718184151-nftszaw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230718184151-nftszaw",
+				"updated": "20230718184611"
+			},
+			"Children": [
+				{
+					"ID": "20230718184231-tj47ht8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718184231-tj47ht8",
+						"updated": "20230718184231"
+					},
+					"Children": [
+						{
+							"ID": "20230718184231-dc42noe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718184231-dc42noe",
+								"updated": "20230718184345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一个用于现代"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​应用程序的静态模块打包工具"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718184232-zuigo97",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718184232-zuigo97"
+					},
+					"Children": [
+						{
+							"ID": "20230718184232-3qxwnk6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718184232-3qxwnk6",
+								"updated": "20230718184413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现前端项目的模块化，旨在更高效地管理和维护项目中的每一个资源"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718184458-i2gjlia",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718184458-i2gjlia",
+						"updated": "20230718184611"
+					},
+					"Children": [
+						{
+							"ID": "20230718184458-hwg0c14",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718184458-hwg0c14",
+								"updated": "20230718184500"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "能力"
+								}
+							]
+						},
+						{
+							"ID": "20230718184501-uh4afil",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230718184501-uh4afil",
+								"updated": "20230718184611"
+							},
+							"Children": [
+								{
+									"ID": "20230718184501-jlo85xs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230718184501-jlo85xs"
+									},
+									"Children": [
+										{
+											"ID": "20230718184501-dq3q1d0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184501-dq3q1d0",
+												"updated": "20230718184505"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "编译代码能力"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，提高效率，解决浏览器兼容问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718184506-1su6sjq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230718184506-1su6sjq"
+									},
+									"Children": [
+										{
+											"ID": "20230718184506-rdfi3za",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184506-rdfi3za",
+												"updated": "20230718184509"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "模块整合能力"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，提高性能，可维护性，解决浏览器频繁请求文件的问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230718184611-yabmv3w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230718184611-yabmv3w",
+										"updated": "20230718184611"
+									},
+									"Children": [
+										{
+											"ID": "20230718184611-ndan85s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230718184611-ndan85s",
+												"updated": "20230718184611"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "万物皆可模块能力"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，项目维护性增强，支持不同种类的前端模块类型，统一的模块化方案，所有资源文件的加载都可以通过代码控制"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 		{
 			"ID": "20230710211137-9qmrgx6",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230710211137-9qmrgx6",
 				"updated": "20230710211141"
 			},
@@ -31,6 +277,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230710211147-ikc89k8",
 				"updated": "20230710211147"
 			},
@@ -311,7 +559,638 @@
 			"ID": "20230710211152-0uaogjy",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230710211152-0uaogjy"
+			}
+		},
+		{
+			"ID": "20230718195737-uurirz6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718195737-uurirz6",
+				"updated": "20230718195744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Webpack 常规配置项有哪些"
+				}
+			]
+		},
+		{
+			"ID": "20230718195609-3gyituz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230718195609-3gyituz",
+				"updated": "20230718195611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Webpack 配置中用过哪些 Loader ？都有什么作用？"
+				}
+			]
+		},
+		{
+			"ID": "20230718194600-rbu15b7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230718194600-rbu15b7",
+				"updated": "20230718194601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webpack中常见的Loader"
+				}
+			]
+		},
+		{
+			"ID": "20230718194847-n27jij6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230718194847-n27jij6",
+				"updated": "20230718194847"
+			},
+			"Children": [
+				{
+					"ID": "20230718194847-4d8suit",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718194847-4d8suit",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-l3c4cve",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-l3c4cve",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "style-loader: 将css添加到DOM的内联样式标签style里"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-vyfnnzt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718194847-vyfnnzt",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-6n4gdia",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-6n4gdia",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "css-loader :允许将css文件通过require的方式引入，并返回css代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-4f6ggdh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718194847-4f6ggdh",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-d6j9kat",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-d6j9kat",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "less-loader: 处理less"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-gnnm3cp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718194847-gnnm3cp",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-ab3heaq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-ab3heaq",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "sass-loader: 处理sass"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-brniclo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718194847-brniclo",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-lwx7bef",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-lwx7bef",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "postcss-loader: 用postcss来处理CSS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-0t3o4ue",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230718194847-0t3o4ue",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-2u5hgy6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-2u5hgy6",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "autoprefixer-loader: 处理CSS3属性前缀，已被弃用，建议直接使用postcss"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-1udtawl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230718194847-1udtawl",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-sq3li11",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-sq3li11",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "file-loader: 分发文件到output目录并返回相对路径"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-owfldy0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230718194847-owfldy0",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-7386bww",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-7386bww",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "url-loader: 和file-loader类似，但是当文件小于设定的limit时可以返回一个Data Url"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-cyujxti",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230718194847-cyujxti",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-c7lubow",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-c7lubow",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "html-minify-loader: 压缩HTML"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718194847-wcm1yw4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230718194847-wcm1yw4",
+						"updated": "20230718194847"
+					},
+					"Children": [
+						{
+							"ID": "20230718194847-ak0550g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718194847-ak0550g",
+								"updated": "20230718194847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "babel-loader :用babel来转换ES6文件到ES"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718195014-6tq74v1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230718195014-6tq74v1",
+				"updated": "20230718195017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webpack中常见的Plugin"
+				}
+			]
+		},
+		{
+			"ID": "20230718195048-25n50od",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230718195048-25n50od",
+				"updated": "20230718195304"
+			},
+			"Children": [
+				{
+					"ID": "20230718195049-6mar5j1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230718195049-6mar5j1",
+						"updated": "20230718195049"
+					},
+					"Children": [
+						{
+							"ID": "20230718195049-hr3f2s2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718195049-hr3f2s2",
+								"updated": "20230718195100"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HtmlWebpackPlugin：在打包结束后，⾃动生成⼀个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "html"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ⽂文件，并把打包生成的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 模块引⼊到该 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "html"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718195101-nyxpw6n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230718195101-nyxpw6n"
+					},
+					"Children": [
+						{
+							"ID": "20230718195108-d5mkzq7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718195108-d5mkzq7",
+								"updated": "20230718195114"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "clean-webpack-plugin：删除（清理）构建目录"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718195153-cvwjqi7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230718195153-cvwjqi7"
+					},
+					"Children": [
+						{
+							"ID": "20230718195153-55looip",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718195153-55looip",
+								"updated": "20230718195159"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mini-css-extract-plugin：提取 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "CSS"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 到一个单独的文件中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718195159-5ilylkq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230718195159-5ilylkq"
+					},
+					"Children": [
+						{
+							"ID": "20230718195211-90pepbn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718195211-90pepbn",
+								"updated": "20230718195219"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DefinePlugin：允许在编译时创建配置的全局对象，是一个"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "webpack"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​内置的插件，不需要安装"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230718195243-h1pdg4t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230718195243-h1pdg4t",
+						"updated": "20230718195304"
+					},
+					"Children": [
+						{
+							"ID": "20230718195243-n85sbiq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230718195243-n85sbiq",
+								"updated": "20230718195304"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "copy-webpack-plugin：复制文件或目录到执行区域，如"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vue"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的打包过程中，如果我们将一些文件放到"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "public"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的目录下，那么这个目录会被复制到"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "dist"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​文件夹中"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230718195151-o4s2qxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230718195151-o4s2qxq"
+			}
+		},
+		{
+			"ID": "20230718195401-cvmtohq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230718195401-cvmtohq"
 			}
 		}
 	]
