@@ -1,0 +1,180 @@
+{
+	"ID": "20230729230318-nbvxp6l",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230729230318-nbvxp6l",
+		"title": "前端安全",
+		"updated": "20230729232428"
+	},
+	"Children": [
+		{
+			"ID": "20230729230318-b3v75gv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230729230318-b3v75gv",
+				"updated": "20230729230429"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSRF"
+				}
+			]
+		},
+		{
+			"ID": "20230729230429-xgtym0f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230729230429-xgtym0f",
+				"updated": "20230729230435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "XSS"
+				}
+			]
+		},
+		{
+			"ID": "20230729230436-ny465yn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230729230436-ny465yn",
+				"updated": "20230729232428"
+			},
+			"Children": [
+				{
+					"ID": "20230729230617-3hn9dih",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230729230617-3hn9dih",
+						"updated": "20230729230617"
+					},
+					"Children": [
+						{
+							"ID": "20230729230617-2sj7zfy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230729230617-2sj7zfy",
+								"updated": "20230729230617"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XSS 攻击是页面被注入了恶意的代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230729230617-9hro4ka",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230729230617-9hro4ka"
+					},
+					"Children": [
+						{
+							"ID": "20230729230617-w8hswun",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230729230617-w8hswun",
+								"updated": "20230729232033"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "escapeHTML()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 进行转义"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230729232428-9ntqsgh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230729232428-9ntqsgh",
+						"updated": "20230729232428"
+					},
+					"Children": [
+						{
+							"ID": "20230729232428-13sz4h8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230729232428-13sz4h8",
+								"updated": "20230729232428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于链接跳转，如 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;a href=\u0026quot;xxx\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 或 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "location.href=\u0026quot;xxx\u0026quot;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，要检验其内容，禁止以 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "javascript:"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 开头的链接，和其他非法的 scheme"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

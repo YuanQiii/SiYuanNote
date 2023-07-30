@@ -1,0 +1,46 @@
+{
+	"ID": "20230730134012-ulk0rxl",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230730134012-ulk0rxl",
+		"title": "白凉粉",
+		"updated": "20230730194302"
+	},
+	"Children": [
+		{
+			"ID": "20230730134229-6az5vq1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230730134229-6az5vq1",
+				"updated": "20230730135636"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n *  @param {*} volume 水量\n */\nfunction getCoolJellyWeight(volume) {\n    const rate = 50 / 1250\n    const weight = volume * rate\n    console.log('凉粉总量', weight);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230730194302-6oa8hje",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230730194302-6oa8hje"
+			}
+		}
+	]
+}

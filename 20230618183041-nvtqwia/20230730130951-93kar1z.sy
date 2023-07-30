@@ -1,0 +1,311 @@
+{
+	"ID": "20230730130951-93kar1z",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230730130951-93kar1z",
+		"title": "包子",
+		"updated": "20230730131640"
+	},
+	"Children": [
+		{
+			"ID": "20230730131424-m86s1q8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230730131424-m86s1q8",
+				"updated": "20230730131431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "材料"
+				}
+			]
+		},
+		{
+			"ID": "20230730131003-qh2qwpr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230730131003-qh2qwpr",
+				"updated": "20230730131020"
+			},
+			"Children": [
+				{
+					"ID": "20230730131020-snxiza3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230730131020-snxiza3",
+						"updated": "20230730131020"
+					},
+					"Children": [
+						{
+							"ID": "20230730131020-xkebhtz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131020-xkebhtz",
+								"updated": "20230730131259"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "面粉500g"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230730131259-h5x53kx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230730131259-h5x53kx"
+					},
+					"Children": [
+						{
+							"ID": "20230730131259-9yaoilq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131259-9yaoilq",
+								"updated": "20230730131304"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "酵母5g"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230730131305-geglce1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230730131305-geglce1"
+					},
+					"Children": [
+						{
+							"ID": "20230730131305-ynvqo18",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131305-ynvqo18",
+								"updated": "20230730131309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "白糖3g"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230730131310-6a8er6c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230730131310-6a8er6c"
+					},
+					"Children": [
+						{
+							"ID": "20230730131310-e4xxk8o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131310-e4xxk8o",
+								"updated": "20230730131353"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "猪油15g"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230730131353-b5xnduj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230730131353-b5xnduj"
+					},
+					"Children": [
+						{
+							"ID": "20230730131353-ttkfzdx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131353-ttkfzdx",
+								"updated": "20230730131359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "温水250g"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230730131435-fuaoaza",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230730131435-fuaoaza",
+				"updated": "20230730131438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "制作"
+				}
+			]
+		},
+		{
+			"ID": "20230730131439-0cyt0fh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230730131439-0cyt0fh",
+				"updated": "20230730131640"
+			},
+			"Children": [
+				{
+					"ID": "20230730131440-heebr1h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230730131440-heebr1h",
+						"updated": "20230730131440"
+					},
+					"Children": [
+						{
+							"ID": "20230730131440-4zx0zc2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131440-4zx0zc2",
+								"updated": "20230730131514"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "酵母粉和白糖与温水混合均匀"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230730131514-wkz0gkj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230730131514-wkz0gkj"
+					},
+					"Children": [
+						{
+							"ID": "20230730131514-8oay9ba",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131514-8oay9ba",
+								"updated": "20230730131530"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "揉"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230730131530-jyed22x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230730131530-jyed22x",
+						"updated": "20230730131640"
+					},
+					"Children": [
+						{
+							"ID": "20230730131530-zgrasgo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230730131530-zgrasgo",
+								"updated": "20230730131640"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保鲜膜存放"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230730130951-vqcp5sj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230730130951-vqcp5sj",
+				"updated": "20230730130951"
+			}
+		}
+	]
+}

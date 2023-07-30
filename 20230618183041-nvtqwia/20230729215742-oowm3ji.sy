@@ -1,0 +1,142 @@
+{
+	"ID": "20230729215742-oowm3ji",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230729215742-oowm3ji",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230729215742-oowm3ji\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230729215752-vpfseq4\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230729215742-o4d766m\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230729220034-5e1ozvv\u0026quot;,\u0026quot;focusStart\u0026quot;:16,\u0026quot;focusEnd\u0026quot;:16}",
+		"title": "凉糕",
+		"updated": "20230729220127"
+	},
+	"Children": [
+		{
+			"ID": "20230729215752-vpfseq4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230729215752-vpfseq4",
+				"updated": "20230729215824"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * \n * @param {*} volume 水量\n */\nfunction getCoolCakeWeight(volume) {\n    const totalRate = 250 / 3400\n    const totalCakeWeight = totalRate * volume\n    console.log('凉糕总量：',totalCakeWeight);\n    const mixinRate = 250 / 610\n    const mixinWaterWeight = volume * mixinRate\n    console.log('调浆水量：',mixinWaterWeight);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230729215742-o4d766m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230729215742-o4d766m",
+				"updated": "20230729220127"
+			},
+			"Children": [
+				{
+					"ID": "20230729215840-r5ylpyk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230729215840-r5ylpyk",
+						"updated": "20230729215840"
+					},
+					"Children": [
+						{
+							"ID": "20230729215840-4xrvdah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230729215840-4xrvdah",
+								"updated": "20230729220030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "先放凉糕，然后放水混合，搅匀"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230729215955-j9h8yky",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230729215955-j9h8yky"
+					},
+					"Children": [
+						{
+							"ID": "20230729215955-tj6fb2b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230729215955-tj6fb2b",
+								"updated": "20230729220025"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "然后烧水，放入混合的水，搅匀"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230729220034-q8lhlie",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230729220034-q8lhlie",
+						"updated": "20230729220127"
+					},
+					"Children": [
+						{
+							"ID": "20230729220034-5e1ozvv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230729220034-5e1ozvv",
+								"updated": "20230729220127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一边搅一边添加，开了后小火，搅和"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
