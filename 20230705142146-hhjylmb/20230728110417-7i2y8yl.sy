@@ -2608,6 +2608,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230728111355-um4znpj",
 				"updated": "20230728111436"
 			},
@@ -2623,6 +2624,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728114634-rf0h1hx",
 				"updated": "20230728114644"
 			},
@@ -2640,6 +2643,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728114645-pdoon1p",
 				"updated": "20230728114729"
 			},
@@ -2717,6 +2722,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728114833-ogmr8tc",
 				"updated": "20230728114836"
 			},
@@ -2734,6 +2741,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728114901-4bg8lah",
 				"updated": "20230728114916"
 			},
@@ -2804,6 +2813,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728114901-wvv51dn",
 				"updated": "20230728114944"
 			},
@@ -2879,6 +2890,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728114901-jknbpl5",
 				"updated": "20230728114955"
 			},
@@ -2956,6 +2969,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115013-kv5gf9j",
 				"updated": "20230728115013"
 			},
@@ -2973,6 +2988,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115013-dxuljgd",
 				"updated": "20230728115057"
 			},
@@ -3043,6 +3060,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115013-7xshxqj",
 				"updated": "20230728115115"
 			},
@@ -3122,6 +3141,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115013-gxgv98w",
 				"updated": "20230728115013"
 			},
@@ -3199,6 +3220,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115131-41nukm5",
 				"updated": "20230728115131"
 			},
@@ -3216,6 +3239,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115131-tshewc3",
 				"updated": "20230728115131"
 			},
@@ -3341,6 +3366,8 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115131-wbm8gci",
 				"updated": "20230728115214"
 			},
@@ -3368,6 +3395,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115240-tof8tcn",
 				"updated": "20230728115240"
 			},
@@ -3385,6 +3414,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115240-vtfsgcu",
 				"updated": "20230729230234"
 			},
@@ -3455,6 +3486,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115240-uhyfhgn",
 				"updated": "20230729230250"
 			},
@@ -4072,6 +4105,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115240-d593g0f",
 				"updated": "20230729230259"
 			},
@@ -4151,6 +4186,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230728115240-7of146b",
 				"updated": "20230728115240"
 			},
@@ -4228,6 +4265,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230728111437-73p8xav",
 				"updated": "20230728111441"
 			},
@@ -4243,6 +4281,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230729220239-wk27f6b",
 				"updated": "20230729220254"
 			},
@@ -4260,6 +4300,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230729220256-wskpc9l",
 				"updated": "20230729223611"
 			},
@@ -4328,6 +4370,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230729225637-63p7dta",
 				"updated": "20230729225644"
 			},
@@ -4345,6 +4389,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230729225758-73g2oj1",
 				"updated": "20230729225816"
 			},
@@ -4415,6 +4461,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230729225758-psak39u",
 				"updated": "20230729225844"
 			},
@@ -4494,6 +4542,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230729225758-vgu7sfc",
 				"updated": "20230729225902"
 			},
@@ -4561,39 +4611,10 @@
 									"Data": "```"
 								}
 							]
-						},
-						{
-							"ID": "20230729225856-bnzwm7m",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20230729225856-bnzwm7m"
-							}
 						}
 					]
 				}
 			]
-		},
-		{
-			"ID": "20230728111441-epbjot4",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20230728111441-epbjot4",
-				"updated": "20230728111451"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "构建工具"
-				}
-			]
-		},
-		{
-			"ID": "20230728111452-brhswpo",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20230728111452-brhswpo"
-			}
 		}
 	]
 }

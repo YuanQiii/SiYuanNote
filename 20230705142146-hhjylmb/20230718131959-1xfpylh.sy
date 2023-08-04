@@ -6,16 +6,4081 @@
 		"id": "20230718131959-1xfpylh",
 		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230718131959-1xfpylh\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230718131959-pwjije8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230718131959-pwjije8\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230718131959-pwjije8\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "垃圾回收机制",
-		"updated": "20230718132004"
+		"updated": "20230803222941"
 	},
 	"Children": [
 		{
 			"ID": "20230718131959-pwjije8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230718131959-pwjije8",
+				"updated": "20230803094547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概念"
+				}
+			]
+		},
+		{
+			"ID": "20230803094547-0dsuz8i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803094547-0dsuz8i",
+				"updated": "20230803095524"
+			},
+			"Children": [
+				{
+					"ID": "20230803094601-66v1djy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803094601-66v1djy",
+						"updated": "20230803094601"
+					},
+					"Children": [
+						{
+							"ID": "20230803094601-y8mj8ow",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803094601-y8mj8ow",
+								"updated": "20230803094624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "GC"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 即 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Garbage Collection"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，程序工作过程中会产生很多 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "垃圾"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，这些垃圾是程序不用的内存或者是之前用过了，以后不会再用的内存空间，而 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "GC"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 就是负责回收垃圾的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803094602-96t4rvx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230803094602-96t4rvx"
+					},
+					"Children": [
+						{
+							"ID": "20230803094602-3bas9sj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803094602-3bas9sj",
+								"updated": "20230803094632"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因为他工作在引擎内部，所以对于我们前端来说，GC 过程是相对比较无感的，这一套引擎执行而对我们又相对无感的操作也就是常说的 垃圾回收机制了"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803095524-y37dpf1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230803095524-y37dpf1",
+						"updated": "20230803095524"
+					},
+					"Children": [
+						{
+							"ID": "20230803095524-w6tn2vd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803095524-w6tn2vd",
+								"updated": "20230803095524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "定期找出那些不再用到的内存（变量），然后释放其内存"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803094638-2mblx23",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230803094638-2mblx23",
+				"updated": "20230803094640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "垃圾产生\u0026为何回收"
+				}
+			]
+		},
+		{
+			"ID": "20230803094757-tnws45e",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803094757-tnws45e",
+				"updated": "20230803095124"
+			},
+			"Children": [
+				{
+					"ID": "20230803094758-7zqqo4m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803094758-7zqqo4m",
+						"updated": "20230803094758"
+					},
+					"Children": [
+						{
+							"ID": "20230803094758-5645iry",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803094758-5645iry",
+								"updated": "20230803094758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中对引用数据类型的操作都是操作对象的引用而不是实际的对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803094807-rulerv2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230803094807-rulerv2"
+					},
+					"Children": [
+						{
+							"ID": "20230803094807-4vz11v8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803094807-4vz11v8",
+								"updated": "20230803094807"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "栈内存中保存了一个地址，这个地址和堆内存中的实际值是相关的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803095035-fym3rzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230803095035-fym3rzp",
+						"updated": "20230803095124"
+					},
+					"Children": [
+						{
+							"ID": "20230803095035-j0u2683",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803095035-j0u2683",
+								"updated": "20230803095124"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先我们声明了一个变量 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "test"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，它引用了对象 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "{name: 'isboyjc'}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，接着我们把这个变量重新赋值了一个数组对象，也就变成了该变量引用了一个数组，那么之前的对象引用关系就没有，也就是无用的对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803094945-c22sggs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230803094945-c22sggs"
+					},
+					"Children": [
+						{
+							"ID": "20230803094945-4m7aw65",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803094945-4m7aw65",
+								"updated": "20230803094945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "程序的运行需要内存，只要程序提出要求，操作系统或者运行时就必须提供内存，那么对于持续运行的服务进程，必须要及时释放内存，否则，内存占用越来越高，轻则影响系统性能，重则就会导致进程崩溃"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803094955-3q3d5ub",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230718131959-pwjije8",
-				"updated": "20230718131959"
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803094955-3q3d5ub",
+				"updated": "20230803094958"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a428ca00cb164eeab16e8cbbb603e7d7~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230803095151-as61job",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230803095151-as61job",
+				"updated": "20230803095151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "垃圾回收策略"
+				}
+			]
+		},
+		{
+			"ID": "20230803095152-qeknue2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803095152-qeknue2",
+				"updated": "20230803222608"
+			},
+			"Children": [
+				{
+					"ID": "20230803095211-0eu1s3p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803095211-0eu1s3p",
+						"updated": "20230803095211"
+					},
+					"Children": [
+						{
+							"ID": "20230803095211-pu3ldav",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803095211-pu3ldav",
+								"updated": "20230803095211"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 JavaScript 内存管理中有一个概念叫做 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "可达性"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，就是那些以某种方式可访问或者说可用的值，它们被保证存储在内存中，反之不可访问则需回收"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803095725-ah1w9fo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230803095725-ah1w9fo",
+						"updated": "20230803222608"
+					},
+					"Children": [
+						{
+							"ID": "20230803095726-4vqkamr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803095726-4vqkamr",
+								"updated": "20230803222608"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标记清除算法（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mark and sweep"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​）"
+								}
+							]
+						},
+						{
+							"ID": "20230803095749-6ofra18",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803095749-6ofra18"
+							},
+							"Children": [
+								{
+									"ID": "20230803095749-kytz4vx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803095749-kytz4vx"
+									},
+									"Children": [
+										{
+											"ID": "20230803095750-z4004d7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803095750-z4004d7",
+												"updated": "20230803095750"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "标记清除（Mark-Sweep），目前在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "JavaScript引擎"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 里这种算法是最常用的，到目前为止的大多数浏览器的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "JavaScript引擎"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 都在采用标记清除算法，只是各大浏览器厂商还对此算法进行了优化加工，且不同浏览器的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "JavaScript引擎"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 在运行垃圾回收的频率上有所差异"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803095823-qdz8vn2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803095823-qdz8vn2"
+									},
+									"Children": [
+										{
+											"ID": "20230803095823-gyyqbl7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803095823-gyyqbl7",
+												"updated": "20230803095824"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "此算法分为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "标记"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "清除"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 两个阶段，标记阶段即为所有活动对象做上标记，清除阶段则把没有标记（也就是非活动对象）销毁"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803100051-hdcq1uv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230803100051-hdcq1uv"
+									},
+									"Children": [
+										{
+											"ID": "20230803100051-0u48eig",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803100051-0u48eig",
+												"updated": "20230803100051"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引擎在执行 GC（使用标记清除算法）时，需要从出发点去遍历内存中所有的对象去打标记，而这个出发点有很多，我们称之为一组 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "根"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 对象，而所谓的根对象，其实在浏览器环境中包括又不止于 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "全局Window对象"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​、"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "文档DOM树"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803100052-pp8ebq8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230803100052-pp8ebq8"
+									},
+									"Children": [
+										{
+											"ID": "20230803100052-u6fuf0r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803100052-u6fuf0r",
+												"updated": "20230803100108"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "过程"
+												}
+											]
+										},
+										{
+											"ID": "20230803100119-1dgtsze",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803100119-1dgtsze",
+												"updated": "20230803100119"
+											},
+											"Children": [
+												{
+													"ID": "20230803100119-2b2vy3u",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803100119-2b2vy3u",
+														"updated": "20230803100119"
+													},
+													"Children": [
+														{
+															"ID": "20230803100119-75fpw0d",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100119-75fpw0d",
+																"updated": "20230803100119"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "垃圾收集器在运行时会给内存中的所有变量都加上一个标记，假设内存中所有对象都是垃圾，全标记为0"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803100119-y95nbuq",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803100119-y95nbuq",
+														"updated": "20230803100119"
+													},
+													"Children": [
+														{
+															"ID": "20230803100119-swonhk2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100119-swonhk2",
+																"updated": "20230803100119"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "然后从各个根对象开始遍历，把不是垃圾的节点改成1"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803100119-9cg7vpf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230803100119-9cg7vpf",
+														"updated": "20230803100119"
+													},
+													"Children": [
+														{
+															"ID": "20230803100119-3aal1ug",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100119-3aal1ug",
+																"updated": "20230803100119"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "清理所有标记为0的垃圾，销毁并回收它们所占用的内存空间"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803100119-vhgg32t",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230803100119-vhgg32t",
+														"updated": "20230803100119"
+													},
+													"Children": [
+														{
+															"ID": "20230803100119-cgmx94h",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100119-cgmx94h",
+																"updated": "20230803100119"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "最后，把所有内存中对象标记修改为0，等待下一轮垃圾回收"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803100234-exuduan",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230803100234-exuduan"
+									},
+									"Children": [
+										{
+											"ID": "20230803100234-gc1os99",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803100234-gc1os99",
+												"updated": "20230803100236"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优点"
+												}
+											]
+										},
+										{
+											"ID": "20230803100313-hyhflnh",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803100313-hyhflnh"
+											},
+											"Children": [
+												{
+													"ID": "20230803100236-l40umdg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803100236-l40umdg"
+													},
+													"Children": [
+														{
+															"ID": "20230803100236-uny8hey",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100236-uny8hey",
+																"updated": "20230803100325"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "实现比较简单，打标记也无非打与不打两种情况，这使得一位二进制位（0和1）就可以为其标记"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803100326-qprc8iy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230803100326-qprc8iy"
+									},
+									"Children": [
+										{
+											"ID": "20230803100326-gdy1xu6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803100326-gdy1xu6",
+												"updated": "20230803100333"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缺点"
+												}
+											]
+										},
+										{
+											"ID": "20230803100334-1tcgmmg",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803100334-1tcgmmg"
+											},
+											"Children": [
+												{
+													"ID": "20230803100816-ff9mc27",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803100816-ff9mc27"
+													},
+													"Children": [
+														{
+															"ID": "20230803100816-7uvevrz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100816-7uvevrz",
+																"updated": "20230803100822"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "内存碎片化"
+																}
+															]
+														},
+														{
+															"ID": "20230803100834-st1wvmb",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230803100834-st1wvmb"
+															},
+															"Children": [
+																{
+																	"ID": "20230803100855-i7e5sgi",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230803100855-i7e5sgi"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803100855-gg0i8jf",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803100855-gg0i8jf",
+																				"updated": "20230803101122"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "清除之后，剩余的对象内存位置是不变的，也会导致空闲内存空间是不连续的，出现了 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "内存碎片"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230803101122-0bhs46f",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230803101122-0bhs46f"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803101122-nmstrup",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803101122-nmstrup"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "还可能会出现分配所需内存过大的对象时找不到合适的块"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803100816-48gptu1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803100816-48gptu1",
+														"updated": "20230803100816"
+													},
+													"Children": [
+														{
+															"ID": "20230803100816-wz8qlhb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803100816-wz8qlhb",
+																"updated": "20230803101134"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "分配速度慢"
+																}
+															]
+														},
+														{
+															"ID": "20230803101136-gx37xf8",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230803101136-gx37xf8"
+															},
+															"Children": [
+																{
+																	"ID": "20230803101215-x204ai2",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230803101215-x204ai2"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803101215-h0zmgz6",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803101215-h0zmgz6",
+																				"updated": "20230803101215"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "新建对象分配内存时需要大小为 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "size"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​，由于空闲内存是间断的、不连续的，则需要对空闲内存列表进行一次单向遍历找出大于等于 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "size"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​ 的块才能为其分配"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230803101152-mdd2y4s",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230803101152-mdd2y4s"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803101153-y19v4re",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803101153-y19v4re",
+																				"updated": "20230803101153"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "分配策略"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20230803101153-nhoxy25",
+																			"Type": "NodeList",
+																			"ListData": {
+																				"Typ": 1
+																			},
+																			"Properties": {
+																				"id": "20230803101153-nhoxy25",
+																				"updated": "20230803101153"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20230803101153-90jufui",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "MS4=",
+																						"Num": 1
+																					},
+																					"Properties": {
+																						"id": "20230803101153-90jufui",
+																						"updated": "20230803101153"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20230803101153-d95cwzt",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20230803101153-d95cwzt",
+																								"updated": "20230803101153"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "​"
+																								},
+																								{
+																									"Type": "NodeTextMark",
+																									"TextMarkType": "code",
+																									"TextMarkTextContent": "First-fit"
+																								},
+																								{
+																									"Type": "NodeText",
+																									"Data": "​，找到大于等于 "
+																								},
+																								{
+																									"Type": "NodeTextMark",
+																									"TextMarkType": "code",
+																									"TextMarkTextContent": "size"
+																								},
+																								{
+																									"Type": "NodeText",
+																									"Data": "​ 的块立即返回"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20230803101153-9jg3sg9",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "Mi4=",
+																						"Num": 2
+																					},
+																					"Properties": {
+																						"id": "20230803101153-9jg3sg9",
+																						"updated": "20230803101153"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20230803101153-6xqcgil",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20230803101153-6xqcgil",
+																								"updated": "20230803101153"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "​"
+																								},
+																								{
+																									"Type": "NodeTextMark",
+																									"TextMarkType": "code",
+																									"TextMarkTextContent": "Best-fit"
+																								},
+																								{
+																									"Type": "NodeText",
+																									"Data": "​，遍历整个空闲列表，返回大于等于 "
+																								},
+																								{
+																									"Type": "NodeTextMark",
+																									"TextMarkType": "code",
+																									"TextMarkTextContent": "size"
+																								},
+																								{
+																									"Type": "NodeText",
+																									"Data": "​ 的最小分块"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20230803101153-chgfko9",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "My4=",
+																						"Num": 3
+																					},
+																					"Properties": {
+																						"id": "20230803101153-chgfko9",
+																						"updated": "20230803101153"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20230803101153-j1jntmk",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20230803101153-j1jntmk",
+																								"updated": "20230803101153"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "​"
+																								},
+																								{
+																									"Type": "NodeTextMark",
+																									"TextMarkType": "code",
+																									"TextMarkTextContent": "Worst-fit"
+																								},
+																								{
+																									"Type": "NodeText",
+																									"Data": "​，遍历整个空闲列表，找到最大的分块，然后切成两部分，一部分 "
+																								},
+																								{
+																									"Type": "NodeTextMark",
+																									"TextMarkType": "code",
+																									"TextMarkTextContent": "size"
+																								},
+																								{
+																									"Type": "NodeText",
+																									"Data": "​ 大小，并将该部分返回"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230803101135-04avhdi",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "My4=",
+																		"Num": 3
+																	},
+																	"Properties": {
+																		"id": "20230803101135-04avhdi"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803101135-3wjd5y2",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803101135-3wjd5y2"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "因为即便是使用 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "First-fit"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​ 策略，其操作仍是一个 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "O(n)"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​ 的操作，最坏情况是每次都要遍历到最后，同时因为碎片化，大对象的分配效率会更慢"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230803101314-364l0ln",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803101314-364l0ln",
+												"updated": "20230803101339"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "标记整理（Mark-Compact）算法"
+												}
+											]
+										},
+										{
+											"ID": "20230803101352-pmu61wm",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803101352-pmu61wm"
+											},
+											"Children": [
+												{
+													"ID": "20230803101352-zfkt8tu",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803101352-zfkt8tu"
+													},
+													"Children": [
+														{
+															"ID": "20230803101352-2li4ksu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803101352-2li4ksu",
+																"updated": "20230803101436"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "可以有效地解决"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "内存碎片，"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803101421-b1tgjol",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803101421-b1tgjol"
+													},
+													"Children": [
+														{
+															"ID": "20230803101421-e301ifo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803101421-e301ifo",
+																"updated": "20230803101438"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "它的标记阶段和标记清除算法没有什么不同，只是标记结束后，标记整理算法会将活着的对象（即不需要清理的对象）向内存的一端移动，最后清理掉边界的内存"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803095731-nfor18t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230803095731-nfor18t",
+						"updated": "20230803222549"
+					},
+					"Children": [
+						{
+							"ID": "20230803095734-wlvi4b7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803095734-wlvi4b7",
+								"updated": "20230803222549"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引用计数算法（​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "reference counting"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​）"
+								}
+							]
+						},
+						{
+							"ID": "20230803101750-jqz5g06",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803101750-jqz5g06",
+								"updated": "20230803102256"
+							},
+							"Children": [
+								{
+									"ID": "20230803101750-3572wh3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803101750-3572wh3"
+									},
+									"Children": [
+										{
+											"ID": "20230803101750-s1foccx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803101750-s1foccx",
+												"updated": "20230803101750"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引用计数（Reference Counting），这其实是早先的一种垃圾回收算法，它把 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "对象是否不再需要"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 简化定义为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "对象有没有其他对象引用到它"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，如果没有引用指向该对象（零引用），对象将被垃圾回收机制回收"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803101807-alsnszo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803101807-alsnszo"
+									},
+									"Children": [
+										{
+											"ID": "20230803101807-a06il3s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803101807-a06il3s",
+												"updated": "20230803101817"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "过程"
+												}
+											]
+										},
+										{
+											"ID": "20230803101823-tvwo3wr",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803101823-tvwo3wr",
+												"updated": "20230803101823"
+											},
+											"Children": [
+												{
+													"ID": "20230803101823-66dkzl4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803101823-66dkzl4",
+														"updated": "20230803101823"
+													},
+													"Children": [
+														{
+															"ID": "20230803101823-calkpwl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803101823-calkpwl",
+																"updated": "20230803101823"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当声明了一个变量并且将一个引用类型赋值给该变量的时候这个值的引用次数就为 1"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803101823-10uaqeg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803101823-10uaqeg",
+														"updated": "20230803101823"
+													},
+													"Children": [
+														{
+															"ID": "20230803101823-ajyvhb0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803101823-ajyvhb0",
+																"updated": "20230803101823"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果同一个值又被赋给另一个变量，那么引用数加 1"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803101823-a4p9tnp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230803101823-a4p9tnp",
+														"updated": "20230803101823"
+													},
+													"Children": [
+														{
+															"ID": "20230803101823-uys23he",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803101823-uys23he",
+																"updated": "20230803101823"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果该变量的值被其他的值覆盖了，则引用次数减 1"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803101823-y44ctno",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230803101823-y44ctno",
+														"updated": "20230803101823"
+													},
+													"Children": [
+														{
+															"ID": "20230803101823-lb8nmmh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803101823-lb8nmmh",
+																"updated": "20230803101823"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当这个值的引用次数变为 0 的时候，说明没有变量在使用，这个值没法被访问了，回收空间，垃圾回收器会在运行的时候清理掉引用次数为 0 的值占用的内存"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803102720-4db7oxw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230803102720-4db7oxw",
+										"updated": "20230803102725"
+									},
+									"Children": [
+										{
+											"ID": "20230803102720-nnxe38m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803102720-nnxe38m",
+												"updated": "20230803102725"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优点"
+												}
+											]
+										},
+										{
+											"ID": "20230803102725-2g1bwis",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803102725-2g1bwis",
+												"updated": "20230803102852"
+											},
+											"Children": [
+												{
+													"ID": "20230803221530-c8haamk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803221530-c8haamk"
+													},
+													"Children": [
+														{
+															"ID": "20230803221530-0m2kcsn",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803221530-0m2kcsn",
+																"updated": "20230803221531"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "思路简单，执行简单，实现简单，判断效率高无延迟，对程序不被长时间打断的实时环境比较有利"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803102240-votro0c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230803102240-votro0c",
+										"updated": "20230803102256"
+									},
+									"Children": [
+										{
+											"ID": "20230803102240-9hma8r2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803102240-9hma8r2",
+												"updated": "20230803102242"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缺点"
+												}
+											]
+										},
+										{
+											"ID": "20230803102243-5rkt0dd",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803102243-5rkt0dd",
+												"updated": "20230803102256"
+											},
+											"Children": [
+												{
+													"ID": "20230803102537-12209m7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803102537-12209m7"
+													},
+													"Children": [
+														{
+															"ID": "20230803102537-gjwabas",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803102537-gjwabas",
+																"updated": "20230803102542"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "循环引用，引用计数则不会释放，也就会造成大量无用内存占用"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803102534-hor3og9",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803102534-hor3og9"
+													},
+													"Children": [
+														{
+															"ID": "20230803102534-ikmjfnh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803102534-ikmjfnh",
+																"updated": "20230803102536"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对象 A 和 B 通过各自的属性相互引用着，按照上文的引用计数策略，它们的引用数量都是 2，但是，在函数 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "test"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 执行完成之后，对象 A 和 B 是要被清理的，但使用引用计数则不会被清理，因为它们的引用数量不会变成 0"
+																}
+															]
+														},
+														{
+															"ID": "20230803102338-l6ux00w",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230803102338-l6ux00w",
+																"updated": "20230803102704"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "anM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "function test(){\n  let A = new Object()\n  let B = new Object()\n  \n  // 造成循环引用\n  A.b = B\n  B.a = A\n  \n  // 切断引用关系\n  A.b = null\n  B.a = null\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803095718-k4pc12i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230803095718-k4pc12i",
+				"updated": "20230803103245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "V8对GC的优化"
+				}
+			]
+		},
+		{
+			"ID": "20230803103323-zr6cfy7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803103323-zr6cfy7",
+				"updated": "20230803103325"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分代式垃圾回收"
+				}
+			]
+		},
+		{
+			"ID": "20230803103327-mhticl7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803103327-mhticl7",
+				"updated": "20230803103345"
+			},
+			"Children": [
+				{
+					"ID": "20230803103345-78d4xyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803103345-78d4xyz",
+						"updated": "20230803103345"
+					},
+					"Children": [
+						{
+							"ID": "20230803103345-y27bg3u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803103345-y27bg3u",
+								"updated": "20230803103346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "V8 的垃圾回收策略主要基于分代式垃圾回收机制，V8 中将堆内存分为新生代和老生代两区域，采用不同的垃圾回收器也就是不同的策略管理垃圾回收"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803103346-yhbg36k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230803103346-yhbg36k"
+					},
+					"Children": [
+						{
+							"ID": "20230803103346-fq7m3zn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803103346-fq7m3zn",
+								"updated": "20230803103411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新生代的对象为存活时间较短的对象，简单来说就是新产生的对象，通常只支持 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "1～8M"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的容量，而老生代的对象为存活事件较长或常驻内存的对象，简单来说就是经历过新生代垃圾回收后还存活下来的对象，容量通常比较大"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803103412-o6z7rvw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230803103412-o6z7rvw"
+					},
+					"Children": [
+						{
+							"ID": "20230803103603-q6h3yd1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803103603-q6h3yd1",
+								"updated": "20230803103603"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新生代垃圾回收"
+								}
+							]
+						},
+						{
+							"ID": "20230803103606-d89oqju",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803103606-d89oqju"
+							},
+							"Children": [
+								{
+									"ID": "20230803103605-bgq5rul",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803103605-bgq5rul"
+									},
+									"Children": [
+										{
+											"ID": "20230803103605-7pfemlb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803103605-7pfemlb",
+												"updated": "20230803103622"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "新生代对象是通过一个名为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Scavenge"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的算法进行垃圾回收，在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Scavenge算法"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的具体实现中，主要采用了一种复制式的方法即 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Cheney算法"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803103623-ljncr7v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803103623-ljncr7v"
+									},
+									"Children": [
+										{
+											"ID": "20230803103623-x8wvv46",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803103623-x8wvv46",
+												"updated": "20230803103749"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Cheney算法"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 中将堆内存一分为二，一个是处于使用状态的空间我们暂且称之为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "使用区"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，一个是处于闲置状态的空间我们称之为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "空闲区"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										},
+										{
+											"ID": "20230803103750-emlwl7u",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803103750-emlwl7u"
+											},
+											"Children": [
+												{
+													"ID": "20230803103750-hh5uuya",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803103750-hh5uuya"
+													},
+													"Children": [
+														{
+															"ID": "20230803103750-jamon87",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803103750-jamon87",
+																"updated": "20230803103755"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "新加入的对象都会存放到使用区，当使用区快被写满时，就需要执行一次垃圾清理操作"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803103755-4zgjkb2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803103755-4zgjkb2"
+													},
+													"Children": [
+														{
+															"ID": "20230803103755-lqpv5xn",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803103755-lqpv5xn",
+																"updated": "20230803103946"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当开始进行垃圾回收时，新生代垃圾回收器会对使用区中的活动对象做标记，标记完成之后将使用区的活动对象复制进空闲区并进行排序，随后进入垃圾清理阶段，即将非活动对象占用的空间清理掉"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803103947-80oewk5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230803103947-80oewk5"
+													},
+													"Children": [
+														{
+															"ID": "20230803103947-c3emdq2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803103947-c3emdq2",
+																"updated": "20230803103951"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "最后进行角色互换，把原来的使用区变成空闲区，把原来的空闲区变成使用区"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803103952-4yuan8o",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230803103952-4yuan8o"
+													},
+													"Children": [
+														{
+															"ID": "20230803103952-lqobsai",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803103952-lqobsai",
+																"updated": "20230803104023"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当一个对象经过多次复制后依然存活，它将会被认为是生命周期较长的对象，随后会被移动到老生代中，采用老生代的垃圾回收策略进行管理"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803104048-v09kzls",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230803104048-v09kzls"
+													},
+													"Children": [
+														{
+															"ID": "20230803104048-6ciltjx",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803104048-6ciltjx",
+																"updated": "20230803104049"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果复制一个对象到空闲区时，空闲区空间占用超过了 25%，那么这个对象会被直接晋升到老生代空间中"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803104051-qdr53s6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20230803104051-qdr53s6"
+													},
+													"Children": [
+														{
+															"ID": "20230803104051-w64qbbp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803104051-w64qbbp",
+																"updated": "20230803104144"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "设置为 25% 的比例的原因是，当完成 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "Scavenge"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 回收后，空闲区将翻转成使用区，继续进行对象内存的分配，若占比过大，将会影响后续内存分配"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803104223-3u03tsj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230803104223-3u03tsj"
+					},
+					"Children": [
+						{
+							"ID": "20230803104227-pyfyflf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803104227-pyfyflf",
+								"updated": "20230803104227"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "老生代垃圾回收"
+								}
+							]
+						},
+						{
+							"ID": "20230803104235-r45hdst",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803104235-r45hdst"
+							},
+							"Children": [
+								{
+									"ID": "20230803104235-ropkdrc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803104235-ropkdrc"
+									},
+									"Children": [
+										{
+											"ID": "20230803104235-8a2vdmj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803104235-8a2vdmj",
+												"updated": "20230803104442"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大多数占用空间大、存活时间长的对象会被分配到老生代里"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803104442-rh3tkxo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803104442-rh3tkxo"
+									},
+									"Children": [
+										{
+											"ID": "20230803104442-p75lx5c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803104442-p75lx5c",
+												"updated": "20230803104622"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "老生代垃圾回收器来管理其垃圾回收执行，它的整个流程就采用的是标记清除算法"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803104631-muz4pza",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230803104631-muz4pza"
+					},
+					"Children": [
+						{
+							"ID": "20230803104631-9s7qczk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803104631-9s7qczk",
+								"updated": "20230803104639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点"
+								}
+							]
+						},
+						{
+							"ID": "20230803104639-ipm3cjz",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803104639-ipm3cjz"
+							},
+							"Children": [
+								{
+									"ID": "20230803104709-q6exg8w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803104709-q6exg8w"
+									},
+									"Children": [
+										{
+											"ID": "20230803104709-mvg2egh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803104709-mvg2egh",
+												"updated": "20230803104713"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "新老生代的回收机制及频率是不同的，可以说此机制的出现很大程度提高了垃圾回收机制的效率"
+												}
+											]
+										},
+										{
+											"ID": "20230803104746-7k31tua",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803104746-7k31tua"
+											},
+											"Children": [
+												{
+													"ID": "20230803104745-tr6bxf3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803104745-tr6bxf3"
+													},
+													"Children": [
+														{
+															"ID": "20230803104745-funzws8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803104745-funzws8",
+																"updated": "20230803104817"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "小、新、存活时间短的对象作为新生代，采用一小块内存频率较高的快速清理"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803104757-yob80bf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803104757-yob80bf"
+													},
+													"Children": [
+														{
+															"ID": "20230803104757-lg17u4s",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803104757-lg17u4s",
+																"updated": "20230803104803"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "大、老、存活时间长的对象作为老生代，使其很少接受检查"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803104840-no9dabd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803104840-no9dabd",
+				"updated": "20230803104840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并行回收(Parallel)"
+				}
+			]
+		},
+		{
+			"ID": "20230803104910-3y1ms3j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803104910-3y1ms3j",
+				"updated": "20230803105140"
+			},
+			"Children": [
+				{
+					"ID": "20230803104911-myefevk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803104911-myefevk",
+						"updated": "20230803104911"
+					},
+					"Children": [
+						{
+							"ID": "20230803104911-vmud15a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803104911-vmud15a",
+								"updated": "20230803104933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "全停顿（Stop-The-World"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是一门单线程的语言，它是运行在主线程上的，那在进行垃圾回收时就会阻塞 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 脚本的执行，需等待垃圾回收完毕后再恢复脚本执行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803105005-ndvvhan",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230803105005-ndvvhan"
+					},
+					"Children": [
+						{
+							"ID": "20230803105005-940y31s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803105005-940y31s",
+								"updated": "20230803105006"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一次 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "GC"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的时间过长，对用户来说就可能造成页面卡顿等问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803105024-m0vtnbe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230803105024-m0vtnbe"
+					},
+					"Children": [
+						{
+							"ID": "20230803105024-srjl2xg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803105024-srjl2xg",
+								"updated": "20230803105024"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "垃圾回收器在主线程上执行的过程中，开启多个辅助线程，同时执行同样的回收工作"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803105140-lgqnp65",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230803105140-lgqnp65",
+						"updated": "20230803105140"
+					},
+					"Children": [
+						{
+							"ID": "20230803105140-n4hxw71",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803105140-n4hxw71",
+								"updated": "20230803105140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新生代对象空间就采用并行策略，在执行垃圾回收的过程中，会启动了多个线程来负责新生代中的垃圾清理操作，这些线程同时将对象空间中的数据移动到空闲区域，这个过程中由于数据地址会发生改变，所以还需要同步更新引用这些对象的指针"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803105233-m7qxmmw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803105233-m7qxmmw",
+				"updated": "20230803105233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "增量标记与懒性清理"
+				}
+			]
+		},
+		{
+			"ID": "20230803105832-1zano1t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803105832-1zano1t",
+				"updated": "20230803215757"
+			},
+			"Children": [
+				{
+					"ID": "20230803105833-hndhpfl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803105833-hndhpfl",
+						"updated": "20230803105833"
+					},
+					"Children": [
+						{
+							"ID": "20230803105833-6w8vv9f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803105833-6w8vv9f",
+								"updated": "20230803110200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于老生代来说，它的内部存放的都是一些比较大的对象，对于这些大的对象 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "GC"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 时哪怕我们使用并行策略依然可能会消耗大量时间，为了减少全停顿的时间】"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803110200-haz0qo8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230803110200-haz0qo8",
+						"updated": "20230803124216"
+					},
+					"Children": [
+						{
+							"ID": "20230803110200-eo1kpr5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803110200-eo1kpr5",
+								"updated": "20230803110210"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增量标记"
+								}
+							]
+						},
+						{
+							"ID": "20230803110210-1hcbh42",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803110210-1hcbh42",
+								"updated": "20230803124216"
+							},
+							"Children": [
+								{
+									"ID": "20230803110210-42saxdf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803110210-42saxdf"
+									},
+									"Children": [
+										{
+											"ID": "20230803110210-ym6x0g3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803110210-ym6x0g3",
+												"updated": "20230803110233"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将一次 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "GC"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 标记的过程，分成了很多小步，每执行完一小步就让应用逻辑执行一会儿，这样交替多次后完成一轮 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "GC"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 标记"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803124208-5wmqhh6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803124208-5wmqhh6",
+										"updated": "20230803124216"
+									},
+									"Children": [
+										{
+											"ID": "20230803124211-gnpzsyn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803124211-gnpzsyn",
+												"updated": "20230803124211"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "三色标记法(暂停与恢复)"
+												}
+											]
+										},
+										{
+											"ID": "20230803124216-q16l9xn",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230803124216-q16l9xn"
+											},
+											"Children": [
+												{
+													"ID": "20230803124216-uf23qzf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230803124216-uf23qzf"
+													},
+													"Children": [
+														{
+															"ID": "20230803124216-cms9qd6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803124216-cms9qd6",
+																"updated": "20230803124251"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "标记清理算法在没有采用增量算法之前，单纯使用黑色和白色来标记数据"
+																}
+															]
+														},
+														{
+															"ID": "20230803124737-cwqeo4p",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230803124737-cwqeo4p"
+															},
+															"Children": [
+																{
+																	"ID": "20230803124737-vlx3ebt",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230803124737-vlx3ebt"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803124737-aig73co",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803124737-aig73co",
+																				"updated": "20230803124751"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "在执行一次完整的 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "GC"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​ 标记前，垃圾回收器会将所有的数据置为白色，然后垃圾回收器在会从一组跟对象出发，将所有能访问到的数据标记为黑色"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230803124752-wo1bir2",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230803124752-wo1bir2"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803124752-gcbtl2v",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803124752-gcbtl2v",
+																				"updated": "20230803124758"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "遍历结束之后，标记为黑色的数据对象就是活动对象，剩余的白色数据对象也就是待清理的垃圾对象"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803124252-wh9ngl8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230803124252-wh9ngl8"
+													},
+													"Children": [
+														{
+															"ID": "20230803124252-qw2nb24",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803124252-qw2nb24",
+																"updated": "20230803124919"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "三色标记法即使用每个对象的两个标记位和一个标记工作表来实现标记"
+																}
+															]
+														},
+														{
+															"ID": "20230803124925-h25z8lo",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230803124925-h25z8lo",
+																"updated": "20230803124925"
+															},
+															"Children": [
+																{
+																	"ID": "20230803124925-ofmr9fo",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230803124925-ofmr9fo",
+																		"updated": "20230803124925"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803124925-hdctl4w",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803124925-hdctl4w",
+																				"updated": "20230803124925"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "白色指的是未被标记的对象"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230803124925-3lql4sy",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230803124925-3lql4sy",
+																		"updated": "20230803124925"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803124925-rjw3exx",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803124925-rjw3exx",
+																				"updated": "20230803124925"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "灰色指自身被标记，成员变量（该对象的引用对象）未被标记"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230803124925-z35svad",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "My4=",
+																		"Num": 3
+																	},
+																	"Properties": {
+																		"id": "20230803124925-z35svad",
+																		"updated": "20230803124925"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230803124925-6kom89f",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230803124925-6kom89f",
+																				"updated": "20230803124925"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "黑色指自身和成员变量皆被标记"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803125233-1g99s45",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230803125233-1g99s45"
+													},
+													"Children": [
+														{
+															"ID": "20230803125233-j8gzdgu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803125233-j8gzdgu",
+																"updated": "20230803125234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "可以直接通过当前内存中有没有灰色节点来判断整个标记是否完成，如没有灰色节点，直接进入清理阶段，如还有灰色标记，恢复时直接从灰色的节点开始继续执行就可以"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230803125235-x0lkc4f",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230803125235-x0lkc4f"
+													},
+													"Children": [
+														{
+															"ID": "20230803125235-t8qzb0u",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230803125235-t8qzb0u",
+																"updated": "20230803214812"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "三色标记法的 mark 操作可以渐进执行的而不需每次都扫描整个内存空间，可以很好的配合增量回收进行暂停恢复的一些操作，从而减少 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "全停顿"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 的时间"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803214953-f51xpcz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230803214953-f51xpcz"
+					},
+					"Children": [
+						{
+							"ID": "20230803214955-gnuyezu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803214955-gnuyezu",
+								"updated": "20230803214955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "写屏障(增量中修改引用)"
+								}
+							]
+						},
+						{
+							"ID": "20230803215157-s5pr9i7",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803215157-s5pr9i7"
+							},
+							"Children": [
+								{
+									"ID": "20230803215157-t094qp1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803215157-t094qp1"
+									},
+									"Children": [
+										{
+											"ID": "20230803215157-lccxfvv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215157-lccxfvv",
+												"updated": "20230803215158"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一次完整的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "GC"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 标记分块暂停后，执行任务程序时内存中标记好的对象引用关系被修改了，增量中修改引用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803215158-1qbvzaj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803215158-1qbvzaj"
+									},
+									"Children": [
+										{
+											"ID": "20230803215158-x7vx6it",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215158-x7vx6it",
+												"updated": "20230803215239"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一旦有黑色对象引用白色对象，该机制会强制将引用的白色对象改为灰色，从而保证下一次增量 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "GC"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 标记阶段可以正确标记，这个机制也被称作 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "强三色不变性"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803215250-55ukymp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230803215250-55ukymp"
+					},
+					"Children": [
+						{
+							"ID": "20230803215251-i4oaytq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803215251-i4oaytq",
+								"updated": "20230803215251"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "懒性清理"
+								}
+							]
+						},
+						{
+							"ID": "20230803215340-aqucbuq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803215340-aqucbuq"
+							},
+							"Children": [
+								{
+									"ID": "20230803215340-ybxeoeh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803215340-ybxeoeh"
+									},
+									"Children": [
+										{
+											"ID": "20230803215340-k4tkn9d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215340-k4tkn9d",
+												"updated": "20230803215340"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "增量标记其实只是对活动对象和非活动对象进行标记，对于真正的清理释放内存 V8 采用的是惰性清理(Lazy Sweeping)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803215341-59vfq07",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803215341-59vfq07"
+									},
+									"Children": [
+										{
+											"ID": "20230803215402-lwpttpd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215402-lwpttpd",
+												"updated": "20230803215414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当增量标记完成后，假如当前的可用内存足以让我们快速的执行代码，其实我们是没必要立即清理内存的，可以将清理过程稍微延迟一下"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803215414-dy3qq93",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230803215414-dy3qq93"
+									},
+									"Children": [
+										{
+											"ID": "20230803215414-7dmrhu7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215414-7dmrhu7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "JavaScript"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 脚本代码先执行，也无需一次性清理完所有非活动对象内存，可以按需逐一进行清理直到所有的非活动对象内存都清理完毕，后面再接着执行增量标记"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803215426-5guc791",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230803215426-5guc791"
+					},
+					"Children": [
+						{
+							"ID": "20230803215426-3jbn6y8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803215426-3jbn6y8",
+								"updated": "20230803215428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点"
+								}
+							]
+						},
+						{
+							"ID": "20230803215429-zaoqq36",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803215429-zaoqq36"
+							},
+							"Children": [
+								{
+									"ID": "20230803215429-et0jjkn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803215429-et0jjkn"
+									},
+									"Children": [
+										{
+											"ID": "20230803215429-ai4f89w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215429-ai4f89w",
+												"updated": "20230803215444"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使得主线程的停顿时间大大减少了，让用户与浏览器交互的过程变得更加流畅"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803215445-pihxqrq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230803215445-pihxqrq",
+						"updated": "20230803215757"
+					},
+					"Children": [
+						{
+							"ID": "20230803215445-276hdl5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803215445-276hdl5",
+								"updated": "20230803215727"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点"
+								}
+							]
+						},
+						{
+							"ID": "20230803215728-nvkjt92",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230803215728-nvkjt92",
+								"updated": "20230803215757"
+							},
+							"Children": [
+								{
+									"ID": "20230803215728-thrd7km",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230803215728-thrd7km"
+									},
+									"Children": [
+										{
+											"ID": "20230803215728-eh5rvp4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215728-eh5rvp4",
+												"updated": "20230803215748"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "并没有减少主线程的总暂停的时间，甚至会略微增加"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230803215748-tzzu0rl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230803215748-tzzu0rl",
+										"updated": "20230803215757"
+									},
+									"Children": [
+										{
+											"ID": "20230803215748-fst9rrb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230803215748-fst9rrb",
+												"updated": "20230803215757"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "由于写屏障机制的成本，增量标记可能会降低应用程序的吞吐量"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803110159-48v94aj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803110159-48v94aj"
 			}
+		},
+		{
+			"ID": "20230803215820-zlxc74y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803215820-zlxc74y",
+				"updated": "20230803215821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并发回收(Concurrent)"
+				}
+			]
+		},
+		{
+			"ID": "20230803215906-czttos8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803215906-czttos8",
+				"updated": "20230803215907"
+			},
+			"Children": [
+				{
+					"ID": "20230803215907-kph7do9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803215907-kph7do9",
+						"updated": "20230803215907"
+					},
+					"Children": [
+						{
+							"ID": "20230803215907-6t329po",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803215907-6t329po",
+								"updated": "20230803215907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主线程在执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的过程中，辅助线程能够在后台完成执行垃圾回收的操作，辅助线程在执行垃圾回收的时候，主线程也可以自由执行而不会被挂起"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803220003-a1w6kn1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803220003-a1w6kn1"
+			}
+		},
+		{
+			"ID": "20230803220518-0k9ps1e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803220518-0k9ps1e",
+				"updated": "20230803220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老生代垃圾回收器"
+				}
+			]
+		},
+		{
+			"ID": "20230803220732-zo09fq4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230803220732-zo09fq4",
+				"updated": "20230803220757"
+			},
+			"Children": [
+				{
+					"ID": "20230803220733-r1ao3gj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230803220733-r1ao3gj",
+						"updated": "20230803220733"
+					},
+					"Children": [
+						{
+							"ID": "20230803220733-mml4l8v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803220733-mml4l8v",
+								"updated": "20230803220744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主要使用并发标记，主线程在开始执行 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 时，辅助线程也同时执行标记操作（标记操作全都由辅助线程完成）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803220746-nqywm5x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230803220746-nqywm5x"
+					},
+					"Children": [
+						{
+							"ID": "20230803220746-0c7v4hu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803220746-0c7v4hu",
+								"updated": "20230803220750"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标记完成之后，再执行并行清理操作（主线程在执行清理操作时，多个辅助线程也同时执行清理操作）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803220751-3qvc9fi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230803220751-3qvc9fi",
+						"updated": "20230803220757"
+					},
+					"Children": [
+						{
+							"ID": "20230803220751-d6l2w05",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803220751-d6l2w05",
+								"updated": "20230803220757"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清理的任务会采用增量的方式分批在各个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "JavaScript"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 任务之间执行"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230803221158-5obqs7f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230803221158-5obqs7f",
+				"updated": "20230803221205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230803221206-zk88hj3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230803221206-zk88hj3",
+				"updated": "20230803222941"
+			},
+			"Children": [
+				{
+					"ID": "20230803221207-lh8zzb8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230803221207-lh8zzb8",
+						"updated": "20230803221207"
+					},
+					"Children": [
+						{
+							"ID": "20230803221207-4ab5k2d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803221207-4ab5k2d",
+								"updated": "20230803221207"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6981588276356317214?searchId=2023080309444545A68F790B5CD41F11D8%5C",
+									"TextMarkTextContent": "「硬核JS」你真的了解垃圾回收机制吗 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230803222929-6w3x8lt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230803222929-6w3x8lt",
+						"updated": "20230803222941"
+					},
+					"Children": [
+						{
+							"ID": "20230803222929-3ez3fff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230803222929-3ez3fff",
+								"updated": "20230803222941"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7195738269412917305",
+									"TextMarkTextContent": "一文搞懂《垃圾回收机制》 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
