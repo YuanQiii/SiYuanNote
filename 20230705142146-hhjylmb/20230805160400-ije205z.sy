@@ -1,0 +1,4137 @@
+{
+	"ID": "20230805160400-ije205z",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230805160400-ije205z",
+		"title": "Promise",
+		"updated": "20230805171522"
+	},
+	"Children": [
+		{
+			"ID": "20230805160404-966zpqa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-966zpqa",
+				"updated": "20230805160510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概念"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-59eb93k",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-59eb93k",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-ueffoqz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230805160404-ueffoqz",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-8jcu7v2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-8jcu7v2",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​是一个对象，从它可以获取异步操作的消息"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-3dcu5h8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-3dcu5h8",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-3unwolh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-3unwolh",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-ltr9r52",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160404-ltr9r52",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-apazqhi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-apazqhi",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象的状态不受外界影响，只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态，有三种状态："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "pending"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（进行中）、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fulfilled"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（已成功）和"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "rejected"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（已失败）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-7kb0kws",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805160404-7kb0kws",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-vdv8ppo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-vdv8ppo",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一旦状态改变，就不会再变，任何时候都可以得到这个结果"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-76233pw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-76233pw",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "缺点"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-fnqsk7u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-fnqsk7u",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-poal93p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160404-poal93p",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-lhn8zrf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-lhn8zrf",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无法取消"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，一旦新建它就会立即执行，无法中途取消"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-6i6f8s6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805160404-6i6f8s6",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-dl2r6gu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-dl2r6gu",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果不设置回调函数，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​内部抛出的错误，不会反应到外部"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-4a38jqs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230805160404-4a38jqs",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-f553msz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-f553msz",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当处于"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "pending"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-lj4s65i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-lj4s65i",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基本用法"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-txqxydw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-txqxydw",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-q084kkv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160404-q084kkv",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-k5qgn7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-k5qgn7x",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​构造函数接受一个函数作为参数，该函数的两个参数分别是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "resolve"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​和"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "reject"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，是两个函数，由 JavaScript 引擎提供，不用自己部署"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-sv7f9mb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805160404-sv7f9mb",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-t3e38s8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-t3e38s8",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​方法可以接受两个回调函数作为参数，第一个回调函数是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​对象的状态变为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "resolved"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​时调用，第二个回调函数是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​对象的状态变为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "rejected"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​时调用。其中，第二个函数是可选的，不一定要提供"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-p8aszex",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230805160404-p8aszex",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-zc67h0b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-zc67h0b",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "resolve"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​或"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "reject"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​并不会终结 Promise 的参数函数的执行"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160814-f7z4qnp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230805160814-f7z4qnp",
+				"updated": "20230805160822"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "高级用法"
+				}
+			]
+		},
+		{
+			"ID": "20230805160822-g0y95sd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230805160822-g0y95sd",
+				"updated": "20230805165910"
+			},
+			"Children": [
+				{
+					"ID": "20230805160926-mzpzncl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160926-mzpzncl",
+						"updated": "20230805165910"
+					},
+					"Children": [
+						{
+							"ID": "20230805160926-rhg6xkx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160926-rhg6xkx",
+								"updated": "20230805160926"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "promise数组串行执行"
+								}
+							]
+						},
+						{
+							"ID": "20230805160929-lafr6nx",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230805160929-lafr6nx",
+								"updated": "20230805165910"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\nfunction getSkillPromise(value) {\n    return new Promise((resolve, reject) =\u003e {\n        setTimeout(() =\u003e {\n            resolve(value)\n            console.log(value);\n        }, 1000)\n    })\n}\n\nconst skillsPromise = [() =\u003e getSkillPromise('js'), () =\u003e getSkillPromise('vue'), () =\u003e getSkillPromise('python'), () =\u003e getSkillPromise('django')]\n\nasync function fn1() {\n    for (const skillPromise of skillsPromise) {\n        const res = await skillPromise()\n    }\n}\n\nfn1()\n\n// 使用then函数来串联多个promise，从而实现串行执行\nfunction fn2() {\n    skillsPromise.reduce((currentPromise, nextPromise) =\u003e currentPromise.then(() =\u003e nextPromise()), Promise.resolve())// 创建一个初始promise，用于链接数组内的promise)\n}\n\nfn2()\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805165938-hh73utn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230805165938-hh73utn",
+				"updated": "20230805170217"
+			},
+			"Children": [
+				{
+					"ID": "20230805165939-cnhrbew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805165939-cnhrbew",
+						"updated": "20230805170217"
+					},
+					"Children": [
+						{
+							"ID": "20230805165943-jqprwy3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805165943-jqprwy3",
+								"updated": "20230805165943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "async/await的另类用法"
+								}
+							]
+						},
+						{
+							"ID": "20230805165952-xfii029",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805165952-xfii029",
+								"updated": "20230805170217"
+							},
+							"Children": [
+								{
+									"ID": "20230805165945-n1s4pue",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805165945-n1s4pue"
+									},
+									"Children": [
+										{
+											"ID": "20230805165945-x3q3vcw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805165945-x3q3vcw",
+												"updated": "20230805165952"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "async函数"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​其实就是一个返回promise的函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805165955-gkjrjql",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805165955-gkjrjql",
+										"updated": "20230805170217"
+									},
+									"Children": [
+										{
+											"ID": "20230805165955-civorx4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805165955-civorx4",
+												"updated": "20230805170213"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "await后面跟的是非promise对象的值时，它会将这个值使用promise对象包装，因此await后的代码一定是异步执行的"
+												}
+											]
+										},
+										{
+											"ID": "20230805170213-ajgzrnh",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230805170213-ajgzrnh",
+												"updated": "20230805170217"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "Promise.resolve().then(() =\u003e {\n  console.log(1);\n});\nawait 2;\nconsole.log(2);\n// 打印顺序位：1  2\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805170328-axu7me0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230805170328-axu7me0",
+				"updated": "20230805170713"
+			},
+			"Children": [
+				{
+					"ID": "20230805170329-u64bsuf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230805170329-u64bsuf",
+						"updated": "20230805170713"
+					},
+					"Children": [
+						{
+							"ID": "20230805170335-x0lw108",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805170335-x0lw108",
+								"updated": "20230805170335"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "promise实现请求共享"
+								}
+							]
+						},
+						{
+							"ID": "20230805170348-6uxgz31",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805170348-6uxgz31"
+							},
+							"Children": [
+								{
+									"ID": "20230805170337-8meehql",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805170337-8meehql"
+									},
+									"Children": [
+										{
+											"ID": "20230805170337-indfatl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805170337-indfatl",
+												"updated": "20230805170349"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当一个请求已发出但还未响应时，又发起了相同请求，就会造成了请求浪费，此时我们就可以将第一个请求的响应共享给第二个请求"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805170418-wlq4v8h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805170418-wlq4v8h"
+									},
+									"Children": [
+										{
+											"ID": "20230805170418-o9ahah0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805170418-o9ahah0",
+												"updated": "20230805170425"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "请求共享使用场景"
+												}
+											]
+										},
+										{
+											"ID": "20230805170428-spi6vdt",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230805170428-spi6vdt"
+											},
+											"Children": [
+												{
+													"ID": "20230805170427-ub02bo8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230805170427-ub02bo8"
+													},
+													"Children": [
+														{
+															"ID": "20230805170427-d492oii",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805170427-d492oii",
+																"updated": "20230805170432"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当一个页面同时渲染多个内部自获取数据的组件时"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230805170434-ieuhrkk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230805170434-ieuhrkk"
+													},
+													"Children": [
+														{
+															"ID": "20230805170434-pzqcafq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805170434-pzqcafq",
+																"updated": "20230805170447"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "提交按钮未被禁用，用户连续点击了多次提交按钮"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230805170448-gqudzjo",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230805170448-gqudzjo"
+													},
+													"Children": [
+														{
+															"ID": "20230805170448-wb4by1o",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805170448-wb4by1o",
+																"updated": "20230805170452"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在预加载数据的情况下，还未完成预加载就进入了预加载页面"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230805170708-ii6szue",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230805170708-ii6szue",
+								"updated": "20230805170713"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const pendingPromises = {};\nfunction request(type, url, data) {\n  // 使用请求信息作为唯一的请求key，缓存正在请求的promise对象\n  // 相同key的请求将复用promise\n  const requestKey = JSON.stringify([type, url, data]);\n  if (pendingPromises[requestKey]) {\n    return pendingPromises[requestKey];\n  }\n  const fetchPromise = fetch(url, {\n    method: type,\n    data: JSON.stringify(data)\n  })\n  .then(response =\u003e response.json())\n  .finally(() =\u003e {\n    delete pendingPromises[requestKey];\n  });\n  return pendingPromises[requestKey] = fetchPromise;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-p73hgj7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230805160404-p73hgj7",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方法"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-u4yfq3o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230805160404-u4yfq3o",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-j4tijjx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160404-j4tijjx",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-do63sab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-do63sab",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.resolve()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-r2liq5p",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-r2liq5p",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-ucs6l19",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-ucs6l19",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-i25fvuo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-i25fvuo",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回一个新的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，该实例的状态为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "resolved"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-mcsqlyq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-mcsqlyq",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-zu9p8m2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-zu9p8m2",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将现有对象转为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​对象"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-0k12rdp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805160404-0k12rdp",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-tgzfe5u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-tgzfe5u",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "参数分成四种情况"
+												}
+											]
+										},
+										{
+											"ID": "20230805160404-c48q38p",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230805160404-c48q38p",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"ID": "20230805160404-mymuhth",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230805160404-mymuhth",
+														"updated": "20230805160404"
+													},
+													"Children": [
+														{
+															"ID": "20230805160404-ean5p33",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805160404-ean5p33",
+																"updated": "20230805160404"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "参数是一个"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "Promise"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​实例，那么"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "Promise.resolve"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​将不做任何修改、原封不动地返回这个实例"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230805160404-0u16pb4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230805160404-0u16pb4",
+														"updated": "20230805160404"
+													},
+													"Children": [
+														{
+															"ID": "20230805160404-rqb7v58",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805160404-rqb7v58",
+																"updated": "20230805160404"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "参数是一个"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "thenable"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​对象，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "thenable"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​对象指的是具有"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "then"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​方法的对象"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230805160404-36hg44a",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230805160404-36hg44a",
+														"updated": "20230805160404"
+													},
+													"Children": [
+														{
+															"ID": "20230805160404-tl60wce",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805160404-tl60wce",
+																"updated": "20230805160404"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "参数不是具有"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "then"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​方法的对象，或根本就不是对象，则"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "Promise.resolve"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​方法返回一个新的 Promise 对象，状态为"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "resolved"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​，参数会传给回调函数"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230805160404-8m8j5om",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230805160404-8m8j5om",
+														"updated": "20230805160404"
+													},
+													"Children": [
+														{
+															"ID": "20230805160404-zg1jhp8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230805160404-zg1jhp8",
+																"updated": "20230805160404"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "不带有任何参数，直接返回一个"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "resolved"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​状态的 Promise 对象"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-h1zaona",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230805160404-h1zaona",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-b0kmnv9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-b0kmnv9",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在本轮“事件循环”（event loop）的结束时执行，而不是在下一轮“事件循环”的开始时"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-owscuhl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805160404-owscuhl",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-kmcftq1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-kmcftq1",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.reject()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-dpeqin9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-dpeqin9",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-rswuvs9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-rswuvs9",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-6ewh459",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-6ewh459",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回一个新的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，该实例的状态为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "rejected"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-8ap4mwk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-8ap4mwk",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-pgz64kc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-pgz64kc",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise.reject()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法的参数，会原封不动地作为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "reject"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​的理由，变成后续方法的参数"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-gmg4fr6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230805160404-gmg4fr6",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-jlvzup3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-jlvzup3",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.try()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-ho0n28i",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-ho0n28i",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-vstqyin",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-vstqyin",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-gyhzxph",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-gyhzxph",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以统一用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "promise.catch()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​捕获所有同步和异步的错误"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-vbb7nhj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-vbb7nhj",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-f5p0j0b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-f5p0j0b",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": ".catch只能捕获异步错误"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-glgcf4h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230805160404-glgcf4h",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-i3o9wuo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-i3o9wuo",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.all()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-8fvockx",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-8fvockx",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-kl0r735",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-kl0r735",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-3sejkpw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-3sejkpw",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将多个"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，包装成一个新的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-rckvyfm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-rckvyfm",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-feic4ie",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-feic4ie",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接受一个数组作为参数，如果不是，就会先调用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise.resolve"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法，将参数转为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，参数可以不是数组，但必须具有 Iterator 接口，且返回的每个成员都是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-8wb6o9u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805160404-8wb6o9u",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-qwxpshd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-qwxpshd",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接收一组异步任务，然后并行执行异步任务，并且在所有异步操作执行完后才执行回调"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-nkjjmtx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230805160404-nkjjmtx",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-2tps64b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-2tps64b",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果作为参数的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，自己定义了"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "catch"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法，那么它一旦被"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "rejected"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，并不会触发"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise.all()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "catch"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-usulxvn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230805160404-usulxvn",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-q1smqoo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-q1smqoo",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回值为异步函数的返回值组成的数组，数组的顺序和"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise.all()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​接收到的数组顺序一致"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-7uigrnm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230805160404-7uigrnm",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "SmF2YVNjcmlwdA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "function http(value, flag) {\n  return new Promise((resolve, reject) =\u003e {\n    setTimeout(() =\u003e {\n      if (Math.random() \u003c 0.5) { // 设定一个成功或者失败的条件\n        resolve(value)\n        console.log(flag ? '重新请求成功' : '第一次请求成功', value)\n      } else {\n        console.log(flag ? '重新请求失败' : '第一次请求失败', value)\n        resolve(http(value, true))\n      }\n    }, Math.random() * 2000)\n  })\n}\nlet A = http('A');\nlet B = http('B');\nlet C = http('C');\nlet D = http('D');\n\nPromise.all([A, B, C, D]).then(res =\u003e {\n  console.log('成功', res)\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-10numdl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230805160404-10numdl",
+				"updated": "20230805171522"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-sw30awt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230805160404-sw30awt",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-8673r1j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-8673r1j",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.allSettled()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-heolvfv",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-heolvfv",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-ae8tv6b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-ae8tv6b",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-pnunyqs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-pnunyqs",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接受一组"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例作为参数，包装成一个新的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，只有等到所有这些参数实例都返回结果，不管是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "fulfilled"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​还是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "rejected"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，包装实例都会结束"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-s4qlrwt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-s4qlrwt",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-8t17ose",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-8t17ose",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "状态只可能变成"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "fulfilled"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-0g5rg2w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805160404-0g5rg2w",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-oji0jek",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-oji0jek",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回值为由对象组成的数组，对象属性有"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "status"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​和"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "value"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-s8oouls",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230805160404-s8oouls",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-7u13jt6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-7u13jt6",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不关心异步操作的结果，只关心这些操作有没有结束"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-i1remnm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230805160404-i1remnm",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-a2w9cbz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-a2w9cbz",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.race()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-bgck9ek",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-bgck9ek",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-xi3ca40",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-xi3ca40",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-b1lyeu9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-b1lyeu9",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将多个"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，包装成一个新的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-oyq7u6q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-oyq7u6q",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-om5wxm4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-om5wxm4",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接受一个数组作为参数，如果不是，就会先调用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise.resolve"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法，将参数转为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-iqmc25m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805160404-iqmc25m",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-b3dzq53",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-b3dzq53",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接收一组异步任务，然后并行执行异步任务，只保留取第一个执行完成的异步操作的结果，其他的方法仍在执行，不过执行结果会被抛弃"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-d2pzkoq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230805160404-d2pzkoq",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-9qopfid",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-9qopfid",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.any()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-763qdwp",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-763qdwp",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-473h5dc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-473h5dc",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-tgjqg85",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-tgjqg85",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将多个 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例，包装成一个新的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​实例"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-apwt826",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-apwt826",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-008wczy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-008wczy",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "只要参数实例有一个变成"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "fulfilled"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​状态，包装实例就会变成"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "fulfilled"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​状态；如果所有参数实例都变成"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "rejected"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​状态，包装实例就会变成"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "rejected"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​状态"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-lp9i7mx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230805160404-lp9i7mx",
+						"updated": "20230805171522"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-8r0zrnx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-8r0zrnx",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.prototype.then()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-5vot3hh",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-5vot3hh",
+								"updated": "20230805171522"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-2voq50f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-2voq50f",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-befzhnb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-befzhnb",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​实例添加状态改变时的回调函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-ak07z2j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-ak07z2j",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-mv2mbw4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-mv2mbw4",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "then"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​方法的第一个参数是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "resolved"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​状态的回调函数，第二个参数是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "rejected"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​状态的回调函数，两个都是可选参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805171505-9y1xq1h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805171505-9y1xq1h",
+										"updated": "20230805171522"
+									},
+									"Children": [
+										{
+											"ID": "20230805171505-4y6qft6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805171505-4y6qft6",
+												"updated": "20230805171522"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不能捕获当前"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "then"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​第一个回调函数中抛出的错误"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-ybcm7bv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230805160404-ybcm7bv",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-8tkdjxh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-8tkdjxh",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回值是一个新的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​实例"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-edfsrsp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230805160404-edfsrsp",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-4yyhxpb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-4yyhxpb",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.prototype.catch()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-4wz2332",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-4wz2332",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-f6mi817",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-f6mi817",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-qnbnk22",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-qnbnk22",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise.prototype.catch()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": ".then(null, rejection)"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​或"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": ".then(undefined, rejection)"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​的别名，用于指定发生错误时的回调函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-3s88v8b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-3s88v8b",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-p15crfi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-p15crfi",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "reject()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法的作用，等同于抛出错误"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-d7q8oda",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805160404-d7q8oda",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-ghqjrfx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-ghqjrfx",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "错误总是会被下一个"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "catch"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​语句捕获"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-boqcsgg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230805160404-boqcsgg",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-tnrqsq3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-tnrqsq3",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果没有使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "catch()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法指定错误处理的回调函数，Promise 对象抛出的错误不会传递到外层代码，即不会有任何反应"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-uxm5opa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230805160404-uxm5opa",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-g1y8kon",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-g1y8kon",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Promise.prototype.finally()"
+								}
+							]
+						},
+						{
+							"ID": "20230805160404-num6fax",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230805160404-num6fax",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"ID": "20230805160404-1vayr2h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230805160404-1vayr2h",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-1lobrnb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-1lobrnb",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "指定不管 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​对象最后状态如何，都会执行的操作"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-la5o75e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230805160404-la5o75e",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-prinqs2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-prinqs2",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "finally"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法的回调函数不接受任何参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-8rbg91x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230805160404-8rbg91x",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-f2kxdi0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-f2kxdi0",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回的默认会是一个上一次的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Promise"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​对象值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230805160404-mq85uun",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230805160404-mq85uun",
+										"updated": "20230805160404"
+									},
+									"Children": [
+										{
+											"ID": "20230805160404-ahg648y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230805160404-ahg648y",
+												"updated": "20230805160404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "finally"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​本质上是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "then"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​方法的特例"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-vmcc220",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-vmcc220",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "值穿透"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-ddzl2wn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-ddzl2wn",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-i3gb81k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160404-i3gb81k",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-lliojg7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-lliojg7",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": ".then 或者 .catch 的参数期望是函数，传入非函数则会发生值穿透"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-mum50gi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805160404-mum50gi",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-6pd6x14",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-6pd6x14",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当then中传入的不是函数，则这个then返回的promise的data，将会保存上一个的promise.data"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-13jx3vx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230805160404-13jx3vx",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-c982cug",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-c982cug",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每一个无效的then所返回的promise的状态都为resolved"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-105ipjo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-105ipjo",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-4791513",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-4791513",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-4xdg2ux",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230805160404-4xdg2ux",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-zkfev0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-zkfev0f",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的状态一经改变就不能再改变"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-00raxj0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230805160404-00raxj0",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-e4k1wav",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-e4k1wav",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​和"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​都会返回一个新的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-9d00fc6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230805160404-9d00fc6",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-95uw8p2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-95uw8p2",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​不管被连接到哪里，都能捕获上层未捕捉过的错误"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-voew0m3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230805160404-voew0m3",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-ree8h2x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-ree8h2x",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​中，返回任意一个非 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的值都会被包裹成 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对象，例如"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "return 2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​会被包装为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "return Promise.resolve(2)"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-8njfmh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230805160404-8njfmh1",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-64e8h84",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-64e8h84",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 或者 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 可以被调用多次, 但如果"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​内部的状态一经改变，并且有了一个值，那么后续每次调用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​或者"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的时候都会直接拿到该值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-m06s6yb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230805160404-m06s6yb",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-1ggfqu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-1ggfqu2",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 或者 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "return"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "error"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对象并不会抛出错误，所以不会被后续的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 捕获"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-hmbwur1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230805160404-hmbwur1",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-q8sxkx2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-q8sxkx2",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 或 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 返回的值不能是 promise 本身，否则会造成死循环"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-hu24smb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230805160404-hu24smb",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-xu70ocw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-xu70ocw",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 或者 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的参数期望是函数，传入非函数则会发生值透传"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-6yssbjs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230805160404-6yssbjs",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-kaeehfn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-kaeehfn",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​方法是能接收两个参数的，第一个是处理成功的函数，第二个是处理失败的函数，再某些时候你可以认为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "catch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".then"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​第二个参数的简便写法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-n35jf9l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230805160404-n35jf9l",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-klwtiec",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-klwtiec",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".finally"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​方法也是返回一个"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，他在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Promise"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​结束的时候，无论结果为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "resolved"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​还是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "rejected"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，都会执行里面的回调函数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-5hiwwou",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230805160404-5hiwwou",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230805160404-i8kv0n9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230805160404-i8kv0n9",
+				"updated": "20230805160404"
+			},
+			"Children": [
+				{
+					"ID": "20230805160404-snypy71",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230805160404-snypy71",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-20v9jof",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-20v9jof",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.jianshu.com/p/fe0159f8beb4",
+									"TextMarkTextContent": "Promise和Async/Await用法整理 - 简书 (jianshu.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-73viaaw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230805160404-73viaaw",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-3fv15s9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-3fv15s9",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6844904077537574919",
+									"TextMarkTextContent": "【建议星星】要就来45道Promise面试题一次爽到底(1.1w字用心整理) - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-f2nzwc7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230805160404-f2nzwc7",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-x3czzpu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-x3czzpu",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bookstack.cn/read/es6-3rd/docs-promise.md",
+									"TextMarkTextContent": "Promise 对象 - 《阮一峰 ECMAScript 6 (ES6) 标准入门教程 第三版》 - 书栈网 · BookStack"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230805160404-pvc0vgt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230805160404-pvc0vgt",
+						"updated": "20230805160404"
+					},
+					"Children": [
+						{
+							"ID": "20230805160404-4xtxemq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230805160404-4xtxemq",
+								"updated": "20230805160404"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/KieSun/all-of-frontend/issues/6",
+									"TextMarkTextContent": "第五题：Promise all 错误处理 · Issue #6 · KieSun/all-of-frontend (github.com)"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
