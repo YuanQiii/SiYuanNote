@@ -1,0 +1,1330 @@
+{
+	"ID": "20230807221651-o2p1c6y",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230807221651-o2p1c6y",
+		"title": "大文件上传",
+		"updated": "20230811172214"
+	},
+	"Children": [
+		{
+			"ID": "20230807221656-xfjj010",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230807221656-xfjj010",
+				"updated": "20230809091958"
+			},
+			"Children": [
+				{
+					"ID": "20230807222032-u4md8rd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230807222032-u4md8rd",
+						"updated": "20230808114540"
+					},
+					"Children": [
+						{
+							"ID": "20230807222032-qgo4wm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230807222032-qgo4wm1",
+								"updated": "20230807222039"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流程"
+								}
+							]
+						},
+						{
+							"ID": "20230808114509-c7htztt",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230808114509-c7htztt",
+								"updated": "20230808114540"
+							},
+							"Children": [
+								{
+									"ID": "20230808114517-mvkxq53",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230808114517-mvkxq53"
+									},
+									"Children": [
+										{
+											"ID": "20230808114517-pns16hh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230808114517-pns16hh",
+												"updated": "20230808114519"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "前端"
+												}
+											]
+										},
+										{
+											"ID": "20230808114521-84okuic",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230808114521-84okuic"
+											},
+											"Children": [
+												{
+													"ID": "20230808114509-0iuruhx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230808114509-0iuruhx",
+														"updated": "20230808114509"
+													},
+													"Children": [
+														{
+															"ID": "20230808114509-zfpsahz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114509-zfpsahz",
+																"updated": "20230808114509"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "用户选择要上传的文件"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230808114509-j3hhsto",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230808114509-j3hhsto",
+														"updated": "20230808114509"
+													},
+													"Children": [
+														{
+															"ID": "20230808114509-qgz6g49",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114509-qgz6g49",
+																"updated": "20230808114509"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "计算文件的"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "hash值"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​，利用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "hash值"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​判断该文件是否已经存在"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230808114509-35s6jsd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230808114509-35s6jsd",
+														"updated": "20230808114509"
+													},
+													"Children": [
+														{
+															"ID": "20230808114509-ogw09pq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114509-ogw09pq",
+																"updated": "20230808114509"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果已经存在，直接从后台获取该文件资源，上传结束"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230808114509-uzvyf6y",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230808114509-uzvyf6y",
+														"updated": "20230808114509"
+													},
+													"Children": [
+														{
+															"ID": "20230808114509-1jp1txu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114509-1jp1txu",
+																"updated": "20230808114509"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果不存在，则走正常的分片上传流程"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230808114523-edhoyt4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230808114523-edhoyt4",
+										"updated": "20230808114540"
+									},
+									"Children": [
+										{
+											"ID": "20230808114523-6iil9ep",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230808114523-6iil9ep",
+												"updated": "20230808114525"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "后端"
+												}
+											]
+										},
+										{
+											"ID": "20230808114540-6cwm12r",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230808114540-6cwm12r",
+												"updated": "20230808114540"
+											},
+											"Children": [
+												{
+													"ID": "20230808114540-jejuc7t",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230808114540-jejuc7t",
+														"updated": "20230808114540"
+													},
+													"Children": [
+														{
+															"ID": "20230808114540-n3bkqm6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114540-n3bkqm6",
+																"updated": "20230808114540"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "前端传来文件的hash值"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230808114540-urdo7a7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230808114540-urdo7a7",
+														"updated": "20230808114540"
+													},
+													"Children": [
+														{
+															"ID": "20230808114540-ob46d3u",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114540-ob46d3u",
+																"updated": "20230808114540"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "后台查询数据库中是否存在该hash对应的文件"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230808114540-aka72y3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230808114540-aka72y3",
+														"updated": "20230808114540"
+													},
+													"Children": [
+														{
+															"ID": "20230808114540-ydsbq3i",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230808114540-ydsbq3i",
+																"updated": "20230808114540"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果存在，返回文件资源，否则报错"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230807223848-idez994",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230807223848-idez994",
+						"updated": "20230809091958"
+					},
+					"Children": [
+						{
+							"ID": "20230807223848-tzxello",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230807223848-tzxello",
+								"updated": "20230807223857"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "功能"
+								}
+							]
+						},
+						{
+							"ID": "20230807223857-0426rmj",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230807223857-0426rmj",
+								"updated": "20230809091958"
+							},
+							"Children": [
+								{
+									"ID": "20230807224019-frh2fyv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230807224019-frh2fyv"
+									},
+									"Children": [
+										{
+											"ID": "20230807224019-kpidjez",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807224019-kpidjez",
+												"updated": "20230807224026"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "分片上传"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807223857-dfdsay7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230807223857-dfdsay7"
+									},
+									"Children": [
+										{
+											"ID": "20230807223857-g61zz65",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807223857-g61zz65",
+												"updated": "20230807223902"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "断点续传"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807223902-lia98vd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230807223902-lia98vd",
+										"updated": "20230809091958"
+									},
+									"Children": [
+										{
+											"ID": "20230807223902-mce9yjk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807223902-mce9yjk",
+												"updated": "20230809091958"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "秒传 "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807223917-wxj0wdg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230807223917-wxj0wdg"
+									},
+									"Children": [
+										{
+											"ID": "20230807223917-hwerxqd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807223917-hwerxqd",
+												"updated": "20230807223930"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "进度"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807225013-07xzdqa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230807225013-07xzdqa"
+									},
+									"Children": [
+										{
+											"ID": "20230807225013-qghbprz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807225013-qghbprz",
+												"updated": "20230807225013"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "暂停"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807225013-031ns20",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230807225013-031ns20"
+									},
+									"Children": [
+										{
+											"ID": "20230807225013-03dzzf2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807225013-03dzzf2",
+												"updated": "20230807225023"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重新上传"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230807223932-cu6glrt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230807223932-cu6glrt"
+					},
+					"Children": [
+						{
+							"ID": "20230807223932-dchmymo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230807223932-dchmymo",
+								"updated": "20230807224522"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "问题"
+								}
+							]
+						},
+						{
+							"ID": "20230807224523-dcc0zqs",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230807224523-dcc0zqs"
+							},
+							"Children": [
+								{
+									"ID": "20230807224523-1uotzax",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230807224523-1uotzax"
+									},
+									"Children": [
+										{
+											"ID": "20230807224523-1uwcqmo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807224523-1uwcqmo",
+												"updated": "20230807224529"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "切片大小"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807224529-xot9tjf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230807224529-xot9tjf"
+									},
+									"Children": [
+										{
+											"ID": "20230807224529-fskmw1y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807224529-fskmw1y",
+												"updated": "20230807224543"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "计算大文件哈希值：hash-wasm"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807224837-k14tnwn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230807224837-k14tnwn"
+									},
+									"Children": [
+										{
+											"ID": "20230807224837-vryg8hu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807224837-vryg8hu",
+												"updated": "20230807224838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "控制并发数"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230807225118-2lqv4v8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230807225118-2lqv4v8",
+								"updated": "20230807225118"
+							},
+							"Children": [
+								{
+									"ID": "20230807225118-rd6nlbj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230807225118-rd6nlbj",
+										"updated": "20230807225118"
+									},
+									"Children": [
+										{
+											"ID": "20230807225118-5327gk6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807225118-5327gk6",
+												"updated": "20230807225118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缺少失败重试机制，以及重试后跳过机制"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230807225118-mqq85v0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20230807225118-mqq85v0",
+										"updated": "20230807225118"
+									},
+									"Children": [
+										{
+											"ID": "20230807225118-hjy1xyt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230807225118-hjy1xyt",
+												"updated": "20230807225118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缺少网速检测自动分片机制"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230807221651-70xvn65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230807221651-70xvn65",
+				"updated": "20230807221651"
+			}
+		},
+		{
+			"ID": "20230811171854-6ijarbo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230811171854-6ijarbo",
+				"updated": "20230811171937"
+			},
+			"Children": [
+				{
+					"ID": "20230811171937-ee6eohe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230811171937-ee6eohe",
+						"updated": "20230811171937"
+					},
+					"Children": [
+						{
+							"ID": "20230811171937-7rthryh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811171937-7rthryh",
+								"updated": "20230811171937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "FileUpload.vue"
+								}
+							]
+						},
+						{
+							"ID": "20230811171854-zl97uhu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230811171854-zl97uhu",
+								"updated": "20230811171909"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dnVl"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003ctemplate\u003e\n  \u003ca-input type=\"file\" @change=\"handleFileChange\"\u003e\n    \u003ca-button\u003e\n      \u003cupload-outlined\u003e\u003c/upload-outlined\u003e\n      Upload\n    \u003c/a-button\u003e\n  \u003c/a-input\u003e\n  \u003ca-button type=\"primary\" @click=\"handlePause\"\u003e pause \u003c/a-button\u003e\n  \u003ca-button type=\"primary\" @click=\"handleResume\"\u003e resume \u003c/a-button\u003e\n  \u003cdiv\u003e\n    {{ hashPercentage }}\n  \u003c/div\u003e\n  \u003chr /\u003e\n  \u003cdiv\u003e\n    \u003c!-- \u003cdiv v-for=\"(item, index) in fileChunksData\" :key=\"index\"\u003e\n      {{ item.index }} - {{ item.percentage }}\n    \u003c/div\u003e --\u003e\n    \u003cdiv\u003e{{ totalPercentage }}\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\u003cscript lang=\"ts\" setup\u003e\nimport { UploadOutlined } from '@ant-design/icons-vue'\nimport { ref, unref, computed } from 'vue'\nimport axios from 'axios'\nimport { AxiosProgressEvent } from 'axios'\nimport { mergeMap, from, toArray } from 'rxjs'\nimport { message } from 'ant-design-vue'\n\ninterface ChunkData {\n  fileHash: string\n  chunk: Blob\n  hash: string\n  size: number\n  index: number\n  percentage: number\n  controller: AbortController\n}\n\ninterface FileData {\n  name: string\n  hash: string\n}\n\ninterface Chunk {\n  file: Blob\n}\n\nenum STATUS {\n  WAIT = 'wait',\n  PAUSE = 'pause',\n  UPLOADING = 'uploading',\n}\n\nconst fileObj = ref\u003cFile | null\u003e(null)\n\nconst fileData = ref\u003cFileData\u003e({\n  name: '',\n  hash: '',\n})\n\nconst fileChunksData = ref\u003cChunkData[]\u003e([])\n\nconst requestList = ref\u003cPromise\u003cany\u003e[]\u003e([])\n\nconst webWorker = ref()\nconst hashPercentage = ref(0)\n\n// 切片大小\nconst SIZE = 10 * 1024 * 1024\n\n// 并发请求\nconst LIMIT = 3\n\n// 状态\nconst status = ref\u003cSTATUS\u003e(STATUS.WAIT)\n\nconst uploadedNumber = ref(0)\n\n/**\n * 总进度条\n */\nconst totalPercentage = computed(() =\u003e {\n  if (!unref(fileChunksData).length) {\n    return 0\n  }\n  const loaded = unref(fileChunksData)\n    .map((item) =\u003e item.size * item.percentage)\n    .reduce((curr, next) =\u003e curr + next)\n\n  return parseInt((loaded / unref(fileObj)!.size).toFixed(2))\n})\n\n/**\n * 分块进度条\n * @param item\n */\nconst createProgressHandler = (item: ChunkData) =\u003e (progressEvent: AxiosProgressEvent) =\u003e {\n  if (progressEvent.total) {\n    item.percentage = parseInt(String((progressEvent.loaded / progressEvent.total) * 100))\n  }\n}\n\n// 生成文件 hash（web-worker）\nconst calculateHash = (fileChunksList: Chunk[]) =\u003e {\n  return new Promise((resolve) =\u003e {\n    webWorker.value = new Worker('/hash.js')\n    webWorker.value.postMessage({ fileChunksList })\n    webWorker.value.onmessage = (e) =\u003e {\n      const { percentage, hash } = e.data\n      hashPercentage.value = percentage\n      if (hash) {\n        resolve(hash)\n      }\n    }\n  })\n}\n\n/**\n * 创建文件切片\n * @param file 文件\n * @param size 切片大小\n */\nconst createFileChunk = (file: File | null, size: number) =\u003e {\n  if (!file) {\n    return\n  }\n  const fileChunkList = []\n  let cur = 0\n  while (cur \u003c file.size) {\n    fileChunkList.push({\n      file: file.slice(cur, cur + size),\n    })\n    cur += size\n  }\n  return fileChunkList\n}\n\n/**\n * 合并切片请求\n */\nconst mergeRequest = async () =\u003e {\n  await axios({\n    method: 'post',\n    url: 'http://localhost:3000/merge',\n    headers: {\n      'content-type': 'application/json',\n    },\n    data: JSON.stringify({\n      filename: unref(fileData).name,\n      fileHash: unref(fileData).hash,\n      size: SIZE,\n    }),\n  })\n}\n\n/**\n * 根据 hash 验证文件是否曾经已经被上传过\n * 没有才进行上传\n * @param filename 文件名\n * @param fileHash 文件hash\n */\nconst verifyUpload = async (filename: string, fileHash: string) =\u003e {\n  const { data } = await axios({\n    method: 'post',\n    url: 'http://localhost:3000/verify',\n    headers: {\n      'content-type': 'application/json',\n    },\n    data: JSON.stringify({\n      filename,\n      fileHash,\n    }),\n  })\n\n  return data\n}\n\n/**\n * 上传切片，同时过滤已上传的切片\n */\nconst uploadChunks = async (uploadedList: string[]) =\u003e {\n  requestList.value = unref(fileChunksData)\n    .filter(({ hash }) =\u003e !uploadedList.includes(hash))\n    .map(({ chunk, hash, index, controller }) =\u003e {\n      const formData = new FormData()\n      formData.append('chunk', chunk)\n      formData.append('hash', hash)\n      formData.append('filename', unref(fileData).name)\n      formData.append('fileHash', unref(fileData).hash)\n      return { formData, index, controller }\n    })\n    .map(({ formData, index, controller }) =\u003e\n      axios({\n        method: 'post',\n        url: 'http://localhost:3000/upload',\n        headers: {\n          'Content-Type': 'multipart/form-data',\n        },\n        data: formData,\n        signal: controller.signal,\n        onUploadProgress: createProgressHandler(unref(fileChunksData)[index]),\n      })\n        .then(() =\u003e {\n          uploadedNumber.value += 1\n        })\n        .catch((error) =\u003e {\n          if (axios.isCancel(error)) {\n            console.log(`请求已取消：${error.message}`)\n          } else {\n            console.log(`请求出错：${error.message}`)\n          }\n        })\n    )\n\n  // 并发请求，然后合并\n  from(unref(requestList))\n    .pipe(\n      mergeMap((value) =\u003e value, LIMIT),\n      toArray()\n    )\n    .subscribe({\n      complete: () =\u003e {\n        if (uploadedNumber.value === fileChunksData.value.length) {\n          console.log('complete')\n          mergeRequest()\n        }\n      },\n    })\n}\n\n/**\n * 上传逻辑\n */\nconst handleUpload = async () =\u003e {\n  status.value = STATUS.UPLOADING\n\n  // 创建切片文件\n  const fileChunkList = createFileChunk(unref(fileObj), SIZE)\n\n  if (!fileChunkList) {\n    return\n  }\n\n  // 获取文件hash\n  unref(fileData).hash = (await calculateHash(fileChunkList)) as string\n\n  // 获取需要上传和已上传的切片hash列表\n  const { shouldUpload, uploadedList } = await verifyUpload(\n    unref(fileData).name,\n    unref(fileData).hash\n  )\n\n  // 文件已经上传完毕\n  // 秒传\n  if (!shouldUpload) {\n    message.info('skip upload：file upload success')\n    status.value = STATUS.WAIT\n    return\n  }\n\n  // 生成文件块信息对象列表\n  fileChunksData.value = fileChunkList.map(({ file }, index) =\u003e ({\n    fileHash: unref(fileData).hash,\n    chunk: file,\n    hash: `${unref(fileData).hash}-${index}`,\n    size: file.size,\n    index,\n    percentage: 0,\n    controller: new AbortController(),\n  }))\n\n  // 上传切片\n  await uploadChunks(unref(uploadedList))\n}\n\n/**\n * 创建选择文件的控件并监听 change 事件\n * @param e 事件参数\n */\nconst handleFileChange = (e: Event) =\u003e {\n  const files = (e.target as HTMLInputElement).files\n  if (files) {\n    fileObj.value = files[0]\n    unref(fileData).name = files[0].name\n    handleUpload()\n  }\n}\n\n/**\n * 取消上传切片请求\n */\nconst resetData = () =\u003e {\n  unref(fileChunksData).forEach((ele) =\u003e ele.controller.abort())\n  requestList.value = []\n}\n\n/**\n * 暂停\n */\nconst handlePause = () =\u003e {\n  status.value = STATUS.PAUSE\n  resetData()\n}\n\n/**\n * 继续\n */\nconst handleResume = async () =\u003e {\n  status.value = STATUS.UPLOADING\n  const { uploadedList } = await verifyUpload(unref(fileData).name, unref(fileData).hash)\n  await uploadChunks(uploadedList)\n}\n\u003c/script\u003e\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230811171938-5cvlo4s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811171938-5cvlo4s"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20230811171945-6kbnn5w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230811171945-6kbnn5w"
+					},
+					"Children": [
+						{
+							"ID": "20230811171945-qmpe382",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811171945-qmpe382",
+								"updated": "20230811171955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "hash.js"
+								}
+							]
+						},
+						{
+							"ID": "20230811171955-w30e7qb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230811171955-w30e7qb",
+								"updated": "20230811172003"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dnVl"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// 导入脚本\n// import script for encrypted computing\nself.importScripts('/spark-md5.min.js')\n\n// 生成文件 hash\n// create file hash\nself.onmessage = (e) =\u003e {\n  const { fileChunksList } = e.data\n  console.log(e);\n  const spark = new self.SparkMD5.ArrayBuffer()\n  let percentage = 0\n  let count = 0\n  const loadNext = (index) =\u003e {\n    const reader = new FileReader()\n    reader.readAsArrayBuffer(fileChunksList[index].file)\n    reader.onload = (e) =\u003e {\n      count++\n      spark.append(e.target.result)\n      if (count === fileChunksList.length) {\n        self.postMessage({\n          percentage: 100,\n          hash: spark.end(),\n        })\n        self.close()\n      } else {\n        percentage += 100 / fileChunksList.length\n        self.postMessage({\n          percentage,\n        })\n        loadNext(count)\n      }\n    }\n  }\n  loadNext(0)\n}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172014-yovko1l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230811172014-yovko1l"
+					},
+					"Children": [
+						{
+							"ID": "20230811172014-yvnlbte",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172014-yvnlbte",
+								"updated": "20230811172029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "spark-md5.min.js"
+								}
+							]
+						},
+						{
+							"ID": "20230811172029-768l2n2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230811172029-768l2n2",
+								"updated": "20230811172035"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dnVl"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "(function(factory){if(typeof exports===\"object\"){module.exports=factory()}else if(typeof define===\"function\"\u0026\u0026define.amd){define(factory)}else{var glob;try{glob=window}catch(e){glob=self}glob.SparkMD5=factory()}})(function(undefined){\"use strict\";var add32=function(a,b){return a+b\u00264294967295},hex_chr=[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"a\",\"b\",\"c\",\"d\",\"e\",\"f\"];function cmn(q,a,b,x,s,t){a=add32(add32(a,q),add32(x,t));return add32(a\u003c\u003cs|a\u003e\u003e\u003e32-s,b)}function md5cycle(x,k){var a=x[0],b=x[1],c=x[2],d=x[3];a+=(b\u0026c|~b\u0026d)+k[0]-680876936|0;a=(a\u003c\u003c7|a\u003e\u003e\u003e25)+b|0;d+=(a\u0026b|~a\u0026c)+k[1]-389564586|0;d=(d\u003c\u003c12|d\u003e\u003e\u003e20)+a|0;c+=(d\u0026a|~d\u0026b)+k[2]+606105819|0;c=(c\u003c\u003c17|c\u003e\u003e\u003e15)+d|0;b+=(c\u0026d|~c\u0026a)+k[3]-1044525330|0;b=(b\u003c\u003c22|b\u003e\u003e\u003e10)+c|0;a+=(b\u0026c|~b\u0026d)+k[4]-176418897|0;a=(a\u003c\u003c7|a\u003e\u003e\u003e25)+b|0;d+=(a\u0026b|~a\u0026c)+k[5]+1200080426|0;d=(d\u003c\u003c12|d\u003e\u003e\u003e20)+a|0;c+=(d\u0026a|~d\u0026b)+k[6]-1473231341|0;c=(c\u003c\u003c17|c\u003e\u003e\u003e15)+d|0;b+=(c\u0026d|~c\u0026a)+k[7]-45705983|0;b=(b\u003c\u003c22|b\u003e\u003e\u003e10)+c|0;a+=(b\u0026c|~b\u0026d)+k[8]+1770035416|0;a=(a\u003c\u003c7|a\u003e\u003e\u003e25)+b|0;d+=(a\u0026b|~a\u0026c)+k[9]-1958414417|0;d=(d\u003c\u003c12|d\u003e\u003e\u003e20)+a|0;c+=(d\u0026a|~d\u0026b)+k[10]-42063|0;c=(c\u003c\u003c17|c\u003e\u003e\u003e15)+d|0;b+=(c\u0026d|~c\u0026a)+k[11]-1990404162|0;b=(b\u003c\u003c22|b\u003e\u003e\u003e10)+c|0;a+=(b\u0026c|~b\u0026d)+k[12]+1804603682|0;a=(a\u003c\u003c7|a\u003e\u003e\u003e25)+b|0;d+=(a\u0026b|~a\u0026c)+k[13]-40341101|0;d=(d\u003c\u003c12|d\u003e\u003e\u003e20)+a|0;c+=(d\u0026a|~d\u0026b)+k[14]-1502002290|0;c=(c\u003c\u003c17|c\u003e\u003e\u003e15)+d|0;b+=(c\u0026d|~c\u0026a)+k[15]+1236535329|0;b=(b\u003c\u003c22|b\u003e\u003e\u003e10)+c|0;a+=(b\u0026d|c\u0026~d)+k[1]-165796510|0;a=(a\u003c\u003c5|a\u003e\u003e\u003e27)+b|0;d+=(a\u0026c|b\u0026~c)+k[6]-1069501632|0;d=(d\u003c\u003c9|d\u003e\u003e\u003e23)+a|0;c+=(d\u0026b|a\u0026~b)+k[11]+643717713|0;c=(c\u003c\u003c14|c\u003e\u003e\u003e18)+d|0;b+=(c\u0026a|d\u0026~a)+k[0]-373897302|0;b=(b\u003c\u003c20|b\u003e\u003e\u003e12)+c|0;a+=(b\u0026d|c\u0026~d)+k[5]-701558691|0;a=(a\u003c\u003c5|a\u003e\u003e\u003e27)+b|0;d+=(a\u0026c|b\u0026~c)+k[10]+38016083|0;d=(d\u003c\u003c9|d\u003e\u003e\u003e23)+a|0;c+=(d\u0026b|a\u0026~b)+k[15]-660478335|0;c=(c\u003c\u003c14|c\u003e\u003e\u003e18)+d|0;b+=(c\u0026a|d\u0026~a)+k[4]-405537848|0;b=(b\u003c\u003c20|b\u003e\u003e\u003e12)+c|0;a+=(b\u0026d|c\u0026~d)+k[9]+568446438|0;a=(a\u003c\u003c5|a\u003e\u003e\u003e27)+b|0;d+=(a\u0026c|b\u0026~c)+k[14]-1019803690|0;d=(d\u003c\u003c9|d\u003e\u003e\u003e23)+a|0;c+=(d\u0026b|a\u0026~b)+k[3]-187363961|0;c=(c\u003c\u003c14|c\u003e\u003e\u003e18)+d|0;b+=(c\u0026a|d\u0026~a)+k[8]+1163531501|0;b=(b\u003c\u003c20|b\u003e\u003e\u003e12)+c|0;a+=(b\u0026d|c\u0026~d)+k[13]-1444681467|0;a=(a\u003c\u003c5|a\u003e\u003e\u003e27)+b|0;d+=(a\u0026c|b\u0026~c)+k[2]-51403784|0;d=(d\u003c\u003c9|d\u003e\u003e\u003e23)+a|0;c+=(d\u0026b|a\u0026~b)+k[7]+1735328473|0;c=(c\u003c\u003c14|c\u003e\u003e\u003e18)+d|0;b+=(c\u0026a|d\u0026~a)+k[12]-1926607734|0;b=(b\u003c\u003c20|b\u003e\u003e\u003e12)+c|0;a+=(b^c^d)+k[5]-378558|0;a=(a\u003c\u003c4|a\u003e\u003e\u003e28)+b|0;d+=(a^b^c)+k[8]-2022574463|0;d=(d\u003c\u003c11|d\u003e\u003e\u003e21)+a|0;c+=(d^a^b)+k[11]+1839030562|0;c=(c\u003c\u003c16|c\u003e\u003e\u003e16)+d|0;b+=(c^d^a)+k[14]-35309556|0;b=(b\u003c\u003c23|b\u003e\u003e\u003e9)+c|0;a+=(b^c^d)+k[1]-1530992060|0;a=(a\u003c\u003c4|a\u003e\u003e\u003e28)+b|0;d+=(a^b^c)+k[4]+1272893353|0;d=(d\u003c\u003c11|d\u003e\u003e\u003e21)+a|0;c+=(d^a^b)+k[7]-155497632|0;c=(c\u003c\u003c16|c\u003e\u003e\u003e16)+d|0;b+=(c^d^a)+k[10]-1094730640|0;b=(b\u003c\u003c23|b\u003e\u003e\u003e9)+c|0;a+=(b^c^d)+k[13]+681279174|0;a=(a\u003c\u003c4|a\u003e\u003e\u003e28)+b|0;d+=(a^b^c)+k[0]-358537222|0;d=(d\u003c\u003c11|d\u003e\u003e\u003e21)+a|0;c+=(d^a^b)+k[3]-722521979|0;c=(c\u003c\u003c16|c\u003e\u003e\u003e16)+d|0;b+=(c^d^a)+k[6]+76029189|0;b=(b\u003c\u003c23|b\u003e\u003e\u003e9)+c|0;a+=(b^c^d)+k[9]-640364487|0;a=(a\u003c\u003c4|a\u003e\u003e\u003e28)+b|0;d+=(a^b^c)+k[12]-421815835|0;d=(d\u003c\u003c11|d\u003e\u003e\u003e21)+a|0;c+=(d^a^b)+k[15]+530742520|0;c=(c\u003c\u003c16|c\u003e\u003e\u003e16)+d|0;b+=(c^d^a)+k[2]-995338651|0;b=(b\u003c\u003c23|b\u003e\u003e\u003e9)+c|0;a+=(c^(b|~d))+k[0]-198630844|0;a=(a\u003c\u003c6|a\u003e\u003e\u003e26)+b|0;d+=(b^(a|~c))+k[7]+1126891415|0;d=(d\u003c\u003c10|d\u003e\u003e\u003e22)+a|0;c+=(a^(d|~b))+k[14]-1416354905|0;c=(c\u003c\u003c15|c\u003e\u003e\u003e17)+d|0;b+=(d^(c|~a))+k[5]-57434055|0;b=(b\u003c\u003c21|b\u003e\u003e\u003e11)+c|0;a+=(c^(b|~d))+k[12]+1700485571|0;a=(a\u003c\u003c6|a\u003e\u003e\u003e26)+b|0;d+=(b^(a|~c))+k[3]-1894986606|0;d=(d\u003c\u003c10|d\u003e\u003e\u003e22)+a|0;c+=(a^(d|~b))+k[10]-1051523|0;c=(c\u003c\u003c15|c\u003e\u003e\u003e17)+d|0;b+=(d^(c|~a))+k[1]-2054922799|0;b=(b\u003c\u003c21|b\u003e\u003e\u003e11)+c|0;a+=(c^(b|~d))+k[8]+1873313359|0;a=(a\u003c\u003c6|a\u003e\u003e\u003e26)+b|0;d+=(b^(a|~c))+k[15]-30611744|0;d=(d\u003c\u003c10|d\u003e\u003e\u003e22)+a|0;c+=(a^(d|~b))+k[6]-1560198380|0;c=(c\u003c\u003c15|c\u003e\u003e\u003e17)+d|0;b+=(d^(c|~a))+k[13]+1309151649|0;b=(b\u003c\u003c21|b\u003e\u003e\u003e11)+c|0;a+=(c^(b|~d))+k[4]-145523070|0;a=(a\u003c\u003c6|a\u003e\u003e\u003e26)+b|0;d+=(b^(a|~c))+k[11]-1120210379|0;d=(d\u003c\u003c10|d\u003e\u003e\u003e22)+a|0;c+=(a^(d|~b))+k[2]+718787259|0;c=(c\u003c\u003c15|c\u003e\u003e\u003e17)+d|0;b+=(d^(c|~a))+k[9]-343485551|0;b=(b\u003c\u003c21|b\u003e\u003e\u003e11)+c|0;x[0]=a+x[0]|0;x[1]=b+x[1]|0;x[2]=c+x[2]|0;x[3]=d+x[3]|0}function md5blk(s){var md5blks=[],i;for(i=0;i\u003c64;i+=4){md5blks[i\u003e\u003e2]=s.charCodeAt(i)+(s.charCodeAt(i+1)\u003c\u003c8)+(s.charCodeAt(i+2)\u003c\u003c16)+(s.charCodeAt(i+3)\u003c\u003c24)}return md5blks}function md5blk_array(a){var md5blks=[],i;for(i=0;i\u003c64;i+=4){md5blks[i\u003e\u003e2]=a[i]+(a[i+1]\u003c\u003c8)+(a[i+2]\u003c\u003c16)+(a[i+3]\u003c\u003c24)}return md5blks}function md51(s){var n=s.length,state=[1732584193,-271733879,-1732584194,271733878],i,length,tail,tmp,lo,hi;for(i=64;i\u003c=n;i+=64){md5cycle(state,md5blk(s.substring(i-64,i)))}s=s.substring(i-64);length=s.length;tail=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];for(i=0;i\u003clength;i+=1){tail[i\u003e\u003e2]|=s.charCodeAt(i)\u003c\u003c(i%4\u003c\u003c3)}tail[i\u003e\u003e2]|=128\u003c\u003c(i%4\u003c\u003c3);if(i\u003e55){md5cycle(state,tail);for(i=0;i\u003c16;i+=1){tail[i]=0}}tmp=n*8;tmp=tmp.toString(16).match(/(.*?)(.{0,8})$/);lo=parseInt(tmp[2],16);hi=parseInt(tmp[1],16)||0;tail[14]=lo;tail[15]=hi;md5cycle(state,tail);return state}function md51_array(a){var n=a.length,state=[1732584193,-271733879,-1732584194,271733878],i,length,tail,tmp,lo,hi;for(i=64;i\u003c=n;i+=64){md5cycle(state,md5blk_array(a.subarray(i-64,i)))}a=i-64\u003cn?a.subarray(i-64):new Uint8Array(0);length=a.length;tail=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];for(i=0;i\u003clength;i+=1){tail[i\u003e\u003e2]|=a[i]\u003c\u003c(i%4\u003c\u003c3)}tail[i\u003e\u003e2]|=128\u003c\u003c(i%4\u003c\u003c3);if(i\u003e55){md5cycle(state,tail);for(i=0;i\u003c16;i+=1){tail[i]=0}}tmp=n*8;tmp=tmp.toString(16).match(/(.*?)(.{0,8})$/);lo=parseInt(tmp[2],16);hi=parseInt(tmp[1],16)||0;tail[14]=lo;tail[15]=hi;md5cycle(state,tail);return state}function rhex(n){var s=\"\",j;for(j=0;j\u003c4;j+=1){s+=hex_chr[n\u003e\u003ej*8+4\u002615]+hex_chr[n\u003e\u003ej*8\u002615]}return s}function hex(x){var i;for(i=0;i\u003cx.length;i+=1){x[i]=rhex(x[i])}return x.join(\"\")}if(hex(md51(\"hello\"))!==\"5d41402abc4b2a76b9719d911017c592\"){add32=function(x,y){var lsw=(x\u002665535)+(y\u002665535),msw=(x\u003e\u003e16)+(y\u003e\u003e16)+(lsw\u003e\u003e16);return msw\u003c\u003c16|lsw\u002665535}}if(typeof ArrayBuffer!==\"undefined\"\u0026\u0026!ArrayBuffer.prototype.slice){(function(){function clamp(val,length){val=val|0||0;if(val\u003c0){return Math.max(val+length,0)}return Math.min(val,length)}ArrayBuffer.prototype.slice=function(from,to){var length=this.byteLength,begin=clamp(from,length),end=length,num,target,targetArray,sourceArray;if(to!==undefined){end=clamp(to,length)}if(begin\u003eend){return new ArrayBuffer(0)}num=end-begin;target=new ArrayBuffer(num);targetArray=new Uint8Array(target);sourceArray=new Uint8Array(this,begin,num);targetArray.set(sourceArray);return target}})()}function toUtf8(str){if(/[\\u0080-\\uFFFF]/.test(str)){str=unescape(encodeURIComponent(str))}return str}function utf8Str2ArrayBuffer(str,returnUInt8Array){var length=str.length,buff=new ArrayBuffer(length),arr=new Uint8Array(buff),i;for(i=0;i\u003clength;i+=1){arr[i]=str.charCodeAt(i)}return returnUInt8Array?arr:buff}function arrayBuffer2Utf8Str(buff){return String.fromCharCode.apply(null,new Uint8Array(buff))}function concatenateArrayBuffers(first,second,returnUInt8Array){var result=new Uint8Array(first.byteLength+second.byteLength);result.set(new Uint8Array(first));result.set(new Uint8Array(second),first.byteLength);return returnUInt8Array?result:result.buffer}function hexToBinaryString(hex){var bytes=[],length=hex.length,x;for(x=0;x\u003clength-1;x+=2){bytes.push(parseInt(hex.substr(x,2),16))}return String.fromCharCode.apply(String,bytes)}function SparkMD5(){this.reset()}SparkMD5.prototype.append=function(str){this.appendBinary(toUtf8(str));return this};SparkMD5.prototype.appendBinary=function(contents){this._buff+=contents;this._length+=contents.length;var length=this._buff.length,i;for(i=64;i\u003c=length;i+=64){md5cycle(this._hash,md5blk(this._buff.substring(i-64,i)))}this._buff=this._buff.substring(i-64);return this};SparkMD5.prototype.end=function(raw){var buff=this._buff,length=buff.length,i,tail=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],ret;for(i=0;i\u003clength;i+=1){tail[i\u003e\u003e2]|=buff.charCodeAt(i)\u003c\u003c(i%4\u003c\u003c3)}this._finish(tail,length);ret=hex(this._hash);if(raw){ret=hexToBinaryString(ret)}this.reset();return ret};SparkMD5.prototype.reset=function(){this._buff=\"\";this._length=0;this._hash=[1732584193,-271733879,-1732584194,271733878];return this};SparkMD5.prototype.getState=function(){return{buff:this._buff,length:this._length,hash:this._hash}};SparkMD5.prototype.setState=function(state){this._buff=state.buff;this._length=state.length;this._hash=state.hash;return this};SparkMD5.prototype.destroy=function(){delete this._hash;delete this._buff;delete this._length};SparkMD5.prototype._finish=function(tail,length){var i=length,tmp,lo,hi;tail[i\u003e\u003e2]|=128\u003c\u003c(i%4\u003c\u003c3);if(i\u003e55){md5cycle(this._hash,tail);for(i=0;i\u003c16;i+=1){tail[i]=0}}tmp=this._length*8;tmp=tmp.toString(16).match(/(.*?)(.{0,8})$/);lo=parseInt(tmp[2],16);hi=parseInt(tmp[1],16)||0;tail[14]=lo;tail[15]=hi;md5cycle(this._hash,tail)};SparkMD5.hash=function(str,raw){return SparkMD5.hashBinary(toUtf8(str),raw)};SparkMD5.hashBinary=function(content,raw){var hash=md51(content),ret=hex(hash);return raw?hexToBinaryString(ret):ret};SparkMD5.ArrayBuffer=function(){this.reset()};SparkMD5.ArrayBuffer.prototype.append=function(arr){var buff=concatenateArrayBuffers(this._buff.buffer,arr,true),length=buff.length,i;this._length+=arr.byteLength;for(i=64;i\u003c=length;i+=64){md5cycle(this._hash,md5blk_array(buff.subarray(i-64,i)))}this._buff=i-64\u003clength?new Uint8Array(buff.buffer.slice(i-64)):new Uint8Array(0);return this};SparkMD5.ArrayBuffer.prototype.end=function(raw){var buff=this._buff,length=buff.length,tail=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],i,ret;for(i=0;i\u003clength;i+=1){tail[i\u003e\u003e2]|=buff[i]\u003c\u003c(i%4\u003c\u003c3)}this._finish(tail,length);ret=hex(this._hash);if(raw){ret=hexToBinaryString(ret)}this.reset();return ret};SparkMD5.ArrayBuffer.prototype.reset=function(){this._buff=new Uint8Array(0);this._length=0;this._hash=[1732584193,-271733879,-1732584194,271733878];return this};SparkMD5.ArrayBuffer.prototype.getState=function(){var state=SparkMD5.prototype.getState.call(this);state.buff=arrayBuffer2Utf8Str(state.buff);return state};SparkMD5.ArrayBuffer.prototype.setState=function(state){state.buff=utf8Str2ArrayBuffer(state.buff,true);return SparkMD5.prototype.setState.call(this,state)};SparkMD5.ArrayBuffer.prototype.destroy=SparkMD5.prototype.destroy;SparkMD5.ArrayBuffer.prototype._finish=SparkMD5.prototype._finish;SparkMD5.ArrayBuffer.hash=function(arr,raw){var hash=md51_array(new Uint8Array(arr)),ret=hex(hash);return raw?hexToBinaryString(ret):ret};return SparkMD5});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172039-t8fuihs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230811172039-t8fuihs"
+					},
+					"Children": [
+						{
+							"ID": "20230811172039-jmjf6m3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172039-jmjf6m3",
+								"updated": "20230811172044"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "app.js"
+								}
+							]
+						},
+						{
+							"ID": "20230811172045-joq5nnh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230811172045-joq5nnh",
+								"updated": "20230811172051"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dnVl"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express')\nconst cors = require('cors')\nconst multiparty = require('multiparty')\nconst fs = require('fs')\nconst path = require('path')\nconst { Buffer } = require('buffer')\n\n// 上传文件最终路径\nconst STATIC_FILES = path.join(__dirname, './static/files')\n// 上传文件临时路径\nconst STATIC_TEMPORARY = path.join(__dirname, './static/temporary')\n\nconst server = express()\n\nserver.use(cors())\nserver.use(express.json())\n\n// 静态文件托管\nserver.use(express.static(path.join(__dirname, './dist')))\n\n\n// 返回已上传的所有切片名\nconst createUploadedList = async (filename, fileHash) =\u003e\n  fs.existsSync(`${STATIC_TEMPORARY}/${filename}-${fileHash}`)\n    ? await fs.readdirSync(`${STATIC_TEMPORARY}/${filename}-${fileHash}`)\n    : [];\n\n\n// 验证是否已上传/已上传切片下标\nserver.post('/verify', async (req, res) =\u003e {\n    const { fileHash, filename } = req.body;\n    const filePath = `${STATIC_FILES}/${filename}-${fileHash}`;\n    if (fs.existsSync(filePath)) {\n        res.send(JSON.stringify({\n            shouldUpload: false\n        }))\n    }else{\n        res.send(\n            JSON.stringify({\n                shouldUpload: true,\n                uploadedList: await createUploadedList(filename. fileHash)\n            })\n        )\n    }\n})\n\n// 切片上传的接口\nserver.post('/upload', (req, res) =\u003e {\n    const form = new multiparty.Form();\n    form.parse(req, function (err, fields, files) {\n        if (err) {\n            return\n        }\n        const filename = fields.filename[0]\n        const fileHash = fields.fileHash[0]\n        const hash = fields.hash[0]\n        const chunk = files.chunk[0]\n        const dir = `${STATIC_TEMPORARY}/${fileHash}`\n        try {\n            if (!fs.existsSync(dir)) fs.mkdirSync(dir)\n            const buffer = fs.readFileSync(chunk.path)\n            const ws = fs.createWriteStream(`${dir}/${hash}`)\n            ws.write(buffer)\n            ws.close()\n            res.send(`${filename}-${hash} Chunk uploaded`)\n        } catch (error) {\n            console.error(error)\n            res.status(500).send(`${filename}-${hash} 切片上传失败`)\n        }\n    })\n})\n\n//合并切片接口\nserver.post('/merge', async (req, res) =\u003e {\n    const { filename, fileHash } = req.body\n    try {\n        let len = 0\n        const folder = `${STATIC_TEMPORARY}/${fileHash}`\n        const bufferList = fs.readdirSync(folder).map((_, index) =\u003e {\n            const buffer = fs.readFileSync(`${folder}/${fileHash}-${index}`)\n            len += buffer.length\n            return buffer\n        });\n        //合并文件\n        const buffer = Buffer.concat(bufferList, len);\n        const ws = fs.createWriteStream(`${STATIC_FILES}/${filename}-${fileHash}`)\n        ws.write(buffer);\n        ws.close();\n        res.send(`切片合并完成`);\n    } catch (error) {\n        console.error(error);\n    }\n})\n\nserver.listen(3000, _ =\u003e {\n    console.log('http://localhost:3000/')\n})\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230811172059-lniouir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230811172059-lniouir"
+			}
+		},
+		{
+			"ID": "20230811172112-yai8uaj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230811172112-yai8uaj",
+				"updated": "20230811172214"
+			},
+			"Children": [
+				{
+					"ID": "20230811172112-2cakp43",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172112-2cakp43",
+						"updated": "20230811172112"
+					},
+					"Children": [
+						{
+							"ID": "20230811172112-a2m7jeg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172112-a2m7jeg",
+								"updated": "20230811172112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://github.com/yeyan1996/file-upload/blob/master"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172206-z38016a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172206-z38016a"
+					},
+					"Children": [
+						{
+							"ID": "20230811172206-j2ykq5m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172206-j2ykq5m",
+								"updated": "20230811172207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://github.com/hanwenma/simple-upload/blob/master"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172113-hcxyez2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172113-hcxyez2"
+					},
+					"Children": [
+						{
+							"ID": "20230811172113-v946ju9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172113-v946ju9",
+								"updated": "20230811172119"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/6844904046436843527?searchId=202308081148261116068B0619E57FADFF"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172120-llq2l1s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172120-llq2l1s"
+					},
+					"Children": [
+						{
+							"ID": "20230811172120-mwja30z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172120-mwja30z",
+								"updated": "20230811172132"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7194715277953597495?searchId=202308072217029138F6B666B6F42FDAE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172140-4zj345d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172140-4zj345d"
+					},
+					"Children": [
+						{
+							"ID": "20230811172140-vysl7lh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172140-vysl7lh",
+								"updated": "20230811172140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7000654161297539079?searchId=202308072217029138F6B666B6F42FDAE1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172145-vjnbodt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172145-vjnbodt"
+					},
+					"Children": [
+						{
+							"ID": "20230811172145-vxrf3fd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172145-vxrf3fd",
+								"updated": "20230811172146"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7241078623553175611?searchId=202308072217029138F6B666B6F42FDAE1",
+									"TextMarkTextContent": "Vue3大文件上传：让你的文件飞！秒传、断点续传、分片上传全攻略！ - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172153-ltut260",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172153-ltut260"
+					},
+					"Children": [
+						{
+							"ID": "20230811172153-0k7s2i8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172153-0k7s2i8",
+								"updated": "20230811172153"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/column/7044426014323605541",
+									"TextMarkTextContent": "项目难点 - 黄金林的专栏 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172159-yz0pzaw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172159-yz0pzaw"
+					},
+					"Children": [
+						{
+							"ID": "20230811172159-9oocal1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172159-9oocal1",
+								"updated": "20230811172200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7053658552472174605?searchId=202308072217029138F6B666B6F42FDAE1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230811172214-g8adzri",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230811172214-g8adzri",
+						"updated": "20230811172214"
+					},
+					"Children": [
+						{
+							"ID": "20230811172214-qobgju8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230811172214-qobgju8",
+								"updated": "20230811172214"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7074534222748188685?searchId=202308072217029138F6B666B6F42FDAE1"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230811172100-54ihsz6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230811172100-54ihsz6"
+			}
+		}
+	]
+}
