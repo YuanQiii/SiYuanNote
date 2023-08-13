@@ -1,0 +1,523 @@
+{
+	"ID": "20230812143643-6pgj80p",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230812143643-6pgj80p",
+		"title": "文件格式",
+		"updated": "20230813153621"
+	},
+	"Children": [
+		{
+			"ID": "20230813152000-czfwu4l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230813152000-czfwu4l",
+				"updated": "20230813152004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Blob"
+				}
+			]
+		},
+		{
+			"ID": "20230813152005-2hlmth5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230813152005-2hlmth5",
+				"updated": "20230813152237"
+			},
+			"Children": [
+				{
+					"ID": "20230813152237-2emcwm1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230813152237-2emcwm1",
+						"updated": "20230813152237"
+					},
+					"Children": [
+						{
+							"ID": "20230813152237-e7tr3mx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813152237-e7tr3mx",
+								"updated": "20230813152237"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Blob"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对象表示一个不可变、原始数据的类文件对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230813152311-ertl5vw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230813152311-ertl5vw"
+					},
+					"Children": [
+						{
+							"ID": "20230813152311-2vookt0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813152311-2vookt0",
+								"updated": "20230813152324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以按文本或二进制的格式进行读取，也可以转换成 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a code",
+									"TextMarkAHref": "https://developer.mozilla.org/zh-CN/docs/Web/API/ReadableStream",
+									"TextMarkTextContent": "ReadableStream"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 来用于数据操作"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230813152339-s8a2vgv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230813152339-s8a2vgv",
+				"updated": "20230813153237"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ReadableStream"
+				}
+			]
+		},
+		{
+			"ID": "20230813152920-xu1tzyv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230813152920-xu1tzyv",
+				"updated": "20230813152937"
+			},
+			"Children": [
+				{
+					"ID": "20230813152937-jrko4fe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230813152937-jrko4fe",
+						"updated": "20230813152937"
+					},
+					"Children": [
+						{
+							"ID": "20230813152937-epz9rbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813152937-epz9rbm",
+								"updated": "20230813152937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表示可读的字节数据流"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230813153224-d3sdobq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230813153224-d3sdobq",
+				"updated": "20230813153225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ArrayBuffer"
+				}
+			]
+		},
+		{
+			"ID": "20230813153250-0x9r66y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230813153250-0x9r66y",
+				"updated": "20230813153420"
+			},
+			"Children": [
+				{
+					"ID": "20230813153259-cq2ajps",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230813153259-cq2ajps",
+						"updated": "20230813153259"
+					},
+					"Children": [
+						{
+							"ID": "20230813153259-ygmmar1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813153259-ygmmar1",
+								"updated": "20230813153259"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表示通用的、固定长度的原始二进制数据缓冲区"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230813153259-z4okkud",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230813153259-z4okkud"
+					},
+					"Children": [
+						{
+							"ID": "20230813153259-a5dn3eh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813153259-a5dn3eh",
+								"updated": "20230813153408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一个字节数组，通常在其他语言中称为“byte array”"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230813153409-61va27c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230813153409-61va27c",
+						"updated": "20230813153420"
+					},
+					"Children": [
+						{
+							"ID": "20230813153409-dj5bed1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813153409-dj5bed1",
+								"updated": "20230813153420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你不能直接操作 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ArrayBuffer"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中的内容；而是要通过"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
+									"TextMarkTextContent": "类型化数组对象"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "或 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a code",
+									"TextMarkAHref": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+									"TextMarkTextContent": "DataView"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对象来操作，它们会将缓冲区中的数据表示为特定的格式，并通过这些格式来读写缓冲区的内容"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230813153553-ggx07us",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230813153553-ggx07us",
+				"updated": "20230813153556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypedArray"
+				}
+			]
+		},
+		{
+			"ID": "20230813153620-zs2imeh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230813153620-zs2imeh",
+				"updated": "20230813153621"
+			},
+			"Children": [
+				{
+					"ID": "20230813153621-6cbx0g2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230813153621-6cbx0g2",
+						"updated": "20230813153621"
+					},
+					"Children": [
+						{
+							"ID": "20230813153621-sriy93h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813153621-sriy93h",
+								"updated": "20230813153621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "em strong",
+									"TextMarkTextContent": "TypedArray"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 对象描述了底层"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+									"TextMarkTextContent": "二进制数据缓冲区"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的类数组视图"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230812143649-2hu5z42",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230812143649-2hu5z42",
+				"updated": "20230813151547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "File"
+				}
+			]
+		},
+		{
+			"ID": "20230813151547-k0jmm5k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230813151547-k0jmm5k",
+				"updated": "20230813151650"
+			},
+			"Children": [
+				{
+					"ID": "20230813151601-uu40dxl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230813151601-uu40dxl",
+						"updated": "20230813151601"
+					},
+					"Children": [
+						{
+							"ID": "20230813151601-3hz26qt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813151601-3hz26qt",
+								"updated": "20230813151601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文件（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong code",
+									"TextMarkTextContent": "File"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​）接口提供有关文件的信息，并允许网页中的 JavaScript 访问其内容"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230813151650-00eufzf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230813151650-00eufzf",
+						"updated": "20230813151650"
+					},
+					"Children": [
+						{
+							"ID": "20230813151650-u4nz8zt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813151650-u4nz8zt",
+								"updated": "20230813151650"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "File"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对象是特殊类型的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a code",
+									"TextMarkAHref": "https://developer.mozilla.org/zh-CN/docs/Web/API/Blob",
+									"TextMarkTextContent": "Blob"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，且可以用在任意的 Blob 类型的 context 中"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230812143643-4m2s908",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230812143643-4m2s908",
+				"updated": "20230812143643"
+			}
+		}
+	]
+}

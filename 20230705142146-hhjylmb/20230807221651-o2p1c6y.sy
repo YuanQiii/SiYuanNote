@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20230807221651-o2p1c6y",
 		"title": "大文件上传",
-		"updated": "20230811172214"
+		"updated": "20230813204151"
 	},
 	"Children": [
 		{
@@ -811,7 +811,7 @@
 			},
 			"Properties": {
 				"id": "20230811171854-6ijarbo",
-				"updated": "20230811171937"
+				"updated": "20230813204151"
 			},
 			"Children": [
 				{
@@ -826,7 +826,7 @@
 					"Properties": {
 						"fold": "1",
 						"id": "20230811171937-ee6eohe",
-						"updated": "20230811171937"
+						"updated": "20230813204125"
 					},
 					"Children": [
 						{
@@ -849,7 +849,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20230811171854-zl97uhu",
-								"updated": "20230811171909"
+								"updated": "20230813204125"
 							},
 							"Children": [
 								{
@@ -862,7 +862,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "\u003ctemplate\u003e\n  \u003ca-input type=\"file\" @change=\"handleFileChange\"\u003e\n    \u003ca-button\u003e\n      \u003cupload-outlined\u003e\u003c/upload-outlined\u003e\n      Upload\n    \u003c/a-button\u003e\n  \u003c/a-input\u003e\n  \u003ca-button type=\"primary\" @click=\"handlePause\"\u003e pause \u003c/a-button\u003e\n  \u003ca-button type=\"primary\" @click=\"handleResume\"\u003e resume \u003c/a-button\u003e\n  \u003cdiv\u003e\n    {{ hashPercentage }}\n  \u003c/div\u003e\n  \u003chr /\u003e\n  \u003cdiv\u003e\n    \u003c!-- \u003cdiv v-for=\"(item, index) in fileChunksData\" :key=\"index\"\u003e\n      {{ item.index }} - {{ item.percentage }}\n    \u003c/div\u003e --\u003e\n    \u003cdiv\u003e{{ totalPercentage }}\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\u003cscript lang=\"ts\" setup\u003e\nimport { UploadOutlined } from '@ant-design/icons-vue'\nimport { ref, unref, computed } from 'vue'\nimport axios from 'axios'\nimport { AxiosProgressEvent } from 'axios'\nimport { mergeMap, from, toArray } from 'rxjs'\nimport { message } from 'ant-design-vue'\n\ninterface ChunkData {\n  fileHash: string\n  chunk: Blob\n  hash: string\n  size: number\n  index: number\n  percentage: number\n  controller: AbortController\n}\n\ninterface FileData {\n  name: string\n  hash: string\n}\n\ninterface Chunk {\n  file: Blob\n}\n\nenum STATUS {\n  WAIT = 'wait',\n  PAUSE = 'pause',\n  UPLOADING = 'uploading',\n}\n\nconst fileObj = ref\u003cFile | null\u003e(null)\n\nconst fileData = ref\u003cFileData\u003e({\n  name: '',\n  hash: '',\n})\n\nconst fileChunksData = ref\u003cChunkData[]\u003e([])\n\nconst requestList = ref\u003cPromise\u003cany\u003e[]\u003e([])\n\nconst webWorker = ref()\nconst hashPercentage = ref(0)\n\n// 切片大小\nconst SIZE = 10 * 1024 * 1024\n\n// 并发请求\nconst LIMIT = 3\n\n// 状态\nconst status = ref\u003cSTATUS\u003e(STATUS.WAIT)\n\nconst uploadedNumber = ref(0)\n\n/**\n * 总进度条\n */\nconst totalPercentage = computed(() =\u003e {\n  if (!unref(fileChunksData).length) {\n    return 0\n  }\n  const loaded = unref(fileChunksData)\n    .map((item) =\u003e item.size * item.percentage)\n    .reduce((curr, next) =\u003e curr + next)\n\n  return parseInt((loaded / unref(fileObj)!.size).toFixed(2))\n})\n\n/**\n * 分块进度条\n * @param item\n */\nconst createProgressHandler = (item: ChunkData) =\u003e (progressEvent: AxiosProgressEvent) =\u003e {\n  if (progressEvent.total) {\n    item.percentage = parseInt(String((progressEvent.loaded / progressEvent.total) * 100))\n  }\n}\n\n// 生成文件 hash（web-worker）\nconst calculateHash = (fileChunksList: Chunk[]) =\u003e {\n  return new Promise((resolve) =\u003e {\n    webWorker.value = new Worker('/hash.js')\n    webWorker.value.postMessage({ fileChunksList })\n    webWorker.value.onmessage = (e) =\u003e {\n      const { percentage, hash } = e.data\n      hashPercentage.value = percentage\n      if (hash) {\n        resolve(hash)\n      }\n    }\n  })\n}\n\n/**\n * 创建文件切片\n * @param file 文件\n * @param size 切片大小\n */\nconst createFileChunk = (file: File | null, size: number) =\u003e {\n  if (!file) {\n    return\n  }\n  const fileChunkList = []\n  let cur = 0\n  while (cur \u003c file.size) {\n    fileChunkList.push({\n      file: file.slice(cur, cur + size),\n    })\n    cur += size\n  }\n  return fileChunkList\n}\n\n/**\n * 合并切片请求\n */\nconst mergeRequest = async () =\u003e {\n  await axios({\n    method: 'post',\n    url: 'http://localhost:3000/merge',\n    headers: {\n      'content-type': 'application/json',\n    },\n    data: JSON.stringify({\n      filename: unref(fileData).name,\n      fileHash: unref(fileData).hash,\n      size: SIZE,\n    }),\n  })\n}\n\n/**\n * 根据 hash 验证文件是否曾经已经被上传过\n * 没有才进行上传\n * @param filename 文件名\n * @param fileHash 文件hash\n */\nconst verifyUpload = async (filename: string, fileHash: string) =\u003e {\n  const { data } = await axios({\n    method: 'post',\n    url: 'http://localhost:3000/verify',\n    headers: {\n      'content-type': 'application/json',\n    },\n    data: JSON.stringify({\n      filename,\n      fileHash,\n    }),\n  })\n\n  return data\n}\n\n/**\n * 上传切片，同时过滤已上传的切片\n */\nconst uploadChunks = async (uploadedList: string[]) =\u003e {\n  requestList.value = unref(fileChunksData)\n    .filter(({ hash }) =\u003e !uploadedList.includes(hash))\n    .map(({ chunk, hash, index, controller }) =\u003e {\n      const formData = new FormData()\n      formData.append('chunk', chunk)\n      formData.append('hash', hash)\n      formData.append('filename', unref(fileData).name)\n      formData.append('fileHash', unref(fileData).hash)\n      return { formData, index, controller }\n    })\n    .map(({ formData, index, controller }) =\u003e\n      axios({\n        method: 'post',\n        url: 'http://localhost:3000/upload',\n        headers: {\n          'Content-Type': 'multipart/form-data',\n        },\n        data: formData,\n        signal: controller.signal,\n        onUploadProgress: createProgressHandler(unref(fileChunksData)[index]),\n      })\n        .then(() =\u003e {\n          uploadedNumber.value += 1\n        })\n        .catch((error) =\u003e {\n          if (axios.isCancel(error)) {\n            console.log(`请求已取消：${error.message}`)\n          } else {\n            console.log(`请求出错：${error.message}`)\n          }\n        })\n    )\n\n  // 并发请求，然后合并\n  from(unref(requestList))\n    .pipe(\n      mergeMap((value) =\u003e value, LIMIT),\n      toArray()\n    )\n    .subscribe({\n      complete: () =\u003e {\n        if (uploadedNumber.value === fileChunksData.value.length) {\n          console.log('complete')\n          mergeRequest()\n        }\n      },\n    })\n}\n\n/**\n * 上传逻辑\n */\nconst handleUpload = async () =\u003e {\n  status.value = STATUS.UPLOADING\n\n  // 创建切片文件\n  const fileChunkList = createFileChunk(unref(fileObj), SIZE)\n\n  if (!fileChunkList) {\n    return\n  }\n\n  // 获取文件hash\n  unref(fileData).hash = (await calculateHash(fileChunkList)) as string\n\n  // 获取需要上传和已上传的切片hash列表\n  const { shouldUpload, uploadedList } = await verifyUpload(\n    unref(fileData).name,\n    unref(fileData).hash\n  )\n\n  // 文件已经上传完毕\n  // 秒传\n  if (!shouldUpload) {\n    message.info('skip upload：file upload success')\n    status.value = STATUS.WAIT\n    return\n  }\n\n  // 生成文件块信息对象列表\n  fileChunksData.value = fileChunkList.map(({ file }, index) =\u003e ({\n    fileHash: unref(fileData).hash,\n    chunk: file,\n    hash: `${unref(fileData).hash}-${index}`,\n    size: file.size,\n    index,\n    percentage: 0,\n    controller: new AbortController(),\n  }))\n\n  // 上传切片\n  await uploadChunks(unref(uploadedList))\n}\n\n/**\n * 创建选择文件的控件并监听 change 事件\n * @param e 事件参数\n */\nconst handleFileChange = (e: Event) =\u003e {\n  const files = (e.target as HTMLInputElement).files\n  if (files) {\n    fileObj.value = files[0]\n    unref(fileData).name = files[0].name\n    handleUpload()\n  }\n}\n\n/**\n * 取消上传切片请求\n */\nconst resetData = () =\u003e {\n  unref(fileChunksData).forEach((ele) =\u003e ele.controller.abort())\n  requestList.value = []\n}\n\n/**\n * 暂停\n */\nconst handlePause = () =\u003e {\n  status.value = STATUS.PAUSE\n  resetData()\n}\n\n/**\n * 继续\n */\nconst handleResume = async () =\u003e {\n  status.value = STATUS.UPLOADING\n  const { uploadedList } = await verifyUpload(unref(fileData).name, unref(fileData).hash)\n  await uploadChunks(uploadedList)\n}\n\u003c/script\u003e\n\n"
+									"Data": "\u003ctemplate\u003e\n  \u003ca-input type=\"file\" @change=\"handleFileChange\"\u003e\n    \u003ca-button\u003e\n      \u003cupload-outlined\u003e\u003c/upload-outlined\u003e\n      Upload\n    \u003c/a-button\u003e\n  \u003c/a-input\u003e\n  \u003ca-button type=\"primary\" @click=\"handlePause\"\u003e pause \u003c/a-button\u003e\n  \u003ca-button type=\"primary\" @click=\"handleResume\"\u003e resume \u003c/a-button\u003e\n  \u003cdiv\u003e\n    {{ hashPercentage }}\n  \u003c/div\u003e\n  \u003chr /\u003e\n  \u003cdiv\u003e\n    \u003c!-- \u003cdiv v-for=\"(item, index) in fileChunksData\" :key=\"index\"\u003e\n        {{ item.index }} - {{ item.percentage }}\n      \u003c/div\u003e --\u003e\n    \u003cdiv\u003e{{ totalPercentage }}\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\u003cscript lang=\"ts\" setup\u003e\nimport { UploadOutlined } from '@ant-design/icons-vue'\nimport { ref, unref, computed } from 'vue'\nimport axios from 'axios'\nimport { AxiosProgressEvent } from 'axios'\nimport { mergeMap, from, toArray } from 'rxjs'\nimport { message } from 'ant-design-vue';\nconst [messageApi] = message.useMessage();\n\ninterface ChunkData {\n  fileHash: string\n  chunk: Blob\n  hash: string\n  size: number\n  index: number\n  percentage: number\n}\n\ninterface FileData {\n  name: string\n  size: number\n  hash: string\n}\n\ninterface Chunk {\n  file: Blob\n}\n\nenum STATUS {\n  WAIT = 'wait',\n  PAUSE = 'pause',\n  UPLOADING = 'uploading',\n}\n\nconst fileObj = ref\u003cFile | null\u003e(null)\n\nconst fileData = ref\u003cFileData\u003e({\n  name: '',\n  hash: '',\n  size: 0\n})\n\nconst fileChunksData = ref\u003cChunkData[]\u003e([])\n\nconst requestList = ref\u003cPromise\u003cany\u003e[]\u003e([])\n\nconst controllerList = ref\u003cAbortController[]\u003e([])\n\nconst webWorker = ref()\nconst hashPercentage = ref(0)\n\n// 切片大小\nconst SIZE = 10 * 1024 * 1024\n\n// 并发请求\nconst LIMIT = 1\n\n// 状态\nconst status = ref\u003cSTATUS\u003e(STATUS.WAIT)\n\nconst uploadedNumber = ref(0)\n\n/**\n * 总进度条\n */\nconst totalPercentage = computed(() =\u003e {\n  if (!unref(fileChunksData).length) {\n    return 0\n  }\n  const loaded = unref(fileChunksData)\n    .map((item) =\u003e item.size * item.percentage)\n    .reduce((curr, next) =\u003e curr + next)\n\n  return parseInt((loaded / unref(fileObj)!.size).toFixed(2))\n})\n\n/**\n * 分块进度条\n * @param item\n */\nconst createProgressHandler = (item: ChunkData) =\u003e (progressEvent: AxiosProgressEvent) =\u003e {\n  if (progressEvent.total) {\n    item.percentage = parseInt(String((progressEvent.loaded / progressEvent.total) * 100))\n  }\n}\n\n// 生成文件 hash（web-worker）\nconst calculateHash = (fileChunksList: Chunk[]) =\u003e {\n  return new Promise((resolve) =\u003e {\n    webWorker.value = new Worker('/hash.js')\n    webWorker.value.postMessage({ fileChunksList })\n    webWorker.value.onmessage = (e) =\u003e {\n      const { percentage, hash } = e.data\n      hashPercentage.value = percentage\n      if (hash) {\n        resolve(hash)\n      }\n    }\n  })\n}\n\n/**\n * 创建文件切片\n * @param file 文件\n * @param size 切片大小\n */\nconst createFileChunk = (file: File | null, size: number) =\u003e {\n  if (!file) {\n    return\n  }\n  const fileChunkList = []\n  let cur = 0\n  while (cur \u003c file.size) {\n    fileChunkList.push({\n      file: file.slice(cur, cur + size),\n    })\n    cur += size\n  }\n  return fileChunkList\n}\n\n/**\n * 合并切片请求\n */\nconst mergeRequest = async () =\u003e {\n  await axios({\n    method: 'post',\n    url: 'http://localhost:3000/merge',\n    headers: {\n      'content-type': 'application/json',\n    },\n    data: JSON.stringify({\n      filename: unref(fileData).name,\n      fileHash: unref(fileData).hash,\n      size: SIZE,\n    }),\n  })\n}\n\n/**\n * 根据 hash 验证文件是否曾经已经被上传过\n * 没有才进行上传\n * @param filename 文件名\n * @param fileHash 文件hash\n */\nconst verifyUpload = async (filename: string, fileHash: string) =\u003e {\n  const { data } = await axios({\n    method: 'post',\n    url: 'http://localhost:3000/verify',\n    headers: {\n      'content-type': 'application/json',\n    },\n    data: JSON.stringify({\n      filename,\n      fileHash,\n    }),\n  })\n\n  return data\n}\n\n/**\n * 上传切片，同时过滤已上传的切片\n */\nconst uploadChunks = async (uploadedList: string[]) =\u003e {\n  requestList.value = unref(fileChunksData)\n    .filter(({ hash }) =\u003e !uploadedList.includes(hash))\n    .map(({ chunk, hash, index }) =\u003e {\n      const formData = new FormData()\n      formData.append('chunk', chunk)\n      formData.append('hash', hash)\n      formData.append('filename', unref(fileData).name)\n      formData.append('fileHash', unref(fileData).hash)\n\n      const controller = new AbortController()\n      unref(controllerList).push(controller)\n\n      return { formData, index, controller }\n    })\n    .map(({ formData, index, controller }) =\u003e\n      axios({\n        method: 'post',\n        url: 'http://localhost:3000/upload',\n        headers: {\n          'Content-Type': 'multipart/form-data',\n        },\n        data: formData,\n        signal: controller.signal,\n        onUploadProgress: createProgressHandler(unref(fileChunksData)[index]),\n      })\n        .then(() =\u003e {\n          uploadedNumber.value += 1\n        })\n        .catch((error) =\u003e {\n          if (axios.isCancel(error)) {\n            console.log(`请求已取消：${error.message}`)\n          } else {\n            console.log(`请求出错：${error.message}`)\n          }\n        })\n    )\n\n\n  // 并发请求，然后合并\n  from(unref(requestList))\n    .pipe(\n      mergeMap((value) =\u003e value, LIMIT),\n      toArray()\n    )\n    .subscribe({\n      complete: () =\u003e {\n        if (uploadedNumber.value === fileChunksData.value.length) {\n          console.log('complete')\n          mergeRequest()\n        }\n      },\n    })\n}\n\n/**\n * 上传逻辑\n */\nconst handleUpload = async () =\u003e {\n  status.value = STATUS.UPLOADING\n\n  // 创建切片文件\n  const fileChunkList = createFileChunk(unref(fileObj), SIZE)\n\n  if (!fileChunkList) {\n    return\n  }\n\n  // 获取文件hash\n  unref(fileData).hash = (await calculateHash(fileChunkList)) as string\n\n  // 获取需要上传和已上传的切片hash列表\n  const { shouldUpload, uploadedList } = await verifyUpload(\n    unref(fileData).name,\n    unref(fileData).hash\n  )\n\n  uploadedNumber.value = uploadedList.length\n\n  // 文件已经上传完毕\n  // 秒传\n  if (!shouldUpload) {\n    messageApi.info('skip upload：file upload success')\n    status.value = STATUS.WAIT\n    return\n  }\n\n  // 生成文件块信息对象列表\n  fileChunksData.value = fileChunkList.map(({ file }, index) =\u003e ({\n    fileHash: unref(fileData).hash,\n    chunk: file,\n    hash: `${unref(fileData).hash}-${index}`,\n    size: file.size,\n    index,\n    percentage: 0,\n  }))\n\n  // 上传切片\n  await uploadChunks(unref(uploadedList))\n}\n\n/**\n * 创建选择文件的控件并监听 change 事件\n * @param e 事件参数\n */\nconst handleFileChange = (e: Event) =\u003e {\n  const files = (e.target as HTMLInputElement).files\n  if (files) {\n    fileObj.value = files[0]\n    unref(fileData).name = files[0].name\n    handleUpload()\n  }\n}\n\n/**\n * 取消上传切片请求\n */\nconst resetData = () =\u003e {\n  unref(controllerList).forEach((ele) =\u003e ele.abort())\n  requestList.value = []\n}\n\n/**\n * 暂停\n */\nconst handlePause = () =\u003e {\n  status.value = STATUS.PAUSE\n  resetData()\n}\n\n/**\n * 继续\n */\nconst handleResume = async () =\u003e {\n  status.value = STATUS.UPLOADING\n  const { uploadedList } = await verifyUpload(unref(fileData).name, unref(fileData).hash)\n  console.log(uploadedList);\n\n\n  await uploadChunks(uploadedList)\n}\n\u003c/script\u003e"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
@@ -890,7 +890,8 @@
 					},
 					"Properties": {
 						"fold": "1",
-						"id": "20230811171945-6kbnn5w"
+						"id": "20230811171945-6kbnn5w",
+						"updated": "20230813204135"
 					},
 					"Children": [
 						{
@@ -913,7 +914,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20230811171955-w30e7qb",
-								"updated": "20230811172003"
+								"updated": "20230813204135"
 							},
 							"Children": [
 								{
@@ -926,7 +927,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "// 导入脚本\n// import script for encrypted computing\nself.importScripts('/spark-md5.min.js')\n\n// 生成文件 hash\n// create file hash\nself.onmessage = (e) =\u003e {\n  const { fileChunksList } = e.data\n  console.log(e);\n  const spark = new self.SparkMD5.ArrayBuffer()\n  let percentage = 0\n  let count = 0\n  const loadNext = (index) =\u003e {\n    const reader = new FileReader()\n    reader.readAsArrayBuffer(fileChunksList[index].file)\n    reader.onload = (e) =\u003e {\n      count++\n      spark.append(e.target.result)\n      if (count === fileChunksList.length) {\n        self.postMessage({\n          percentage: 100,\n          hash: spark.end(),\n        })\n        self.close()\n      } else {\n        percentage += 100 / fileChunksList.length\n        self.postMessage({\n          percentage,\n        })\n        loadNext(count)\n      }\n    }\n  }\n  loadNext(0)\n}\n\n"
+									"Data": "// 导入脚本\nself.importScripts('/spark-md5.min.js')\n\n// 生成文件 hash\nself.onmessage = (e) =\u003e {\n  const { fileChunksList } = e.data\n\n  // 进行抽样处理\n  const start = fileChunksList.shift()\n  const end = fileChunksList.pop()\n  const mid = fileChunksList.map(fileChunk =\u003e {\n    let newFileChunk = [fileChunk.file.slice(0, 2)]\n    newFileChunk.push(fileChunk.file.slice(Math.floor(fileChunk.file.length/2), 2))\n    newFileChunk.push(fileChunk.file.slice(-1, -3))\n    return {\n      file: new Blob(newFileChunk)\n    }\n  })\n  const newFileChunksList = [start, ...mid, end]\n\n  // 计算抽样结果hash\n  const spark = new self.SparkMD5.ArrayBuffer()\n  let percentage = 0\n  let count = 0\n  const loadNext = (index) =\u003e {\n    const reader = new FileReader()\n    reader.readAsArrayBuffer(newFileChunksList[index].file)\n    reader.onload = (e) =\u003e {\n      count++\n      spark.append(e.target.result)\n      if (count === newFileChunksList.length) {\n        self.postMessage({\n          percentage: 100,\n          hash: spark.end(),\n        })\n        self.close()\n      } else {\n        percentage += 100 / newFileChunksList.length\n        self.postMessage({\n          percentage,\n        })\n        loadNext(count)\n      }\n    }\n  }\n  loadNext(0)\n}"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1004,7 +1005,8 @@
 					},
 					"Properties": {
 						"fold": "1",
-						"id": "20230811172039-t8fuihs"
+						"id": "20230811172039-t8fuihs",
+						"updated": "20230813204151"
 					},
 					"Children": [
 						{
@@ -1027,7 +1029,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20230811172045-joq5nnh",
-								"updated": "20230811172051"
+								"updated": "20230813204151"
 							},
 							"Children": [
 								{
@@ -1040,7 +1042,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "const express = require('express')\nconst cors = require('cors')\nconst multiparty = require('multiparty')\nconst fs = require('fs')\nconst path = require('path')\nconst { Buffer } = require('buffer')\n\n// 上传文件最终路径\nconst STATIC_FILES = path.join(__dirname, './static/files')\n// 上传文件临时路径\nconst STATIC_TEMPORARY = path.join(__dirname, './static/temporary')\n\nconst server = express()\n\nserver.use(cors())\nserver.use(express.json())\n\n// 静态文件托管\nserver.use(express.static(path.join(__dirname, './dist')))\n\n\n// 返回已上传的所有切片名\nconst createUploadedList = async (filename, fileHash) =\u003e\n  fs.existsSync(`${STATIC_TEMPORARY}/${filename}-${fileHash}`)\n    ? await fs.readdirSync(`${STATIC_TEMPORARY}/${filename}-${fileHash}`)\n    : [];\n\n\n// 验证是否已上传/已上传切片下标\nserver.post('/verify', async (req, res) =\u003e {\n    const { fileHash, filename } = req.body;\n    const filePath = `${STATIC_FILES}/${filename}-${fileHash}`;\n    if (fs.existsSync(filePath)) {\n        res.send(JSON.stringify({\n            shouldUpload: false\n        }))\n    }else{\n        res.send(\n            JSON.stringify({\n                shouldUpload: true,\n                uploadedList: await createUploadedList(filename. fileHash)\n            })\n        )\n    }\n})\n\n// 切片上传的接口\nserver.post('/upload', (req, res) =\u003e {\n    const form = new multiparty.Form();\n    form.parse(req, function (err, fields, files) {\n        if (err) {\n            return\n        }\n        const filename = fields.filename[0]\n        const fileHash = fields.fileHash[0]\n        const hash = fields.hash[0]\n        const chunk = files.chunk[0]\n        const dir = `${STATIC_TEMPORARY}/${fileHash}`\n        try {\n            if (!fs.existsSync(dir)) fs.mkdirSync(dir)\n            const buffer = fs.readFileSync(chunk.path)\n            const ws = fs.createWriteStream(`${dir}/${hash}`)\n            ws.write(buffer)\n            ws.close()\n            res.send(`${filename}-${hash} Chunk uploaded`)\n        } catch (error) {\n            console.error(error)\n            res.status(500).send(`${filename}-${hash} 切片上传失败`)\n        }\n    })\n})\n\n//合并切片接口\nserver.post('/merge', async (req, res) =\u003e {\n    const { filename, fileHash } = req.body\n    try {\n        let len = 0\n        const folder = `${STATIC_TEMPORARY}/${fileHash}`\n        const bufferList = fs.readdirSync(folder).map((_, index) =\u003e {\n            const buffer = fs.readFileSync(`${folder}/${fileHash}-${index}`)\n            len += buffer.length\n            return buffer\n        });\n        //合并文件\n        const buffer = Buffer.concat(bufferList, len);\n        const ws = fs.createWriteStream(`${STATIC_FILES}/${filename}-${fileHash}`)\n        ws.write(buffer);\n        ws.close();\n        res.send(`切片合并完成`);\n    } catch (error) {\n        console.error(error);\n    }\n})\n\nserver.listen(3000, _ =\u003e {\n    console.log('http://localhost:3000/')\n})\n\n"
+									"Data": "const express = require('express')\nconst cors = require('cors')\nconst multiparty = require('multiparty')\nconst fs = require('fs')\nconst path = require('path')\nconst { Buffer } = require('buffer')\n\n// 上传文件最终路径\nconst STATIC_FILES = path.join(__dirname, './static/files')\n// 上传文件临时路径\nconst STATIC_TEMPORARY = path.join(__dirname, './static/temporary')\n\nconst server = express()\n\nserver.use(cors())\nserver.use(express.json())\n\n// 静态文件托管\nserver.use(express.static(path.join(__dirname, './dist')))\n\n\n// 返回已上传的所有切片名\nconst createUploadedList = async (fileHash) =\u003e\n  fs.existsSync(`${STATIC_TEMPORARY}/${fileHash}`)\n    ? await fs.readdirSync(`${STATIC_TEMPORARY}/${fileHash}`)\n    : [];\n\n\n// 验证是否已上传/已上传切片下标\nserver.post('/verify', async (req, res) =\u003e {\n    const { fileHash, filename } = req.body;\n    const filePath = `${STATIC_FILES}/${filename}-${fileHash}`;\n    if (fs.existsSync(filePath)) {\n        res.send(JSON.stringify({\n            shouldUpload: false\n        }))\n    }else{\n        res.send(\n            JSON.stringify({\n                shouldUpload: true,\n                uploadedList: await createUploadedList(fileHash)\n            })\n        )\n    }\n})\n\n// 切片上传的接口\nserver.post('/upload', (req, res) =\u003e {\n    const form = new multiparty.Form();\n    form.parse(req, function (err, fields, files) {\n        if (err) {\n            return\n        }\n        const filename = fields.filename[0]\n        const fileHash = fields.fileHash[0]\n        const hash = fields.hash[0]\n        const chunk = files.chunk[0]\n        const dir = `${STATIC_TEMPORARY}/${fileHash}`\n        try {\n            if (!fs.existsSync(dir)) fs.mkdirSync(dir)\n            const buffer = fs.readFileSync(chunk.path)\n            const ws = fs.createWriteStream(`${dir}/${hash}`)\n            ws.write(buffer)\n            ws.close()\n            res.send(`${filename}-${hash} Chunk uploaded`)\n        } catch (error) {\n            console.error(error)\n            res.status(500).send(`${filename}-${hash} 切片上传失败`)\n        }\n    })\n})\n\n//合并切片接口\nserver.post('/merge', async (req, res) =\u003e {\n    const { filename, fileHash } = req.body\n    try {\n        let len = 0\n        const folder = `${STATIC_TEMPORARY}/${fileHash}`\n        const bufferList = fs.readdirSync(folder).map((_, index) =\u003e {\n            const buffer = fs.readFileSync(`${folder}/${fileHash}-${index}`)\n            len += buffer.length\n            return buffer\n        });\n        //合并文件\n        const buffer = Buffer.concat(bufferList, len);\n        const ws = fs.createWriteStream(`${STATIC_FILES}/${fileHash}-${filename}`)\n        ws.write(buffer);\n        ws.close();\n        res.send(`切片合并完成`);\n    } catch (error) {\n        console.error(error);\n    }\n})\n\nserver.listen(3000, _ =\u003e {\n    console.log('http://localhost:3000/')\n})"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1065,7 +1067,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230811172112-yai8uaj",
-				"updated": "20230811172214"
+				"updated": "20230813150936"
 			},
 			"Children": [
 				{
@@ -1312,6 +1314,36 @@
 								{
 									"Type": "NodeText",
 									"Data": "https://juejin.cn/post/7074534222748188685?searchId=202308072217029138F6B666B6F42FDAE1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230813150936-zr2t0zf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230813150936-zr2t0zf",
+						"updated": "20230813150936"
+					},
+					"Children": [
+						{
+							"ID": "20230813150936-hczydri",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230813150936-hczydri",
+								"updated": "20230813150936"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://developer.aliyun.com/article/1140371#:~:text=%2F%2A%2A%20%2A%20%E6%8A%BD%E6%A0%B7%E8%AE%A1%E7%AE%97hash%E5%80%BC%20%E5%A4%A7%E6%A6%82%E6%98%AF1G%E6%96%87%E4%BB%B6%E8%8A%B1%E8%B4%B91S%E7%9A%84%E6%97%B6%E9%97%B4%20%2A%20%2A%20%E9%87%87%E7%94%A8%E6%8A%BD%E6%A0%B7hash%E7%9A%84%E6%96%B9%E5%BC%8F%E6%9D%A5%E8%AE%A1%E7%AE%97hash%20%2A,%28chunks%29%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%20%28chunks%20%5B-1%5D%29%E6%88%91%E4%BB%AC%E5%85%A8%E8%A6%81%E4%BA%86%20%2A%20%E5%85%B6%E4%BB%96%E7%9A%84%E5%85%83%E7%B4%A0%20%28chunks%20%5B1%2C2%2C3%2C4....%5D%29%E6%88%91%E4%BB%AC%E5%86%8D%E6%AC%A1%E8%BF%9B%E8%A1%8C%E4%B8%80%E4%B8%AA%E5%88%86%E5%89%B2%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%97%B6%E5%80%99%E7%9A%84%E5%88%86%E5%89%B2%E6%98%AF%E4%B8%80%E4%B8%AA%E8%B6%85%E5%B0%8F%E7%9A%84%E5%A4%A7%E5%B0%8F%E6%AF%94%E5%A6%822kb%EF%BC%8C%E6%88%91%E4%BB%AC%E5%8F%96%2A%20%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84%E5%A4%B4%E9%83%A8%EF%BC%8C%E5%B0%BE%E9%83%A8%EF%BC%8C%E4%B8%AD%E9%97%B4%E7%9A%842kb%E3%80%82",
+									"TextMarkTextContent": "大文件处理（上传，下载）思考-阿里云开发者社区 (aliyun.com)"
 								}
 							]
 						}
