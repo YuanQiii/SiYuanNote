@@ -6,16 +6,18 @@
     "theme": "2",
     "widget": "0"
   },
-  "local-codelang": "vue",
+  "local-codelang": "js",
   "local-historynoteid": "20210808180117-czj9bvb",
   "local-searchkeys": {
     "col": "",
     "colTab": "",
     "keys": [
+      "AbortController",
+      "",
+      "mergeMap",
       "CSP",
       "CDN",
       "placeholder",
-      "",
       "upx",
       "upxs"
     ],
