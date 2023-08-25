@@ -6,15 +6,3469 @@
 		"id": "20230807081452-huzm5v1",
 		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230807085648-ivh03ul\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230807085648-ivh03ul\u0026quot;,\u0026quot;scrollTop\u0026quot;:0\u0026#125;",
 		"title": "前端首页加载优化",
-		"updated": "20230807221414"
+		"updated": "20230825080829"
 	},
 	"Children": [
 		{
-			"ID": "20230807085648-ivh03ul",
+			"ID": "20230823200744-kol8j7g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230823200744-kol8j7g",
+				"updated": "20230823200744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指标"
+				}
+			]
+		},
+		{
+			"ID": "20230823200744-1j66gvk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230823200744-1j66gvk",
+				"updated": "20230823200744"
+			},
+			"Children": [
+				{
+					"ID": "20230823200744-u2k6swb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230823200744-u2k6swb",
+						"updated": "20230823200744"
+					},
+					"Children": [
+						{
+							"ID": "20230823200744-xsxx928",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200744-xsxx928",
+								"updated": "20230823200744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "FCP（First Contentful Paint）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：白屏时间（第一个文本绘制时间）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823200744-mldnvao",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230823200744-mldnvao",
+						"updated": "20230823200744"
+					},
+					"Children": [
+						{
+							"ID": "20230823200744-i7sskrj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200744-i7sskrj",
+								"updated": "20230823200744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Speed Index"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：首屏时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823200744-rx75fc1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230823200744-rx75fc1",
+						"updated": "20230823200744"
+					},
+					"Children": [
+						{
+							"ID": "20230823200744-za8g3hq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200744-za8g3hq",
+								"updated": "20230823200744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "TTI（Time To Interactive）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: 第一次可交互的时"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823200744-jixwi9w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230823200744-jixwi9w",
+						"updated": "20230823200744"
+					},
+					"Children": [
+						{
+							"ID": "20230823200744-x995eyt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200744-x995eyt",
+								"updated": "20230823200744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "lighthouse score"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Chrome"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​浏览器审查工具性能评分"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823200757-qf9tfrb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230823200757-qf9tfrb",
+				"updated": "20230823200757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "性能分析"
+				}
+			]
+		},
+		{
+			"ID": "20230823200757-o3iwnhp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230823200757-o3iwnhp",
+				"updated": "20230823202338"
+			},
+			"Children": [
+				{
+					"ID": "20230823200757-mp10mi3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230823200757-mp10mi3",
+						"updated": "20230823200757"
+					},
+					"Children": [
+						{
+							"ID": "20230823200757-pxbgu2s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200757-pxbgu2s",
+								"updated": "20230823200757"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Network"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​分析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823200757-lzch04p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230823200757-lzch04p",
+						"updated": "20230823200757"
+					},
+					"Children": [
+						{
+							"ID": "20230823200757-xt1xzfq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200757-xt1xzfq",
+								"updated": "20230823200757"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Lighthouse"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​分析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823200757-6kq7iyy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230823200757-6kq7iyy",
+						"updated": "20230823202338"
+					},
+					"Children": [
+						{
+							"ID": "20230823200757-1pnkooz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823200757-1pnkooz",
+								"updated": "20230823200757"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Bundle"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​分析"
+								}
+							]
+						},
+						{
+							"ID": "20230823201033-smca5y7",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230823201033-smca5y7",
+								"updated": "20230823202338"
+							},
+							"Children": [
+								{
+									"ID": "20230823201033-p6sdqmw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230823201033-p6sdqmw"
+									},
+									"Children": [
+										{
+											"ID": "20230823201033-3q1thxf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823201033-3q1thxf",
+												"updated": "20230823201036"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安装"
+												}
+											]
+										},
+										{
+											"ID": "20230823200757-5henlx5",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230823200757-5henlx5",
+												"updated": "20230823201048"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "QmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "pnpm add rollup-plugin-visualizer\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230823201103-tsis7ub",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230823201103-tsis7ub",
+										"updated": "20230823202338"
+									},
+									"Children": [
+										{
+											"ID": "20230823201103-6lj82hg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823201103-6lj82hg",
+												"updated": "20230823201128"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "vite.config.ts"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，打包之后会在项目根目录生成 stats.html 文件"
+												}
+											]
+										},
+										{
+											"ID": "20230823200757-5xj1xrv",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230823200757-5xj1xrv",
+												"updated": "20230823202338"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "VHlwZVNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import { visualizer } from 'rollup-plugin-visualizer'\nexport default defineConfig({\n  // 将 visualizer 插件放到最后的位置 \n  plugins: [vue(), visualizer()],\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230823201114-hu9asyb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823201114-hu9asyb"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823202454-s45tz2w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230823202454-s45tz2w",
+				"updated": "20230824104617"
+			},
+			"Children": [
+				{
+					"ID": "20230824104609-3yc0qkg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230824104609-3yc0qkg",
+						"updated": "20230824104617"
+					},
+					"Children": [
+						{
+							"ID": "20230824104609-q6ezm02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824104609-q6ezm02",
+								"updated": "20230824104612"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "懒加载"
+								}
+							]
+						},
+						{
+							"ID": "20230824104617-ujl0hue",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824104617-ujl0hue"
+							},
+							"Children": [
+								{
+									"ID": "20230823202455-0topndd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"fold": "1",
+										"id": "20230823202455-0topndd",
+										"updated": "20230823202455"
+									},
+									"Children": [
+										{
+											"ID": "20230823202456-t0km35j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823202456-t0km35j",
+												"updated": "20230824104627"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "路由懒加载"
+												}
+											]
+										},
+										{
+											"ID": "20230823202528-ngi5r3l",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230823202528-ngi5r3l"
+											},
+											"Children": [
+												{
+													"ID": "20230823202458-xu2f310",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230823202458-xu2f310"
+													},
+													"Children": [
+														{
+															"ID": "20230823202458-o1odaqq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823202458-o1odaqq",
+																"updated": "20230823202536"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "路由全部采用动态引入的方式加载，减小首页 chunk 生成时间，打包的chunk越大耗时也就越多，从大chunk中分离出小chunk可以有效减少打包时间，同时提高首页的加载速度"
+																}
+															]
+														},
+														{
+															"ID": "20230823202538-ww2i6n2",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823202538-ww2i6n2",
+																"updated": "20230823202705"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "{ path: '/login', component: () =\u003e import('@/views/login/index.vue') }\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824103448-2fd9tfj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"fold": "1",
+										"id": "20230824103448-2fd9tfj"
+									},
+									"Children": [
+										{
+											"ID": "20230824103455-4p5nua9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824103455-4p5nua9",
+												"updated": "20230824103455"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "组件懒加载"
+												}
+											]
+										},
+										{
+											"ID": "20230824104318-03cnzci",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230824104318-03cnzci"
+											},
+											"Children": [
+												{
+													"ID": "20230824104318-lvf88iz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230824104318-lvf88iz"
+													},
+													"Children": [
+														{
+															"ID": "20230824104319-wxz0tjg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824104319-wxz0tjg",
+																"updated": "20230824104319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "useIntersectionObserver"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824103528-6epy68f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230824103528-6epy68f"
+									},
+									"Children": [
+										{
+											"ID": "20230824103528-syemziy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824103528-syemziy",
+												"updated": "20230824104325"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "图片懒加载"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823202735-bvugzlr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230823202735-bvugzlr",
+				"updated": "20230823205724"
+			},
+			"Children": [
+				{
+					"ID": "20230823202743-nngg157",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230823202743-nngg157",
+						"updated": "20230823205724"
+					},
+					"Children": [
+						{
+							"ID": "20230823202750-q1yy6v3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823202750-q1yy6v3",
+								"updated": "20230823202750"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置 CDN 加速"
+								}
+							]
+						},
+						{
+							"ID": "20230823202806-4hw9py8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230823202806-4hw9py8",
+								"updated": "20230823205724"
+							},
+							"Children": [
+								{
+									"ID": "20230823202850-kxqr5qs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230823202850-kxqr5qs"
+									},
+									"Children": [
+										{
+											"ID": "20230823202850-ho6gyhv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823202850-ho6gyhv",
+												"updated": "20230823202850"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vite将外部库默认打包进了当前 chunk 中，对于这些固定的外部库，可以直接采用CDN的方式引入，无需打包进chunk中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230823203618-xr1vak9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230823203618-xr1vak9"
+									},
+									"Children": [
+										{
+											"ID": "20230823203618-fmmr60p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823203618-fmmr60p",
+												"updated": "20230823203619"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "rollup-plugin-external-globals"
+												}
+											]
+										},
+										{
+											"ID": "20230823203738-aypp6f2",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230823203738-aypp6f2"
+											},
+											"Children": [
+												{
+													"ID": "20230823202754-gcbilzz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230823202754-gcbilzz"
+													},
+													"Children": [
+														{
+															"ID": "20230823202754-rjfe54v",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823202754-rjfe54v",
+																"updated": "20230823202810"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "安装"
+																}
+															]
+														},
+														{
+															"ID": "20230823202810-7nbmxf6",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823202810-7nbmxf6",
+																"updated": "20230823203805"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "pnpm add rollup-plugin-external-globals -D\npnpm add vite-plugin-html -D\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230823202934-3wm9bo3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230823202934-3wm9bo3",
+														"updated": "20230823202934"
+													},
+													"Children": [
+														{
+															"ID": "20230823202934-fb8ve0x",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823202934-fb8ve0x",
+																"updated": "20230823203255"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "配置"
+																}
+															]
+														},
+														{
+															"ID": "20230823203256-6z8c5pf",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823203256-6z8c5pf",
+																"updated": "20230823204602"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import externalGlobals from 'rollup-plugin-external-globals';\nimport { createHtmlPlugin } from 'vite-plugin-html'\n\nconst globals = externalGlobals({\n  axios: 'axios',\n});\n\nexport default defineConfig({\n  plugins: [\n  // 支持 ejs模板语言，需要在模板加入  \u003c%- injectScript %\u003e\n  createHtmlPlugin({\n    template: './index.html',\n    inject: {\n      tags: [\n        {\n          injectTo: 'body',\n          tag: 'script',\n          attrs: {\n            src: 'https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js',\n            defer: true\n          }\n        },\n      ]\n    }\n  })],\n  build: {\n    rollupOptions: {\n      external: ['axios'],\n      plugins: globals\n    }\n  }\n})\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230823203337-3bc0736",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"fold": "1",
+										"id": "20230823203337-3bc0736",
+										"updated": "20230823205724"
+									},
+									"Children": [
+										{
+											"ID": "20230823203337-8lb6rm5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823203337-8lb6rm5",
+												"updated": "20230823204649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "vite-plugin-cdn-import"
+												}
+											]
+										},
+										{
+											"ID": "20230823204651-9naec3e",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230823204651-9naec3e",
+												"updated": "20230823205724"
+											},
+											"Children": [
+												{
+													"ID": "20230823204650-85vs3xg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230823204650-85vs3xg"
+													},
+													"Children": [
+														{
+															"ID": "20230823204650-nf3qrur",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823204650-nf3qrur",
+																"updated": "20230823204653"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "安装"
+																}
+															]
+														},
+														{
+															"ID": "20230823204654-0bk8pfb",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823204654-0bk8pfb",
+																"updated": "20230823204707"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "pnpm add vite-plugin-cdn-import -D\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230823205229-wk6749i",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230823205229-wk6749i",
+														"updated": "20230823205724"
+													},
+													"Children": [
+														{
+															"ID": "20230823205229-0bh974z",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823205229-0bh974z",
+																"updated": "20230823205234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "配置"
+																}
+															]
+														},
+														{
+															"ID": "20230823205238-1oe3uv9",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823205238-1oe3uv9",
+																"updated": "20230823205724"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import { Plugin as importToCDN, autoComplete } from 'vite-plugin-cdn-import'\nexport default defineConfig({\n  plugins: [\n    importToCDN({\n      modules: [\n        // {\n        //   name: 'axios',\n        //   var: 'axios',\n        //   path: 'https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js',\n        // }\n        autoComplete('axios')\n      ]\n    })],\n})\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823202905-0jsfr1o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230823202905-0jsfr1o",
+				"updated": "20230825080829"
+			},
+			"Children": [
+				{
+					"ID": "20230823205819-vz93632",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230823205819-vz93632",
+						"updated": "20230823205819"
+					},
+					"Children": [
+						{
+							"ID": "20230823205820-qvzqqa0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823205820-qvzqqa0",
+								"updated": "20230823205820"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化 polyfill 导入"
+								}
+							]
+						},
+						{
+							"ID": "20230823210643-ygumj9f",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230823210643-ygumj9f"
+							},
+							"Children": [
+								{
+									"ID": "20230823210643-7wqs2o5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230823210643-7wqs2o5"
+									},
+									"Children": [
+										{
+											"ID": "20230823210643-mtsic54",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823210643-mtsic54",
+												"updated": "20230823210648"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安装"
+												}
+											]
+										},
+										{
+											"ID": "20230823210648-l0gx6mh",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230823210648-l0gx6mh",
+												"updated": "20230823211139"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "pnpm add @vitejs/plugin-legacy\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230823211152-7i7kgw1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230823211152-7i7kgw1",
+										"updated": "20230823211152"
+									},
+									"Children": [
+										{
+											"ID": "20230823211152-zffw1ib",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230823211152-zffw1ib",
+												"updated": "20230823211157"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置"
+												}
+											]
+										},
+										{
+											"ID": "20230823211157-t1vj7vg",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230823211157-t1vj7vg"
+											},
+											"Children": [
+												{
+													"ID": "20230823211157-d3wavod",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230823211157-d3wavod"
+													},
+													"Children": [
+														{
+															"ID": "20230823211157-hp7oxda",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823211157-hp7oxda",
+																"updated": "20230823212946"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "测试环境下不使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "legacy"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​插件，但是还是需要引入Polyfill的，否则无法适配低端浏览器"
+																}
+															]
+														},
+														{
+															"ID": "20230823220112-jfo1u06",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823220112-jfo1u06",
+																"updated": "20230823220114"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\" /\u003e\n  \u003clink rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" /\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n  \u003ctitle\u003eVite + Vue + TS\u003c/title\u003e\n  \u003c!-- 注意在这里引入插入的polyfill --\u003e\n  \u003cscript src=\"\u003c%- polyfill %\u003e\"\u003e\u003c/script\u003e\n\u003c/head\u003e\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230823211351-mlvk69n",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230823211351-mlvk69n",
+																"updated": "20230823213059"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import { createHtmlPlugin } from 'vite-plugin-html'\nimport legacy from \"@vitejs/plugin-legacy\";\n\nexport default defineConfig(({ mode }: { mode: string }) =\u003e {\n  // 判断当前是否为测试环境，注意构建命令要使用 vite build --mode test\n  const isTest = mode === \"test\";\n\n  return {\n    plugins: [\n      createHtmlPlugin({\n        minify: true,\n        entry: \"src/main.tsx\",\n        template: \"index.html\",\n        inject: {\n          data: {\n            polyfill: isTest\n              ? \"https://polyfill.alicdn.com/v3/polyfill.js\"\n              : \"\",\n          },\n        },\n      }),\n      !isTest \u0026\u0026\n        legacy({\n          targets: [\"ie \u003e= 11\"],\n          additionalLegacyPolyfills: [\"regenerator-runtime/runtime\"],\n        }),\n    ],\n  };\n});\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823220202-tfvg55u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230823220202-tfvg55u"
+					},
+					"Children": [
+						{
+							"ID": "20230823220202-ofomdmq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823220202-ofomdmq",
+								"updated": "20230823220213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Gzip压缩"
+								}
+							]
+						},
+						{
+							"ID": "20230824100601-wqbyo8j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824100601-wqbyo8j"
+							},
+							"Children": [
+								{
+									"ID": "20230824100601-qoiy4kp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824100601-qoiy4kp"
+									},
+									"Children": [
+										{
+											"ID": "20230824100601-isuxt48",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824100601-isuxt48",
+												"updated": "20230824100606"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安装"
+												}
+											]
+										},
+										{
+											"ID": "20230824100707-8eep145",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824100707-8eep145",
+												"updated": "20230824100722"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "pnpm add vite-plugin-compression\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824100632-to9lyll",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230824100632-to9lyll"
+									},
+									"Children": [
+										{
+											"ID": "20230824100632-qpuieu2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824100632-qpuieu2",
+												"updated": "20230824100636"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置"
+												}
+											]
+										},
+										{
+											"ID": "20230824100639-xh6eqd0",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230824100639-xh6eqd0"
+											},
+											"Children": [
+												{
+													"ID": "20230824100637-ozqog53",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230824100637-ozqog53"
+													},
+													"Children": [
+														{
+															"ID": "20230824100637-7wwh0pp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824100637-7wwh0pp",
+																"updated": "20230824100642"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "nginx.conf"
+																}
+															]
+														},
+														{
+															"ID": "20230824101014-6e990mc",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230824101014-6e990mc",
+																"updated": "20230824101031"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "aW5p"
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "location / {\n  root   /home/Vue/Vue_Manage; \n  index  index.html;\n  gzip_static on;\n  try_files $uri $uri/ /index.html; \n}  \nlocation ~* \\.(jpg|jpeg|png|gif|css|js|swf|mp3|avi|flv|xml|zip|rar)$ {\n       root /home/Vue/Vue_Manage;\n       gzip_static on;\n} \n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824100643-sfip0fw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230824100643-sfip0fw"
+													},
+													"Children": [
+														{
+															"ID": "20230824100643-kjumzko",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824100643-kjumzko",
+																"updated": "20230824100705"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "vite.config.ts"
+																}
+															]
+														},
+														{
+															"ID": "20230824100953-t30rlaz",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230824100953-t30rlaz",
+																"updated": "20230824101010"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import viteCompression from 'vite-plugin-compression'\n\nexport default defineConfig({\n  plugins: [\n    // gzip压缩 生产环境生成 .gz 文件\n    viteCompression({\n      verbose: true,\n      disable: false,\n      threshold: 10240,\n      algorithm: \"gzip\",\n      ext: \".gz\",\n    }),\n  ],\n});\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823220215-yywozqu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230823220215-yywozqu"
+					},
+					"Children": [
+						{
+							"ID": "20230823220215-9ge3iw2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823220215-9ge3iw2",
+								"updated": "20230824091705"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分包策略 "
+								}
+							]
+						},
+						{
+							"ID": "20230824101304-ehdv9bp",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824101304-ehdv9bp"
+							},
+							"Children": [
+								{
+									"ID": "20230824101304-wsjd5tw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824101304-wsjd5tw"
+									},
+									"Children": [
+										{
+											"ID": "20230824101304-7knwx4z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824101304-7knwx4z",
+												"updated": "20230824101304"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认情况下，浏览器重复请求相同名称的静态资源时，会直接使用缓存的资源"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824102313-tgmjq54",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"fold": "1",
+										"id": "20230824102313-tgmjq54"
+									},
+									"Children": [
+										{
+											"ID": "20230824102313-pj4w2kj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824102313-pj4w2kj",
+												"updated": "20230824102354"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vite 2.8 及更早版本中，默认的策略是将 chunk 分割为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "index"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "vendor"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，通过配置 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "build.rollupOptions.output.manualChunks"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 来自定义 chunk 分割策略"
+												}
+											]
+										},
+										{
+											"ID": "20230824102423-k43jwl7",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824102423-k43jwl7",
+												"updated": "20230824103156"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "export default defineConfig({\n  build: {\n    rollupOptions: {\n      output: {\n        manualChunks(id) {\n          // 将 node_modules 中的代码单独打包成一个 JS 文件\n          // 函数形式来使用此插件。如果使用对象形式，插件将不会生效\n          if (id.includes(\"node_modules\")) {\n            return \"vendor\";\n          }\n        },\n      },\n    },\n  },\n})\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824102344-k3iirk9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"fold": "1",
+										"id": "20230824102344-k3iirk9"
+									},
+									"Children": [
+										{
+											"ID": "20230824102344-8klr4fv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824102344-8klr4fv",
+												"updated": "20230824102402"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vite 2.9 起，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "manualChunks"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 默认情况下不再被更改。你可以通过在配置文件中添加 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "splitVendorChunkPlugin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 来继续使用 “分割 Vendor Chunk” 策略"
+												}
+											]
+										},
+										{
+											"ID": "20230824102600-p5r53ia",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824102600-p5r53ia",
+												"updated": "20230824103114"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import { splitVendorChunkPlugin } from 'vite'\nexport default defineConfig({\n  plugins: [splitVendorChunkPlugin()]\n})\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824103214-tz8suwg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230824103214-tz8suwg"
+					},
+					"Children": [
+						{
+							"ID": "20230824103214-gy5rzsh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824103214-gy5rzsh",
+								"updated": "20230824103300"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "treeshaking"
+								}
+							]
+						},
+						{
+							"ID": "20230824103305-kwej0j8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824103305-kwej0j8"
+							},
+							"Children": [
+								{
+									"ID": "20230824103302-gcvcc5u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824103302-gcvcc5u"
+									},
+									"Children": [
+										{
+											"ID": "20230824103302-chllovt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824103302-chllovt",
+												"updated": "20230824103305"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在保证代码运行结果不变的前提下，去除无用的代码"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824103306-svfplkj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230824103306-svfplkj"
+									},
+									"Children": [
+										{
+											"ID": "20230824103306-n0j9jqw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824103306-n0j9jqw",
+												"updated": "20230824103310"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vue3 会默认使用 Rollup 进行treeshaking ，不需要额外进行配置，但有一个条件，必须是 ES6 module 模块才行，在选择第三方库时，要尽可能使用 ESM 版本，如lodash-es"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824103326-9cy3tjw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230824103326-9cy3tjw"
+					},
+					"Children": [
+						{
+							"ID": "20230824103326-4bi34rc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824103326-4bi34rc",
+								"updated": "20230824103326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开启HTTP2"
+								}
+							]
+						},
+						{
+							"ID": "20230824103337-o2wrdy0",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824103337-o2wrdy0"
+							},
+							"Children": [
+								{
+									"ID": "20230824103337-fk0q49t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824103337-fk0q49t"
+									},
+									"Children": [
+										{
+											"ID": "20230824103337-ak47gp5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824103337-ak47gp5",
+												"updated": "20230824103338"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以在一个TCP连接分帧处理多个请求（多路复用），不受此限制"
+												}
+											]
+										},
+										{
+											"ID": "20230824103341-3s7f70a",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824103341-3s7f70a",
+												"updated": "20230824103346"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "# nginx.conf\nserver {\n  listen 443 ssl;\n  server_name    xxx.com;\n  ssl_certificate xxx.com_bundle.crt;\n  ssl_certificate_key xxx.com.key;\n  ssl_session_timeout 5m;\n  ssl_protocols TLSv1.2 TLSv1.3;\n  ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;\n  ssl_prefer_server_ciphers on;\n\n  location / {\n    root   /home/Vue; \n    index  index.html;\n    try_files $uri $uri/ /index.html; \n  } \n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824220251-1usu55k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230824220251-1usu55k"
+					},
+					"Children": [
+						{
+							"ID": "20230824220251-riqcnpf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824220251-riqcnpf",
+								"updated": "20230824220251"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "按需引入组件库"
+								}
+							]
+						},
+						{
+							"ID": "20230824220309-3ud63bo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824220309-3ud63bo"
+							},
+							"Children": [
+								{
+									"ID": "20230824220308-g355mmf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824220308-g355mmf"
+									},
+									"Children": [
+										{
+											"ID": "20230824220308-8xzbq1c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824220308-8xzbq1c",
+												"updated": "20230824220310"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安装"
+												}
+											]
+										},
+										{
+											"ID": "20230824220318-2yhz7uv",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824220318-2yhz7uv",
+												"updated": "20230824220414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "pnpm add unplugin-vue-components\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824220313-crh1z5w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230824220313-crh1z5w"
+									},
+									"Children": [
+										{
+											"ID": "20230824220313-93tgeii",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824220313-93tgeii",
+												"updated": "20230824220316"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置"
+												}
+											]
+										},
+										{
+											"ID": "20230824220443-cyoy0ym",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824220443-cyoy0ym",
+												"updated": "20230824220451"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import { defineConfig } from 'vite';\nimport Components from 'unplugin-vue-components/vite';\nimport { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';\nexport default defineConfig({\n  plugins: [\n    Components({\n      resolvers: [\n        AntDesignVueResolver({\n          importStyle: false, // css in js\n        }),\n      ],\n    }),\n  ],\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824103359-g4lraxe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20230824103359-g4lraxe",
+						"updated": "20230825080829"
+					},
+					"Children": [
+						{
+							"ID": "20230824103359-y4robpb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824103359-y4robpb",
+								"updated": "20230824105512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "图片压缩"
+								}
+							]
+						},
+						{
+							"ID": "20230824105525-2oznahn",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824105525-2oznahn",
+								"updated": "20230825080829"
+							},
+							"Children": [
+								{
+									"ID": "20230824105525-7fgtleh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824105525-7fgtleh",
+										"updated": "20230825080829"
+									},
+									"Children": [
+										{
+											"ID": "20230824105525-6x7wno9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824105525-6x7wno9",
+												"updated": "20230825080829"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在线服务手动压缩，https:// .com/image-compress"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824105530-0p9jtk3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230824105530-0p9jtk3"
+									},
+									"Children": [
+										{
+											"ID": "20230824105530-2guns6j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824105530-2guns6j",
+												"updated": "20230824105617"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "vite-plugin-imagemin"
+												}
+											]
+										},
+										{
+											"ID": "20230824105619-tbtwuk4",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230824105619-tbtwuk4"
+											},
+											"Children": [
+												{
+													"ID": "20230824105619-958d6h3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230824105619-958d6h3"
+													},
+													"Children": [
+														{
+															"ID": "20230824105619-8yaa2hw",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824105619-8yaa2hw",
+																"updated": "20230824105621"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "安装"
+																}
+															]
+														},
+														{
+															"ID": "20230824105625-6hyav71",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230824105625-6hyav71",
+																"updated": "20230824105638"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "pnpm add vite-plugin-imagemin\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824105621-c6ea54g",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230824105621-c6ea54g"
+													},
+													"Children": [
+														{
+															"ID": "20230824105621-ccas0vg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824105621-ccas0vg",
+																"updated": "20230824105656"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "配置vite.config.t"
+																}
+															]
+														},
+														{
+															"ID": "20230824105642-bnzdcyx",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230824105642-bnzdcyx",
+																"updated": "20230824105704"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import { defineConfig } from 'vite'\nimport viteImagemin from 'vite-plugin-imagemin'\n\nexport default defineConfig({\n  plugins: [\n    viteImagemin({\n      gifsicle: {\n        optimizationLevel: 7,\n        interlaced: false\n      },\n      optipng: {\n        optimizationLevel: 7\n      },\n      mozjpeg: {\n        quality: 20\n      },\n      pngquant: {\n        quality: [0.8, 0.9],\n        speed: 4\n      },\n      svgo: {\n        plugins: [\n          {\n            name: 'removeViewBox'\n          },\n          {\n            name: 'removeEmptyAttrs',\n            active: false\n          }\n        ]\n      }\n    })\n  ]\n})\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824105725-9ant34o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230824105725-9ant34o"
+					},
+					"Children": [
+						{
+							"ID": "20230824105725-m97os4m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824105725-m97os4m",
+								"updated": "20230824105725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用webp图片"
+								}
+							]
+						},
+						{
+							"ID": "20230824105731-uwssia6",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824105731-uwssia6"
+							},
+							"Children": [
+								{
+									"ID": "20230824105730-v34ts3l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824105730-v34ts3l"
+									},
+									"Children": [
+										{
+											"ID": "20230824105730-9zblmq1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824105730-9zblmq1",
+												"updated": "20230824105731"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "手动转换"
+												}
+											]
+										},
+										{
+											"ID": "20230824105740-vi0gnn2",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230824105740-vi0gnn2",
+												"updated": "20230824105740"
+											},
+											"Children": [
+												{
+													"ID": "20230824105740-zimp2em",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230824105740-zimp2em",
+														"updated": "20230824105740"
+													},
+													"Children": [
+														{
+															"ID": "20230824105740-1brwzts",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824105740-1brwzts",
+																"updated": "20230824105740"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在线服务"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://webp-converter.com/",
+																	"TextMarkTextContent": "WebP Converter (webp-converter.com)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824110534-yj8vjvs",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230824110534-yj8vjvs"
+													},
+													"Children": [
+														{
+															"ID": "20230824110534-zkyn8sj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824110534-zkyn8sj",
+																"updated": "20230824110534"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "imagemin-webp"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824105740-g7tmemm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230824105740-g7tmemm",
+														"updated": "20230824105740"
+													},
+													"Children": [
+														{
+															"ID": "20230824105740-c3t2xoh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824105740-c3t2xoh",
+																"updated": "20230824105740"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "cwebp"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html",
+																	"TextMarkTextContent": "Index of downloads.webmproject.org/releases/webp (storage.googleapis.com)"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230824105740-jnqwkej",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230824105740-jnqwkej",
+												"updated": "20230824105740"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "QmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "./cwebp -q 75 demo.png -o demo.webp\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824110506-av7c1zf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20230824110506-av7c1zf"
+					},
+					"Children": [
+						{
+							"ID": "20230824110506-9wonkev",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824110506-9wonkev",
+								"updated": "20230824110550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化SVG图标"
+								}
+							]
+						},
+						{
+							"ID": "20230824110639-zv0nt86",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824110639-zv0nt86"
+							},
+							"Children": [
+								{
+									"ID": "20230824110639-41wnz3c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824110639-41wnz3c"
+									},
+									"Children": [
+										{
+											"ID": "20230824110639-pl6yzuy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824110639-pl6yzuy",
+												"updated": "20230824110640"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "任意SVG图标放入assets/icons"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824110640-dr82hry",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230824110640-dr82hry"
+									},
+									"Children": [
+										{
+											"ID": "20230824110640-l4euiel",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824110640-l4euiel",
+												"updated": "20230824110644"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "安装"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824110645-y1ewmdo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230824110645-y1ewmdo"
+									},
+									"Children": [
+										{
+											"ID": "20230824110645-uxqx12j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824110645-uxqx12j",
+												"updated": "20230824110653"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置"
+												}
+											]
+										},
+										{
+											"ID": "20230824110653-6csy3ut",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230824110653-6csy3ut"
+											},
+											"Children": [
+												{
+													"ID": "20230824110653-n56jski",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230824110653-n56jski"
+													},
+													"Children": [
+														{
+															"ID": "20230824110653-pbwgp45",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824110653-pbwgp45",
+																"updated": "20230824110658"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "vite.config.ts"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824110658-f4f3zm4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230824110658-f4f3zm4"
+													},
+													"Children": [
+														{
+															"ID": "20230824110658-qx1m8ro",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824110658-qx1m8ro",
+																"updated": "20230824110709"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "SvgIcon.vue"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824110955-obh9z5e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230824110955-obh9z5e"
+					},
+					"Children": [
+						{
+							"ID": "20230824110955-n9bgj30",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824110955-n9bgj30",
+								"updated": "20230824110955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用字体图标"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824110804-groxu8z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230824110804-groxu8z"
+					},
+					"Children": [
+						{
+							"ID": "20230824110804-selw6kf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824110804-selw6kf",
+								"updated": "20230824110819"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "骨架屏"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824223347-ltundsn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20230824223347-ltundsn",
+						"updated": "20230824223950"
+					},
+					"Children": [
+						{
+							"ID": "20230824223348-nbavo8q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824223348-nbavo8q",
+								"updated": "20230824223348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产环境中移除log"
+								}
+							]
+						},
+						{
+							"ID": "20230824223350-sdyjl4s",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230824223350-sdyjl4s",
+								"updated": "20230824223950"
+							},
+							"Children": [
+								{
+									"ID": "20230824223349-37knieb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230824223349-37knieb"
+									},
+									"Children": [
+										{
+											"ID": "20230824223349-7c18p31",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824223349-7c18p31",
+												"updated": "20230824223636"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设置为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "false"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 可以禁用最小化混淆，或是用来指定使用哪种混淆器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824223636-2gpfg94",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230824223636-2gpfg94"
+									},
+									"Children": [
+										{
+											"ID": "20230824223636-84crh6d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824223636-84crh6d",
+												"updated": "20230824223642"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/evanw/esbuild",
+													"TextMarkTextContent": "Esbuild"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，它比 terser 快 20-40 倍，压缩率只差 1%-2%"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230824223854-y9od5w6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230824223854-y9od5w6",
+										"updated": "20230824223950"
+									},
+									"Children": [
+										{
+											"ID": "20230824223854-uk8ve1p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230824223854-uk8ve1p",
+												"updated": "20230824223856"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "配置"
+												}
+											]
+										},
+										{
+											"ID": "20230824223857-ina8wj9",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230824223857-ina8wj9",
+												"updated": "20230824223950"
+											},
+											"Children": [
+												{
+													"ID": "20230824223906-qvu46nl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230824223906-qvu46nl"
+													},
+													"Children": [
+														{
+															"ID": "20230824223906-xdventb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824223906-xdventb",
+																"updated": "20230824223910"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "esbuild"
+																}
+															]
+														},
+														{
+															"ID": "20230824223544-9zilngh",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230824223544-9zilngh",
+																"updated": "20230824223831"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import { defineConfig } from 'vite'\nexport default defineConfig(({ mode }) =\u003e ({\n    build：{\n      minify: 'esbuild', // 默认\n    }，\n    esbuild: {\n      drop: mode === 'production' ? ['console', 'debugger'] : [],\n    },\n})\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824223534-c7chuci",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230824223534-c7chuci",
+														"updated": "20230824223950"
+													},
+													"Children": [
+														{
+															"ID": "20230824223534-33mms1c",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230824223534-33mms1c",
+																"updated": "20230824223915"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "terser"
+																}
+															]
+														},
+														{
+															"ID": "20230824223927-ct0wzdv",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230824223927-ct0wzdv",
+																"updated": "20230824223950"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "import { defineConfig } from 'vite'\nexport default defineConfig({\n  build: {\n    minify: 'terser',\n    terserOptions: {\n      compress: {\n        drop_console: true,\n        drop_debugger: true,\n      },\n    },\n  },\n})\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823202905-4yzcs65",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230807085648-ivh03ul"
+				"id": "20230823202905-4yzcs65",
+				"updated": "20230823213316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t\t\t"
+				}
+			]
+		},
+		{
+			"ID": "20230823213319-bjklcea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823213319-bjklcea"
 			}
+		},
+		{
+			"ID": "20230823202905-702grhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-702grhz"
+			}
+		},
+		{
+			"ID": "20230823202905-7ywhdjv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-7ywhdjv"
+			}
+		},
+		{
+			"ID": "20230823202905-ikpqsxv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-ikpqsxv"
+			}
+		},
+		{
+			"ID": "20230823202905-hkwhui4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-hkwhui4"
+			}
+		},
+		{
+			"ID": "20230823202905-sfchyh0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-sfchyh0"
+			}
+		},
+		{
+			"ID": "20230823202905-c8lzvaf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-c8lzvaf"
+			}
+		},
+		{
+			"ID": "20230823202905-x86irro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-x86irro"
+			}
+		},
+		{
+			"ID": "20230823202905-qern31e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-qern31e"
+			}
+		},
+		{
+			"ID": "20230823202905-at203kr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-at203kr"
+			}
+		},
+		{
+			"ID": "20230823202905-pnpvpjs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-pnpvpjs"
+			}
+		},
+		{
+			"ID": "20230823202905-qii25fs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-qii25fs"
+			}
+		},
+		{
+			"ID": "20230823202905-ooa2j2v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-ooa2j2v"
+			}
+		},
+		{
+			"ID": "20230823202905-3qokhuo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-3qokhuo"
+			}
+		},
+		{
+			"ID": "20230823202905-g5aaybg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230823202905-g5aaybg"
+			}
+		},
+		{
+			"ID": "20230823202139-8ikt9c4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230823202139-8ikt9c4",
+				"updated": "20230823202143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230823204415-qrj2w5b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230823204415-qrj2w5b",
+				"updated": "20230824224006"
+			},
+			"Children": [
+				{
+					"ID": "20230823204416-ef9rmf2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230823204416-ef9rmf2",
+						"updated": "20230823204416"
+					},
+					"Children": [
+						{
+							"ID": "20230823204416-d8hif53",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823204416-d8hif53",
+								"updated": "20230823204417"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7165496600108728350",
+									"TextMarkTextContent": "Vite如何处理引入外部 CDN 资源并排除打包进库依赖 ？ - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823205118-myrhnak",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230823205118-myrhnak"
+					},
+					"Children": [
+						{
+							"ID": "20230823205118-bfbzekg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823205118-bfbzekg",
+								"updated": "20230823205118"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.npmjs.com/package/vite-plugin-cdn-import",
+									"TextMarkTextContent": "vite-plugin-cdn-import - npm (npmjs.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824103233-wqjf9df",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230824103233-wqjf9df"
+					},
+					"Children": [
+						{
+							"ID": "20230824103233-mmo6aa7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824103233-mmo6aa7",
+								"updated": "20230824103233"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7135671174893142030",
+									"TextMarkTextContent": "Vite - 代码分割策略 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230824224006-8ka52a0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230824224006-8ka52a0",
+						"updated": "20230824224006"
+					},
+					"Children": [
+						{
+							"ID": "20230824224006-3a2umx6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230824224006-3a2umx6",
+								"updated": "20230824224006"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.cnblogs.com/guangzan/p/16633753.html",
+									"TextMarkTextContent": "vite 构建移除 console - guangzan - 博客园 (cnblogs.com)"
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230815131613-06bd57g",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230815131613-06bd57g\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230815131651-1to9w0y\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230822113105-trjn9zu\u0026quot;,\u0026quot;scrollTop\u0026quot;:10515.63671875,\u0026quot;focusId\u0026quot;:\u0026quot;20230823113733-9cx8vk3\u0026quot;,\u0026quot;focusStart\u0026quot;:216,\u0026quot;focusEnd\u0026quot;:216\u0026#125;",
 		"title": "TS封装axios",
-		"updated": "20230818122530"
+		"updated": "20230823113741"
 	},
 	"Children": [
 		{
@@ -304,38 +305,350 @@
 			]
 		},
 		{
-			"ID": "20230817210921-ard5e49",
-			"Type": "NodeCodeBlock",
-			"IsFencedCodeBlock": true,
+			"ID": "20230817210923-ei1sx1c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20230817210921-ard5e49",
-				"updated": "20230818122530"
+				"id": "20230817210923-ei1sx1c",
+				"updated": "20230823113544"
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
-				},
-				{
-					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "anM="
-				},
-				{
-					"Type": "NodeCodeBlockCode",
-					"Data": "import axios, {\n    AxiosInstance,\n    AxiosRequestConfig,\n    AxiosResponse,\n    CreateAxiosDefaults,\n    InternalAxiosRequestConfig,\n} from 'axios';\n\nimport { useUserStore } from '../store/modules/user';\n\nconst userStore = useUserStore()\n\nconst refreshTokenUrl = '/api/auth/refresh/token';\n\ninterface ICodeMessage {\n    [propName: number]: string\n}\n\nconst statusCodeMessage: ICodeMessage = {\n    200: '服务器成功返回请求的数据',\n    201: '新建或修改数据成功。',\n    202: '一个请求已经进入后台排队（异步任务）',\n    204: '删除数据成功',\n    400: '请求错误(400)',\n    401: '未授权，请重新登录(401)',\n    403: '拒绝访问(403)',\n    404: '请求出错(404)',\n    408: '请求超时(408)',\n    500: '服务器错误(500)',\n    501: '服务未实现(501)',\n    502: '网络错误(502)',\n    503: '服务不可用(503)',\n    504: '网络超时(504)'\n}\n  \n\n/**\n * 元组第一个值是boolean类型，表示接口是成功还是失败，变量为error\n * 元组第二个值是后端响应的数据\n * 元组第三个值是axios的response对象\n */\nexport type Response\u003cT\u003e = Promise\u003c[boolean, T, AxiosResponse\u003cT\u003e]\u003e;\n\ntype RequestQueueItem = {\n    resolve: any;\n    config: any;\n    type: 'reuqest' | 'response';\n}\n\nclass Request {\n\n    // axios 实例\n    private axiosInstance: AxiosInstance;\n\n    // 更新refreshToken标识\n    // 如果同时有很多接口401，那我们不能每个都调一下刷新token接口去刷新token，理论上只需要刷新一次就行了\n    private refreshTokenFlag = false;\n\n    // 请求队列\n    private requestQueue: RequestQueueItem[] = [];\n\n    // 并发限制数量\n    private limit = 3;\n\n    // 正在请求数量\n    private requestingCount = 0;\n\n    private pendingRequest: Map\u003cstring, AbortController\u003e\n\n    constructor(config?: CreateAxiosDefaults) {\n\n        // 创建 axios 实例\n        this.axiosInstance = axios.create(config);\n\n        // 初始化存放取消请求控制器Map\n        this.pendingRequest = new Map()\n\n        // 全局请求拦截器\n        this.axiosInstance.interceptors.request.use(\n            (axiosConfig: InternalAxiosRequestConfig) =\u003e\n                this.requestInterceptor(axiosConfig)\n        );\n        // 全局响应拦截器\n        this.axiosInstance.interceptors.response.use(\n            (response: AxiosResponse\u003cunknown, unknown\u003e) =\u003e\n                this.responseSuccessInterceptor(response),\n            (error: any) =\u003e this.responseErrorInterceptor(error)\n        );\n    }\n\n    // 设置并发限制数量\n    setLimit(limit: number) {\n        this.limit = limit;\n    }\n\n    // 请求拦截器逻辑\n    private async requestInterceptor(\n        axiosConfig: InternalAxiosRequestConfig\n    ): Promise\u003cany\u003e {\n\n        if ([refreshTokenUrl].includes(axiosConfig.url || '')) {\n            return Promise.resolve(axiosConfig);\n        }\n\n        // 检查是否存在重复请求，若存在则取消已发的请求\n        this.removePendingRequest(axiosConfig); \n        // 把当前请求信息添加到pendingRequest对象中\n        this.addPendingRequest(axiosConfig); \n      \n        // 达到并发数量限制，将请求信息添加到请求队列中，等待发送请求\n        if (this.refreshTokenFlag || this.requestingCount \u003e= this.limit) {\n            return new Promise((resolve) =\u003e {\n                this.requestQueue.push({\n                    resolve,\n                    config: axiosConfig,\n                    type: 'reuqest',\n                });\n            });\n        }\n      \n        this.requestingCount += 1;\n\n        // 请求头添加token\n        const token = userStore.getToken;\n        if (token) {\n            axiosConfig.headers.Authorization = `Bearer ${token}`;\n        }\n        // 立即发送请求\n        return Promise.resolve(axiosConfig);\n    }\n\n    /**\n     * 执行请求队列中的请求\n     */\n    private requestByQueue() {\n        if (!this.requestQueue.length) return;\n\n        console.log(\n            this.requestingCount,\n            this.limit - this.requestingCount,\n            'count'\n        );\n      \n        // 根据剩余的并发数发送队列中的请求\n        // 不能使用for循环，因为里面有await，使用for会让请求变成同步执行\n        Array.from({ length: this.limit - this.requestingCount }).forEach(\n            async () =\u003e {\n                // 获取请求队列中第一个请求\n                const record = this.requestQueue.shift();\n                if (!record) {\n                    return;\n                }\n              \n                const { config, resolve, type } = record;\n                // 如果响应401，获取config再请求一次\n                if (type === 'response') {\n                    // 重新发送上一次因为token过期请求失败的请求\n                    resolve(await this.request(config));\n                } else if (type === 'reuqest') {\n                    // 发送请求\n                    this.requestingCount += 1;\n                    const token = userStore.getToken;\n                    // 请求头添加token\n                    config.headers.Authorization = `Bearer ${token}`;\n                  \n                    resolve(config);\n                }\n            }\n        );\n    }\n\n    /**\n     * 刷新token\n     */  \n    private async refreshToken() {\n        const refreshToken = userStore.getRefreshToken;\n\n        // 没有refreshToken跳转到登录页\n        if (!refreshToken) {\n            this.toLoginPage();\n        }\n      \n        // 调用刷新接口\n        // const [error, data] = await loginService.rerefshToken(refreshToken);\n        const [error, data] = [false, {\n            token: 'token',\n            rerefshToken: 'rerefshToken'\n        }]\n\n        // 刷新token接口报错跳转到登录页\n        if (error) {\n            this.toLoginPage();\n        }\n\n        // 存储token\n        userStore.setToken(data.token)\n        userStore.setRefreshToken(data.rerefshToken)\n\n        // 设置标识为false\n        this.refreshTokenFlag = false;\n\n        // 执行请求队列中的请求\n        this.requestByQueue();\n    }\n\n    /**\n     * 响应成功拦截器\n     * @param response \n     */\n    private async responseSuccessInterceptor(\n        response: AxiosResponse\u003cany, any\u003e\n    ): Promise\u003cany\u003e {\n        if (response.config.url !== refreshTokenUrl) {\n            // 减少正在请求的数量\n            this.requestingCount -= 1;\n            if (this.requestQueue.length) {\n                // 执行请求队列中的请求\n                this.requestByQueue();\n            }\n        }\n\n        // 从pendingRequest对象中移除请求\n        this.removePendingRequest(response.config); \n\n        return Promise.resolve([false, response.data, response]);\n    }\n\n    /**\n     * 响应错误拦截器\n     * @param error \n     */\n    private async responseErrorInterceptor(error: any): Promise\u003cany\u003e {\n        // 减少正在请求的数量\n        this.requestingCount -= 1;\n        const { config, status } = error?.response || {};\n\n        const message = statusCodeMessage[status] || '系统异常, 请检查网络或联系管理员！'\n        console.log('message', message);\n      \n\n        // 刷新token\n        if (status === 401) {\n            // token已经过期，然后使用新的token回放上一次401的接口\n            return new Promise((resolve) =\u003e {\n                // 将上次请求重新放回到请求队列中\n                this.requestQueue.unshift({ resolve, config, type: 'response' });\n\n                if (this.refreshTokenFlag) return;\n                // 设置标识为true调用refreshToken获取新的token\n                this.refreshTokenFlag = true;\n                this.refreshToken();\n            });\n        } else {\n            // 其他错误\n            console.log('出错了');\n          \n            // antdUtils.notification?.error({\n            //     message: '出错了',\n            //     description: error?.response?.data?.message,\n            // });\n            return Promise.resolve([true, error?.response?.data]);\n        }\n    }\n\n    /**\n     * 重置\n     */\n    private reset() {\n        this.requestQueue = [];\n        this.refreshTokenFlag = false;\n        this.requestingCount = 0;\n    }\n\n    /**\n     * 跳转到登录页\n     */\n    private toLoginPage() {\n        this.reset();\n        // router.navigate('/user/login');\n    }\n\n\n    private generateRequestKey(config: InternalAxiosRequestConfig){\n        const {method, url, params, data} = config\n        return [method, url, JSON.stringify(params), JSON.stringify(data)].join('\u0026')\n    }\n\n\n    private addPendingRequest(config: InternalAxiosRequestConfig){\n        const requestKey = this.generateRequestKey(config)\n        const controller = new AbortController()\n        config.signal = controller.signal\n\n        if(!this.pendingRequest.has(requestKey)){\n            this.pendingRequest.set(requestKey, controller)\n        }\n    }\n\n    private removePendingRequest(config: InternalAxiosRequestConfig){\n        const requestKey = this.generateRequestKey(config)\n        if (this.pendingRequest.has(requestKey)) {\n            const controller = this.pendingRequest.get(requestKey);\n            controller?.abort()\n            this.pendingRequest.delete(requestKey);\n         }\n    }\n\n    /**\n     * 发送请求\n     * @param config \n     */\n    request\u003cT, D = any\u003e(config: AxiosRequestConfig\u003cD\u003e): Response\u003cT\u003e {\n        return this.axiosInstance(config);\n    }\n\n    /**\n     * 发送get请求\n     * @param url 地址\n     * @param config 配置\n     */\n    get\u003cT, D = any\u003e(url: string, config?: AxiosRequestConfig\u003cD\u003e): Response\u003cT\u003e {\n        return this.axiosInstance.get(url, config);\n    }\n\n    /**\n     * 发送post请求\n     * @param url 地址\n     * @param data 参数\n     * @param config 配置\n     */\n    post\u003cT, D = any\u003e(\n        url: string,\n        data?: D,\n        config?: AxiosRequestConfig\u003cD\u003e\n    ): Response\u003cT\u003e {\n        return this.axiosInstance.post(url, data, config);\n    }\n\n    /**\n     * 发送put请求\n     * @param url 地址\n     * @param data 参数\n     * @param config 配置\n     */\n    put\u003cT, D = any\u003e(\n        url: string,\n        data?: D,\n        config?: AxiosRequestConfig\u003cD\u003e\n    ): Response\u003cT\u003e {\n        return this.axiosInstance.put(url, data, config);\n    }\n\n    /**\n     * 发送delete请求\n     * @param url 地址\n     * @param config 配置\n     */\n    delete\u003cT, D = any\u003e(url: string, config?: AxiosRequestConfig\u003cD\u003e): Response\u003cT\u003e {\n        return this.axiosInstance.delete(url, config);\n    }\n}\n\nconst request = new Request({ timeout: 60 * 1000 * 5, baseURL:  import.meta.env.BASE_URL});\n\nexport default request;\n"
-				},
-				{
-					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"ID": "20230823113515-tn5dy5i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230823113515-tn5dy5i",
+						"updated": "20230823113544"
+					},
+					"Children": [
+						{
+							"ID": "20230823113515-qwe2po3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823113515-qwe2po3",
+								"updated": "20230823113534"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "request/index.ts"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20230823113535-zuymxke",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230823113535-zuymxke",
+								"updated": "20230823113544"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import axios, {\n    AxiosInstance,\n    AxiosRequestConfig,\n    AxiosResponse,\n    CreateAxiosDefaults,\n    InternalAxiosRequestConfig,\n} from 'axios';\n\nimport { message } from 'ant-design-vue';\n\nimport { createPinia } from \"pinia\"\nimport { useUserStore } from '../store/modules/user';\nconst pinia = createPinia()\nconst userStore = useUserStore(pinia)\n\nimport router from '../router/index'\n\nimport {getRefreshToken} from '../api/login'\n\nconst REFRESH_TOKEN_URL = 'refresh/token';\n\ninterface ICodeMessage {\n    [propName: number]: string\n}\n\n// http状态码信息\nconst statusCodeMessage: ICodeMessage = {\n    200: '服务器成功返回请求的数据',\n    201: '新建或修改数据成功。',\n    202: '一个请求已经进入后台排队（异步任务）',\n    204: '删除数据成功',\n    400: '请求错误(400)',\n    401: '未授权，请重新登录(401)',\n    403: '拒绝访问(403)',\n    404: '请求出错(404)',\n    408: '请求超时(408)',\n    500: '服务器错误(500)',\n    501: '服务未实现(501)',\n    502: '网络错误(502)',\n    503: '服务不可用(503)',\n    504: '网络超时(504)'\n}\n  \n\n/**\n * 元组第一个值是boolean类型，表示接口是成功还是失败，变量为error\n * 元组第二个值是后端响应的数据\n * 元组第三个值是axios的response对象\n */\nexport type Response\u003cT\u003e = Promise\u003c[boolean, T, AxiosResponse\u003cT\u003e]\u003e;\n\ntype RequestQueueItem = {\n    resolve: any;\n    config: any;\n    type: 'reuqest' | 'response';\n}\n\nclass Request {\n\n    // axios 实例\n    private axiosInstance: AxiosInstance;\n\n    // 更新refreshToken标识\n    // 如果同时有很多接口401，那我们不能每个都调一下刷新token接口去刷新token，理论上只需要刷新一次就行了\n    private refreshTokenFlag = false;\n\n    // 请求队列\n    private requestQueue: RequestQueueItem[] = [];\n\n    // 并发限制数量\n    private limit = 3;\n\n    // 正在请求数量\n    private requestingCount = 0;\n\n    // 存储请求信息和取消方法的的map对象\n    private pendingRequest: Map\u003cstring, AbortController\u003e\n\n    constructor(config?: CreateAxiosDefaults) {\n\n        // 创建 axios 实例\n        this.axiosInstance = axios.create(config);\n\n        // 初始化存放取消请求控制器Map\n        this.pendingRequest = new Map()\n\n        // 全局请求拦截器\n        this.axiosInstance.interceptors.request.use(\n            (axiosConfig: InternalAxiosRequestConfig) =\u003e\n                this.requestInterceptor(axiosConfig)\n        );\n        // 全局响应拦截器\n        this.axiosInstance.interceptors.response.use(\n            (response: AxiosResponse\u003cunknown, unknown\u003e) =\u003e\n                this.responseSuccessInterceptor(response),\n            (error: any) =\u003e this.responseErrorInterceptor(error)\n        );\n    }\n\n    // 设置并发限制数量\n    setLimit(limit: number) {\n        this.limit = limit;\n    }\n\n    // 请求拦截器逻辑\n    private async requestInterceptor(\n        axiosConfig: InternalAxiosRequestConfig\n    ): Promise\u003cany\u003e {\n\n        // 请求路径为refreshToken，直接发送请求\n        if ([REFRESH_TOKEN_URL].includes(axiosConfig.url || '')) {\n            return Promise.resolve(axiosConfig);\n        }\n\n        // 检查是否存在重复请求，若存在则取消已发的请求\n        this.removePendingRequest(axiosConfig); \n        // 把当前请求信息添加到pendingRequest对象中\n        this.addPendingRequest(axiosConfig); \n  \n        // 达到并发数量限制，将请求信息添加到请求队列中，等待发送请求\n        if (this.refreshTokenFlag || this.requestingCount \u003e= this.limit) {\n            return new Promise((resolve) =\u003e {\n                this.requestQueue.push({\n                    resolve,\n                    config: axiosConfig,\n                    type: 'reuqest',\n                });\n            });\n        }\n  \n        this.requestingCount += 1;\n\n        // 请求头添加token\n        const token = userStore.token;\n        if (token) {\n            axiosConfig.headers.Authorization = `Bearer ${token}`;\n        }\n        // 立即发送请求\n        return Promise.resolve(axiosConfig);\n    }\n\n    /**\n     * 执行请求队列中的请求\n     */\n    private requestByQueue() {\n        // 请求队列为空\n        if (!this.requestQueue.length) return;\n\n        // 根据剩余的并发数发送队列中的请求\n        // 不能使用for循环，因为里面有await，使用for会让请求变成同步执行\n        Array.from({ length: this.limit - this.requestingCount }).forEach(\n            async () =\u003e {\n                // 获取请求队列中第一个请求\n                const record = this.requestQueue.shift();\n                if (!record) {\n                    return;\n                }\n          \n                const { config, resolve, type } = record;\n                // 如果响应401，获取config再请求一次\n                if (type === 'response') {\n                    // 重新发送上一次因为token过期请求失败的请求\n                    resolve(await this.request(config));\n                } else if (type === 'reuqest') {\n                    // 发送请求\n                    this.requestingCount += 1;\n                    const token = userStore.token;\n                    // 请求头添加token\n                    config.headers.Authorization = `Bearer ${token}`;\n              \n                    resolve(config);\n                }\n            }\n        );\n    }\n\n    /**\n     * 刷新token\n     */  \n    private async refreshToken() {\n        const refreshToken = userStore.refreshToken;\n\n        // 没有refreshToken跳转到登录页\n        if (!refreshToken) {\n            this.toLoginPage();\n        }\n  \n        // 调用刷新接口\n        const [error, data] = await getRefreshToken(refreshToken);\n\n        // 刷新token接口报错跳转到登录页\n        if (error) {\n            this.toLoginPage();\n        }\n\n        // 存储token\n        userStore.setToken(data.token)\n        userStore.setRefreshToken(data.refreshToken)\n\n        // 设置标识为false\n        this.refreshTokenFlag = false;\n\n        // 执行请求队列中的请求\n        this.requestByQueue();\n    }\n\n    /**\n     * 响应成功拦截器\n     * @param response \n     */\n    private async responseSuccessInterceptor(\n        response: AxiosResponse\u003cany, any\u003e\n    ): Promise\u003cany\u003e {\n        // 正常的业务请求\n        if (response.config.url !== REFRESH_TOKEN_URL) {\n            // 减少正在请求的数量\n            this.requestingCount -= 1;\n            if (this.requestQueue.length) {\n                // 执行请求队列中的请求\n                this.requestByQueue();\n            }\n        }\n\n        // 从pendingRequest对象中移除请求\n        this.removePendingRequest(response.config); \n\n        // 刷新token接口请求直接响应\n        return Promise.resolve([false, response.data, response]);\n    }\n\n    /**\n     * 响应错误拦截器\n     * @param error \n     */\n    private async responseErrorInterceptor(error: any): Promise\u003cany\u003e {\n        // 减少正在请求的数量\n        this.requestingCount -= 1;\n        const { config, status } = error?.response || {};\n\n        // 请求被取消的错误捕获\n        if(axios.isCancel(error)){\n            console.log('请求取消');\n            return Promise.resolve([true, error]);\n        }\n\n    \n    \n\n        // 刷新token\n        if (status === 401) {\n            // token已经过期，然后使用新的token回放上一次401的接口\n            return new Promise((resolve) =\u003e {\n                // 将上次请求重新放回到请求队列中\n                this.requestQueue.unshift({ resolve, config, type: 'response' });\n\n                if (this.refreshTokenFlag) return;\n                // 设置标识为true调用refreshToken获取新的token\n                this.refreshTokenFlag = true;\n                this.refreshToken();\n            });\n        } else {\n            // 其他错误\n            message.error(`${statusCodeMessage[status] || '系统异常, 请检查网络或联系管理员！'}`)\n        \n            return Promise.resolve([true, error?.response?.data]);\n        }\n    }\n\n    /**\n     * 重置\n     */\n    private reset() {\n        this.requestQueue = [];\n        this.refreshTokenFlag = false;\n        this.requestingCount = 0;\n        this.pendingRequest = new Map()\n    }\n\n    /**\n     * 跳转到登录页\n     */\n    private toLoginPage() {\n        this.reset();\n        router.push('/login')\n    }\n\n    /**\n     * 将重复的请求生成一个唯一的key\n     * @param config \n     */\n    private generateRequestKey(config: InternalAxiosRequestConfig){\n        const {method, url, params, data} = config\n        return [method, url, JSON.stringify(params), JSON.stringify(data)].join('\u0026')\n    }\n\n    /**\n     * 将重复请求添加到pendingRequest中\n     * @param config \n     */\n    private addPendingRequest(config: InternalAxiosRequestConfig){\n        const requestKey = this.generateRequestKey(config)\n        const controller = new AbortController()\n        config.signal = controller.signal\n\n        if(!this.pendingRequest.has(requestKey)){\n            this.pendingRequest.set(requestKey, controller)\n        }\n    }\n\n    /**\n     * 取消重复的请求\n     * @param config \n     */\n    private removePendingRequest(config: InternalAxiosRequestConfig){\n        const requestKey = this.generateRequestKey(config)\n        // 存在重复请求\n        if (this.pendingRequest.has(requestKey)) {\n            // 取消请求\n            const controller = this.pendingRequest.get(requestKey);\n            controller?.abort()\n            this.pendingRequest.delete(requestKey);\n            // 减少正在请求数量\n            this.requestingCount -= 1\n         }\n    }\n\n    /**\n     * 发送请求\n     * @param config \n     */\n    request\u003cT, D = any\u003e(config: AxiosRequestConfig\u003cD\u003e): Response\u003cT\u003e {\n        return this.axiosInstance(config);\n    }\n\n    /**\n     * 发送get请求\n     * @param url 地址\n     * @param config 配置\n     */\n    get\u003cT, D = any\u003e(url: string, config?: AxiosRequestConfig\u003cD\u003e): Response\u003cT\u003e {\n        return this.axiosInstance.get(url, config);\n    }\n\n    /**\n     * 发送post请求\n     * @param url 地址\n     * @param data 参数\n     * @param config 配置\n     */\n    post\u003cT, D = any\u003e(\n        url: string,\n        data?: D,\n        config?: AxiosRequestConfig\u003cD\u003e\n    ): Response\u003cT\u003e {\n        return this.axiosInstance.post(url, data, config);\n    }\n\n    /**\n     * 发送put请求\n     * @param url 地址\n     * @param data 参数\n     * @param config 配置\n     */\n    put\u003cT, D = any\u003e(\n        url: string,\n        data?: D,\n        config?: AxiosRequestConfig\u003cD\u003e\n    ): Response\u003cT\u003e {\n        return this.axiosInstance.put(url, data, config);\n    }\n\n    /**\n     * 发送delete请求\n     * @param url 地址\n     * @param config 配置\n     */\n    delete\u003cT, D = any\u003e(url: string, config?: AxiosRequestConfig\u003cD\u003e): Response\u003cT\u003e {\n        return this.axiosInstance.delete(url, config);\n    }\n}\n\nconst request = new Request({ timeout: 60 * 1000 * 5, baseURL:  import.meta.env.VITE_API_BASE_URL});\n\nexport default request;\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
 		{
-			"ID": "20230817210923-ei1sx1c",
-			"Type": "NodeParagraph",
+			"ID": "20230823113546-m5tywzs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20230817210923-ei1sx1c"
-			}
+				"id": "20230823113546-m5tywzs",
+				"updated": "20230823113643"
+			},
+			"Children": [
+				{
+					"ID": "20230823113549-onvvesv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230823113549-onvvesv",
+						"updated": "20230823113549"
+					},
+					"Children": [
+						{
+							"ID": "20230823113549-1d41aib",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823113549-1d41aib",
+								"updated": "20230823113613"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/index.ts"
+								}
+							]
+						},
+						{
+							"ID": "20230823113622-jj6e270",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230823113622-jj6e270",
+								"updated": "20230823113627"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { createPinia } from \"pinia\"\nimport type { App } from 'vue'\n\nconst store = createPinia()\n\nexport function setupStore(app: App\u003cElement\u003e) {\n    app.use(store)\n}\n\nexport { store }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230823113617-h2ddb2x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230823113617-h2ddb2x",
+						"updated": "20230823113643"
+					},
+					"Children": [
+						{
+							"ID": "20230823113617-74llxh5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823113617-74llxh5",
+								"updated": "20230823113636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/modules/user.ts"
+								}
+							]
+						},
+						{
+							"ID": "20230823113637-ae8bstp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230823113637-ae8bstp",
+								"updated": "20230823113643"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { defineStore } from 'pinia'\nimport { ref, computed, unref } from 'vue'\n\ninterface UserInfo {\n  token: string,\n  refreshToken: string\n}\n\n\nconst storeSetup = () =\u003e {\n  const userInfo = ref\u003cUserInfo\u003e({\n    token: 'token',\n    refreshToken: 'refreshToken'\n  })\n\n  const token = computed(() =\u003e unref(userInfo).token)\n  const refreshToken = computed(() =\u003e unref(userInfo).refreshToken)\n\n  const setToken = (val: string) =\u003e {\n    unref(userInfo).token = val\n  }\n\n  const setRefreshToken = (val: string) =\u003e {\n    unref(userInfo).refreshToken = val\n  }\n\n  return { userInfo, token, refreshToken, setToken, setRefreshToken }\n}\n\nexport const useUserStore = defineStore('user', storeSetup)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823113547-2ftgjoc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230823113547-2ftgjoc",
+				"updated": "20230823113719"
+			},
+			"Children": [
+				{
+					"ID": "20230823113659-ix3zary",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230823113659-ix3zary",
+						"updated": "20230823113719"
+					},
+					"Children": [
+						{
+							"ID": "20230823113659-w1b4gg4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823113659-w1b4gg4",
+								"updated": "20230823113708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "router/index.ts"
+								}
+							]
+						},
+						{
+							"ID": "20230823113708-fv2mnby",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230823113708-fv2mnby",
+								"updated": "20230823113719"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import type { App } from 'vue'\nimport { createRouter, createWebHistory } from 'vue-router'\nimport { constantRoutes } from './base'\n\nconst router = createRouter({\n  history: createWebHistory(),\n  routes: constantRoutes,\n  scrollBehavior() {\n    return {\n      el: '#app',\n      top: 0,\n      behavior: 'smooth',\n    }\n  },\n})\n\nexport async function setupRouter(app: App) {\n  app.use(router)\n\n  // 路由准备就绪后挂载APP实例\n  await router.isReady()\n}\n\nexport default router\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230823113547-97m9djm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230823113547-97m9djm",
+				"updated": "20230823113741"
+			},
+			"Children": [
+				{
+					"ID": "20230823113723-xdbmpnh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230823113723-xdbmpnh",
+						"updated": "20230823113741"
+					},
+					"Children": [
+						{
+							"ID": "20230823113723-0hcpuog",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230823113723-0hcpuog",
+								"updated": "20230823113732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "router/base.ts"
+								}
+							]
+						},
+						{
+							"ID": "20230823113733-9cx8vk3",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230823113733-9cx8vk3",
+								"updated": "20230823113741"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import type { RouteRecordRaw } from 'vue-router'\n\n// 静态路由 无需验证权限\nexport const constantRoutes: RouteRecordRaw[] = [\n  {\n    path: '/login',\n    name: 'Login',\n    component: () =\u003e import('../views/login/Login.vue'),\n    meta: { title: '登录页', keepAlive: false },\n  }\n]\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"ID": "20230817210923-fzmaokr",
@@ -358,7 +671,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230817210926-tod36x8",
-				"updated": "20230817210930"
+				"updated": "20230822113106"
 			},
 			"Children": [
 				{
@@ -426,19 +739,36 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20230817215559-52uznou"
+						"id": "20230817215559-52uznou",
+						"updated": "20230822113106"
 					},
 					"Children": [
 						{
 							"ID": "20230817215559-a7t0g9x",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230817215559-a7t0g9x"
-							}
+								"id": "20230817215559-a7t0g9x",
+								"updated": "20230822113106"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7025884912141991972",
+									"TextMarkTextContent": "axios之cancelToken取消多次重复请求 - 掘金 (juejin.cn)"
+								}
+							]
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20230822113105-trjn9zu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230822113105-trjn9zu"
+			}
 		}
 	]
 }
