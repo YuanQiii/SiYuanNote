@@ -1,0 +1,27 @@
+{
+	"ID": "20230825212043-wcxbr5s",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230825212043-wcxbr5s",
+		"title": "Vue双向绑定原理",
+		"updated": "20230825212506"
+	},
+	"Children": [
+		{
+			"ID": "20230825212056-6c816ci",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230825212056-6c816ci"
+			}
+		},
+		{
+			"ID": "20230825212043-46k1uvf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230825212043-46k1uvf",
+				"updated": "20230825212043"
+			}
+		}
+	]
+}

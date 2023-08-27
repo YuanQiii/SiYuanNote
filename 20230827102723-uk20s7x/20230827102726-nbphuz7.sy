@@ -1,0 +1,2304 @@
+{
+	"ID": "20230827102726-nbphuz7",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230827102726-nbphuz7",
+		"title": "重庆",
+		"updated": "20230827190048"
+	},
+	"Children": [
+		{
+			"ID": "20230827102729-qkxxbho",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230827102729-qkxxbho",
+				"updated": "20230827103208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "景点"
+				}
+			]
+		},
+		{
+			"ID": "20230827103206-7pmxy28",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230827103206-7pmxy28",
+				"updated": "20230827184923"
+			},
+			"Children": [
+				{
+					"ID": "20230827103210-epokp9x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230827103210-epokp9x",
+						"updated": "20230827103210"
+					},
+					"Children": [
+						{
+							"ID": "20230827103210-uh91xam",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103210-uh91xam",
+								"updated": "20230827115027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "洪崖洞 "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103211-5liuhj5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230827103211-5liuhj5"
+					},
+					"Children": [
+						{
+							"ID": "20230827103211-quvv0dl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103211-quvv0dl",
+								"updated": "20230827103215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "长江索道"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103216-6y41q22",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230827103216-6y41q22"
+					},
+					"Children": [
+						{
+							"ID": "20230827103216-dmbe18q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103216-dmbe18q",
+								"updated": "20230827103219"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "磁器口"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103219-kiwrxgh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230827103219-kiwrxgh"
+					},
+					"Children": [
+						{
+							"ID": "20230827103219-b5sqlzs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103219-b5sqlzs",
+								"updated": "20230827103222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解放碑"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103224-99z7io5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230827103224-99z7io5"
+					},
+					"Children": [
+						{
+							"ID": "20230827103224-e8sugp0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103224-e8sugp0",
+								"updated": "20230827103628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "罗汉寺"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103628-6w4h1ut",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230827103628-6w4h1ut"
+					},
+					"Children": [
+						{
+							"ID": "20230827103628-zjcwbyz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103628-zjcwbyz",
+								"updated": "20230827103722"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "李子坝轻轨站"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827184521-jeu3x2m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230827184521-jeu3x2m",
+						"updated": "20230827184521"
+					},
+					"Children": [
+						{
+							"ID": "20230827184521-huov8hv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827184521-huov8hv",
+								"updated": "20230827184521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "人民大礼堂"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103723-nurbeva",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230827103723-nurbeva"
+					},
+					"Children": [
+						{
+							"ID": "20230827103723-h4nzuty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103723-h4nzuty",
+								"updated": "20230827174325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "十八梯（夜景）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103754-mssjyfj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230827103754-mssjyfj"
+					},
+					"Children": [
+						{
+							"ID": "20230827103754-vk9yezn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103754-vk9yezn",
+								"updated": "20230827180656"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "铁路四村"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103744-9wrofso",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230827103744-9wrofso"
+					},
+					"Children": [
+						{
+							"ID": "20230827103744-a4hns9s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103744-a4hns9s",
+								"updated": "20230827103825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "皇冠大扶梯"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103826-g1sxkpo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230827103826-g1sxkpo"
+					},
+					"Children": [
+						{
+							"ID": "20230827103826-w1ivxu7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103826-w1ivxu7",
+								"updated": "20230827174336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "壹华里夜景公园（夜景）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103908-4lqlhut",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230827103908-4lqlhut"
+					},
+					"Children": [
+						{
+							"ID": "20230827103908-hbx1rtg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103908-hbx1rtg",
+								"updated": "20230827171528"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "白象居"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103922-vwyu7e4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230827103922-vwyu7e4"
+					},
+					"Children": [
+						{
+							"ID": "20230827103922-nw2fd1o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103922-nw2fd1o",
+								"updated": "20230827103928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "八一好吃街"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103928-bvw3njh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20230827103928-bvw3njh"
+					},
+					"Children": [
+						{
+							"ID": "20230827103928-6qnekge",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103928-6qnekge",
+								"updated": "20230827183547"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "小黄楼"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103957-tauqjq2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20230827103957-tauqjq2"
+					},
+					"Children": [
+						{
+							"ID": "20230827103957-v6jcj46",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103957-v6jcj46",
+								"updated": "20230827170944"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "鹅岭二厂"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827104014-ps01y2i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20230827104014-ps01y2i"
+					},
+					"Children": [
+						{
+							"ID": "20230827104014-374jhh0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827104014-374jhh0",
+								"updated": "20230827183607"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "筒子楼"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827104042-ywwne30",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTcu",
+						"Num": 17
+					},
+					"Properties": {
+						"id": "20230827104042-ywwne30"
+					},
+					"Children": [
+						{
+							"ID": "20230827104042-e64egay",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827104042-e64egay",
+								"updated": "20230827174515"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "江北大剧院江滩公园（夜景）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827104244-evhtcq1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTgu",
+						"Num": 18
+					},
+					"Properties": {
+						"id": "20230827104244-evhtcq1"
+					},
+					"Children": [
+						{
+							"ID": "20230827104244-oc2c7fb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827104244-oc2c7fb",
+								"updated": "20230827104251"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "湖广会馆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827105500-8ryh1jx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTku",
+						"Num": 19
+					},
+					"Properties": {
+						"id": "20230827105500-8ryh1jx"
+					},
+					"Children": [
+						{
+							"ID": "20230827105500-189vwpe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827105500-189vwpe",
+								"updated": "20230827105511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "国泰艺术中心"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827105530-m3sty7c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjAu",
+						"Num": 20
+					},
+					"Properties": {
+						"id": "20230827105530-m3sty7c"
+					},
+					"Children": [
+						{
+							"ID": "20230827105530-t5f92vv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827105530-t5f92vv",
+								"updated": "20230827105535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "魁星楼"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111100-hfk2wad",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjEu",
+						"Num": 21
+					},
+					"Properties": {
+						"id": "20230827111100-hfk2wad"
+					},
+					"Children": [
+						{
+							"ID": "20230827111100-tzaknii",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111100-tzaknii",
+								"updated": "20230827174506"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "桥洞来福士（夜景）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111300-uq7uqko",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjIu",
+						"Num": 22
+					},
+					"Properties": {
+						"id": "20230827111300-uq7uqko"
+					},
+					"Children": [
+						{
+							"ID": "20230827111300-e6z2331",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111300-e6z2331",
+								"updated": "20230827111302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "老君洞"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111317-go8m8j8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjMu",
+						"Num": 23
+					},
+					"Properties": {
+						"id": "20230827111317-go8m8j8"
+					},
+					"Children": [
+						{
+							"ID": "20230827111317-s7wul1w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111317-s7wul1w",
+								"updated": "20230827111321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "弹子石"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111449-p1qny4p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjQu",
+						"Num": 24
+					},
+					"Properties": {
+						"id": "20230827111449-p1qny4p"
+					},
+					"Children": [
+						{
+							"ID": "20230827111449-i4ro00l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111449-i4ro00l",
+								"updated": "20230827111452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "歌乐山"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111452-m1vd4x8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjUu",
+						"Num": 25
+					},
+					"Properties": {
+						"id": "20230827111452-m1vd4x8"
+					},
+					"Children": [
+						{
+							"ID": "20230827111452-ubwke3f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111452-ubwke3f",
+								"updated": "20230827111456"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "渣滓洞"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827112713-9quj75i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjYu",
+						"Num": 26
+					},
+					"Properties": {
+						"id": "20230827112713-9quj75i"
+					},
+					"Children": [
+						{
+							"ID": "20230827112713-aa9r5hd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827112713-aa9r5hd",
+								"updated": "20230827112716"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "白公馆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827113313-vz5yr0t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mjcu",
+						"Num": 27
+					},
+					"Properties": {
+						"id": "20230827113313-vz5yr0t"
+					},
+					"Children": [
+						{
+							"ID": "20230827113313-mhs5nw5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827113313-mhs5nw5",
+								"updated": "20230827113322"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "山城步道"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114344-wwmrlaz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mjgu",
+						"Num": 28
+					},
+					"Properties": {
+						"id": "20230827114344-wwmrlaz",
+						"updated": "20230827184923"
+					},
+					"Children": [
+						{
+							"ID": "20230827114344-laz28g4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114344-laz28g4",
+								"updated": "20230827184923"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "龙门浩老街(夜景)"
+								}
+							]
+						},
+						{
+							"ID": "20230827114350-z6708oj",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230827114350-z6708oj"
+							},
+							"Children": [
+								{
+									"ID": "20230827114350-496ryqq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230827114350-496ryqq"
+									},
+									"Children": [
+										{
+											"ID": "20230827114350-dtvrn4t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230827114350-dtvrn4t",
+												"updated": "20230827114352"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "二楼，江天星石门"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114404-ffrwah5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mjku",
+						"Num": 29
+					},
+					"Properties": {
+						"id": "20230827114404-ffrwah5"
+					},
+					"Children": [
+						{
+							"ID": "20230827114404-ty8od7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114404-ty8od7u",
+								"updated": "20230827172110"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "筒子楼"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114407-r6lyzoa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzAu",
+						"Num": 30
+					},
+					"Properties": {
+						"id": "20230827114407-r6lyzoa"
+					},
+					"Children": [
+						{
+							"ID": "20230827114411-msg2kbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114411-msg2kbm",
+								"updated": "20230827174427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "桥洞来福士（夜景）"
+								}
+							]
+						},
+						{
+							"ID": "20230827114411-y1q87wc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230827114411-y1q87wc",
+								"updated": "20230827114411"
+							},
+							"Children": [
+								{
+									"ID": "20230827114411-i3ci0bx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230827114411-i3ci0bx",
+										"updated": "20230827114411"
+									},
+									"Children": [
+										{
+											"ID": "20230827114411-tuz2dag",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230827114411-tuz2dag",
+												"updated": "20230827114411"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "钟楼广场，楼梯往江边走"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114415-ezyemjs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzEu",
+						"Num": 31
+					},
+					"Properties": {
+						"id": "20230827114415-ezyemjs"
+					},
+					"Children": [
+						{
+							"ID": "20230827114415-22g7b6h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114415-22g7b6h",
+								"updated": "20230827174454"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "北培"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114418-hink5v2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzIu",
+						"Num": 32
+					},
+					"Properties": {
+						"id": "20230827114418-hink5v2"
+					},
+					"Children": [
+						{
+							"ID": "20230827114418-5b20ugx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114418-5b20ugx",
+								"updated": "20230827184423"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "铁山坪"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114419-r1lhiu9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzMu",
+						"Num": 33
+					},
+					"Properties": {
+						"id": "20230827114419-r1lhiu9"
+					},
+					"Children": [
+						{
+							"ID": "20230827114419-bvycy98",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114419-bvycy98",
+								"updated": "20230827114422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "涂山寺"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114422-1b609ih",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzQu",
+						"Num": 34
+					},
+					"Properties": {
+						"id": "20230827114422-1b609ih"
+					},
+					"Children": [
+						{
+							"ID": "20230827114422-fobcifq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114422-fobcifq",
+								"updated": "20230827183807"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "抗战遗址博物馆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114425-jbxokjt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzUu",
+						"Num": 35
+					},
+					"Properties": {
+						"id": "20230827114425-jbxokjt"
+					},
+					"Children": [
+						{
+							"ID": "20230827114425-osyn9wz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114425-osyn9wz",
+								"updated": "20230827114429"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清水溪步道"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114430-xo55vtb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MzYu",
+						"Num": 36
+					},
+					"Properties": {
+						"id": "20230827114430-xo55vtb"
+					},
+					"Children": [
+						{
+							"ID": "20230827114430-k72qtzk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114430-k72qtzk",
+								"updated": "20230827184144"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "重庆1949"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114434-tjeqa0u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mzcu",
+						"Num": 37
+					},
+					"Properties": {
+						"id": "20230827114434-tjeqa0u"
+					},
+					"Children": [
+						{
+							"ID": "20230827114434-41zn4rb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114434-41zn4rb",
+								"updated": "20230827114438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "大金鹰"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114438-9mx6nn2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mzgu",
+						"Num": 38
+					},
+					"Properties": {
+						"id": "20230827114438-9mx6nn2"
+					},
+					"Children": [
+						{
+							"ID": "20230827114438-zauq7ld",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114438-zauq7ld",
+								"updated": "20230827174440"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "马房湾七彩巷"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114442-hzjxfz8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mzku",
+						"Num": 39
+					},
+					"Properties": {
+						"id": "20230827114442-hzjxfz8"
+					},
+					"Children": [
+						{
+							"ID": "20230827114442-ru6vkhr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114442-ru6vkhr",
+								"updated": "20230827171509"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "钟书馆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114450-8967zo7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NDAu",
+						"Num": 40
+					},
+					"Properties": {
+						"id": "20230827114450-8967zo7"
+					},
+					"Children": [
+						{
+							"ID": "20230827114450-98fa2e8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114450-98fa2e8",
+								"updated": "20230827183819"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "三毛故居"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114457-kspkpbj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NDEu",
+						"Num": 41
+					},
+					"Properties": {
+						"id": "20230827114457-kspkpbj"
+					},
+					"Children": [
+						{
+							"ID": "20230827114457-51n2995",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114457-51n2995",
+								"updated": "20230827174444"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "南山植物园"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827114506-83s1z5a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NDIu",
+						"Num": 42
+					},
+					"Properties": {
+						"id": "20230827114506-83s1z5a"
+					},
+					"Children": [
+						{
+							"ID": "20230827114506-dh5n2pn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827114506-dh5n2pn",
+								"updated": "20230827171513"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "园博园"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230827102726-svh10vw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230827102726-svh10vw",
+				"updated": "20230827185742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Day1（城区）"
+				}
+			]
+		},
+		{
+			"ID": "20230827103546-6si6ba0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230827103546-6si6ba0",
+				"updated": "20230827185752"
+			},
+			"Children": [
+				{
+					"ID": "20230827151415-r6209j6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230827151415-r6209j6"
+					},
+					"Children": [
+						{
+							"ID": "20230827151415-usnqayz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827151415-usnqayz",
+								"updated": "20230827151416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "兰熙酒店(重庆磁器口店)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827184538-rkmvktm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230827184538-rkmvktm"
+					},
+					"Children": [
+						{
+							"ID": "20230827184539-ocijfgw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827184539-ocijfgw",
+								"updated": "20230827184539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "李子坝"
+								}
+							]
+						},
+						{
+							"ID": "20230827184539-h3v9kfk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230827184539-h3v9kfk",
+								"updated": "20230827184539"
+							},
+							"Children": [
+								{
+									"ID": "20230827184539-mlynt2n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230827184539-mlynt2n",
+										"updated": "20230827184539"
+									},
+									"Children": [
+										{
+											"ID": "20230827184539-ehav1pr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230827184539-ehav1pr",
+												"updated": "20230827184539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "轻轨2号线，第一节车厢"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827151420-zb8j0q2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230827151420-zb8j0q2"
+					},
+					"Children": [
+						{
+							"ID": "20230827151420-ur02lix",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827151420-ur02lix",
+								"updated": "20230827151423"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "山城步道"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827184531-5nlnhwz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230827184531-5nlnhwz"
+					},
+					"Children": [
+						{
+							"ID": "20230827184531-ivznukz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827184531-ivznukz",
+								"updated": "20230827184531"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "人民大礼堂"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103608-5sh7xfy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230827103608-5sh7xfy",
+						"updated": "20230827103608"
+					},
+					"Children": [
+						{
+							"ID": "20230827103608-f6sg2xd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103608-f6sg2xd",
+								"updated": "20230827104216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解放碑 "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103613-qv316qq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230827103613-qv316qq"
+					},
+					"Children": [
+						{
+							"ID": "20230827103613-dbq39hg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103613-dbq39hg",
+								"updated": "20230827103616"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "罗汉寺"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827103616-ve2xgns",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230827103616-ve2xgns"
+					},
+					"Children": [
+						{
+							"ID": "20230827103616-4wcoo1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827103616-4wcoo1r",
+								"updated": "20230827104253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "湖广会馆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827104254-3cu4a1a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230827104254-3cu4a1a"
+					},
+					"Children": [
+						{
+							"ID": "20230827104254-wyyzlbv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827104254-wyyzlbv",
+								"updated": "20230827105201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "白象居"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827105201-mcuff8x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230827105201-mcuff8x"
+					},
+					"Children": [
+						{
+							"ID": "20230827105201-oo0qd6u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827105201-oo0qd6u",
+								"updated": "20230827105514"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "国泰艺术中心"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827105538-m167jh2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230827105538-m167jh2"
+					},
+					"Children": [
+						{
+							"ID": "20230827105538-mdcws1j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827105538-mdcws1j",
+								"updated": "20230827105539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "魁星楼"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827185751-mv6iq7k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230827185751-mv6iq7k",
+						"updated": "20230827185752"
+					},
+					"Children": [
+						{
+							"ID": "20230827185751-ctfimnz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827185751-ctfimnz",
+								"updated": "20230827185752"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "皇冠大扶梯"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827105634-whk3030",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230827105634-whk3030"
+					},
+					"Children": [
+						{
+							"ID": "20230827105634-lnpiw7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827105634-lnpiw7u",
+								"updated": "20230827180146"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "江北大剧院江滩公园看洪崖洞（夜景）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230827111609-tz2hyvl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230827111609-tz2hyvl",
+				"updated": "20230827185757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Day2（南山）"
+				}
+			]
+		},
+		{
+			"ID": "20230827111614-vtrk0pv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230827111614-vtrk0pv",
+				"updated": "20230827190048"
+			},
+			"Children": [
+				{
+					"ID": "20230827111711-lz4llub",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230827111711-lz4llub"
+					},
+					"Children": [
+						{
+							"ID": "20230827111711-6sm2hma",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111711-6sm2hma",
+								"updated": "20230827111720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "黄葛古道"
+								}
+							]
+						},
+						{
+							"ID": "20230827111746-4h9fjf8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230827111746-4h9fjf8"
+							},
+							"Children": [
+								{
+									"ID": "20230827111745-ttdea6i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230827111745-ttdea6i"
+									},
+									"Children": [
+										{
+											"ID": "20230827111745-k3gu4sd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230827111745-k3gu4sd",
+												"updated": "20230827111800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不爬可直接打车到老君洞"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111615-isxk70k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230827111615-isxk70k",
+						"updated": "20230827111615"
+					},
+					"Children": [
+						{
+							"ID": "20230827111615-bjv9ii2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111615-bjv9ii2",
+								"updated": "20230827111702"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "老君洞"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111703-2spk75e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230827111703-2spk75e"
+					},
+					"Children": [
+						{
+							"ID": "20230827111703-iu6lmwl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111703-iu6lmwl",
+								"updated": "20230827111900"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "南天门"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111933-i8ags0e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230827111933-i8ags0e"
+					},
+					"Children": [
+						{
+							"ID": "20230827111933-mgcgqvj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111933-mgcgqvj",
+								"updated": "20230827111950"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "黄角垭老街"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827112834-mrn3qof",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230827112834-mrn3qof"
+					},
+					"Children": [
+						{
+							"ID": "20230827112834-y388d70",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827112834-y388d70",
+								"updated": "20230827112839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "广益中学"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827112840-nq7kgmy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230827112840-nq7kgmy"
+					},
+					"Children": [
+						{
+							"ID": "20230827112840-3c95rbj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827112840-3c95rbj",
+								"updated": "20230827112845"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "南山宾馆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827111950-6c97lcj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230827111950-6c97lcj"
+					},
+					"Children": [
+						{
+							"ID": "20230827111950-j9hrd64",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827111950-j9hrd64",
+								"updated": "20230827112225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三毛故居？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827112017-yg2bmgt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230827112017-yg2bmgt"
+					},
+					"Children": [
+						{
+							"ID": "20230827112017-zfbjs7i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827112017-zfbjs7i",
+								"updated": "20230827112220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "南山植物园？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827112413-3bnef4e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230827112413-3bnef4e"
+					},
+					"Children": [
+						{
+							"ID": "20230827112413-j02pbcb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827112413-j02pbcb",
+								"updated": "20230827112420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "南山夜景"
+								}
+							]
+						},
+						{
+							"ID": "20230827112422-9ccofhk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230827112422-9ccofhk"
+							},
+							"Children": [
+								{
+									"ID": "20230827112422-o5gzp9d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230827112422-o5gzp9d"
+									},
+									"Children": [
+										{
+											"ID": "20230827112422-o7szx47",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230827112422-o7szx47",
+												"updated": "20230827112432"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "南山夜景火锅店"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827112432-tc35o76",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230827112432-tc35o76"
+					},
+					"Children": [
+						{
+							"ID": "20230827112432-iv6ccus",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827112432-iv6ccus",
+								"updated": "20230827112508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下山"
+								}
+							]
+						},
+						{
+							"ID": "20230827112508-uyatbsa",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230827112508-uyatbsa"
+							},
+							"Children": [
+								{
+									"ID": "20230827112508-ex5x31w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230827112508-ex5x31w"
+									},
+									"Children": [
+										{
+											"ID": "20230827112508-28xlmc8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230827112508-28xlmc8",
+												"updated": "20230827112522"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "10点前，不要走一棵树路线"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827190002-hjjla9u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230827190002-hjjla9u"
+					},
+					"Children": [
+						{
+							"ID": "20230827190002-emb4gfa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827190002-emb4gfa",
+								"updated": "20230827190004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "涂山寺？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230827190046-mzojbnf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230827190046-mzojbnf",
+						"updated": "20230827190048"
+					},
+					"Children": [
+						{
+							"ID": "20230827190046-n08s0vc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230827190046-n08s0vc",
+								"updated": "20230827190048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "大金鹰？"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230827110702-ifnbt9l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230827110702-ifnbt9l",
+				"updated": "20230827185810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Day3（歌乐山）"
+				}
+			]
+		},
+		{
+			"ID": "20230827185801-rqqi2zl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230827185801-rqqi2zl"
+			}
+		}
+	]
+}
