@@ -1,0 +1,2014 @@
+{
+	"ID": "20230906145915-kalxewp",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230906145915-kalxewp",
+		"title": "Vue3中Hooks",
+		"updated": "20230907143039"
+	},
+	"Children": [
+		{
+			"ID": "20230906145915-j680wst",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230906145915-j680wst",
+				"updated": "20230906150615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mixin是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230906150619-l5212ch",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230906150619-l5212ch",
+				"updated": "20230907094205"
+			},
+			"Children": [
+				{
+					"ID": "20230906150625-hfjr31l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230906150625-hfjr31l",
+						"updated": "20230906150625"
+					},
+					"Children": [
+						{
+							"ID": "20230906150625-ur2qbsx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906150625-ur2qbsx",
+								"updated": "20230906150626"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mixin"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 也就是混入，不仅仅在 Vue 框架中存在 mixin，确切的说 mixin 是一种混入的思想，他会自动的将混入的东西准确的分配到指定的组件中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906150626-ljhq53j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230906150626-ljhq53j"
+					},
+					"Children": [
+						{
+							"ID": "20230906150626-c16dnq7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906150626-c16dnq7",
+								"updated": "20230906150912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现在组件A 中的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "watch"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中需要处理的逻辑是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "hanldleParams"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​, 在组件B 中的 watch 中同样需要这样的逻辑 hanldleParams，那么我们应该如何将这两块相同的逻辑抽象出来复用呢"
+								}
+							]
+						},
+						{
+							"ID": "20230906150922-0rro3zm",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230906150922-0rro3zm",
+								"updated": "20230906150922"
+							},
+							"Children": [
+								{
+									"ID": "20230906150922-zgczyor",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230906150922-zgczyor",
+										"updated": "20230906150922"
+									},
+									"Children": [
+										{
+											"ID": "20230906150922-m459hk4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906150922-m459hk4",
+												"updated": "20230906150926"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "抽函数"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​：将 hanldleParams 以函数的形式抽出来，然后在 watch 中调用 hanldleParams"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906150922-dvp8lf8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230906150922-dvp8lf8",
+										"updated": "20230906150922"
+									},
+									"Children": [
+										{
+											"ID": "20230906150922-o6669dm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906150922-o6669dm",
+												"updated": "20230906151002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "mixin"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：上一种抽函数方法虽然可以解决一定的复用问题，但是我们还是需要在组件中写 watch，如果每个组件都写 watch，那么 watch 也是重复的东西，因此 mixin 就是将 watch 钩子都可以抽出来的组件。也就是说，mixin 抽出来不仅仅是纯函数逻辑，还可以将 Vue 组件特有的钩子等逻辑也可以抽出来，达到进一步复用，而且 mixin 中的数据和方法都是独立的，组件之间使用后是互不影响的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906151003-gnkgltq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230906151003-gnkgltq"
+					},
+					"Children": [
+						{
+							"ID": "20230906151003-n4r22rg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151003-n4r22rg",
+								"updated": "20230906151006"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上面这两种方法的区别就代表了mixin和utils的区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906151057-lx7kk4k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230906151057-lx7kk4k"
+					},
+					"Children": [
+						{
+							"ID": "20230906151057-0czcj3l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151057-0czcj3l",
+								"updated": "20230906151057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mixin解决的问题"
+								}
+							]
+						},
+						{
+							"ID": "20230906151104-ukci4sg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230906151104-ukci4sg",
+								"updated": "20230906151104"
+							},
+							"Children": [
+								{
+									"ID": "20230906151104-bsgmzg9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230906151104-bsgmzg9",
+										"updated": "20230906151104"
+									},
+									"Children": [
+										{
+											"ID": "20230906151104-raqcb32",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151104-raqcb32",
+												"updated": "20230906151104"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "逻辑函数的复用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906151104-dl1lbc3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230906151104-dl1lbc3",
+										"updated": "20230906151104"
+									},
+									"Children": [
+										{
+											"ID": "20230906151104-j15qrgm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151104-j15qrgm",
+												"updated": "20230906151104"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vue 组件配置复用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906151109-ebxzqim",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230906151109-ebxzqim"
+					},
+					"Children": [
+						{
+							"ID": "20230906151109-0pknzru",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151109-0pknzru",
+								"updated": "20230906151451"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 Vue中，mixin 定义的就是一个对象，对象中放置的 Vue 组件相应的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "选项式API"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "和对应的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "生命周期钩子"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906151453-w356stm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230906151453-w356stm"
+					},
+					"Children": [
+						{
+							"ID": "20230906151453-o0apdov",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151453-o0apdov",
+								"updated": "20230906151500"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mixin 中和 Vue 组件中相同的钩子的优先级"
+								}
+							]
+						},
+						{
+							"ID": "20230906151516-22qqtt2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230906151516-22qqtt2",
+								"updated": "20230906151516"
+							},
+							"Children": [
+								{
+									"ID": "20230906151516-pjp5r0t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230906151516-pjp5r0t",
+										"updated": "20230906151516"
+									},
+									"Children": [
+										{
+											"ID": "20230906151516-d066fz2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151516-d066fz2",
+												"updated": "20230906151516"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "mixin 中的生命周期函数会和组件的生命周期函数一起合并执行"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906151615-x9ws3d6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230906151615-x9ws3d6"
+									},
+									"Children": [
+										{
+											"ID": "20230906151615-5mawbgd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151615-5mawbgd",
+												"updated": "20230906151615"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "生命周期函数合并后执行顺序：先执行 mixin 中的，后执行组件的"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906151516-dfxrkdh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230906151516-dfxrkdh",
+										"updated": "20230906151516"
+									},
+									"Children": [
+										{
+											"ID": "20230906151516-mwdwv3j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151516-mwdwv3j",
+												"updated": "20230906151516"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "mixin 中的 data 数据在组件中也可以使用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906151516-xlq8iym",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230906151516-xlq8iym",
+										"updated": "20230906151516"
+									},
+									"Children": [
+										{
+											"ID": "20230906151516-f5qearn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151516-f5qearn",
+												"updated": "20230906151516"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "mixin 中的方法在组件内部可以直接调用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906151726-70r60bw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230906151726-70r60bw",
+						"updated": "20230907094205"
+					},
+					"Children": [
+						{
+							"ID": "20230906151726-es9pw45",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151726-es9pw45",
+								"updated": "20230906151728"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点"
+								}
+							]
+						},
+						{
+							"ID": "20230906151733-6b9i8ci",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230906151733-6b9i8ci",
+								"updated": "20230907094205"
+							},
+							"Children": [
+								{
+									"ID": "20230906151728-kyi6ebj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230906151728-kyi6ebj"
+									},
+									"Children": [
+										{
+											"ID": "20230906151728-yxf5g51",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906151728-yxf5g51",
+												"updated": "20230906151734"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "相同钩子中注册的函数名相同会发生冲突（Vue 中冲突的解决方案是本组件中优先级高于 mixin）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094216-49znq7f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230907094216-49znq7f"
+									},
+									"Children": [
+										{
+											"ID": "20230907094216-t63rx98",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094216-t63rx98",
+												"updated": "20230907094216"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "mixin无法传入灵活的传入参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906151829-ooyxtsg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230906151829-ooyxtsg",
+										"updated": "20230907094205"
+									},
+									"Children": [
+										{
+											"ID": "20230907094205-v250184",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094205-v250184",
+												"updated": "20230907094205"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "不清晰的数据来源"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：当使用了多个mixin/class时，哪个数据是哪个模块提供的将变得难以追寻，这将提高维护难度"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094154-grlxbb2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230907094154-grlxbb2"
+									},
+									"Children": [
+										{
+											"ID": "20230907094155-ix5ogg2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094155-ix5ogg2",
+												"updated": "20230907094155"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "命名空间冲突"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：来自多个class/mixin的开发者可能会注册同样的属性名，造成冲突"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906151829-y1ex6vf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230906151829-y1ex6vf"
+									},
+									"Children": [
+										{
+											"ID": "20230907094145-j5apfnb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094145-j5apfnb",
+												"updated": "20230907094145"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "隐性的跨模块交流"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：不同的mixin/class之间可能存在某种相互作用，产生未知的后果"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230906151839-r4xh5nt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230906151839-r4xh5nt",
+				"updated": "20230906151839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "hooks是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230906151506-mj7tvxk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230906151506-mj7tvxk",
+				"updated": "20230907143039"
+			},
+			"Children": [
+				{
+					"ID": "20230906151916-1ckg8gv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230906151916-1ckg8gv",
+						"updated": "20230906151916"
+					},
+					"Children": [
+						{
+							"ID": "20230906151916-r8ymq7n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151916-r8ymq7n",
+								"updated": "20230906151917"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一般来说，我们开发中会自动抽象出逻辑函数放在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "utils"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 中，utils 中放的纯逻辑，不存在属于组件的东西"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906151917-9w1l089",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230906151917-9w1l089"
+					},
+					"Children": [
+						{
+							"ID": "20230906151917-4xs6oxa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906151917-4xs6oxa",
+								"updated": "20230906151926"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "hooks"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 就是在 utils 的基础上再包一层组件级别的东西(钩子函数等)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906153414-i462kax",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230906153414-i462kax"
+					},
+					"Children": [
+						{
+							"ID": "20230906153414-qnec3wp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906153414-qnec3wp",
+								"updated": "20230906153651"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们每次点击button都会弹出一个弹窗，自动显示当前日期。但是我将函数放在util中，每次复用都需要click=handleClick 函数放入日期函数，通过handleClick函数管理utils，那么我不如直接将handleClick也封装起来，下次直接调用，复用了methods注册的环节"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906153709-rxv1f4a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230906153709-rxv1f4a"
+					},
+					"Children": [
+						{
+							"ID": "20230906153709-d7y4osv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906153709-d7y4osv",
+								"updated": "20230906153710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "hooks 和 utils 的区别：hooks 中如果涉及到 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ref，reactive，computed"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 这些 api 的数据，那这些数据是具有响应式的，而 utils 只是单纯提取公共方法就不具备响应式，因此可以把 hooks 理解为加入 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Vue3 api"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 的公共方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907093805-x1dncp1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230907093805-x1dncp1"
+					},
+					"Children": [
+						{
+							"ID": "20230907093806-q226gx8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907093806-q226gx8",
+								"updated": "20230907093806"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一系列以 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "use"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 作为开头的方法，它们提供了让你可以完全避开 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "class式写法"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，在函数式组件中完成生命周期、状态管理、逻辑复用等几乎全部组件开发工作的能力"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907093813-ijo5wea",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230907093813-ijo5wea"
+					},
+					"Children": [
+						{
+							"ID": "20230907093813-8vrbkj9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907093813-8vrbkj9",
+								"updated": "20230907093814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hooks最核心的价值来自于内部的状态管理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907093942-j7hfw8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230907093942-j7hfw8m"
+					},
+					"Children": [
+						{
+							"ID": "20230907093942-b0jltba",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907093942-b0jltba",
+								"updated": "20230907093942"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hooks是一种"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "基于闭包"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的函数式编程思维产物"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907093828-4bi428l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230907093828-4bi428l"
+					},
+					"Children": [
+						{
+							"ID": "20230907093828-1xz3mv0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907093828-1xz3mv0",
+								"updated": "20230907093829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在VUE3中，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Hooks"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​的概念结合了VUE的响应式系统，被称为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "组合函数"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。组合函数是VUE3组合式API中提供的新的逻辑复用的方案，是一类利用 Vue 的组合式 API 来封装和复用有状态逻辑的函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906155909-hs43lbw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230906155909-hs43lbw"
+					},
+					"Children": [
+						{
+							"ID": "20230906155909-elm56o3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906155909-elm56o3",
+								"updated": "20230906155915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本操作"
+								}
+							]
+						},
+						{
+							"ID": "20230906155915-wqgq7cc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230906155915-wqgq7cc"
+							},
+							"Children": [
+								{
+									"ID": "20230906155915-tx00aa5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230906155915-tx00aa5"
+									},
+									"Children": [
+										{
+											"ID": "20230906155915-kzyf2jp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906155915-kzyf2jp",
+												"updated": "20230906155921"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "导出的hooks是一个函数，函数中可以使用ref，reactive，这样hooks定义的变量和方法如同在组件中一样"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906155921-bqj84no",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230906155921-bqj84no"
+									},
+									"Children": [
+										{
+											"ID": "20230906155921-gkau29b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906155921-gkau29b",
+												"updated": "20230906160109"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "hooks函数通常返回一个对象，对象中是双向绑定的变量，在vue中间引用的时候第一件事就是解构"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230906160208-7ok1mnz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230906160208-7ok1mnz"
+					},
+					"Children": [
+						{
+							"ID": "20230906160208-dadpiu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230906160208-dadpiu2",
+								"updated": "20230906160213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "规范"
+								}
+							]
+						},
+						{
+							"ID": "20230906160213-4hgcgv4",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230906160213-4hgcgv4"
+							},
+							"Children": [
+								{
+									"ID": "20230906160213-coa7ipr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230906160213-coa7ipr"
+									},
+									"Children": [
+										{
+											"ID": "20230906160213-ffs21vh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906160213-ffs21vh",
+												"updated": "20230906160244"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将可复用的功能抽离为外部JS/TS文件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906160244-juytu3p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230906160244-juytu3p"
+									},
+									"Children": [
+										{
+											"ID": "20230906160244-uupm0b2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906160244-uupm0b2",
+												"updated": "20230906160308"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数/文件名以use开头"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230906160310-iaknkez",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230906160310-iaknkez"
+									},
+									"Children": [
+										{
+											"ID": "20230906160310-hxv86i2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230906160310-hxv86i2",
+												"updated": "20230906160411"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引用时将响应式变量或者方法显式解构暴露出来"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094734-ls52lue",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230907094734-ls52lue"
+									},
+									"Children": [
+										{
+											"ID": "20230907094734-957iyoc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094734-957iyoc",
+												"updated": "20230907094734"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "只在当前关注的最顶级作用域使用Hook，而不要在嵌套函数、循环中调用Hook"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094753-l7ef5ey",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230907094753-l7ef5ey"
+									},
+									"Children": [
+										{
+											"ID": "20230907094753-m7jf9ev",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094753-m7jf9ev",
+												"updated": "20230907094810"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数必须是纯函数，没有副作用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094810-r5m7kr4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230907094810-r5m7kr4"
+									},
+									"Children": [
+										{
+											"ID": "20230907094814-iu8e79x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094814-iu8e79x",
+												"updated": "20230907094814"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "返回值是一个函数或数据，供外部使用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094825-da8uo4u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230907094825-da8uo4u"
+									},
+									"Children": [
+										{
+											"ID": "20230907094825-i021cu2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094825-i021cu2",
+												"updated": "20230907094825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Hook内部可以使用其他的Hook，组合功能"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094828-3v4ouus",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20230907094828-3v4ouus"
+									},
+									"Children": [
+										{
+											"ID": "20230907094843-5aqjjwx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094843-5aqjjwx",
+												"updated": "20230907094843"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据必须依赖于输入，不依赖于外部状态，保持数据流的明确性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094845-aq1ujc0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20230907094845-aq1ujc0"
+									},
+									"Children": [
+										{
+											"ID": "20230907094928-joakiha",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094928-joakiha",
+												"updated": "20230907094928"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在Hook内部处理错误，不要把错误抛出到外部，否则会增加hook的使用成本"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094944-uadq6bq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTAu",
+										"Num": 10
+									},
+									"Properties": {
+										"id": "20230907094944-uadq6bq"
+									},
+									"Children": [
+										{
+											"ID": "20230907094944-g978o8e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094944-g978o8e",
+												"updated": "20230907094944"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Hook是单一功能的，不要给一个Hook设计过多功能。单个Hook只负责做一件事，复杂的功能可以使用多个Hook互相组合实现，如果给单个Hook增加过多功能，又会陷入过于臃肿、使用成本高、难维护的问题中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907094252-3jvl4h9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230907094252-3jvl4h9",
+						"updated": "20230907143039"
+					},
+					"Children": [
+						{
+							"ID": "20230907094252-aje23po",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907094252-aje23po",
+								"updated": "20230907094255"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点"
+								}
+							]
+						},
+						{
+							"ID": "20230907094301-rw42qeb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230907094301-rw42qeb",
+								"updated": "20230907143039"
+							},
+							"Children": [
+								{
+									"ID": "20230907094301-nl5acjb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230907094301-nl5acjb",
+										"updated": "20230907094301"
+									},
+									"Children": [
+										{
+											"ID": "20230907094301-u8ugkds",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094301-u8ugkds",
+												"updated": "20230907143038"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "清晰一目了然的源头：Hooks不是一个类，没有将状态、方法存放在对象中，然后通过导出对象的形式实现复用，也就不会有对象间过度"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "耦合"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​、"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "干扰"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​等问题。Hooks中的各类状态是封装在内部的，与外界隔离，仅暴露部分函数、变量，这使得其来源、功能"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "清晰可辨"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​且"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "不易被干扰"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​、"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907143038-4kg07w2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230907143038-4kg07w2",
+										"updated": "20230907143039"
+									},
+									"Children": [
+										{
+											"ID": "20230907143038-9jci767",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907143038-9jci767",
+												"updated": "20230907143039"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "、、、、、、、、、、、"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094301-aa8lvox",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230907094301-aa8lvox",
+										"updated": "20230907094301"
+									},
+									"Children": [
+										{
+											"ID": "20230907094301-h92gpjh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094301-h92gpjh",
+												"updated": "20230907094301"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "没有命名冲突的问题：Hooks本质是闭包函数，内部所导出的变量、方法支持重命名，因而同一个Hook在同一个组件中可以N次使用而不冲突"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230907094301-s1a6t73",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230907094301-s1a6t73",
+										"updated": "20230907094301"
+									},
+									"Children": [
+										{
+											"ID": "20230907094301-4shug2v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230907094301-4shug2v",
+												"updated": "20230907094301"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "精简逻辑：一个Hook开发完成后，在使用Hook时不需要关心其内部逻辑，只需知道有什么效果、如何使用即可，专注于其他核心业务逻辑，可以节省大量重复代码"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907095436-mxxkoc0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230907095436-mxxkoc0"
+					},
+					"Children": [
+						{
+							"ID": "20230907095436-qgq3p2s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907095436-qgq3p2s",
+								"updated": "20230907095437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Hooks在一定程度上可以取代传统的VUE组件"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907101220-yzyygr7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230907101220-yzyygr7"
+					},
+					"Children": [
+						{
+							"ID": "20230907101220-asownq6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907101220-asownq6",
+								"updated": "20230907101220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在JS里是callback,事件驱动，集成定义一些"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "可复用的方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907101431-k9xb2rr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20230907101431-k9xb2rr",
+						"updated": "20230907101431"
+					},
+					"Children": [
+						{
+							"ID": "20230907101431-o9k650v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907101431-o9k650v",
+								"updated": "20230907101431"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "高内聚低耦合"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的目标"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230906160418-zgd31xj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230906160418-zgd31xj",
+				"updated": "20230906160432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "hooks使用场景"
+				}
+			]
+		},
+		{
+			"ID": "20230906160427-e372990",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230906160427-e372990",
+				"updated": "20230907091646"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20230906150929-pxbrpb2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230906150929-pxbrpb2",
+				"updated": "20230907091709"
+			},
+			"Children": [
+				{
+					"ID": "20230907091709-fyfrpwj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230907091709-fyfrpwj",
+						"updated": "20230907091709"
+					},
+					"Children": [
+						{
+							"ID": "20230907091709-34e5p7o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907091709-34e5p7o",
+								"updated": "20230907091710"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/6955093982590287885",
+									"TextMarkTextContent": "vue3优雅封装弹窗 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907091710-lc49lz1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230907091710-lc49lz1"
+					},
+					"Children": [
+						{
+							"ID": "20230907091710-k8t06cp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907091710-k8t06cp",
+								"updated": "20230907093642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7208111879150993464"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907101707-dy8153w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230907101707-dy8153w"
+					},
+					"Children": [
+						{
+							"ID": "20230907101707-6xsyejp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907101707-6xsyejp",
+								"updated": "20230907101708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7083401842733875208"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230907101728-b2xm4uh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230907101728-b2xm4uh"
+					},
+					"Children": [
+						{
+							"ID": "20230907101728-ik4wnxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230907101728-ik4wnxw",
+								"updated": "20230907101729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7247698370578776124"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230906151452-228sqtf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230906151452-228sqtf",
+				"updated": "20230907142928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  、="
+				}
+			]
+		},
+		{
+			"ID": "20230907142928-9a2d9s9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230907142928-9a2d9s9",
+				"updated": "20230907143038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				}
+			]
+		}
+	]
+}

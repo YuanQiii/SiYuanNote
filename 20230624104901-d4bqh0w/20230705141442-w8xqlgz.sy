@@ -7534,6 +7534,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230713232615-5euxyiy",
 				"updated": "20230713232627"
 			},
@@ -7551,6 +7552,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230713233214-gq184eh",
 				"updated": "20230713233214"
 			},

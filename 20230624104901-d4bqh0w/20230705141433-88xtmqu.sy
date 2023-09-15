@@ -6,7 +6,7 @@
 		"id": "20230705141433-88xtmqu",
 		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230705141433-88xtmqu\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705221831-jyhvw2l\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705223532-eqzb9dx\u0026quot;,\u0026quot;scrollTop\u0026quot;:5268,\u0026quot;focusId\u0026quot;:\u0026quot;20230705221831-jyhvw2l\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "CSS3",
-		"updated": "20230705224845"
+		"updated": "20230905172440"
 	},
 	"Children": [
 		{
@@ -14,6 +14,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705221831-jyhvw2l",
 				"updated": "20230705221831"
 			},
@@ -34,6 +35,8 @@
 			],
 			"Properties": {
 				"colgroup": "||",
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705221836-t0dcbke",
 				"updated": "20230705221836"
 			},
@@ -452,6 +455,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705221932-lf31btd",
 				"updated": "20230705222113"
 			},
@@ -811,6 +816,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705222125-vaww58o",
 				"updated": "20230705222125"
 			},
@@ -828,6 +834,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705222126-2qbler3",
 				"updated": "20230705222527"
 			},
@@ -2026,6 +2034,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705222537-ugx6ssi",
 				"updated": "20230705222537"
 			},
@@ -2045,6 +2054,8 @@
 			],
 			"Properties": {
 				"colgroup": "|",
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705222546-kdosaap",
 				"updated": "20230705222559"
 			},
@@ -2272,6 +2283,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705222605-pe4y292",
 				"updated": "20230705222605"
 			},
@@ -2289,6 +2301,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705222606-gowewbf",
 				"updated": "20230705222627"
 			},
@@ -2404,6 +2418,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705222639-as63z6p",
 				"updated": "20230705222639"
 			},
@@ -2421,6 +2436,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705222641-upzo2jr",
 				"updated": "20230705222802"
 			},
@@ -2728,6 +2745,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705222822-zfvn1g2",
 				"updated": "20230705222822"
 			},
@@ -2745,6 +2763,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705222827-f8hhqtf",
 				"updated": "20230705222917"
 			},
@@ -2996,6 +3016,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705222926-jwdv2na",
 				"updated": "20230705222926"
 			},
@@ -3013,6 +3034,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705222931-zimuto5",
 				"updated": "20230705223248"
 			},
@@ -3174,6 +3197,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705223254-dcyk8b9",
 				"updated": "20230705223254"
 			},
@@ -3191,6 +3215,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705223301-qoyst30",
 				"updated": "20230705223307"
 			},
@@ -3272,6 +3298,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705223323-f0xtcmx",
 				"updated": "20230705223530"
 			},
@@ -3289,6 +3316,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705223332-41s43im",
 				"updated": "20230705223526"
 			},
@@ -3412,10 +3441,308 @@
 			]
 		},
 		{
+			"ID": "20230905164732-94m94bw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230905164732-94m94bw",
+				"updated": "20230905164737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "display:none与visibility:hidden的区别"
+				}
+			]
+		},
+		{
+			"ID": "20230905164750-koezz6u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230905164750-koezz6u",
+				"updated": "20230905165229"
+			},
+			"Children": [
+				{
+					"ID": "20230905164751-5q949rp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230905164751-5q949rp",
+						"updated": "20230905164751"
+					},
+					"Children": [
+						{
+							"ID": "20230905164806-u15t52n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905164806-u15t52n",
+								"updated": "20230905165205"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​在渲染树中"
+								}
+							]
+						},
+						{
+							"ID": "20230905165207-dd8m7z2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905165207-dd8m7z2"
+							},
+							"Children": [
+								{
+									"ID": "20230905165158-cwpqdj9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905165158-cwpqdj9"
+									},
+									"Children": [
+										{
+											"ID": "20230905165158-1sc1xg2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165158-1sc1xg2",
+												"updated": "20230905165208"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "display:none"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​会让元素完全从渲染树中消失，渲染时不会占据任何空间"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905165208-xugu4cm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905165208-xugu4cm"
+									},
+									"Children": [
+										{
+											"ID": "20230905165208-xp41hnf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165208-xp41hnf"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "visibility:hidden"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​不会让元素从渲染树中消失，渲染的元素还会占据相应的空间，只是内容不可见"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905164824-z4cia4h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230905164824-z4cia4h",
+						"updated": "20230905165229"
+					},
+					"Children": [
+						{
+							"ID": "20230905164824-r2kcwl9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905164824-r2kcwl9",
+								"updated": "20230905165215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "继承属性"
+								}
+							]
+						},
+						{
+							"ID": "20230905165229-cvsyuli",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905165229-cvsyuli"
+							},
+							"Children": [
+								{
+									"ID": "20230905165229-irh4jvu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905165229-irh4jvu"
+									},
+									"Children": [
+										{
+											"ID": "20230905165230-9yl3hkx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165230-9yl3hkx",
+												"updated": "20230905165237"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "display:none"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​是非继承属性，子孙节点会随着父节点从渲染树消失，通过修改子孙节点的属性也无法显示"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905165237-qmrdw4u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905165237-qmrdw4u"
+									},
+									"Children": [
+										{
+											"ID": "20230905165237-elbz22j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165237-elbz22j"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "visibility:hidden"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​是继承属性，子孙节点消失是由于继承了"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "hidden"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，通过设置"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "visibility:visible"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​可以让子孙节点显示"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905165215-clzew80",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230905165215-clzew80"
+					},
+					"Children": [
+						{
+							"ID": "20230905165215-b99u2cp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905165215-b99u2cp"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
 			"ID": "20230705223527-3zzzz59",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705223527-3zzzz59",
 				"updated": "20230705223527"
 			},
@@ -3433,6 +3760,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705223531-t57qhi8",
 				"updated": "20230705223643"
 			},
@@ -3688,6 +4017,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705223703-5qk7hob",
 				"updated": "20230705223709"
 			},
@@ -3705,6 +4035,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705223711-g648z8v",
 				"updated": "20230705223818"
 			},
@@ -3816,13 +4148,14 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705224035-n5dk7ch",
-				"updated": "20230705224037"
+				"updated": "20230905151946"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "li 与 li 之间有看不见的空白间隔是什么原因引起的\t如何解决"
+					"Data": "li 与 li 之间有看不见的空白间隔是什么原因引起的，如何解决"
 				}
 			]
 		},
@@ -3833,6 +4166,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705224039-c3ufcra",
 				"updated": "20230705224050"
 			},
@@ -4180,6 +4515,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705224306-t3li2n2",
 				"updated": "20230705224306"
 			},
@@ -4197,6 +4533,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705224313-qwiuiku",
 				"updated": "20230705224417"
 			},
@@ -4478,29 +4816,1972 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705224845-g9h7pl9",
 				"updated": "20230705224845"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "常见的图片格式及使用场景"
+					"Data": "对 CSSSprites 的理解"
 				}
 			]
 		},
 		{
 			"ID": "20230705223532-ddbwoy1",
-			"Type": "NodeParagraph",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20230705223532-ddbwoy1"
-			}
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230705223532-ddbwoy1",
+				"updated": "20230905165926"
+			},
+			"Children": [
+				{
+					"ID": "20230905165800-57bmbe7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230905165800-57bmbe7",
+						"updated": "20230905165800"
+					},
+					"Children": [
+						{
+							"ID": "20230905165800-vwp9tol",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905165800-vwp9tol",
+								"updated": "20230905165801"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CSSSprites（精灵图），将一个页面涉及到的所有图片都包含到一张大图中去，然后利用CSS的 background-image，background-repeat，background-position属性的组合进行背景定位"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905165801-tia7ze5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230905165801-tia7ze5"
+					},
+					"Children": [
+						{
+							"ID": "20230905165801-88qbepd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905165801-88qbepd",
+								"updated": "20230905165806"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点"
+								}
+							]
+						},
+						{
+							"ID": "20230905165806-7jjvgyi",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905165806-7jjvgyi"
+							},
+							"Children": [
+								{
+									"ID": "20230905165806-hdj33nm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905165806-hdj33nm"
+									},
+									"Children": [
+										{
+											"ID": "20230905165806-2mtc7f7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165806-2mtc7f7",
+												"updated": "20230905165815"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "CSS Sprites"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​能很好地减少网页的http请求，从而大大提高了页面的性能"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905165816-dv19gwe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905165816-dv19gwe"
+									},
+									"Children": [
+										{
+											"ID": "20230905165816-jzi4vo6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165816-jzi4vo6",
+												"updated": "20230905165823"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "CSS Sprites"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​能减少图片的字节，把3张图片合并成1张图片的字节总是小于这3张图片的字节总和"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905165825-slrom2q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230905165825-slrom2q",
+						"updated": "20230905165926"
+					},
+					"Children": [
+						{
+							"ID": "20230905165825-3jvbapt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905165825-3jvbapt",
+								"updated": "20230905165831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点"
+								}
+							]
+						},
+						{
+							"ID": "20230905165831-o5b1emi",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905165831-o5b1emi",
+								"updated": "20230905165926"
+							},
+							"Children": [
+								{
+									"ID": "20230905165831-ajuv3xw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905165831-ajuv3xw"
+									},
+									"Children": [
+										{
+											"ID": "20230905165831-2qr85zo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165831-2qr85zo",
+												"updated": "20230905165853"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在图片合并时，要把多张图片有序的、合理的合并成一张图片，还要留好足够的空间，防止板块内出现不必要的背景"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905165859-5jz5q14",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905165859-5jz5q14"
+									},
+									"Children": [
+										{
+											"ID": "20230905165859-zn5wmpe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165859-zn5wmpe",
+												"updated": "20230905165859"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在宽屏及高分辨率下的自适应页面，如果背景不够宽，很容易出现背景断裂"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905165859-xfs87xu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905165859-xfs87xu"
+									},
+									"Children": [
+										{
+											"ID": "20230905165859-zayi4r7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165859-zayi4r7",
+												"updated": "20230905165909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "CSSSprites"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​在开发的时候相对来说有点麻烦，需要借助"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "photoshop"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​或其他工具来对每个背景单元测量其准确的位置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905165909-c519fw1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230905165909-c519fw1",
+										"updated": "20230905165926"
+									},
+									"Children": [
+										{
+											"ID": "20230905165909-iartuvv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905165909-iartuvv",
+												"updated": "20230905165926"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "维护的时候比较麻烦，页面背景有少许改动时，就要改这张合并的图片"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"ID": "20230705223532-eqzb9dx",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705223532-eqzb9dx"
 			}
+		},
+		{
+			"ID": "20230905170100-84nustw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230905170100-84nustw",
+				"updated": "20230905170147"
+			},
+			"Children": [
+				{
+					"ID": "20230905170142-r5wlvj7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230905170142-r5wlvj7",
+						"updated": "20230905170142"
+					},
+					"Children": [
+						{
+							"ID": "20230905170142-fwqosea",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905170142-fwqosea",
+								"updated": "20230905170143"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要在border外侧添加空白，且空白处不需要背景（色）时，使用 margin"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905170143-8u8degp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230905170143-8u8degp",
+						"updated": "20230905170147"
+					},
+					"Children": [
+						{
+							"ID": "20230905170143-xmktwwe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905170143-xmktwwe",
+								"updated": "20230905170147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要在border内测添加空白，且空白处需要背景（色）时，使用 padding"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230905170154-xtwbljf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230905170154-xtwbljf",
+				"updated": "20230905170212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对line-height 的理解及其赋值方式"
+				}
+			]
+		},
+		{
+			"ID": "20230905170204-pbzorpx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230905170204-pbzorpx",
+				"updated": "20230905170458"
+			},
+			"Children": [
+				{
+					"ID": "20230905170321-fq1hue4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230905170321-fq1hue4",
+						"updated": "20230905170321"
+					},
+					"Children": [
+						{
+							"ID": "20230905170321-h4oatmi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905170321-h4oatmi",
+								"updated": "20230905170325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念"
+								}
+							]
+						},
+						{
+							"ID": "20230905170336-gdmbvzl",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905170336-gdmbvzl",
+								"updated": "20230905170336"
+							},
+							"Children": [
+								{
+									"ID": "20230905170336-17m6jih",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905170336-17m6jih",
+										"updated": "20230905170336"
+									},
+									"Children": [
+										{
+											"ID": "20230905170336-jj14514",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170336-jj14514",
+												"updated": "20230905170344"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "line-height 指一行文本的高度，包含了字间距，实际上是下一行基线到上一行基线距离"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170336-m3eu8fb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905170336-m3eu8fb",
+										"updated": "20230905170336"
+									},
+									"Children": [
+										{
+											"ID": "20230905170336-4w3s4mx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170336-4w3s4mx",
+												"updated": "20230905170344"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果一个标签没有定义 height 属性，那么其最终表现的高度由 line-height 决定"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170336-562b5ly",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905170336-562b5ly",
+										"updated": "20230905170336"
+									},
+									"Children": [
+										{
+											"ID": "20230905170336-h08dipi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170336-h08dipi",
+												"updated": "20230905170345"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个容器没有设置高度，那么撑开容器高度的是 line-height，而不是容器内的文本内容"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170336-kdmly0r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230905170336-kdmly0r",
+										"updated": "20230905170336"
+									},
+									"Children": [
+										{
+											"ID": "20230905170336-l8i2ycu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170336-l8i2ycu",
+												"updated": "20230905170346"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "把 line-height 值设置为 height 一样大小的值可以实现单行文字的垂直居中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170336-ng8l9ux",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230905170336-ng8l9ux",
+										"updated": "20230905170336"
+									},
+									"Children": [
+										{
+											"ID": "20230905170336-t7dsci3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170336-t7dsci3",
+												"updated": "20230905170346"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "line-height 和 height 都能撑开一个高度"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905170350-jzwukfe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230905170350-jzwukfe",
+						"updated": "20230905170458"
+					},
+					"Children": [
+						{
+							"ID": "20230905170350-98pdq5k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905170350-98pdq5k",
+								"updated": "20230905170357"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "赋值方式"
+								}
+							]
+						},
+						{
+							"ID": "20230905170426-bqpputn",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905170426-bqpputn",
+								"updated": "20230905170458"
+							},
+							"Children": [
+								{
+									"ID": "20230905170426-9v6vplw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905170426-9v6vplw",
+										"updated": "20230905170426"
+									},
+									"Children": [
+										{
+											"ID": "20230905170426-5ecoijp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170426-5ecoijp",
+												"updated": "20230905170426"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "带单位：px 是固定值，而 em 会参考父元素 font-size 值计算自身的行高"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170426-i7ub13h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905170426-i7ub13h",
+										"updated": "20230905170458"
+									},
+									"Children": [
+										{
+											"ID": "20230905170426-keptla4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170426-keptla4",
+												"updated": "20230905170458"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "纯数字：会把比例传递给后代，例如，父级行高为 1.5，子元素字体为 18px，则子元素行高为 1.5 * 18 = 27px"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170426-s4md96r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905170426-s4md96r",
+										"updated": "20230905170426"
+									},
+									"Children": [
+										{
+											"ID": "20230905170426-gnuroic",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170426-gnuroic",
+												"updated": "20230905170426"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "百分比：将计算后的值传递给后代"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230905170056-itne6q8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230905170056-itne6q8",
+				"updated": "20230905170654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSS 优化和提高性能的方法有哪些"
+				}
+			]
+		},
+		{
+			"ID": "20230905170710-rqcfe9t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230905170710-rqcfe9t",
+				"updated": "20230905171933"
+			},
+			"Children": [
+				{
+					"ID": "20230905170712-x2v9cz1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230905170712-x2v9cz1",
+						"updated": "20230905170712"
+					},
+					"Children": [
+						{
+							"ID": "20230905170712-sbavfyh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905170712-sbavfyh",
+								"updated": "20230905170717"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加载性能"
+								}
+							]
+						},
+						{
+							"ID": "20230905170728-v4rgqs7",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905170728-v4rgqs7"
+							},
+							"Children": [
+								{
+									"ID": "20230905170728-yiws08m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905170728-yiws08m"
+									},
+									"Children": [
+										{
+											"ID": "20230905170728-xyuzh78",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170728-xyuzh78",
+												"updated": "20230905170728"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "css压缩：将写好的css进行打包压缩，可以减小文件体积"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170729-89dmgqh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905170729-89dmgqh"
+									},
+									"Children": [
+										{
+											"ID": "20230905170729-tgbr76e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170729-tgbr76e",
+												"updated": "20230905170806"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "css单一样式：当需要下边距和左边距的时候，很多时候会选择使用 margin:top 0 bottom 0；但margin-bottom:bottom;margin-left:left;执行效率会更高"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905170812-3vrmxhj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905170812-3vrmxhj"
+									},
+									"Children": [
+										{
+											"ID": "20230905170812-zt1wu6f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905170812-zt1wu6f",
+												"updated": "20230905170817"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少使用@import，建议使用link，因为后者在页面加载时一起加载，前者是等待页面加载完成之后再进行加载"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905170951-olmht59",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230905170951-olmht59"
+					},
+					"Children": [
+						{
+							"ID": "20230905170951-c9jmmvh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905170951-c9jmmvh",
+								"updated": "20230905170955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选择器性能"
+								}
+							]
+						},
+						{
+							"ID": "20230905171013-lmz9904",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905171013-lmz9904"
+							},
+							"Children": [
+								{
+									"ID": "20230905171013-xpn4rix",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905171013-xpn4rix"
+									},
+									"Children": [
+										{
+											"ID": "20230905171013-j5w5mw0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171013-j5w5mw0",
+												"updated": "20230905171014"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "关键选择器（key selector）。选择器的最后面的部分为关键选择器（即用来匹配目标元素的部分）。CSS选择符是从右到左进行匹配的。当使用后代选择器的时候，浏览器会遍历所有子元素来确定是否是指定的元素等等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171015-q8t7bxf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905171015-q8t7bxf"
+									},
+									"Children": [
+										{
+											"ID": "20230905171015-5pf6nmq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171015-5pf6nmq",
+												"updated": "20230905171113"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果规则拥有ID选择器作为其关键选择器，则不要为规则增加标签。过滤掉无关的规则（这样样式系统就不会浪费时间去匹配它们了）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171113-tddi66n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905171113-tddi66n"
+									},
+									"Children": [
+										{
+											"ID": "20230905171113-zbdsgpf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171113-zbdsgpf",
+												"updated": "20230905171118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "避免使用通配规则，如*{}计算次数惊人，只对需要用到的元素进行选择"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171119-acdhyo6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230905171119-acdhyo6"
+									},
+									"Children": [
+										{
+											"ID": "20230905171119-mplzg1u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171119-mplzg1u",
+												"updated": "20230905171124"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "尽量少的去对标签进行选择，而是用class"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171125-kxay6yn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230905171125-kxay6yn"
+									},
+									"Children": [
+										{
+											"ID": "20230905171125-y5lh66i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171125-y5lh66i",
+												"updated": "20230905171143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "尽量少的去使用后代选择器，降低选择器的权重值。后代选择器的开销是最高的，尽量将选择器的深度降到最低，最高不要超过三层，更多的使用类来关联每一个标签元素"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171144-wtpiaj4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230905171144-wtpiaj4"
+									},
+									"Children": [
+										{
+											"ID": "20230905171144-r411620",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171144-r411620",
+												"updated": "20230905171151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "了解哪些属性是可以通过继承而来的，然后避免对这些属性重复指定规则"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905171202-2p0uiwh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230905171202-2p0uiwh"
+					},
+					"Children": [
+						{
+							"ID": "20230905171202-xxn3li4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905171202-xxn3li4",
+								"updated": "20230905171206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "渲染性能"
+								}
+							]
+						},
+						{
+							"ID": "20230905171212-9ebuzs7",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905171212-9ebuzs7"
+							},
+							"Children": [
+								{
+									"ID": "20230905171207-aexbv1a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905171207-aexbv1a"
+									},
+									"Children": [
+										{
+											"ID": "20230905171207-seuj8ym",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171207-seuj8ym",
+												"updated": "20230905171212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "慎重使用高性能属性：浮动、定位"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171217-jdxg08m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905171217-jdxg08m"
+									},
+									"Children": [
+										{
+											"ID": "20230905171217-vc0vhjt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171217-vc0vhjt",
+												"updated": "20230905171217"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "尽量减少页面重排、重绘"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171217-idajy25",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905171217-idajy25"
+									},
+									"Children": [
+										{
+											"ID": "20230905171217-pls3dgn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171217-pls3dgn",
+												"updated": "20230905171310"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "去除空规则：｛｝。空规则的产生原因一般来说是为了预留样式。去除这些空规则无疑能减少css文档体积"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171310-025zlm8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230905171310-025zlm8"
+									},
+									"Children": [
+										{
+											"ID": "20230905171310-h285ph7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171310-h285ph7",
+												"updated": "20230905171402"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "属性值为0时，不加单位"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171439-4vi4x5g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230905171439-4vi4x5g"
+									},
+									"Children": [
+										{
+											"ID": "20230905171439-t82t3xg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171439-t82t3xg",
+												"updated": "20230905171440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "属性值为浮动小数0.**，可以省略小数点之前的0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171440-1mamvwg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230905171440-1mamvwg"
+									},
+									"Children": [
+										{
+											"ID": "20230905171440-ahd42ao",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171440-ahd42ao",
+												"updated": "20230905171455"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "标准化各种浏览器前缀：带浏览器前缀的在前。标准属性在后"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171457-jml4upj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230905171457-jml4upj"
+									},
+									"Children": [
+										{
+											"ID": "20230905171457-hmi2mnd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171457-hmi2mnd",
+												"updated": "20230905171557"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不使用@import前缀，它会影响css的加载速度"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171558-7325ss6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20230905171558-7325ss6"
+									},
+									"Children": [
+										{
+											"ID": "20230905171558-bczw4fc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171558-bczw4fc",
+												"updated": "20230905171603"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "选择器优化嵌套，尽量避免层级过深"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171604-gdtmumq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20230905171604-gdtmumq"
+									},
+									"Children": [
+										{
+											"ID": "20230905171604-xk1gsur",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171604-xk1gsur",
+												"updated": "20230905171814"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "css雪碧图，同一页面相近部分的小图标，方便使用，减少页面的请求次数，但是同时图片本身会变大，使用时，优劣考虑清楚，再使用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171815-c1xy6er",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTAu",
+										"Num": 10
+									},
+									"Properties": {
+										"id": "20230905171815-c1xy6er"
+									},
+									"Children": [
+										{
+											"ID": "20230905171815-bkp2g0s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171815-bkp2g0s",
+												"updated": "20230905171902"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "正确使用display的属性，由于display的作用，某些样式组合会无效，徒增样式体积的同时也影响解析性能"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171903-y00zf9u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTEu",
+										"Num": 11
+									},
+									"Properties": {
+										"id": "20230905171903-y00zf9u"
+									},
+									"Children": [
+										{
+											"ID": "20230905171903-rhot7al",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171903-rhot7al",
+												"updated": "20230905171908"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不滥用web字体。对于中文网站来说WebFonts可能很陌生，国外却很流行。web fonts通常体积庞大，而且一些浏览器在下载web fonts时会阻塞页面渲染损伤性能"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905171908-oml76hn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230905171908-oml76hn",
+						"updated": "20230905171933"
+					},
+					"Children": [
+						{
+							"ID": "20230905171908-s8afkkn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905171908-s8afkkn",
+								"updated": "20230905171916"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可维护性、健壮性"
+								}
+							]
+						},
+						{
+							"ID": "20230905171927-vt1ehqk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905171927-vt1ehqk",
+								"updated": "20230905171933"
+							},
+							"Children": [
+								{
+									"ID": "20230905171917-rq4nf3k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905171917-rq4nf3k"
+									},
+									"Children": [
+										{
+											"ID": "20230905171917-4shbfz5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171917-4shbfz5",
+												"updated": "20230905171927"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将具有相同属性的样式抽离出来，整合并通过class在页面中进行使用，提高css的可维护性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905171928-0z4zun0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905171928-0z4zun0",
+										"updated": "20230905171933"
+									},
+									"Children": [
+										{
+											"ID": "20230905171928-rlqcq6g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905171928-rlqcq6g",
+												"updated": "20230905171933"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "样式与内容分离：将css代码定义到外部css中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230905170715-3rp9h3u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230905170715-3rp9h3u"
+			}
+		},
+		{
+			"ID": "20230905172111-wlbob17",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230905172111-wlbob17",
+				"updated": "20230905172125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSS预处理器/后处理器是什么，为什么要使用它们"
+				}
+			]
+		},
+		{
+			"ID": "20230905172127-3mx24k5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230905172127-3mx24k5",
+				"updated": "20230905172440"
+			},
+			"Children": [
+				{
+					"ID": "20230905172136-93fjgjt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230905172136-93fjgjt",
+						"updated": "20230905172136"
+					},
+					"Children": [
+						{
+							"ID": "20230905172136-4achwbp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905172136-4achwbp",
+								"updated": "20230905172414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "预处理器："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "css"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​预处理器为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "css"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​增加一些编程特性，无需考虑浏览器的兼容问题，可以在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "CSS"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​中使用层级，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mixin"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​， 变量，循环， 函数量，简单的逻辑程序，函数等在编程语言中的一些基本的性能，可以让"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "css"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​更加的简洁，增加适应性以及可读性，可维护性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905172159-c0uvyz3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230905172159-c0uvyz3"
+					},
+					"Children": [
+						{
+							"ID": "20230905172159-nc1rugn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905172159-nc1rugn",
+								"updated": "20230905172418"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "后处理器：通常是在完成的样式表中根据"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "css"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​规范处理"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "css"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，让其更加有效。目前最常做的是给"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "css"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​属性添加浏览器私有前缀，实现跨浏览器兼容性的问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230905172430-d59tn1v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230905172430-d59tn1v",
+						"updated": "20230905172440"
+					},
+					"Children": [
+						{
+							"ID": "20230905172430-gkk2pmx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230905172430-gkk2pmx",
+								"updated": "20230905172434"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "理由"
+								}
+							]
+						},
+						{
+							"ID": "20230905172440-lmtxrrc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230905172440-lmtxrrc",
+								"updated": "20230905172440"
+							},
+							"Children": [
+								{
+									"ID": "20230905172440-qc2i4f4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230905172440-qc2i4f4",
+										"updated": "20230905172440"
+									},
+									"Children": [
+										{
+											"ID": "20230905172440-dj0vzwd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905172440-dj0vzwd",
+												"updated": "20230905172440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结构清晰， 便于扩展"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905172440-dxuq54d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230905172440-dxuq54d",
+										"updated": "20230905172440"
+									},
+									"Children": [
+										{
+											"ID": "20230905172440-qjlkzyz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905172440-qjlkzyz",
+												"updated": "20230905172440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以很方便的屏蔽浏览器私有语法的差异"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905172440-99tzf3l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230905172440-99tzf3l",
+										"updated": "20230905172440"
+									},
+									"Children": [
+										{
+											"ID": "20230905172440-93ppgem",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905172440-93ppgem",
+												"updated": "20230905172440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以轻松实现多重继承"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230905172440-hb9f5o6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230905172440-hb9f5o6",
+										"updated": "20230905172440"
+									},
+									"Children": [
+										{
+											"ID": "20230905172440-xwfhfvx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230905172440-xwfhfvx",
+												"updated": "20230905172440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "完美的兼容了"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "CSS"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​代码，可以应用到老项目中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

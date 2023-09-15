@@ -14,6 +14,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705174516-zdb9mpf",
 				"updated": "20230705174516"
 			},
@@ -31,6 +32,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705174518-nke05r3",
 				"updated": "20230705175006"
 			},
@@ -303,6 +306,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705175030-ifb29bl",
 				"updated": "20230705175030"
 			},
@@ -320,6 +324,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705175032-dzaviow",
 				"updated": "20230705175045"
 			},
@@ -520,6 +526,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705175807-uoryaps",
 				"updated": "20230705175807"
 			},
@@ -537,6 +544,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705175051-4jamnni",
 				"updated": "20230705175915"
 			},
@@ -864,6 +873,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705180011-rnez4q8",
 				"updated": "20230705180011"
 			},
@@ -881,6 +891,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705180014-6q6ae2n",
 				"updated": "20230705180020"
 			},
@@ -1012,6 +1024,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705180142-y5ivv4o",
 				"updated": "20230705180149"
 			},
@@ -1029,6 +1042,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705180150-ru0cs2s",
 				"updated": "20230705180338"
 			},
@@ -1113,6 +1128,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705180421-scnw1pr",
 				"updated": "20230705180421"
 			},
@@ -1130,6 +1146,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705180423-rbaotip",
 				"updated": "20230705180441"
 			},
@@ -1380,6 +1398,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705180611-e8j548q",
 				"updated": "20230705180614"
 			},
@@ -1397,6 +1416,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705180345-0vta9cy",
 				"updated": "20230705180629"
 			},
@@ -1562,6 +1583,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705180818-9icg5kh",
 				"updated": "20230705180825"
 			},
@@ -1579,6 +1601,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705180836-denz62x",
 				"updated": "20230705181237"
 			},
@@ -1692,6 +1716,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705181247-2qxxmij",
 				"updated": "20230705181254"
 			},
@@ -1709,6 +1734,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705181313-0u2iqiy",
 				"updated": "20230705181334"
 			},
@@ -2061,6 +2088,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705181425-n83tf22",
 				"updated": "20230705181425"
 			},
@@ -2078,6 +2106,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705181457-j7oky7h",
 				"updated": "20230705181457"
 			},
@@ -2179,6 +2209,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705181527-cfejxva",
 				"updated": "20230705181539"
 			},
@@ -2196,6 +2227,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705181528-ftpgss4",
 				"updated": "20230705181551"
 			},
@@ -2504,6 +2537,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705181737-n1rvo6w",
 				"updated": "20230705181737"
 			},
@@ -2521,6 +2555,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705181751-rsymdog",
 				"updated": "20230705181847"
 			},
@@ -2737,6 +2773,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705181940-3xz075g",
 				"updated": "20230705181940"
 			},
@@ -2754,6 +2791,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705181941-88uvd8w",
 				"updated": "20230705182009"
 			},
@@ -2823,6 +2862,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705182029-e5bclff",
 				"updated": "20230705182029"
 			},
@@ -2840,6 +2880,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705182148-w1gc1nl",
 				"updated": "20230705182201"
 			},
@@ -3252,6 +3294,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705182608-dzzd2a2",
 				"updated": "20230705182608"
 			},
@@ -3269,6 +3312,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705182612-dsvh9jb",
 				"updated": "20230705182850"
 			},
@@ -3420,6 +3465,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705182924-4vnjere",
 				"updated": "20230705182932"
 			},
@@ -3446,6 +3492,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705182928-br6xkdp",
 				"updated": "20230705182941"
 			},
@@ -3575,6 +3623,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183034-rks49x6",
 				"updated": "20230705183226"
 			},
@@ -3597,6 +3646,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183034-aoctg21",
 				"updated": "20230705183042"
 			},
@@ -3687,6 +3738,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183120-n0uzc2x",
 				"updated": "20230705183229"
 			},
@@ -3713,6 +3765,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183121-vjf5nra",
 				"updated": "20230705183151"
 			},
@@ -3784,6 +3838,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183221-zy9s5iz",
 				"updated": "20230705183231"
 			},
@@ -3801,6 +3856,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183323-czke2cb",
 				"updated": "20230705183342"
 			},
@@ -4001,6 +4058,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183323-mqe7irz",
 				"updated": "20230705183355"
 			},
@@ -4164,6 +4223,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183458-4605im2",
 				"updated": "20230705183458"
 			},
@@ -4181,6 +4241,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183458-arxfx5r",
 				"updated": "20230705183615"
 			},
@@ -4403,6 +4465,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183640-9ibl92v",
 				"updated": "20230705183640"
 			},
@@ -4423,6 +4486,8 @@
 			],
 			"Properties": {
 				"colgroup": "||",
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183645-az5pg85",
 				"updated": "20230705183645"
 			},
@@ -4620,6 +4685,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183700-6p53irg",
 				"updated": "20230705183700"
 			},
@@ -4637,6 +4703,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183701-949rvbw",
 				"updated": "20230705183709"
 			},
@@ -4712,6 +4780,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183739-88hw5ar",
 				"updated": "20230705183739"
 			},
@@ -4729,6 +4798,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705183740-mpi1mvi",
 				"updated": "20230705183751"
 			},
@@ -4878,6 +4949,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705183926-jegflcc",
 				"updated": "20230705183926"
 			},
@@ -4893,6 +4965,8 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705184012-bmsrvzz",
 				"updated": "20230705184414"
 			},
@@ -4920,6 +4994,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705184422-eoujtb6",
 				"updated": "20230705184422"
 			},
@@ -4937,6 +5012,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705184432-c9xfx0d",
 				"updated": "20230705184656"
 			},
@@ -5180,6 +5257,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705184709-5cxe8xr",
 				"updated": "20230705184709"
 			},
@@ -5197,6 +5275,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705184720-kt592sw",
 				"updated": "20230705184721"
 			},
@@ -5405,6 +5485,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705184843-utwbnbi",
 				"updated": "20230705184933"
 			},
@@ -5422,6 +5503,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705184851-ob1v02v",
 				"updated": "20230705184859"
 			},
@@ -5538,6 +5621,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705184918-3wax9tc",
 				"updated": "20230705184918"
 			},
@@ -5555,6 +5639,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705184934-0if4kw0",
 				"updated": "20230705191141"
 			},
@@ -5905,6 +5991,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705191147-rphif5y",
 				"updated": "20230705191147"
 			},
@@ -5940,6 +6027,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705191157-bfiablu",
 				"updated": "20230705191158"
 			},
@@ -6024,6 +6113,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230705191241-o4iknl9",
 				"updated": "20230705191241"
 			},
@@ -6059,6 +6149,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230705191243-n3thc77",
 				"updated": "20230705191312"
 			},

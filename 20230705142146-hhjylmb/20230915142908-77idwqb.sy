@@ -1,0 +1,812 @@
+{
+	"ID": "20230915142908-77idwqb",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230915142908-77idwqb",
+		"title": "uni-app注意事项",
+		"updated": "20230915153716"
+	},
+	"Children": [
+		{
+			"ID": "20230915142918-mggoy0n",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230915142918-mggoy0n",
+				"updated": "20230915144730"
+			},
+			"Children": [
+				{
+					"ID": "20230915144716-iut8x1j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230915144716-iut8x1j"
+					},
+					"Children": [
+						{
+							"ID": "20230915144716-87xmynl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915144716-87xmynl",
+								"updated": "20230915144720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "像素单位"
+								}
+							]
+						},
+						{
+							"ID": "20230915144722-mn2txeu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230915144722-mn2txeu"
+							},
+							"Children": [
+								{
+									"ID": "20230915142919-azdcuh1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230915142919-azdcuh1",
+										"updated": "20230915142919"
+									},
+									"Children": [
+										{
+											"ID": "20230915142919-fkd59d2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915142919-fkd59d2",
+												"updated": "20230915144724"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用upx/rpx 而不是 px，upx和rpx是响应式单位"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915144724-x8s69fj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230915144724-x8s69fj"
+									},
+									"Children": [
+										{
+											"ID": "20230915144724-35vnyfh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144724-35vnyfh"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以750px为基准宽度，根据设备屏幕宽度自动调整"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230915144726-4wynw7j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230915144726-4wynw7j",
+						"updated": "20230915144730"
+					},
+					"Children": [
+						{
+							"ID": "20230915144726-vmyk9zb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915144726-vmyk9zb",
+								"updated": "20230915144728"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "路由"
+								}
+							]
+						},
+						{
+							"ID": "20230915144730-fykvc99",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230915144730-fykvc99"
+							},
+							"Children": [
+								{
+									"ID": "20230915143004-f0zyn3k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230915143004-f0zyn3k"
+									},
+									"Children": [
+										{
+											"ID": "20230915143004-92sujp6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915143004-92sujp6",
+												"updated": "20230915144209"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "页面中没有专门的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$route"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$router"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​对象 仅能在页面的生命周期里面接受路由传参"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915144229-2u95i5z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230915144229-2u95i5z"
+									},
+									"Children": [
+										{
+											"ID": "20230915144229-i3l03wb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144229-i3l03wb",
+												"updated": "20230915144312"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "路由传参"
+												}
+											]
+										},
+										{
+											"ID": "20230915144312-1fqxlji",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230915144312-1fqxlji",
+												"updated": "20230915144313"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "let url = `/pages/shopManagement/sonPage/billDetails?StoreID=${StoreID}`\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915144318-ecd6rjs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230915144318-ecd6rjs",
+										"updated": "20230915144318"
+									},
+									"Children": [
+										{
+											"ID": "20230915144318-ji9c1yz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144318-ji9c1yz",
+												"updated": "20230915144326"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "路由接参"
+												}
+											]
+										},
+										{
+											"ID": "20230915144327-gu70yxc",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230915144327-gu70yxc",
+												"updated": "20230915144414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// onLoad接收到一个参数对象\nonLoad(route){\n\tthis.getData.StoreID=route.StoreID\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230915142908-ri370il",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230915142908-ri370il",
+				"updated": "20230915153716"
+			},
+			"Children": [
+				{
+					"ID": "20230915144738-j5zjsdf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230915144738-j5zjsdf"
+					},
+					"Children": [
+						{
+							"ID": "20230915144738-356c0w9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915144738-356c0w9",
+								"updated": "20230915144742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "dom操作"
+								}
+							]
+						},
+						{
+							"ID": "20230915144744-5ts3ia3",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230915144744-5ts3ia3"
+							},
+							"Children": [
+								{
+									"ID": "20230915144519-d4ht1ko",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230915144519-d4ht1ko",
+										"updated": "20230915144519"
+									},
+									"Children": [
+										{
+											"ID": "20230915144519-m2ws8ia",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144519-m2ws8ia",
+												"updated": "20230915144747"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果你的项目仅是h5,那可以放心大胆的使用dom操作，但如果要在小程序和app跑，就不要做dom操作了，不生效"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915144747-tagk8ii",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230915144747-tagk8ii"
+									},
+									"Children": [
+										{
+											"ID": "20230915144747-m55jbb8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144747-m55jbb8"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不过ref还是可以用的，一样可以获取到这个节点"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230915144749-td075k2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230915144749-td075k2"
+					},
+					"Children": [
+						{
+							"ID": "20230915144749-7qswcfz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915144749-7qswcfz",
+								"updated": "20230915144752"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生命周期"
+								}
+							]
+						},
+						{
+							"ID": "20230915144753-gyj79k1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230915144753-gyj79k1"
+							},
+							"Children": [
+								{
+									"ID": "20230915144753-7oo5qcl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230915144753-7oo5qcl"
+									},
+									"Children": [
+										{
+											"ID": "20230915144753-qclqlo3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144753-qclqlo3",
+												"updated": "20230915144925"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在组件中，没有生命周期，对，你没看错！比如页面a引用了组件b 在组件b中，onLoad，onShow，onReady全部失效"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915144926-hdyehsl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230915144926-hdyehsl"
+									},
+									"Children": [
+										{
+											"ID": "20230915144926-4zihfzo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915144926-4zihfzo",
+												"updated": "20230915145221"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在组件中规避使用原vue的生命周期，组件内部使用vue自身的周期函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915145017-b4yt6pa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230915145017-b4yt6pa"
+									},
+									"Children": [
+										{
+											"ID": "20230915145017-c3twf75",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915145017-c3twf75",
+												"updated": "20230915145031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果要在初始化使用ref要注意生命周期，在onload和show的钩子中，内部如果是同步操作是用不了的，拿不到"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$refs"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，如果要用，只能异步"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230915150129-d6kh7fi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230915150129-d6kh7fi"
+					},
+					"Children": [
+						{
+							"ID": "20230915150129-pa47jw0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915150129-pa47jw0",
+								"updated": "20230915150133"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导航栏"
+								}
+							]
+						},
+						{
+							"ID": "20230915153127-x867l1u",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230915153127-x867l1u"
+							},
+							"Children": [
+								{
+									"ID": "20230915150133-d3rx6g6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230915150133-d3rx6g6"
+									},
+									"Children": [
+										{
+											"ID": "20230915150133-sadic99",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915150133-sadic99",
+												"updated": "20230915153128"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "就是不同端的不同展示形式，所以需要处理兼容问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915153215-2csjuwf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230915153215-2csjuwf"
+									},
+									"Children": [
+										{
+											"ID": "20230915153215-fdxvdp4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915153215-fdxvdp4",
+												"updated": "20230915153216"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在支付宝小程序中，原生的导航栏是取消不了，所以不能用自定义的插件，就需要在"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "page.json"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​中配置原生的导航栏"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230915153402-6q5rqy7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230915153402-6q5rqy7"
+					},
+					"Children": [
+						{
+							"ID": "20230915153403-0a4gqfi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915153403-0a4gqfi",
+								"updated": "20230915153406"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开第三方的网址或app"
+								}
+							]
+						},
+						{
+							"ID": "20230915153413-rpnhvkw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230915153413-rpnhvkw"
+							},
+							"Children": [
+								{
+									"ID": "20230915153407-bisavqw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230915153407-bisavqw"
+									},
+									"Children": [
+										{
+											"ID": "20230915153407-ykbkc6d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915153407-ykbkc6d",
+												"updated": "20230915153414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在app端想要打开第三方的网址或者程序，一定要区分ios和安卓端"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230915153416-mk6uzf0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230915153416-mk6uzf0"
+									},
+									"Children": [
+										{
+											"ID": "20230915153416-icni1pq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230915153416-icni1pq",
+												"updated": "20230915153535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不管是在调试还是打包，要唤起第三方程序，在ios端要配置白名单"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230915153715-vqfvuj5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230915153715-vqfvuj5",
+						"updated": "20230915153716"
+					},
+					"Children": [
+						{
+							"ID": "20230915153716-6frivpc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230915153716-6frivpc",
+								"updated": "20230915153716"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三方登录"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -7,16 +7,19 @@
     "widget": "0"
   },
   "local-codelang": "ts",
+  "local-exportimg": {
+    "keepFold": false
+  },
   "local-historynoteid": "20210808180117-czj9bvb",
   "local-searchkeys": {
     "col": "",
     "colTab": "",
     "keys": [
+      "",
       "base64",
       "requestAnimationFrame ",
       "Web Worker",
       "虚拟",
-      "",
       "AbortController",
       "mergeMap",
       "CSP",
@@ -31,6 +34,6 @@
     "row": "",
     "rowTab": ""
   },
-  "local-zoom": 1.1,
+  "local-zoom": 1,
   "pink-room-color-href": "/appearance/themes/pink-room/config/橙色系界面.css"
 }
