@@ -4,24 +4,24 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230617142723-5k8gvp2",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230617142723-5k8gvp2\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230617142738-7hgnk61\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230617142723-mt0jb85\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230617142738-ds1tvcq\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230617142723-5k8gvp2\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230617142723-mt0jb85\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230920011757-mpd6tnu\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230922193814-lkn0i46\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:4\u0026#125;",
 		"title": "问题",
-		"updated": "20230617142738"
+		"updated": "20230922193818"
 	},
 	"Children": [
 		{
-			"ID": "20230617142738-7hgnk61",
+			"ID": "20230617142723-mt0jb85",
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1
 			},
 			"Properties": {
-				"id": "20230617142738-7hgnk61",
-				"updated": "20230617142738"
+				"id": "20230617142723-mt0jb85",
+				"updated": "20230922193818"
 			},
 			"Children": [
 				{
-					"ID": "20230617142738-3j37gxy",
+					"ID": "20230918211120-2t5abg3",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -30,28 +30,28 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20230617142738-3j37gxy",
-						"updated": "20230617142738"
+						"id": "20230918211120-2t5abg3",
+						"updated": "20230918211120"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-ds1tvcq",
+							"ID": "20230918211120-6631rl9",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-ds1tvcq",
-								"updated": "20230617142738"
+								"id": "20230918211120-6631rl9",
+								"updated": "20230918211124"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "upx rpx"
+									"Data": "状态管理"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-snes0xy",
+					"ID": "20230918211125-1lqhavq",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -60,28 +60,28 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20230617142738-snes0xy",
-						"updated": "20230617142738"
+						"id": "20230918211125-1lqhavq",
+						"updated": "20230918211128"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-l45x1h1",
+							"ID": "20230918211125-lhcjkvd",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-l45x1h1",
-								"updated": "20230617142738"
+								"id": "20230918211125-lhcjkvd",
+								"updated": "20230918211128"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "页面底部的 tabBar怎么配置"
+									"Data": "路由"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-o25icsq",
+					"ID": "20230919190409-9qwnzap",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -90,28 +90,27 @@
 						"Num": 3
 					},
 					"Properties": {
-						"id": "20230617142738-o25icsq",
-						"updated": "20230617142738"
+						"id": "20230919190409-9qwnzap"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-32v5qu6",
+							"ID": "20230919190409-4ftcowo",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-32v5qu6",
-								"updated": "20230617142738"
+								"id": "20230919190409-4ftcowo",
+								"updated": "20230919190413"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "html5Plus"
+									"Data": "生命周期"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-c34luu6",
+					"ID": "20230919190413-rzm5quh",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -120,28 +119,27 @@
 						"Num": 4
 					},
 					"Properties": {
-						"id": "20230617142738-c34luu6",
-						"updated": "20230617142738"
+						"id": "20230919190413-rzm5quh"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-lgdlaq5",
+							"ID": "20230919190413-tfnkbu3",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-lgdlaq5",
-								"updated": "20230617142738"
+								"id": "20230919190413-tfnkbu3",
+								"updated": "20230919190632"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "webview"
+									"Data": "请求"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-d5bndha",
+					"ID": "20230920152929-atcrox4",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -150,28 +148,27 @@
 						"Num": 5
 					},
 					"Properties": {
-						"id": "20230617142738-d5bndha",
-						"updated": "20230617142738"
+						"id": "20230920152929-atcrox4"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-odp2uvk",
+							"ID": "20230920152929-8790v3j",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-odp2uvk",
-								"updated": "20230617142738"
+								"id": "20230920152929-8790v3j",
+								"updated": "20230920152930"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "jscore"
+									"Data": "tabbar"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-0yuyq3e",
+					"ID": "20230919190632-uhg99cd",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -180,28 +177,27 @@
 						"Num": 6
 					},
 					"Properties": {
-						"id": "20230617142738-0yuyq3e",
-						"updated": "20230617142738"
+						"id": "20230919190632-uhg99cd"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-9dccqgr",
+							"ID": "20230919190632-x4y14u8",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-9dccqgr",
-								"updated": "20230617142738"
+								"id": "20230919190632-x4y14u8",
+								"updated": "20230919190639"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "titleNView"
+									"Data": "导航栏"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-qnusjj4",
+					"ID": "20230919190640-ko7s6fn",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -210,28 +206,27 @@
 						"Num": 7
 					},
 					"Properties": {
-						"id": "20230617142738-qnusjj4",
-						"updated": "20230617142738"
+						"id": "20230919190640-ko7s6fn"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-z5b28zu",
+							"ID": "20230919190645-x2453d2",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-z5b28zu",
-								"updated": "20230617142738"
+								"id": "20230919190645-x2453d2",
+								"updated": "20230919190645"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "微信小程序调试"
+									"Data": "打开第三方的网址或app"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230617142738-mjmt3ml",
+					"ID": "20230919190651-b17v0lg",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -240,28 +235,27 @@
 						"Num": 8
 					},
 					"Properties": {
-						"id": "20230617142738-mjmt3ml",
-						"updated": "20230617142738"
+						"id": "20230919190651-b17v0lg"
 					},
 					"Children": [
 						{
-							"ID": "20230617142738-ytd9wv1",
+							"ID": "20230919190651-3ajgz3t",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230617142738-ytd9wv1",
-								"updated": "20230617142738"
+								"id": "20230919190651-3ajgz3t",
+								"updated": "20230919190651"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "一键登录"
+									"Data": "三方登录"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230619103723-rvghe7z",
+					"ID": "20230919190658-ahw4122",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -270,27 +264,28 @@
 						"Num": 9
 					},
 					"Properties": {
-						"id": "20230619103723-rvghe7z"
+						"id": "20230919190658-ahw4122",
+						"updated": "20230919190659"
 					},
 					"Children": [
 						{
-							"ID": "20230619103723-uva6epc",
+							"ID": "20230919190658-mgz90qx",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230619103723-uva6epc",
-								"updated": "20230619103727"
+								"id": "20230919190658-mgz90qx",
+								"updated": "20230919190659"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "基座"
+									"Data": "权限"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20230619103728-ebbu78k",
+					"ID": "20230922192206-tszyp34",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -299,26 +294,253 @@
 						"Num": 10
 					},
 					"Properties": {
-						"id": "20230619103728-ebbu78k"
+						"id": "20230922192206-tszyp34"
 					},
 					"Children": [
 						{
-							"ID": "20230619103728-b6x4vyp",
+							"ID": "20230922192206-2kljbt8",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230619103728-b6x4vyp"
-							}
+								"id": "20230922192206-2kljbt8",
+								"updated": "20230922192207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922193814-zsh2ks2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230922193814-zsh2ks2",
+						"updated": "20230922193818"
+					},
+					"Children": [
+						{
+							"ID": "20230922193814-lkn0i46",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922193814-lkn0i46",
+								"updated": "20230922193818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "运行原理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230919144014-e56ds0g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230919144014-e56ds0g",
+						"updated": "20230921105745"
+					},
+					"Children": [
+						{
+							"ID": "20230919144014-0ja2kfj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919144014-0ja2kfj",
+								"updated": "20230921105745"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue、vue、uvue、5+ App、appid、appSecret、UniversalLinks、"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921100942-50q322i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230921100942-50q322i",
+						"updated": "20230921100954"
+					},
+					"Children": [
+						{
+							"ID": "20230921100942-k578u27",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100942-k578u27",
+								"updated": "20230922193740"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "视图层和逻辑层"
+								}
+							]
+						},
+						{
+							"ID": "20230921100953-haj85bw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230921100953-haj85bw",
+								"updated": "20230921100954"
+							},
+							"Children": [
+								{
+									"ID": "20230921100953-0hfuiy4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230921100953-0hfuiy4",
+										"updated": "20230921100954"
+									},
+									"Children": [
+										{
+											"ID": "20230921100954-rfrcdjv",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20230921100954-rfrcdjv",
+												"updated": "20230921100954"
+											},
+											"Children": [
+												{
+													"ID": "20230921100954-nknw046",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230921100954-nknw046",
+														"updated": "20230921100954"
+													},
+													"Children": [
+														{
+															"ID": "20230921100954-iunklnu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230921100954-iunklnu",
+																"updated": "20230921100954"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "所以在webview渲染时，增加了renderjs、wxs等技术"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230921100954-0oiq2dz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230921100954-0oiq2dz",
+														"updated": "20230921100954"
+													},
+													"Children": [
+														{
+															"ID": "20230921100954-3ybendt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230921100954-3ybendt",
+																"updated": "20230921100954"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "所以在nvue渲染时，增加了bindingX技术"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230921100954-z9z56zp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230921100954-z9z56zp",
+														"updated": "20230921100954"
+													},
+													"Children": [
+														{
+															"ID": "20230921100954-0ee2mai",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230921100954-0ee2mai",
+																"updated": "20230921100954"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "所以在skyline渲染时，增加了worklet技术"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20230617142723-mt0jb85",
+			"ID": "20230920011757-rr85i0k",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230617142723-mt0jb85",
-				"updated": "20230617142723"
+				"id": "20230920011757-rr85i0k"
+			}
+		},
+		{
+			"ID": "20230920011757-mpd6tnu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230920011757-mpd6tnu"
 			}
 		}
 	]

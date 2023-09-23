@@ -3,7 +3,7 @@
     "icon": "0",
     "plugin": "2",
     "template": "0",
-    "theme": "2",
+    "theme": "0",
     "widget": "0"
   },
   "local-codelang": "ts",
@@ -16,6 +16,7 @@
     "colTab": "",
     "keys": [
       "",
+      "nvue",
       "base64",
       "requestAnimationFrame ",
       "Web Worker",
@@ -34,6 +35,6 @@
     "row": "",
     "rowTab": ""
   },
-  "local-zoom": 1,
+  "local-zoom": 0.9,
   "pink-room-color-href": "/appearance/themes/pink-room/config/橙色系界面.css"
 }

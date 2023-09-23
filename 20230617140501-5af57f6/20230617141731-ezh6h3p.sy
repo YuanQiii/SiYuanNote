@@ -6,9 +6,126 @@
 		"id": "20230617141731-ezh6h3p",
 		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230617141731-ezh6h3p\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230617141731-0q4twck\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230623162403-nlo881r\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230617141731-0q4twck\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "登录",
-		"updated": "20230623162404"
+		"updated": "20230920230059"
 	},
 	"Children": [
+		{
+			"ID": "20230920220525-z506uzf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230920220525-z506uzf",
+				"updated": "20230920220528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "登录方式"
+				}
+			]
+		},
+		{
+			"ID": "20230920220528-zhntlmt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920220528-zhntlmt",
+				"updated": "20230920220543"
+			},
+			"Children": [
+				{
+					"ID": "20230920220529-q8hox6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920220529-q8hox6h",
+						"updated": "20230920220529"
+					},
+					"Children": [
+						{
+							"ID": "20230920220529-35grflz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920220529-35grflz",
+								"updated": "20230920220534"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "App手机号一键登陆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920220535-cgf5n9s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920220535-cgf5n9s"
+					},
+					"Children": [
+						{
+							"ID": "20230920220535-gdtfmqd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920220535-gdtfmqd",
+								"updated": "20230920220538"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三方登录"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920220538-lbq4xj8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230920220538-lbq4xj8",
+						"updated": "20230920220543"
+					},
+					"Children": [
+						{
+							"ID": "20230920220538-nyhw23r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920220538-nyhw23r",
+								"updated": "20230920220543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小程序内置登录"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 		{
 			"ID": "20230617141731-0q4twck",
 			"Type": "NodeHeading",
@@ -32,7 +149,7 @@
 			},
 			"Properties": {
 				"id": "20230623162347-b54aw4x",
-				"updated": "20230623162404"
+				"updated": "20230920223044"
 			},
 			"Children": [
 				{
@@ -54,12 +171,539 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20230623162404-81cmhp3",
-								"updated": "20230623162404"
+								"updated": "20230920220611"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "支持的登录方式"
+									"Data": "手机号一键登陆"
+								}
+							]
+						},
+						{
+							"ID": "20230920221919-glmjicg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920221919-glmjicg",
+								"updated": "20230920221921"
+							},
+							"Children": [
+								{
+									"ID": "20230920221921-2mck579",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920221921-2mck579",
+										"updated": "20230920221921"
+									},
+									"Children": [
+										{
+											"ID": "20230920221921-vevyoc2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920221921-vevyoc2",
+												"updated": "20230920221922"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用开发者账号登录"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://dev.dcloud.net.cn/",
+													"TextMarkTextContent": "开发者中心"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，在左侧导航选择“一键登录”。在使用此功能前需要先完成邮箱及手机号验证，根据开发者中心页面提示完成验证即可。验证后，点击页面上的“同意协议并开通”，便可开通账号一键登录服务"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920221924-jegj3zn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920221924-jegj3zn"
+									},
+									"Children": [
+										{
+											"ID": "20230920221924-rmemk1e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920221924-rmemk1e",
+												"updated": "20230920222000"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "点击添加应用，需填写DCloud AppId及对应应用包名和签名信息，申请后一般1-2个工作日审核通过"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230920221449-ry7wzc2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230920221449-ry7wzc2",
+								"updated": "20230920221458"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "uni.login({\n\tprovider: 'univerify',\n\tuniverifyStyle: { \n    fullScreen: true\n  }\n})\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920221447-vqxqy2n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920221447-vqxqy2n"
+					},
+					"Children": [
+						{
+							"ID": "20230920221447-mpxkgjh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920221447-mpxkgjh",
+								"updated": "20230920221537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "苹果登录"
+								}
+							]
+						},
+						{
+							"ID": "20230920222732-52ixdy8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920222732-52ixdy8",
+								"updated": "20230920222733"
+							},
+							"Children": [
+								{
+									"ID": "20230920222733-i2f8tm1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920222733-i2f8tm1",
+										"updated": "20230920222733"
+									},
+									"Children": [
+										{
+											"ID": "20230920222733-rhes29o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920222733-rhes29o",
+												"updated": "20230920222734"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用苹果登录首先需要在苹果开发者后台开启 App 的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Sign In with Apple"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 服务"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920222734-p7fhjvf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920222734-p7fhjvf"
+									},
+									"Children": [
+										{
+											"ID": "20230920222734-mh2cens",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920222734-mh2cens",
+												"updated": "20230920222755"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "打开项目的manifest.json文件，在“App模块配置”项的“OAuth(登录鉴权)”下，勾选“苹果登录（Sign in with Apple）”"
+												}
+											]
+										},
+										{
+											"ID": "20230920222800-rp4i7wt",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230920222800-rp4i7wt"
+											},
+											"Children": [
+												{
+													"ID": "20230920222800-q6jho4w",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230920222800-q6jho4w"
+													},
+													"Children": [
+														{
+															"ID": "20230920222811-1itnq4i",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920222811-1itnq4i",
+																"updated": "20230920222811"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "HBuilderX中标准真机运行基座使用的是企业证书签名，不支持"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "Sign In with Apple"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230920222825-8stkc2f",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230920222825-8stkc2f"
+													},
+													"Children": [
+														{
+															"ID": "20230920222825-xh8akp4",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920222825-xh8akp4",
+																"updated": "20230920222825"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "配置后需提交云端打包后才能生效，真机运行时请使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "https://ask.dcloud.net.cn/article/35115",
+																	"TextMarkTextContent": "自定义调试基座"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230920222207-6abq0vn",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230920222207-6abq0vn",
+								"updated": "20230920222211"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "uni.login({\n    provider: 'apple',\n    success: function (loginRes) {\n        // 登录成功\n        uni.getUserInfo({\n            provider: 'apple',\n            success: function(info) {\n                // 获取用户信息成功, info.authResult中保存登录认证数据\n            }\n        })\n    },\n    fail: function (err) {\n        // 登录授权失败  \n        // err.code错误码参考`授权失败错误码(code)说明`\n    }\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920222205-2f6klmt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230920222205-2f6klmt",
+						"updated": "20230920223044"
+					},
+					"Children": [
+						{
+							"ID": "20230920222205-r2yow1m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920222205-r2yow1m",
+								"updated": "20230920222650"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信登录"
+								}
+							]
+						},
+						{
+							"ID": "20230920222709-l2mmlfe",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920222709-l2mmlfe",
+								"updated": "20230920223044"
+							},
+							"Children": [
+								{
+									"ID": "20230920222709-5v1azjc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920222709-5v1azjc",
+										"updated": "20230920222709"
+									},
+									"Children": [
+										{
+											"ID": "20230920222709-kxbkh1c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920222709-kxbkh1c",
+												"updated": "20230920222709"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "客户端调用api向微信请求授权，获取临时票据（code），向开发者业务服务器发起网络请求"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920222709-iy5zn8k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920222709-iy5zn8k",
+										"updated": "20230920222709"
+									},
+									"Children": [
+										{
+											"ID": "20230920222709-nieb56b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920222709-nieb56b",
+												"updated": "20230920222712"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "业务服务器通过code + 仅保存在服务器的appsecret参数，向：微信开放平台接口发起网络请求"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list\u0026amp;t=resource/res_list\u0026amp;verify=1\u0026amp;id=open1419317853\u0026amp;token=\u0026amp;lang=zh_CN",
+													"TextMarkTextContent": "详情"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920222709-hw5w46a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230920222709-hw5w46a",
+										"updated": "20230920222709"
+									},
+									"Children": [
+										{
+											"ID": "20230920222709-ev8s56m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920222709-ev8s56m",
+												"updated": "20230920222709"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "业务服务器成功获取用户信息后，再依据unionid或openid查数据库的用户表并生成新token，并返回token给客户端"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920222709-3unlxvl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230920222709-3unlxvl",
+										"updated": "20230920223044"
+									},
+									"Children": [
+										{
+											"ID": "20230920222709-a16a0u8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920222709-a16a0u8",
+												"updated": "20230920222714"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "客户端得到token后，保存到storage完成登录"
+												}
+											]
+										},
+										{
+											"ID": "20230920222850-i555uby",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230920222850-i555uby",
+												"updated": "20230920223044"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "uni.login({ \n\t\"provider\": \"weixin\",\n\t\"onlyAuthorize\": true, // 微信登录仅请求授权认证\n\tsuccess: function(event){\n\t\tconst {code} = event\n\t\t//客户端成功获取授权临时票据（code）,向业务服务器发起登录请求。\n\t\tuni.request({\n\t\t    url: 'https://www.example.com/loginByWeixin', //仅为示例，并非真实接口地址。\n\t\t    data: {\n\t\t        code: event.code\n\t\t    },\n\t\t    success: (res) =\u003e {\n\t\t        //获得token完成登录\n\t\t\t\tuni.setStorageSync('token',res.token)\n\t\t    }\n\t\t});\n\t},\n\tfail: function (err) {\n        // 登录授权失败  \n        // err.code是错误码\n    }\n})\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
 								}
 							]
 						}
@@ -69,9 +713,932 @@
 		},
 		{
 			"ID": "20230623162403-nlo881r",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230623162403-nlo881r",
+				"updated": "20230920223529"
+			},
+			"Children": [
+				{
+					"ID": "20230920223321-54za362",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230920223321-54za362",
+						"updated": "20230920223529"
+					},
+					"Children": [
+						{
+							"ID": "20230920223321-lcmrpob",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920223321-lcmrpob",
+								"updated": "20230920223326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "QQ登录"
+								}
+							]
+						},
+						{
+							"ID": "20230920223327-jqqbqol",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920223327-jqqbqol"
+							},
+							"Children": [
+								{
+									"ID": "20230920223327-aql0n55",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920223327-aql0n55"
+									},
+									"Children": [
+										{
+											"ID": "20230920223342-0q2yrms",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223342-0q2yrms",
+												"updated": "20230920223342"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "登录"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://connect.qq.com/index.html",
+													"TextMarkTextContent": "腾讯开放平台"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，打开 “应用管理” -\u003e “移动应用” 页面"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920223353-eb10ax5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920223353-eb10ax5"
+									},
+									"Children": [
+										{
+											"ID": "20230920223353-8ch1wxc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223353-8ch1wxc",
+												"updated": "20230920223353"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "打开项目的manifest.json文件，在“App模块配置”项的“OAuth(登录鉴权)”下，勾选“QQ登录”"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230920223518-c6qskgw",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230920223518-c6qskgw",
+								"updated": "20230920223529"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "uni.login({\n    provider: 'qq',\n    success: function (loginRes) {\n        // 登录成功\n        uni.getUserInfo({\n            provider: 'qq',\n            success: function(info) {\n                // 获取用户信息成功, info.authResult保存用户信息\n            }\n        })\n    },\n    fail: function (err) {\n        // 登录授权失败  \n        // err.code是错误码\n    }\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920223557-b9l5qjk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230920223557-b9l5qjk",
+				"updated": "20230920225641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序"
+				}
+			]
+		},
+		{
+			"ID": "20230920223605-bhrcq7n",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920223605-bhrcq7n",
+				"updated": "20230920224545"
+			},
+			"Children": [
+				{
+					"ID": "20230920223609-msatiup",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920223609-msatiup",
+						"updated": "20230920224545"
+					},
+					"Children": [
+						{
+							"ID": "20230920223609-8xmdk7n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920223609-8xmdk7n",
+								"updated": "20230920224336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220603205951865.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d47d2dcb8cd440d0ae72a8c8ca71435a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20230920223708-ccfg6hu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920223708-ccfg6hu",
+								"updated": "20230920224545"
+							},
+							"Children": [
+								{
+									"ID": "20230920223708-fu2lf09",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920223708-fu2lf09"
+									},
+									"Children": [
+										{
+											"ID": "20230920223709-uh81ohd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223709-uh81ohd",
+												"updated": "20230920223709"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "调用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html",
+													"TextMarkTextContent": "wx.login()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 获取 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "临时登录凭证code"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ，并回传到开发者服务器。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920223709-mhk8rpq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920223709-mhk8rpq",
+										"updated": "20230920223709"
+									},
+									"Children": [
+										{
+											"ID": "20230920223709-k5asgnt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223709-k5asgnt",
+												"updated": "20230920223709"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "调用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/OpenApiDoc/user-login/code2Session.html",
+													"TextMarkTextContent": "auth.code2Session"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 接口，换取 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "用户唯一标识 OpenID"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 、 用户在微信开放平台账号下的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "唯一标识UnionID"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "（若当前小程序已绑定到微信开放平台账号） 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "会话密钥 session_key"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920223716-ifzm183",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230920223716-ifzm183"
+									},
+									"Children": [
+										{
+											"ID": "20230920223716-u1j0qma",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223716-u1j0qma",
+												"updated": "20230920223722"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "之后开发者服务器可以根据用户标识来生成自定义登录态，用于后续业务逻辑中前后端交互时识别用户身份"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920223740-eu13bix",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230920223740-eu13bix"
+									},
+									"Children": [
+										{
+											"ID": "20230920223740-ti1zqgi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223740-ti1zqgi",
+												"updated": "20230920223740"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "会话密钥 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "session_key"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 是对用户数据进行 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/signature.html",
+													"TextMarkTextContent": "加密签名"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 的密钥。为了应用自身的数据安全，开发者服务器"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "不应该把会话密钥下发到小程序，也不应该对外提供这个密钥"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920223741-o97uqri",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230920223741-o97uqri",
+										"updated": "20230920224545"
+									},
+									"Children": [
+										{
+											"ID": "20230920223743-wqhfkms",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920223743-wqhfkms",
+												"updated": "20230920223743"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "临时登录凭证 code 只能使用一次"
+												}
+											]
+										},
+										{
+											"ID": "20230920224418-iaikck2",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230920224418-iaikck2",
+												"updated": "20230920224424"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": " // 获取微信个人信息\n getUserInfo() {\n     return new Promise((resolve, reject) =\u003e {\n         uni.getUserProfile({\n             desc: '获取个人信息',\n             success: (res) =\u003e {\n                 resolve(res.userInfo)\n             },\n             fail: (err) =\u003e {\n                 reject(err)\n             }\n         })\n     })\n },\n // 获取js_code\n getJsCode() {\n     return new Promise((resolve, reject) =\u003e {\n         uni.login({\n             success(res) {\n                 resolve(res.code)\n             },\n             fail: (err) =\u003e {\n                 reject(err)\n             }\n         })\n     })\n },\n // 微信登录方法\n wxLogin() {\n     let userInfo = this.getUserInfo();\n     let js_code = this.getJsCode();\n \n     Promise.all([userInfo, js_code]).then((res) =\u003e {\n         this.userInfo = res[0]\n         // 两个执行完毕后，\n         uni.request({\n             url: `https://api.weixin.qq.com/sns/jscode2session`,\n             data: {\n                 appid: this.AppId,\n                 secret: this.AppSecret,\n                 js_code: res[1],\n                 grant_type: 'authorization_code'\n             },\n             success: (res) =\u003e {\n                 // 获得openid\n                 let openid = res.data.openid\n                 // 以下系伪代码，调试时请注意\n                 uni.request({\n                     url: 'https://api.abc.com/xcxlogin',\n                     data: {\n                         openid\n                     },\n                     success: (res) =\u003e {\n                         // 5 判断该微信用户是否是系统中用户\n                         if (res.data.isUser) {\n                             uni.getUserProfile({\n                                 desc: '获取个人信息',\n                                 success: (res) =\u003e {\n                                     console.log(res);\n                                     // 6 更新数据库头像、微信名信息 跳转业务页                                          \n                                     // do some thing\n                                 }\n                             })\n                         }\n                     }\n                 })\n             }\n         })\n     }).catch(err =\u003e {\n \n     })\n },\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920224547-aarix0s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920224547-aarix0s",
+				"updated": "20230920224604"
+			},
+			"Children": [
+				{
+					"ID": "20230920224604-qsel30d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920224604-qsel30d",
+						"updated": "20230920224604"
+					},
+					"Children": [
+						{
+							"ID": "20230920224604-60b2p94",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920224604-60b2p94",
+								"updated": "20230920224828"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支付宝登录"
+								}
+							]
+						},
+						{
+							"ID": "20230920225255-1jb3y7w",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230920225255-1jb3y7w",
+								"updated": "20230920225338"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\tuni.login({\n\t\tprovider: 'alipay',\n\t\tsuccess: function(loginRes) {\n\t\t\tconsole.log(loginRes.authResult); // 获取用户信息 \n\t\t\tuni.getUserInfo({\n\t\t\t\tprovider: 'alipay',\n\t\t\t\tsuccess: function(infoRes) {\n\t\t\t\t\tconsole.log('用户昵称为：' + infoRes.userInfo.nickName);\n\t\t\t\t}\n\t\t\t})\n\t\t}\n\t})\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920225629-d3w26a0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230920225629-d3w26a0",
+				"updated": "20230920225645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信内置浏览器"
+				}
+			]
+		},
+		{
+			"ID": "20230920225942-2os47c6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920225942-2os47c6",
+				"updated": "20230920230059"
+			},
+			"Children": [
+				{
+					"ID": "20230920225942-t2pomzg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920225942-t2pomzg",
+						"updated": "20230920225942"
+					},
+					"Children": [
+						{
+							"ID": "20230920225942-3s0efhz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920225942-3s0efhz",
+								"updated": "20230920225943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户关注微信公众账号"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920225943-xz5vyed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920225943-xz5vyed"
+					},
+					"Children": [
+						{
+							"ID": "20230920225943-rvgd91g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920225943-rvgd91g",
+								"updated": "20230920225948"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信公众账号提供用户请求授权页面URL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920225959-k8qshuv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230920225959-k8qshuv"
+					},
+					"Children": [
+						{
+							"ID": "20230920225959-8zs4t7d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920225959-8zs4t7d",
+								"updated": "20230920230005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户点击授权页面URL，将向服务器发起请求、"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230005-f3866e5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230920230005-f3866e5"
+					},
+					"Children": [
+						{
+							"ID": "20230920230005-s7e1805",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230005-s7e1805",
+								"updated": "20230920230005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器询问用户是否同意授权给微信公众账号(scope为snsapi_base时无此步骤)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230006-7v4a7rx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230920230006-7v4a7rx"
+					},
+					"Children": [
+						{
+							"ID": "20230920230006-tnfhsfr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230006-tnfhsfr",
+								"updated": "20230920230013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户同意(scope为snsapi_base时无此步骤)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230013-1jc975f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230920230013-1jc975f"
+					},
+					"Children": [
+						{
+							"ID": "20230920230013-clmkjre",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230013-clmkjre",
+								"updated": "20230920230019"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器将CODE通过回调传给微信公众账号"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230019-1ccx95s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230920230019-1ccx95s"
+					},
+					"Children": [
+						{
+							"ID": "20230920230019-2wud0mk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230019-2wud0mk",
+								"updated": "20230920230022"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信公众账号获得CODE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230022-qgn92gr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230920230022-qgn92gr"
+					},
+					"Children": [
+						{
+							"ID": "20230920230022-mciwxfr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230022-mciwxfr",
+								"updated": "20230920230026"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信公众账号通过CODE向服务器请求Access Token"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230026-efq2e4r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230920230026-efq2e4r"
+					},
+					"Children": [
+						{
+							"ID": "20230920230026-ud6a2oe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230026-ud6a2oe",
+								"updated": "20230920230051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器返回Access Token和OpenID给微信公众账号"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230051-eyg3ipf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230920230051-eyg3ipf"
+					},
+					"Children": [
+						{
+							"ID": "20230920230051-1gdfjyj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230051-1gdfjyj",
+								"updated": "20230920230055"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信公众账号通过Access Token向服务器请求用户信息(scope为snsapi_base时无此步骤)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920230055-16c7xjw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230920230055-16c7xjw",
+						"updated": "20230920230059"
+					},
+					"Children": [
+						{
+							"ID": "20230920230055-mswq3uc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920230055-mswq3uc",
+								"updated": "20230920230059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器将用户信息回送给微信公众账号(scope为snsapi_base时无此步骤)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920225659-al1yiw9",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230623162403-nlo881r"
+				"id": "20230920225659-al1yiw9"
 			}
 		}
 	]

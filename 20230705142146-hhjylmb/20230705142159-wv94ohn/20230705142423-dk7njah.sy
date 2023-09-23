@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230705142423-dk7njah",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230705142423-dk7njah\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705142459-urd5oae\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230705144848-tpaki2w\u0026quot;,\u0026quot;scrollTop\u0026quot;:715.5555419921875,\u0026quot;focusId\u0026quot;:\u0026quot;20230705142459-urd5oae\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "新概念",
-		"updated": "20230705155927"
+		"updated": "20230922231420"
 	},
 	"Children": [
 		{
@@ -2324,30 +2325,12 @@
 			]
 		},
 		{
-			"ID": "20230705144826-dya5imj",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"fold": "1",
-				"id": "20230705144826-dya5imj",
-				"updated": "20230705144828"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "JSBridge"
-				}
-			]
-		},
-		{
 			"ID": "20230705144923-lan1b7n",
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230705144923-lan1b7n",
 				"updated": "20230705150402"
 			},
@@ -2513,6 +2496,22 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20230705144826-dya5imj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230705144826-dya5imj",
+				"updated": "20230922231420"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JSBridge"
 				}
 			]
 		},
@@ -5454,6 +5453,106 @@
 			]
 		},
 		{
+			"ID": "20230921100156-lf6ctbm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921100156-lf6ctbm"
+			}
+		},
+		{
+			"ID": "20230921100428-869a23y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921100428-869a23y",
+				"updated": "20230921100431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uni-app x"
+				}
+			]
+		},
+		{
+			"ID": "20230921100432-513e3fc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921100432-513e3fc",
+				"updated": "20230921100537"
+			},
+			"Children": [
+				{
+					"ID": "20230921100512-py7vxun",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921100512-py7vxun",
+						"updated": "20230921100512"
+					},
+					"Children": [
+						{
+							"ID": "20230921100512-zgqffk3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100512-zgqffk3",
+								"updated": "20230921100512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是下一代 uni-app，是一个跨平台应用开发引擎"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921100512-rou0k55",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230921100512-rou0k55",
+						"updated": "20230921100537"
+					},
+					"Children": [
+						{
+							"ID": "20230921100512-xk69gk9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100512-xk69gk9",
+								"updated": "20230921100537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在App端，uni-app x 在iOS编译为swift、在Android编译为kotlin。没有使用js引擎、webview，完全达到了原生应用的功能、性能"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"ID": "20230705155628-mmsc3kz",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -5479,7 +5578,7 @@
 				"fold": "1",
 				"heading-fold": "1",
 				"id": "20230705155628-v5bgjwr",
-				"updated": "20230705155628"
+				"updated": "20230921102340"
 			},
 			"Children": [
 				{
@@ -5601,6 +5700,1327 @@
 							]
 						}
 					]
+				},
+				{
+					"ID": "20230921100710-i9j69pr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230921100710-i9j69pr",
+						"updated": "20230921100711"
+					},
+					"Children": [
+						{
+							"ID": "20230921100710-w9cw01d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100710-w9cw01d",
+								"updated": "20230921100711"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uts替代的是js"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102327-gc9uio8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230921102327-gc9uio8",
+						"updated": "20230921102340"
+					},
+					"Children": [
+						{
+							"ID": "20230921102327-h6d18aq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102327-h6d18aq",
+								"updated": "20230921102328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它可以被编译为不同平台的编程语言"
+								}
+							]
+						},
+						{
+							"ID": "20230921102340-8wv7a0n",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230921102340-8wv7a0n",
+								"updated": "20230921102340"
+							},
+							"Children": [
+								{
+									"ID": "20230921102340-3uqptkm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230921102340-3uqptkm",
+										"updated": "20230921102340"
+									},
+									"Children": [
+										{
+											"ID": "20230921102340-5q95dqc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230921102340-5q95dqc",
+												"updated": "20230921102340"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "web平台，编译为JavaScript"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230921102340-5b6d643",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230921102340-5b6d643",
+										"updated": "20230921102340"
+									},
+									"Children": [
+										{
+											"ID": "20230921102340-iuv1ts3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230921102340-iuv1ts3",
+												"updated": "20230921102340"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Android平台，编译为Kotlin"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230921102340-aols6kr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230921102340-aols6kr",
+										"updated": "20230921102340"
+									},
+									"Children": [
+										{
+											"ID": "20230921102340-zt47s16",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230921102340-zt47s16",
+												"updated": "20230921102340"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "iOS平台，编译为Swift（HX 3.6.7+ 版本支持）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230921100616-6ibxx4p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921100616-6ibxx4p",
+				"updated": "20230921100616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "uvue渲染引擎"
+				}
+			]
+		},
+		{
+			"ID": "20230921100618-x1jik8s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921100618-x1jik8s",
+				"updated": "20230921101132"
+			},
+			"Children": [
+				{
+					"ID": "20230921100621-vdk59pj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921100621-vdk59pj",
+						"updated": "20230921100621"
+					},
+					"Children": [
+						{
+							"ID": "20230921100621-q10u4ez",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100621-q10u4ez",
+								"updated": "20230921100810"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uvue是一套基于uts的、兼容vue语法的、跨iOS和Android的、原生渲染引擎"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921100807-l497nfp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230921100807-l497nfp"
+					},
+					"Children": [
+						{
+							"ID": "20230921100807-sv9mfhl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100807-sv9mfhl"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uvue替代的就是html和css"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921100743-mw27ih2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230921100743-mw27ih2"
+					},
+					"Children": [
+						{
+							"ID": "20230921100743-k2rj5eg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921100743-k2rj5eg",
+								"updated": "20230921100907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有了uvue，开发者就可以使用vue语法写一套页面，编译为高性能的纯原生界面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921101132-00vx1gi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230921101132-00vx1gi",
+						"updated": "20230921101132"
+					},
+					"Children": [
+						{
+							"ID": "20230921101132-rmf7rqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921101132-rmf7rqp",
+								"updated": "20230921101132"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 uni-app x 中，项目的页面和组件，后缀名都是uvue。而uvue文件里的script，发布到App时也只能写uts"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230921101440-5vtxv5b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921101440-5vtxv5b",
+				"updated": "20230921101441"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5+app"
+				}
+			]
+		},
+		{
+			"ID": "20230921102655-77dkps8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921102655-77dkps8",
+				"updated": "20230921102827"
+			},
+			"Children": [
+				{
+					"ID": "20230921102655-l6u3bwq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921102655-l6u3bwq",
+						"updated": "20230921102655"
+					},
+					"Children": [
+						{
+							"ID": "20230921102655-ky3hvff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102655-ky3hvff",
+								"updated": "20230921102656"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTML5 Plus移动App"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102656-g2nm3vu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230921102656-g2nm3vu"
+					},
+					"Children": [
+						{
+							"ID": "20230921102656-5k1admk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102656-5k1admk",
+								"updated": "20230921102712"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一种基于HTML、JS、CSS编写的运行于手机端的App，这种App可以通过扩展的JS API任意调用手机的原生能力，实现与原生App同样强大的功能和性能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102713-xwwwik7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230921102713-xwwwik7"
+					},
+					"Children": [
+						{
+							"ID": "20230921102713-fa9ld2x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102713-fa9ld2x",
+								"updated": "20230921102719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "html 5 的手机网页。但用这个框架功能更强大"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102826-dgb9b6l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230921102826-dgb9b6l",
+						"updated": "20230921102827"
+					},
+					"Children": [
+						{
+							"ID": "20230921102826-c0pwplj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102826-c0pwplj",
+								"updated": "20230921102827"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTML5+扩展了JavaScript对象plus，使得js可以调用各种浏览器无法实现或实现不佳的系统能力，设备能力如摄像头、陀螺仪、文件系统等，业务能力如上传下载、二维码、地图、支付、语音输入、消息推送等"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230921102124-phu65ye",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921102124-phu65ye",
+				"updated": "20230921102124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Native.js"
+				}
+			]
+		},
+		{
+			"ID": "20230921102124-ll21b2c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921102124-ll21b2c",
+				"updated": "20230921102124"
+			},
+			"Children": [
+				{
+					"ID": "20230921102124-hopicvc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921102124-hopicvc",
+						"updated": "20230921102124"
+					},
+					"Children": [
+						{
+							"ID": "20230921102124-r31oorf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102124-r31oorf",
+								"updated": "20230921102124"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Native.js技术，简称NJS，是一种将手机操作系统的原生对象转义，映射为JS对象，在JS里编写原生代码的技术"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102124-g6kdmp8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230921102124-g6kdmp8",
+						"updated": "20230921102124"
+					},
+					"Children": [
+						{
+							"ID": "20230921102124-hthjsen",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102124-hthjsen",
+								"updated": "20230921102124"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "NJS编写的代码，最终需要在HBuilder里打包发行为App安装包，或者在支持Native.js技术的浏览器里运行。目前Native.js技术不能在普通手机浏览器里直接运行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102124-8e0m9yf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230921102124-8e0m9yf",
+						"updated": "20230921102124"
+					},
+					"Children": [
+						{
+							"ID": "20230921102124-zwhh14n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102124-zwhh14n",
+								"updated": "20230921102124"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "NJS大幅扩展了HTML5的能力范围，原本只有原生或Hybrid App的原生插件才能实现的功能如今可以使用JS实现"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230921102215-wx01iei",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921102215-wx01iei",
+				"updated": "20230921102215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "renderjs"
+				}
+			]
+		},
+		{
+			"ID": "20230921102215-1syzquc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921102215-1syzquc",
+				"updated": "20230921102215"
+			},
+			"Children": [
+				{
+					"ID": "20230921102215-38ys1ki",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921102215-38ys1ki",
+						"updated": "20230921102215"
+					},
+					"Children": [
+						{
+							"ID": "20230921102215-328x1c6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102215-328x1c6",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "renderjs"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​是一个运行在视图层的js。它比"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/tutorial/miniprogram-subject#wxs",
+									"TextMarkTextContent": "WXS"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "更加强大。它只支持app-vue和web"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102215-xa25kn7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230921102215-xa25kn7",
+						"updated": "20230921102215"
+					},
+					"Children": [
+						{
+							"ID": "20230921102215-1gmv6a3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102215-1gmv6a3",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用"
+								}
+							]
+						},
+						{
+							"ID": "20230921102215-1492q2a",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230921102215-1492q2a",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"ID": "20230921102215-qg5zzdc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230921102215-qg5zzdc",
+										"updated": "20230921102215"
+									},
+									"Children": [
+										{
+											"ID": "20230921102215-kqi3jap",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230921102215-kqi3jap",
+												"updated": "20230921102215"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大幅降低逻辑层和视图层的通讯损耗，提供高性能视图交互能力"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230921102215-02oll2p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230921102215-02oll2p",
+										"updated": "20230921102215"
+									},
+									"Children": [
+										{
+											"ID": "20230921102215-l320dol",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230921102215-l320dol",
+												"updated": "20230921102215"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在视图层操作dom，运行 for web 的 js库"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102215-1nhtvif",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230921102215-1nhtvif",
+						"updated": "20230921102215"
+					},
+					"Children": [
+						{
+							"ID": "20230921102215-qccyp1q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102215-qccyp1q",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvue的视图层是原生的，无法运行js。但提供了bindingx技术来解决通信阻塞"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102215-a8uxr7t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230921102215-a8uxr7t",
+						"updated": "20230921102215"
+					},
+					"Children": [
+						{
+							"ID": "20230921102215-tf2r3rm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102215-tf2r3rm",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序下替代方案是wxs，这是微信提供的一个裁剪版renderjs"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102215-zeu2nku",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230921102215-zeu2nku",
+						"updated": "20230921102215"
+					},
+					"Children": [
+						{
+							"ID": "20230921102215-37stf6e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102215-37stf6e",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "web下不存在逻辑层和视图层的通信阻塞，也可以直接操作dom，所以在web端使用renderjs主要是为了跨端复用代码。如果只开发web端，没有必要使用renderjs"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102215-p5judm7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230921102215-p5judm7",
+						"updated": "20230921102215"
+					},
+					"Children": [
+						{
+							"ID": "20230921102215-rksdukw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102215-rksdukw",
+								"updated": "20230921102215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用方式：设置 script 节点的 lang 为 renderjs"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230922203044-qs9o52e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230922203044-qs9o52e",
+				"updated": "20230922203047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXS"
+				}
+			]
+		},
+		{
+			"ID": "20230922203123-4jxcd8k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230922203123-4jxcd8k",
+				"updated": "20230922204003"
+			},
+			"Children": [
+				{
+					"ID": "20230922203312-0lh0c9s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230922203312-0lh0c9s"
+					},
+					"Children": [
+						{
+							"ID": "20230922203312-raz88o0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922203312-raz88o0",
+								"updated": "20230922203316"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "WXS（WeiXin Script）是内联在 WXML 中的脚本段。通过 WXS 可以在模版中内联少量处理脚本，丰富模板的数据预处理能力。另外， WXS 还可以用来编写简单的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/framework/view/interactive-animation.html",
+									"TextMarkTextContent": "WXS 事件响应函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922203123-p9j5n3a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230922203123-p9j5n3a",
+						"updated": "20230922203123"
+					},
+					"Children": [
+						{
+							"ID": "20230922203123-l27v1ng",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922203123-l27v1ng",
+								"updated": "20230922203413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "WXS是一套运行在视图层的脚本语言，避免逻辑层和渲染层交互通信折损"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922203307-f5217lf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230922203307-f5217lf"
+					},
+					"Children": [
+						{
+							"ID": "20230922203307-83db90u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922203307-83db90u",
+								"updated": "20230922203406"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni-app可以将wxs代码编译到微信小程序、QQ小程序、app-vue、H5上"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922203139-hpsfcmq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230922203139-hpsfcmq",
+						"updated": "20230922203428"
+					},
+					"Children": [
+						{
+							"ID": "20230922203139-oux1kuj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922203139-oux1kuj",
+								"updated": "20230922203428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "App端nvue解决此类需求，不应该使用wxs，而是使用bindingx"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922204002-ku4as17",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230922204002-ku4as17",
+						"updated": "20230922204003"
+					},
+					"Children": [
+						{
+							"ID": "20230922204002-pgjtel3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922204002-pgjtel3",
+								"updated": "20230922204003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "wxs中可以监听手势，以uni ui的swiperAction组件为例，手指拖动，侧边的列表菜单项要跟手滑出，此时就需要使用wxs才能实现流畅效果"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230922203048-bxqa60z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230922203048-bxqa60z"
+			}
+		},
+		{
+			"ID": "20230922203510-htbynvz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230922203510-htbynvz",
+				"updated": "20230922203511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "bindingx"
+				}
+			]
+		},
+		{
+			"ID": "20230922203513-t4ocmzm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230922203513-t4ocmzm",
+				"updated": "20230922204308"
+			},
+			"Children": [
+				{
+					"ID": "20230922204253-9jy1ic7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230922204253-9jy1ic7",
+						"updated": "20230922204253"
+					},
+					"Children": [
+						{
+							"ID": "20230922204253-8rxjosj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922204253-8rxjosj",
+								"updated": "20230922204254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以在js里一次性传一个表达式给原生层，由原生层解析后根据指令操作原生的视图层，避免反复跨层通信"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922204308-d8d281a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230922204308-d8d281a",
+						"updated": "20230922204308"
+					},
+					"Children": [
+						{
+							"ID": "20230922204308-zr8gbwl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922204308-zr8gbwl",
+								"updated": "20230922204308"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bindingx作为一种表达式，它的功能不及js强大，但手势监听、动画还是可以实现的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230921102132-lvcevgo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921102132-lvcevgo",
+				"updated": "20230921102132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Hybrid App"
+				}
+			]
+		},
+		{
+			"ID": "20230921102132-og3wkxm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921102132-og3wkxm",
+				"updated": "20230921102132"
+			},
+			"Children": [
+				{
+					"ID": "20230921102132-vcmtiav",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921102132-vcmtiav",
+						"updated": "20230921102132"
+					},
+					"Children": [
+						{
+							"ID": "20230921102132-7n27nal",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102132-7n27nal",
+								"updated": "20230921102132"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将 APP 的一部分需要动态变动的内容通过 H5 来实现，通过原生的网页加载控件 WebView (Android)或 WKWebView（iOS）来加载H5页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102132-mqyynrl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230921102132-mqyynrl",
+						"updated": "20230921102132"
+					},
+					"Children": [
+						{
+							"ID": "20230921102132-w5vbk7c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102132-w5vbk7c",
+								"updated": "20230921102132"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "H5 部分是可以随时改变而不用发版，动态化需求能满足；同时，由于 H5 代码只需要一次开发，就能同时在 Android 和 iOS 两个平台运行，这也可以减小开发成本，也就是说，H5 部分功能越多，开发成本就越小"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230921102555-g6j7ox4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230921102555-g6j7ox4",
+				"updated": "20230921102557"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Wap2App"
+				}
+			]
+		},
+		{
+			"ID": "20230921102643-2gowhol",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230921102643-2gowhol",
+				"updated": "20230921102643"
+			},
+			"Children": [
+				{
+					"ID": "20230921102643-zw3o4af",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230921102643-zw3o4af",
+						"updated": "20230921102643"
+					},
+					"Children": [
+						{
+							"ID": "20230921102643-nt13hkv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102643-nt13hkv",
+								"updated": "20230921102643"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将一个网站打包成一个app"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -5611,7 +7031,7 @@
 			"Properties": {
 				"fold": "1",
 				"id": "20230705155645-lffvgu2",
-				"updated": "20230705155645"
+				"updated": "20230921101434"
 			},
 			"Children": [
 				{
@@ -5832,7 +7252,7 @@
 				"fold": "1",
 				"heading-fold": "1",
 				"id": "20230705155744-dct5vhx",
-				"updated": "20230705155744"
+				"updated": "20230921102625"
 			},
 			"Children": [
 				{
@@ -5845,6 +7265,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20230705155744-w3askdz",
 						"updated": "20230705155744"
 					},
@@ -5983,7 +7404,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​、"
+													"Data": "​​、"
 												},
 												{
 													"Type": "NodeTextMark",
@@ -5992,7 +7413,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​ 等替换为 "
+													"Data": "​​ 等替换为 "
 												},
 												{
 													"Type": "NodeTextMark",
@@ -6001,7 +7422,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​，详见"
+													"Data": "​​，详见"
 												},
 												{
 													"Type": "NodeTextMark",
@@ -6046,7 +7467,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​ 规范，同时补充了"
+													"Data": "​​ 规范，同时补充了"
 												},
 												{
 													"Type": "NodeTextMark",
@@ -6112,6 +7533,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20230705155744-dvxhgn1",
 						"updated": "20230705155744"
 					},
@@ -6449,7 +7871,7 @@
 																},
 																{
 																	"Type": "NodeText",
-																	"Data": "​实现"
+																	"Data": "​​实现"
 																}
 															]
 														}
@@ -6488,7 +7910,7 @@
 																},
 																{
 																	"Type": "NodeText",
-																	"Data": "​实现，性能更快"
+																	"Data": "​​实现，性能更快"
 																}
 															]
 														}
@@ -6542,6 +7964,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20230705155744-auyponc",
 						"updated": "20230705155744"
 					},
@@ -6802,7 +8225,7 @@
 																				},
 																				{
 																					"Type": "NodeText",
-																					"Data": "​页面文件由webview渲染，原理与小程序相同；"
+																					"Data": "​​页面文件由webview渲染，原理与小程序相同；"
 																				},
 																				{
 																					"Type": "NodeTextMark",
@@ -6811,7 +8234,7 @@
 																				},
 																				{
 																					"Type": "NodeText",
-																					"Data": "​页面文件由原生渲染，原理与react native相同"
+																					"Data": "​​页面文件由原生渲染，原理与react native相同"
 																				}
 																			]
 																		}
@@ -6893,7 +8316,7 @@
 																				},
 																				{
 																					"Type": "NodeText",
-																					"Data": "​、"
+																					"Data": "​​、"
 																				},
 																				{
 																					"Type": "NodeTextMark",
@@ -6902,7 +8325,7 @@
 																				},
 																				{
 																					"Type": "NodeText",
-																					"Data": "​等。扩展组件不包含在uni-app的runtime中，而是下载到用户的项目代码中。（这些组件都是vue组件）"
+																					"Data": "​​等。扩展组件不包含在uni-app的runtime中，而是下载到用户的项目代码中。（这些组件都是vue组件）"
 																				}
 																			]
 																		}
@@ -7739,6 +9162,36 @@
 											]
 										}
 									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230921102625-tfphwym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230921102625-tfphwym",
+						"updated": "20230921102625"
+					},
+					"Children": [
+						{
+							"ID": "20230921102625-fx1nt0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230921102625-fx1nt0f",
+								"updated": "20230921102625"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一套代码能编译出多个平台的原生源码"
 								}
 							]
 						}

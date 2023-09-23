@@ -1,0 +1,622 @@
+{
+	"ID": "20230920152454-au7bg89",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230920152454-au7bg89",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230920152454-au7bg89\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230920152454-lyrw13f\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230920152539-8adguaz\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230920160753-1d0ubsq\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "tabbar",
+		"updated": "20230920160741"
+	},
+	"Children": [
+		{
+			"ID": "20230920152454-lyrw13f",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920152454-lyrw13f",
+				"updated": "20230920153411"
+			},
+			"Children": [
+				{
+					"ID": "20230920152535-hfvdbbf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920152535-hfvdbbf",
+						"updated": "20230920152535"
+					},
+					"Children": [
+						{
+							"ID": "20230920152535-2w687ji",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920152535-2w687ji",
+								"updated": "20230920153036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果应用是一个多 tab 应用，可以通过 tabBar 配置项指定一级导航栏，以及 tab 切换时显示的对应页"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920152536-i5d9494",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920152536-i5d9494"
+					},
+					"Children": [
+						{
+							"ID": "20230920153254-yzvxyqd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920153254-yzvxyqd",
+								"updated": "20230920153254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当设置 position 为 top 时，将不会显示 icon"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920153405-2us62pr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230920153405-2us62pr"
+					},
+					"Children": [
+						{
+							"ID": "20230920153405-ku9g2e8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920153405-ku9g2e8",
+								"updated": "20230920153413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920153407-vvi4gyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230920153407-vvi4gyz"
+					},
+					"Children": [
+						{
+							"ID": "20230920153407-f48usn1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920153407-f48usn1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tabbar 切换第一次加载时可能渲染不及时，可以在每个tabbar页面的onLoad生命周期里先弹出一个等待雪花（hello uni-app使用了此方式）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920153408-r1frpyk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230920153408-r1frpyk"
+					},
+					"Children": [
+						{
+							"ID": "20230920153408-bur6n2h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920153408-bur6n2h",
+								"updated": "20230920153412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tabbar 的页面展现过一次后就保留在内存中，再次切换 tabbar 页面，只会触发每个页面的onShow，不会再触发onLoad"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920153411-9edgr3a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230920153411-9edgr3a",
+						"updated": "20230920153411"
+					},
+					"Children": [
+						{
+							"ID": "20230920153411-37o0w72",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920153411-37o0w72",
+								"updated": "20230920153411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "顶部的 tabbar 目前仅微信小程序上支持。需要用到顶部选项卡的话，建议不使用 tabbar 的顶部设置，而是自己做顶部选项卡，可参考 hello uni-app-\u003e模板-\u003e顶部选项卡"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920153700-6pog71q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230920153700-6pog71q",
+				"updated": "20230920153700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态修改内容"
+				}
+			]
+		},
+		{
+			"ID": "20230920155133-f49cokn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920155133-f49cokn",
+				"updated": "20230920155134"
+			},
+			"Children": [
+				{
+					"ID": "20230920155134-di4iryz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920155134-di4iryz",
+						"updated": "20230920155134"
+					},
+					"Children": [
+						{
+							"ID": "20230920155134-7d0lbea",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920155134-7d0lbea",
+								"updated": "20230920155134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.setTabBarItem(OBJECT)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920155837-v8mbjgh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230920155837-v8mbjgh",
+				"updated": "20230920155858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击tabitem不跳转"
+				}
+			]
+		},
+		{
+			"ID": "20230920155901-l5av7vs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920155901-l5av7vs",
+				"updated": "20230920160741"
+			},
+			"Children": [
+				{
+					"ID": "20230920160739-f8a78jd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920160739-f8a78jd",
+						"updated": "20230920160741"
+					},
+					"Children": [
+						{
+							"ID": "20230920160739-ji2gw0p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920160739-ji2gw0p",
+								"updated": "20230920160739"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://www.html5plus.org/doc/zh_cn/nativeobj.html",
+									"TextMarkTextContent": "plus.nativeObj.view"
+								}
+							]
+						},
+						{
+							"ID": "20230920160741-xny7bqw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920160741-xny7bqw"
+							},
+							"Children": [
+								{
+									"ID": "20230920155902-7h68rot",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920155902-7h68rot",
+										"updated": "20230920155902"
+									},
+									"Children": [
+										{
+											"ID": "20230920155902-w6ircgc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920155902-w6ircgc",
+												"updated": "20230920160753"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果想在App端实现点击某个tabitem不跳转页面，不能使用onTabItemTap"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920160753-dwtm50a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920160753-dwtm50a"
+									},
+									"Children": [
+										{
+											"ID": "20230920160753-1d0ubsq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920160753-1d0ubsq"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "http://www.html5plus.org/doc/zh_cn/nativeobj.html",
+													"TextMarkTextContent": "plus.nativeObj.view"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "放一个区块盖住原先的tabitem，并拦截点击事件"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920160438-jekh6m2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920160438-jekh6m2"
+					},
+					"Children": [
+						{
+							"ID": "20230920160438-fprunq2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920160438-fprunq2",
+								"updated": "20230920160440"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义tabbar"
+								}
+							]
+						},
+						{
+							"ID": "20230920160446-blikso7",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920160446-blikso7"
+							},
+							"Children": [
+								{
+									"ID": "20230920160445-hv0jlap",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920160445-hv0jlap"
+									},
+									"Children": [
+										{
+											"ID": "20230920160445-7t2aied",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920160445-7t2aied",
+												"updated": "20230920160450"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意除了H5端，自定义tabBar的性能体验会低于原生tabBar。App和小程序端非必要不要自定义"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920160451-eoky583",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230920160451-eoky583"
+									},
+									"Children": [
+										{
+											"ID": "20230920160511-yptam8h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920160511-yptam8h",
+												"updated": "20230920160511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "H5端的自定义tabBar组件：H5端不存在原生tabBar性能更高的概念，并且宽屏下常见的tabBar在顶部而不是底部，此时可以使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://uniapp.dcloud.io/component/custom-tab-bar",
+													"TextMarkTextContent": "custom-tab-bar组件"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 来自定义"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920160531-9tu360q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230920160531-9tu360q"
+									},
+									"Children": [
+										{
+											"ID": "20230920160531-ap4x0gm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920160531-ap4x0gm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "普通自定义tabBar：使用view自行绘制tabBar。如果页面是多页方式，切换tabBar将无法保持底部tabBar一直显示。所以这种情况建议使用单页方式。单页方式，如果是复杂页面，应用性能会下降明显，需减少页面复杂度。如果是App端，nvue单页的性能会显著高于vue页面"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920160533-2uyjkoo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230920160533-2uyjkoo"
+									},
+									"Children": [
+										{
+											"ID": "20230920160533-1ghoegk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920160533-1ghoegk"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "微信小程序自定义tabbar：微信提供一直基于webview自定义tabBar的方案。该功能体验不佳，不太推荐使用。如果要使用，参考"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html",
+													"TextMarkTextContent": "微信文档"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，项目根创建 custom-tab-bar 目录，注意里边的代码是 wxml,wxss，不是 vue，uni-app编译器会直接拷贝该目录到微信小程序中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230920160535-yflj1qy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230920160535-yflj1qy"
+									},
+									"Children": [
+										{
+											"ID": "20230920160535-i743sgp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920160535-i743sgp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "原生的tabbar有且只有一个且在首页。二级页如需的tab，需自行编写view来实现。一般二级页面更适合的导航是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://ext.dcloud.net.cn/plugin?id=54",
+													"TextMarkTextContent": "segement组件"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920153703-zui1991",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230920153703-zui1991"
+			}
+		},
+		{
+			"ID": "20230920152539-8adguaz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230920152539-8adguaz"
+			}
+		}
+	]
+}

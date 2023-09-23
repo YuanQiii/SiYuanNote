@@ -1,0 +1,2259 @@
+{
+	"ID": "20230922192210-6oz2wj6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230922192210-6oz2wj6",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230922192210-6oz2wj6\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230922192212-dz4edkf\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230922193932-lp3mqhz\u0026quot;,\u0026quot;scrollTop\u0026quot;:3024,\u0026quot;focusId\u0026quot;:\u0026quot;20230922195324-y52awms\u0026quot;,\u0026quot;focusStart\u0026quot;:167,\u0026quot;focusEnd\u0026quot;:167\u0026#125;",
+		"title": "优化",
+		"updated": "20230922195437"
+	},
+	"Children": [
+		{
+			"ID": "20230922192212-dz4edkf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230922192212-dz4edkf",
+				"updated": "20230922195437"
+			},
+			"Children": [
+				{
+					"ID": "20230922192226-hqipwwr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230922192226-hqipwwr",
+						"updated": "20230922192226"
+					},
+					"Children": [
+						{
+							"ID": "20230922192227-dq7ha92",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922192227-dq7ha92",
+								"updated": "20230922192227"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免使用大图"
+								}
+							]
+						},
+						{
+							"ID": "20230922192236-bmy25ch",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922192236-bmy25ch"
+							},
+							"Children": [
+								{
+									"ID": "20230922192236-oyayt3l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922192236-oyayt3l"
+									},
+									"Children": [
+										{
+											"ID": "20230922192236-ynxa1wi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192236-ynxa1wi",
+												"updated": "20230922192236"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "页面中若大量使用大图资源，会造成页面切换的卡顿，导致系统内存升高，甚至白屏崩溃"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922192237-u8s29u6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922192237-u8s29u6"
+									},
+									"Children": [
+										{
+											"ID": "20230922192237-rqn34m5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192237-rqn34m5",
+												"updated": "20230922192249"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "尤其是不要把多张大图缩小后显示在一个屏幕内，比如上传图片前选了数张几M体积的照片，然后缩小在一个屏幕中展示多张几M的大图，非常容易白屏崩溃"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922192249-qw5r35b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230922192249-qw5r35b"
+									},
+									"Children": [
+										{
+											"ID": "20230922192249-oemxvg1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192249-oemxvg1",
+												"updated": "20230922192252"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对大体积的二进制文件进行base64，也非常耗费资源"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922192230-zz2erax",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230922192230-zz2erax"
+					},
+					"Children": [
+						{
+							"ID": "20230922192302-km05h3m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922192302-km05h3m",
+								"updated": "20230922192307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化数据更新"
+								}
+							]
+						},
+						{
+							"ID": "20230922192314-qopkeul",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922192314-qopkeul"
+							},
+							"Children": [
+								{
+									"ID": "20230922192314-63fe6ou",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922192314-63fe6ou"
+									},
+									"Children": [
+										{
+											"ID": "20230922192314-315ovtr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192314-315ovtr",
+												"updated": "20230922192315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "uni-app"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 中，定义在 data 里面的数据每次变化时都会通知视图层重新渲染页面"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922192320-q7da8qr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922192320-q7da8qr"
+									},
+									"Children": [
+										{
+											"ID": "20230922192320-ztzo0ta",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192320-ztzo0ta",
+												"updated": "20230922192335"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所以如果不是视图所需要的变量，可以不定义在 data 中，可在外部定义变量或直接挂载在vue实例上，以避免造成资源浪费"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922192309-3wamtax",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230922192309-3wamtax"
+					},
+					"Children": [
+						{
+							"ID": "20230922192338-m2npzim",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922192338-m2npzim",
+								"updated": "20230922192338"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "长列表"
+								}
+							]
+						},
+						{
+							"ID": "20230922192340-wgiq9dl",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922192340-wgiq9dl"
+							},
+							"Children": [
+								{
+									"ID": "20230922192340-iyaclkz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922192340-iyaclkz"
+									},
+									"Children": [
+										{
+											"ID": "20230922192340-awm102u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192340-awm102u",
+												"updated": "20230922192413"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "长列表中如果每个item有一个点赞按钮，点击后点赞数字+1，此时点赞组件必须是一个单独引用的组件，才能做到差量数据更新。否则会造成整个列表数据重载"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922192413-dgfvrms",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922192413-dgfvrms"
+									},
+									"Children": [
+										{
+											"ID": "20230922192513-viuecb2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192513-viuecb2",
+												"updated": "20230922192513"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "长列表中每个item并不一定需要做成组件，取决于你的业务中是否需要差量更新某一行item的数据，如没有此类需求则不应该引入大量组件。（点击item后背景变色，属于css调整，没有更新data数据和渲染，不涉及这个问题）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922192515-9uo9rw9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230922192515-9uo9rw9"
+									},
+									"Children": [
+										{
+											"ID": "20230922192515-brxsyio",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922192515-brxsyio",
+												"updated": "20230922192529"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单个组件中存在大量数据时（比如长列表），在App和小程序端数据更新时会消耗较多时间，建议使用组件对数据进行分页，将变更限制更小范围"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193114-wkrmebs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230922193114-wkrmebs"
+									},
+									"Children": [
+										{
+											"ID": "20230922193114-q6hisgq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193114-q6hisgq",
+												"updated": "20230922193118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "app端nvue的长列表应该使用list组件，有自动的渲染资源回收机制。vue页面使用页面滚动的性能好于使用scroll-view的区域滚动"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193144-mvhorto",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230922193144-mvhorto"
+									},
+									"Children": [
+										{
+											"ID": "20230922193144-slcncv1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193144-slcncv1",
+												"updated": "20230922193145"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如需要左右滑动的长列表，请在HBuilderX新建uni-app项目选新闻模板，那是一个标杆实现"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922193200-5a96ri6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230922193200-5a96ri6"
+					},
+					"Children": [
+						{
+							"ID": "20230922193201-9hkzn6r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922193201-9hkzn6r",
+								"updated": "20230922193201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少一次性渲染的节点数量"
+								}
+							]
+						},
+						{
+							"ID": "20230922193212-e3gzwyo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922193212-e3gzwyo"
+							},
+							"Children": [
+								{
+									"ID": "20230922193204-goguhcm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922193204-goguhcm"
+									},
+									"Children": [
+										{
+											"ID": "20230922193204-1lrrc73",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193204-1lrrc73",
+												"updated": "20230922193223"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "页面初始化时，逻辑层如果一次性向视图层传递很大的数据，使视图层一次性渲染大量节点，可能造成通讯变慢、页面切换卡顿"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193224-imlbzeb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922193224-imlbzeb"
+									},
+									"Children": [
+										{
+											"ID": "20230922193224-7rd2ynp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193224-7rd2ynp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "建议以局部更新页面的方式渲染页面"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922193225-5hqc5b9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230922193225-5hqc5b9"
+					},
+					"Children": [
+						{
+							"ID": "20230922193235-zwok2hy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922193235-zwok2hy",
+								"updated": "20230922193242"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少组件数量、减少节点嵌套层级"
+								}
+							]
+						},
+						{
+							"ID": "20230922193250-89yjrhz",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922193250-89yjrhz"
+							},
+							"Children": [
+								{
+									"ID": "20230922193250-cewqfu9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922193250-cewqfu9"
+									},
+									"Children": [
+										{
+											"ID": "20230922193250-hzi1lm6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193250-hzi1lm6",
+												"updated": "20230922193251"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "深层嵌套的节点在页面初始化构建时往往需要更多的内存占用，并且在遍历节点时也会更慢些，所以建议减少深层的节点嵌套"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193251-kgmpj4w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922193251-kgmpj4w"
+									},
+									"Children": [
+										{
+											"ID": "20230922193251-aw1jtns",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193251-aw1jtns",
+												"updated": "20230922193304"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有些nvue页面在Android低端机上初次渲染时，会看到从上到下的渲染过程，这往往都是因为组件过多导致的。每个组件渲染时都会触发一次通信，太多组件就会阻塞通信"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922193328-qfa7wys",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230922193328-qfa7wys"
+					},
+					"Children": [
+						{
+							"ID": "20230922193328-5crlbvp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922193328-5crlbvp",
+								"updated": "20230922193328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免视图层和逻辑层频繁进行通讯"
+								}
+							]
+						},
+						{
+							"ID": "20230922193410-g4tfghh",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922193410-g4tfghh"
+							},
+							"Children": [
+								{
+									"ID": "20230922193410-6f7f7wa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922193410-6f7f7wa"
+									},
+									"Children": [
+										{
+											"ID": "20230922193410-zqahtlr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193410-zqahtlr",
+												"updated": "20230922193411"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少 scroll-view 组件的 scroll 事件监听，当监听 scroll-view 的滚动事件时，视图层会频繁的向逻辑层发送数据"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193426-1nb8gd2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922193426-1nb8gd2"
+									},
+									"Children": [
+										{
+											"ID": "20230922193426-khxnxmb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193426-khxnxmb",
+												"updated": "20230922193426"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "监听 scroll-view 组件的滚动事件时，不要实时的改变 scroll-top/scroll-left 属性，因为监听滚动时，视图层向逻辑层通讯，改变 scroll-top/scroll-left 时，逻辑层又向视图层通讯，这样就可能造成通讯卡顿"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193426-rd3bwj0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230922193426-rd3bwj0"
+									},
+									"Children": [
+										{
+											"ID": "20230922193426-msyokje",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193426-msyokje",
+												"updated": "20230922193435"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意 onPageScroll 的使用，onPageScroll 进行监听时，视图层会频繁的向逻辑层发送数据"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193435-698nt9g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230922193435-698nt9g"
+									},
+									"Children": [
+										{
+											"ID": "20230922193440-nqng9do",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193440-nqng9do",
+												"updated": "20230922193440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "多使用css动画，而不是通过js的定时器操作界面做动画"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193442-8mnypuq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230922193442-8mnypuq"
+									},
+									"Children": [
+										{
+											"ID": "20230922193442-thmahap",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193442-thmahap",
+												"updated": "20230922193458"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如需在canvas里做跟手操作，app端建议使用renderjs，小程序端建议使用web-view组件。web-view里的页面没有逻辑层和视图层分离的概念，自然也不会有通信折损"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922193928-djmcn9i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230922193928-djmcn9i"
+					},
+					"Children": [
+						{
+							"ID": "20230922193929-0t4qoxm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922193929-0t4qoxm",
+								"updated": "20230922193929"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化页面切换动画"
+								}
+							]
+						},
+						{
+							"ID": "20230922193949-6dpavyh",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922193949-6dpavyh"
+							},
+							"Children": [
+								{
+									"ID": "20230922193949-prpyl7x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922193949-prpyl7x"
+									},
+									"Children": [
+										{
+											"ID": "20230922193949-r5c9mnv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193949-r5c9mnv",
+												"updated": "20230922193950"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "页面初始化时若存在大量图片或原生组件渲染和大量数据通讯，会发生新页面渲染和窗体进入动画抢资源，造成页面切换卡顿、掉帧。建议延时100ms~300ms渲染图片或复杂原生组件，分批进行数据通讯，以减少一次性渲染的节点数量"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922193950-q4qwyzk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922193950-q4qwyzk"
+									},
+									"Children": [
+										{
+											"ID": "20230922193950-zm9zbaq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922193950-zm9zbaq",
+												"updated": "20230922194028"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App端动画效果可以自定义。popin/popout的双窗体联动挤压动画效果对资源的消耗更大，如果动画期间页面里在执行耗时的js，可能会造成动画掉帧。此时可以使用消耗资源更小的动画效果，比如slide-in-right/slide-out-right"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922194029-h3pfna6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230922194029-h3pfna6"
+									},
+									"Children": [
+										{
+											"ID": "20230922194039-rtyyfhy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194039-rtyyfhy",
+												"updated": "20230922194039"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App-nvue和H5，还支持页面预载，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://uniapp.dcloud.io/api/preload-page",
+													"TextMarkTextContent": "uni.preloadPage"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，可以提供更好的使用体验"
+												}
+											]
+										},
+										{
+											"ID": "20230922194203-3mlit9s",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230922194203-3mlit9s",
+												"updated": "20230922194203"
+											},
+											"Children": [
+												{
+													"ID": "20230922194203-oz2gec7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230922194203-oz2gec7",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-tjgpi5v",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-tjgpi5v",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "App平台仅支持预加载 nvue 页面，执行页面预渲染，预载时触发生命周期 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "onLoad"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "onReady"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​，不触发 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "onShow"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194203-vfph46s",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230922194203-vfph46s",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-lfiebgt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-lfiebgt",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "打开新页面时，url 完全相同（包含参数）时，优先使用预加载页面，触发生命周期 onShow"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194203-ocjlu4y",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230922194203-ocjlu4y",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-qdjgt0n",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-qdjgt0n",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "tabbar页面，仅支持预加载尚未显示过的页面，否则返回 fail，提示 already exists"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194203-jg49dgm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230922194203-jg49dgm",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-wcpxbf2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-wcpxbf2",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "同一时间，相同 url 仅 preloadPage 一次"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194203-trkueyl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230922194203-trkueyl",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-i1ze95v",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-i1ze95v",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "当同一个预载页面已被打开(在路由栈)，再次打开相同url时，不再使用该预加载页面，而是打开新的非预载页面"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194203-udtnzio",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20230922194203-udtnzio",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-9j10wwk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-9j10wwk",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni.reLanuch"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​, "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni.switchTab"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​, "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni.navigateBack"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​(含Android返回键) 切换页面时，预加载页面不会被销毁，仅触发生命周期 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "onHide"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194203-1je415g",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ny4=",
+														"Num": 7
+													},
+													"Properties": {
+														"id": "20230922194203-1je415g",
+														"updated": "20230922194203"
+													},
+													"Children": [
+														{
+															"ID": "20230922194203-365q1pz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194203-365q1pz",
+																"updated": "20230922194203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在预载页面使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "uni.redirectTo"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 时，预加载页面会被销毁，触发生命周期 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "onUnload"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922194319-7et6kwy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230922194319-7et6kwy"
+					},
+					"Children": [
+						{
+							"ID": "20230922194321-2vxaq19",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922194321-2vxaq19",
+								"updated": "20230922194321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化背景色闪白"
+								}
+							]
+						},
+						{
+							"ID": "20230922194324-4bqtdoi",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922194324-4bqtdoi"
+							},
+							"Children": [
+								{
+									"ID": "20230922194324-7bzf4on",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922194324-7bzf4on"
+									},
+									"Children": [
+										{
+											"ID": "20230922194410-edzk6gk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194410-edzk6gk",
+												"updated": "20230922194410"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果是新页面进入时背景闪白"
+												}
+											]
+										},
+										{
+											"ID": "20230922194413-smb17o6",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230922194413-smb17o6"
+											},
+											"Children": [
+												{
+													"ID": "20230922194412-7rwt394",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230922194412-7rwt394"
+													},
+													"Children": [
+														{
+															"ID": "20230922194412-d7rl7og",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194412-d7rl7og",
+																"updated": "20230922194420"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果页面背景是深色，在vue页面中可能会发生新窗体刚开始动画时是灰白色背景，动画结束时才变为深色背景，造成闪屏"
+																}
+															]
+														},
+														{
+															"ID": "20230922194421-145uha8",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230922194421-145uha8"
+															},
+															"Children": [
+																{
+																	"ID": "20230922194421-ejoqnn5",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230922194421-ejoqnn5"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230922194421-p1le9ok",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230922194421-p1le9ok"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "这是因为webview的背景生效太慢的问题"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230922194423-byoj9dj",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20230922194423-byoj9dj"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230922194423-bgn02ju",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230922194423-bgn02ju",
+																				"updated": "20230922194429"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "此时需将样式写在 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "App.vue"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​ 里，可以加速页面样式渲染速度"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230922194430-kvolxzy",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "My4=",
+																		"Num": 3
+																	},
+																	"Properties": {
+																		"id": "20230922194430-kvolxzy"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230922194430-v7j5ejn",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230922194430-v7j5ejn",
+																				"updated": "20230922194435"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "App.vue"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​ 里面的样式是全局样式，每次新开页面会优先加载 "
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "App.vue"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​ 里面的样式，然后加载普通 vue 页面的样式"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194445-x3kyp9b",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230922194445-x3kyp9b"
+													},
+													"Children": [
+														{
+															"ID": "20230922194445-4jp3sgh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194445-4jp3sgh",
+																"updated": "20230922194446"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "app端还可以在pages.json的页面的style里单独配置页面原生背景色"
+																}
+															]
+														},
+														{
+															"ID": "20230922194500-3554u4h",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230922194500-3554u4h"
+															},
+															"Children": [
+																{
+																	"ID": "20230922194500-rd6h4ww",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230922194500-rd6h4ww"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230922194500-5qykvsa",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230922194500-5qykvsa",
+																				"updated": "20230922194501"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "globalStyle-\u003estyle-\u003eapp-plus-\u003ebackground下配置全局背景色"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194512-1pwsvfl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230922194512-1pwsvfl"
+													},
+													"Children": [
+														{
+															"ID": "20230922194512-0s5kkke",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194512-0s5kkke",
+																"updated": "20230922194513"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "另外nvue页面不存在此问题，也可以更改为nvue页面"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922194157-epjdlqw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922194157-epjdlqw"
+									},
+									"Children": [
+										{
+											"ID": "20230922194157-l1v75fi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194157-l1v75fi",
+												"updated": "20230922194537"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果是老页面消失时背景闪白"
+												}
+											]
+										},
+										{
+											"ID": "20230922194550-4z4y1hp",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230922194550-4z4y1hp"
+											},
+											"Children": [
+												{
+													"ID": "20230922194538-r9j3ak5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230922194538-r9j3ak5"
+													},
+													"Children": [
+														{
+															"ID": "20230922194538-78lpcbg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194538-78lpcbg",
+																"updated": "20230922194550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Android上popin动画时，老窗体会有一个半透明消失的效果。这个半透明效果的背景色，可以根据需要调节为暗色系"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922194604-8w4hvwj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230922194604-8w4hvwj"
+													},
+													"Children": [
+														{
+															"ID": "20230922194604-075dyuh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194604-075dyuh",
+																"updated": "20230922194605"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在pages.json里globalStyle下或指定页面下，配置app-plus专属节点，然后配置animationAlphaBGColor属性"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922194620-unfnr4g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230922194620-unfnr4g"
+					},
+					"Children": [
+						{
+							"ID": "20230922194621-7b2acd9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922194621-7b2acd9",
+								"updated": "20230922194621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用nvue代替vue"
+								}
+							]
+						},
+						{
+							"ID": "20230922194631-e1do2be",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922194631-e1do2be"
+							},
+							"Children": [
+								{
+									"ID": "20230922194623-0kxi2fp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922194623-0kxi2fp"
+									},
+									"Children": [
+										{
+											"ID": "20230922194623-e6yths8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194623-e6yths8",
+												"updated": "20230922194631"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 App 端 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "uni-app"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的 nvue 页面可是基于weex升级改造的原生渲染引擎，实现了页面原生渲染能力、提高了页面流畅性"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922194632-1siygvx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230922194632-1siygvx"
+					},
+					"Children": [
+						{
+							"ID": "20230922194637-qc0lrzu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922194637-qc0lrzu",
+								"updated": "20230922194637"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化启动速度"
+								}
+							]
+						},
+						{
+							"ID": "20230922194648-6ao16zo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922194648-6ao16zo"
+							},
+							"Children": [
+								{
+									"ID": "20230922194638-oqu13qp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922194638-oqu13qp"
+									},
+									"Children": [
+										{
+											"ID": "20230922194649-jnbyec8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194649-jnbyec8",
+												"updated": "20230922194658"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "程代码越多，包括背景图和本地字体文件越大，对小程序启动速度有影响，应注意控制体积。组件引用的前景图不影响性能"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922194748-sioi590",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922194748-sioi590"
+									},
+									"Children": [
+										{
+											"ID": "20230922194748-61p9e7e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194748-61p9e7e",
+												"updated": "20230922194749"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App端的 splash 关闭有白屏检测机制，如果首页一直白屏或首页本身就是一个空的中转页面，可能会造成 splash 10秒才关闭"
+												}
+											]
+										},
+										{
+											"ID": "20230922194822-uup6w55",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230922194822-uup6w55"
+											},
+											"Children": [
+												{
+													"ID": "20230922194822-nsdakq1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230922194822-nsdakq1"
+													},
+													"Children": [
+														{
+															"ID": "20230922194835-dtmz4ta",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922194835-dtmz4ta",
+																"updated": "20230922194835"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "等待首页渲染完毕后再关闭Splash图"
+																}
+															]
+														},
+														{
+															"ID": "20230922194906-tjl4ju0",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20230922194906-tjl4ju0"
+															},
+															"Children": [
+																{
+																	"ID": "20230922194906-jeqd4cr",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20230922194906-jeqd4cr"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230922194906-2d0ci45",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230922194906-2d0ci45",
+																				"updated": "20230922194906"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "打开项目的manifest.json文件，在“App启动界面配置”中的“启动界面选项”配置是否“等待首页渲染完毕后再关闭Splash图”"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922194906-yfu2241",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230922194906-yfu2241"
+									},
+									"Children": [
+										{
+											"ID": "20230922194906-8vmz1ot",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922194906-8vmz1ot",
+												"updated": "20230922195023"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App端，首页为nvue页面时，并设置为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://ask.dcloud.net.cn/article/36749",
+													"TextMarkTextContent": "fast启动模式"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，此时App启动速度最快"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922195026-38ilvvq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230922195026-38ilvvq"
+									},
+									"Children": [
+										{
+											"ID": "20230922195026-1cvwzml",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922195026-1cvwzml",
+												"updated": "20230922195039"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App设置为纯nvue项目（manifest里设置app-plus下的renderer:\"native\"），这种项目的启动速度更快，2秒即可完成启动。因为它整个应用都使用原生渲染，不加载基于webview的那套框架"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922195041-qq0ax34",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230922195041-qq0ax34",
+						"updated": "20230922195437"
+					},
+					"Children": [
+						{
+							"ID": "20230922195048-i20lgcz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922195048-i20lgcz",
+								"updated": "20230922195048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优化包体积"
+								}
+							]
+						},
+						{
+							"ID": "20230922195108-hw3r4e0",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922195108-hw3r4e0",
+								"updated": "20230922195437"
+							},
+							"Children": [
+								{
+									"ID": "20230922195049-bwuyjzw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922195049-bwuyjzw"
+									},
+									"Children": [
+										{
+											"ID": "20230922195049-ywoxde8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922195049-ywoxde8",
+												"updated": "20230922195109"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "uni-app发行到小程序时，自带引擎只有几十K，主要是一个定制过的vue.js核心库。如果使用了es6转es5、css对齐的功能，可能会增大代码体积，可以配置这些编译功能是否开启"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922195109-ydhrgdl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922195109-ydhrgdl"
+									},
+									"Children": [
+										{
+											"ID": "20230922195109-76gistn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922195109-76gistn",
+												"updated": "20230922195209"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开启摇树优化需在manifest配置\n"
+												}
+											]
+										},
+										{
+											"ID": "20230922195209-xft4d5b",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230922195209-xft4d5b",
+												"updated": "20230922195210"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\"h5\": {\n    \"optimization\": {\n        \"treeShaking\": {\n            \"enable\": true\n        }\n    }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922195203-6bb4gd3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230922195203-6bb4gd3"
+									},
+									"Children": [
+										{
+											"ID": "20230922195203-9jp4zny",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922195203-9jp4zny",
+												"updated": "20230922195251"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "uni-app的App端，因为自带了一个独立v8引擎和小程序框架，所以比HTML5Plus或mui等普通hybrid的App引擎体积要大。Android基础引擎约9M。App还提供了扩展模块，比如地图、蓝牙等，打包时如不需要这些模块，可以裁剪掉，以缩小发行包体积。在 manifest.json-App模块权限 里可以选择"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922195252-p79ldtw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230922195252-p79ldtw"
+									},
+									"Children": [
+										{
+											"ID": "20230922195252-7v5z7ma",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922195252-7v5z7ma",
+												"updated": "20230922195323"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "App端支持如果选择纯nvue项目（manifest里设置app-plus下的renderer:\"native\"），包体积可以进一步减少2M左右"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922195324-43iqxmg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230922195324-43iqxmg",
+										"updated": "20230922195437"
+									},
+									"Children": [
+										{
+											"ID": "20230922195324-y52awms",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922195324-y52awms",
+												"updated": "20230922195437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Android app默认包含arm32和x86两个cpu的支持so库。包体积比较大。如果你在意体积控制，可以在manifest里去掉x86 cpu的支持（manifest可视化界面-App其他设置里选择cpu），这可以减少包体积到9M，从HBuilderX 2.7起，默认不再包含x86，如有需求请自行在manifest里勾选后打包"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230922193932-lp3mqhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230922193932-lp3mqhz"
+			}
+		}
+	]
+}

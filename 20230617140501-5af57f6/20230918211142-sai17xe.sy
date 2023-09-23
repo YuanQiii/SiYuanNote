@@ -1,0 +1,326 @@
+{
+	"ID": "20230918211142-sai17xe",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230918211142-sai17xe",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230918211142-sai17xe\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230918211311-agfcuqu\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230918211212-mwtc27i\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230918211311-1v1ng60\u0026quot;,\u0026quot;focusStart\u0026quot;:221,\u0026quot;focusEnd\u0026quot;:221\u0026#125;",
+		"title": "状态管理",
+		"updated": "20230918211311"
+	},
+	"Children": [
+		{
+			"ID": "20230918211311-agfcuqu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230918211311-agfcuqu",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Pinia"
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-u40supd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230918211311-u40supd",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"ID": "20230918211311-oao92uc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230918211311-oao92uc",
+						"updated": "20230918211311"
+					},
+					"Children": [
+						{
+							"ID": "20230918211311-yxqr9hh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230918211311-yxqr9hh",
+								"updated": "20230918211311"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni-app 内置了 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://pinia.vuejs.org/zh/index.html",
+									"TextMarkTextContent": "Pinia"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 。Vue 2 项目暂不支持"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230918211311-thwk60k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230918211311-thwk60k",
+						"updated": "20230918211311"
+					},
+					"Children": [
+						{
+							"ID": "20230918211311-dll3qqg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230918211311-dll3qqg",
+								"updated": "20230918211311"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "HBuilder X"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 不需要手动安装，直接使用即可"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-te2srhw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230918211311-te2srhw",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// main.js\nimport { createSSRApp } from 'vue';\nimport * as Pinia from 'pinia';\n{: id=\"20230918211311-u4c92s7\" updated=\"20230918211311\"}\n\nexport function createApp() {\n\tconst app = createSSRApp(App);\n\tapp.use(Pinia.createPinia());\n\treturn {\n\t\tapp,\n\t\tPinia, // 此处必须将 Pinia 返回\n\t};\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-ri9gdqg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230918211311-ri9gdqg",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// stores/counter.js\nimport { defineStore } from 'pinia';\n{: id=\"20230918211311-cw3513n\" updated=\"20230918211311\"}\n\nexport const useCounterStore = defineStore('counter', {\n\tstate: () =\u003e {\n\t\treturn { count: 0 };\n\t},\n\t// 也可以这样定义\n\t// state: () =\u003e ({ count: 0 })\n\tactions: {\n\t\tincrement() {\n\t\t\tthis.count++;\n\t\t},\n\t},\n});\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-pnlk93l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230918211311-pnlk93l",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dnVl"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// pinia.vue\n\u003ctemplate\u003e\n  \u003c!-- 直接从 store 中访问 state --\u003e\n  \u003cdiv\u003eCurrent Count: {{ counter.count }}\u003c/div\u003e\n\u003c/template\u003e\n\u003cscript setup\u003e\nimport { useCounterStore } from '@/stores/counter'\nconst counter = useCounterStore()\ncounter.count++\n// 自动补全！ ![](assets/~DA422Z_P[`TJ3Z$6HM2}$M-20230918211311-kfwfm0t.png)\n{: id=\"20230918211311-661v6ih\" updated=\"20230918211311\"}\n\ncounter.$patch({ count: counter.count + 1 })\n// 或使用 action 代替\ncounter.increment()\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-qo0ot9n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230918211311-qo0ot9n",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vuex"
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-0plmqcr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230918211311-0plmqcr",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"ID": "20230918211311-t0445aa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230918211311-t0445aa",
+						"updated": "20230918211311"
+					},
+					"Children": [
+						{
+							"ID": "20230918211311-jcyk9hs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230918211311-jcyk9hs",
+								"updated": "20230918211311"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni-app 内置了 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://vuex.vuejs.org/zh/",
+									"TextMarkTextContent": "Vuex"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-1v1ng60",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230918211311-1v1ng60",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// main.js\nimport App from './App'\nimport { createSSRApp } from 'vue'\nimport store from './store'\n{: id=\"20230918211311-l334pxn\" updated=\"20230918211311\"}\n\nexport function createApp() {\n    const app = createSSRApp(App)\n    app.use(store)\n    return {\n        app\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230918211311-f42ad84",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230918211311-f42ad84",
+				"updated": "20230918211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// store/index.js\n{: id=\"20230918211311-skjkds5\" updated=\"20230918211311\"}\n\n// #ifdef VUE3\nimport { createStore } from 'vuex'\nconst store = createStore({})\n// #endif\n{: id=\"20230918211311-o4jyvsl\" updated=\"20230918211311\"}\n\n// #ifndef VUE3\nimport Vue from 'vue'\nimport Vuex from 'vuex'\nVue.use(Vuex)\nconst store = new Vuex.Store({})\n// #endif\n{: id=\"20230918211311-ucuikj0\" updated=\"20230918211311\"}\n\nexport default store\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230918211212-mwtc27i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230918211212-mwtc27i"
+			}
+		}
+	]
+}

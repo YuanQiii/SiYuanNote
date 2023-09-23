@@ -4,17 +4,387 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230624104335-zgrfj33",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230624104335-zgrfj33\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230624104335-r98yh4n\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230624104335-r98yh4n\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230624104335-r98yh4n\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
-		"title": "Untitled",
-		"updated": "20230624104335"
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230624104335-zgrfj33\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230918211423-e1rqm97\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230919185443-7qtth3k\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230919185428-fqoozfj\u0026quot;,\u0026quot;focusStart\u0026quot;:152,\u0026quot;focusEnd\u0026quot;:152\u0026#125;",
+		"title": "路由",
+		"updated": "20230919185449"
 	},
 	"Children": [
 		{
-			"ID": "20230624104335-r98yh4n",
+			"ID": "20230918211423-e1rqm97",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230918211423-e1rqm97",
+				"updated": "20230919162931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跳转"
+				}
+			]
+		},
+		{
+			"ID": "20230919162947-hwx18fg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230919162947-hwx18fg",
+				"updated": "20230919163408"
+			},
+			"Children": [
+				{
+					"ID": "20230919162948-x83eete",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230919162948-x83eete",
+						"updated": "20230919163407"
+					},
+					"Children": [
+						{
+							"ID": "20230919162948-z3b3cut",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919162948-z3b3cut",
+								"updated": "20230919163407"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/component/navigator",
+									"TextMarkTextContent": "navigator"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "组件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230919163404-50lsab4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230919163404-50lsab4",
+						"updated": "20230919163408"
+					},
+					"Children": [
+						{
+							"ID": "20230919163404-4w8kxv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919163404-4w8kxv7",
+								"updated": "20230919163408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://uniapp.dcloud.net.cn/api/router",
+									"TextMarkTextContent": "API"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230919162931-phjflgt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230919162931-phjflgt",
+				"updated": "20230919162936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "传参"
+				}
+			]
+		},
+		{
+			"ID": "20230919163409-i9pz85t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230919163409-i9pz85t",
+				"updated": "20230919165057"
+			},
+			"Children": [
+				{
+					"ID": "20230919163411-dld616o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230919163411-dld616o",
+						"updated": "20230919165057"
+					},
+					"Children": [
+						{
+							"ID": "20230919163411-jk7fekn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919163411-jk7fekn",
+								"updated": "20230919165057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "URL路径后面拼接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230919163754-h4id7c1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230919163754-h4id7c1"
+					},
+					"Children": [
+						{
+							"ID": "20230919163754-066x1rt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919163754-066x1rt",
+								"updated": "20230919164008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全局变量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230919165036-b5sibk6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230919165036-b5sibk6",
+						"updated": "20230919165052"
+					},
+					"Children": [
+						{
+							"ID": "20230919165036-by39b66",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919165036-by39b66",
+								"updated": "20230919165052"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本地存储"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230919162940-l03g0jd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230919162940-l03g0jd",
+				"updated": "20230919162942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拦截"
+				}
+			]
+		},
+		{
+			"ID": "20230919182823-k1arn59",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230919182823-k1arn59",
+				"updated": "20230919182827"
+			},
+			"Children": [
+				{
+					"ID": "20230919182826-3f01bam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230919182826-3f01bam",
+						"updated": "20230919182827"
+					},
+					"Children": [
+						{
+							"ID": "20230919182826-qlbti1t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230919182826-qlbti1t",
+								"updated": "20230919182827"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.addInterceptor(STRING, OBJECT) 添加拦截器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230919162936-cioq0gd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230919162936-cioq0gd",
+				"updated": "20230919162939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例"
+				}
+			]
+		},
+		{
+			"ID": "20230918214335-loyqz5p",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230918214335-loyqz5p",
+				"updated": "20230919185403"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// test.vue\n\u003ctemplate\u003e\n\t\u003cview\u003e\n\t\t{{name}}\n\t\u003c/view\u003e\n\t\u003cview\u003e{{$params.name}}\u003c/view\u003e\n\t\u003cview\u003e\n\t\t{{storageName}}\n\t\u003c/view\u003e\n\u003c/template\u003e\n\n\u003cscript setup\u003e\n\timport {onMounted, ref, getCurrentInstance} from 'vue'\n\timport { onLoad } from '@dcloudio/uni-app'\n\n\tconst name = ref('')\n\tconst storageName = ref('')\n\n\t// 页面生命周期函数\n\tonLoad((option) =\u003e {\n\t\tname.value = JSON.parse(decodeURIComponent(option.params)).name\n\t\n\t\t// 读取本地存储数据并销毁\n\t\tstorageName.value = uni.getStorageSync('params').name;\n\t\tuni.removeStorageSync('params')\n\t})\n\n\t// 组件页面生命周期函数\n\tonMounted(() =\u003e {\n\t\tconsole.log('onMounted');\n\t})\n\u003c/script\u003e\n\n\u003cstyle\u003e\n\u003c/style\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230919185413-1brng4o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230919185413-1brng4o",
+				"updated": "20230919185429"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// index.vue\n\u003ctemplate\u003e\n\t\u003cview\u003e\n\t\t\u003cview\u003e\n\t\t\t\u003cnavigator url=\"test\" hover-class=\"navigator-hover\"\u003e\n\t\t\t\t\u003cbutton type=\"default\"\u003e跳转到新页面\u003c/button\u003e\n\t\t\t\u003c/navigator\u003e\n\t\t\t\u003cnavigator url=\"test\" open-type=\"redirect\" hover-class=\"other-navigator-hover\"\u003e\n\t\t\t\t\u003cbutton type=\"default\"\u003e在当前页打开\u003c/button\u003e\n\t\t\t\u003c/navigator\u003e\n\t\t\t\u003cnavigator url=\"/pages/tabBar/extUI/extUI\" open-type=\"switchTab\" hover-class=\"other-navigator-hover\"\u003e\n\t\t\t\t\u003cbutton type=\"default\"\u003e跳转tab页面\u003c/button\u003e\n\t\t\t\u003c/navigator\u003e\n\t\t\u003c/view\u003e\n\t\t\u003cbutton @click=\"handleClick\"\u003eClick\u003c/button\u003e\n\t\u003c/view\u003e\n\u003c/template\u003e\n\n\u003cscript setup\u003e\n\timport { getCurrentInstance } from 'vue'\n\timport initApp from './init.js'\n\n\tinitApp()\n\n\tconst params = {\n\t\tname: 'foo'\n\t}\n\n\tconst {proxy} = getCurrentInstance()\n\n\tconst handleClick = () =\u003e {\n\t\t// 全局变量传参\n\t\tproxy.$params.name = params.name\n\t\n\t\t// 本地存储传参\n\t\tuni.setStorageSync('params', params);\n\t\n\t\tuni.navigateTo({\n\t\t  // url 有长度限制，太长的字符串会传递失败\n\t\t  // 用 encodeURIComponent 不能传输含有 % 的参数\n\t\t  url: `/pages/router/test?params=${encodeURIComponent(JSON.stringify(params))}`,\n\t\t  events: {\n\t\t    // 为指定事件添加一个监听器，获取被打开页面传送到当前页面的数据\n\t\t    acceptDataFromOpenedPage: function(data) {\n\t\t      console.log(data)\n\t\t    },\n\t\t  },\n\t\t  success: function(res) {\n\t\t    // 通过eventChannel向被打开页面传送数据\n\t\t    res.eventChannel.emit('acceptDataFromOpenerPage', { data: 'data from starter page' })\n\t\t  }\n\t\t})\n\t}\n\u003c/script\u003e\n\n\u003cstyle\u003e\n\u003c/style\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230919185428-fqoozfj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230919185428-fqoozfj",
+				"updated": "20230919185449"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// init.js\nconst whiteList = ['/pages/login/login']\n\nconst list = [\"navigateTo\", \"redirectTo\", \"reLaunch\", \"switchTab\"]\n\nfunction hasPermission(url) {\n\t// 在白名单中或有token，直接跳转\n\tif (whiteList.indexOf(url) !== -1 || uni.getStorageSync(\"TOKEN\")) {\n\t\treturn true;\n\t}\n\treturn false;\n}\n\nexport default function initApp() {\n\tlist.forEach((item) =\u003e {\n\t\tuni.addInterceptor(item, {\n\t\t\t// 页面跳转前进行拦截, invoke根据返回值进行判断是否继续执行跳转\n\t\t\tinvoke(e) {\n\t\t\t\tif (!hasPermission(e.url)) {\n\t\t\t\n\t\t\t\t\t// 将用户的目标路径保存下来\n\t        // 这样可以实现 用户登录之后，直接跳转到目标页面                     \n\t\t\t\t\tuni.setStorageSync(\"URL\", e.url)\n\n\t\t\t\t\tuni.navigateTo({\n\t\t\t\t\t\turl: \"/pages/login/login\",\n\t\t\t\t\t})\n\t\t\t\n\t\t\t\t\treturn false;\n\t\t\t\t}\n\t\t\t\treturn true;\n\t\t\t}\n\t\t})\n\t})\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230919185443-7qtth3k",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230624104335-r98yh4n",
-				"updated": "20230624104335"
+				"id": "20230919185443-7qtth3k"
 			}
 		}
 	]

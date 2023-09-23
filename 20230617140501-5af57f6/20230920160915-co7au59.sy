@@ -1,0 +1,100 @@
+{
+	"ID": "20230920160915-co7au59",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230920160915-co7au59",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230920160915-co7au59\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230920160918-wbh48jx\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230920160915-v0j2xqj\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230920160950-7ioilt9\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "请求",
+		"updated": "20230920160924"
+	},
+	"Children": [
+		{
+			"ID": "20230920160918-wbh48jx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230920160918-wbh48jx",
+				"updated": "20230920160924"
+			},
+			"Children": [
+				{
+					"ID": "20230920160924-o4nmu3a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920160924-o4nmu3a",
+						"updated": "20230920160924"
+					},
+					"Children": [
+						{
+							"ID": "20230920160924-6q5xgx0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920160924-6q5xgx0",
+								"updated": "20230920160943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "uni.request"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920160943-8wex7bk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920160943-8wex7bk"
+					},
+					"Children": [
+						{
+							"ID": "20230920160943-fakd64p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920160943-fakd64p",
+								"updated": "20230920160950"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "axios"
+								}
+							]
+						},
+						{
+							"ID": "20230920160950-7ioilt9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920160950-7ioilt9"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920160915-v0j2xqj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230920160915-v0j2xqj",
+				"updated": "20230920160915"
+			}
+		}
+	]
+}

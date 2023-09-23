@@ -1,0 +1,909 @@
+{
+	"ID": "20230920161026-1m5gofj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230920161026-1m5gofj",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230920161026-1m5gofj\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230922190713-mbmxn1s\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230922190914-xfrqm26\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230922190915-dwoti1r\u0026quot;,\u0026quot;focusStart\u0026quot;:28,\u0026quot;focusEnd\u0026quot;:28\u0026#125;",
+		"title": "打开第三方的网址或app",
+		"updated": "20230922190915"
+	},
+	"Children": [
+		{
+			"ID": "20230922190713-mbmxn1s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230922190713-mbmxn1s",
+				"updated": "20230922190720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "H5\u0026App"
+				}
+			]
+		},
+		{
+			"ID": "20230920161026-tu7es1c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230920161026-tu7es1c",
+				"updated": "20230920161840"
+			},
+			"Children": [
+				{
+					"ID": "20230920161101-nyix9jc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230920161101-nyix9jc",
+						"updated": "20230920161101"
+					},
+					"Children": [
+						{
+							"ID": "20230920161101-sgkbahi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920161101-sgkbahi",
+								"updated": "20230920161101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手机os设计了scheme机制，可以通过特殊的链接互相调起"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920161617-w39r0mx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230920161617-w39r0mx",
+						"updated": "20230920161840"
+					},
+					"Children": [
+						{
+							"ID": "20230920161617-2w66vf3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920161617-2w66vf3",
+								"updated": "20230920161618"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调用外部浏览器打开指定的URL"
+								}
+							]
+						},
+						{
+							"ID": "20230920161619-7kyhliy",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920161619-7kyhliy",
+								"updated": "20230920161840"
+							},
+							"Children": [
+								{
+									"ID": "20230920161102-7p1ec93",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920161102-7p1ec93",
+										"updated": "20230920161840"
+									},
+									"Children": [
+										{
+											"ID": "20230920161102-i82yito",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920161102-i82yito",
+												"updated": "20230920161426"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "plus.runtime.openURL( url, errorCB, identity )"
+												}
+											]
+										},
+										{
+											"ID": "20230920161530-xjeg2x9",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230920161530-xjeg2x9"
+											},
+											"Children": [
+												{
+													"ID": "20230920161416-fjtt8q2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230920161416-fjtt8q2"
+													},
+													"Children": [
+														{
+															"ID": "20230920161530-ivpzo11",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920161530-ivpzo11",
+																"updated": "20230920161535"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "url: ( String ) 必选 要打开的URL地址\n字符串类型，各平台支持的地址类型存在差异，参考平台URL支持"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230920161536-u7d4uxw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230920161536-u7d4uxw"
+													},
+													"Children": [
+														{
+															"ID": "20230920161536-6ec5gnh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920161536-6ec5gnh",
+																"updated": "20230920161818"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "errorCB: ( OpenErrorCallback ) 可选 打开URL地址失败的回调\n打开指定URL地址失败时回调，并返回失败信息"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230920161539-ev8tas0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230920161539-ev8tas0"
+													},
+													"Children": [
+														{
+															"ID": "20230920161539-prbr9oy",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920161539-prbr9oy",
+																"updated": "20230920161817"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "identity: ( String ) 可选 指定打开URL地址的程序名称\n在iOS平台此参数被忽略，在Android平台为程序包名，如果指定的包名不存在，则打开URL地址失败"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230920161830-7fa8jf8",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230920161830-7fa8jf8",
+												"updated": "20230920161840"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\u003cscript\u003e  \nexport default {  \n    data() {  \n        return {  \n            url: 'https://uniapp.dcloud.io/'  \n        };  \n    },  \n    onLoad(op) {},  \n    methods: {  \n        open(types) {  \n                plus.runtime.openURL(this.url, function(res) {  \n                    console.log(res);  \n                });  \n        }  \n    }  \n};  \n\u003c/script\u003e \n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230920161608-86ke7sb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230920161608-86ke7sb",
+						"updated": "20230920161815"
+					},
+					"Children": [
+						{
+							"ID": "20230920161608-fmj1bh6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230920161608-fmj1bh6",
+								"updated": "20230920161703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调用第三方程序"
+								}
+							]
+						},
+						{
+							"ID": "20230920161706-5ubqh6e",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230920161706-5ubqh6e",
+								"updated": "20230920161815"
+							},
+							"Children": [
+								{
+									"ID": "20230920161659-i5wtdyg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230920161659-i5wtdyg",
+										"updated": "20230920161815"
+									},
+									"Children": [
+										{
+											"ID": "20230920161659-ulm2jfl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230920161659-ulm2jfl",
+												"updated": "20230920161710"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "plus.runtime.launchApplication( appInf, errorCB )"
+												}
+											]
+										},
+										{
+											"ID": "20230920161727-nlik2yk",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230920161727-nlik2yk"
+											},
+											"Children": [
+												{
+													"ID": "20230920161710-mhaxpr6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230920161710-mhaxpr6"
+													},
+													"Children": [
+														{
+															"ID": "20230920161725-zi73np7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920161725-zi73np7",
+																"updated": "20230920161725"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "appInf: ( ApplicationInf ) 必选 要启动第三方程序的描述信息"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230920161725-twj5r9l",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230920161725-twj5r9l",
+														"updated": "20230920161725"
+													},
+													"Children": [
+														{
+															"ID": "20230920161725-8u9kuko",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230920161725-8u9kuko",
+																"updated": "20230920161734"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "errorCB: ( LaunchErrorCallback ) 必选 启动第三方程序操作失败的回调函数，启动第三方程序失败时回调，并返回失败信息"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230920161810-evga7gw",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230920161810-evga7gw",
+												"updated": "20230920161815"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\n\u003cscript\u003e  \nexport default {  \n    data() {  \n        return {  \n            url: 'https://uniapp.dcloud.io/'  \n        };  \n    },  \n    onLoad(op) {},  \n    methods: {  \n        launchApp() {  \n            let _this = this;  \n            // 判断平台  \n            if (plus.os.name == 'Android') {  \n                plus.runtime.launchApplication(  \n                    {  \n                        pname: 'com.taobao.taobao'  \n                    },  \n                    function(e) {  \n                        console.log('Open system default browser failed: ' + e.message);  \n                    }  \n                );  \n            } else if (plus.os.name == 'iOS') {  \n                plus.runtime.launchApplication({ action: 'taobao://' }, function(e) {  \n                    console.log('Open system default browser failed: ' + e.message);  \n                });  \n            }  \n\n        }  \n    }  \n};  \n\u003c/script\u003e  \n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230920161329-g14fae7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230920161329-g14fae7",
+				"updated": "20230920161607"
+			}
+		},
+		{
+			"ID": "20230922190723-q08nid1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230922190723-q08nid1",
+				"updated": "20230922191152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信小程序"
+				}
+			]
+		},
+		{
+			"ID": "20230922190730-j0h1v8n",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230922190730-j0h1v8n",
+				"updated": "20230922190915"
+			},
+			"Children": [
+				{
+					"ID": "20230922190738-1teoar5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230922190738-1teoar5",
+						"updated": "20230922190738"
+					},
+					"Children": [
+						{
+							"ID": "20230922190738-nkef7x5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922190738-nkef7x5",
+								"updated": "20230922191753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开app"
+								}
+							]
+						},
+						{
+							"ID": "20230922191216-pgs8dhk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922191216-pgs8dhk"
+							},
+							"Children": [
+								{
+									"ID": "20230922191215-22597l2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922191215-22597l2"
+									},
+									"Children": [
+										{
+											"ID": "20230922191215-99do80f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922191215-99do80f",
+												"updated": "20230922191221"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "此功能需要用户主动触发才能打开 APP，所以不由 API 来调用，需要用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "open-type"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的值设置为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "launchApp"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/component/button.html",
+													"TextMarkTextContent": "button"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 组件的点击来触发"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922191222-7sk0xlf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922191222-7sk0xlf"
+									},
+									"Children": [
+										{
+											"ID": "20230922191222-iczyki6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922191222-iczyki6",
+												"updated": "20230922191419"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "小程序不能打开任意 APP，只能 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "跳回"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ APP"
+												}
+											]
+										},
+										{
+											"ID": "20230922191516-q3lyh0t",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230922191516-q3lyh0t",
+												"updated": "20230922191550"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\u003cbutton open-type=\"launchApp\" app-parameter=\"wechat\" binderror=\"launchAppError\"\u003e打开APP\u003c/button\u003e\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922191746-whbw5hl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230922191746-whbw5hl"
+					},
+					"Children": [
+						{
+							"ID": "20230922191746-brrh3yq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922191746-brrh3yq",
+								"updated": "20230922191751"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开第三方的网址"
+								}
+							]
+						},
+						{
+							"ID": "20230922191755-lhs0trk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230922191755-lhs0trk"
+							},
+							"Children": [
+								{
+									"ID": "20230922191755-65jylid",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230922191755-65jylid"
+									},
+									"Children": [
+										{
+											"ID": "20230922191755-0n2r4tq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922191755-0n2r4tq",
+												"updated": "20230922192021"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 web-view"
+												}
+											]
+										},
+										{
+											"ID": "20230922192022-jho4urh",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230922192022-jho4urh"
+											},
+											"Children": [
+												{
+													"ID": "20230922192025-1ulvdoj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230922192025-1ulvdoj"
+													},
+													"Children": [
+														{
+															"ID": "20230922192025-o5wvi5w",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922192025-o5wvi5w",
+																"updated": "20230922192038"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在微信公众平台绑定一下外链 (业务域名)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230922192022-1nh0dji",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230922192022-1nh0dji"
+													},
+													"Children": [
+														{
+															"ID": "20230922192022-peek0dp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230922192022-peek0dp"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "个人类型和海外类型的小程序不支持 web-view 标签"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230922191805-unqvm3g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230922191805-unqvm3g"
+									},
+									"Children": [
+										{
+											"ID": "20230922191805-sdcn4ve",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230922191805-sdcn4ve",
+												"updated": "20230922191849"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提供用户复制链接功能，提示用户用手机浏览器打开"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922190915-whnri3i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230922190915-whnri3i",
+						"updated": "20230922190915"
+					},
+					"Children": [
+						{
+							"ID": "20230922190915-9kiuzhr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922190915-9kiuzhr",
+								"updated": "20230922190915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信小程序没办法直接跳转打开app、网址、手机浏览器，但是可以直接打开其他的小程序并跳转到指定的小程序页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922190915-8vj5lug",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230922190915-8vj5lug"
+					},
+					"Children": [
+						{
+							"ID": "20230922190915-dwoti1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922190915-dwoti1r",
+								"updated": "20230922191008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微信公众号可以直接打开app或app指定页面，可以直接打开手机浏览器并跳转指定网址，可以打开小程序或进入小程序指定页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230922191010-usik0ie",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230922191010-usik0ie"
+					},
+					"Children": [
+						{
+							"ID": "20230922191010-9a0p1ry",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230922191010-9a0p1ry",
+								"updated": "20230922191018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手机浏览器可以直接打开app并跳转到app的指定页面，但是没办法打开微信公众号或微信小程序"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230922190914-xfrqm26",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230922190914-xfrqm26"
+			}
+		}
+	]
+}
