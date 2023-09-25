@@ -4,6 +4,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230728110417-7i2y8yl",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230728110417-7i2y8yl\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230728110417-gk4hqua\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230728111437-73p8xav\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230728110417-gk4hqua\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "前端项目框架搭建",
 		"updated": "20230728115240"
 	},

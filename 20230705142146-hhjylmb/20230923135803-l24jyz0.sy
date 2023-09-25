@@ -1,0 +1,5803 @@
+{
+	"ID": "20230923135803-l24jyz0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230923135803-l24jyz0",
+		"title": "TypeScript学习",
+		"updated": "20230925124703"
+	},
+	"Children": [
+		{
+			"ID": "20230923140237-rs7ab43",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923140237-rs7ab43",
+				"updated": "20230923140237"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 是什么"
+				}
+			]
+		},
+		{
+			"ID": "20230923140420-k09ik7d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923140420-k09ik7d",
+				"updated": "20230923140421"
+			},
+			"Children": [
+				{
+					"ID": "20230923140421-kr2k6ac",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923140421-kr2k6ac",
+						"updated": "20230923140421"
+					},
+					"Children": [
+						{
+							"ID": "20230923140421-6s9gazr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140421-6s9gazr",
+								"updated": "20230923140422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一个强类型的 JavaScript 超集，支持ES6语法，支持面向对象编程的概念，如类、接口、继承、泛型等"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923140422-1uirym6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230923140422-1uirym6"
+					},
+					"Children": [
+						{
+							"ID": "20230923140422-rxgfz18",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140422-rxgfz18",
+								"updated": "20230923140427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Typescript并不直接在浏览器上运行，需要编译器编译成纯Javascript来运行"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923140428-nr5p1qe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923140428-nr5p1qe",
+				"updated": "20230923140654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript基础类型"
+				}
+			]
+		},
+		{
+			"ID": "20230923140654-8sagvzx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923140654-8sagvzx",
+				"updated": "20230923205546"
+			},
+			"Children": [
+				{
+					"ID": "20230923140950-g8vswr1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923140950-g8vswr1",
+						"updated": "20230923140950"
+					},
+					"Children": [
+						{
+							"ID": "20230923140950-fvcyavt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140950-fvcyavt",
+								"updated": "20230923140953"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Boolen"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923140953-typ50kc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230923140953-typ50kc"
+					},
+					"Children": [
+						{
+							"ID": "20230923140953-qz174gi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140953-qz174gi",
+								"updated": "20230923140956"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Number"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923140956-6ken9ge",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230923140956-6ken9ge"
+					},
+					"Children": [
+						{
+							"ID": "20230923140956-tc3wgar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140956-tc3wgar",
+								"updated": "20230923140959"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923140959-sv21wo8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230923140959-sv21wo8"
+					},
+					"Children": [
+						{
+							"ID": "20230923140959-hos9zra",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140959-hos9zra",
+								"updated": "20230923141004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Symbol"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923141004-7r3mqwa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230923141004-7r3mqwa"
+					},
+					"Children": [
+						{
+							"ID": "20230923141004-z9bmn82",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923141004-z9bmn82",
+								"updated": "20230923141009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Array"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923141010-i65d8zp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230923141010-i65d8zp"
+					},
+					"Children": [
+						{
+							"ID": "20230923141010-d4end63",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923141010-d4end63",
+								"updated": "20230923141013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Enum"
+								}
+							]
+						},
+						{
+							"ID": "20230923141554-z02ctmy",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923141554-z02ctmy"
+							},
+							"Children": [
+								{
+									"ID": "20230923141014-rp4s927",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923141014-rp4s927"
+									},
+									"Children": [
+										{
+											"ID": "20230923141014-3fjix3b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141014-3fjix3b",
+												"updated": "20230923141602"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数字枚举"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923141602-lqucrnl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923141602-lqucrnl"
+									},
+									"Children": [
+										{
+											"ID": "20230923141602-zbuhb6u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141602-zbuhb6u",
+												"updated": "20230923141609"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "字符串枚举"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923141610-y078bus",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923141610-y078bus"
+									},
+									"Children": [
+										{
+											"ID": "20230923141610-hrycycj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141610-hrycycj",
+												"updated": "20230923141629"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "常量枚举"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923141629-izylrvl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230923141629-izylrvl"
+									},
+									"Children": [
+										{
+											"ID": "20230923141629-tvh6asj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141629-tvh6asj",
+												"updated": "20230923141641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "异构枚举"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923141643-hr7peg6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230923141643-hr7peg6"
+					},
+					"Children": [
+						{
+							"ID": "20230923141643-95n31b6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923141643-95n31b6",
+								"updated": "20230923141658"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Any"
+								}
+							]
+						},
+						{
+							"ID": "20230923141731-lhdnoik",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923141731-lhdnoik"
+							},
+							"Children": [
+								{
+									"ID": "20230923141731-znx3qxj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923141731-znx3qxj"
+									},
+									"Children": [
+										{
+											"ID": "20230923141731-ct4tjrf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141731-ct4tjrf",
+												"updated": "20230923141732"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "任何类型都可以被归为 any 类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923141732-fub7k4w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923141732-fub7k4w"
+									},
+									"Children": [
+										{
+											"ID": "20230923141732-iahvw9w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141732-iahvw9w",
+												"updated": "20230923141748"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "TypeScript 允许我们对 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "any"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型的值执行任何操作，而无需事先执行任何形式的检查"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923141700-0747i5p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20230923141700-0747i5p"
+					},
+					"Children": [
+						{
+							"ID": "20230923141700-dec6a37",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923141700-dec6a37",
+								"updated": "20230923141710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Unknow"
+								}
+							]
+						},
+						{
+							"ID": "20230923141750-edsps6n",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923141750-edsps6n"
+							},
+							"Children": [
+								{
+									"ID": "20230923141750-bmvwyb9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923141750-bmvwyb9"
+									},
+									"Children": [
+										{
+											"ID": "20230923141750-wcdrfy3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141750-wcdrfy3",
+												"updated": "20230923141800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有类型也都可以赋值给 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "unknown"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923141801-r6oousu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923141801-r6oousu"
+									},
+									"Children": [
+										{
+											"ID": "20230923141801-oa9bmqs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923141801-oa9bmqs",
+												"updated": "20230923142100"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "unknown"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型只能被赋值给 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "any"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "unknown"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型本身"
+												}
+											]
+										},
+										{
+											"ID": "20230923142239-slybqba",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230923142239-slybqba",
+												"updated": "20230923142308"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// 将 value 变量类型设置为 unknown 后，这些操作都不再被认为是类型正确的\n\nlet value: unknown;\n\nvalue.foo.bar; // Error\nvalue.trim(); // Error\nvalue(); // Error\nnew value(); // Error\nvalue[0][1]; // Error\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923141710-d4k2ykw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20230923141710-d4k2ykw"
+					},
+					"Children": [
+						{
+							"ID": "20230923141710-r5mwjbu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923141710-r5mwjbu",
+								"updated": "20230923142321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Tuple类型"
+								}
+							]
+						},
+						{
+							"ID": "20230923203642-bkh70u5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923203642-bkh70u5"
+							},
+							"Children": [
+								{
+									"ID": "20230923203642-vx0a6gs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923203642-vx0a6gs"
+									},
+									"Children": [
+										{
+											"ID": "20230923203642-clyympm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923203642-clyympm",
+												"updated": "20230923203646"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在单个变量中存储不同类型的值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923203746-smhl8st",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923203746-smhl8st"
+									},
+									"Children": [
+										{
+											"ID": "20230923203746-r6fts7v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923203746-r6fts7v",
+												"updated": "20230923203747"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "元组可用于定义具有有限数量的未命名属性的类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923204017-08vkuca",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923204017-08vkuca"
+									},
+									"Children": [
+										{
+											"ID": "20230923204017-sg7g2yp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923204017-sg7g2yp",
+												"updated": "20230923204017"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用元组时，必须提供每个属性的值"
+												}
+											]
+										},
+										{
+											"ID": "20230923204017-kz25shc",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230923204017-kz25shc",
+												"updated": "20230923204049"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "let tupleType: [string, boolean]\ntupleType = [\"semlinker\", true]\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923142321-3w1pttm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20230923142321-3w1pttm"
+					},
+					"Children": [
+						{
+							"ID": "20230923142321-k0nlda4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923142321-k0nlda4",
+								"updated": "20230923204303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Void类型"
+								}
+							]
+						},
+						{
+							"ID": "20230923204305-uu2uux5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923204305-uu2uux5"
+							},
+							"Children": [
+								{
+									"ID": "20230923204304-l6jy30b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923204304-l6jy30b"
+									},
+									"Children": [
+										{
+											"ID": "20230923204304-zh6puud",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923204304-zh6puud",
+												"updated": "20230923204310"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "void 类型像是与 any 类型相反，它表示没有任何类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923204311-mozrgcm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923204311-mozrgcm"
+									},
+									"Children": [
+										{
+											"ID": "20230923204311-yc5f9vi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923204311-yc5f9vi",
+												"updated": "20230923204315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当一个函数没有返回值时，你通常会见到其返回值类型是 void"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923204326-h84kwp9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923204326-h84kwp9"
+									},
+									"Children": [
+										{
+											"ID": "20230923204326-uvk5r07",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923204326-uvk5r07",
+												"updated": "20230923204327"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "声明一个 void 类型的变量没有什么作用，因为在严格模式下，它的值只能为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "undefined"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923204337-g4xm9s2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20230923204337-g4xm9s2"
+					},
+					"Children": [
+						{
+							"ID": "20230923204337-tcmlmrb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923204337-tcmlmrb",
+								"updated": "20230923204337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Null 和 Undefined 类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923204342-lphdbrk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20230923204342-lphdbrk"
+					},
+					"Children": [
+						{
+							"ID": "20230923204400-m1gu0ce",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923204400-m1gu0ce",
+								"updated": "20230923204400"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "object, Object 和 {} 类型"
+								}
+							]
+						},
+						{
+							"ID": "20230923204407-rjhuzoq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923204407-rjhuzoq"
+							},
+							"Children": [
+								{
+									"ID": "20230923204403-8v1mpcp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923204403-8v1mpcp"
+									},
+									"Children": [
+										{
+											"ID": "20230923204403-20y60mm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923204403-20y60mm",
+												"updated": "20230923204902"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "object 类型：TypeScript 2.2 引入的新类型，它用于表示非原始类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923204414-zouxzw7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923204414-zouxzw7"
+									},
+									"Children": [
+										{
+											"ID": "20230923204414-twbln01",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923204414-twbln01",
+												"updated": "20230923204900"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Object 类型：它是所有 Object 类的实例的类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923205122-3br2syv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923205122-3br2syv"
+									},
+									"Children": [
+										{
+											"ID": "20230923205122-tm6u50n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923205122-tm6u50n",
+												"updated": "20230923205125"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "{} 类型：描述了一个没有成员的对象"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923205156-nfi39kg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20230923205156-nfi39kg",
+						"updated": "20230923205546"
+					},
+					"Children": [
+						{
+							"ID": "20230923205157-3mpra6h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923205157-3mpra6h",
+								"updated": "20230923205157"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Never 类型"
+								}
+							]
+						},
+						{
+							"ID": "20230923205204-425o3uj",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923205204-425o3uj",
+								"updated": "20230923205546"
+							},
+							"Children": [
+								{
+									"ID": "20230923205159-omv3yff",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923205159-omv3yff"
+									},
+									"Children": [
+										{
+											"ID": "20230923205159-1oib7ka",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923205159-1oib7ka",
+												"updated": "20230923205204"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "never"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型表示的是那些永不存在的值的类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923205322-4yrsoe9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923205322-4yrsoe9"
+									},
+									"Children": [
+										{
+											"ID": "20230923205322-wncvsdd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923205322-wncvsdd",
+												"updated": "20230923205323"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "never"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型是那些总是会抛出异常或根本就不会有返回值的函数表达式或箭头函数表达式的返回值类型"
+												}
+											]
+										},
+										{
+											"ID": "20230923205249-w245xa8",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230923205249-w245xa8",
+												"updated": "20230923205256"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// 返回never的函数必须存在无法达到的终点\nfunction error(message: string): never {\n  throw new Error(message);\n}\n\nfunction infiniteLoop(): never {\n  while (true) {}\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923205314-2n24z31",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923205314-2n24z31"
+									},
+									"Children": [
+										{
+											"ID": "20230923205314-09ecf6l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923205314-09ecf6l",
+												"updated": "20230923205315"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以利用 never 类型的特性来实现全面性检查"
+												}
+											]
+										},
+										{
+											"ID": "20230923205336-1mkpihw",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230923205336-1mkpihw",
+												"updated": "20230923205532"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "type Foo = string | number;\n\nfunction controlFlowAnalysisWithNever(foo: Foo) {\n  if (typeof foo === \"string\") {\n    // 这里 foo 被收窄为 string 类型\n  } else if (typeof foo === \"number\") {\n    // 这里 foo 被收窄为 number 类型\n  } else {\n    // foo 在这里是 never\n    const check: never = foo;\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923205247-d4ostoi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230923205247-d4ostoi",
+										"updated": "20230923205546"
+									},
+									"Children": [
+										{
+											"ID": "20230923205247-kyegfvu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923205247-kyegfvu",
+												"updated": "20230923205546"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用 never 避免出现新增了联合类型没有对应的实现，目的就是写出类型绝对安全的代码"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923135803-eldj5k5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923135803-eldj5k5",
+				"updated": "20230923135803"
+			}
+		},
+		{
+			"ID": "20230923205604-lp9ysa1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923205604-lp9ysa1",
+				"updated": "20230923205610"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 断言"
+				}
+			]
+		},
+		{
+			"ID": "20230923205613-mjm5rg3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923205613-mjm5rg3",
+				"updated": "20230923212622"
+			},
+			"Children": [
+				{
+					"ID": "20230923205620-s862b9p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923205620-s862b9p",
+						"updated": "20230923212622"
+					},
+					"Children": [
+						{
+							"ID": "20230923205621-8xmzehv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923205621-8xmzehv",
+								"updated": "20230923205621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类型断言"
+								}
+							]
+						},
+						{
+							"ID": "20230923205654-l2i87er",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923205654-l2i87er"
+							},
+							"Children": [
+								{
+									"ID": "20230923205654-6meg48v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923205654-6meg48v"
+									},
+									"Children": [
+										{
+											"ID": "20230923205654-8j6jl14",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923205654-8j6jl14",
+												"updated": "20230923205655"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类型断言好比其他语言里的类型转换，但是不进行特殊的数据检查和解构"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923210650-ly6qudh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923210650-ly6qudh"
+									},
+									"Children": [
+										{
+											"ID": "20230923210724-mtnusy2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923210724-mtnusy2",
+												"updated": "20230923210724"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类型断言形式"
+												}
+											]
+										},
+										{
+											"ID": "20230923210724-w3b9ovs",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230923210724-w3b9ovs",
+												"updated": "20230923210724"
+											},
+											"Children": [
+												{
+													"ID": "20230923210724-137ebzm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230923210724-137ebzm",
+														"updated": "20230923210724"
+													},
+													"Children": [
+														{
+															"ID": "20230923210724-tedb0kh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923210724-tedb0kh",
+																"updated": "20230923210724"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "“尖括号” 语法"
+																}
+															]
+														},
+														{
+															"ID": "20230923210724-1fwm9ru",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923210724-1fwm9ru",
+																"updated": "20230923210724"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "let someValue: any = \"this is a string\";\nlet strLength: number = (\u003cstring\u003esomeValue).length;\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230923210724-t1g2r8o",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230923210724-t1g2r8o",
+														"updated": "20230923210724"
+													},
+													"Children": [
+														{
+															"ID": "20230923210724-4p9zy6e",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923210724-4p9zy6e",
+																"updated": "20230923210724"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "as 语法"
+																}
+															]
+														},
+														{
+															"ID": "20230923210724-2izv1nt",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923210724-2izv1nt",
+																"updated": "20230923210724"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "let someValue: any = \"this is a string\";\nlet strLength: number = (someValue as string).length\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923210722-vikau1t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923210722-vikau1t"
+									},
+									"Children": [
+										{
+											"ID": "20230923210734-tv7jc7j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923210734-tv7jc7j",
+												"updated": "20230923210734"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "非空断言"
+												}
+											]
+										},
+										{
+											"ID": "20230923210747-bdalw5a",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230923210747-bdalw5a"
+											},
+											"Children": [
+												{
+													"ID": "20230923210747-juqa65g",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230923210747-juqa65g"
+													},
+													"Children": [
+														{
+															"ID": "20230923210747-rcmwhl8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923210747-rcmwhl8",
+																"updated": "20230923210748"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在上下文中当类型检查器无法断定类型时，一个新的后缀表达式操作符 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "!"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 可以用于断言操作对象是非 null 和非 undefined 类型"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230923210803-661yxqu",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230923210803-661yxqu"
+													},
+													"Children": [
+														{
+															"ID": "20230923210803-tfowz7m",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923210803-tfowz7m",
+																"updated": "20230923210806"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "x! 将从 x 值域中排除 null 和 undefined"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230923210736-tv34jw6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230923210736-tv34jw6"
+													},
+													"Children": [
+														{
+															"ID": "20230923211840-qzceayj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923211840-qzceayj",
+																"updated": "20230923211840"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "忽略 undefined 和 null 类型"
+																}
+															]
+														},
+														{
+															"ID": "20230923211850-th3qjef",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923211850-th3qjef",
+																"updated": "20230923211855"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "function myFunc(maybeString: string | undefined | null) {\n  // Type 'string | null | undefined' is not assignable to type 'string'.\n  // Type 'undefined' is not assignable to type 'string'. \n  const onlyString: string = maybeString; // Error\n  const ignoreUndefinedAndNull: string = maybeString!; // Ok\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230923211842-11n14pf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230923211842-11n14pf"
+													},
+													"Children": [
+														{
+															"ID": "20230923212034-i733gp1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923212034-i733gp1",
+																"updated": "20230923212034"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "调用函数时忽略 undefined 类型"
+																}
+															]
+														},
+														{
+															"ID": "20230923212036-3e4avw3",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923212036-3e4avw3",
+																"updated": "20230923212044"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "type NumGenerator = () =\u003e number;\n\nfunction myFunc(numGenerator: NumGenerator | undefined) {\n  // Object is possibly 'undefined'.(2532)\n  // Cannot invoke an object which is possibly 'undefined'.(2722)\n  const num1 = numGenerator(); // Error\n  const num2 = numGenerator!(); //OK\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923212035-s0r3uqi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230923212035-s0r3uqi"
+									},
+									"Children": [
+										{
+											"ID": "20230923212421-s68ld82",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923212421-s68ld82",
+												"updated": "20230923212421"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "确定赋值断言"
+												}
+											]
+										},
+										{
+											"ID": "20230923212505-pd0sf7x",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230923212505-pd0sf7x"
+											},
+											"Children": [
+												{
+													"ID": "20230923212505-aj8vgyl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230923212505-aj8vgyl"
+													},
+													"Children": [
+														{
+															"ID": "20230923212505-2ilyj83",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923212505-2ilyj83",
+																"updated": "20230923212506"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "允许在实例属性和变量声明后面放置一个 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "!"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 号，从而告诉 TypeScript 该属性会被明确地赋值"
+																}
+															]
+														},
+														{
+															"ID": "20230923212538-r8k4dk0",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923212538-r8k4dk0",
+																"updated": "20230923212604"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "let x!: number;\ninitialize();\nconsole.log(2 * x); // Ok\n\nfunction initialize() {\n  x = 10;\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923210654-v3lbx5a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923210654-v3lbx5a",
+				"updated": "20230923212625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型守卫"
+				}
+			]
+		},
+		{
+			"ID": "20230923212630-byppn14",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923212630-byppn14",
+				"updated": "20230923212638"
+			},
+			"Children": [
+				{
+					"ID": "20230923212638-7zctp4j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923212638-7zctp4j",
+						"updated": "20230923212638"
+					},
+					"Children": [
+						{
+							"ID": "20230923212638-opnrdck",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923212638-opnrdck",
+								"updated": "20230923212642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类型保护是可执行运行时检查的一种表达式，用于确保该类型在一定的范围内"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923212747-lou9z4g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230923212747-lou9z4g"
+					},
+					"Children": [
+						{
+							"ID": "20230923212747-pbo6mt8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923212747-pbo6mt8",
+								"updated": "20230923212756"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "in 关键字"
+								}
+							]
+						},
+						{
+							"ID": "20230923212800-kmdktuo",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923212800-kmdktuo",
+								"updated": "20230923212805"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "interface Admin {\n  name: string;\n  privileges: string[];\n}\n\ninterface Employee {\n  name: string;\n  startDate: Date;\n}\n\ntype UnknownEmployee = Employee | Admin;\n\nfunction printEmployeeInformation(emp: UnknownEmployee) {\n  console.log(\"Name: \" + emp.name);\n  if (\"privileges\" in emp) {\n    console.log(\"Privileges: \" + emp.privileges);\n  }\n  if (\"startDate\" in emp) {\n    console.log(\"Start Date: \" + emp.startDate);\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923212757-4tpeae4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230923212757-4tpeae4"
+					},
+					"Children": [
+						{
+							"ID": "20230923212848-jtupdlx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923212848-jtupdlx",
+								"updated": "20230923212848"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "typeof 关键字"
+								}
+							]
+						},
+						{
+							"ID": "20230923213024-tkdxazn",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923213024-tkdxazn"
+							},
+							"Children": [
+								{
+									"ID": "20230923213024-h7gnt1v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923213024-h7gnt1v"
+									},
+									"Children": [
+										{
+											"ID": "20230923213024-4i314hg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923213024-4i314hg",
+												"updated": "20230923213035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "typeof"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 类型保护只支持两种形式："
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "typeof v === \u0026quot;typename\u0026quot;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "typeof v !== typename"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026quot;typename\u0026quot;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923213135-4o5lrpk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923213135-4o5lrpk"
+									},
+									"Children": [
+										{
+											"ID": "20230923213135-mavp1zs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923213135-mavp1zs",
+												"updated": "20230923213349"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026quot;typename\u0026quot;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 必须是​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "\u0026quot;string\u0026quot; | \u0026quot;number\u0026quot; | \u0026quot;bigint\u0026quot; | \u0026quot;boolean\u0026quot; | \u0026quot;symbol\u0026quot; | \u0026quot;undefined\u0026quot; | \u0026quot;object\u0026quot; | \u0026quot;function\u0026quot;"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923212850-s3vik4r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230923212850-s3vik4r"
+					},
+					"Children": [
+						{
+							"ID": "20230923213553-pbiquu4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923213553-pbiquu4",
+								"updated": "20230923213553"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "instanceof 关键字"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923213555-5te4lyx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230923213555-5te4lyx"
+					},
+					"Children": [
+						{
+							"ID": "20230923213744-1po01lk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923213744-1po01lk",
+								"updated": "20230923213744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义类型保护的类型谓词"
+								}
+							]
+						},
+						{
+							"ID": "20230923213920-c1e0i7y",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923213920-c1e0i7y",
+								"updated": "20230923213934"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function isNumber(x: any): x is number {\n  return typeof x === \"number\";\n}\n\nfunction isString(x: any): x is string {\n  return typeof x === \"string\";\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923214030-c15nrey",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923214030-c15nrey",
+				"updated": "20230923214220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "联合类型"
+				}
+			]
+		},
+		{
+			"ID": "20230923214223-315gpjz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923214223-315gpjz",
+				"updated": "20230923214745"
+			},
+			"Children": [
+				{
+					"ID": "20230923214530-7a2g4ob",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923214530-7a2g4ob"
+					},
+					"Children": [
+						{
+							"ID": "20230923214530-jawyj7f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923214530-jawyj7f",
+								"updated": "20230923214536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "联合类型"
+								}
+							]
+						},
+						{
+							"ID": "20230923214539-ku373i1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923214539-ku373i1"
+							},
+							"Children": [
+								{
+									"ID": "20230923214250-s3lq8fx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923214250-s3lq8fx"
+									},
+									"Children": [
+										{
+											"ID": "20230923214250-ejbzq8k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923214250-ejbzq8k",
+												"updated": "20230923214538"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通常与 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "null"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 或 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "undefined"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 一起使用"
+												}
+											]
+										},
+										{
+											"ID": "20230923214302-2shw0va",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230923214302-2shw0va",
+												"updated": "20230923214307"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const sayHello = (name: string | undefined) =\u003e {\n  /* ... */\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923214301-ro35wwu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230923214301-ro35wwu",
+						"updated": "20230923214745"
+					},
+					"Children": [
+						{
+							"ID": "20230923214511-s28wjxn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923214511-s28wjxn",
+								"updated": "20230923214511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可辨识联合"
+								}
+							]
+						},
+						{
+							"ID": "20230923214557-9b9trha",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923214557-9b9trha",
+								"updated": "20230923214745"
+							},
+							"Children": [
+								{
+									"ID": "20230923214543-pu8h74l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923214543-pu8h74l"
+									},
+									"Children": [
+										{
+											"ID": "20230923214543-ws5xhxm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923214543-ws5xhxm",
+												"updated": "20230923214558"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "TypeScript 可辨识联合（Discriminated Unions）类型，也称为代数数据类型或标签联合类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923214558-3p334l8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"fold": "1",
+										"id": "20230923214558-3p334l8"
+									},
+									"Children": [
+										{
+											"ID": "20230923214558-hjyisd1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923214558-hjyisd1",
+												"updated": "20230923214610"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "包含 3 个要点：可辨识、联合类型和类型守卫"
+												}
+											]
+										},
+										{
+											"ID": "20230923214958-07iwi8a",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230923214958-07iwi8a"
+											},
+											"Children": [
+												{
+													"ID": "20230923214957-ufgkinw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230923214957-ufgkinw"
+													},
+													"Children": [
+														{
+															"ID": "20230923214957-4l8ezez",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923214957-4l8ezez",
+																"updated": "20230923215002"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "可辨识要求联合类型中的每个元素都含有一个单例类型属性"
+																}
+															]
+														},
+														{
+															"ID": "20230923214900-gk9u975",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923214900-gk9u975",
+																"updated": "20230923214925"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "enum CarTransmission {\n  Automatic = 200,\n  Manual = 300\n}\n\ninterface Motorcycle {\n  vType: \"motorcycle\"; // discriminant\n  make: number; // year\n}\n\ninterface Car {\n  vType: \"car\"; // discriminant\n  transmission: CarTransmission\n}\n\ninterface Truck {\n  vType: \"truck\"; // discriminant\n  capacity: number; // in tons\n}\n\n// 定义了 Motorcycle、 Car 和 Truck 三个接口，在这些接口中都包含一个 vType 属性，该属性被称为可辨识的属性\n// 而其它的属性只跟特性的接口相关\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230923215006-zft95km",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230923215006-zft95km"
+													},
+													"Children": [
+														{
+															"ID": "20230923215026-cqdufr5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923215026-cqdufr5",
+																"updated": "20230923215026"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "联合类型"
+																}
+															]
+														},
+														{
+															"ID": "20230923215311-i7wbme7",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923215311-i7wbme7",
+																"updated": "20230923215319"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "type Vehicle = Motorcycle | Car | Truck;\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230923215007-c2o2cfp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230923215007-c2o2cfp"
+													},
+													"Children": [
+														{
+															"ID": "20230923215323-gz9wu5d",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230923215323-gz9wu5d",
+																"updated": "20230923215323"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "类型守卫"
+																}
+															]
+														},
+														{
+															"ID": "20230923215324-q55rg9p",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230923215324-q55rg9p",
+																"updated": "20230923215332"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "const EVALUATION_FACTOR = Math.PI; \n\nfunction evaluatePrice(vehicle: Vehicle) {\n  return vehicle.capacity * EVALUATION_FACTOR;\n}\n\nconst myTruck: Truck = { vType: \"truck\", capacity: 9.5 };\nevaluatePrice(myTruck);\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923214644-5x4kuem",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230923214644-5x4kuem"
+									},
+									"Children": [
+										{
+											"ID": "20230923214644-su6psv0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923214644-su6psv0",
+												"updated": "20230923214645"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "本质是结合联合类型和字面量类型的一种类型保护方法"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923214741-4sjwjnk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230923214741-4sjwjnk",
+										"updated": "20230923214745"
+									},
+									"Children": [
+										{
+											"ID": "20230923214741-44q5slx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923214741-44q5slx",
+												"updated": "20230923214745"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果一个类型是多个类型的联合类型，且多个类型含有一个公共属性，那么就可以利用这个公共属性，来创建不同的类型保护区块"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923214221-ejrvjys",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923214221-ejrvjys",
+				"updated": "20230923214222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型别名"
+				}
+			]
+		},
+		{
+			"ID": "20230923215420-maawez8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923215420-maawez8",
+				"updated": "20230923215510"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "type Message = string | string[];\n\nlet greet = (message: Message) =\u003e {\n  // ...\n}; \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230923214210-abtls59",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923214210-abtls59",
+				"updated": "20230923215941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "交叉类型"
+				}
+			]
+		},
+		{
+			"ID": "20230923214037-tc4es0j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923214037-tc4es0j",
+				"updated": "20230923220805"
+			},
+			"Children": [
+				{
+					"ID": "20230923220010-lybf1m7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923220010-lybf1m7",
+						"updated": "20230923220010"
+					},
+					"Children": [
+						{
+							"ID": "20230923220010-it5c3fc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923220010-it5c3fc",
+								"updated": "20230923220010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将多个类型合并为一个类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923220028-2o5nxe4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230923220028-2o5nxe4"
+					},
+					"Children": [
+						{
+							"ID": "20230923220028-lreoyin",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923220028-lreoyin",
+								"updated": "20230923220028"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026amp;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 运算符可以将现有的多种类型叠加到一起成为一种类型，它包含了所需的所有类型的特性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923220349-xg6tknt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230923220349-xg6tknt"
+					},
+					"Children": [
+						{
+							"ID": "20230923220350-qraqorj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923220350-qraqorj",
+								"updated": "20230923220350"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同名基础类型属性的合并"
+								}
+							]
+						},
+						{
+							"ID": "20230923220355-qwy7rru",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923220355-qwy7rru",
+								"updated": "20230923220610"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "interface X {\n  c: string;\n  d: string;\n}\n\ninterface Y {\n  c: number;\n  e: string\n}\n\ntype XY = X \u0026 Y;\ntype YX = Y \u0026 X;\n\nlet p: XY;\nlet q: YX;\n\n// 混入后成员 c 的类型为 string \u0026 number，即成员 c 的类型既可以是 string 类型又可以是 number 类型\n// 很明显这种类型是不存在的，所以混入后成员 c 的类型为 never\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923220352-c98su21",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230923220352-c98su21",
+						"updated": "20230923220805"
+					},
+					"Children": [
+						{
+							"ID": "20230923220620-at28m97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923220620-at28m97",
+								"updated": "20230923220620"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同名非基础类型属性的合并"
+								}
+							]
+						},
+						{
+							"ID": "20230923220736-lykry5a",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923220736-lykry5a",
+								"updated": "20230923220805"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "interface D { d: boolean; }\ninterface E { e: string; }\ninterface F { f: number; }\n\ninterface A { x: D; }\ninterface B { x: E; }\ninterface C { x: F; }\n\ntype ABC = A \u0026 B \u0026 C;\n\nlet abc: ABC = {\n  x: {\n    d: true,\n    e: 'semlinker',\n    f: 666\n  }\n};\n\n// 在混入多个类型时，若存在相同的成员，且成员类型为非基本数据类型，那么是可以成功合并\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923220821-4l9y2b0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923220821-4l9y2b0",
+				"updated": "20230923220824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 函数"
+				}
+			]
+		},
+		{
+			"ID": "20230923220853-586xkij",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923220853-586xkij",
+				"updated": "20230923220901"
+			},
+			"Children": [
+				{
+					"ID": "20230923220854-h6sok8y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230923220854-h6sok8y",
+						"updated": "20230923220901"
+					},
+					"Children": [
+						{
+							"ID": "20230923220901-18gvmmb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923220901-18gvmmb",
+								"updated": "20230923220901"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TypeScript 函数与 JavaScript 函数的区别"
+								}
+							]
+						},
+						{
+							"ID": "20230923220846-7kqs9ze",
+							"Type": "NodeTable",
+							"TableAligns": [
+								0,
+								0
+							],
+							"Properties": {
+								"colgroup": "|",
+								"id": "20230923220846-7kqs9ze",
+								"updated": "20230923220846"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "TypeScript"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "JavaScript"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "含有类型"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "箭头函数"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "箭头函数（ES2015）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数类型"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无函数类型"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "必填和可选参数"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有参数都是可选的"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认参数"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "剩余参数"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "剩余参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数重载"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无函数重载"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923220848-c24e5tu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923220848-c24e5tu",
+				"updated": "20230923220914"
+			},
+			"Children": [
+				{
+					"ID": "20230923220914-xgp7vcz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230923220914-xgp7vcz",
+						"updated": "20230923220914"
+					},
+					"Children": [
+						{
+							"ID": "20230923220957-8yrcjln",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923220957-8yrcjln",
+								"updated": "20230923220957"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "箭头函数"
+								}
+							]
+						},
+						{
+							"ID": "20230923221044-vxhynip",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923221044-vxhynip",
+								"updated": "20230923221320"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "let IdGenerator: (chars: string, nums: number) =\u003e string\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923221042-i2bjgps",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230923221042-i2bjgps"
+					},
+					"Children": [
+						{
+							"ID": "20230923221355-5xq2o7m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923221355-5xq2o7m",
+								"updated": "20230923221355"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参数类型和返回类型"
+								}
+							]
+						},
+						{
+							"ID": "20230923221404-xpgwiv7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923221404-xpgwiv7",
+								"updated": "20230923221407"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function createUserId(name: string, id: number): string {\n  return name + id;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923221402-1si4z1v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230923221402-1si4z1v"
+					},
+					"Children": [
+						{
+							"ID": "20230923221433-a6aoeo0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923221433-a6aoeo0",
+								"updated": "20230923221433"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可选参数及默认参数"
+								}
+							]
+						},
+						{
+							"ID": "20230923221437-4chjw6j",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923221437-4chjw6j",
+								"updated": "20230923221449"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function createUserId(\n  name: string = \"semlinker\",\n  id: number,\n  age?: number\n): string {\n  return name + id;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923221435-yjsvrzq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230923221435-yjsvrzq"
+					},
+					"Children": [
+						{
+							"ID": "20230923221550-19aysej",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923221550-19aysej",
+								"updated": "20230923221550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "剩余参数"
+								}
+							]
+						},
+						{
+							"ID": "20230923221554-my91nh7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230923221554-my91nh7",
+								"updated": "20230923221601"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function push(array, ...items) {\n  items.forEach(function (item) {\n    array.push(item);\n  });\n}\n\nlet a = [];\npush(a, 1, 2, 3);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230923221551-sf8bocj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230923221551-sf8bocj"
+					},
+					"Children": [
+						{
+							"ID": "20230923221628-rhou0cg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923221628-rhou0cg",
+								"updated": "20230923221628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "函数重载"
+								}
+							]
+						},
+						{
+							"ID": "20230923221817-kp2mbys",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230923221817-kp2mbys"
+							},
+							"Children": [
+								{
+									"ID": "20230923222709-uv6ou3q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230923222709-uv6ou3q"
+									},
+									"Children": [
+										{
+											"ID": "20230923222709-ngnk4r9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923222709-ngnk4r9",
+												"updated": "20230923222718"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数重载或方法重载是使用相同名称和不同参数数量或类型创建多个方法的一种能力"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230923222712-0d72d3j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230923222712-0d72d3j"
+									},
+									"Children": [
+										{
+											"ID": "20230923222712-ik9459r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230923222712-ik9459r",
+												"updated": "20230923222713"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当 TypeScript 编译器处理函数重载时，它会查找重载列表，尝试使用第一个重载定义。 如果匹配的话就使用这个。 因此，在定义重载的时候，一定要把最精确的定义放在最前面"
+												}
+											]
+										},
+										{
+											"ID": "20230923221819-b2y39ji",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230923221819-b2y39ji",
+												"updated": "20230923221901"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "function add(a: number, b: number): number;\nfunction add(a: string, b: string): string;\nfunction add(a: string, b: number): string;\nfunction add(a: number, b: string): string;\nfunction add(a: Combinable, b: Combinable) {\n  // type Combinable = string | number;\n  if (typeof a === 'string' || typeof b === 'string') {\n    return a.toString() + b.toString();\n  }\n  return a + b;\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230923222733-av9uflb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230923222733-av9uflb"
+			}
+		},
+		{
+			"ID": "20230923222742-ak98kwo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230923222742-ak98kwo",
+				"updated": "20230924152917"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 数组"
+				}
+			]
+		},
+		{
+			"ID": "20230924152917-1o3ois0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924152917-1o3ois0",
+				"updated": "20230924152935"
+			},
+			"Children": [
+				{
+					"ID": "20230924152918-l3y6rfu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230924152918-l3y6rfu",
+						"updated": "20230924152918"
+					},
+					"Children": [
+						{
+							"ID": "20230924152922-fsxcpa0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924152922-fsxcpa0",
+								"updated": "20230924152922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组解构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924152923-02w4dtu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230924152923-02w4dtu"
+					},
+					"Children": [
+						{
+							"ID": "20230924152929-d815qsr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924152929-d815qsr",
+								"updated": "20230924152929"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组展开运算符"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924152931-9u23x8i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230924152931-9u23x8i",
+						"updated": "20230924152935"
+					},
+					"Children": [
+						{
+							"ID": "20230924152935-w54ypzu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924152935-w54ypzu",
+								"updated": "20230924152935"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组遍历"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924152941-uc93js3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230924152941-uc93js3",
+				"updated": "20230924152956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 对象"
+				}
+			]
+		},
+		{
+			"ID": "20230924153015-gs1y7wv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924153015-gs1y7wv",
+				"updated": "20230924153056"
+			},
+			"Children": [
+				{
+					"ID": "20230924153016-1qzanyn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230924153016-1qzanyn",
+						"updated": "20230924153016"
+					},
+					"Children": [
+						{
+							"ID": "20230924153018-h5momi7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924153018-h5momi7",
+								"updated": "20230924153018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象解构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924153021-qlq4n7y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230924153021-qlq4n7y",
+						"updated": "20230924153056"
+					},
+					"Children": [
+						{
+							"ID": "20230924153056-yjoyv5t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924153056-yjoyv5t",
+								"updated": "20230924153056"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象展开运算符"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924153106-c3aseix",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230924153106-c3aseix",
+				"updated": "20230924153114"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 接口"
+				}
+			]
+		},
+		{
+			"ID": "20230924153218-kztntz0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924153218-kztntz0",
+				"updated": "20230924160835"
+			},
+			"Children": [
+				{
+					"ID": "20230924153218-60n1fow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230924153218-60n1fow",
+						"updated": "20230924153218"
+					},
+					"Children": [
+						{
+							"ID": "20230924153218-es2w2ks",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924153218-es2w2ks",
+								"updated": "20230924153219"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口是一个很重要的概念，它是对行为的抽象，而具体如何行动需要由类去实现"
+								}
+							]
+						},
+						{
+							"ID": "20230924155613-q3dr2xu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230924155613-q3dr2xu",
+								"updated": "20230924155852"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "interface Person {\n  name: string;\n  age?: number;\n  readonly gender: string;\n  [propName: string]: any;\n}\n\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924160134-ba9xc42",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230924160134-ba9xc42",
+						"updated": "20230924160835"
+					},
+					"Children": [
+						{
+							"ID": "20230924160134-abwdgit",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924160134-abwdgit",
+								"updated": "20230924160235"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Extend"
+								}
+							]
+						},
+						{
+							"ID": "20230924160252-lm1nnmk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230924160252-lm1nnmk",
+								"updated": "20230924160835"
+							},
+							"Children": [
+								{
+									"ID": "20230924160235-c9o8uo5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230924160235-c9o8uo5"
+									},
+									"Children": [
+										{
+											"ID": "20230924160235-g5zqbcb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924160235-g5zqbcb",
+												"updated": "20230924160253"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接口和类型别名都能够被扩展，但语法有所不同"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924160254-t3u7uly",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230924160254-t3u7uly",
+										"updated": "20230924160835"
+									},
+									"Children": [
+										{
+											"ID": "20230924160254-w5y56wu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924160254-w5y56wu",
+												"updated": "20230924160300"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接口和类型别名不是互斥的。接口可以扩展类型别名，而反过来是不行的"
+												}
+											]
+										},
+										{
+											"ID": "20230924160515-9ny0inl",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230924160515-9ny0inl",
+												"updated": "20230924160835"
+											},
+											"Children": [
+												{
+													"ID": "20230924160402-0uf0dd6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230924160402-0uf0dd6"
+													},
+													"Children": [
+														{
+															"ID": "20230924160515-1g6swlf",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230924160515-1g6swlf",
+																"updated": "20230924160515"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "Interface extends interface"
+																}
+															]
+														},
+														{
+															"ID": "20230924160526-3q4ba9b",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230924160526-3q4ba9b",
+																"updated": "20230924160538"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "interface PartialPointX { x: number; }\ninterface Point extends PartialPointX { \n  y: number; \n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230924160524-1qp40bg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230924160524-1qp40bg"
+													},
+													"Children": [
+														{
+															"ID": "20230924160524-wyrzjcv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230924160524-wyrzjcv",
+																"updated": "20230924160601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "Type alias extends type alias"
+																}
+															]
+														},
+														{
+															"ID": "20230924160605-avfw5ty",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230924160605-avfw5ty",
+																"updated": "20230924160612"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "type PartialPointX = { x: number; };\ntype Point = PartialPointX \u0026 { y: number; };\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230924160602-jznbch5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230924160602-jznbch5"
+													},
+													"Children": [
+														{
+															"ID": "20230924160602-kxum6ya",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230924160602-kxum6ya",
+																"updated": "20230924160701"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "Interface extends type alias"
+																}
+															]
+														},
+														{
+															"ID": "20230924160711-newbzc9",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230924160711-newbzc9",
+																"updated": "20230924160716"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "type PartialPointX = { x: number; };\ninterface Point extends PartialPointX { y: number; }\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230924160708-kj75soe",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230924160708-kj75soe",
+														"updated": "20230924160835"
+													},
+													"Children": [
+														{
+															"ID": "20230924160708-wpjlyjc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230924160708-wpjlyjc",
+																"updated": "20230924160818"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "Type alias extends interface"
+																}
+															]
+														},
+														{
+															"ID": "20230924160826-71gt7ck",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230924160826-71gt7ck",
+																"updated": "20230924160835"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "interface PartialPointX { x: number; }\ntype Point = PartialPointX \u0026 { y: number; };\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924155854-542gre4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924155854-542gre4",
+				"updated": "20230924161058"
+			},
+			"Children": [
+				{
+					"ID": "20230924160855-pcb2pqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230924160855-pcb2pqt",
+						"updated": "20230924161058"
+					},
+					"Children": [
+						{
+							"ID": "20230924160921-0zgh347",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924160921-0zgh347",
+								"updated": "20230924160921"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Implements"
+								}
+							]
+						},
+						{
+							"ID": "20230924160929-5sowgo0",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230924160929-5sowgo0",
+								"updated": "20230924161058"
+							},
+							"Children": [
+								{
+									"ID": "20230924160929-4hc5fhw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230924160929-4hc5fhw",
+										"updated": "20230924161058"
+									},
+									"Children": [
+										{
+											"ID": "20230924160929-ch4errp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924160929-ch4errp",
+												"updated": "20230924160937"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类可以以相同的方式实现接口或类型别名，但类不能实现使用类型别名定义的联合类型"
+												}
+											]
+										},
+										{
+											"ID": "20230924161054-iedo9j4",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230924161054-iedo9j4",
+												"updated": "20230924161058"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "interface Point {\n  x: number;\n  y: number;\n}\n\nclass SomePoint implements Point {\n  x = 1;\n  y = 2;\n}\n\ntype Point2 = {\n  x: number;\n  y: number;\n};\n\nclass SomePoint2 implements Point2 {\n  x = 1;\n  y = 2;\n}\n\ntype PartialPoint = { x: number; } | { y: number; };\n\n// A class can only implement an object type or \n// intersection of object types with statically known members.\nclass SomePartialPoint implements PartialPoint { // Error\n  x = 1;\n  y = 2;\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924161100-mes50nj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924161100-mes50nj",
+				"updated": "20230924161156"
+			},
+			"Children": [
+				{
+					"ID": "20230924161102-adxf6ci",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230924161102-adxf6ci",
+						"updated": "20230924161156"
+					},
+					"Children": [
+						{
+							"ID": "20230924161115-6j9f887",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161115-6j9f887",
+								"updated": "20230924161115"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Declaration merging"
+								}
+							]
+						},
+						{
+							"ID": "20230924161128-tex468s",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230924161128-tex468s",
+								"updated": "20230924161156"
+							},
+							"Children": [
+								{
+									"ID": "20230924161127-mrs496v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230924161127-mrs496v",
+										"updated": "20230924161156"
+									},
+									"Children": [
+										{
+											"ID": "20230924161127-54o7mf4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924161127-54o7mf4",
+												"updated": "20230924161143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "与类型别名不同，接口可以定义多次，会被自动合并为单个接口"
+												}
+											]
+										},
+										{
+											"ID": "20230924161146-f0tptzq",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230924161146-f0tptzq",
+												"updated": "20230924161156"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "interface Point { x: number; }\ninterface Point { y: number; }\n\nconst point: Point = { x: 1, y: 2 };\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924161228-9t7zl9m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230924161228-9t7zl9m",
+				"updated": "20230924161230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 类"
+				}
+			]
+		},
+		{
+			"ID": "20230924161352-h4atzfv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924161352-h4atzfv",
+				"updated": "20230924161459"
+			},
+			"Children": [
+				{
+					"ID": "20230924161352-u2gvymr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230924161352-u2gvymr",
+						"updated": "20230924161352"
+					},
+					"Children": [
+						{
+							"ID": "20230924161352-gpjzhta",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161352-gpjzhta",
+								"updated": "20230924161414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类的属性和方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161414-ot4byyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230924161414-ot4byyz"
+					},
+					"Children": [
+						{
+							"ID": "20230924161414-l10okvx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161414-l10okvx",
+								"updated": "20230924161428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "私有字段"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161428-d97y5fi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230924161428-d97y5fi"
+					},
+					"Children": [
+						{
+							"ID": "20230924161428-713z2xw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161428-713z2xw",
+								"updated": "20230924161435"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "访问器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161435-ipip5d6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230924161435-ipip5d6"
+					},
+					"Children": [
+						{
+							"ID": "20230924161435-yb9wviz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161435-yb9wviz",
+								"updated": "20230924161444"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类的继承"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161444-nc13l6s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230924161444-nc13l6s"
+					},
+					"Children": [
+						{
+							"ID": "20230924161444-i9p7n8n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161444-i9p7n8n",
+								"updated": "20230924161450"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161450-3ofjcev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230924161450-3ofjcev",
+						"updated": "20230924161459"
+					},
+					"Children": [
+						{
+							"ID": "20230924161450-w95niud",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161450-w95niud",
+								"updated": "20230924161459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类方法重载"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924161236-70hsy98",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230924161236-70hsy98",
+				"updated": "20230924161347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 泛型"
+				}
+			]
+		},
+		{
+			"ID": "20230924161505-w9hixfx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230924161505-w9hixfx",
+				"updated": "20230924162910"
+			},
+			"Children": [
+				{
+					"ID": "20230924161555-2vsnhi2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230924161555-2vsnhi2",
+						"updated": "20230924161555"
+					},
+					"Children": [
+						{
+							"ID": "20230924161555-pj7jxjd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161555-pj7jxjd",
+								"updated": "20230924161555"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "泛型（Generics）是允许同一个函数接受不同类型参数的一种模板"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161556-opvk03w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230924161556-opvk03w"
+					},
+					"Children": [
+						{
+							"ID": "20230924161556-jjov9i2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924161556-jjov9i2",
+								"updated": "20230924161937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语法"
+								}
+							]
+						},
+						{
+							"ID": "20230924161949-b9og4p6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230924161949-b9og4p6",
+								"updated": "20230924162102"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function identity \u003cT, U\u003e(value: T, message: U) : T {\n  console.log(message);\n  return value;\n}\n\n// 为类型变量显式设定值\nidentity\u003cNumber, string\u003e(68, \"Semlinker\")\n\n// 使编译器自动选择这些类型，从而使代码更简洁\nidentity(68, \"Semlinker\")\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924161945-pfvivye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230924161945-pfvivye"
+					},
+					"Children": [
+						{
+							"ID": "20230924162120-efqj5op",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924162120-efqj5op",
+								"updated": "20230924162120"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "泛型接口"
+								}
+							]
+						},
+						{
+							"ID": "20230924162126-yrfho52",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230924162126-yrfho52",
+								"updated": "20230924162133"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "interface GenericIdentityFn\u003cT\u003e {\n  (arg: T): T;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924162124-ii3o2b3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230924162124-ii3o2b3",
+						"updated": "20230924162228"
+					},
+					"Children": [
+						{
+							"ID": "20230924162200-1q40g5g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924162200-1q40g5g",
+								"updated": "20230924162200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "泛型类"
+								}
+							]
+						},
+						{
+							"ID": "20230924162207-pos7c29",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230924162207-pos7c29",
+								"updated": "20230924162228"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "class GenericNumber\u003cT\u003e {\n  zeroValue: T;\n  add: (x: T, y: T) =\u003e T;\n}\n\nlet myGenericNumber = new GenericNumber\u003cnumber\u003e();\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924162203-29o6i4j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230924162203-29o6i4j",
+						"updated": "20230924162910"
+					},
+					"Children": [
+						{
+							"ID": "20230924162428-l06djno",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924162428-l06djno",
+								"updated": "20230924162428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "泛型工具类型"
+								}
+							]
+						},
+						{
+							"ID": "20230924162433-jr8ej2m",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230924162433-jr8ej2m",
+								"updated": "20230924162910"
+							},
+							"Children": [
+								{
+									"ID": "20230924162622-sn7baxo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230924162622-sn7baxo"
+									},
+									"Children": [
+										{
+											"ID": "20230924162622-djvt13o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162622-djvt13o",
+												"updated": "20230924162625"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "typeof"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162625-uxlb5h1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230924162625-uxlb5h1"
+									},
+									"Children": [
+										{
+											"ID": "20230924162625-94chuxf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162625-94chuxf",
+												"updated": "20230924162855"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "keyof"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162856-n63suek",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230924162856-n63suek"
+									},
+									"Children": [
+										{
+											"ID": "20230924162856-1qnnpah",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162856-1qnnpah",
+												"updated": "20230924162859"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "in"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162859-nquwrrw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230924162859-nquwrrw"
+									},
+									"Children": [
+										{
+											"ID": "20230924162859-q0wltsm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162859-q0wltsm",
+												"updated": "20230924162904"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "infer"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162908-tsbk3zp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230924162908-tsbk3zp",
+										"updated": "20230924162910"
+									},
+									"Children": [
+										{
+											"ID": "20230924162908-xsxldzi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162908-xsxldzi",
+												"updated": "20230924162910"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "extends"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162432-txtzn0c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20230924162432-txtzn0c"
+									},
+									"Children": [
+										{
+											"ID": "20230924162432-l6mthax",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162432-l6mthax",
+												"updated": "20230924162440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Partial"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162441-8xe1b2i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20230924162441-8xe1b2i"
+									},
+									"Children": [
+										{
+											"ID": "20230924162441-k41b37t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162441-k41b37t",
+												"updated": "20230924162447"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Required"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162448-ous8at1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20230924162448-ous8at1"
+									},
+									"Children": [
+										{
+											"ID": "20230924162448-aoc1z2z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162448-aoc1z2z",
+												"updated": "20230924162452"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Readonly"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162458-huirjrq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20230924162458-huirjrq"
+									},
+									"Children": [
+										{
+											"ID": "20230924162458-djutsi0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162458-djutsi0",
+												"updated": "20230924162504"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Record"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924162453-or6ez2i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MTAu",
+										"Num": 10
+									},
+									"Properties": {
+										"id": "20230924162453-or6ez2i"
+									},
+									"Children": [
+										{
+											"ID": "20230924162453-7bq5nsp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924162453-7bq5nsp",
+												"updated": "20230924162511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ReturnType"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924162950-8nxxv1z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230924162950-8nxxv1z",
+				"updated": "20230924162952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript 装饰器"
+				}
+			]
+		},
+		{
+			"ID": "20230924162958-65avi8b",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230924162958-65avi8b",
+				"updated": "20230924163004"
+			},
+			"Children": [
+				{
+					"ID": "20230924163004-e5k8ftr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230924163004-e5k8ftr",
+						"updated": "20230924163004"
+					},
+					"Children": [
+						{
+							"ID": "20230924163004-pfqf2gq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924163004-pfqf2gq",
+								"updated": "20230924163009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念"
+								}
+							]
+						},
+						{
+							"ID": "20230924163108-1rzqgry",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230924163108-1rzqgry",
+								"updated": "20230924163108"
+							},
+							"Children": [
+								{
+									"ID": "20230924163108-fxl5pq0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230924163108-fxl5pq0",
+										"updated": "20230924163108"
+									},
+									"Children": [
+										{
+											"ID": "20230924163108-ii1jz6g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163108-ii1jz6g",
+												"updated": "20230924163108"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "它是一个表达式"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924163108-57fsi57",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230924163108-57fsi57",
+										"updated": "20230924163108"
+									},
+									"Children": [
+										{
+											"ID": "20230924163108-xbil262",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163108-xbil262",
+												"updated": "20230924163108"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "该表达式被执行后，返回一个函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924163108-jvv2ed2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230924163108-jvv2ed2",
+										"updated": "20230924163108"
+									},
+									"Children": [
+										{
+											"ID": "20230924163108-7qf3wrh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163108-7qf3wrh",
+												"updated": "20230924163108"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数的入参分别为 target、name 和 descriptor"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924163108-og9mhrb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230924163108-og9mhrb",
+										"updated": "20230924163108"
+									},
+									"Children": [
+										{
+											"ID": "20230924163108-pfz2657",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163108-pfz2657",
+												"updated": "20230924163108"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "执行该函数后，可能返回 descriptor 对象，用于配置 target 对象"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230924163115-mnum2gv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230924163115-mnum2gv"
+					},
+					"Children": [
+						{
+							"ID": "20230924163115-jntuo9e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230924163115-jntuo9e",
+								"updated": "20230924163240"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分类"
+								}
+							]
+						},
+						{
+							"ID": "20230924163247-3oejdxa",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230924163247-3oejdxa",
+								"updated": "20230924163247"
+							},
+							"Children": [
+								{
+									"ID": "20230924163247-9ajsehd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230924163247-9ajsehd",
+										"updated": "20230924163247"
+									},
+									"Children": [
+										{
+											"ID": "20230924163247-ij5a29a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163247-ij5a29a",
+												"updated": "20230924163247"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类装饰器（Class decorators）"
+												}
+											]
+										},
+										{
+											"ID": "20230924164925-r3mhc6b",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230924164925-r3mhc6b",
+												"updated": "20230924164929"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "declare type ClassDecorator = \u003cTFunction extends Function\u003e(\n  target: TFunction\n) =\u003e TFunction | void;\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230924163412-tj7a8op",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230924163412-tj7a8op",
+												"updated": "20230924164850"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "function Greeter(greeting: string) {\n  return function (target: Function) {\n    target.prototype.greet = function (): void {\n      console.log(greeting);\n    };\n  };\n}\n\n@Greeter(\"Hello TS!\")\nclass Greeting {\n  constructor() {\n    // 内部实现\n  }\n}\n\nlet myGreeting = new Greeting();\n(myGreeting as any).greet(); // console output: 'Hello TS!';\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924163247-v0nonfz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230924163247-v0nonfz",
+										"updated": "20230924163247"
+									},
+									"Children": [
+										{
+											"ID": "20230924163247-xb2hsro",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163247-xb2hsro",
+												"updated": "20230924163247"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "属性装饰器（Property decorators）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924163247-vljij1v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230924163247-vljij1v",
+										"updated": "20230924163247"
+									},
+									"Children": [
+										{
+											"ID": "20230924163247-i2y0n5y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163247-i2y0n5y",
+												"updated": "20230924163247"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "方法装饰器（Method decorators）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230924163247-rcdgavp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230924163247-rcdgavp",
+										"updated": "20230924163247"
+									},
+									"Children": [
+										{
+											"ID": "20230924163247-xkoqyv4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230924163247-xkoqyv4",
+												"updated": "20230924163247"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "参数装饰器（Parameter decorators）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230924163143-z5s5n09",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230924163143-z5s5n09"
+			}
+		}
+	]
+}

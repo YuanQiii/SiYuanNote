@@ -14,7 +14,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"fold": "1",
 				"id": "20230628144128-zkfh7x6",
 				"updated": "20230628144130"
 			},
@@ -32,8 +31,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230628143558-450fy1h"
 			},
 			"Children": [

@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230906145915-kalxewp",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230906145915-kalxewp\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230906145915-j680wst\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230906150929-pxbrpb2\u0026quot;,\u0026quot;scrollTop\u0026quot;:2314.81494140625,\u0026quot;focusId\u0026quot;:\u0026quot;20230923140116-ogf631q\u0026quot;,\u0026quot;focusStart\u0026quot;:44,\u0026quot;focusEnd\u0026quot;:44}",
 		"title": "Vue3中Hooks",
-		"updated": "20230907143039"
+		"updated": "20230923140125"
 	},
 	"Children": [
 		{
@@ -1866,7 +1867,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230906150929-pxbrpb2",
-				"updated": "20230907091709"
+				"updated": "20230923140125"
 			},
 			"Children": [
 				{
@@ -1979,34 +1980,65 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20230906151452-228sqtf",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20230906151452-228sqtf",
-				"updated": "20230907142928"
-			},
-			"Children": [
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  、="
-				}
-			]
-		},
-		{
-			"ID": "20230907142928-9a2d9s9",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20230907142928-9a2d9s9",
-				"updated": "20230907143038"
-			},
-			"Children": [
+					"ID": "20230923140107-98msyqf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230923140107-98msyqf"
+					},
+					"Children": [
+						{
+							"ID": "20230923140107-krn7ssv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140107-krn7ssv",
+								"updated": "20230923140115"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7165467345648320520",
+									"TextMarkTextContent": "这样封装列表 hooks,一天可以开发 20 个页面 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "、"
+					"ID": "20230923140116-bj81c8a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230923140116-bj81c8a",
+						"updated": "20230923140125"
+					},
+					"Children": [
+						{
+							"ID": "20230923140116-ogf631q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230923140116-ogf631q",
+								"updated": "20230923140125"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7181712900094951483",
+									"TextMarkTextContent": "【vue3】写hook三天，治好了我的组件封装强迫症。 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
 				}
 			]
 		}

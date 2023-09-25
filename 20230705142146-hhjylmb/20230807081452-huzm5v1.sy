@@ -4,7 +4,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230807081452-huzm5v1",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230807085648-ivh03ul\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230807085648-ivh03ul\u0026quot;,\u0026quot;scrollTop\u0026quot;:0\u0026#125;",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230823204415-qrj2w5b\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
 		"title": "前端首页加载优化",
 		"updated": "20230825080829"
 	},
@@ -502,6 +502,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202454-s45tz2w",
 				"updated": "20230824104617"
 			},
@@ -757,6 +759,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202735-bvugzlr",
 				"updated": "20230823205724"
 			},
@@ -1154,6 +1158,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-0jsfr1o",
 				"updated": "20230825080829"
 			},
@@ -3211,6 +3217,8 @@
 			"ID": "20230823202905-4yzcs65",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-4yzcs65",
 				"updated": "20230823213316"
 			},
@@ -3225,6 +3233,8 @@
 			"ID": "20230823213319-bjklcea",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823213319-bjklcea"
 			}
 		},
@@ -3232,6 +3242,8 @@
 			"ID": "20230823202905-702grhz",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-702grhz"
 			}
 		},
@@ -3239,6 +3251,8 @@
 			"ID": "20230823202905-7ywhdjv",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-7ywhdjv"
 			}
 		},
@@ -3246,6 +3260,8 @@
 			"ID": "20230823202905-ikpqsxv",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-ikpqsxv"
 			}
 		},
@@ -3253,6 +3269,8 @@
 			"ID": "20230823202905-hkwhui4",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-hkwhui4"
 			}
 		},
@@ -3260,6 +3278,8 @@
 			"ID": "20230823202905-sfchyh0",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-sfchyh0"
 			}
 		},
@@ -3267,6 +3287,8 @@
 			"ID": "20230823202905-c8lzvaf",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-c8lzvaf"
 			}
 		},
@@ -3274,6 +3296,8 @@
 			"ID": "20230823202905-x86irro",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-x86irro"
 			}
 		},
@@ -3281,6 +3305,8 @@
 			"ID": "20230823202905-qern31e",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-qern31e"
 			}
 		},
@@ -3288,6 +3314,8 @@
 			"ID": "20230823202905-at203kr",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-at203kr"
 			}
 		},
@@ -3295,6 +3323,8 @@
 			"ID": "20230823202905-pnpvpjs",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-pnpvpjs"
 			}
 		},
@@ -3302,6 +3332,8 @@
 			"ID": "20230823202905-qii25fs",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-qii25fs"
 			}
 		},
@@ -3309,6 +3341,8 @@
 			"ID": "20230823202905-ooa2j2v",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-ooa2j2v"
 			}
 		},
@@ -3316,6 +3350,8 @@
 			"ID": "20230823202905-3qokhuo",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-3qokhuo"
 			}
 		},
@@ -3323,6 +3359,8 @@
 			"ID": "20230823202905-g5aaybg",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230823202905-g5aaybg"
 			}
 		},
