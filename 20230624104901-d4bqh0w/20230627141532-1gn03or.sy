@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230627141532-1gn03or",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230627141532-1gn03or\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230628144128-zkfh7x6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230629102937-s1z0bgt\u0026quot;,\u0026quot;scrollTop\u0026quot;:5449,\u0026quot;focusId\u0026quot;:\u0026quot;20230628204423-a32o9ia\u0026quot;,\u0026quot;focusStart\u0026quot;:11,\u0026quot;focusEnd\u0026quot;:11}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230627141532-1gn03or\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230628144128-zkfh7x6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230718215833-qnmlu1t\u0026quot;,\u0026quot;scrollTop\u0026quot;:611\u0026#125;",
 		"title": "TypeScript",
-		"updated": "20230718215833"
+		"updated": "20230927111402"
 	},
 	"Children": [
 		{
@@ -2034,6 +2034,151 @@
 								{
 									"Type": "NodeText",
 									"Data": "在对 any 类型的值执行操作之前，我们不必进行任何检查"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230927111200-dsru0ap",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20230927111200-dsru0ap",
+				"updated": "20230927111201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何将 unknown 类型指定为一个更具体的类型"
+				}
+			]
+		},
+		{
+			"ID": "20230927111217-3hqdwsr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230927111217-3hqdwsr",
+				"updated": "20230927111402"
+			},
+			"Children": [
+				{
+					"ID": "20230927111220-z08jxpp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230927111220-z08jxpp",
+						"updated": "20230927111225"
+					},
+					"Children": [
+						{
+							"ID": "20230927111225-0gn5i1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230927111225-0gn5i1c",
+								"updated": "20230927111225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 typeof 进行类型判断（这些缩小类型范围的技术都有助于TS基于控制流程下的类型分析）"
+								}
+							]
+						},
+						{
+							"ID": "20230927111321-3vek0g4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230927111321-3vek0g4",
+								"updated": "20230927111328"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "  function unknownToString(value: unknown): string {\n    if (typeof value === \"string\") {\n     return value;\n    }\n  \n    return String(value);\n  }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230927111236-cf9q52k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230927111236-cf9q52k",
+						"updated": "20230927111402"
+					},
+					"Children": [
+						{
+							"ID": "20230927111240-o460ofv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230927111240-o460ofv",
+								"updated": "20230927111240"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对 unknown 类型使用类型断言"
+								}
+							]
+						},
+						{
+							"ID": "20230927111341-w6ticmh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230927111341-w6ticmh",
+								"updated": "20230927111402"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "  const value: unknown = \"Hello World\";\n  const foo: string = value; // Error\n  const bar: string = value as string; // OK\n\n  // 断言错了时语法能通过检测，但是运行的时候就会报错了\n  const value: unknown = \"Hello World\";\n  const bar: number = value as number; // runtime Error\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
 								}
 							]
 						}

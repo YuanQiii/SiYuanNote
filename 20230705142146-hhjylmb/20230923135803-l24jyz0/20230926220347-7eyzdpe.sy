@@ -1,0 +1,39 @@
+{
+	"ID": "20230926220347-7eyzdpe",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230926220347-7eyzdpe",
+		"title": "tsinterfac...",
+		"updated": "20230926220347"
+	},
+	"Children": [
+		{
+			"ID": "20230926220347-6sjdx8s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230926220347-6sjdx8s",
+				"updated": "20230926220347"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "interface GenericIdentityFn\u003cT\u003e {\n  (arg: T): T;\n} \nconst returnItem: ReturnItemFn\u003cnumber\u003e = para =\u003e para\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}
