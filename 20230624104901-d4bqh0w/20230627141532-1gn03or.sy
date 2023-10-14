@@ -4,7 +4,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230627141532-1gn03or",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230627141532-1gn03or\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230628144128-zkfh7x6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230718215833-qnmlu1t\u0026quot;,\u0026quot;scrollTop\u0026quot;:611\u0026#125;",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230627141532-1gn03or\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230628144128-zkfh7x6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230718215833-qnmlu1t\u0026quot;,\u0026quot;scrollTop\u0026quot;:610.6666870117188,\u0026quot;focusId\u0026quot;:\u0026quot;20230628144128-zkfh7x6\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "TypeScript",
 		"updated": "20230927111402"
 	},

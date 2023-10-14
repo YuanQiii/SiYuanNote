@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230927142224-4h05l44",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230927142224-4h05l44\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230927145046-mgsuqz7\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230927142246-5ahtgre\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230927142224-ej86end\u0026quot;,\u0026quot;focusStart\u0026quot;:2,\u0026quot;focusEnd\u0026quot;:2\u0026#125;",
 		"title": "WebSocket",
-		"updated": "20230928115636"
+		"updated": "20231010221310"
 	},
 	"Children": [
 		{
@@ -13,6 +14,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230927145046-mgsuqz7",
 				"updated": "20230927145053"
 			},
@@ -30,6 +32,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230927145053-72ilc9o",
 				"updated": "20230927192323"
 			},
@@ -320,6 +324,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230927192328-iw6wrrx",
 				"updated": "20230927192500"
 			},
@@ -524,6 +530,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230927192328-5c9tptt",
 				"updated": "20230927192603"
 			},
@@ -541,8 +548,10 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230927192328-zcx0mox",
-				"updated": "20230928115636"
+				"updated": "20231010104525"
 			},
 			"Children": [
 				{
@@ -673,7 +682,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 异常"
+													"Data": "​​​ 异常"
 												}
 											]
 										},
@@ -1523,7 +1532,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20230927223100-qdw9qt4",
-								"updated": "20230928115636"
+								"updated": "20231010102901"
 							},
 							"Children": [
 								{
@@ -1536,7 +1545,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "      44444// 监听连接成功事件\n      socket.addEventListener(\"open\", function (event) {\n        console.log(\"连接成功，可以开始通讯\");\n      });\n\n"
+									"Data": "      // 监听连接成功事件\n      socket.addEventListener(\"open\", function (event) {\n        console.log(\"连接成功，可以开始通讯\");\n      });\n\n"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1556,19 +1565,183 @@
 						"Num": 6
 					},
 					"Properties": {
-						"id": "20230927215122-i08h0no"
+						"id": "20230927215122-i08h0no",
+						"updated": "20231010104525"
 					},
 					"Children": [
 						{
 							"ID": "20230927215122-l1xuvnx",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230927215122-l1xuvnx"
+								"id": "20230927215122-l1xuvnx",
+								"updated": "20231010104525"
 							}
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20231010104209-qst5u9h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231010104209-qst5u9h"
+			}
+		},
+		{
+			"ID": "20231010104213-tlp0y15",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231010104213-tlp0y15",
+				"updated": "20231010104220"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const ws = require(\"nodejs-websocket\")\n// 创建一个服务server,每次用户链接，函数就会被执行，并给当前用户创建一个connect对象\nconst server = ws.createServer(connect =\u003e {\n    // 每当接收到用户传递过来的数据，就会触发text事件，并传入数据\n    connect.on(\"text\", data =\u003e {\n        // 给用户响应数据\n        // connect.sendText(data.toUpperCase()+\"!!!\") //转换大小写并并拼接字符串\n        connect.send(data)\n    })\n\n    //监听websocket断开链接\n    connect.on(\"close\", () =\u003e {\n        console.log(\"websocket连接断开....\")\n    })\n\n    //监听websocket异常信息\n    connect.on(\"error\", () =\u003e {\n        console.log(\"websocket连接异常....\")\n    })\n})\nserver.listen(3000, () =\u003e {\n    console.log(\"websocket running\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20231010104531-1kbrnnk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231010104531-1kbrnnk",
+				"updated": "20231010104539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "心跳机制"
+				}
+			]
+		},
+		{
+			"ID": "20231010221052-cnqtoz3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231010221052-cnqtoz3",
+				"updated": "20231010221310"
+			},
+			"Children": [
+				{
+					"ID": "20231010221053-qkev7g3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231010221053-qkev7g3",
+						"updated": "20231010221053"
+					},
+					"Children": [
+						{
+							"ID": "20231010221053-pvazq99",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231010221053-pvazq99",
+								"updated": "20231010221119"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "客户端每隔一段时间向服务端发送一个特有的心跳消息，每次服务端收到消息后只需将消息返回"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231010221120-jk07okv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231010221120-jk07okv"
+					},
+					"Children": [
+						{
+							"ID": "20231010221120-ppadgci",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231010221120-ppadgci",
+								"updated": "20231010221125"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "此时，若二者还保持连接，则客户端就会收到消息，若没收到，则说明连接断开，此时，客户端就要主动重连，完成一个周期"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231010221126-pxzodpu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231010221126-pxzodpu",
+						"updated": "20231010221310"
+					},
+					"Children": [
+						{
+							"ID": "20231010221126-x9q81lc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231010221126-x9q81lc",
+								"updated": "20231010221310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只需在第一次连接时用回调函数做延时处理，此时还需要设置一个心跳超时时间，若某时间段内客户端发送了消息，而服务端未返回，则认定为断线"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231010104540-ukgju91",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231010104540-ukgju91"
+			}
 		},
 		{
 			"ID": "20230927142224-ej86end",
