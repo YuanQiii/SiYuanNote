@@ -1,0 +1,3042 @@
+{
+	"ID": "20231014204443-00hymwd",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231014204443-00hymwd",
+		"title": "航模飞行原理",
+		"updated": "20231015232146"
+	},
+	"Children": [
+		{
+			"ID": "20231014214534-nxt8sw6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231014214534-nxt8sw6",
+				"updated": "20231014214537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "航模"
+				}
+			]
+		},
+		{
+			"ID": "20231014214537-ukh3hzh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231014214537-ukh3hzh",
+				"updated": "20231014214705"
+			},
+			"Children": [
+				{
+					"ID": "20231014214539-8uivqar",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231014214539-8uivqar",
+						"updated": "20231014214539"
+					},
+					"Children": [
+						{
+							"ID": "20231014214539-3wpgh4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014214539-3wpgh4i",
+								"updated": "20231014214559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念"
+								}
+							]
+						},
+						{
+							"ID": "20231015164040-sbebh2u",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015164040-sbebh2u"
+							},
+							"Children": [
+								{
+									"ID": "20231015164040-kzwor1a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015164040-kzwor1a"
+									},
+									"Children": [
+										{
+											"ID": "20231015164215-viuklsv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015164215-viuklsv",
+												"updated": "20231015164600"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "航模是航空模型的简称，是各种航空器模型的总称，包括模型飞机和其他模型飞行器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015164611-33e8sox",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015164611-33e8sox"
+									},
+									"Children": [
+										{
+											"ID": "20231015164611-9p7hvpb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015164611-9p7hvpb",
+												"updated": "20231015164843"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "航模同时及空气动力、电子、机械、无线电、材料、工艺、结构力学、气象、测量等多种学科为一体的综合性超强的一项运动"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015215648-pk70lmj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231015215648-pk70lmj"
+					},
+					"Children": [
+						{
+							"ID": "20231015215648-cvde50i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015215648-cvde50i",
+								"updated": "20231015215652"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "好处"
+								}
+							]
+						},
+						{
+							"ID": "20231015215649-ay3jutv",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015215649-ay3jutv",
+								"updated": "20231015215649"
+							},
+							"Children": [
+								{
+									"ID": "20231015164915-z8bv1td",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015164915-z8bv1td"
+									},
+									"Children": [
+										{
+											"ID": "20231015164915-q23hf8t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015164915-q23hf8t",
+												"updated": "20231015165031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在玩儿中就能学习航模理论基础、动手制作、操控、空气动力、固定翼飞机原理等知识"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015165039-ewkirr8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015165039-ewkirr8"
+									},
+									"Children": [
+										{
+											"ID": "20231015165039-u4ly166",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015165039-u4ly166",
+												"updated": "20231015165801"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果深入还将掌握到维修、调整、特技、操控、竞技赛事技巧、实际应用、无线电基础等知识和技能"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015170307-6nmmrbc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231015170307-6nmmrbc"
+									},
+									"Children": [
+										{
+											"ID": "20231015170307-lbjcjmx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015170307-lbjcjmx",
+												"updated": "20231015170358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "玩航模急要动手又要动脑，玩中学，学中玩，非常有趣"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015170444-mmevs3p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231015170444-mmevs3p"
+									},
+									"Children": [
+										{
+											"ID": "20231015170444-jw6pvmc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015170444-jw6pvmc",
+												"updated": "20231015170707"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在摆弄模型的过程中，这中间不仅有利于各种知识的积累，还能持续锻炼手眼脑协调力、自主学习力、动手能力、创造力、应变力、独立解决问题的能力"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015215723-lyj5s72",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231015215723-lyj5s72",
+										"updated": "20231015215723"
+									},
+									"Children": [
+										{
+											"ID": "20231015215723-0e3prf8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015215723-0e3prf8",
+												"updated": "20231015215723"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "纸飞机，飞行梦，航模是以恶搞很好的载体"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015215723-t40bmw7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231015215723-t40bmw7",
+										"updated": "20231015215723"
+									},
+									"Children": [
+										{
+											"ID": "20231015215723-12fu3bv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015215723-12fu3bv",
+												"updated": "20231015215723"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在孩子的心中埋下一颗科技的种子，由爱好兴趣驱动的原生动力是相当有用的"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015215723-v5y96x7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20231015215723-v5y96x7",
+										"updated": "20231015215723"
+									},
+									"Children": [
+										{
+											"ID": "20231015215723-9tb01b6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015215723-9tb01b6",
+												"updated": "20231015215723"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让同学们有一个自主的创意设计"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015215723-ds7mz6e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20231015215723-ds7mz6e",
+										"updated": "20231015215723"
+									},
+									"Children": [
+										{
+											"ID": "20231015215723-x6eylgy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015215723-x6eylgy",
+												"updated": "20231015215723"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有的飞行器都是从模型开始的，1903莱特兄弟的第一架飞机"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015215723-wgwcdes",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20231015215723-wgwcdes",
+										"updated": "20231015215723"
+									},
+									"Children": [
+										{
+											"ID": "20231015215723-g7tn6nb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015215723-g7tn6nb",
+												"updated": "20231015215723"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "航空模型与空中巨无霸空客380、安225飞行原理完全一致"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014214559-jacohxl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231014214559-jacohxl",
+						"updated": "20231014214705"
+					},
+					"Children": [
+						{
+							"ID": "20231014214559-dzfxaru",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014214559-dzfxaru",
+								"updated": "20231014214648"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分类"
+								}
+							]
+						},
+						{
+							"ID": "20231014214649-da57a8d",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231014214649-da57a8d",
+								"updated": "20231014214705"
+							},
+							"Children": [
+								{
+									"ID": "20231014214648-jk3tlr0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231014214648-jk3tlr0"
+									},
+									"Children": [
+										{
+											"ID": "20231014214648-lqx9x9p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014214648-lqx9x9p",
+												"updated": "20231014214651"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "固定翼"
+												}
+											]
+										},
+										{
+											"ID": "20231015171242-asjov1w",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015171242-asjov1w"
+											},
+											"Children": [
+												{
+													"ID": "20231015171242-iun7gju",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015171242-iun7gju"
+													},
+													"Children": [
+														{
+															"ID": "20231015171242-tpn01uo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015171242-tpn01uo",
+																"updated": "20231015171246"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "电动滑翔机"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014214652-0yvzmnn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231014214652-0yvzmnn"
+									},
+									"Children": [
+										{
+											"ID": "20231014214652-1s1egz5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014214652-1s1egz5",
+												"updated": "20231014214654"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "直升机"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014214654-h1hsibq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231014214654-h1hsibq",
+										"updated": "20231014214705"
+									},
+									"Children": [
+										{
+											"ID": "20231014214654-pau3flm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014214654-pau3flm",
+												"updated": "20231014214705"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "多旋翼"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231014204859-bt9abrj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231014204859-bt9abrj",
+				"updated": "20231015215757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "航模组成结构"
+				}
+			]
+		},
+		{
+			"ID": "20231015221508-xhjb27l",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231015221508-xhjb27l",
+				"updated": "20231015221509"
+			},
+			"Children": [
+				{
+					"ID": "20231015221509-jben71g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231015221509-jben71g",
+						"updated": "20231015221509"
+					},
+					"Children": [
+						{
+							"ID": "20231015221509-fut9if4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015221509-fut9if4",
+								"updated": "20231015221533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "机身"
+								}
+							]
+						},
+						{
+							"ID": "20231015221959-xx04osy",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015221959-xx04osy"
+							},
+							"Children": [
+								{
+									"ID": "20231015221959-mqj2z55",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015221959-mqj2z55"
+									},
+									"Children": [
+										{
+											"ID": "20231015221959-5wykn0y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015221959-5wykn0y",
+												"updated": "20231015222053"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将模型的各个部分连接成为一个整体的主干部分"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222053-h6cjsvc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015222053-h6cjsvc"
+									},
+									"Children": [
+										{
+											"ID": "20231015222053-va6hbmz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222053-va6hbmz",
+												"updated": "20231015222115"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以装载电装等设备"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015221533-fapfe51",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231015221533-fapfe51"
+					},
+					"Children": [
+						{
+							"ID": "20231015221533-pim5m42",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015221533-pim5m42",
+								"updated": "20231015221653"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主翼"
+								}
+							]
+						},
+						{
+							"ID": "20231015222219-k3zrxyk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015222219-k3zrxyk"
+							},
+							"Children": [
+								{
+									"ID": "20231015222219-khjtka5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015222219-khjtka5"
+									},
+									"Children": [
+										{
+											"ID": "20231015222219-xr2uz6g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222219-xr2uz6g",
+												"updated": "20231015222330"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模型飞机飞行时产生升力的装置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222331-lumua01",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015222331-lumua01"
+									},
+									"Children": [
+										{
+											"ID": "20231015222331-24bgjcr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222331-24bgjcr",
+												"updated": "20231015222405"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "并能够保持航模飞行时的横侧安定"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015221653-0dq5lbn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231015221653-0dq5lbn"
+					},
+					"Children": [
+						{
+							"ID": "20231015221653-ojkatir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015221653-ojkatir",
+								"updated": "20231015221703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尾翼"
+								}
+							]
+						},
+						{
+							"ID": "20231015222413-ulryznf",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015222413-ulryznf"
+							},
+							"Children": [
+								{
+									"ID": "20231015222413-p7w1rxe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015222413-p7w1rxe"
+									},
+									"Children": [
+										{
+											"ID": "20231015222413-lip23uq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222413-lip23uq",
+												"updated": "20231015222433"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "包括平尾和垂尾两部分"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222433-4rto46n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015222433-4rto46n"
+									},
+									"Children": [
+										{
+											"ID": "20231015222433-tag7q2a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222433-tag7q2a",
+												"updated": "20231015222507"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "平尾保持飞机飞行时的俯仰安定"
+												}
+											]
+										},
+										{
+											"ID": "20231015222714-ain6zq5",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015222714-ain6zq5"
+											},
+											"Children": [
+												{
+													"ID": "20231015222713-v7f6dfv",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015222713-v7f6dfv"
+													},
+													"Children": [
+														{
+															"ID": "20231015222713-df8qv4p",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015222713-df8qv4p",
+																"updated": "20231015222817"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "升降舵控制航模升降"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222512-a6ahgu6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231015222512-a6ahgu6"
+									},
+									"Children": [
+										{
+											"ID": "20231015222512-yd7w9kh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222512-yd7w9kh",
+												"updated": "20231015222533"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "垂尾保持飞机飞行时的方向安定"
+												}
+											]
+										},
+										{
+											"ID": "20231015222819-umktntl",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015222819-umktntl"
+											},
+											"Children": [
+												{
+													"ID": "20231015222818-7ixe0v0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015222818-7ixe0v0"
+													},
+													"Children": [
+														{
+															"ID": "20231015222818-7hikz6r",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015222818-7hikz6r",
+																"updated": "20231015222838"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "方向舵控制航模飞行方向"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015221704-5o0kf5z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231015221704-5o0kf5z"
+					},
+					"Children": [
+						{
+							"ID": "20231015221704-aiqh3wj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015221704-aiqh3wj",
+								"updated": "20231015221722"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "起落架系统"
+								}
+							]
+						},
+						{
+							"ID": "20231015222856-1zplg7i",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015222856-1zplg7i"
+							},
+							"Children": [
+								{
+									"ID": "20231015222855-hkuufdc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015222855-hkuufdc"
+									},
+									"Children": [
+										{
+											"ID": "20231015222855-ce8kcex",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222855-ce8kcex",
+												"updated": "20231015222911"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "分为前三点和后三点布局"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015223714-y1j2wp8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20231015223714-y1j2wp8"
+					},
+					"Children": [
+						{
+							"ID": "20231015223714-yejwhsg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015223714-yejwhsg",
+								"updated": "20231015223718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "电子设备"
+								}
+							]
+						},
+						{
+							"ID": "20231015223723-6fn2vph",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015223723-6fn2vph"
+							},
+							"Children": [
+								{
+									"ID": "20231015222926-c2ozm85",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015222926-c2ozm85"
+									},
+									"Children": [
+										{
+											"ID": "20231015222926-4ikf4y2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222926-4ikf4y2",
+												"updated": "20231015222940"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "遥控器"
+												}
+											]
+										},
+										{
+											"ID": "20231015224436-2tgmmhd",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015224436-2tgmmhd"
+											},
+											"Children": [
+												{
+													"ID": "20231015224436-povbtbg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015224436-povbtbg"
+													},
+													"Children": [
+														{
+															"ID": "20231015224436-oxfoq6i",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015224436-oxfoq6i",
+																"updated": "20231015224440"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "控制飞机"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222941-uskwrzu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015222941-uskwrzu"
+									},
+									"Children": [
+										{
+											"ID": "20231015222941-67wwrmn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222941-67wwrmn",
+												"updated": "20231015222947"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接收机"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222950-x4mtlnd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231015222950-x4mtlnd"
+									},
+									"Children": [
+										{
+											"ID": "20231015222950-d6elbdg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222950-d6elbdg",
+												"updated": "20231015222954"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "电子调速器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015222954-eicmiqt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231015222954-eicmiqt"
+									},
+									"Children": [
+										{
+											"ID": "20231015222954-y2aqehq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015222954-y2aqehq",
+												"updated": "20231015223000"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "电机"
+												}
+											]
+										},
+										{
+											"ID": "20231015225126-8jw5trt",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015225126-8jw5trt"
+											},
+											"Children": [
+												{
+													"ID": "20231015225126-cmwwv0h",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015225126-cmwwv0h"
+													},
+													"Children": [
+														{
+															"ID": "20231015225126-hj1wm33",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015225126-hj1wm33",
+																"updated": "20231015225136"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "无刷电机"
+																}
+															]
+														},
+														{
+															"ID": "20231015225143-712n3l6",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20231015225143-712n3l6"
+															},
+															"Children": [
+																{
+																	"ID": "20231015225143-xsccb3a",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20231015225143-xsccb3a"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20231015225143-a9lw5w2",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20231015225143-a9lw5w2",
+																				"updated": "20231015225201"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "螺旋桨电机"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20231015225148-wp48msc",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20231015225148-wp48msc"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20231015225148-hd7y2bu",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20231015225148-hd7y2bu",
+																				"updated": "20231015225157"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "涵道电机"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015223002-ai573yq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231015223002-ai573yq"
+									},
+									"Children": [
+										{
+											"ID": "20231015223002-alovt7v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015223002-alovt7v",
+												"updated": "20231015223003"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "电池"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015223006-s20u1wq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231015223006-s20u1wq"
+									},
+									"Children": [
+										{
+											"ID": "20231015223006-7gn6n7j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015223006-7gn6n7j",
+												"updated": "20231015223011"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "舵机"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015224409-nyzhied",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20231015224409-nyzhied"
+									},
+									"Children": [
+										{
+											"ID": "20231015224409-qfwiwfv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015224409-qfwiwfv",
+												"updated": "20231015224416"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "电池"
+												}
+											]
+										},
+										{
+											"ID": "20231015225733-rzrneb9",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015225733-rzrneb9"
+											},
+											"Children": [
+												{
+													"ID": "20231015225733-8whnvqk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015225733-8whnvqk"
+													},
+													"Children": [
+														{
+															"ID": "20231015225733-42167u8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015225733-42167u8",
+																"updated": "20231015225801"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "聚合物电池，非南孚电池"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015224416-sqfek4i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20231015224416-sqfek4i"
+									},
+									"Children": [
+										{
+											"ID": "20231015224416-i9zbpru",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015224416-i9zbpru",
+												"updated": "20231015224422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "充电器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015223417-1zmgy1k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20231015223417-1zmgy1k"
+									},
+									"Children": [
+										{
+											"ID": "20231015223417-lqm0l9p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015223417-lqm0l9p",
+												"updated": "20231015223421"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "流程"
+												}
+											]
+										},
+										{
+											"ID": "20231015223422-3o7bqpy",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231015223422-3o7bqpy"
+											},
+											"Children": [
+												{
+													"ID": "20231015223421-3jerxj3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231015223421-3jerxj3"
+													},
+													"Children": [
+														{
+															"ID": "20231015223421-n8fzyt0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223421-n8fzyt0",
+																"updated": "20231015223433"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "遥控器发射信号"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231015223436-jlqie3r",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231015223436-jlqie3r"
+													},
+													"Children": [
+														{
+															"ID": "20231015223436-5fcc8en",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223436-5fcc8en",
+																"updated": "20231015223450"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "接收机接收信号"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231015223459-sib3giv",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20231015223459-sib3giv"
+													},
+													"Children": [
+														{
+															"ID": "20231015223459-ml1e4r8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223459-ml1e4r8",
+																"updated": "20231015223513"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "信号传给舵机"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231015223513-2a24q8h",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20231015223513-2a24q8h"
+													},
+													"Children": [
+														{
+															"ID": "20231015223513-bt1ia8f",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223513-bt1ia8f",
+																"updated": "20231015223544"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "舵机拉着舵面改变飞行姿态"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231015223613-lgog59n",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20231015223613-lgog59n"
+													},
+													"Children": [
+														{
+															"ID": "20231015223613-07c5wyw",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223613-07c5wyw",
+																"updated": "20231015223626"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "信号传给电调"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231015223626-r0ub8gm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20231015223626-r0ub8gm"
+													},
+													"Children": [
+														{
+															"ID": "20231015223626-4qqnkl0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223626-4qqnkl0",
+																"updated": "20231015223640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "电调控制电机"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231015223646-p6rxlut",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ny4=",
+														"Num": 7
+													},
+													"Properties": {
+														"id": "20231015223646-p6rxlut"
+													},
+													"Children": [
+														{
+															"ID": "20231015223646-vmieuk5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231015223646-vmieuk5",
+																"updated": "20231015223703"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "电机带着螺旋桨改变飞机动力"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231015232356-8v8opku",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231015232356-8v8opku",
+				"updated": "20231015232407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "航模组装"
+				}
+			]
+		},
+		{
+			"ID": "20231015230114-2j7oz1g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231015230114-2j7oz1g",
+				"updated": "20231015230123"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "起飞前注意事项"
+				}
+			]
+		},
+		{
+			"ID": "20231015230138-1goh5tu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231015230138-1goh5tu",
+				"updated": "20231015232146"
+			},
+			"Children": [
+				{
+					"ID": "20231015230139-gv1a915",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231015230139-gv1a915",
+						"updated": "20231015230139"
+					},
+					"Children": [
+						{
+							"ID": "20231015230139-93rhc1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015230139-93rhc1a",
+								"updated": "20231015230141"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "环境"
+								}
+							]
+						},
+						{
+							"ID": "20231015230213-ycf3ij4",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015230213-ycf3ij4"
+							},
+							"Children": [
+								{
+									"ID": "20231015230213-znbjddq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015230213-znbjddq"
+									},
+									"Children": [
+										{
+											"ID": "20231015230213-4ozcjyc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230213-4ozcjyc",
+												"updated": "20231015230251"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "场景开阔、晴朗无风或小风"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015230141-xw3lwx9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231015230141-xw3lwx9"
+					},
+					"Children": [
+						{
+							"ID": "20231015230141-qbv5k5g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015230141-qbv5k5g",
+								"updated": "20231015230147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "飞手"
+								}
+							]
+						},
+						{
+							"ID": "20231015230305-k7xte7b",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015230305-k7xte7b"
+							},
+							"Children": [
+								{
+									"ID": "20231015230305-6j0b789",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015230305-6j0b789"
+									},
+									"Children": [
+										{
+											"ID": "20231015230305-geq0ej5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230305-geq0ej5",
+												"updated": "20231015230317"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "宁可炸机不伤人"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015230148-9mv1kb0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231015230148-9mv1kb0",
+						"updated": "20231015232146"
+					},
+					"Children": [
+						{
+							"ID": "20231015230148-dt2yc5z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015230148-dt2yc5z",
+								"updated": "20231015230150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "飞机"
+								}
+							]
+						},
+						{
+							"ID": "20231015230355-m686jk6",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231015230355-m686jk6",
+								"updated": "20231015232146"
+							},
+							"Children": [
+								{
+									"ID": "20231015230355-men3arw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231015230355-men3arw"
+									},
+									"Children": [
+										{
+											"ID": "20231015230355-cgnd3du",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230355-cgnd3du",
+												"updated": "20231015230409"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设备检查"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015230413-flaf2n5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231015230413-flaf2n5"
+									},
+									"Children": [
+										{
+											"ID": "20231015230413-ir8ue03",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230413-ir8ue03",
+												"updated": "20231015230424"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "遥控器是否正常"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015230425-krr5jvy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231015230425-krr5jvy"
+									},
+									"Children": [
+										{
+											"ID": "20231015230425-wq3lhmd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230425-wq3lhmd",
+												"updated": "20231015230444"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "飞机电池是否有电"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015230447-zujoyy5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231015230447-zujoyy5"
+									},
+									"Children": [
+										{
+											"ID": "20231015230447-bx4v6wk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230447-bx4v6wk",
+												"updated": "20231015230516"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "电池是否绑紧"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015230524-d0t8o0k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231015230524-d0t8o0k"
+									},
+									"Children": [
+										{
+											"ID": "20231015230524-bu1e83f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230524-bu1e83f",
+												"updated": "20231015230545"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "飞机重心是否正常"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015230545-m721a0y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231015230545-m721a0y"
+									},
+									"Children": [
+										{
+											"ID": "20231015230545-jf2l6y6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230545-jf2l6y6",
+												"updated": "20231015230643"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "螺旋桨方向是否正常，是否拧紧"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015230657-uowemz5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20231015230657-uowemz5"
+									},
+									"Children": [
+										{
+											"ID": "20231015230657-w8tbijl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015230657-w8tbijl",
+												"updated": "20231015230700"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "飞机拉杆"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231015232116-267e9hx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20231015232116-267e9hx",
+										"updated": "20231015232146"
+									},
+									"Children": [
+										{
+											"ID": "20231015232116-iuwf076",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231015232116-iuwf076",
+												"updated": "20231015232146"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "舵面是否正常"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231014204907-2u24mez",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231014204907-2u24mez",
+				"updated": "20231014204915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "飞行原理"
+				}
+			]
+		},
+		{
+			"ID": "20231014204803-356i5v2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231014204803-356i5v2",
+				"updated": "20231014204803"
+			},
+			"Children": [
+				{
+					"ID": "20231014211124-aivgwy5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231014211124-aivgwy5"
+					},
+					"Children": [
+						{
+							"ID": "20231014211124-e3cdyua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014211124-e3cdyua",
+								"updated": "20231014211426"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当远前方来流流经翼型时，在翼型前缘被分成上下两股，流经翼型上表面气流流管收缩，面积减小，速度增加,压力减小；流经翼型下表面气流流管扩张，面积增加，速度减小，压力增大，上下表面出现的压力差，在垂直于（远前方）相对气流方向的分量，就是升力"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014211428-vmnwksb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231014211428-vmnwksb"
+					},
+					"Children": [
+						{
+							"ID": "20231014211428-w9ya4rw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014211428-w9ya4rw",
+								"updated": "20231014211451"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "升力的大小与作用于翼型上下表面的压力分布有关"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014205107-5m28ht2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231014205107-5m28ht2"
+					},
+					"Children": [
+						{
+							"ID": "20231014205107-omw5uni",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014205107-omw5uni",
+								"updated": "20231014205113"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "伯努利原理"
+								}
+							]
+						},
+						{
+							"ID": "20231014205115-3y7vy3e",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231014205115-3y7vy3e"
+							},
+							"Children": [
+								{
+									"ID": "20231014204803-qv4p9ay",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231014204803-qv4p9ay",
+										"updated": "20231014204803"
+									},
+									"Children": [
+										{
+											"ID": "20231014204803-78vygvx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014204803-78vygvx",
+												"updated": "20231014205117"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "飞机上升是根据伯努利原理，即流体（包括炝骱退流）的流速越大，其压强越小；流速越小，其压强越大"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014205118-qkrmndm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231014205118-qkrmndm"
+									},
+									"Children": [
+										{
+											"ID": "20231014205118-13xm9vz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014205118-13xm9vz",
+												"updated": "20231014205136"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是流体力学中的一个定律，由瑞士流体物理学家丹尼尔·伯努利于1738年出版他的理论《Hydrodynamica》，描述流体沿着一条稳定、非黏性、不可压缩的流线移动行为。 伯努利原理往往被表述为p+1/2ρv2+ρgh=C，这个式子被称为伯努利方程。式中p为流体中某点的压强，v为流体该点的流速，ρ为流体密度，g为重力加速度，h为该点所在高度，C是一个常量。它也可以被表述为p1+1/2ρv12+ρgh1=p2+1/2ρv22+ρgh2。 需要注意的是，由于伯努利方程是由机械能守恒推导出的，所以它仅适用于粘度可以忽略、不可被压缩的理想流体"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014204819-zwgwnc6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231014204819-zwgwnc6"
+									},
+									"Children": [
+										{
+											"ID": "20231014204819-wnulo7b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014204819-wnulo7b",
+												"updated": "20231014204848"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "飞机的机翼做成的形状就可以使通过它机翼下方的流速低于上方的流速，从而产生了机翼上、下方的压强差（即下方的压强大于上方的压强），因此就有了一个升力，这个压强差（或者说是升力的大小）与飞机的前进速度有关"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014210405-fpxvc3q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231014210405-fpxvc3q"
+									},
+									"Children": [
+										{
+											"ID": "20231014210405-x219z68",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014210405-x219z68",
+												"updated": "20231014210406"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "主要原因但并非唯一原因"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014210012-illgqcw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231014210012-illgqcw"
+					},
+					"Children": [
+						{
+							"ID": "20231014210012-sabhqq4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014210012-sabhqq4",
+								"updated": "20231014210013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "压强差产生原因"
+								}
+							]
+						},
+						{
+							"ID": "20231014210019-bd0tut6",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231014210019-bd0tut6"
+							},
+							"Children": [
+								{
+									"ID": "20231014210019-f55k9fd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231014210019-f55k9fd"
+									},
+									"Children": [
+										{
+											"ID": "20231014210019-43mg1u7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014210019-43mg1u7",
+												"updated": "20231014210056"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "等时效应：机翼上表面路程比下表面长，而气流要同时到达机翼后缘，所以上表面流速要比下表面流速快。这个好像有点道理，不过等等，凭什么说气流要同时到达机翼后缘？这种假设根本站不住脚，【等时效应】早已被实验证明是错误的"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014210057-cteiofe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231014210057-cteiofe"
+									},
+									"Children": [
+										{
+											"ID": "20231014210057-r1wdui3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014210057-r1wdui3",
+												"updated": "20231014210135"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "管道效应：机翼上下假想有一管道，由于机翼上凸下平的结构，导致上流通管道比下管道更窄，所以上表面流速比下表面流速大。这种解释显然对空气特性理解不够，气体扰动是以声速传播的，管道效应确实有，但这个假想的管道大到以声速为边界，收缩引起的加速可以忽略不计了"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014210136-g6d3r1w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231014210136-g6d3r1w"
+									},
+									"Children": [
+										{
+											"ID": "20231014210136-mnem5yh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014210136-mnem5yh",
+												"updated": "20231014210206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "打水漂理论：其实就是流体冲击下表面形成压力，合力向上的分量就是升力，这是风筝的主要升力来源。但这种方法效率很低，会造成很大的阻力(合力向后的分量)，对飞机来说不实用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014205341-u4ehcrp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20231014205341-u4ehcrp"
+					},
+					"Children": [
+						{
+							"ID": "20231014205341-chl9bfc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014205341-chl9bfc",
+								"updated": "20231014205401"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连续性定理"
+								}
+							]
+						},
+						{
+							"ID": "20231014211008-0rjbrb4",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231014211008-0rjbrb4"
+							},
+							"Children": [
+								{
+									"ID": "20231014211008-njhag3q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231014211008-njhag3q"
+									},
+									"Children": [
+										{
+											"ID": "20231014211008-kvfhr1m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014211008-kvfhr1m",
+												"updated": "20231014211050"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "流过机翼上表面的气流比流过下表面的气速度快"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014205619-z1rdsx4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20231014205619-z1rdsx4"
+					},
+					"Children": [
+						{
+							"ID": "20231014205619-rfdukin",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014205619-rfdukin",
+								"updated": "20231014205621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "误解"
+								}
+							]
+						},
+						{
+							"ID": "20231014205622-w97qv8j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231014205622-w97qv8j"
+							},
+							"Children": [
+								{
+									"ID": "20231014205621-3ubkgpq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231014205621-3ubkgpq"
+									},
+									"Children": [
+										{
+											"ID": "20231014205621-ycjdqgf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231014205621-ycjdqgf",
+												"updated": "20231014205632"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不完全是压强差让飞机飞起来的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014210236-3gp4o0y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20231014210236-3gp4o0y"
+					},
+					"Children": [
+						{
+							"ID": "20231014210236-2or3h7j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014210236-2or3h7j",
+								"updated": "20231014213437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "库塔茹科夫斯基条件：由于机翼刚开始有迎角运动，下翼面距离比上翼面短，于是不可能同时到达后缘，因此下翼面会绕过后缘流向上翼面，这时，就形成了逆时针的涡，根据涡守恒，气流会产生一个顺时针的涡，在顺时针涡的作用下，上翼面流速增大，相应的两涡强度减小，最终上下两气流在后缘交汇，涡消失，从而造成了稳定飞行时，上下气流必然交汇于后缘、"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231014213437-rsf1137",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231014213437-rsf1137",
+				"updated": "20231014213453"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PPT素材"
+				}
+			]
+		},
+		{
+			"ID": "20231014213447-4ijzqkz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231014213447-4ijzqkz",
+				"updated": "20231014213449"
+			},
+			"Children": [
+				{
+					"ID": "20231014213449-96unjlo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231014213449-96unjlo",
+						"updated": "20231014213449"
+					},
+					"Children": [
+						{
+							"ID": "20231014213449-seqj6hs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014213449-seqj6hs",
+								"updated": "20231014213458"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "起风了"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014213459-55d22bh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231014213459-55d22bh"
+					},
+					"Children": [
+						{
+							"ID": "20231014213459-ylcgkgq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014213459-ylcgkgq"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231014204449-64iuzxy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231014204449-64iuzxy",
+				"updated": "20231014204751"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20231014204751-i93o621",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20231014204751-i93o621",
+				"updated": "20231015222602"
+			},
+			"Children": [
+				{
+					"ID": "20231014204759-m21n9v2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231014204759-m21n9v2",
+						"updated": "20231014204759"
+					},
+					"Children": [
+						{
+							"ID": "20231014204759-8ao71f2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014204759-8ao71f2",
+								"updated": "20231014204759"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zhuanlan.zhihu.com/p/164777456",
+									"TextMarkTextContent": "飞机飞行的原理图解 - 知乎 (zhihu.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014205445-jtyq6tr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231014205445-jtyq6tr",
+						"updated": "20231014205446"
+					},
+					"Children": [
+						{
+							"ID": "20231014205445-wepn0ac",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231014205445-wepn0ac",
+								"updated": "20231014205446"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bilibili.com/video/BV1Hz4y1R7ES/?vd_source=12c88b6ff1c14757e3f14da4eebd5286",
+									"TextMarkTextContent": "飞机是如何飞起来的，看完就明白了，飞机升力的原理_哔哩哔哩_bilibili"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231015222601-6mcp3pr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231015222601-6mcp3pr",
+						"updated": "20231015222602"
+					},
+					"Children": [
+						{
+							"ID": "20231015222601-mgmrjwb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231015222601-mgmrjwb",
+								"updated": "20231015222602"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bilibili.com/video/BV1xF411L7QW/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=12c88b6ff1c14757e3f14da4eebd5286",
+									"TextMarkTextContent": "如何安装调试一架航模飞机？【固定翼飞手6】航模入门教程_哔哩哔哩_bilibili"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231014204443-vrecbrn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231014204443-vrecbrn",
+				"updated": "20231014204443"
+			}
+		}
+	]
+}
