@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230906145915-kalxewp",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230906145915-kalxewp\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230906145915-j680wst\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230906150929-pxbrpb2\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230906145915-j680wst\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230906145915-kalxewp\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230906145915-j680wst\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230906150929-pxbrpb2\u0026quot;,\u0026quot;scrollTop\u0026quot;:0\u0026#125;",
 		"title": "Vue3中Hooks",
-		"updated": "20230923140125"
+		"updated": "20231024222713"
 	},
 	"Children": [
 		{
@@ -14,6 +14,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230906145915-j680wst",
 				"updated": "20230906150615"
 			},
@@ -31,6 +32,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230906150619-l5212ch",
 				"updated": "20230907094205"
 			},
@@ -754,6 +757,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230906151839-r4xh5nt",
 				"updated": "20230906151839"
 			},
@@ -771,6 +775,8 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230906151506-mj7tvxk",
 				"updated": "20230907143039"
 			},
@@ -1847,6 +1853,51 @@
 			]
 		},
 		{
+			"ID": "20231019172955-3qtwl44",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20231019172955-3qtwl44",
+				"updated": "20231019173006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "弹窗封装"
+				}
+			]
+		},
+		{
+			"ID": "20231019173020-40okefp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20231019173020-40okefp",
+				"updated": "20231019173025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "表格封装"
+				}
+			]
+		},
+		{
+			"ID": "20231024222646-5xzed8r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231024222646-5xzed8r",
+				"updated": "20231024222713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列表封装"
+				}
+			]
+		},
+		{
 			"ID": "20230906160427-e372990",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -1867,7 +1918,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230906150929-pxbrpb2",
-				"updated": "20230923140125"
+				"updated": "20231019200855"
 			},
 			"Children": [
 				{
@@ -2035,6 +2086,36 @@
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://juejin.cn/post/7181712900094951483",
 									"TextMarkTextContent": "【vue3】写hook三天，治好了我的组件封装强迫症。 - 掘金 (juejin.cn)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231019200854-kp1o5a9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231019200854-kp1o5a9",
+						"updated": "20231019200855"
+					},
+					"Children": [
+						{
+							"ID": "20231019200854-r6ayl5i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231019200854-r6ayl5i",
+								"updated": "20231019200855"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://juejin.cn/post/7256471433893724218?searchId=2023101919405101469F12E984A68B13CC",
+									"TextMarkTextContent": "Vue Hooks: 让Vue开发更简单与高效 - 掘金 (juejin.cn)"
 								}
 							]
 						}

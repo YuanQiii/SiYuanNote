@@ -1,0 +1,115 @@
+{
+	"ID": "20231117182055-v8wjtdr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231117182055-v8wjtdr",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231117182055-v8wjtdr\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231117182055-jbweh9k\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231117182055-jbweh9k\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231117182410-354bilv\u0026quot;,\u0026quot;focusStart\u0026quot;:9,\u0026quot;focusEnd\u0026quot;:9\u0026#125;",
+		"title": "炒嫩南瓜",
+		"updated": "20231117182531"
+	},
+	"Children": [
+		{
+			"ID": "20231117182055-jbweh9k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231117182055-jbweh9k",
+				"updated": "20231117182531"
+			},
+			"Children": [
+				{
+					"ID": "20231117182227-r9ufq04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231117182227-r9ufq04",
+						"updated": "20231117182227"
+					},
+					"Children": [
+						{
+							"ID": "20231117182227-4wzjfl7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231117182227-4wzjfl7",
+								"updated": "20231117182310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个嫩南瓜切丝"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231117182310-wjv0yef",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231117182310-wjv0yef"
+					},
+					"Children": [
+						{
+							"ID": "20231117182310-yv17k4d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231117182310-yv17k4d",
+								"updated": "20231117182636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加盐抓拌均匀腌制10分钟后挤干水分"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231117182410-qbbyeme",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231117182410-qbbyeme",
+						"updated": "20231117182531"
+					},
+					"Children": [
+						{
+							"ID": "20231117182410-354bilv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231117182410-354bilv",
+								"updated": "20231117182531"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "姜丝、小米辣、蒜末"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

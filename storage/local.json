@@ -15,7 +15,18 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "DOM操作",
+      "DOM",
+      "闭包",
+      "apply",
+      "this",
+      "new",
+      "构造函数",
+      "原型",
+      "包装对象",
       "",
+      "库塔",
+      "起动涡",
       "nvue",
       "base64",
       "requestAnimationFrame ",
@@ -35,6 +46,6 @@
     "row": "",
     "rowTab": ""
   },
-  "local-zoom": 0.9,
+  "local-zoom": 1.1,
   "pink-room-color-href": "/appearance/themes/pink-room/config/橙色系界面.css"
 }

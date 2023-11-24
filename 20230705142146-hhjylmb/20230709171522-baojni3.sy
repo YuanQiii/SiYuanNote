@@ -4,7 +4,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230709171522-baojni3",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230709171522-baojni3\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230709171537-bkx8lrj\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230709171537-i73dotj\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230709171537-bkx8lrj\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230709171522-baojni3\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230709171537-bkx8lrj\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230709171553-1j0pw0r\u0026quot;,\u0026quot;scrollTop\u0026quot;:579.6363525390625,\u0026quot;focusId\u0026quot;:\u0026quot;20230709171537-bkx8lrj\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "Vue2与Vue3区别",
 		"updated": "20230709171628"
 	},
@@ -14,6 +14,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230709171537-bkx8lrj",
 				"updated": "20230709171537"
 			},
@@ -29,6 +30,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230709171537-ox2ufuw",
 				"updated": "20230709171537"
 			},
@@ -44,6 +47,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-2b5xuf5",
 				"updated": "20230709171537"
 			},
@@ -59,6 +63,7 @@
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-8jqcic3",
 				"updated": "20230709171537"
 			},
@@ -71,6 +76,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-abb9eih",
 						"updated": "20230709171537"
 					},
@@ -79,6 +85,7 @@
 							"ID": "20230709171537-9f9bvl5",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-9f9bvl5",
 								"updated": "20230709171537"
 							},
@@ -144,6 +151,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-noadu5j",
 						"updated": "20230709171537"
 					},
@@ -152,6 +160,7 @@
 							"ID": "20230709171537-29yg6an",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-29yg6an",
 								"updated": "20230709171537"
 							},
@@ -199,6 +208,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-nmyfmfx",
 						"updated": "20230709171537"
 					},
@@ -207,6 +217,7 @@
 							"ID": "20230709171537-3cpcl3p",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-3cpcl3p",
 								"updated": "20230709171537"
 							},
@@ -240,6 +251,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-tnrsysn",
 				"updated": "20230709171537"
 			},
@@ -255,6 +267,7 @@
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-pt0jqup",
 				"updated": "20230709171537"
 			},
@@ -267,6 +280,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-5evow2z",
 						"updated": "20230709171537"
 					},
@@ -275,6 +289,7 @@
 							"ID": "20230709171537-h7q03d5",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-h7q03d5",
 								"updated": "20230709171537"
 							},
@@ -331,6 +346,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-g5ee81y",
 						"updated": "20230709171537"
 					},
@@ -339,6 +355,7 @@
 							"ID": "20230709171537-6cz9511",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-6cz9511",
 								"updated": "20230709171537"
 							},
@@ -358,6 +375,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230709171537-urucanr",
 				"updated": "20230709171537"
 			},
@@ -375,6 +394,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-kjk08u0",
 				"updated": "20230709171537"
 			},
@@ -389,6 +409,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-u6a76h1",
 						"updated": "20230709171537"
 					},
@@ -397,6 +418,7 @@
 							"ID": "20230709171537-iuopv5o",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-iuopv5o",
 								"updated": "20230709171537"
 							},
@@ -419,6 +441,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-a6jdpyq",
 						"updated": "20230709171537"
 					},
@@ -427,6 +450,7 @@
 							"ID": "20230709171537-oc6o0nb",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-oc6o0nb",
 								"updated": "20230709171537"
 							},
@@ -446,6 +470,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230709171537-5za3mah",
 				"updated": "20230709171537"
 			},
@@ -461,6 +487,7 @@
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-km01wj5",
 				"updated": "20230709171537"
 			},
@@ -473,6 +500,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-rov2j3a",
 						"updated": "20230709171537"
 					},
@@ -481,6 +509,7 @@
 							"ID": "20230709171537-x7jlyis",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-x7jlyis",
 								"updated": "20230709171537"
 							},
@@ -527,6 +556,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230709171537-ipyk2s9",
 				"updated": "20230709171537"
 			},
@@ -542,6 +573,7 @@
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-9jo66wc",
 				"updated": "20230709171537"
 			},
@@ -554,6 +586,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-wkbftcz",
 						"updated": "20230709171537"
 					},
@@ -562,6 +595,7 @@
 							"ID": "20230709171537-7fgonwh",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-7fgonwh",
 								"updated": "20230709171537"
 							},
@@ -582,6 +616,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-6m52srk",
 						"updated": "20230709171537"
 					},
@@ -590,6 +625,7 @@
 							"ID": "20230709171537-wtc95ha",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-wtc95ha",
 								"updated": "20230709171537"
 							},
@@ -610,6 +646,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-v111fiv",
 						"updated": "20230709171537"
 					},
@@ -618,6 +655,7 @@
 							"ID": "20230709171537-7kqchlz",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-7kqchlz",
 								"updated": "20230709171537"
 							},
@@ -637,6 +675,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20230709171537-02yk14s",
 				"updated": "20230709171537"
 			},
@@ -654,6 +694,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-9yozfg9",
 				"updated": "20230709171537"
 			},
@@ -668,6 +709,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-72v8eag",
 						"updated": "20230709171537"
 					},
@@ -676,6 +718,7 @@
 							"ID": "20230709171537-yjv8127",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-yjv8127",
 								"updated": "20230709171537"
 							},
@@ -707,6 +750,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-d5ru1hh",
 						"updated": "20230709171537"
 					},
@@ -715,6 +759,7 @@
 							"ID": "20230709171537-fo57aql",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-fo57aql",
 								"updated": "20230709171537"
 							},
@@ -734,6 +779,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-9l4i79h",
 				"updated": "20230709171537"
 			},
@@ -751,6 +797,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-xkwj7wd",
 				"updated": "20230709171537"
 			},
@@ -765,6 +812,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-zzqos9o",
 						"updated": "20230709171537"
 					},
@@ -773,6 +821,7 @@
 							"ID": "20230709171537-u1q23fj",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-u1q23fj",
 								"updated": "20230709171537"
 							},
@@ -795,6 +844,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-1idp2va",
 						"updated": "20230709171537"
 					},
@@ -803,6 +853,7 @@
 							"ID": "20230709171537-f1dt0ib",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-f1dt0ib",
 								"updated": "20230709171537"
 							},
@@ -825,6 +876,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-9h285yf",
 						"updated": "20230709171537"
 					},
@@ -833,6 +885,7 @@
 							"ID": "20230709171537-7fxpg02",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-7fxpg02",
 								"updated": "20230709171537"
 							},
@@ -879,6 +932,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-5zcf1hu",
 				"updated": "20230709171537"
 			},
@@ -896,6 +950,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-pr606ar",
 				"updated": "20230709171537"
 			},
@@ -910,6 +965,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-t4rt5n2",
 						"updated": "20230709171537"
 					},
@@ -918,6 +974,7 @@
 							"ID": "20230709171537-jf39b0x",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-jf39b0x",
 								"updated": "20230709171537"
 							},
@@ -985,6 +1042,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-t087owp",
 						"updated": "20230709171537"
 					},
@@ -993,6 +1051,7 @@
 							"ID": "20230709171537-jxfxkid",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-jxfxkid",
 								"updated": "20230709171537"
 							},
@@ -1048,6 +1107,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-u2c6izd",
 				"updated": "20230709171537"
 			},
@@ -1065,6 +1125,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230709171537-2mueuqy",
 				"updated": "20230709171537"
 			},
@@ -1079,6 +1140,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-dxlfys8",
 						"updated": "20230709171537"
 					},
@@ -1087,6 +1149,7 @@
 							"ID": "20230709171537-1u1dpju",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-1u1dpju",
 								"updated": "20230709171537"
 							},
@@ -1127,6 +1190,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-71m0twt",
 						"updated": "20230709171537"
 					},
@@ -1135,6 +1199,7 @@
 							"ID": "20230709171537-ct7hmta",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-ct7hmta",
 								"updated": "20230709171537"
 							},
@@ -1157,6 +1222,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230709171537-qtc15tf",
 						"updated": "20230709171537"
 					},
@@ -1165,6 +1231,7 @@
 							"ID": "20230709171537-q31xlqp",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230709171537-q31xlqp",
 								"updated": "20230709171537"
 							},

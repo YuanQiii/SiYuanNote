@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20231014204443-00hymwd",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231014204443-00hymwd\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231014214534-nxt8sw6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231014204443-vrecbrn\u0026quot;,\u0026quot;scrollTop\u0026quot;:2039,\u0026quot;focusId\u0026quot;:\u0026quot;20231014214534-nxt8sw6\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "航模飞行原理",
-		"updated": "20231015232146"
+		"updated": "20231015230123"
 	},
 	"Children": [
 		{
@@ -31,7 +32,7 @@
 			},
 			"Properties": {
 				"id": "20231014214537-ukh3hzh",
-				"updated": "20231014214705"
+				"updated": "20231016205626"
 			},
 			"Children": [
 				{
@@ -45,7 +46,7 @@
 					},
 					"Properties": {
 						"id": "20231014214539-8uivqar",
-						"updated": "20231014214539"
+						"updated": "20231016204802"
 					},
 					"Children": [
 						{
@@ -69,7 +70,8 @@
 								"Typ": 1
 							},
 							"Properties": {
-								"id": "20231015164040-sbebh2u"
+								"id": "20231015164040-sbebh2u",
+								"updated": "20231016204802"
 							},
 							"Children": [
 								{
@@ -82,7 +84,8 @@
 										"Num": 1
 									},
 									"Properties": {
-										"id": "20231015164040-kzwor1a"
+										"id": "20231015164040-kzwor1a",
+										"updated": "20231016204802"
 									},
 									"Children": [
 										{
@@ -90,7 +93,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015164215-viuklsv",
-												"updated": "20231015164600"
+												"updated": "20231016204802"
 											},
 											"Children": [
 												{
@@ -111,7 +114,8 @@
 										"Num": 2
 									},
 									"Properties": {
-										"id": "20231015164611-33e8sox"
+										"id": "20231015164611-33e8sox",
+										"updated": "20231016204800"
 									},
 									"Children": [
 										{
@@ -119,12 +123,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015164611-9p7hvpb",
-												"updated": "20231015164843"
+												"updated": "20231016204800"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "航模同时及空气动力、电子、机械、无线电、材料、工艺、结构力学、气象、测量等多种学科为一体的综合性超强的一项运动"
+													"Data": "航模是一种同时集空气动力、机械、无线电、结构力学、测量等多种学科为一体的综合性超强的一项运动"
 												}
 											]
 										}
@@ -144,7 +148,8 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20231015215648-pk70lmj"
+						"id": "20231015215648-pk70lmj",
+						"updated": "20231016205626"
 					},
 					"Children": [
 						{
@@ -169,7 +174,7 @@
 							},
 							"Properties": {
 								"id": "20231015215649-ay3jutv",
-								"updated": "20231015215649"
+								"updated": "20231016205626"
 							},
 							"Children": [
 								{
@@ -182,7 +187,8 @@
 										"Num": 1
 									},
 									"Properties": {
-										"id": "20231015164915-z8bv1td"
+										"id": "20231015164915-z8bv1td",
+										"updated": "20231016204758"
 									},
 									"Children": [
 										{
@@ -190,7 +196,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015164915-q23hf8t",
-												"updated": "20231015165031"
+												"updated": "20231016204758"
 											},
 											"Children": [
 												{
@@ -211,7 +217,8 @@
 										"Num": 2
 									},
 									"Properties": {
-										"id": "20231015165039-ewkirr8"
+										"id": "20231015165039-ewkirr8",
+										"updated": "20231016204756"
 									},
 									"Children": [
 										{
@@ -219,7 +226,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015165039-u4ly166",
-												"updated": "20231015165801"
+												"updated": "20231016204756"
 											},
 											"Children": [
 												{
@@ -240,7 +247,8 @@
 										"Num": 3
 									},
 									"Properties": {
-										"id": "20231015170307-6nmmrbc"
+										"id": "20231015170307-6nmmrbc",
+										"updated": "20231016204825"
 									},
 									"Children": [
 										{
@@ -248,12 +256,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015170307-lbjcjmx",
-												"updated": "20231015170358"
+												"updated": "20231016204825"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "玩航模急要动手又要动脑，玩中学，学中玩，非常有趣"
+													"Data": "玩航模既要动手又要动脑，玩中学，学中玩，非常有趣"
 												}
 											]
 										}
@@ -269,7 +277,8 @@
 										"Num": 4
 									},
 									"Properties": {
-										"id": "20231015170444-mmevs3p"
+										"id": "20231015170444-mmevs3p",
+										"updated": "20231016204848"
 									},
 									"Children": [
 										{
@@ -277,12 +286,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015170444-jw6pvmc",
-												"updated": "20231015170707"
+												"updated": "20231016204848"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "在摆弄模型的过程中，这中间不仅有利于各种知识的积累，还能持续锻炼手眼脑协调力、自主学习力、动手能力、创造力、应变力、独立解决问题的能力"
+													"Data": "在摆弄模型的过程中，不仅有利于各种知识的积累，还能持续锻炼手眼脑协调力、自主学习力、动手能力、创造力、应变力、独立解决问题的能力"
 												}
 											]
 										}
@@ -299,7 +308,7 @@
 									},
 									"Properties": {
 										"id": "20231015215723-lyj5s72",
-										"updated": "20231015215723"
+										"updated": "20231016205013"
 									},
 									"Children": [
 										{
@@ -307,72 +316,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015215723-0e3prf8",
-												"updated": "20231015215723"
+												"updated": "20231016205013"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "纸飞机，飞行梦，航模是以恶搞很好的载体"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20231015215723-t40bmw7",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "Ni4=",
-										"Num": 6
-									},
-									"Properties": {
-										"id": "20231015215723-t40bmw7",
-										"updated": "20231015215723"
-									},
-									"Children": [
-										{
-											"ID": "20231015215723-12fu3bv",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20231015215723-12fu3bv",
-												"updated": "20231015215723"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "在孩子的心中埋下一颗科技的种子，由爱好兴趣驱动的原生动力是相当有用的"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20231015215723-v5y96x7",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "Ny4=",
-										"Num": 7
-									},
-									"Properties": {
-										"id": "20231015215723-v5y96x7",
-										"updated": "20231015215723"
-									},
-									"Children": [
-										{
-											"ID": "20231015215723-9tb01b6",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20231015215723-9tb01b6",
-												"updated": "20231015215723"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "让同学们有一个自主的创意设计"
+													"Data": "航模是实现飞行梦很好的载体"
 												}
 											]
 										}
@@ -384,12 +333,12 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "OC4=",
-										"Num": 8
+										"Marker": "Ni4=",
+										"Num": 6
 									},
 									"Properties": {
 										"id": "20231015215723-ds7mz6e",
-										"updated": "20231015215723"
+										"updated": "20231016205313"
 									},
 									"Children": [
 										{
@@ -397,12 +346,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015215723-x6eylgy",
-												"updated": "20231015215723"
+												"updated": "20231016205313"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "所有的飞行器都是从模型开始的，1903莱特兄弟的第一架飞机"
+													"Data": "所有的飞行器都是从模型开始的，1903莱特兄弟造第一架飞机"
 												}
 											]
 										}
@@ -414,12 +363,12 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "OS4=",
-										"Num": 9
+										"Marker": "Ny4=",
+										"Num": 7
 									},
 									"Properties": {
 										"id": "20231015215723-wgwcdes",
-										"updated": "20231015215723"
+										"updated": "20231016205446"
 									},
 									"Children": [
 										{
@@ -427,12 +376,72 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015215723-g7tn6nb",
-												"updated": "20231015215723"
+												"updated": "20231016205555"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "航空模型与空中巨无霸空客380、安225飞行原理完全一致"
+													"Data": "航空模型与空中巨无霸空客380、安225飞行原理完全一致   "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016205600-gutbio4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20231016205600-gutbio4",
+										"updated": "20231016205626"
+									},
+									"Children": [
+										{
+											"ID": "20231016205600-c2y5a3v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016205600-c2y5a3v",
+												"updated": "20231016205626"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在孩子的心中种下一颗科技的种子，让孩子喜欢上科技"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016205446-mw7xroj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20231016205446-mw7xroj",
+										"updated": "20231016205446"
+									},
+									"Children": [
+										{
+											"ID": "20231016205446-akthvlk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016205446-akthvlk",
+												"updated": "20231016205446"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让同学们有一个自主创意设计的机会"
 												}
 											]
 										}
@@ -1838,6 +1847,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20231015232356-8v8opku",
 				"updated": "20231015232407"
 			},
@@ -1871,7 +1881,7 @@
 			},
 			"Properties": {
 				"id": "20231015230138-1goh5tu",
-				"updated": "20231015232146"
+				"updated": "20231016210047"
 			},
 			"Children": [
 				{
@@ -2026,7 +2036,7 @@
 					},
 					"Properties": {
 						"id": "20231015230148-9mv1kb0",
-						"updated": "20231015232146"
+						"updated": "20231016210047"
 					},
 					"Children": [
 						{
@@ -2051,7 +2061,7 @@
 							},
 							"Properties": {
 								"id": "20231015230355-m686jk6",
-								"updated": "20231015232146"
+								"updated": "20231016210047"
 							},
 							"Children": [
 								{
@@ -2238,7 +2248,8 @@
 										"Num": 7
 									},
 									"Properties": {
-										"id": "20231015230657-uowemz5"
+										"id": "20231015230657-uowemz5",
+										"updated": "20231016210047"
 									},
 									"Children": [
 										{
@@ -2246,42 +2257,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231015230657-w8tbijl",
-												"updated": "20231015230700"
+												"updated": "20231016210047"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "飞机拉杆"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20231015232116-267e9hx",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "OC4=",
-										"Num": 8
-									},
-									"Properties": {
-										"id": "20231015232116-267e9hx",
-										"updated": "20231015232146"
-									},
-									"Children": [
-										{
-											"ID": "20231015232116-iuwf076",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20231015232116-iuwf076",
-												"updated": "20231015232146"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "舵面是否正常"
+													"Data": "飞机拉杆和舵面是否正常"
 												}
 											]
 										}
@@ -2316,7 +2297,7 @@
 			},
 			"Properties": {
 				"id": "20231014204803-356i5v2",
-				"updated": "20231014204803"
+				"updated": "20231016232036"
 			},
 			"Children": [
 				{
@@ -2387,7 +2368,8 @@
 						"Num": 3
 					},
 					"Properties": {
-						"id": "20231014205107-5m28ht2"
+						"id": "20231014205107-5m28ht2",
+						"updated": "20231016204031"
 					},
 					"Children": [
 						{
@@ -2411,7 +2393,8 @@
 								"Typ": 1
 							},
 							"Properties": {
-								"id": "20231014205115-3y7vy3e"
+								"id": "20231014205115-3y7vy3e",
+								"updated": "20231016204031"
 							},
 							"Children": [
 								{
@@ -2445,13 +2428,72 @@
 									]
 								},
 								{
-									"ID": "20231014205118-qkrmndm",
+									"ID": "20231016204014-g9fgdmd",
 									"Type": "NodeListItem",
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
 										"Marker": "Mi4=",
 										"Num": 2
+									},
+									"Properties": {
+										"id": "20231016204014-g9fgdmd",
+										"updated": "20231016204031"
+									},
+									"Children": [
+										{
+											"ID": "20231016204014-2kmktnu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016204014-2kmktnu",
+												"updated": "20231016204031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "上方为低压区，下方为高压区"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016225209-w3idlpt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231016225209-w3idlpt"
+									},
+									"Children": [
+										{
+											"ID": "20231016225209-f4zd8be",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016225209-f4zd8be",
+												"updated": "20231016225241"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "伯努利定律虽然描述了流速和压强变化的关系，却并没指出谁是原因谁是结果。按照牛顿定律来理解，力是速度变化的原因，是压强下降产生了流速增加，所以我们可以认为是机翼上表面先有了低压区，然后才产生了来流的加速。那上表面的低压区是怎么产生的呢"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014205118-qkrmndm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
 									},
 									"Properties": {
 										"id": "20231014205118-qkrmndm"
@@ -2479,8 +2521,8 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "My4=",
-										"Num": 3
+										"Marker": "NS4=",
+										"Num": 5
 									},
 									"Properties": {
 										"id": "20231014204819-zwgwnc6"
@@ -2508,8 +2550,8 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "NC4=",
-										"Num": 4
+										"Marker": "Ni4=",
+										"Num": 6
 									},
 									"Properties": {
 										"id": "20231014210405-fpxvc3q"
@@ -2526,6 +2568,35 @@
 												{
 													"Type": "NodeText",
 													"Data": "主要原因但并非唯一原因"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016194641-60m8zvm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20231016194641-60m8zvm"
+									},
+									"Children": [
+										{
+											"ID": "20231016194641-xbdkv9b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016194641-xbdkv9b",
+												"updated": "20231016194651"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用在一个气流上"
 												}
 											]
 										}
@@ -2553,12 +2624,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20231014210012-sabhqq4",
-								"updated": "20231014210013"
+								"updated": "20231016193643"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "压强差产生原因"
+									"Data": "压强差产生原因（错误解释）"
 								}
 							]
 						},
@@ -2590,7 +2661,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20231014210019-43mg1u7",
-												"updated": "20231014210056"
+												"updated": "20231016193636"
 											},
 											"Children": [
 												{
@@ -2664,13 +2735,105 @@
 					]
 				},
 				{
-					"ID": "20231014205341-u4ehcrp",
+					"ID": "20231016224239-u1pqe5t",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
 						"Marker": "NS4=",
 						"Num": 5
+					},
+					"Properties": {
+						"id": "20231016224239-u1pqe5t"
+					},
+					"Children": [
+						{
+							"ID": "20231016224239-g0u9i06",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016224239-g0u9i06",
+								"updated": "20231016224245"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "错误"
+								}
+							]
+						},
+						{
+							"ID": "20231016224246-bua004b",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016224246-bua004b"
+							},
+							"Children": [
+								{
+									"ID": "20231016224245-xpqubw9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016224245-xpqubw9"
+									},
+									"Children": [
+										{
+											"ID": "20231016224245-xe3cbvk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016224245-xe3cbvk",
+												"updated": "20231016224338"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "机翼上表面弯，下表面平，流过上下表面的空气必然在相同时间内到达尾缘，因此上方的气流速度比下方的快。再根据伯努利定理可知，机翼上表面所受的空气压强低，下表面所受的空气压强高，这样就产生了升力，这种说法是完全不正确的，因为实际上，流经机翼上下表面的气流根本就不同时到达尾缘"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016224247-a2gwj3d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231016224247-a2gwj3d"
+									},
+									"Children": [
+										{
+											"ID": "20231016224247-by0tr4b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016224247-by0tr4b"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231014205341-u4ehcrp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
 					},
 					"Properties": {
 						"id": "20231014205341-u4ehcrp"
@@ -2701,13 +2864,42 @@
 							},
 							"Children": [
 								{
-									"ID": "20231014211008-njhag3q",
+									"ID": "20231016191639-rvk4sak",
 									"Type": "NodeListItem",
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
 										"Marker": "MS4=",
 										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016191639-rvk4sak"
+									},
+									"Children": [
+										{
+											"ID": "20231016191639-0judyl9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016191639-0judyl9",
+												"updated": "20231016191656"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "描述流体流速与截面关系的定理，气流稳定地流过直径变化的管子时，每秒流入多少空气，也流出等量的空气。所以管径粗处的气流速度较小，而管径细处较大"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231014211008-njhag3q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
 									},
 									"Properties": {
 										"id": "20231014211008-njhag3q"
@@ -2739,8 +2931,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "Ni4=",
-						"Num": 6
+						"Marker": "Ny4=",
+						"Num": 7
 					},
 					"Properties": {
 						"id": "20231014205619-z1rdsx4"
@@ -2798,6 +2990,209 @@
 											]
 										}
 									]
+								},
+								{
+									"ID": "20231016192847-727adkn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231016192847-727adkn"
+									},
+									"Children": [
+										{
+											"ID": "20231016192847-5heglyt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016192847-5heglyt",
+												"updated": "20231016192847"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkTextContent": "上下翼面压力差"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "是结果，而不是原因"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016193046-9sposju",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20231016193046-9sposju"
+					},
+					"Children": [
+						{
+							"ID": "20231016193046-5ipk6bm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016193046-5ipk6bm",
+								"updated": "20231016193054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "飞机倒飞"
+								}
+							]
+						},
+						{
+							"ID": "20231016193054-nzboq24",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016193054-nzboq24"
+							},
+							"Children": [
+								{
+									"ID": "20231016193054-kxmlf8g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016193054-kxmlf8g"
+									},
+									"Children": [
+										{
+											"ID": "20231016193054-8jrav10",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016193054-8jrav10",
+												"updated": "20231016193055"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是的，任何飞机倒飞时都必须推杆让机头上仰，目的是制造机翼迎角，让向上的机翼表面继续保持超过向下翼面的气流速度，如果倒飞时机翼和气流无夹角，平凸翼型就是负升力，对称翼型0升力"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016192945-75pkqme",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20231016192945-75pkqme"
+					},
+					"Children": [
+						{
+							"ID": "20231016192945-w6i6za7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016192945-w6i6za7",
+								"updated": "20231016192946"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为什么机翼表面会形成环流？后面的环流被吹走后为什么前面的环流还在，不是要守恒吗"
+								}
+							]
+						},
+						{
+							"ID": "20231016192949-e5prnm8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016192949-e5prnm8"
+							},
+							"Children": [
+								{
+									"ID": "20231016192949-236nwoj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016192949-236nwoj"
+									},
+									"Children": [
+										{
+											"ID": "20231016192949-saw85bz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016192949-saw85bz",
+												"updated": "20231016192953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "绕翼环流必须一直在，不然上表面气流没法加速。后驻点移动到后缘尖端，说明粘性附面层已经形成，后面启动涡任务就完成消失了，此时气流不是理想流体，是具有粘性的附面流体，不再遵循旋涡守恒，所以环流持续为上表面加速"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016192645-imsuwjx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20231016192645-imsuwjx"
+					},
+					"Children": [
+						{
+							"ID": "20231016192645-00lcmxk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016192645-00lcmxk",
+								"updated": "20231016192646"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "伯努利效应只是形成主要升力的结果，原因是绕翼环流，也就是库塔-如茹可夫斯基定律"
 								}
 							]
 						}
@@ -2809,8 +3204,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "Ny4=",
-						"Num": 7
+						"Marker": "MTEu",
+						"Num": 11
 					},
 					"Properties": {
 						"id": "20231014210236-3gp4o0y"
@@ -2821,12 +3216,847 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20231014210236-2or3h7j",
-								"updated": "20231014213437"
+								"updated": "20231016194807"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "库塔茹科夫斯基条件：由于机翼刚开始有迎角运动，下翼面距离比上翼面短，于是不可能同时到达后缘，因此下翼面会绕过后缘流向上翼面，这时，就形成了逆时针的涡，根据涡守恒，气流会产生一个顺时针的涡，在顺时针涡的作用下，上翼面流速增大，相应的两涡强度减小，最终上下两气流在后缘交汇，涡消失，从而造成了稳定飞行时，上下气流必然交汇于后缘、"
+									"Data": "库塔茹科夫斯基条件：由于机翼刚开始有迎角运动，下翼面距离比上翼面短，于是不可能同时到达后缘，因此下翼面会绕过后缘流向上翼面，这时，就形成了逆时针的涡，根据涡守恒，气流会产生一个顺时针的涡，在顺时针涡的作用下，上翼面流速增大，相应的两涡强度减小，最终上下两气流在后缘交汇，涡消失，从而造成了稳定飞行时，上下气流必然交汇于后缘"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016225330-01ip8qa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20231016225330-01ip8qa"
+					},
+					"Children": [
+						{
+							"ID": "20231016225330-nbhih8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016225330-nbhih8j",
+								"updated": "20231016225333"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "气流为什么不走直线，而是要贴着弯曲的机翼上表面流动"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016194807-uzncoxf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20231016194807-uzncoxf"
+					},
+					"Children": [
+						{
+							"ID": "20231016194807-l2p1hci",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016194807-l2p1hci",
+								"updated": "20231016194814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "康达效应"
+								}
+							]
+						},
+						{
+							"ID": "20231016195015-p8fpqw8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016195015-p8fpqw8"
+							},
+							"Children": [
+								{
+									"ID": "20231016225343-f5y9k4w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016225343-f5y9k4w"
+									},
+									"Children": [
+										{
+											"ID": "20231016225343-p0mn2fa",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016225343-p0mn2fa",
+												"updated": "20231016225343"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "升力的基础"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016195014-m6webbx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231016195014-m6webbx"
+									},
+									"Children": [
+										{
+											"ID": "20231016195014-2dhcbgz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016195014-2dhcbgz",
+												"updated": "20231016195558"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "气流沿着机翼表面"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016195558-h0r6f91",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231016195558-h0r6f91"
+									},
+									"Children": [
+										{
+											"ID": "20231016195558-vr3inv9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016195558-vr3inv9",
+												"updated": "20231016195630"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "就像水沿着瓶身留下"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016195650-fosf171",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231016195650-fosf171"
+									},
+									"Children": [
+										{
+											"ID": "20231016195650-9ktdp7b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016195650-9ktdp7b",
+												"updated": "20231016195732"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "弯曲的底部表面将造成更大程度的弯曲流动"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016195753-o25g7yr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231016195753-o25g7yr"
+									},
+									"Children": [
+										{
+											"ID": "20231016195753-rroqsf8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016195753-rroqsf8",
+												"updated": "20231016195817"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "翼型的存在使得流涕发生弯曲和偏转"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016195817-980kluf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231016195817-980kluf"
+									},
+									"Children": [
+										{
+											"ID": "20231016195817-bgahwbl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016195817-bgahwbl",
+												"updated": "20231016195846"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "弯曲流动正在升力产生的原因"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016230201-9dltssg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20231016230201-9dltssg"
+									},
+									"Children": [
+										{
+											"ID": "20231016230201-qs99t5h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016230201-qs99t5h",
+												"updated": "20231016230228"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "常见的流动中，转弯产生的压强变化经常比收缩产生的要大得多"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://pic4.zhimg.com/80/v2-487c6ae3eb0f5a4fc613fabb336949af_720w.webp"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016200343-ehpxfxq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20231016200343-ehpxfxq"
+					},
+					"Children": [
+						{
+							"ID": "20231016200343-jf0odc7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016200343-jf0odc7",
+								"updated": "20231016200344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "弯曲流动"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016225323-kqs21ot",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20231016225323-kqs21ot"
+					},
+					"Children": [
+						{
+							"ID": "20231016225323-0us9vx7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016225323-0us9vx7",
+								"updated": "20231016231031"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "机翼的升力主要是由上表面产生的"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，上表面有大面积的低压区，下表面则通常并没有大面积的高压区，甚至有些机翼的下表面也都是低压区，只不过比起上表面压强高一点，之所以机翼表面多数地方都低于大气压，这是流体的一种性质，当空气绕物体流动的时候，物体表面大多数地方的压强都是低于大气压的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016201406-ctpexfr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20231016201406-ctpexfr",
+						"updated": "20231016202057"
+					},
+					"Children": [
+						{
+							"ID": "20231016201406-j8jy5b7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016201406-j8jy5b7",
+								"updated": "20231016202057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "空气具有粘性，气流将其与桌面之间（间隙）的空气被空气裹挟和带走，气流与桌面之间的距离较小，周围的空气难以进入其间隙，所以气流与桌面之间产生了低压，于是气流在上方大气压的作用下偏向桌面，迫使气流沿着机翼表面流动"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016200448-puzhwnt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTcu",
+						"Num": 17
+					},
+					"Properties": {
+						"id": "20231016200448-puzhwnt",
+						"updated": "20231016202156"
+					},
+					"Children": [
+						{
+							"ID": "20231016200448-sqqionb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016200448-sqqionb",
+								"updated": "20231016200452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "牛顿第三定律"
+								}
+							]
+						},
+						{
+							"ID": "20231016200453-jv7er7j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016200453-jv7er7j",
+								"updated": "20231016202156"
+							},
+							"Children": [
+								{
+									"ID": "20231016200453-aihp8vq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016200453-aihp8vq",
+										"updated": "20231016202156"
+									},
+									"Children": [
+										{
+											"ID": "20231016200453-84qs8l8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016200453-84qs8l8",
+												"updated": "20231016202156"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "机翼尾缘的形状设计促使流动发生了偏转，所以靠这个流动转向的离心力能提供升力"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016232023-pd8g6au",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTgu",
+						"Num": 18
+					},
+					"Properties": {
+						"id": "20231016232023-pd8g6au",
+						"updated": "20231016232036"
+					},
+					"Children": [
+						{
+							"ID": "20231016232023-d4qzp3a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016232023-d4qzp3a",
+								"updated": "20231016232024"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用牛顿定律也可以解释机翼的升力，机翼对空气施加力把空气排向下方，空气给机翼反作用力，这个力就是升力。机翼向下排空气的方法，可以靠上表面“吸”（对应上表面的低压区），或靠下表面“压”（对应下表面的高压区），或两者都有。站在地面上看，飞机飞过后，被机翼带动的空气是朝下并且朝前运动的，朝下的气流对应机翼的升力，朝前的气流对应机翼的阻力"
+								}
+							]
+						},
+						{
+							"ID": "20231016232031-ci74a2f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016232031-ci74a2f",
+								"updated": "20231016232036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://pic3.zhimg.com/80/v2-71e0f7552d9e937552407086746e262e_720w.webp"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231016232029-m2gw6do",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231016232029-m2gw6do",
+				"updated": "20231016233344"
+			},
+			"Children": [
+				{
+					"ID": "20231016232811-zh14m8f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231016232811-zh14m8f",
+						"updated": "20231016233344"
+					},
+					"Children": [
+						{
+							"ID": "20231016232811-zyq76mt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016232811-zyq76mt",
+								"updated": "20231016232812"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "em strong",
+									"TextMarkTextContent": "判断翼型的升力"
+								}
+							]
+						},
+						{
+							"ID": "20231016232813-ir32wp9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016232813-ir32wp9",
+								"updated": "20231016233344"
+							},
+							"Children": [
+								{
+									"ID": "20231016232813-ynwhuh4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016232813-ynwhuh4"
+									},
+									"Children": [
+										{
+											"ID": "20231016232813-f55guvf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016232813-f55guvf",
+												"updated": "20231016232817"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于非专业人士来说，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "判断翼型是否会产生升力的最简单方法是看它能否把空气排向下方"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016232817-1ivbjtn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231016232817-1ivbjtn"
+									},
+									"Children": [
+										{
+											"ID": "20231016232817-znggb33",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016232817-znggb33",
+												"updated": "20231016232831"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "很多空气动力学专业的人士经常不屑于用上表面压力低，或者机翼把空气排向下方来解释升力，而是用库塔-茹科夫斯基定理"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016232857-26m41la",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231016232857-26m41la"
+									},
+									"Children": [
+										{
+											"ID": "20231016232857-wy3sutc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016232857-wy3sutc",
+												"updated": "20231016232857"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "根据这个定理，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "翼型上必须有环量才会产生升力"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。环量的产生有一个条件，就是上下表面气流会在尾缘汇聚并离开，这叫做库塔条件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016233341-aqru1oe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231016233341-aqru1oe",
+										"updated": "20231016233344"
+									},
+									"Children": [
+										{
+											"ID": "20231016233341-1k9hlby",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016233341-1k9hlby",
+												"updated": "20231016233344"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在机翼刚起动的时候，机翼下方气流会绕过尾缘与上方气流汇合在上表面。但由于尾缘很薄，气流绕它的离心力很大，会形成一个低压旋涡，这个旋涡马上就会被来流冲跑而脱落，形成的叫做起动涡。在机翼上同时生成一个与起动涡强度相同但转向相反的涡，称为机翼附着涡，也就是翼型上的环量，这个环量就对应着机翼的升力"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016192155-v66shaw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231016192155-v66shaw"
+					},
+					"Children": [
+						{
+							"ID": "20231016192155-czp2ob3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016192155-czp2ob3",
+								"updated": "20231016232811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "机翼种类"
+								}
+							]
+						},
+						{
+							"ID": "20231016192206-36qj5sq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231016192206-36qj5sq"
+							},
+							"Children": [
+								{
+									"ID": "20231016192206-h1qq6hf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231016192206-h1qq6hf"
+									},
+									"Children": [
+										{
+											"ID": "20231016192206-owj2rdi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016192206-owj2rdi",
+												"updated": "20231016192209"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "平板"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231016192209-7jpndb7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231016192209-7jpndb7"
+									},
+									"Children": [
+										{
+											"ID": "20231016192209-vejjve6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231016192209-vejjve6",
+												"updated": "20231016192231"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "平凸翼型"
+												}
+											]
+										}
+									]
 								}
 							]
 						}
@@ -2935,7 +4165,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20231014204751-i93o621",
-				"updated": "20231015222602"
+				"updated": "20231017204810"
 			},
 			"Children": [
 				{
@@ -3023,6 +4253,183 @@
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://www.bilibili.com/video/BV1xF411L7QW/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=12c88b6ff1c14757e3f14da4eebd5286",
 									"TextMarkTextContent": "如何安装调试一架航模飞机？【固定翼飞手6】航模入门教程_哔哩哔哩_bilibili"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016192529-m2kqmmm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231016192529-m2kqmmm"
+					},
+					"Children": [
+						{
+							"ID": "20231016192529-pcyx0mr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016192529-pcyx0mr",
+								"updated": "20231016192529"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bilibili.com/video/BV1by4y1U7KL/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=12c88b6ff1c14757e3f14da4eebd5286",
+									"TextMarkTextContent": "机翼是如何产生升力的？被误解的升力原理_哔哩哔哩_bilibili"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016200822-kmwtol2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231016200822-kmwtol2"
+					},
+					"Children": [
+						{
+							"ID": "20231016200822-p8ubld5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016200822-p8ubld5",
+								"updated": "20231016200822"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bilibili.com/video/BV1TD4y1U73D/?p=1\u0026amp;share_medium=android\u0026amp;share_plat=android\u0026amp;share_source=COPY\u0026amp;share_tag=s_i\u0026amp;timestamp=1622729384\u0026amp;unique_k=oQcZK8\u0026amp;vd_source=12c88b6ff1c14757e3f14da4eebd5286",
+									"TextMarkTextContent": "机翼如何产生升力_哔哩哔哩_bilibili"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016204205-kxtp762",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231016204205-kxtp762",
+						"updated": "20231016204206"
+					},
+					"Children": [
+						{
+							"ID": "20231016204205-40px1c8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016204205-40px1c8",
+								"updated": "20231016204206"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.bilibili.com/video/BV19Q4y1S7sk/?spm_id_from=trigger_reload\u0026amp;vd_source=12c88b6ff1c14757e3f14da4eebd5286",
+									"TextMarkTextContent": "【中文字幕】《机翼升力的产生原理》 流体力学科普系列_哔哩哔哩_bilibili"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231016224412-v8zrmvg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231016224412-v8zrmvg",
+						"updated": "20231016224412"
+					},
+					"Children": [
+						{
+							"ID": "20231016224412-i5aw63l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231016224412-i5aw63l",
+								"updated": "20231016224412"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zhuanlan.zhihu.com/p/138971791",
+									"TextMarkTextContent": "（四）升力的原理 - 知乎 (zhihu.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231017201504-g55jlc0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231017201504-g55jlc0"
+					},
+					"Children": [
+						{
+							"ID": "20231017201504-xfthcxh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231017201504-xfthcxh",
+								"updated": "20231017201504"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.zhihu.com/search?type=content\u0026amp;q=%E7%A7%91%E6%81%A9%E8%BE%BE%E6%95%88%E5%BA%94",
+									"TextMarkTextContent": "(99+ 封私信 / 80 条消息) 科恩达效应 - 搜索结果 - 知乎 (zhihu.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231017204809-i8xvneo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231017204809-i8xvneo",
+						"updated": "20231017204810"
+					},
+					"Children": [
+						{
+							"ID": "20231017204809-4cd1q3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231017204809-4cd1q3k",
+								"updated": "20231017204810"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.yinlei.org/x-plane10/2015/02/bernoullis-principle-starting-vortex.html",
+									"TextMarkTextContent": "飞机如何获得升力？伯努利定律，库塔-茹科夫斯基条件，起动涡和翼尖涡流 - 自娱自乐航空米 (yinlei.org)"
 								}
 							]
 						}

@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230728110417-7i2y8yl",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230728110417-7i2y8yl\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230728110417-gk4hqua\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230728111437-73p8xav\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230728110417-gk4hqua\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230728110417-7i2y8yl\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230728110417-gk4hqua\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230728111437-73p8xav\u0026quot;,\u0026quot;scrollTop\u0026quot;:4810.9091796875\u0026#125;",
 		"title": "前端项目框架搭建",
-		"updated": "20230728115240"
+		"updated": "20231024215139"
 	},
 	"Children": [
 		{
@@ -2609,7 +2609,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"fold": "1",
 				"id": "20230728111355-um4znpj",
 				"updated": "20230728111436"
 			},
@@ -2625,8 +2624,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728114634-rf0h1hx",
 				"updated": "20230728114644"
 			},
@@ -2644,8 +2641,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728114645-pdoon1p",
 				"updated": "20230728114729"
 			},
@@ -2660,6 +2655,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20230728114656-n8gmlt3",
 						"updated": "20230728114729"
 					},
@@ -2723,8 +2719,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728114833-ogmr8tc",
 				"updated": "20230728114836"
 			},
@@ -2742,8 +2736,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728114901-4bg8lah",
 				"updated": "20230728114916"
 			},
@@ -2814,8 +2806,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728114901-wvv51dn",
 				"updated": "20230728114944"
 			},
@@ -2830,6 +2820,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20230728114901-0xfh2xs",
 						"updated": "20230728114944"
 					},
@@ -2891,8 +2882,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728114901-jknbpl5",
 				"updated": "20230728114955"
 			},
@@ -2970,8 +2959,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115013-kv5gf9j",
 				"updated": "20230728115013"
 			},
@@ -2989,8 +2976,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115013-dxuljgd",
 				"updated": "20230728115057"
 			},
@@ -3061,8 +3046,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115013-7xshxqj",
 				"updated": "20230728115115"
 			},
@@ -3142,10 +3125,8 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115013-gxgv98w",
-				"updated": "20230728115013"
+				"updated": "20231024215139"
 			},
 			"Children": [
 				{
@@ -3159,7 +3140,7 @@
 					},
 					"Properties": {
 						"id": "20230728115013-9j4anep",
-						"updated": "20230728115013"
+						"updated": "20231024215139"
 					},
 					"Children": [
 						{
@@ -3191,7 +3172,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20230728115013-7za9sym",
-								"updated": "20230728115013"
+								"updated": "20231024215139"
 							},
 							"Children": [
 								{
@@ -3204,7 +3185,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "*.sh\nnode_modules\n*.md\n*.woff\n*.ttf\n.vscode\n.idea\ndist\n/public\n/docs\n.husky\n.local\n/bin\nDockerfile\n!.prettierrc.js\ncomponents.d.ts\nauto-imports.d.ts\n\n"
+									"Data": "*.sh\nnode_modules\n*.md\n*.woff\n*.ttf\n.vscode\n.idea\ndist\n/public\n/docs\n.husky\n.local\n/bin\nDockerfile\n!.prettierrc.js\ncomponents.d.ts\nauto-imports.d.ts\n"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
@@ -3221,8 +3202,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115131-41nukm5",
 				"updated": "20230728115131"
 			},
@@ -3240,8 +3219,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115131-tshewc3",
 				"updated": "20230728115131"
 			},
@@ -3367,8 +3344,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115131-wbm8gci",
 				"updated": "20230728115214"
 			},
@@ -3396,8 +3371,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115240-tof8tcn",
 				"updated": "20230728115240"
 			},
@@ -3415,8 +3388,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115240-vtfsgcu",
 				"updated": "20230729230234"
 			},
@@ -3487,8 +3458,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115240-uhyfhgn",
 				"updated": "20230729230250"
 			},
@@ -4106,8 +4075,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115240-d593g0f",
 				"updated": "20230729230259"
 			},
@@ -4187,8 +4154,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230728115240-7of146b",
 				"updated": "20230728115240"
 			},

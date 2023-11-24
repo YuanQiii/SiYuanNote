@@ -1,0 +1,326 @@
+{
+	"ID": "20231120214029-9f1ng3r",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231120214029-9f1ng3r",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231120214029-9f1ng3r\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231120214050-tftn2p4\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231120214029-cyzkmk0\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231120214245-ribt1mf\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4\u0026#125;",
+		"title": "白菜炒粉条",
+		"updated": "20231120214745"
+	},
+	"Children": [
+		{
+			"ID": "20231120214050-tftn2p4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231120214050-tftn2p4",
+				"updated": "20231120214745"
+			},
+			"Children": [
+				{
+					"ID": "20231120214053-whuotl3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231120214053-whuotl3",
+						"updated": "20231120214053"
+					},
+					"Children": [
+						{
+							"ID": "20231120214053-7sf2my3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214053-7sf2my3",
+								"updated": "20231120214108"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "白菜切条"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214108-6ykottv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231120214108-6ykottv"
+					},
+					"Children": [
+						{
+							"ID": "20231120214108-j4vzq70",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214108-j4vzq70",
+								"updated": "20231120214346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "粉条泡开水，捞出加入生抽、食用油搅拌均匀"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214129-gr4f3jc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231120214129-gr4f3jc"
+					},
+					"Children": [
+						{
+							"ID": "20231120214129-h4nbj54",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214129-h4nbj54",
+								"updated": "20231120214245"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "干辣椒段、姜末、蒜末、葱花"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214412-d9gzooc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231120214412-d9gzooc"
+					},
+					"Children": [
+						{
+							"ID": "20231120214412-6yhp85n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214412-6yhp85n",
+								"updated": "20231120214422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "炒蛋捞出"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214245-25rouj5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20231120214245-25rouj5"
+					},
+					"Children": [
+						{
+							"ID": "20231120214245-ribt1mf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214245-ribt1mf",
+								"updated": "20231120214403"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "煸炒肉沫"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214435-cixjllg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20231120214435-cixjllg"
+					},
+					"Children": [
+						{
+							"ID": "20231120214435-mixooud",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214435-mixooud",
+								"updated": "20231120214505"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "放入姜末、干辣椒、葱花"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214505-h8g1llw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20231120214505-h8g1llw"
+					},
+					"Children": [
+						{
+							"ID": "20231120214505-7aeiagq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214505-7aeiagq",
+								"updated": "20231120214546"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "放入白菜、蛋"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214534-3h41a1o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20231120214534-3h41a1o"
+					},
+					"Children": [
+						{
+							"ID": "20231120214534-d0efmjk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214534-d0efmjk",
+								"updated": "20231120214704"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "食盐、鸡精、白糖、酱油、蚝油、花椒油"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214652-hnnftm7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20231120214652-hnnftm7"
+					},
+					"Children": [
+						{
+							"ID": "20231120214652-byhzn8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214652-byhzn8j",
+								"updated": "20231120214721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加入粉条"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231120214732-09kapx0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20231120214732-09kapx0",
+						"updated": "20231120214745"
+					},
+					"Children": [
+						{
+							"ID": "20231120214732-vtkkdop",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231120214732-vtkkdop",
+								"updated": "20231120214745"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "出锅前放蒜末"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231120214029-cyzkmk0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231120214029-cyzkmk0",
+				"updated": "20231120214029"
+			}
+		}
+	]
+}

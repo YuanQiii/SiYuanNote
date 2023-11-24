@@ -1,0 +1,791 @@
+{
+	"ID": "20231018123816-pv5acai",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231018123816-pv5acai",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231018123816-pv5acai\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231018123821-ho2w5c6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231018123816-aqhsmls\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231018123825-vqlugw5\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "航模飞行原理",
+		"updated": "20231018125959"
+	},
+	"Children": [
+		{
+			"ID": "20231018123821-ho2w5c6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231018123821-ho2w5c6",
+				"updated": "20231018125959"
+			},
+			"Children": [
+				{
+					"ID": "20231018123825-jsv70q2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231018123825-jsv70q2",
+						"updated": "20231018123825"
+					},
+					"Children": [
+						{
+							"ID": "20231018123825-vqlugw5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231018123825-vqlugw5",
+								"updated": "20231018123845"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "航模是什么"
+								}
+							]
+						},
+						{
+							"ID": "20231018125437-pkawhmo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231018125437-pkawhmo"
+							},
+							"Children": [
+								{
+									"ID": "20231018125436-0axsi57",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231018125436-0axsi57"
+									},
+									"Children": [
+										{
+											"ID": "20231018125436-9gvfyjs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018125436-9gvfyjs",
+												"updated": "20231018125437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "航模分类"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231018125418-tbvh4kb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231018125418-tbvh4kb",
+						"updated": "20231018125959"
+					},
+					"Children": [
+						{
+							"ID": "20231018125418-fygyals",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231018125418-fygyals",
+								"updated": "20231018125959"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "航模的意义"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231018123933-x9wvkcq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231018123933-x9wvkcq"
+					},
+					"Children": [
+						{
+							"ID": "20231018123938-zgiwe37",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231018123938-zgiwe37",
+								"updated": "20231018123938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "航模组成结构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231018123940-2m5vu2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231018123940-2m5vu2a"
+					},
+					"Children": [
+						{
+							"ID": "20231018123940-kso8jvn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231018123940-kso8jvn",
+								"updated": "20231018124017"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "航模起飞前注意事项"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231018124017-050vfh7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20231018124017-050vfh7",
+						"updated": "20231018125930"
+					},
+					"Children": [
+						{
+							"ID": "20231018124017-qhlkexs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231018124017-qhlkexs",
+								"updated": "20231018124030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "飞行原理"
+								}
+							]
+						},
+						{
+							"ID": "20231018124122-s0qkmqv",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231018124122-s0qkmqv",
+								"updated": "20231018125930"
+							},
+							"Children": [
+								{
+									"ID": "20231018124031-pzaaz6n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231018124031-pzaaz6n"
+									},
+									"Children": [
+										{
+											"ID": "20231018124031-c5g41xe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018124031-c5g41xe",
+												"updated": "20231018124124"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "科恩达效应"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231018124125-9hu7388",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231018124125-9hu7388"
+									},
+									"Children": [
+										{
+											"ID": "20231018124127-7yct67e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018124127-7yct67e",
+												"updated": "20231018124127"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "伯努利原理"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231018124618-ca0to0q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231018124618-ca0to0q"
+									},
+									"Children": [
+										{
+											"ID": "20231018124618-tgdsn4p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018124618-tgdsn4p",
+												"updated": "20231018124649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "错误的飞行原理解释"
+												}
+											]
+										},
+										{
+											"ID": "20231018125126-t69l5lv",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231018125126-t69l5lv"
+											},
+											"Children": [
+												{
+													"ID": "20231018125126-jgv17k5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231018125126-jgv17k5"
+													},
+													"Children": [
+														{
+															"ID": "20231018125131-gwcnq3b",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018125131-gwcnq3b",
+																"updated": "20231018125135"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "等时效应"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231018125137-qz2xktz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231018125137-qz2xktz"
+													},
+													"Children": [
+														{
+															"ID": "20231018125137-zfyxhaq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018125137-zfyxhaq",
+																"updated": "20231018125142"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "管道效应"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231018125143-8zf3vi2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20231018125143-8zf3vi2"
+													},
+													"Children": [
+														{
+															"ID": "20231018125143-n6jptld",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018125143-n6jptld",
+																"updated": "20231018125148"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "打水漂理论"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231018125927-lnb3m4c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231018125927-lnb3m4c",
+										"updated": "20231018125930"
+									},
+									"Children": [
+										{
+											"ID": "20231018125927-kras3et",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018125927-kras3et",
+												"updated": "20231018125930"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "机翼"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231018124321-eekd9b1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231018124321-eekd9b1"
+									},
+									"Children": [
+										{
+											"ID": "20231018124321-sprj2kb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018124321-sprj2kb",
+												"updated": "20231018124357"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "平板翼型飞行原理"
+												}
+											]
+										},
+										{
+											"ID": "20231018124453-bg5f7ec",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231018124453-bg5f7ec"
+											},
+											"Children": [
+												{
+													"ID": "20231018124544-wsr4mkp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231018124544-wsr4mkp"
+													},
+													"Children": [
+														{
+															"ID": "20231018124544-xmxgf8d",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018124544-xmxgf8d",
+																"updated": "20231018124544"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对称翼型"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231018124452-llfyzzr",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231018124452-llfyzzr"
+													},
+													"Children": [
+														{
+															"ID": "20231018124452-jc7nsrc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018124452-jc7nsrc",
+																"updated": "20231018124532"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "有迎角"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231018124345-jkgyydv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231018124345-jkgyydv",
+										"updated": "20231018125515"
+									},
+									"Children": [
+										{
+											"ID": "20231018124345-ti7azsf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231018124345-ti7azsf",
+												"updated": "20231018124414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "平凸翼型飞行原理"
+												}
+											]
+										},
+										{
+											"ID": "20231018124418-fmgn03l",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231018124418-fmgn03l",
+												"updated": "20231018125515"
+											},
+											"Children": [
+												{
+													"ID": "20231018124418-e800nll",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231018124418-e800nll"
+													},
+													"Children": [
+														{
+															"ID": "20231018124418-k6egblj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018124418-k6egblj",
+																"updated": "20231018124426"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "通俗解释"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231018124427-o7ij99b",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231018124427-o7ij99b",
+														"updated": "20231018125515"
+													},
+													"Children": [
+														{
+															"ID": "20231018124427-4m6z1rq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231018124427-4m6z1rq",
+																"updated": "20231018124430"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "专业解释"
+																}
+															]
+														},
+														{
+															"ID": "20231018125515-gp3z2ay",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20231018125515-gp3z2ay"
+															},
+															"Children": [
+																{
+																	"ID": "20231018125514-qvmx829",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20231018125514-qvmx829"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20231018125514-fyx51ln",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20231018125514-fyx51ln"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "库塔-茹科夫斯基定律"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20231018125842-n7zdr72",
+																			"Type": "NodeList",
+																			"ListData": {
+																				"Typ": 1
+																			},
+																			"Properties": {
+																				"id": "20231018125842-n7zdr72"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20231018125518-zpp4sog",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "MS4=",
+																						"Num": 1
+																					},
+																					"Properties": {
+																						"id": "20231018125518-zpp4sog"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20231018125518-kprecqr",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20231018125518-kprecqr"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "亥姆霍兹漩涡守恒定律"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20231018125848-n1gfy93",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "Mi4=",
+																						"Num": 2
+																					},
+																					"Properties": {
+																						"id": "20231018125848-n1gfy93"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20231018125849-f1sk3k5",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20231018125849-f1sk3k5",
+																								"updated": "20231018125849"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "起动涡"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20231018125850-0cnduny",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "My4=",
+																						"Num": 3
+																					},
+																					"Properties": {
+																						"id": "20231018125850-0cnduny"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20231018125853-fn6yj7h",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20231018125853-fn6yj7h",
+																								"updated": "20231018125853"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "绕翼环流"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231018123816-aqhsmls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231018123816-aqhsmls",
+				"updated": "20231018123816"
+			}
+		}
+	]
+}
