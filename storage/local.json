@@ -6,7 +6,7 @@
     "theme": "0",
     "widget": "0"
   },
-  "local-codelang": "ts",
+  "local-codelang": "diff",
   "local-exportimg": {
     "keepFold": false
   },
@@ -15,6 +15,7 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "responseSuccessInterceptor",
       "DOM操作",
       "DOM",
       "闭包",
