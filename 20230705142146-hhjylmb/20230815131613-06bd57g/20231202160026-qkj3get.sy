@@ -1,0 +1,1378 @@
+{
+	"ID": "20231202160026-qkj3get",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231202160026-qkj3get",
+		"title": "Vuex\u0026amp;Pinia",
+		"updated": "20231202223516"
+	},
+	"Children": [
+		{
+			"ID": "20231202160037-8ckdh0x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231202160037-8ckdh0x",
+				"updated": "20231202160044"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Vuex",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20231202160044-m7jdk9u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231202160044-m7jdk9u",
+				"updated": "20231202160047"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Pinia",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20231202160047-c5hu6x5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20231202160047-c5hu6x5",
+				"updated": "20231202160236"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "持久化（​pinia-plugin-persistedstate​）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20231202160233-f8c2wrl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231202160233-f8c2wrl",
+				"updated": "20231202223516"
+			},
+			"Children": [
+				{
+					"ID": "20231202160306-vsmjjec",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231202160306-vsmjjec",
+						"updated": "20231202160317"
+					},
+					"Children": [
+						{
+							"ID": "20231202160306-hozqu1d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202160306-hozqu1d",
+								"updated": "20231202160307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装"
+								}
+							]
+						},
+						{
+							"ID": "20231202160315-o98wkyq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231202160315-o98wkyq",
+								"updated": "20231202160419"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pnpm i pinia-plugin-persistedstate\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202160308-dac8o57",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231202160308-dac8o57",
+						"updated": "20231202160517"
+					},
+					"Children": [
+						{
+							"ID": "20231202160432-6dilfb7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202160432-6dilfb7",
+								"updated": "20231202160432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将插件添加到 pinia 实例上"
+								}
+							]
+						},
+						{
+							"ID": "20231202160628-ha4h0p5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231202160628-ha4h0p5",
+								"updated": "20231202160628"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { createPinia } from 'pinia'\nimport piniaPluginPersistedstate from 'pinia-plugin-persistedstate'\n\nconst store = createPinia()\nstore.use(piniaPluginPersistedstate)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202160626-kkpp8fl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231202160626-kkpp8fl",
+						"updated": "20231202160709"
+					},
+					"Children": [
+						{
+							"ID": "20231202160626-laq8q04",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202160626-laq8q04",
+								"updated": "20231202160701"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 Store 时，将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "persist"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 选项设置为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "true"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​"
+								}
+							]
+						},
+						{
+							"ID": "20231202160703-bsgnmpg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231202160703-bsgnmpg",
+								"updated": "20231202160709"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { defineStore } from 'pinia'\n\nexport const useStore = defineStore('main', {\n  state: () =\u003e {\n    return {\n      someState: '你好 pinia',\n    }\n  },\n  persist: true,\n})\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202160938-4pzyz9l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231202160938-4pzyz9l",
+						"updated": "20231202160938"
+					},
+					"Children": [
+						{
+							"ID": "20231202160938-unizy98",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202160938-unizy98",
+								"updated": "20231202160944"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置"
+								}
+							]
+						},
+						{
+							"ID": "20231202163430-yr6b6w0",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231202163430-yr6b6w0",
+								"updated": "20231202163431"
+							},
+							"Children": [
+								{
+									"ID": "20231202163431-fvgbm4g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231202163431-fvgbm4g",
+										"updated": "20231202163431"
+									},
+									"Children": [
+										{
+											"ID": "20231202163431-gia8ob9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163431-gia8ob9",
+												"updated": "20231202163537"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "key：将被持久化存储在 localStorage 中的 my-custom-key key 中"
+												}
+											]
+										},
+										{
+											"ID": "20231202163435-pmjpdag",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163435-pmjpdag",
+												"updated": "20231202163518"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  persist: {\n    key: 'my-custom-key'\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202163433-71q7x8l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231202163433-71q7x8l"
+									},
+									"Children": [
+										{
+											"ID": "20231202163433-j5av3vk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163433-j5av3vk",
+												"updated": "20231202163550"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "storage：存储在 sessionStorage 中，存储数据必须是同步的"
+												}
+											]
+										},
+										{
+											"ID": "20231202163542-p1zbnxn",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163542-p1zbnxn",
+												"updated": "20231202163604"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  persist: {\n    storage: sessionStorage /** 存储在 sessionStorage 中，存储数据必须是同步的 */,\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202163525-v11b6by",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231202163525-v11b6by"
+									},
+									"Children": [
+										{
+											"ID": "20231202163525-yggt96z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163525-yggt96z",
+												"updated": "20231202163624"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "paths：指定 state 中哪些数据需要被持久化。[] 表示不持久化任何状态，undefined 或 null 表示持久化整个 state。注意：如果使用了该选项，则需要确保 state 中的数据是响应式的"
+												}
+											]
+										},
+										{
+											"ID": "20231202163631-ogqr05w",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163631-ogqr05w",
+												"updated": "20231202163654"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  persist: {\n    paths: [\n      'userInfo.id'\n    ] \n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202163627-tif001x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231202163627-tif001x"
+									},
+									"Children": [
+										{
+											"ID": "20231202163627-8lnr6uc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163627-8lnr6uc",
+												"updated": "20231202163711"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "serializer：自定义序列化和反序列化函数，默认使用 JSON.stringify 和 JSON.parse。将使用 zipson 的 stringify/parse 处理序列化/反序列化，并进行压缩"
+												}
+											]
+										},
+										{
+											"ID": "20231202163719-hlqbbq2",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163719-hlqbbq2",
+												"updated": "20231202163752"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import { parse, stringify } from 'zipson'\n\n{\n  persist: {\n    serializer: {\n      deserialize: parse,\n      serialize: stringify,\n    }\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202163715-c77pge5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231202163715-c77pge5"
+									},
+									"Children": [
+										{
+											"ID": "20231202163715-vqbv00g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163715-vqbv00g",
+												"updated": "20231202163825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "beforeRestore：该 hook 将在从 storage 中恢复数据之前触发，接收一个 context 对象，包含了 store 实例和持久化数据"
+												}
+											]
+										},
+										{
+											"ID": "20231202163852-gc960bw",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163852-gc960bw",
+												"updated": "20231202163909"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  persist: {\n    beforeRestore: (ctx) =\u003e {\n      console.log(`即将恢复 '${ctx.store.$id}'`)\n    }\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202163757-mlups1s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231202163757-mlups1s"
+									},
+									"Children": [
+										{
+											"ID": "20231202163757-0jkffox",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163757-0jkffox",
+												"updated": "20231202163848"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "afterRestore：该 hook 将在从 storage 中恢复数据之后触发，接收一个 context 对象，包含了 store 实例和持久化数据"
+												}
+											]
+										},
+										{
+											"ID": "20231202163912-vfwowgu",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163912-vfwowgu",
+												"updated": "20231202163922"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  persist: {\n    afterRestore: (ctx) =\u003e {\n      console.log(`即将恢复 '${ctx.store.$id}'`)\n    }\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202163800-p2lnozr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ny4=",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20231202163800-p2lnozr"
+									},
+									"Children": [
+										{
+											"ID": "20231202163800-t14rjbq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202163800-t14rjbq",
+												"updated": "20231202163931"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "debug：开启调试模式，在控制台打印持久化相关日志"
+												}
+											]
+										},
+										{
+											"ID": "20231202163950-2hzr04m",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202163950-2hzr04m",
+												"updated": "20231202163952"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  persist: {\n    debug: true \n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202221845-sx7z3xd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OC4=",
+										"Num": 8
+									},
+									"Properties": {
+										"id": "20231202221845-sx7z3xd"
+									},
+									"Children": [
+										{
+											"ID": "20231202221847-yoj09fz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202221847-yoj09fz",
+												"updated": "20231202221942"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "全局持久化配置：传递给单个 Store 的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "persist"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 配置的任何选项都将覆盖全局配置中声明的对应项"
+												}
+											]
+										},
+										{
+											"ID": "20231202221858-hw9p7si",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231202221858-hw9p7si"
+											},
+											"Children": [
+												{
+													"ID": "20231202222020-ork5cfu",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231202222020-ork5cfu"
+													},
+													"Children": [
+														{
+															"ID": "20231202222020-inysklw",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231202222020-inysklw",
+																"updated": "20231202222022"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "key"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231202221850-63bauhi",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231202221850-63bauhi"
+													},
+													"Children": [
+														{
+															"ID": "20231202221850-ie2xtdi",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231202221850-ie2xtdi",
+																"updated": "20231202221915"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "storage"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231202221916-ymvfea8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20231202221916-ymvfea8"
+													},
+													"Children": [
+														{
+															"ID": "20231202221916-vqpspev",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231202221916-vqpspev",
+																"updated": "20231202221922"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "serializer"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231202221923-reisr2t",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20231202221923-reisr2t"
+													},
+													"Children": [
+														{
+															"ID": "20231202221923-6lhnfsp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231202221923-6lhnfsp",
+																"updated": "20231202221927"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "beforeRestore"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231202221928-7n2oldw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20231202221928-7n2oldw"
+													},
+													"Children": [
+														{
+															"ID": "20231202221928-guwqk49",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231202221928-guwqk49",
+																"updated": "20231202221931"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "afterRestore"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231202222351-7f6e9bt",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20231202222351-7f6e9bt"
+													},
+													"Children": [
+														{
+															"ID": "20231202222351-9b65xtr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231202222351-9b65xtr",
+																"updated": "20231202222406"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "auto，会使所有 Store 持久化存储，且必须配置 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "persist: false"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 显式禁用持久化"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202222956-nl9qlqx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "OS4=",
+										"Num": 9
+									},
+									"Properties": {
+										"id": "20231202222956-nl9qlqx"
+									},
+									"Children": [
+										{
+											"ID": "20231202222956-d375ne0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202222956-d375ne0",
+												"updated": "20231202223004"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "persist选项还可以接受多个类似的配置"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202163425-ydhow9x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20231202163425-ydhow9x",
+						"updated": "20231202163425"
+					},
+					"Children": [
+						{
+							"ID": "20231202163425-63nj009",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202163425-63nj009",
+								"updated": "20231202164007"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "局限性"
+								}
+							]
+						},
+						{
+							"ID": "20231202164008-l5cqg10",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231202164008-l5cqg10"
+							},
+							"Children": [
+								{
+									"ID": "20231202164007-ssk5o40",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231202164007-ssk5o40"
+									},
+									"Children": [
+										{
+											"ID": "20231202221333-0hvvwjp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202221333-0hvvwjp",
+												"updated": "20231202221444"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "引用不会被持久化，使用afterRestore"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202221336-y994dcy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231202221336-y994dcy"
+									},
+									"Children": [
+										{
+											"ID": "20231202221340-xonvg34",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202221340-xonvg34",
+												"updated": "20231202221537"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本类型之外的将不会被持久化，使用afterRestore，使用自定义的serializer"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202221406-o1nuwgx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231202221406-o1nuwgx"
+									},
+									"Children": [
+										{
+											"ID": "20231202221406-zuf4s3b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202221406-zuf4s3b",
+												"updated": "20231202221406"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "存储必须是同步的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202223242-4pmoyrd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20231202223242-4pmoyrd"
+					},
+					"Children": [
+						{
+							"ID": "20231202223243-8749nts",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202223243-8749nts",
+								"updated": "20231202223243"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "强制恢复数据"
+								}
+							]
+						},
+						{
+							"ID": "20231202223247-bzb0ywy",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231202223247-bzb0ywy"
+							},
+							"Children": [
+								{
+									"ID": "20231202223246-toym9i2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231202223246-toym9i2"
+									},
+									"Children": [
+										{
+											"ID": "20231202223246-wtoicbg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202223246-wtoicbg",
+												"updated": "20231202223311"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$hydrate"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 方法来手动触发数据恢复"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231202223318-gdusl6r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231202223318-gdusl6r"
+									},
+									"Children": [
+										{
+											"ID": "20231202223318-qm2haiv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202223318-qm2haiv",
+												"updated": "20231202223318"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认情况下，调用此方法还将触发 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "beforeRestore"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "afterRestore"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 钩子"
+												}
+											]
+										},
+										{
+											"ID": "20231202223326-wlkbq7k",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202223326-wlkbq7k",
+												"updated": "20231202223345"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const store = useStore()\n\n// 钩子函数不会被触发\nstore.$hydrate({ runHooks: false })\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202223413-d2daoda",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20231202223413-d2daoda",
+						"updated": "20231202223516"
+					},
+					"Children": [
+						{
+							"ID": "20231202223423-jy1zk7f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202223423-jy1zk7f",
+								"updated": "20231202223423"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "强制持久化"
+								}
+							]
+						},
+						{
+							"ID": "20231202223425-tvanpih",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231202223425-tvanpih",
+								"updated": "20231202223516"
+							},
+							"Children": [
+								{
+									"ID": "20231202223424-au0ceym",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231202223424-au0ceym",
+										"updated": "20231202223516"
+									},
+									"Children": [
+										{
+											"ID": "20231202223424-gqg95j5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231202223424-gqg95j5",
+												"updated": "20231202223505"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "$persist"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 方法来手动触发持久化"
+												}
+											]
+										},
+										{
+											"ID": "20231202223508-vtegvm4",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231202223508-vtegvm4",
+												"updated": "20231202223516"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const store = useStore()\n\nstore.$persist()\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -6,7 +6,7 @@
 		"id": "20200915214115-42b8zma",
 		"title": "资源文件",
 		"type": "doc",
-		"updated": "20231110112936"
+		"updated": "20230604120815"
 	},
 	"Children": [
 		{
@@ -831,7 +831,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20230117002059-ssmlejt",
-				"updated": "20230820185522"
+				"updated": "20230117003750"
 			},
 			"Children": [
 				{
@@ -840,7 +840,8 @@
 				},
 				{
 					"Type": "NodeTextMark",
-					"TextMarkType": "em",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/tesseract-ocr/tesseract",
 					"TextMarkTextContent": "Tesseract OCR"
 				},
 				{
@@ -878,7 +879,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230202231309-pcjl7c2",
-				"updated": "20231110112936"
+				"updated": "20230211103308"
 			},
 			"Children": [
 				{
@@ -890,7 +891,7 @@
 					},
 					"Properties": {
 						"id": "20230202231311-7qdk1za",
-						"updated": "20231110112936"
+						"updated": "20230211103308"
 					},
 					"Children": [
 						{
@@ -898,7 +899,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20230202231311-n1pf7in",
-								"updated": "20231110112936"
+								"updated": "20230211103308"
 							},
 							"Children": [
 								{
@@ -927,15 +928,6 @@
 									"Type": "NodeTextMark",
 									"TextMarkType": "code",
 									"TextMarkTextContent": "tesseract-ocr enabled"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "​；如果要禁用 OCR，请设置环境变量 "
-								},
-								{
-									"Type": "NodeTextMark",
-									"TextMarkType": "code",
-									"TextMarkTextContent": "SIYUAN_TESSERACT_ENABLED=false"
 								},
 								{
 									"Type": "NodeText",

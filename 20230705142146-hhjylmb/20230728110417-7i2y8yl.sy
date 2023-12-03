@@ -6,7 +6,7 @@
 		"id": "20230728110417-7i2y8yl",
 		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230728110417-7i2y8yl\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230728110417-gk4hqua\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230728111437-73p8xav\u0026quot;,\u0026quot;scrollTop\u0026quot;:4810.9091796875\u0026#125;",
 		"title": "前端项目框架搭建",
-		"updated": "20231201145453"
+		"updated": "20231201213253"
 	},
 	"Children": [
 		{
@@ -8465,6 +8465,408 @@
 			]
 		},
 		{
+			"ID": "20231201205127-ii4fr45",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20231201205127-ii4fr45",
+				"updated": "20231201205138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目录结构"
+				}
+			]
+		},
+		{
+			"ID": "20231201212621-txi87fj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201212621-txi87fj",
+				"updated": "20231201212626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "apis"
+				}
+			]
+		},
+		{
+			"ID": "20231201205447-0q5peaz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201205447-0q5peaz",
+				"updated": "20231201212131"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "assets"
+				}
+			]
+		},
+		{
+			"ID": "20231201205455-aovhdbl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201205455-aovhdbl",
+				"updated": "20231201205456"
+			},
+			"Children": [
+				{
+					"ID": "20231201205456-uo84ttx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231201205456-uo84ttx",
+						"updated": "20231201205456"
+					},
+					"Children": [
+						{
+							"ID": "20231201205456-j13m8et",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231201205456-j13m8et",
+								"updated": "20231201205550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态文件目录：包含字体、图标、图片、样式等静态资源"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231201210154-8d7xfka",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201210154-8d7xfka",
+				"updated": "20231201212125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "components"
+				}
+			]
+		},
+		{
+			"ID": "20231201210203-qsp2jtf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201210203-qsp2jtf",
+				"updated": "20231201210216"
+			},
+			"Children": [
+				{
+					"ID": "20231201210216-acljv8f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231201210216-acljv8f",
+						"updated": "20231201210216"
+					},
+					"Children": [
+						{
+							"ID": "20231201210216-rd1uauz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231201210216-rd1uauz",
+								"updated": "20231201210221"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Common 文件夹下的文件都是在多出被引用的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231201212720-l2cnpd3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201212720-l2cnpd3",
+				"updated": "20231201212723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "directives"
+				}
+			]
+		},
+		{
+			"ID": "20231201212723-qnrajji",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201212723-qnrajji",
+				"updated": "20231201212732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "hooks"
+				}
+			]
+		},
+		{
+			"ID": "20231201210304-i632bc2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201210304-i632bc2",
+				"updated": "20231201213253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "layouts"
+				}
+			]
+		},
+		{
+			"ID": "20231201210305-7kmuq69",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201210305-7kmuq69",
+				"updated": "20231201210312"
+			},
+			"Children": [
+				{
+					"ID": "20231201210312-2usxdh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231201210312-2usxdh1",
+						"updated": "20231201210312"
+					},
+					"Children": [
+						{
+							"ID": "20231201210312-32yc624",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231201210312-32yc624",
+								"updated": "20231201210312"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "放整个应用的布局文件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231201212814-dx0grz9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201212814-dx0grz9",
+				"updated": "20231201212817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mock"
+				}
+			]
+		},
+		{
+			"ID": "20231201212835-ifu9gqw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201212835-ifu9gqw",
+				"updated": "20231201212843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "router"
+				}
+			]
+		},
+		{
+			"ID": "20231201213020-vi2i5ub",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201213020-vi2i5ub",
+				"updated": "20231201213020"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store"
+				}
+			]
+		},
+		{
+			"ID": "20231201210405-snt4qv9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201210405-snt4qv9",
+				"updated": "20231201212317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "utils"
+				}
+			]
+		},
+		{
+			"ID": "20231201211028-mimd5zw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201211028-mimd5zw",
+				"updated": "20231201213029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "views"
+				}
+			]
+		},
+		{
+			"ID": "20231201211040-b5j45ff",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201211040-b5j45ff",
+				"updated": "20231201211141"
+			},
+			"Children": [
+				{
+					"ID": "20231201211040-9gjjdxw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231201211040-9gjjdxw",
+						"updated": "20231201211141"
+					},
+					"Children": [
+						{
+							"ID": "20231201211040-zhb9ue7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231201211040-zhb9ue7",
+								"updated": "20231201211141"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "业务组件 "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231201211029-1517ge3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201211029-1517ge3"
+			}
+		},
+		{
+			"ID": "20231201210854-1fcwwnq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20231201210854-1fcwwnq",
+				"updated": "20231201210855"
+			}
+		},
+		{
 			"ID": "20231201145453-zwvpo0n",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -8485,7 +8887,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20231201145453-deh8tpp",
-				"updated": "20231201145453"
+				"updated": "20231201211625"
 			},
 			"Children": [
 				{
@@ -8575,6 +8977,57 @@
 									"TextMarkTextContent": "【vue3-element-admin】Husky + Lint-staged + Commitlint + cz-git 配置 Git 提交规范 - 掘金 (juejin.cn)"
 								}
 							]
+						}
+					]
+				},
+				{
+					"ID": "20231201211533-fxsmv5c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231201211533-fxsmv5c"
+					},
+					"Children": [
+						{
+							"ID": "20231201211533-a22agny",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231201211533-a22agny",
+								"updated": "20231201211533"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://learnku.com/vuejs/t/54589",
+									"TextMarkTextContent": "[转][vue3目录结构]花五分钟重新认知 Vue 项目 src 目录 | Vue.js | Vue.js 技术论坛 (learnku.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231201211534-3aliar2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231201211534-3aliar2",
+						"updated": "20231201211625"
+					},
+					"Children": [
+						{
+							"ID": "20231201211534-juxqudu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231201211534-juxqudu",
+								"updated": "20231201211625"
+							}
 						}
 					]
 				}

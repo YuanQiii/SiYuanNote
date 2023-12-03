@@ -4189,7 +4189,7 @@
 				{
 					"Type": "NodeTextMark",
 					"TextMarkType": "a",
-					"TextMarkAHref": "https://www.gnu.org/licenses/#AGPL",
+					"TextMarkAHref": "https://github.com/siyuan-note/siyuan/blob/master/LICENSE",
 					"TextMarkTextContent": "AGPLv3 开源协议"
 				},
 				{

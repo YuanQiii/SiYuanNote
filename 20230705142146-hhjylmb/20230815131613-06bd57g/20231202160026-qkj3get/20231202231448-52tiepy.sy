@@ -1,0 +1,112 @@
+{
+	"ID": "20231202231448-52tiepy",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231202231448-52tiepy",
+		"title": "TS报错",
+		"updated": "20231202231514"
+	},
+	"Children": [
+		{
+			"ID": "20231202231456-lr8ffzd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231202231456-lr8ffzd",
+				"updated": "20231202231514"
+			},
+			"Children": [
+				{
+					"ID": "20231202231458-l55ydx3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231202231458-l55ydx3",
+						"updated": "20231202231514"
+					},
+					"Children": [
+						{
+							"ID": "20231202231458-78vjszu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202231458-78vjszu",
+								"updated": "20231202231503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "...expression of type string cannot be used to index..."
+								}
+							]
+						},
+						{
+							"ID": "20231202231512-tz1qbkh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231202231512-tz1qbkh",
+								"updated": "20231202231514"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const someObj:ObjectType = data;\nconst field = 'username';\n\n// This gives an error\nconst temp = someObj[field];\n\n// Solution 1: When the type of the object is known\nconst temp = someObj[field as keyof ObjectType]\n\n// Solution 2: When the type of the object is not known\nconst temp = someObj[field as keyof typeof someObj]\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231202231503-waizd1z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231202231503-waizd1z"
+					},
+					"Children": [
+						{
+							"ID": "20231202231503-y4b8xak",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231202231503-y4b8xak"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231202231448-vze9cc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231202231448-vze9cc3",
+				"updated": "20231202231448"
+			}
+		}
+	]
+}
