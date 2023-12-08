@@ -1,0 +1,843 @@
+{
+	"ID": "20231204195327-h7chd4x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231204195327-h7chd4x",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231204195327-h7chd4x\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231204195355-dzod244\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231204195327-pojvtvh\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231204200111-a8vi9zs\u0026quot;,\u0026quot;focusStart\u0026quot;:1,\u0026quot;focusEnd\u0026quot;:1\u0026#125;",
+		"title": "炒猪肝",
+		"updated": "20231204200735"
+	},
+	"Children": [
+		{
+			"ID": "20231204195355-dzod244",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231204195355-dzod244",
+				"updated": "20231204200735"
+			},
+			"Children": [
+				{
+					"ID": "20231204195514-i1yt28z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231204195514-i1yt28z",
+						"updated": "20231204195514"
+					},
+					"Children": [
+						{
+							"ID": "20231204195514-1y0a8pw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204195514-1y0a8pw",
+								"updated": "20231204195516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清洗"
+								}
+							]
+						},
+						{
+							"ID": "20231204195516-g3t5fw5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231204195516-g3t5fw5"
+							},
+							"Children": [
+								{
+									"ID": "20231204195516-nnuu283",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231204195516-nnuu283"
+									},
+									"Children": [
+										{
+											"ID": "20231204195516-g0to5gi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204195516-g0to5gi",
+												"updated": "20231204195525"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "加盐"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204195526-4u3lob0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231204195526-4u3lob0"
+									},
+									"Children": [
+										{
+											"ID": "20231204195526-gfpnfq9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204195526-gfpnfq9",
+												"updated": "20231204195538"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "淀粉"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204195539-c25jco8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231204195539-c25jco8"
+									},
+									"Children": [
+										{
+											"ID": "20231204195539-qlmeu9i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204195539-qlmeu9i",
+												"updated": "20231204195554"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "抓匀"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204195613-24800zb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231204195613-24800zb"
+									},
+									"Children": [
+										{
+											"ID": "20231204195613-uizvbfo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204195613-uizvbfo",
+												"updated": "20231204195617"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "洗净"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204195631-yyzfm9y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231204195631-yyzfm9y"
+					},
+					"Children": [
+						{
+							"ID": "20231204195631-u1d9qs4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204195631-u1d9qs4",
+								"updated": "20231204200654"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "佐料"
+								}
+							]
+						},
+						{
+							"ID": "20231204200655-94yiww6",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231204200655-94yiww6"
+							},
+							"Children": [
+								{
+									"ID": "20231204200655-rkzszh1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231204200655-rkzszh1"
+									},
+									"Children": [
+										{
+											"ID": "20231204200655-c5pwukl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200655-c5pwukl",
+												"updated": "20231204200657"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "蒜末"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200657-r3m7h1k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231204200657-r3m7h1k"
+									},
+									"Children": [
+										{
+											"ID": "20231204200657-l2mxjix",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200657-l2mxjix",
+												"updated": "20231204200658"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "葱白"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200658-cbf39ro",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231204200658-cbf39ro"
+									},
+									"Children": [
+										{
+											"ID": "20231204200658-epsj8qh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200658-epsj8qh",
+												"updated": "20231204200659"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "泡椒"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200659-m5mskw3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231204200659-m5mskw3"
+									},
+									"Children": [
+										{
+											"ID": "20231204200659-dwukjma",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200659-dwukjma"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "泡姜"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204200031-m8f069b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231204200031-m8f069b"
+					},
+					"Children": [
+						{
+							"ID": "20231204200031-0w9e3hp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204200031-0w9e3hp",
+								"updated": "20231204200111"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "腌制"
+								}
+							]
+						},
+						{
+							"ID": "20231204200112-kxmdpqk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231204200112-kxmdpqk"
+							},
+							"Children": [
+								{
+									"ID": "20231204200111-paqriwo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231204200111-paqriwo"
+									},
+									"Children": [
+										{
+											"ID": "20231204200111-a8vi9zs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200111-a8vi9zs",
+												"updated": "20231204200135"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "盐"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200135-nbcyl63",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231204200135-nbcyl63"
+									},
+									"Children": [
+										{
+											"ID": "20231204200135-1y9pnrm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200135-1y9pnrm",
+												"updated": "20231204200143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "胡椒粉"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200144-d8luh6m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231204200144-d8luh6m"
+									},
+									"Children": [
+										{
+											"ID": "20231204200144-9oy5o3e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200144-9oy5o3e",
+												"updated": "20231204200153"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "料酒"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200153-x911jbu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231204200153-x911jbu"
+									},
+									"Children": [
+										{
+											"ID": "20231204200153-tkyv0cu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200153-tkyv0cu",
+												"updated": "20231204200208"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "老抽"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200208-8nio32f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231204200208-8nio32f"
+									},
+									"Children": [
+										{
+											"ID": "20231204200208-t9otll6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200208-t9otll6",
+												"updated": "20231204200225"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "淀粉"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200226-y98n0kq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20231204200226-y98n0kq"
+									},
+									"Children": [
+										{
+											"ID": "20231204200226-cme1jnd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200226-cme1jnd",
+												"updated": "20231204200247"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "油"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204200248-bev746j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231204200248-bev746j"
+					},
+					"Children": [
+						{
+							"ID": "20231204200248-sgb6bbb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204200248-sgb6bbb",
+								"updated": "20231204200341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "酱汁"
+								}
+							]
+						},
+						{
+							"ID": "20231204200341-1096wsf",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231204200341-1096wsf"
+							},
+							"Children": [
+								{
+									"ID": "20231204200341-1i9pvaf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231204200341-1i9pvaf"
+									},
+									"Children": [
+										{
+											"ID": "20231204200341-zprt6fh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200341-zprt6fh",
+												"updated": "20231204200528"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "白糖"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200531-q51dsij",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231204200531-q51dsij"
+									},
+									"Children": [
+										{
+											"ID": "20231204200531-t85c2dj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200531-t85c2dj",
+												"updated": "20231204200532"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "胡椒粉"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200533-529smj2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231204200533-529smj2"
+									},
+									"Children": [
+										{
+											"ID": "20231204200533-alh967k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200533-alh967k",
+												"updated": "20231204200534"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "两勺生抽"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200534-fgazxjt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20231204200534-fgazxjt"
+									},
+									"Children": [
+										{
+											"ID": "20231204200534-udzsqcv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200534-udzsqcv",
+												"updated": "20231204200535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "两勺料酒"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231204200535-3xvlavf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231204200535-3xvlavf"
+									},
+									"Children": [
+										{
+											"ID": "20231204200535-feqa0m3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204200535-feqa0m3"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一勺豆瓣酱"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204200626-sbyzu4x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20231204200626-sbyzu4x"
+					},
+					"Children": [
+						{
+							"ID": "20231204200626-vo9plt2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204200626-vo9plt2",
+								"updated": "20231204200642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "炒猪肝"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204200643-dbycqw7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20231204200643-dbycqw7"
+					},
+					"Children": [
+						{
+							"ID": "20231204200643-zdzvc57",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204200643-zdzvc57",
+								"updated": "20231204200651"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下佐料"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204200732-01i80b2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20231204200732-01i80b2",
+						"updated": "20231204200735"
+					},
+					"Children": [
+						{
+							"ID": "20231204200732-981sv1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204200732-981sv1a",
+								"updated": "20231204200735"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下酱汁"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231204195342-l6r46v3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231204195342-l6r46v3"
+			}
+		},
+		{
+			"ID": "20231204195327-pojvtvh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231204195327-pojvtvh",
+				"updated": "20231204195327"
+			}
+		}
+	]
+}

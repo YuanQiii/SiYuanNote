@@ -4,7 +4,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230705141433-88xtmqu",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230705141433-88xtmqu\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705221831-jyhvw2l\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230905172127-3mx24k5\u0026quot;,\u0026quot;scrollTop\u0026quot;:160,\u0026quot;focusId\u0026quot;:\u0026quot;20230705221831-jyhvw2l\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230705141433-88xtmqu\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230705221831-jyhvw2l\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230905172111-wlbob17\u0026quot;,\u0026quot;scrollTop\u0026quot;:303,\u0026quot;focusId\u0026quot;:\u0026quot;20230705221831-jyhvw2l\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "CSS3",
 		"updated": "20230905172440"
 	},
@@ -6457,6 +6457,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20230905172111-wlbob17",
 				"updated": "20230905172125"
 			},
@@ -6474,6 +6475,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20230905172127-3mx24k5",
 				"updated": "20230905172440"
 			},
@@ -6488,6 +6490,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230905172136-93fjgjt",
 						"updated": "20230905172136"
 					},
@@ -6496,6 +6499,7 @@
 							"ID": "20230905172136-4achwbp",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230905172136-4achwbp",
 								"updated": "20230905172414"
 							},
@@ -6563,6 +6567,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230905172159-c0uvyz3"
 					},
 					"Children": [
@@ -6570,6 +6575,7 @@
 							"ID": "20230905172159-nc1rugn",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230905172159-nc1rugn",
 								"updated": "20230905172418"
 							},
@@ -6619,6 +6625,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230905172430-d59tn1v",
 						"updated": "20230905172440"
 					},
@@ -6627,6 +6634,7 @@
 							"ID": "20230905172430-gkk2pmx",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230905172430-gkk2pmx",
 								"updated": "20230905172434"
 							},
@@ -6644,6 +6652,7 @@
 								"Typ": 1
 							},
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230905172440-lmtxrrc",
 								"updated": "20230905172440"
 							},
@@ -6658,6 +6667,7 @@
 										"Num": 1
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20230905172440-qc2i4f4",
 										"updated": "20230905172440"
 									},
@@ -6666,6 +6676,7 @@
 											"ID": "20230905172440-dj0vzwd",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20230905172440-dj0vzwd",
 												"updated": "20230905172440"
 											},
@@ -6688,6 +6699,7 @@
 										"Num": 2
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20230905172440-dxuq54d",
 										"updated": "20230905172440"
 									},
@@ -6696,6 +6708,7 @@
 											"ID": "20230905172440-qjlkzyz",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20230905172440-qjlkzyz",
 												"updated": "20230905172440"
 											},
@@ -6718,6 +6731,7 @@
 										"Num": 3
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20230905172440-99tzf3l",
 										"updated": "20230905172440"
 									},
@@ -6726,6 +6740,7 @@
 											"ID": "20230905172440-93ppgem",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20230905172440-93ppgem",
 												"updated": "20230905172440"
 											},
@@ -6748,6 +6763,7 @@
 										"Num": 4
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20230905172440-hb9f5o6",
 										"updated": "20230905172440"
 									},
@@ -6756,6 +6772,7 @@
 											"ID": "20230905172440-xwfhfvx",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20230905172440-xwfhfvx",
 												"updated": "20230905172440"
 											},

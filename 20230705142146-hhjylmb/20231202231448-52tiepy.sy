@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20231202231448-52tiepy",
 		"title": "TS报错",
-		"updated": "20231202231514"
+		"updated": "20231208163941"
 	},
 	"Children": [
 		{
@@ -16,7 +16,7 @@
 			},
 			"Properties": {
 				"id": "20231202231456-lr8ffzd",
-				"updated": "20231202231514"
+				"updated": "20231208163941"
 			},
 			"Children": [
 				{
@@ -53,6 +53,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20231202231512-tz1qbkh",
+								"style": "line-height: 22px;",
 								"updated": "20231202231514"
 							},
 							"Children": [
@@ -86,15 +87,60 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20231202231503-waizd1z"
+						"id": "20231202231503-waizd1z",
+						"updated": "20231208163941"
 					},
 					"Children": [
 						{
 							"ID": "20231202231503-y4b8xak",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20231202231503-y4b8xak"
-							}
+								"id": "20231202231503-y4b8xak",
+								"updated": "20231208163710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Property 'src' does not exist on type 'HTMLElement'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20231208163715-yydgyoh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231208163715-yydgyoh",
+								"style": "line-height: 22px;",
+								"updated": "20231208163941"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "var myImg = document.getElementById('myId') as HTMLImageElement;\nelement:HTMLElement; /* Defining element */\nthis.element = document.createElement('img'); /*creating a img*/\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
 						}
 					]
 				}

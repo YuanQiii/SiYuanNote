@@ -1,0 +1,20 @@
+{
+	"ID": "20231208115220-vff7s5f",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231208115220-vff7s5f",
+		"title": "跨域",
+		"updated": "20231208115226"
+	},
+	"Children": [
+		{
+			"ID": "20231208115220-zwbdkiw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231208115220-zwbdkiw",
+				"updated": "20231208115220"
+			}
+		}
+	]
+}

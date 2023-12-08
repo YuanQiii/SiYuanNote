@@ -1,0 +1,21 @@
+{
+	"ID": "20231208113937-ehjhtu4",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231208113937-ehjhtu4",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231208113937-ehjhtu4\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231208113937-g1tp0z3\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231208113937-g1tp0z3\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231208113937-g1tp0z3\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "Untitled",
+		"updated": "20231208113937"
+	},
+	"Children": [
+		{
+			"ID": "20231208113937-g1tp0z3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231208113937-g1tp0z3",
+				"updated": "20231208113937"
+			}
+		}
+	]
+}

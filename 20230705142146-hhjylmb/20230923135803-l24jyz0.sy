@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230923135803-l24jyz0",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230923135803-l24jyz0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230923140237-rs7ab43\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230926105832-m3ar0ah\u0026quot;,\u0026quot;scrollTop\u0026quot;:872\u0026#125;",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230923135803-l24jyz0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230923140237-rs7ab43\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231204152350-hrwugqo\u0026quot;,\u0026quot;scrollTop\u0026quot;:1087,\u0026quot;focusId\u0026quot;:\u0026quot;20231204112258-ef5lsfp\u0026quot;,\u0026quot;focusStart\u0026quot;:48,\u0026quot;focusEnd\u0026quot;:48\u0026#125;",
 		"title": "TypeScript学习",
-		"updated": "20230927112849"
+		"updated": "20231204160148"
 	},
 	"Children": [
 		{
@@ -8238,6 +8238,92 @@
 			]
 		},
 		{
+			"ID": "20231204112055-5hfcrrx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231204112055-5hfcrrx",
+				"updated": "20231204112107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeScript报错"
+				}
+			]
+		},
+		{
+			"ID": "20231204112257-4jrparv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231204112257-4jrparv",
+				"updated": "20231204160148"
+			},
+			"Children": [
+				{
+					"ID": "20231204112257-uuwatk4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231204112257-uuwatk4",
+						"updated": "20231204160148"
+					},
+					"Children": [
+						{
+							"ID": "20231204112257-9fryxpe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204112257-9fryxpe",
+								"updated": "20231204112337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "commitlint.config.cjs -\u003e 'module' is not defined.eslintno-undef"
+								}
+							]
+						},
+						{
+							"ID": "20231204112258-ef5lsfp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231204112258-ef5lsfp",
+								"style": "line-height: 22px;",
+								"updated": "20231204160148"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZGlmZg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// .eslintrc.cjs\nmodule.exports = {\n  env: {\n    browser: true,\n    es2021: true,\n+   node: true,\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"ID": "20230926110023-v2qaqib",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -8366,6 +8452,41 @@
 			"Properties": {
 				"id": "20230926105832-m3ar0ah"
 			}
+		},
+		{
+			"ID": "20231204152350-2csmtjd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231204152350-2csmtjd",
+				"updated": "20231204152350"
+			}
+		},
+		{
+			"ID": "20231204152350-hrwugqo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20231204152350-hrwugqo",
+				"updated": "20231204152350"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZGlmZg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    \"roles\": [\n        \"admin\",\n        \"user\"\n    ],\n    \"permissions\": [\n        \"test:btn:add\",\n        \"test:btn:del\",\n    ],\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
 		}
 	]
 }

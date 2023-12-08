@@ -1,0 +1,432 @@
+{
+	"ID": "20231207210458-3z808ot",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231207210458-3z808ot",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231207210458-3z808ot\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231207210507-rnh4n8h\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231207210458-pqhtpir\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231207210558-rxaclg5\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "xxx优化",
+		"updated": "20231207215711"
+	},
+	"Children": [
+		{
+			"ID": "20231207210507-rnh4n8h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231207210507-rnh4n8h",
+				"updated": "20231207212653"
+			},
+			"Children": [
+				{
+					"ID": "20231207210508-uwp6c4i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231207210508-uwp6c4i",
+						"updated": "20231207210508"
+					},
+					"Children": [
+						{
+							"ID": "20231207210558-rxaclg5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207210558-rxaclg5",
+								"updated": "20231207210558"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目构建性能优化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231207210601-k5i9xmz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231207210601-k5i9xmz"
+					},
+					"Children": [
+						{
+							"ID": "20231207210604-uc1eaio",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207210604-uc1eaio",
+								"updated": "20231207210604"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "页面性能优化"
+								}
+							]
+						},
+						{
+							"ID": "20231207210610-yod9kqi",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231207210610-yod9kqi"
+							},
+							"Children": [
+								{
+									"ID": "20231207210605-e2v5vxb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231207210605-e2v5vxb"
+									},
+									"Children": [
+										{
+											"ID": "20231207210608-tz7mamh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207210608-tz7mamh",
+												"updated": "20231207210608"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "加载时性能优化"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231207210611-hh5ji33",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231207210611-hh5ji33"
+									},
+									"Children": [
+										{
+											"ID": "20231207210614-0mgs1re",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207210614-0mgs1re",
+												"updated": "20231207210614"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "运行时性能优化"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231207210831-qqje6mp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231207210831-qqje6mp"
+					},
+					"Children": [
+						{
+							"ID": "20231207210840-538dvmp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207210840-538dvmp",
+								"updated": "20231207210840"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加载阶段"
+								}
+							]
+						},
+						{
+							"ID": "20231207210859-aotu6iw",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231207210859-aotu6iw"
+							},
+							"Children": [
+								{
+									"ID": "20231207210859-ouaf09g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231207210859-ouaf09g"
+									},
+									"Children": [
+										{
+											"ID": "20231207210904-vlj9mdw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207210904-vlj9mdw",
+												"updated": "20231207210904"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少需要请求的资源尺寸：资源压缩、删除冗余代码和其他资源，或者使用尺寸更小的资源"
+												}
+											]
+										},
+										{
+											"ID": "20231207210907-9j4py2n",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231207210907-9j4py2n"
+											},
+											"Children": [
+												{
+													"ID": "20231207210907-8jnxi4p",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231207210907-8jnxi4p"
+													},
+													"Children": [
+														{
+															"ID": "20231207210907-utw7pfw",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231207210907-utw7pfw",
+																"updated": "20231207210912"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "代码压缩，包括js/css/html都应该压缩"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231207212519-5zw0yrx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20231207212519-5zw0yrx",
+						"updated": "20231207212653"
+					},
+					"Children": [
+						{
+							"ID": "20231207212522-1igeh0u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207212522-1igeh0u",
+								"updated": "20231207212522"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分包策略"
+								}
+							]
+						},
+						{
+							"ID": "20231207212525-8pkkmgm",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231207212525-8pkkmgm",
+								"updated": "20231207212653"
+							},
+							"Children": [
+								{
+									"ID": "20231207212524-xfl24d1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231207212524-xfl24d1",
+										"updated": "20231207212653"
+									},
+									"Children": [
+										{
+											"ID": "20231207212524-7wajiwu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207212524-7wajiwu",
+												"updated": "20231207212546"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vite在打包时，只要代码内容变了，所生成的新文件的hash字符串完全不同。但是，我们改的一般都是源代码里面的内容，而依赖中的内容是不会变的，但是在每次打包时都会重新将这些依赖打包，所以可以将这些依赖分开打包，从而避免多次重新请求"
+												}
+											]
+										},
+										{
+											"ID": "20231207212647-xefaquz",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20231207212647-xefaquz",
+												"style": "line-height: 22px;",
+												"updated": "20231207212653"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import { defineConfig } from 'vite'\n\nexport default defineConfig({\n  build: {\n    rollupOptions: {\n      output: {\n      // 对静态资源进行单独打包\n        assetFileNames: 'static/[ext]/[name].[hash].[ext]',\n        // 对项目依赖进行单独打包\n        manualChunks: (id) =\u003e {\n          if (id.includes('node_modules')) {\n            return 'vandor'\n          }\n        }\n      }\n    }\n  }\n})\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231207210458-pqhtpir",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231207210458-pqhtpir",
+				"updated": "20231207215711"
+			},
+			"Children": [
+				{
+					"ID": "20231207215711-53lovso",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231207215711-53lovso",
+						"updated": "20231207215711"
+					},
+					"Children": [
+						{
+							"ID": "20231207215711-slfs0hk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207215711-slfs0hk",
+								"updated": "20231207215730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打报时间28.33s"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231207215731-jin3zhs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231207215731-jin3zhs"
+					},
+					"Children": [
+						{
+							"ID": "20231207215731-rpi33zu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207215731-rpi33zu"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

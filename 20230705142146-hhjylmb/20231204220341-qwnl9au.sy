@@ -1,0 +1,310 @@
+{
+	"ID": "20231204220341-qwnl9au",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231204220341-qwnl9au",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231204220341-qwnl9au\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231204220346-tlbs144\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231207105811-tly8b0t\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231207105830-fox6t6u\u0026quot;,\u0026quot;focusStart\u0026quot;:13,\u0026quot;focusEnd\u0026quot;:13\u0026#125;",
+		"title": "权限管理",
+		"updated": "20231207105839"
+	},
+	"Children": [
+		{
+			"ID": "20231204220346-tlbs144",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231204220346-tlbs144",
+				"updated": "20231204220351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题"
+				}
+			]
+		},
+		{
+			"ID": "20231204220351-0rkhllp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231204220351-0rkhllp",
+				"updated": "20231206212428"
+			},
+			"Children": [
+				{
+					"ID": "20231204220352-w4tes2w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20231204220352-w4tes2w",
+						"updated": "20231204220352"
+					},
+					"Children": [
+						{
+							"ID": "20231204220352-hfc22da",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231204220352-hfc22da",
+								"updated": "20231204220408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "pinia路由跳转初始化"
+								}
+							]
+						},
+						{
+							"ID": "20231204220416-xmcjf5u",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231204220416-xmcjf5u"
+							},
+							"Children": [
+								{
+									"ID": "20231204220416-l3ow13s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231204220416-l3ow13s"
+									},
+									"Children": [
+										{
+											"ID": "20231204220416-t8oat94",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231204220416-t8oat94",
+												"updated": "20231204220417"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://juejin.cn/post/7043403849033809933",
+													"TextMarkTextContent": "vue3 pinia踩坑 - 掘金 (juejin.cn)"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231204220418-7epq1ss",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20231204220418-7epq1ss",
+						"updated": "20231206212428"
+					},
+					"Children": [
+						{
+							"ID": "20231204220418-n08xne4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231204220418-n08xne4",
+								"style": "line-height: 22px;",
+								"updated": "20231206212428"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZGlmZg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// typings.d.ts or router.ts\nimport 'vue-router'\n\ndeclare module 'vue-router' {\n  interface RouteMeta {\n    // 是可选的\n    isAdmin?: boolean\n    // 每个路由都必须声明\n    requiresAuth: boolean\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20231206212422-8bb9s48",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231206212422-8bb9s48",
+								"updated": "20231206212422"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20231207105811-tly8b0t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231207105811-tly8b0t",
+				"updated": "20231207105839"
+			},
+			"Children": [
+				{
+					"ID": "20231207105816-un8rvx8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231207105816-un8rvx8",
+						"updated": "20231207105839"
+					},
+					"Children": [
+						{
+							"ID": "20231207105816-ogy2k2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207105816-ogy2k2p",
+								"updated": "20231207105820"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "按钮权限"
+								}
+							]
+						},
+						{
+							"ID": "20231207105820-r641jwh",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20231207105820-r641jwh",
+								"updated": "20231207105839"
+							},
+							"Children": [
+								{
+									"ID": "20231207105820-l0szm2w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20231207105820-l0szm2w"
+									},
+									"Children": [
+										{
+											"ID": "20231207105820-f2wbp31",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207105820-f2wbp31",
+												"updated": "20231207105824"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "组件方式判断（已经全局注册，支持动态修改）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231207105824-4m30bdp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20231207105824-4m30bdp"
+									},
+									"Children": [
+										{
+											"ID": "20231207105824-33c5r8s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207105824-33c5r8s",
+												"updated": "20231207105830"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "指令方式判断（已经全局注册，不支持动态修改）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231207105830-42102cj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231207105830-42102cj",
+										"updated": "20231207105839"
+									},
+									"Children": [
+										{
+											"ID": "20231207105830-fox6t6u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231207105830-fox6t6u",
+												"updated": "20231207105839"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数方式判断（支持动态修改）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

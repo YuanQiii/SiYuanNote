@@ -15,6 +15,7 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "",
       "responseSuccessInterceptor",
       "DOM操作",
       "DOM",
@@ -25,7 +26,6 @@
       "构造函数",
       "原型",
       "包装对象",
-      "",
       "库塔",
       "起动涡",
       "nvue",

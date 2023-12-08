@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20231202160026-qkj3get",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231202160026-qkj3get\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231202160037-8ckdh0x\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231204220924-szllat9\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231204220944-ytl0qhp\u0026quot;,\u0026quot;focusStart\u0026quot;:42,\u0026quot;focusEnd\u0026quot;:42\u0026#125;",
 		"title": "Vuex\u0026amp;Pinia",
-		"updated": "20231202223516"
+		"updated": "20231204220947"
 	},
 	"Children": [
 		{
@@ -59,10 +60,40 @@
 			]
 		},
 		{
+			"ID": "20231204220927-e5l1ldv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20231204220927-e5l1ldv",
+				"updated": "20231204220943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组合式API"
+				}
+			]
+		},
+		{
+			"ID": "20231204220944-ytl0qhp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231204220944-ytl0qhp",
+				"updated": "20231204220947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://juejin.cn/post/7089032094231298084"
+				}
+			]
+		},
+		{
 			"ID": "20231202160047-c5hu6x5",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
 				"id": "20231202160047-c5hu6x5",
 				"updated": "20231202160236"
 			},
@@ -90,6 +121,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"heading-fold": "1",
 				"id": "20231202160233-f8c2wrl",
 				"updated": "20231202223516"
 			},
@@ -104,6 +136,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202160306-vsmjjec",
 						"updated": "20231202160317"
 					},
@@ -112,6 +145,7 @@
 							"ID": "20231202160306-hozqu1d",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160306-hozqu1d",
 								"updated": "20231202160307"
 							},
@@ -127,6 +161,7 @@
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160315-o98wkyq",
 								"updated": "20231202160419"
 							},
@@ -161,6 +196,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202160308-dac8o57",
 						"updated": "20231202160517"
 					},
@@ -169,6 +205,7 @@
 							"ID": "20231202160432-6dilfb7",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160432-6dilfb7",
 								"updated": "20231202160432"
 							},
@@ -184,6 +221,7 @@
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160628-ha4h0p5",
 								"updated": "20231202160628"
 							},
@@ -218,6 +256,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202160626-kkpp8fl",
 						"updated": "20231202160709"
 					},
@@ -226,6 +265,7 @@
 							"ID": "20231202160626-laq8q04",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160626-laq8q04",
 								"updated": "20231202160701"
 							},
@@ -259,6 +299,7 @@
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160703-bsgnmpg",
 								"updated": "20231202160709"
 							},
@@ -293,6 +334,7 @@
 						"Num": 4
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202160938-4pzyz9l",
 						"updated": "20231202160938"
 					},
@@ -301,6 +343,7 @@
 							"ID": "20231202160938-unizy98",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202160938-unizy98",
 								"updated": "20231202160944"
 							},
@@ -318,6 +361,7 @@
 								"Typ": 1
 							},
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202163430-yr6b6w0",
 								"updated": "20231202163431"
 							},
@@ -332,6 +376,7 @@
 										"Num": 1
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163431-fvgbm4g",
 										"updated": "20231202163431"
 									},
@@ -340,6 +385,7 @@
 											"ID": "20231202163431-gia8ob9",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163431-gia8ob9",
 												"updated": "20231202163537"
 											},
@@ -355,6 +401,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163435-pmjpdag",
 												"updated": "20231202163518"
 											},
@@ -389,6 +436,7 @@
 										"Num": 2
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163433-71q7x8l"
 									},
 									"Children": [
@@ -396,6 +444,7 @@
 											"ID": "20231202163433-j5av3vk",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163433-j5av3vk",
 												"updated": "20231202163550"
 											},
@@ -411,6 +460,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163542-p1zbnxn",
 												"updated": "20231202163604"
 											},
@@ -445,6 +495,7 @@
 										"Num": 3
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163525-v11b6by"
 									},
 									"Children": [
@@ -452,6 +503,7 @@
 											"ID": "20231202163525-yggt96z",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163525-yggt96z",
 												"updated": "20231202163624"
 											},
@@ -467,6 +519,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163631-ogqr05w",
 												"updated": "20231202163654"
 											},
@@ -501,6 +554,7 @@
 										"Num": 4
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163627-tif001x"
 									},
 									"Children": [
@@ -508,6 +562,7 @@
 											"ID": "20231202163627-8lnr6uc",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163627-8lnr6uc",
 												"updated": "20231202163711"
 											},
@@ -523,6 +578,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163719-hlqbbq2",
 												"updated": "20231202163752"
 											},
@@ -557,6 +613,7 @@
 										"Num": 5
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163715-c77pge5"
 									},
 									"Children": [
@@ -564,6 +621,7 @@
 											"ID": "20231202163715-vqbv00g",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163715-vqbv00g",
 												"updated": "20231202163825"
 											},
@@ -579,6 +637,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163852-gc960bw",
 												"updated": "20231202163909"
 											},
@@ -613,6 +672,7 @@
 										"Num": 6
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163757-mlups1s"
 									},
 									"Children": [
@@ -620,6 +680,7 @@
 											"ID": "20231202163757-0jkffox",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163757-0jkffox",
 												"updated": "20231202163848"
 											},
@@ -635,6 +696,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163912-vfwowgu",
 												"updated": "20231202163922"
 											},
@@ -669,6 +731,7 @@
 										"Num": 7
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202163800-p2lnozr"
 									},
 									"Children": [
@@ -676,6 +739,7 @@
 											"ID": "20231202163800-t14rjbq",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163800-t14rjbq",
 												"updated": "20231202163931"
 											},
@@ -691,6 +755,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202163950-2hzr04m",
 												"updated": "20231202163952"
 											},
@@ -725,6 +790,7 @@
 										"Num": 8
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202221845-sx7z3xd"
 									},
 									"Children": [
@@ -732,6 +798,7 @@
 											"ID": "20231202221847-yoj09fz",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202221847-yoj09fz",
 												"updated": "20231202221942"
 											},
@@ -758,6 +825,7 @@
 												"Typ": 1
 											},
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202221858-hw9p7si"
 											},
 											"Children": [
@@ -771,6 +839,7 @@
 														"Num": 1
 													},
 													"Properties": {
+														"heading-fold": "1",
 														"id": "20231202222020-ork5cfu"
 													},
 													"Children": [
@@ -778,6 +847,7 @@
 															"ID": "20231202222020-inysklw",
 															"Type": "NodeParagraph",
 															"Properties": {
+																"heading-fold": "1",
 																"id": "20231202222020-inysklw",
 																"updated": "20231202222022"
 															},
@@ -800,6 +870,7 @@
 														"Num": 2
 													},
 													"Properties": {
+														"heading-fold": "1",
 														"id": "20231202221850-63bauhi"
 													},
 													"Children": [
@@ -807,6 +878,7 @@
 															"ID": "20231202221850-ie2xtdi",
 															"Type": "NodeParagraph",
 															"Properties": {
+																"heading-fold": "1",
 																"id": "20231202221850-ie2xtdi",
 																"updated": "20231202221915"
 															},
@@ -829,6 +901,7 @@
 														"Num": 3
 													},
 													"Properties": {
+														"heading-fold": "1",
 														"id": "20231202221916-ymvfea8"
 													},
 													"Children": [
@@ -836,6 +909,7 @@
 															"ID": "20231202221916-vqpspev",
 															"Type": "NodeParagraph",
 															"Properties": {
+																"heading-fold": "1",
 																"id": "20231202221916-vqpspev",
 																"updated": "20231202221922"
 															},
@@ -858,6 +932,7 @@
 														"Num": 4
 													},
 													"Properties": {
+														"heading-fold": "1",
 														"id": "20231202221923-reisr2t"
 													},
 													"Children": [
@@ -865,6 +940,7 @@
 															"ID": "20231202221923-6lhnfsp",
 															"Type": "NodeParagraph",
 															"Properties": {
+																"heading-fold": "1",
 																"id": "20231202221923-6lhnfsp",
 																"updated": "20231202221927"
 															},
@@ -887,6 +963,7 @@
 														"Num": 5
 													},
 													"Properties": {
+														"heading-fold": "1",
 														"id": "20231202221928-7n2oldw"
 													},
 													"Children": [
@@ -894,6 +971,7 @@
 															"ID": "20231202221928-guwqk49",
 															"Type": "NodeParagraph",
 															"Properties": {
+																"heading-fold": "1",
 																"id": "20231202221928-guwqk49",
 																"updated": "20231202221931"
 															},
@@ -916,6 +994,7 @@
 														"Num": 6
 													},
 													"Properties": {
+														"heading-fold": "1",
 														"id": "20231202222351-7f6e9bt"
 													},
 													"Children": [
@@ -923,6 +1002,7 @@
 															"ID": "20231202222351-9b65xtr",
 															"Type": "NodeParagraph",
 															"Properties": {
+																"heading-fold": "1",
 																"id": "20231202222351-9b65xtr",
 																"updated": "20231202222406"
 															},
@@ -958,6 +1038,7 @@
 										"Num": 9
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202222956-nl9qlqx"
 									},
 									"Children": [
@@ -965,6 +1046,7 @@
 											"ID": "20231202222956-d375ne0",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202222956-d375ne0",
 												"updated": "20231202223004"
 											},
@@ -991,6 +1073,7 @@
 						"Num": 5
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202163425-ydhow9x",
 						"updated": "20231202163425"
 					},
@@ -999,6 +1082,7 @@
 							"ID": "20231202163425-63nj009",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202163425-63nj009",
 								"updated": "20231202164007"
 							},
@@ -1016,6 +1100,7 @@
 								"Typ": 1
 							},
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202164008-l5cqg10"
 							},
 							"Children": [
@@ -1029,6 +1114,7 @@
 										"Num": 1
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202164007-ssk5o40"
 									},
 									"Children": [
@@ -1036,6 +1122,7 @@
 											"ID": "20231202221333-0hvvwjp",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202221333-0hvvwjp",
 												"updated": "20231202221444"
 											},
@@ -1058,6 +1145,7 @@
 										"Num": 2
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202221336-y994dcy"
 									},
 									"Children": [
@@ -1065,6 +1153,7 @@
 											"ID": "20231202221340-xonvg34",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202221340-xonvg34",
 												"updated": "20231202221537"
 											},
@@ -1087,6 +1176,7 @@
 										"Num": 3
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202221406-o1nuwgx"
 									},
 									"Children": [
@@ -1094,6 +1184,7 @@
 											"ID": "20231202221406-zuf4s3b",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202221406-zuf4s3b",
 												"updated": "20231202221406"
 											},
@@ -1120,6 +1211,7 @@
 						"Num": 6
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202223242-4pmoyrd"
 					},
 					"Children": [
@@ -1127,6 +1219,7 @@
 							"ID": "20231202223243-8749nts",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202223243-8749nts",
 								"updated": "20231202223243"
 							},
@@ -1144,6 +1237,7 @@
 								"Typ": 1
 							},
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202223247-bzb0ywy"
 							},
 							"Children": [
@@ -1157,6 +1251,7 @@
 										"Num": 1
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202223246-toym9i2"
 									},
 									"Children": [
@@ -1164,6 +1259,7 @@
 											"ID": "20231202223246-wtoicbg",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202223246-wtoicbg",
 												"updated": "20231202223311"
 											},
@@ -1195,6 +1291,7 @@
 										"Num": 2
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202223318-gdusl6r"
 									},
 									"Children": [
@@ -1202,6 +1299,7 @@
 											"ID": "20231202223318-qm2haiv",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202223318-qm2haiv",
 												"updated": "20231202223318"
 											},
@@ -1235,6 +1333,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202223326-wlkbq7k",
 												"updated": "20231202223345"
 											},
@@ -1273,6 +1372,7 @@
 						"Num": 7
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20231202223413-d2daoda",
 						"updated": "20231202223516"
 					},
@@ -1281,6 +1381,7 @@
 							"ID": "20231202223423-jy1zk7f",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202223423-jy1zk7f",
 								"updated": "20231202223423"
 							},
@@ -1298,6 +1399,7 @@
 								"Typ": 1
 							},
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20231202223425-tvanpih",
 								"updated": "20231202223516"
 							},
@@ -1312,6 +1414,7 @@
 										"Num": 1
 									},
 									"Properties": {
+										"heading-fold": "1",
 										"id": "20231202223424-au0ceym",
 										"updated": "20231202223516"
 									},
@@ -1320,6 +1423,7 @@
 											"ID": "20231202223424-gqg95j5",
 											"Type": "NodeParagraph",
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202223424-gqg95j5",
 												"updated": "20231202223505"
 											},
@@ -1344,6 +1448,7 @@
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
+												"heading-fold": "1",
 												"id": "20231202223508-vtegvm4",
 												"updated": "20231202223516"
 											},
@@ -1373,6 +1478,13 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20231204220924-szllat9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231204220924-szllat9"
+			}
 		}
 	]
 }

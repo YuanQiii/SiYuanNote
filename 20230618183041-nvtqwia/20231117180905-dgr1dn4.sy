@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20231117180905-dgr1dn4",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231117180905-dgr1dn4\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231117180905-lkpdpsl\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231117180905-lkpdpsl\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231117181449-zzaxl6i\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4\u0026#125;",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20231117180905-dgr1dn4\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231117180905-lkpdpsl\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231206194908-np7d7aw\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20231117181337-el8rr09\u0026quot;,\u0026quot;focusStart\u0026quot;:6,\u0026quot;focusEnd\u0026quot;:6\u0026#125;",
 		"title": "肉沫茄子",
-		"updated": "20231117182036"
+		"updated": "20231207125902"
 	},
 	"Children": [
 		{
@@ -17,7 +17,7 @@
 			},
 			"Properties": {
 				"id": "20231117180905-lkpdpsl",
-				"updated": "20231117182036"
+				"updated": "20231207125902"
 			},
 			"Children": [
 				{
@@ -68,12 +68,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20231117181043-2p75r0u",
-								"updated": "20231117181224"
+								"updated": "20231207125830"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "泡水放盐，2分钟"
+									"Data": "放盐，2分钟"
 								}
 							]
 						}
@@ -97,7 +97,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20231117181107-hpowrwv",
-								"updated": "20231117181221"
+								"updated": "20231207125827"
 							},
 							"Children": [
 								{
@@ -138,13 +138,43 @@
 					]
 				},
 				{
-					"ID": "20231117181250-lrl1dv5",
+					"ID": "20231207125835-vufe5iq",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
 						"Marker": "NS4=",
 						"Num": 5
+					},
+					"Properties": {
+						"id": "20231207125835-vufe5iq",
+						"updated": "20231207125902"
+					},
+					"Children": [
+						{
+							"ID": "20231207125835-7c1b0dy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231207125835-7c1b0dy",
+								"updated": "20231207125902"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "或者煎熟"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231117181250-lrl1dv5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
 					},
 					"Properties": {
 						"id": "20231117181250-lrl1dv5"
@@ -358,8 +388,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "Ni4=",
-						"Num": 6
+						"Marker": "Ny4=",
+						"Num": 7
 					},
 					"Properties": {
 						"id": "20231117181643-1qffeqn"
@@ -387,8 +417,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "Ny4=",
-						"Num": 7
+						"Marker": "OC4=",
+						"Num": 8
 					},
 					"Properties": {
 						"id": "20231117181704-nmvggis"
@@ -416,8 +446,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "OC4=",
-						"Num": 8
+						"Marker": "OS4=",
+						"Num": 9
 					},
 					"Properties": {
 						"id": "20231117181803-wsog0hf"
@@ -438,15 +468,43 @@
 							]
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"ID": "20231206194908-4f4zb76",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231206194908-4f4zb76"
+			}
+		},
+		{
+			"ID": "20231206194908-ub6sitp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231206194908-ub6sitp",
+				"updated": "20231206194908"
+			}
+		},
+		{
+			"ID": "20231206194908-np7d7aw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20231206194908-np7d7aw",
+				"updated": "20231206194908"
+			},
+			"Children": [
 				{
 					"ID": "20231117181837-x88ebft",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "OS4=",
-						"Num": 9
+						"Marker": "MS4=",
+						"Num": 1
 					},
 					"Properties": {
 						"id": "20231117181837-x88ebft"
@@ -474,8 +532,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "MTAu",
-						"Num": 10
+						"Marker": "Mi4=",
+						"Num": 2
 					},
 					"Properties": {
 						"id": "20231117181901-43cjsbw",

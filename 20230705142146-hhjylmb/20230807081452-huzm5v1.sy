@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230807081452-huzm5v1",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230823204415-qrj2w5b\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230823204415-qrj2w5b\u0026quot;,\u0026quot;scrollTop\u0026quot;:90,\u0026quot;focusId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
 		"title": "前端首页加载优化",
-		"updated": "20230825080829"
+		"updated": "20231208160825"
 	},
 	"Children": [
 		{
@@ -32,7 +32,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
 				"heading-fold": "1",
 				"id": "20230823200744-1j66gvk",
 				"updated": "20230823200744"
@@ -48,6 +47,7 @@
 						"Num": 1
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230823200744-u2k6swb",
 						"updated": "20230823200744"
 					},
@@ -56,6 +56,7 @@
 							"ID": "20230823200744-xsxx928",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230823200744-xsxx928",
 								"updated": "20230823200744"
 							},
@@ -87,6 +88,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230823200744-mldnvao",
 						"updated": "20230823200744"
 					},
@@ -95,6 +97,7 @@
 							"ID": "20230823200744-i7sskrj",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230823200744-i7sskrj",
 								"updated": "20230823200744"
 							},
@@ -126,6 +129,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230823200744-rx75fc1",
 						"updated": "20230823200744"
 					},
@@ -134,6 +138,7 @@
 							"ID": "20230823200744-za8g3hq",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230823200744-za8g3hq",
 								"updated": "20230823200744"
 							},
@@ -165,6 +170,7 @@
 						"Num": 4
 					},
 					"Properties": {
+						"heading-fold": "1",
 						"id": "20230823200744-jixwi9w",
 						"updated": "20230823200744"
 					},
@@ -173,6 +179,7 @@
 							"ID": "20230823200744-x995eyt",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"heading-fold": "1",
 								"id": "20230823200744-x995eyt",
 								"updated": "20230823200744"
 							},
@@ -210,7 +217,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"fold": "1",
 				"id": "20230823200757-qf9tfrb",
 				"updated": "20230823200757"
 			},
@@ -228,8 +234,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823200757-o3iwnhp",
 				"updated": "20230823202338"
 			},
@@ -502,10 +506,8 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202454-s45tz2w",
-				"updated": "20230824104617"
+				"updated": "20231207220441"
 			},
 			"Children": [
 				{
@@ -518,9 +520,8 @@
 						"Num": 1
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230824104609-3yc0qkg",
-						"updated": "20230824104617"
+						"updated": "20231207220441"
 					},
 					"Children": [
 						{
@@ -544,7 +545,8 @@
 								"Typ": 1
 							},
 							"Properties": {
-								"id": "20230824104617-ujl0hue"
+								"id": "20230824104617-ujl0hue",
+								"updated": "20231207220441"
 							},
 							"Children": [
 								{
@@ -557,7 +559,6 @@
 										"Num": 1
 									},
 									"Properties": {
-										"fold": "1",
 										"id": "20230823202455-0topndd",
 										"updated": "20230823202455"
 									},
@@ -656,8 +657,8 @@
 										"Num": 2
 									},
 									"Properties": {
-										"fold": "1",
-										"id": "20230824103448-2fd9tfj"
+										"id": "20230824103448-2fd9tfj",
+										"updated": "20231207220441"
 									},
 									"Children": [
 										{
@@ -681,7 +682,8 @@
 												"Typ": 1
 											},
 											"Properties": {
-												"id": "20230824104318-03cnzci"
+												"id": "20230824104318-03cnzci",
+												"updated": "20231207220441"
 											},
 											"Children": [
 												{
@@ -708,6 +710,45 @@
 																{
 																	"Type": "NodeText",
 																	"Data": "useIntersectionObserver"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231207220434-mygthh6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231207220434-mygthh6",
+														"updated": "20231207220441"
+													},
+													"Children": [
+														{
+															"ID": "20231207220434-onxdim8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231207220434-onxdim8",
+																"updated": "20231207220441"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "pnpm add ​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "@vueuse/core"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​"
 																}
 															]
 														}
@@ -759,10 +800,8 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202735-bvugzlr",
-				"updated": "20230823205724"
+				"updated": "20231208150739"
 			},
 			"Children": [
 				{
@@ -775,9 +814,8 @@
 						"Num": 2
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230823202743-nngg157",
-						"updated": "20230823205724"
+						"updated": "20231208150739"
 					},
 					"Children": [
 						{
@@ -802,11 +840,11 @@
 							},
 							"Properties": {
 								"id": "20230823202806-4hw9py8",
-								"updated": "20230823205724"
+								"updated": "20231208150739"
 							},
 							"Children": [
 								{
-									"ID": "20230823202850-kxqr5qs",
+									"ID": "20231208150442-131yts8",
 									"Type": "NodeListItem",
 									"ListData": {
 										"Typ": 1,
@@ -815,70 +853,70 @@
 										"Num": 1
 									},
 									"Properties": {
-										"id": "20230823202850-kxqr5qs"
+										"id": "20231208150442-131yts8"
 									},
 									"Children": [
 										{
-											"ID": "20230823202850-ho6gyhv",
+											"ID": "20231208150442-z7azt18",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20230823202850-ho6gyhv",
-												"updated": "20230823202850"
+												"id": "20231208150442-z7azt18",
+												"updated": "20231208150506"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Vite将外部库默认打包进了当前 chunk 中，对于这些固定的外部库，可以直接采用CDN的方式引入，无需打包进chunk中"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20230823203618-xr1vak9",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "Mi4=",
-										"Num": 2
-									},
-									"Properties": {
-										"id": "20230823203618-xr1vak9"
-									},
-									"Children": [
-										{
-											"ID": "20230823203618-fmmr60p",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20230823203618-fmmr60p",
-												"updated": "20230823203619"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "rollup-plugin-external-globals"
+													"Data": "方式一：rollup-plugin-external-globals + vite-plugin-html"
 												}
 											]
 										},
 										{
-											"ID": "20230823203738-aypp6f2",
+											"ID": "20231208150508-dsgdhmd",
 											"Type": "NodeList",
 											"ListData": {
 												"Typ": 1
 											},
 											"Properties": {
-												"id": "20230823203738-aypp6f2"
+												"id": "20231208150508-dsgdhmd"
 											},
 											"Children": [
 												{
-													"ID": "20230823202754-gcbilzz",
+													"ID": "20230823202850-kxqr5qs",
 													"Type": "NodeListItem",
 													"ListData": {
 														"Typ": 1,
 														"Delimiter": 46,
 														"Marker": "MS4=",
 														"Num": 1
+													},
+													"Properties": {
+														"id": "20230823202850-kxqr5qs"
+													},
+													"Children": [
+														{
+															"ID": "20230823202850-ho6gyhv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230823202850-ho6gyhv",
+																"updated": "20230823202850"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Vite将外部库默认打包进了当前 chunk 中，对于这些固定的外部库，可以直接采用CDN的方式引入，无需打包进chunk中"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230823202754-gcbilzz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
 													},
 													"Properties": {
 														"id": "20230823202754-gcbilzz"
@@ -904,7 +942,8 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230823202810-7nbmxf6",
-																"updated": "20230823203805"
+																"style": "line-height: 22px;",
+																"updated": "20231208150006"
 															},
 															"Children": [
 																{
@@ -913,11 +952,11 @@
 																},
 																{
 																	"Type": "NodeCodeBlockFenceInfoMarker",
-																	"CodeBlockInfo": "dHM="
+																	"CodeBlockInfo": "YmFzaA=="
 																},
 																{
 																	"Type": "NodeCodeBlockCode",
-																	"Data": "pnpm add rollup-plugin-external-globals -D\npnpm add vite-plugin-html -D\n"
+																	"Data": "# 排除打包\npnpm add rollup-plugin-external-globals -D\n# 在 index.html 中增加 EJS 标签\npnpm add vite-plugin-html -D\n"
 																},
 																{
 																	"Type": "NodeCodeBlockFenceCloseMarker",
@@ -933,8 +972,8 @@
 													"ListData": {
 														"Typ": 1,
 														"Delimiter": 46,
-														"Marker": "Mi4=",
-														"Num": 2
+														"Marker": "My4=",
+														"Num": 3
 													},
 													"Properties": {
 														"id": "20230823202934-3wm9bo3",
@@ -961,7 +1000,8 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230823203256-6z8c5pf",
-																"updated": "20230823204602"
+																"style": "line-height: 22px;",
+																"updated": "20231208150039"
 															},
 															"Children": [
 																{
@@ -974,7 +1014,7 @@
 																},
 																{
 																	"Type": "NodeCodeBlockCode",
-																	"Data": "import externalGlobals from 'rollup-plugin-external-globals';\nimport { createHtmlPlugin } from 'vite-plugin-html'\n\nconst globals = externalGlobals({\n  axios: 'axios',\n});\n\nexport default defineConfig({\n  plugins: [\n  // 支持 ejs模板语言，需要在模板加入  \u003c%- injectScript %\u003e\n  createHtmlPlugin({\n    template: './index.html',\n    inject: {\n      tags: [\n        {\n          injectTo: 'body',\n          tag: 'script',\n          attrs: {\n            src: 'https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js',\n            defer: true\n          }\n        },\n      ]\n    }\n  })],\n  build: {\n    rollupOptions: {\n      external: ['axios'],\n      plugins: globals\n    }\n  }\n})\n"
+																	"Data": "import externalGlobals from 'rollup-plugin-external-globals';\nimport { createHtmlPlugin } from 'vite-plugin-html'\n\nconst globals = externalGlobals({\n  axios: 'axios',\n});\n\nexport default defineConfig({\n  plugins: [\n  // 支持 ejs模板语言，需要在模板加入  \u003c%- injectScript %\u003e\n  createHtmlPlugin({\n    template: './index.html',\n    inject: {\n      tags: [\n        {\n          injectTo: 'body',\n          tag: 'script',\n          attrs: {\n            src: 'https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js',\n            defer: true\n          }\n        },\n      ]\n    }\n  })],\n  build: {\n    rollupOptions: {\n      external: ['axios'],\n      plugins: [globals]\n    }\n  }\n})\n"
 																},
 																{
 																	"Type": "NodeCodeBlockFenceCloseMarker",
@@ -994,13 +1034,12 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "My4=",
-										"Num": 3
+										"Marker": "Mi4=",
+										"Num": 2
 									},
 									"Properties": {
-										"fold": "1",
 										"id": "20230823203337-3bc0736",
-										"updated": "20230823205724"
+										"updated": "20231208150739"
 									},
 									"Children": [
 										{
@@ -1008,12 +1047,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20230823203337-8lb6rm5",
-												"updated": "20230823204649"
+												"updated": "20231208150519"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "vite-plugin-cdn-import"
+													"Data": "方式二：vite-plugin-cdn-import"
 												}
 											]
 										},
@@ -1025,7 +1064,7 @@
 											},
 											"Properties": {
 												"id": "20230823204651-9naec3e",
-												"updated": "20230823205724"
+												"updated": "20231208150739"
 											},
 											"Children": [
 												{
@@ -1061,6 +1100,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230823204654-0bk8pfb",
+																"style": "line-height: 22px;",
 																"updated": "20230823204707"
 															},
 															"Children": [
@@ -1095,7 +1135,7 @@
 													},
 													"Properties": {
 														"id": "20230823205229-wk6749i",
-														"updated": "20230823205724"
+														"updated": "20231208150739"
 													},
 													"Children": [
 														{
@@ -1118,7 +1158,8 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230823205238-1oe3uv9",
-																"updated": "20230823205724"
+																"style": "line-height: 22px;",
+																"updated": "20231208150739"
 															},
 															"Children": [
 																{
@@ -1131,7 +1172,7 @@
 																},
 																{
 																	"Type": "NodeCodeBlockCode",
-																	"Data": "import { Plugin as importToCDN, autoComplete } from 'vite-plugin-cdn-import'\nexport default defineConfig({\n  plugins: [\n    importToCDN({\n      modules: [\n        // {\n        //   name: 'axios',\n        //   var: 'axios',\n        //   path: 'https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js',\n        // }\n        autoComplete('axios')\n      ]\n    })],\n})\n"
+																	"Data": "import { Plugin as importToCDN, autoComplete } from 'vite-plugin-cdn-import'\nexport default defineConfig({\n  plugins: [\n    importToCDN({\n      modules: [\n        // {\n        //   name: 'axios',\n        //   var: 'axios',\n        //   path: 'https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js',\n        // }\n        autoComplete('axios')// 自动导入CDN的功能\n      ]\n    })],\n})\n"
 																},
 																{
 																	"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1158,10 +1199,8 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-0jsfr1o",
-				"updated": "20230825080829"
+				"updated": "20231208160354"
 			},
 			"Children": [
 				{
@@ -1174,9 +1213,8 @@
 						"Num": 3
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230823205819-vz93632",
-						"updated": "20230823205819"
+						"updated": "20231208160354"
 					},
 					"Children": [
 						{
@@ -1200,17 +1238,48 @@
 								"Typ": 1
 							},
 							"Properties": {
-								"id": "20230823210643-ygumj9f"
+								"id": "20230823210643-ygumj9f",
+								"updated": "20231208160354"
 							},
 							"Children": [
 								{
-									"ID": "20230823210643-7wqs2o5",
+									"ID": "20231208160354-pdwn3q5",
 									"Type": "NodeListItem",
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
 										"Marker": "MS4=",
 										"Num": 1
+									},
+									"Properties": {
+										"id": "20231208160354-pdwn3q5",
+										"updated": "20231208160354"
+									},
+									"Children": [
+										{
+											"ID": "20231208160354-c0jzqj0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231208160354-c0jzqj0",
+												"updated": "20231208160354"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "https://juejin.cn/post/7057146049990754341"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230823210643-7wqs2o5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
 									},
 									"Properties": {
 										"id": "20230823210643-7wqs2o5"
@@ -1236,7 +1305,8 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230823210648-l0gx6mh",
-												"updated": "20230823211139"
+												"style": "line-height: 22px;",
+												"updated": "20231208155839"
 											},
 											"Children": [
 												{
@@ -1245,11 +1315,11 @@
 												},
 												{
 													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "dHM="
+													"CodeBlockInfo": "YmFzaA=="
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "pnpm add @vitejs/plugin-legacy\n"
+													"Data": "# @vitejs/plugin-legacy 为打包后的文件提供传统浏览器兼容性支持\npnpm add @vitejs/plugin-legacy\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1265,8 +1335,8 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "Mi4=",
-										"Num": 2
+										"Marker": "My4=",
+										"Num": 3
 									},
 									"Properties": {
 										"id": "20230823211152-7i7kgw1",
@@ -1329,7 +1399,7 @@
 																},
 																{
 																	"Type": "NodeText",
-																	"Data": "​插件，但是还是需要引入Polyfill的，否则无法适配低端浏览器"
+																	"Data": "​​插件，但是还是需要引入Polyfill的，否则无法适配低端浏览器"
 																}
 															]
 														},
@@ -1339,6 +1409,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230823220112-jfo1u06",
+																"style": "line-height: 22px;",
 																"updated": "20230823220114"
 															},
 															"Children": [
@@ -1366,6 +1437,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230823211351-mlvk69n",
+																"style": "line-height: 22px;",
 																"updated": "20230823213059"
 															},
 															"Children": [
@@ -1407,7 +1479,6 @@
 						"Num": 4
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230823220202-tfvg55u"
 					},
 					"Children": [
@@ -1468,6 +1539,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824100707-8eep145",
+												"style": "line-height: 22px;",
 												"updated": "20230824100722"
 											},
 											"Children": [
@@ -1561,6 +1633,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230824101014-6e990mc",
+																"style": "line-height: 22px;",
 																"updated": "20230824101031"
 															},
 															"Children": [
@@ -1617,6 +1690,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230824100953-t30rlaz",
+																"style": "line-height: 22px;",
 																"updated": "20230824101010"
 															},
 															"Children": [
@@ -1658,8 +1732,8 @@
 						"Num": 5
 					},
 					"Properties": {
-						"fold": "1",
-						"id": "20230823220215-yywozqu"
+						"id": "20230823220215-yywozqu",
+						"updated": "20231208153358"
 					},
 					"Children": [
 						{
@@ -1683,7 +1757,8 @@
 								"Typ": 1
 							},
 							"Properties": {
-								"id": "20230824101304-ehdv9bp"
+								"id": "20230824101304-ehdv9bp",
+								"updated": "20231208153358"
 							},
 							"Children": [
 								{
@@ -1725,7 +1800,6 @@
 										"Num": 2
 									},
 									"Properties": {
-										"fold": "1",
 										"id": "20230824102313-tgmjq54"
 									},
 									"Children": [
@@ -1771,11 +1845,143 @@
 											]
 										},
 										{
+											"ID": "20231208151905-a412tsz",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20231208151905-a412tsz",
+												"updated": "20231208151905"
+											},
+											"Children": [
+												{
+													"ID": "20231208151905-k91krsf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20231208151905-k91krsf",
+														"updated": "20231208151905"
+													},
+													"Children": [
+														{
+															"ID": "20231208151905-o3q2fdp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231208151905-o3q2fdp",
+																"updated": "20231208151905"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "一个 chunk 对应一个 CSS 文件"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231208151905-mxk9umd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20231208151905-mxk9umd",
+														"updated": "20231208151905"
+													},
+													"Children": [
+														{
+															"ID": "20231208151905-goqjhgc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231208151905-goqjhgc",
+																"updated": "20231208151905"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "业务代码会打包成一个 chunk"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231208151905-xpglfxa",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20231208151905-xpglfxa",
+														"updated": "20231208151905"
+													},
+													"Children": [
+														{
+															"ID": "20231208151905-b75wptp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231208151905-b75wptp",
+																"updated": "20231208151905"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "第三方依赖包打包成一个 chunk"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20231208151926-2ag4tr4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20231208151926-2ag4tr4"
+									},
+									"Children": [
+										{
+											"ID": "20231208151926-ihjqz2p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231208151926-ihjqz2p",
+												"updated": "20231208151927"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://rollupjs.org/guide/en/#outputmanualchunks",
+													"TextMarkATitle": "https://rollupjs.org/guide/en/#outputmanualchunks",
+													"TextMarkTextContent": "manualChunks"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 配置"
+												}
+											]
+										},
+										{
 											"ID": "20230824102423-k43jwl7",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824102423-k43jwl7",
+												"style": "line-height: 22px;",
 												"updated": "20230824103156"
 											},
 											"Children": [
@@ -1805,11 +2011,10 @@
 									"ListData": {
 										"Typ": 1,
 										"Delimiter": 46,
-										"Marker": "My4=",
-										"Num": 3
+										"Marker": "NC4=",
+										"Num": 4
 									},
 									"Properties": {
-										"fold": "1",
 										"id": "20230824102344-k3iirk9"
 									},
 									"Children": [
@@ -1832,7 +2037,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​ 默认情况下不再被更改。你可以通过在配置文件中添加 "
+													"Data": "​​ 默认情况下不再被更改。你可以通过在配置文件中添加 "
 												},
 												{
 													"Type": "NodeTextMark",
@@ -1841,7 +2046,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​ 来继续使用 “分割 Vendor Chunk” 策略"
+													"Data": "​​ 来继续使用 “分割 Vendor Chunk” 策略"
 												}
 											]
 										},
@@ -1851,6 +2056,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824102600-p5r53ia",
+												"style": "line-height: 22px;",
 												"updated": "20230824103114"
 											},
 											"Children": [
@@ -1873,6 +2079,145 @@
 											]
 										}
 									]
+								},
+								{
+									"ID": "20231208151628-i6wyl2j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20231208151628-i6wyl2j",
+										"updated": "20231208153358"
+									},
+									"Children": [
+										{
+											"ID": "20231208151628-f1sufjk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20231208151628-f1sufjk",
+												"updated": "20231208151814"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "vite-plugin-chunk-split"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										},
+										{
+											"ID": "20231208151819-j5bu1zc",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231208151819-j5bu1zc",
+												"updated": "20231208153358"
+											},
+											"Children": [
+												{
+													"ID": "20231208151819-dqamho0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231208151819-dqamho0"
+													},
+													"Children": [
+														{
+															"ID": "20231208151819-p3jnoik",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20231208151819-p3jnoik",
+																"style": "line-height: 22px;",
+																"updated": "20231208151827"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "YmFzaA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "pnpm add vite-plugin-chunk-split\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231208152506-n4zyvse",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231208152506-n4zyvse",
+														"updated": "20231208153358"
+													},
+													"Children": [
+														{
+															"ID": "20231208152506-k5jh07m",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20231208152506-k5jh07m",
+																"style": "line-height: 22px;",
+																"updated": "20231208153358"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "// vite.config.ts\nimport { chunkSplitPlugin } from 'vite-plugin-chunk-split';\n\n\nexport default {\n    chunkSplitPlugin({\n      // 默认拆包方式\n      strategy: 'default',\n    }),\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
 								}
 							]
 						}
@@ -1888,7 +2233,6 @@
 						"Num": 6
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230824103214-tz8suwg"
 					},
 					"Children": [
@@ -1988,7 +2332,6 @@
 						"Num": 7
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230824103326-9cy3tjw"
 					},
 					"Children": [
@@ -2049,6 +2392,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824103341-3s7f70a",
+												"style": "line-height: 22px;",
 												"updated": "20230824103346"
 											},
 											"Children": [
@@ -2086,7 +2430,6 @@
 						"Num": 8
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230824220251-1usu55k"
 					},
 					"Children": [
@@ -2147,6 +2490,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824220318-2yhz7uv",
+												"style": "line-height: 22px;",
 												"updated": "20230824220414"
 											},
 											"Children": [
@@ -2203,6 +2547,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824220443-cyoy0ym",
+												"style": "line-height: 22px;",
 												"updated": "20230824220451"
 											},
 											"Children": [
@@ -2240,9 +2585,8 @@
 						"Num": 9
 					},
 					"Properties": {
-						"fold": "0",
 						"id": "20230824103359-g4lraxe",
-						"updated": "20230825080829"
+						"updated": "20231208155348"
 					},
 					"Children": [
 						{
@@ -2267,7 +2611,7 @@
 							},
 							"Properties": {
 								"id": "20230824105525-2oznahn",
-								"updated": "20230825080829"
+								"updated": "20231208155348"
 							},
 							"Children": [
 								{
@@ -2310,7 +2654,8 @@
 										"Num": 2
 									},
 									"Properties": {
-										"id": "20230824105530-0p9jtk3"
+										"id": "20230824105530-0p9jtk3",
+										"updated": "20231208155348"
 									},
 									"Children": [
 										{
@@ -2334,7 +2679,8 @@
 												"Typ": 1
 											},
 											"Properties": {
-												"id": "20230824105619-tbtwuk4"
+												"id": "20230824105619-tbtwuk4",
+												"updated": "20231208155348"
 											},
 											"Children": [
 												{
@@ -2370,6 +2716,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230824105625-6hyav71",
+																"style": "line-height: 22px;",
 																"updated": "20230824105638"
 															},
 															"Children": [
@@ -2394,13 +2741,57 @@
 													]
 												},
 												{
-													"ID": "20230824105621-c6ea54g",
+													"ID": "20231208155322-haw9pae",
 													"Type": "NodeListItem",
 													"ListData": {
 														"Typ": 1,
 														"Delimiter": 46,
 														"Marker": "Mi4=",
 														"Num": 2
+													},
+													"Properties": {
+														"id": "20231208155322-haw9pae",
+														"updated": "20231208155348"
+													},
+													"Children": [
+														{
+															"ID": "20231208155322-f25gn2c",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20231208155322-f25gn2c",
+																"style": "line-height: 22px;",
+																"updated": "20231208155348"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "dHM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "// package.json\n{\n  \"resolutions\": {\n    \"bin-wrapper\": \"npm:bin-wrapper-china\"\n  }\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230824105621-c6ea54g",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
 													},
 													"Properties": {
 														"id": "20230824105621-c6ea54g"
@@ -2426,6 +2817,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230824105642-bnzdcyx",
+																"style": "line-height: 22px;",
 																"updated": "20230824105704"
 															},
 															"Children": [
@@ -2467,7 +2859,6 @@
 						"Num": 10
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230824105725-9ant34o"
 					},
 					"Children": [
@@ -2631,7 +3022,7 @@
 																},
 																{
 																	"Type": "NodeText",
-																	"Data": "​"
+																	"Data": "​​"
 																},
 																{
 																	"Type": "NodeTextMark",
@@ -2651,6 +3042,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20230824105740-jnqwkej",
+												"style": "line-height: 22px;",
 												"updated": "20230824105740"
 											},
 											"Children": [
@@ -2688,7 +3080,6 @@
 						"Num": 11
 					},
 					"Properties": {
-						"fold": "1",
 						"id": "20230824110506-av7c1zf"
 					},
 					"Children": [
@@ -3006,7 +3397,7 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​ 可以禁用最小化混淆，或是用来指定使用哪种混淆器"
+													"Data": "​​ 可以禁用最小化混淆，或是用来指定使用哪种混淆器"
 												}
 											]
 										}
@@ -3123,6 +3514,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230824223544-9zilngh",
+																"style": "line-height: 22px;",
 																"updated": "20230824223831"
 															},
 															"Children": [
@@ -3180,6 +3572,7 @@
 															"IsFencedCodeBlock": true,
 															"Properties": {
 																"id": "20230824223927-ct0wzdv",
+																"style": "line-height: 22px;",
 																"updated": "20230824223950"
 															},
 															"Children": [
@@ -3217,8 +3610,6 @@
 			"ID": "20230823202905-4yzcs65",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-4yzcs65",
 				"updated": "20230823213316"
 			},
@@ -3233,8 +3624,6 @@
 			"ID": "20230823213319-bjklcea",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823213319-bjklcea"
 			}
 		},
@@ -3242,8 +3631,6 @@
 			"ID": "20230823202905-702grhz",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-702grhz"
 			}
 		},
@@ -3251,8 +3638,6 @@
 			"ID": "20230823202905-7ywhdjv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-7ywhdjv"
 			}
 		},
@@ -3260,8 +3645,6 @@
 			"ID": "20230823202905-ikpqsxv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-ikpqsxv"
 			}
 		},
@@ -3269,8 +3652,6 @@
 			"ID": "20230823202905-hkwhui4",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-hkwhui4"
 			}
 		},
@@ -3278,8 +3659,6 @@
 			"ID": "20230823202905-sfchyh0",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-sfchyh0"
 			}
 		},
@@ -3287,8 +3666,6 @@
 			"ID": "20230823202905-c8lzvaf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-c8lzvaf"
 			}
 		},
@@ -3296,8 +3673,6 @@
 			"ID": "20230823202905-x86irro",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-x86irro"
 			}
 		},
@@ -3305,8 +3680,6 @@
 			"ID": "20230823202905-qern31e",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-qern31e"
 			}
 		},
@@ -3314,8 +3687,6 @@
 			"ID": "20230823202905-at203kr",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-at203kr"
 			}
 		},
@@ -3323,8 +3694,6 @@
 			"ID": "20230823202905-pnpvpjs",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-pnpvpjs"
 			}
 		},
@@ -3332,8 +3701,6 @@
 			"ID": "20230823202905-qii25fs",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-qii25fs"
 			}
 		},
@@ -3341,8 +3708,6 @@
 			"ID": "20230823202905-ooa2j2v",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-ooa2j2v"
 			}
 		},
@@ -3350,8 +3715,6 @@
 			"ID": "20230823202905-3qokhuo",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-3qokhuo"
 			}
 		},
@@ -3359,8 +3722,6 @@
 			"ID": "20230823202905-g5aaybg",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20230823202905-g5aaybg"
 			}
 		},
@@ -3385,7 +3746,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230823204415-qrj2w5b",
-				"updated": "20230824224006"
+				"updated": "20231208160825"
 			},
 			"Children": [
 				{
@@ -3501,6 +3862,88 @@
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://www.cnblogs.com/guangzan/p/16633753.html",
 									"TextMarkTextContent": "vite 构建移除 console - guangzan - 博客园 (cnblogs.com)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231208160809-la1uo2x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231208160809-la1uo2x"
+					},
+					"Children": [
+						{
+							"ID": "20231208160809-abeqtki",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231208160809-abeqtki",
+								"updated": "20231208160809"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/7084149224312897549"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231208160809-nqgvjyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231208160809-nqgvjyz"
+					},
+					"Children": [
+						{
+							"ID": "20231208160809-696tqtk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231208160809-696tqtk",
+								"updated": "20231208160815"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/6981673766178783262"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20231208160824-s8e84ed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20231208160824-s8e84ed",
+						"updated": "20231208160825"
+					},
+					"Children": [
+						{
+							"ID": "20231208160824-0htnqzi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231208160824-0htnqzi",
+								"updated": "20231208160825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://juejin.cn/post/6955780792949669919"
 								}
 							]
 						}
