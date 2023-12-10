@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230923135803-l24jyz0",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230923135803-l24jyz0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230923140237-rs7ab43\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231204152350-hrwugqo\u0026quot;,\u0026quot;scrollTop\u0026quot;:1087,\u0026quot;focusId\u0026quot;:\u0026quot;20231204112258-ef5lsfp\u0026quot;,\u0026quot;focusStart\u0026quot;:48,\u0026quot;focusEnd\u0026quot;:48\u0026#125;",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230923135803-l24jyz0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230923140237-rs7ab43\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230926110028-wddcnj9\u0026quot;,\u0026quot;scrollTop\u0026quot;:901,\u0026quot;focusId\u0026quot;:\u0026quot;20230926203433-qoycbl6\u0026quot;,\u0026quot;focusStart\u0026quot;:39,\u0026quot;focusEnd\u0026quot;:39}",
 		"title": "TypeScript学习",
-		"updated": "20231204160148"
+		"updated": "20230926203433"
 	},
 	"Children": [
 		{
@@ -8238,21 +8238,6 @@
 			]
 		},
 		{
-			"ID": "20231204112055-5hfcrrx",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20231204112055-5hfcrrx",
-				"updated": "20231204112107"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "TypeScript报错"
-				}
-			]
-		},
-		{
 			"ID": "20231204112257-4jrparv",
 			"Type": "NodeList",
 			"ListData": {
@@ -8443,48 +8428,6 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20230926105832-m3ar0ah",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20230926105832-m3ar0ah"
-			}
-		},
-		{
-			"ID": "20231204152350-2csmtjd",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20231204152350-2csmtjd",
-				"updated": "20231204152350"
-			}
-		},
-		{
-			"ID": "20231204152350-hrwugqo",
-			"Type": "NodeCodeBlock",
-			"IsFencedCodeBlock": true,
-			"Properties": {
-				"id": "20231204152350-hrwugqo",
-				"updated": "20231204152350"
-			},
-			"Children": [
-				{
-					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
-				},
-				{
-					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "ZGlmZg=="
-				},
-				{
-					"Type": "NodeCodeBlockCode",
-					"Data": "    \"roles\": [\n        \"admin\",\n        \"user\"\n    ],\n    \"permissions\": [\n        \"test:btn:add\",\n        \"test:btn:del\",\n    ],\n"
-				},
-				{
-					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
 				}
 			]
 		}

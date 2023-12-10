@@ -6,7 +6,7 @@
     "theme": "0",
     "widget": "0"
   },
-  "local-codelang": "ts",
+  "local-codelang": "diff",
   "local-exportimg": {
     "keepFold": false
   },

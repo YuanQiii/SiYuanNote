@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20231202231448-52tiepy",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20231202231448-52tiepy\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231202231456-lr8ffzd\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231208231000-rsln6gw\u0026quot;,\u0026quot;scrollTop\u0026quot;:105}",
 		"title": "TS报错",
-		"updated": "20231208163941"
+		"updated": "20231208231037"
 	},
 	"Children": [
 		{
@@ -16,7 +17,7 @@
 			},
 			"Properties": {
 				"id": "20231202231456-lr8ffzd",
-				"updated": "20231208163941"
+				"updated": "20231208231037"
 			},
 			"Children": [
 				{
@@ -110,7 +111,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​"
+									"Data": "​​"
 								}
 							]
 						},
@@ -143,15 +144,72 @@
 							]
 						}
 					]
+				},
+				{
+					"ID": "20231208231015-6v5x1h0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20231208231015-6v5x1h0",
+						"updated": "20231208231037"
+					},
+					"Children": [
+						{
+							"ID": "20231208231015-hmrg91f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20231208231015-hmrg91f",
+								"updated": "20231208231016"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "commitlint.config.cjs -\u003e 'module' is not defined.eslintno-undef"
+								}
+							]
+						},
+						{
+							"ID": "20231208231018-m7gwzu7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20231208231018-m7gwzu7",
+								"updated": "20231208231037"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZGlmZg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// .eslintrc.cjs\nmodule.exports = {\n  env: {\n    browser: true,\n    es2021: true,\n+   node: true,\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
 		{
-			"ID": "20231202231448-vze9cc3",
+			"ID": "20231208231000-rsln6gw",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20231202231448-vze9cc3",
-				"updated": "20231202231448"
+				"id": "20231208231000-rsln6gw",
+				"updated": "20231208231013"
 			}
 		}
 	]

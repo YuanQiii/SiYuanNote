@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230807081452-huzm5v1",
-		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230823204415-qrj2w5b\u0026quot;,\u0026quot;scrollTop\u0026quot;:90,\u0026quot;focusId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230807081452-huzm5v1\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230823200744-kol8j7g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230823204415-qrj2w5b\u0026quot;,\u0026quot;scrollTop\u0026quot;:4533,\u0026quot;focusId\u0026quot;:\u0026quot;20231208151905-o3q2fdp\u0026quot;,\u0026quot;focusStart\u0026quot;:20,\u0026quot;focusEnd\u0026quot;:20}",
 		"title": "前端首页加载优化",
-		"updated": "20231208160825"
+		"updated": "20231208230313"
 	},
 	"Children": [
 		{
@@ -507,7 +507,7 @@
 			},
 			"Properties": {
 				"id": "20230823202454-s45tz2w",
-				"updated": "20231207220441"
+				"updated": "20231208230313"
 			},
 			"Children": [
 				{
@@ -521,7 +521,7 @@
 					},
 					"Properties": {
 						"id": "20230824104609-3yc0qkg",
-						"updated": "20231207220441"
+						"updated": "20231208230313"
 					},
 					"Children": [
 						{
@@ -546,7 +546,7 @@
 							},
 							"Properties": {
 								"id": "20230824104617-ujl0hue",
-								"updated": "20231207220441"
+								"updated": "20231208230313"
 							},
 							"Children": [
 								{
@@ -658,7 +658,7 @@
 									},
 									"Properties": {
 										"id": "20230824103448-2fd9tfj",
-										"updated": "20231207220441"
+										"updated": "20231208230313"
 									},
 									"Children": [
 										{
@@ -683,7 +683,7 @@
 											},
 											"Properties": {
 												"id": "20230824104318-03cnzci",
-												"updated": "20231207220441"
+												"updated": "20231208230313"
 											},
 											"Children": [
 												{
@@ -696,7 +696,8 @@
 														"Num": 1
 													},
 													"Properties": {
-														"id": "20230824104318-lvf88iz"
+														"id": "20230824104318-lvf88iz",
+														"updated": "20231208230313"
 													},
 													"Children": [
 														{
@@ -704,51 +705,21 @@
 															"Type": "NodeParagraph",
 															"Properties": {
 																"id": "20230824104319-wxz0tjg",
-																"updated": "20230824104319"
+																"updated": "20231208230313"
 															},
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "useIntersectionObserver"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20231207220434-mygthh6",
-													"Type": "NodeListItem",
-													"ListData": {
-														"Typ": 1,
-														"Delimiter": 46,
-														"Marker": "Mi4=",
-														"Num": 2
-													},
-													"Properties": {
-														"id": "20231207220434-mygthh6",
-														"updated": "20231207220441"
-													},
-													"Children": [
-														{
-															"ID": "20231207220434-onxdim8",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20231207220434-onxdim8",
-																"updated": "20231207220441"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "pnpm add ​"
+																	"Data": "​"
 																},
 																{
 																	"Type": "NodeTextMark",
 																	"TextMarkType": "code",
-																	"TextMarkTextContent": "@vueuse/core"
+																	"TextMarkTextContent": "defineAsyncComponent"
 																},
 																{
 																	"Type": "NodeText",
-																	"Data": "​​"
+																	"Data": "​"
 																}
 															]
 														}
@@ -768,7 +739,8 @@
 										"Num": 3
 									},
 									"Properties": {
-										"id": "20230824103528-6epy68f"
+										"id": "20230824103528-6epy68f",
+										"updated": "20231208230308"
 									},
 									"Children": [
 										{
@@ -782,6 +754,87 @@
 												{
 													"Type": "NodeText",
 													"Data": "图片懒加载"
+												}
+											]
+										},
+										{
+											"ID": "20231208230304-ajq1ysp",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20231208230304-ajq1ysp",
+												"updated": "20231208230308"
+											},
+											"Children": [
+												{
+													"ID": "20231208230304-97qg2mg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20231208230304-97qg2mg"
+													},
+													"Children": [
+														{
+															"ID": "20231208230304-fjsl64h",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231208230304-fjsl64h",
+																"updated": "20231208230305"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "useIntersectionObserver"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20231208230307-ko0mj2p",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20231208230307-ko0mj2p",
+														"updated": "20231208230308"
+													},
+													"Children": [
+														{
+															"ID": "20231208230307-4cnt83n",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20231208230307-4cnt83n",
+																"updated": "20231208230308"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "pnpm add "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "@vueuse/core"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
 												}
 											]
 										}

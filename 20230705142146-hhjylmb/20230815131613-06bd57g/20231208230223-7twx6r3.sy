@@ -1,0 +1,21 @@
+{
+	"ID": "20231208230223-7twx6r3",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20231208230223-7twx6r3",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20231208230223-7twx6r3\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20231208230223-er2ugic\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20231208230223-er2ugic\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
+		"title": "Untitled",
+		"updated": "20231208230223"
+	},
+	"Children": [
+		{
+			"ID": "20231208230223-er2ugic",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20231208230223-er2ugic",
+				"updated": "20231208230223"
+			}
+		}
+	]
+}
